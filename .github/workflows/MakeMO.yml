@@ -1,9 +1,8 @@
-name: Generate MO files
+name: MakeMO
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   workflow_dispatch:
 
 jobs:
@@ -11,12 +10,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout the code
-      - name: Checkout code
-        uses: actions/checkout@v2
+      # Step per il checkout del repository
+      - uses: actions/checkout@v2
 
-      # Install gettext and generate MO files
-      - name: Install gettext and generate MO files
+      # Step per generare i file .mo da .po
+      - name: Create MO files
         run: |
           sudo apt-get -q update
           sudo apt-get install gettext
@@ -25,12 +23,12 @@ jobs:
             msgfmt -o Rel/$f.mo po/$f.po
           done;
 
-      # Commit and push the .mo files to the gh-pages branch
-      - name: Commit and push .mo files
+      # Step per commettere e fare il push dei file .mo generati sul branch 'main'
+      - name: Commit and push .mo files to main branch
         run: |
           git config user.name "GitHub Actions"
           git config user.email "github-actions@github.com"
           git add Rel/*
           git commit -m "Add .mo files"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/formiano/enigma2.po.git --force gh-pages
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/formiano/enigma2.po.git --force origin main
 
