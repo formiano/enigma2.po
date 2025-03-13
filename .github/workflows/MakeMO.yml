@@ -1,0 +1,42 @@
+name: MakeMO
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout del codice
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # Installazione di gettext e creazione dei file .mo
+      - name: Install gettext and create .mo files
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y gettext
+          mkdir -p Rel  # Creazione della cartella di destinazione per i file .mo
+          # Compilazione di ogni file .po in un file .mo
+          for f in $(ls po/*.po | sed -e 's/\.po$//' | sed 's/.*\///'); do
+            msgfmt -o Rel/$f.mo po/$f.po
+          done;
+
+      # Configurazione di Git per gh-pages
+      - name: Setup Git for GitHub Pages
+        run: |
+          git config --global user.email "youremail@example.com"
+          git config --global user.name "Your Name"
+
+      # Push dei file .mo nella branch gh-pages
+      - name: Publish to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # Utilizza il token GitHub per autenticarsi
+          publish_dir: ./Rel  # Directory contenente i file .mo
+          force_orphan: true  # Crea una branch separata, senza storia precedente
+
