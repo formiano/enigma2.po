@@ -1,19 +1,31 @@
+name: Generate MO files
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    
-    steps:
-      - uses: actions/checkout@v2
 
-      - name: Create .mo files
+    steps:
+      # Checkout the code
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Install gettext and generate MO files
+      - name: Install gettext and generate MO files
         run: |
           sudo apt-get -q update
           sudo apt-get install gettext
-          mkdir Rel
+          mkdir -p Rel
           for f in $(ls -1 po/*.po | sed -e 's/\.po$//' | sed 's/.*\///'); do
             msgfmt -o Rel/$f.mo po/$f.po
           done;
 
+      # Commit and push the .mo files to the gh-pages branch
       - name: Commit and push .mo files
         run: |
           git config user.name "GitHub Actions"
