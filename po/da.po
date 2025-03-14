@@ -72,167 +72,28 @@ msgstr " <tom>"
 msgid " HI "
 msgstr " HI "
 
-#, fuzzy
-msgid " Server and "
-msgstr "Server nede"
-
 msgid " and"
 msgstr " og"
 
-#, fuzzy
-msgid " as HDD ?"
-msgstr "Brug som harddsik"
-
 msgid ""
-" is already installed.\n"
-" Please try another name."
+" available !!\n"
+"\n"
+"Do you want to install the new settings list?"
 msgstr ""
+" tilgængelig !!\n"
+"\n"
+"Vil du installere den nye indstillingsliste ?"
+
+msgid " of "
+msgstr " af "
+
+msgid " updated"
+msgstr " Opdateret"
 
 msgid "!! Boot loader Upgrade !!"
 msgstr "!! Bootloader Opgradering !!"
 
-msgid "#000000"
-msgstr ""
-
-msgid "#00000000"
-msgstr ""
-
-msgid "#0004c81b"
-msgstr ""
-
-msgid "#00077cf5"
-msgstr ""
-
-msgid "#0064c7"
-msgstr ""
-
-msgid "#00879ce1"
-msgstr ""
-
-msgid "#00b3b3b3"
-msgstr ""
-
-msgid "#00edf506"
-msgstr ""
-
-msgid "#00f0f0f0"
-msgstr ""
-
-msgid "#00f50808"
-msgstr ""
-
-msgid "#00ffffff"
-msgstr ""
-
-msgid "#0f0f0f"
-msgstr ""
-
-msgid "#12191919"
-msgstr ""
-
-msgid "#16000000"
-msgstr ""
-
-msgid "#16ffffff"
-msgstr ""
-
-msgid "#18188b"
-msgstr ""
-
-msgid "#1f771f"
-msgstr ""
-
-msgid "#21001E4B"
-msgstr ""
-
-msgid "#21004C00"
-msgstr ""
-
-msgid "#21090909"
-msgstr ""
-
-msgid "#214B4B00"
-msgstr ""
-
-msgid "#214C0000"
-msgstr ""
-
-msgid "#25062748"
-msgstr ""
-
-msgid "#294a6b"
-msgstr ""
-
-msgid "#389416"
-msgstr ""
-
-msgid "#41080808"
-msgstr ""
-
-msgid "#4876FF"
-msgstr ""
-
-msgid "#56C856"
-msgstr ""
-
-msgid "#5A090909"
-msgstr ""
-
-msgid "#666666"
-msgstr ""
-
-msgid "#80000000"
-msgstr ""
-
-msgid "#80ffffff"
-msgstr ""
-
-msgid "#879cc1"
-msgstr ""
-
-msgid "#999999"
-msgstr ""
-
-msgid "#9f1313"
-msgstr ""
-
-msgid "#FCC000"
-msgstr ""
-
-msgid "#a08500"
-msgstr ""
-
-msgid "#adff2f"
-msgstr ""
-
-msgid "#bab329"
-msgstr ""
-
-msgid "#cfcfcf"
-msgstr ""
-
-msgid "#e5e5e5"
-msgstr ""
-
-msgid "#f0f0f0"
-msgstr ""
-
-msgid "#f23d21"
-msgstr ""
-
-msgid "#f3ca09"
-msgstr ""
-
-msgid "#ff000000"
-msgstr ""
-
-msgid "#ff4A3C"
-msgstr ""
-
-msgid "#ffffff"
-msgstr ""
-
-msgid "#ffffffff"
+msgid "# = Reboot Required"
 msgstr ""
 
 msgid "%-H:%M"
@@ -355,10 +216,6 @@ msgstr "%.0f MB"
 #, python-format
 msgid "%.2f GB"
 msgstr "%.2f GB"
-
-#, python-format
-msgid "%.3f MHz"
-msgstr "%.3f Mhz"
 
 #, python-format
 msgid "%02d.%02d."
@@ -608,6 +465,9 @@ msgstr "%Y-%b-%-d"
 
 msgid "%Y-%b-%d"
 msgstr "%Y-%b-%d"
+
+msgid "%Y-%m-%d"
+msgstr "%Y-%m-%d"
 
 msgid "%Y/%-m/%-d"
 msgstr "%Y/%-m/%-d"
@@ -896,6 +756,14 @@ msgstr[0] ""
 msgstr[1] ""
 
 #, python-format
+msgid "%d DMIPS per core"
+msgstr ""
+
+#, python-format
+msgid "%d DMIPS with %d cores"
+msgstr ""
+
+#, python-format
 msgid "%d Day"
 msgid_plural "%d Days"
 msgstr[0] "%d Dag"
@@ -1016,13 +884,6 @@ msgid_plural "%d Years"
 msgstr[0] ""
 msgstr[1] ""
 
-#. TRANSLATORS: Intermediate scanning result, '%d' channel(s) have been found so far
-#, python-format
-msgid "%d channel found"
-msgid_plural "%d channels found"
-msgstr[0] "%d kanal fundet"
-msgstr[1] "%d kanaler fundet"
-
 #, python-format
 msgid "%d core"
 msgid_plural "%d cores"
@@ -1043,12 +904,6 @@ msgstr "%d KB"
 msgid "%d min"
 msgstr "%d min"
 
-#, fuzzy, python-format
-msgid "%d minute"
-msgid_plural "%d minutes"
-msgstr[0] "%d minutter"
-msgstr[1] "%d minutter"
-
 #, python-format
 msgid "%d minutes"
 msgstr "%d minutter"
@@ -1056,6 +911,12 @@ msgstr "%d minutter"
 #, python-format
 msgid "%d ms"
 msgstr "%d ms"
+
+#, python-format
+msgid "%d package found."
+msgid_plural "%d packages found."
+msgstr[0] ""
+msgstr[1] ""
 
 #, python-format
 msgid "%d package has an update"
