@@ -1,5 +1,6 @@
 #!/usr/local/bin/python
 
+from __future__ import print_function
 
 """Cleans up PO translation files
 
@@ -32,32 +33,33 @@ __version__ = "1.0.0"
 __maintainer__ = "Web Dev Ben"
 __email__ = "9741693+wedebe@users.noreply.github.com"
 
+import time
 from datetime import timedelta
-from glob import glob
-from os import stat, system, walk
-from os.path import abspath, basename, dirname, getsize, join, sep
-from time import time
+import os
+import glob
 import polib
 import fnmatch
 import re
+import urllib
 import mmap
 import sys
+from operator import attrgetter
 
-scriptPath = dirname(abspath(__file__)) + sep
+scriptPath = os.path.dirname(os.path.abspath(__file__)) + os.path.sep
 
 poFiles = scriptPath + "../*.po*"
 codeBasePath = scriptPath + "../.."
 
 prefs = {
-  'newFileExt': "",  # useful to avoid overwriting original file(s)
+  'newFileExt': "", # useful to avoid overwriting original file(s)
   'stripUnchangedMsgstrs': True,
   'removeMatchingObsoletes': False,
-  'searchCodebaseForOccurrences': False,  # Makefile will take care of this by default
+  'searchCodebaseForOccurrences': False, # Makefile will take care of this by default
   'normalisePoFiles': True,
   'outputFinalStats': True,
-  'processMaxEntries': 0,  # useful for testing; 0 will process all entries
-  'include': ["*.xml", "*.py"],  # for files only
-  'exclude': [r"*/\.*", codeBasePath + "/po/*"]  # for dirs and files
+  'processMaxEntries': 0, # useful for testing; 0 will process all entries
+  'include': ["*.xml", "*.py"], # for files only
+  'exclude': ["*/\.*", codeBasePath + "/po/*"] # for dirs and files
 }
 
 # transform glob patterns to regular expressions
@@ -125,10 +127,10 @@ def getIncludedExcludedPaths(root, dirs, files):
   # dirs[:] = [os.path.join(root, d) for d in dirs]
   # dirs[:] = [d for d in dirs if not re.match(excludes, d)]
   # exclude/include files
-  files = [join(root, f) for f in files]
+  files = [os.path.join(root, f) for f in files]
   files = [f for f in files if not re.match(excludes, f)]
   files = [f for f in files if re.match(includes, f)]
-  files.sort(key=lambda f: stat(f).st_size, reverse=True)  # sort by file size descending
+  files.sort(key=lambda f: os.stat(f).st_size, reverse=True) # sort by file size descending
   return files
 
 
@@ -157,7 +159,7 @@ def getUncachedEntries(poFile):
     if entry.msgid == " ":
       entry.tcomment = "DO NOT TRANSLATE!"
     elif (re.match("^#[a-fA-F0-9]{6,8}", entry.msgid)):
-      entry.tcomment = "Remove from translation (hex color value)"
+      entry.tcomment = "Remove from translation (hex colour value)"
       entry.obsolete = True
     else:
       if (polib.escape(entry.msgid) in [o for o in occurrencesCache]):
@@ -171,14 +173,14 @@ def searchCodebaseForOccurrences(poFile):
   if prefs['searchCodebaseForOccurrences']:
     unCachedEntries = getUncachedEntries(poFile)
     if len(unCachedEntries) > 0:
-      print(f"Searching for {len(unCachedEntries)} occurrences...")
-      for root, dirs, files in walk(codeBasePath, topdown=True, onerror=None):
+      print("Searching for %d occurrences..." % len(unCachedEntries))
+      for root, dirs, files in os.walk(codeBasePath, topdown=True, onerror=None):
         for fName in getIncludedExcludedPaths(root, dirs, files):
           indicateProgress()
           sys.stdout.flush()
           try:
             baseDirectory = fName.replace(codeBasePath, "")
-            size = stat(fName).st_size
+            size = os.stat(fName).st_size
             f2 = open(fName)
             data = mmap.mmap(f2.fileno(), size, access=mmap.ACCESS_READ)
             entryIndex = 0
@@ -244,9 +246,9 @@ def normaliseAllPoFiles(filesGlob):
     for fileName in sorted(filesGlob):
       fileIndex = fileIndex + 1
       poFile = polib.pofile(fileName)
-      poFile.wrapwidth = 1024  # avoid re-wrapping
+      poFile.wrapwidth = 1024 # avoid re-wrapping
       poFile.check_for_duplicates = True
-      print("\rNormalising translation files..." + f" {float(fileIndex) / len(sorted(filesGlob)):.0%}", end=" ")
+      print("\rNormalising translation files..." + " {0:.0%}".format(float(fileIndex) / len(sorted(filesGlob))), end=" ")
       sys.stdout.flush()
 
       for cacheEntry in sorted(occurrencesCache, key=lambda r: r[0]):
@@ -270,18 +272,18 @@ def normaliseAllPoFiles(filesGlob):
 
 
 def main():
-  startTime = time()
+  startTime = time.time()
   try:
-    filesGlob = glob(poFiles)
+    filesGlob = glob.glob(poFiles)
     fileCountStr = str(len(filesGlob))
-    poFilesGlob = sorted(filesGlob, key=getsize, reverse=True)
+    poFilesGlob = sorted(filesGlob, key=os.path.getsize, reverse=True)
     fileIndex = 0
-    system('clear')
+    os.system('clear')
     print("Running... (first file will take substantially longer as there's no cache)")
 
     for fileName in poFilesGlob:
       fileIndex = fileIndex + 1
-      baseFileName = basename(fileName)
+      baseFileName = os.path.basename(fileName)
       print(("Processing file %3d" % fileIndex) + "/" + str(fileCountStr) + " (" + baseFileName + ")")
       poFile = processPoFile(fileName)
       poFile.save(fileName + prefs['newFileExt'])
@@ -295,9 +297,9 @@ def main():
         print(rowFormat.format(pfs, *row))
     print("")
     normaliseAllPoFiles(poFilesGlob)
-    hours, remainder = divmod(timedelta(seconds=time() - startTime).seconds, 3600)
+    hours, remainder = divmod(timedelta(seconds=time.time() - startTime).seconds, 3600)
     minutes, seconds = divmod(remainder, 60)
-    print("\nComplete in " + f'{int(hours):02}:{int(minutes):02}:{int(seconds):02}' + "!\n")
+    print("\nComplete in " + '{:02}:{:02}:{:02}'.format(int(hours), int(minutes), int(seconds)) + "!\n")
   except KeyboardInterrupt:
     print("\nBye!")
 
