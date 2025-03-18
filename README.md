@@ -2,8 +2,4 @@
 
 ## Translation status
 
-<a href="https://hosted.weblate.org/engage/opd/">
-    <img src="https://hosted.weblate.org/widgets/opd/-/enigma2-7-6-po/open-graph.png" alt="Stato traduzione OpenDroid" />
-</a>
-
-
+[![Translation status](https://hosted.weblate.org/widgets/opd/-/enigma2-7-6/open-graph.png)](https://hosted.weblate.org/projects/opd/enigma2-7-6/)
