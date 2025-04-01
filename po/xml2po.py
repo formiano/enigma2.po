@@ -10,7 +10,7 @@ class parseXML(ContentHandler, LexicalHandler):
 	def __init__(self, attributes):
 		self.attributes = attributes
 		self.lastComment = None
-		self.isHex = compile(r'#[0-9a-fA-F]+\\Z')
+		self.isHex = compile(r'#[0-9a-fA-F]+\Z')
 
 	def comment(self, comment):
 		if "TRANSLATORS:" in comment:
@@ -42,11 +42,11 @@ for arg in argv[1:]:
 	attributes = list(attributes)
 	attributes.sort(key=lambda x: x[0])
 	for (key, value) in attributes:
-		print("\n#: %s" % arg)
+		print(f"\n#: {arg}")
 		key.replace("\\n", "\"\n\"")
 		if value:
 			for line in value.split("\n"):
-				print("#. %s" % line)
-		print("msgid \"%s\"" % key)
+				print(f"#. {line}")
+		print(f"msgid \"{key}\"")
 		print("msgstr \"\"")
 	attributes = set()
