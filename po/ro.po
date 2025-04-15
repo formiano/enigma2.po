@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Opendroid\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-01 08:40+0200\n"
+"POT-Creation-Date: 2025-04-15 06:02+0200\n"
 "PO-Revision-Date: 2025-03-27 12:17+0100\n"
 "Last-Translator: OPD Team <opendroid2013@gmail.com>\n"
 "Language-Team: HDTV ROMANIA(superonic,costel_mbc,neutrin,otheitis,cipy_1982,neutrin,runcanion)\n"
@@ -1005,12 +1005,6 @@ msgid "%d package upgraded."
 msgid_plural "%d packages upgraded."
 msgstr[0] "%D Pachet actualizat."
 msgstr[1] "%D pachete modernizate."
-
-#, fuzzy, python-format
-msgid "%d package was deselected."
-msgid_plural "%d packages were deselected."
-msgstr[0] "Pachetul %D a fost delectat."
-msgstr[1] "Au fost deselectate pachete %D."
 
 #, fuzzy, python-format
 msgid "%d plugin is not available:"
@@ -2080,6 +2074,10 @@ msgstr "Adresa"
 msgid "Adjust 3D settings"
 msgstr "Reglați setările 3D"
 
+#, fuzzy
+msgid "Adjust decoding options"
+msgstr "Acțiuni de înregistrare instantanee"
+
 msgid "Adjust the color settings so that all the color shades are distinguishable, but appear as saturated as possible. If you are happy with the result, press OK to close the video fine-tuning, or use the number keys to select other test screens."
 msgstr "Reglați setările de culoare, astfel încât toate nuanțele de culoare să fie distincte, dar să pară cât mai saturate. Dacă sunteți mulțumit de rezultat, apăsați OK pentru a închide video-reglarea fină sau utilizați tastele numerice pentru a selecta alte ecrane de testare."
 
@@ -2943,6 +2941,10 @@ msgstr ""
 msgid "Backup prefix"
 msgstr "Prefix de rezervă"
 
+#, fuzzy
+msgid "Backup settings"
+msgstr "Setări de rezervă"
+
 #, python-format
 msgid "Backup tool for %s %s"
 msgstr "Instrument de rezervă pentru %s %s"
@@ -3805,6 +3807,10 @@ msgstr "Schimbați setările de repetare și întârziere?"
 msgid "Change step size"
 msgstr "Schimbați dimensiunea pasului"
 
+#, fuzzy
+msgid "Change the root password"
+msgstr "Editați parola."
+
 msgid "Change to Radio services mode"
 msgstr "Schimbați în modul Servicii Radio"
 
@@ -3963,6 +3969,9 @@ msgstr "Cecen"
 msgid "Check"
 msgstr "Verifica"
 
+msgid "Check and install available software updates"
+msgstr ""
+
 msgid "Check disk terminated with success"
 msgstr "Verificați discul încheiat cu succes"
 
@@ -4072,6 +4081,14 @@ msgstr "Alegeți o schemă de țară pentru decodarea informațiilor despre gen 
 
 msgid "Choose a country scheme for decoding rating information in EPG events."
 msgstr "Alegeți o schemă de țară pentru decodarea informațiilor de evaluare în evenimentele EPG."
+
+#, fuzzy
+msgid "Choose extra files and folders to include in backups"
+msgstr "Fișiere/foldere pentru a exclude din backup"
+
+#, fuzzy
+msgid "Choose files and folders to exclude from backup"
+msgstr "Fișiere/foldere pentru a exclude din backup"
 
 msgid "Choose how much EPG history, if any, to keep in the EPG cache. This historic data can be browsed in any of the EPG views. This can be useful when you need information about an event which has recently finished."
 msgstr "Alegeți cât de mult istoricul EPG, dacă există, pentru a păstra în memoria cache EPG. Aceste date istorice pot fi navigate în oricare dintre vizualizările EPG. Acest lucru poate fi util atunci când aveți nevoie de informații despre un eveniment care s -a terminat recent."
@@ -4225,6 +4242,10 @@ msgstr "Clar înainte de scanare"
 
 msgid "Clear fixed"
 msgstr "Clar fix"
+
+#, fuzzy
+msgid "Clear memory setup"
+msgstr "ClearMem-Setup"
 
 msgid "Clear play list"
 msgstr "Lista de joc clar"
@@ -4401,6 +4422,10 @@ msgstr "Comandă pentru a rula"
 msgid "Command execution..."
 msgstr "Execuția comenzii ..."
 
+#, fuzzy
+msgid "Command failed: "
+msgstr "Comanda a terminat."
+
 msgid "Command finished."
 msgid_plural "Commands finished."
 msgstr[0] "Comanda a terminat."
@@ -4484,11 +4509,22 @@ msgstr "Instrument de configurare pentru OSCAM"
 msgid "Configure DNS (name servers)"
 msgstr "Configurați DNS (servere de nume)"
 
+#, fuzzy
+msgid "Configure Samba network sharing"
+msgstr "Configurați din nou rețeaua"
+
+#, fuzzy
+msgid "Configure Softcam settings"
+msgstr "Setări softcam"
+
 msgid "Configure an additional delay to improve external subtitle synchronization."
 msgstr "Configurați o întârziere suplimentară pentru a îmbunătăți sincronizarea subtitrării externe."
 
 msgid "Configure an additional delay to improve subtitle synchronization."
 msgstr "Configurați o întârziere suplimentară pentru a îmbunătăți sincronizarea subtitrării."
+
+msgid "Configure and manage your hard disk"
+msgstr ""
 
 msgid "Configure default setting for new timers. Need a restart after changing."
 msgstr "Configurați setarea implicită pentru noi cronometre. Aveți nevoie de o repornire după schimbare."
@@ -4550,6 +4586,9 @@ msgstr ""
 
 msgid "Configure remote control type"
 msgstr "Configurați tipul de control de la distanță"
+
+msgid "Configure swap space settings"
+msgstr ""
 
 msgid "Configure the DiSEqC mode for this LNB."
 msgstr "Configurați modul DISEQC pentru acest LNB."
@@ -4831,6 +4870,9 @@ msgstr "Configurați dacă simbolul „înregistrare” (în pielea de afișare 
 msgid "Configure which color format should be used on the SCART output."
 msgstr "Configurați ce format de culoare trebuie utilizat la ieșirea SCART."
 
+msgid "Configure which system settings to back up"
+msgstr ""
+
 msgid "Configure which tuner for recordings will be preferred, when more than one tuner is available."
 msgstr "Configurați ce tuner pentru înregistrări va fi preferat, când este disponibil mai mult de un tuner."
 
@@ -4902,6 +4944,10 @@ msgstr "Informații despre conexiune"
 
 msgid "Connection using the supplied FTP parameters failed. Please recheck the details and try again."
 msgstr "Conexiunea folosind parametrii FTP furnizați a eșuat. Vă rugăm să verificați detaliile și să încercați din nou."
+
+#, fuzzy
+msgid "Connector"
+msgstr "Conectați"
 
 msgid "Console"
 msgstr "Consolă"
@@ -5114,9 +5160,6 @@ msgstr "Informații despre genuri pentru evenimente EPG"
 msgid "Country for EPG event rating information"
 msgstr "Informații despre evaluarea evenimentelor EPG"
 
-msgid "Cpu"
-msgstr "CPU"
-
 msgid "Crash Logs"
 msgstr "Jurnalele de accident"
 
@@ -5185,9 +5228,6 @@ msgstr "croat"
 
 msgid "Cron Manager"
 msgstr "Cron Manager"
-
-msgid "CronManager"
-msgstr "Cronmanager"
 
 msgid "CronTimers"
 msgstr "Crontimers"
@@ -5291,6 +5331,10 @@ msgid "Customize OpenWebIF settings for fallback tuner"
 msgstr "Personalizați setările OpenWebif pentru tunerul Fallback"
 
 msgid "Customize System Settings"
+msgstr "Personalizați setările sistemului"
+
+#, fuzzy
+msgid "Customize your infobar settings"
 msgstr "Personalizați setările sistemului"
 
 msgid "Cut"
@@ -5622,9 +5666,6 @@ msgstr "Format de timp de jurnal de depanare *"
 
 msgid "Decoding Setup"
 msgstr "Configurarea decodării"
-
-msgid "Decoding_Setup"
-msgstr "Decoding_setup"
 
 msgid "Deep Standby"
 msgstr "Standby adânc"
@@ -5989,10 +6030,6 @@ msgstr "Deselectați toate fișierele conexe"
 msgid "Deselect only highlighted file"
 msgstr "Deselect doar fișierul evidențiat"
 
-#, python-format
-msgid "Deselected packages usually occur because those packaged are incompatible with existing packages.  While this is mostly harmless it is possible that your %s %s may experience issues."
-msgstr "Pachetele delecate apar de obicei, deoarece cele ambalate sunt incompatibile cu pachetele existente.  Deși acest lucru este în cea mai mare parte inofensiv, este posibil ca %s %s să poată întâmpina probleme."
-
 msgid "Destination of fallback remote receiver"
 msgstr "Destinația receptorului de la distanță Fallback"
 
@@ -6007,6 +6044,10 @@ msgstr "Destinația receptorului de la distanță Fallback pentru DVB-T"
 
 msgid "Detail of GStreamer log."
 msgstr "Detaliu al jurnalului GStreamer."
+
+#, fuzzy
+msgid "Detailed memory usage"
+msgstr "Memorie totală"
 
 msgid "Details"
 msgstr "Detalii"
@@ -6196,6 +6237,10 @@ msgstr "Dezactivat sau WPA/WPA2"
 msgid "Dish"
 msgstr "Farfurie"
 
+#, fuzzy
+msgid "Disk partition info"
+msgstr "O partiție"
+
 msgid "Disk temperature: unknown"
 msgstr "Temperatura discului: necunoscut"
 
@@ -6214,8 +6259,16 @@ msgstr "Setări de afișare"
 msgid "Display Skin"
 msgstr "Afișează pielea"
 
+#, fuzzy
+msgid "Display available disk space"
+msgstr "Afișați fișierul ca text"
+
 msgid "Display context menu"
 msgstr "Afișați meniul contextual"
+
+#, fuzzy
+msgid "Display current kernel info"
+msgstr "Ștergeți linia curentă"
 
 msgid "Display file as hexadecimal"
 msgstr "Afișați fișierul ca hexadecimal"
@@ -6474,6 +6527,10 @@ msgstr "Doriți să înlocuiți:"
 msgid "Do you want to restart now?"
 msgstr "Vrei să repornești acum?"
 
+#, fuzzy
+msgid "Do you want to restart the GUI now?"
+msgstr "Vrei să repornești acum?"
+
 msgid "Do you want to restore your settings?"
 msgstr "Doriți să vă restaurați setările?"
 
@@ -6595,7 +6652,8 @@ msgstr "Descărcarea imaginii"
 msgid "Downloading filed, test another VOD title"
 msgstr "Descărcarea depusă, testați un alt titlu VOD"
 
-msgid "Downloading latest update list.  Please wait..."
+#, fuzzy
+msgid "Downloading latest update list. Please wait..."
 msgstr "Descărcarea ultimei liste de actualizări.  Va rugam asteptati..."
 
 msgid "Downloading plugin information. Please wait..."
@@ -6679,9 +6737,6 @@ msgstr "Informații ECM"
 #, python-format
 msgid "ECM information for '%s'"
 msgstr "Informații ECM pentru „%s”"
-
-msgid "EDID decode"
-msgstr "Edid decodare"
 
 msgid "EJECTCD"
 msgstr "Ejectcd"
@@ -7528,6 +7583,10 @@ msgstr ""
 "Eroare la obținerea linkului prin %s\n"
 "%s"
 
+#, fuzzy
+msgid "Error reading file: "
+msgstr "Pagina web de citire a erorilor!"
+
 msgid "Error reading webpage!"
 msgstr "Pagina web de citire a erorilor!"
 
@@ -8253,6 +8312,10 @@ msgstr "Verificare a sistemului de fișiere"
 msgid "File appears to be busy.\n"
 msgstr "Fișierul pare să fie ocupat."
 
+#, fuzzy
+msgid "File not found: "
+msgstr "Afișați serviciul care nu este găsit informații"
+
 msgid "File system"
 msgstr "Sistem de fișiere"
 
@@ -8374,6 +8437,10 @@ msgstr "Setări flash și restaurare și pluginuri selectate (solicitați utiliz
 #, python-format
 msgid "Flash directory '%s' not allowed!"
 msgstr "Directorul Flash '%s' nu este permis!"
+
+#, fuzzy
+msgid "Flash the image"
+msgstr "Imagine flash"
 
 #, python-format
 msgid "Flash type:\t%s"
@@ -8520,6 +8587,10 @@ msgstr "Gratuit"
 msgid "Free Flash:\t%s\n"
 msgstr "Flash gratuit: %s"
 
+#, fuzzy
+msgid "Free Space"
+msgstr "Freespace"
+
 msgid "Free flash"
 msgstr "Bliț gratuit"
 
@@ -8537,9 +8608,6 @@ msgstr "Servicii gratuite la aer (FTA)"
 
 msgid "Free:"
 msgstr "Gratuit:"
-
-msgid "FreeSpace"
-msgstr "Freespace"
 
 msgid "French"
 msgstr "franceză"
@@ -8729,6 +8797,10 @@ msgstr "Informații despre tuner"
 
 msgid "General PCM delay"
 msgstr ""
+
+#, fuzzy
+msgid "General system information"
+msgstr "Informații despre tuner"
 
 msgid "Generic"
 msgstr "Generic"
@@ -9107,9 +9179,6 @@ msgstr "Hausa"
 
 msgid "Hawaiian"
 msgstr "Hawaiian"
-
-msgid "HddSetup"
-msgstr "Hddsetup"
 
 #, python-format
 msgid "Heads: %s (max) %s (current)"
@@ -9537,6 +9606,10 @@ msgstr "Număr de port pentru serverul de releu flux utilizat pentru a descărca
 msgid "IP of fallback remote receiver"
 msgstr "IP de receptor de la distanță Fallback"
 
+#, fuzzy
+msgid "IPK Tools"
+msgstr "Instrumente IPK"
+
 msgid "IPv4 only"
 msgstr "Numai IPv4"
 
@@ -9695,9 +9768,6 @@ msgstr "Backup de imagini la %s"
 msgid "Image Flash Actions"
 msgstr "Acțiuni flash de imagine"
 
-msgid "Image Info"
-msgstr "Informații despre imagine"
-
 msgid "Image Information"
 msgstr "Informații despre imagine"
 
@@ -9706,9 +9776,6 @@ msgstr "Versiunea de imagine"
 
 msgid "Image-Flasher"
 msgstr "Image-Flasher"
-
-msgid "Image-Version"
-msgstr "Versiunea de imagine"
 
 #, python-format
 msgid "Image:\t%s"
@@ -9916,11 +9983,12 @@ msgstr "Configurare Infobar"
 msgid "Infobar frontend data source"
 msgstr "Sursa de date InfoBar Frontend"
 
-msgid "Infobar_Setup"
-msgstr "InfoBar_setup"
-
 msgid "Information"
 msgstr "Informaţii"
+
+#, fuzzy
+msgid "Information about the system"
+msgstr "Afișați mai multe informații despre acest fișier"
 
 msgid "Infos"
 msgstr "Infos"
@@ -9966,6 +10034,14 @@ msgid "Input"
 msgstr "Intrare"
 
 msgid "Input "
+msgstr "Intrare"
+
+#, fuzzy
+msgid "Input 1"
+msgstr "Intrare"
+
+#, fuzzy
+msgid "Input 2"
 msgstr "Intrare"
 
 #, fuzzy
@@ -10241,11 +10317,12 @@ msgid "Jersey"
 msgstr "Jersey"
 
 #, fuzzy
+msgid "Job Manager"
+msgstr "Jobmanager"
+
+#, fuzzy
 msgid "Job overview"
 msgstr "Fără serviciu"
-
-msgid "JobManager"
-msgstr "Jobmanager"
 
 msgid "Jordan"
 msgstr "Iordania"
@@ -10370,6 +10447,10 @@ msgstr "Nucleu"
 #, python-format
 msgid "Kernel (Box):\t%s"
 msgstr "Kernel (cutie): %s"
+
+#, fuzzy
+msgid "Kernel modules list"
+msgstr "Deschideți lista de filme"
 
 msgid "Kernel version"
 msgstr "Versiunea kernelului"
@@ -10808,6 +10889,10 @@ msgstr "Trăi"
 msgid "Live TV Actions"
 msgstr "Acțiuni TV live"
 
+#, fuzzy
+msgid "Live process list"
+msgstr "Vizualizați ca listă"
+
 msgid "Load"
 msgstr "Încărca"
 
@@ -11032,6 +11117,14 @@ msgstr ""
 msgid "MOUSE"
 msgstr "MOUSE"
 
+#, fuzzy
+msgid "MTD"
+msgstr "MTU"
+
+#, fuzzy
+msgid "MTD partitions"
+msgstr "partiție"
+
 msgid "MTU"
 msgstr "MTU"
 
@@ -11109,6 +11202,10 @@ msgstr "Gestionați %s"
 msgid "Manage Locale/Language Selection settings"
 msgstr "Gestionați setările de selecție locală/limbă"
 
+#, fuzzy
+msgid "Manage and configure your online update sources"
+msgstr "Gestionați fișierele dvs. de actualizare online"
+
 msgid "Manage and explore directories and files."
 msgstr "Gestionați și explorați directoarele și fișierele."
 
@@ -11120,7 +11217,24 @@ msgstr "Gestionați %s -a evidențiat"
 msgid "Manage the highlighted %s / list of %s"
 msgstr "Gestionează evidențiatul %s / lista de %s"
 
-msgid "Manage your online update files"
+#, fuzzy
+msgid "Manage update files"
+msgstr "Gestionați fișierele dvs. de actualizare online"
+
+#, fuzzy
+msgid "Manage your cron jobs"
+msgstr "Gestionați fișierele dvs. de actualizare online"
+
+#, fuzzy
+msgid "Manage your services"
+msgstr "Schimbați în modul TV Services"
+
+#, fuzzy
+msgid "Manage your software updates"
+msgstr "Gestionați fișierele dvs. de actualizare online"
+
+#, fuzzy
+msgid "Manage your system logs"
 msgstr "Gestionați fișierele dvs. de actualizare online"
 
 msgid "Manual"
@@ -11281,9 +11395,6 @@ msgstr "Cutie de instrumente medie"
 msgid "Mem cleared"
 msgstr "Memorat curățat"
 
-msgid "MemInfo"
-msgstr "Meminfo"
-
 msgid "Memory Info"
 msgstr "Informații despre memorie"
 
@@ -11299,6 +11410,10 @@ msgstr "Index de memorie"
 #, python-format
 msgid "Memory information for %s %s"
 msgstr "Informații despre memorie pentru %s %s"
+
+#, fuzzy
+msgid "Memory usage overview"
+msgstr "Fără serviciu"
 
 msgid "Memory:"
 msgstr "Memorie:"
@@ -11469,7 +11584,8 @@ msgstr "Modulare"
 msgid "Modulator"
 msgstr "Modulare"
 
-msgid "Module"
+#, fuzzy
+msgid "Modules"
 msgstr "Modul"
 
 msgid "Moldova, Republic of"
@@ -11913,9 +12029,6 @@ msgstr "Mutarea spre vest ..."
 msgid "Mozambique"
 msgstr "Mozambic"
 
-msgid "Mtd"
-msgstr "MTD"
-
 msgid "Multi"
 msgstr "Multi"
 
@@ -11934,9 +12047,6 @@ msgstr "Setări EPG"
 
 msgid "MultiLib"
 msgstr "Multii"
-
-msgid "MultiQuickButton"
-msgstr "MultiquickButton"
 
 msgid "MultiTranscoding"
 msgstr "Multiitranscoding"
@@ -11985,6 +12095,9 @@ msgstr "N"
 
 msgid "N/A"
 msgstr "N / A"
+
+msgid "NCam"
+msgstr ""
 
 msgid "NEXT"
 msgstr ""
@@ -12093,9 +12206,6 @@ msgstr "Navigați la directorul selectat"
 msgid "Navigate up/down with UP/DOWN buttons and page up/down with LEFT/RIGHT. OK to perform the action described in the currently highlighted help."
 msgstr "Navigați în sus/în jos cu butoanele sus/jos și pagina în sus/în jos cu stânga/dreapta. OK pentru a efectua acțiunea descrisă în ajutorul evidențiat în prezent."
 
-msgid "NcamInfo"
-msgstr "Ncaminfo"
-
 msgid "Ndonga"
 msgstr "Ndonga"
 
@@ -12173,6 +12283,10 @@ msgstr "Informații despre rețea"
 #, python-format
 msgid "Network information for %s %s"
 msgstr "Informații de rețea pentru %s %s"
+
+#, fuzzy
+msgid "Network interface information"
+msgstr "Informații despre rețea"
 
 msgid "Network menu"
 msgstr "Meniu de rețea"
@@ -12427,6 +12541,10 @@ msgstr "Fără manager de resurse"
 msgid "No satellite, terrestrial or cable tuner is configured. Please check your tuner setup."
 msgstr "Nu este configurat satelit, terestru sau tuner de cablu. Vă rugăm să verificați configurarea tunerului."
 
+#, fuzzy
+msgid "No selection."
+msgstr "Selecție de filme"
+
 msgid "No service"
 msgstr "Fără serviciu"
 
@@ -12490,12 +12608,6 @@ msgstr "În prezent, niciun tuners nu se transmite în prezent."
 
 msgid "No update required!"
 msgstr "Nu este necesară actualizarea!"
-
-msgid "No updates available."
-msgstr "Nu există actualizări disponibile."
-
-msgid "No updates were available.  Please try again later."
-msgstr "Nu au fost disponibile actualizări.  Vă rugăm să încercați din nou mai târziu."
 
 #, python-format
 msgid "No valid mount for '%s' found!"
@@ -13369,6 +13481,12 @@ msgstr "Partiții"
 msgid "Pass-through"
 msgstr "Pass-through"
 
+msgid "Passthrough audio handling delay AC3"
+msgstr ""
+
+msgid "Passthrough audio handling delay AC3+"
+msgstr ""
+
 msgid "Password"
 msgstr "Parolă"
 
@@ -13380,6 +13498,10 @@ msgstr "Parolă (httpwd)"
 
 msgid "Password Actions"
 msgstr "Acțiuni de parolă"
+
+#, fuzzy
+msgid "Password Change"
+msgstr "Schimbarea parolei"
 
 msgid "Password Settings"
 msgstr "Setări de parolă"
@@ -13395,9 +13517,6 @@ msgstr "Parola schimbată."
 
 msgid "Password setup"
 msgstr "Configurarea parolei"
-
-msgid "Password-Change"
-msgstr "Schimbarea parolei"
 
 #, python-format
 msgid "Path '%s' missing!"
@@ -14696,6 +14815,10 @@ msgstr "Acțiuni QuickSelect"
 msgid "RADIO"
 msgstr "RADIO"
 
+#, fuzzy
+msgid "RAM"
+msgstr "BRAŢ"
+
 msgid "RAM (Details)"
 msgstr "RAM (detalii)"
 
@@ -14755,9 +14878,6 @@ msgstr "Selecția canalului radio"
 
 msgid "Radio Channel Selection Actions"
 msgstr "Acțiuni de selecție a canalului radio"
-
-msgid "Ram"
-msgstr "RAM"
 
 msgid "Random"
 msgstr "Aleatoriu"
@@ -15479,11 +15599,12 @@ msgstr "Reporniți GUI acum?"
 msgid "Restart Network"
 msgstr "Reporniți rețeaua"
 
-msgid "Restart Network Adapter"
-msgstr "Reporniți adaptorul de rețea"
-
 msgid "Restart STB"
 msgstr "Reporniți stb"
+
+#, fuzzy
+msgid "Restart all network interfaces and services"
+msgstr "Reporniți conexiunea și interfețele de rețea."
 
 msgid "Restart enigma"
 msgstr "Reporniți enigma"
@@ -15512,14 +15633,15 @@ msgstr "Restaurați buchetele de utilizator șterse"
 msgid "Restore Plugins"
 msgstr "Restaurați plugin -urile"
 
-msgid "Restore Settings"
-msgstr "Restaurați setările"
-
 msgid "Restore System Settings"
 msgstr "Restaurați setările sistemului"
 
 msgid "Restore backups"
 msgstr "Restaurați backup -urile"
+
+#, fuzzy
+msgid "Restore settings"
+msgstr "Restaurați setările"
 
 msgid "Restore settings now"
 msgstr "Restaurați setările acum"
@@ -15535,6 +15657,10 @@ msgstr "Restabiliți -vă %s %s cu un firmware nou."
 
 msgid "Restore your backups by date."
 msgstr "Restabiliți -vă backup -urile până la dată."
+
+#, fuzzy
+msgid "Restore your previously saved backup"
+msgstr "Reveniți la serviciul anterior"
 
 msgid "Restoring..."
 msgstr "Restaurarea ..."
@@ -15664,6 +15790,9 @@ msgstr "Rulează cât de des?"
 
 msgid "Run how often?"
 msgstr "Rulează cât de des?"
+
+msgid "Run or schedule user scripts"
+msgstr ""
 
 msgid "Run script"
 msgstr "Rulează script"
@@ -16863,6 +16992,10 @@ msgstr "Selectați slotul evidențiat și reporniți"
 msgid "Select the initial position of the timeline marker. The marker is the vertical line drawn on the EPG that shows the current time. The larger the value the more the marker will move to the right showing more history and less of upcoming events."
 msgstr "Selectați poziția inițială a markerului de cronologie. Markerul este linia verticală trasă pe EPG care arată timpul curent. Cu cât valoarea este mai mare, cu atât markerul va trece la dreapta, arătând mai mult istorie și mai puțin din evenimentele viitoare."
 
+#, fuzzy
+msgid "Select the input connector you want to use."
+msgstr "Faceți clic pe butonul de pe telecomanda pe care doriți să o modificați."
+
 msgid "Select the last item in list or move to the end of text"
 msgstr "Selectați ultimul element din listă sau treceți la sfârșitul textului"
 
@@ -17133,6 +17266,10 @@ msgstr "Selectați dispozitivul de rezervă."
 msgid "Select your country. If not available select 'All'."
 msgstr "Selectați -vă țara. Dacă nu este disponibil, selectați „All”."
 
+#, fuzzy
+msgid "Select your keymap configuration"
+msgstr "Resetați configurația rețelei"
+
 msgid "Select your provider and region. If not present in this list you will need to select one of the other 'Service scan types'."
 msgstr "Selectați furnizorul și regiunea. Dacă nu este prezent în această listă, va trebui să selectați unul dintre celelalte „tipuri de scanare de servicii”."
 
@@ -17172,6 +17309,10 @@ msgstr "Selectarea sateliților 2 (USALS)"
 
 msgid "Selecting this option allows you to configure a group of satellites in one block."
 msgstr "Selectarea acestei opțiuni vă permite să configurați un grup de sateliți într -un singur bloc."
+
+#, fuzzy
+msgid "Selection error"
+msgstr "Selectați interfață"
 
 msgid "Send DiSEqC"
 msgstr "Trimite diseqc"
@@ -17373,6 +17514,10 @@ msgstr "ServiceInfo"
 
 msgid "Services"
 msgstr "Servicii"
+
+#, fuzzy
+msgid "Services Settings"
+msgstr "Setări dispozitiv"
 
 msgid "Services may be grouped in bouquets. When enabled, you can use more than one bouquet."
 msgstr "Serviciile pot fi grupate în buchete. Când este activat, puteți utiliza mai mult de un buchet."
@@ -17744,6 +17889,10 @@ msgstr "Afișați portalul cutiilor"
 msgid "Show CI messages"
 msgstr "Afișați mesaje CI"
 
+#, fuzzy
+msgid "Show CPU details"
+msgstr "Afișați detalii despre eveniment"
+
 msgid "Show Clients"
 msgstr "Arată clienții"
 
@@ -18050,6 +18199,10 @@ msgstr "Afișați informații criptone în InfoBar"
 msgid "Show current directory"
 msgstr "Afișați directorul curent"
 
+#, fuzzy
+msgid "Show current image version"
+msgstr "Afișați ImageVersion"
+
 msgid "Show default after description"
 msgstr "Afișați implicit după descriere"
 
@@ -18185,6 +18338,10 @@ msgstr "Afișați meniul"
 
 msgid "Show message when recording starts"
 msgstr "Afișați mesajul la începerea înregistrării"
+
+#, fuzzy
+msgid "Show mounted filesystems"
+msgstr "Sistemul de fișiere alegere."
 
 msgid "Show movie lengths in movie list"
 msgstr "Afișați lungimile de filme în lista de filme"
@@ -18824,9 +18981,6 @@ msgstr "Configurare softcam"
 msgid "Softcam setup"
 msgstr "Configurare softcam"
 
-msgid "Softcam-Setup"
-msgstr "Softcam-Setup"
-
 msgid "SoftcamSetup"
 msgstr "SoftCamSetup"
 
@@ -18862,9 +19016,6 @@ msgid ""
 "Software update starting, please wait.\n"
 "\n"
 msgstr "Actualizare software începând, vă rugăm să așteptați."
-
-msgid "Software-Manager"
-msgstr "Software-manager"
 
 msgid "Softwaremanager..."
 msgstr "SoftwareManager ..."
@@ -19528,8 +19679,9 @@ msgstr "Dimensiunea schimbului:"
 msgid "Swap services"
 msgstr "Servicii de schimb"
 
-msgid "SwapManager"
-msgstr "SwapManager"
+#, fuzzy
+msgid "Swap space details"
+msgstr "Afișați detalii despre eveniment"
 
 msgid "SwaptoNand"
 msgstr "Swaptonand"
@@ -19699,8 +19851,15 @@ msgstr "Plugin de sistem"
 msgid "System Settings"
 msgstr "Setări de sistem"
 
+msgid "System Tools (OPD)"
+msgstr ""
+
 msgid "System cleaning"
 msgstr "Curățarea sistemului"
+
+#, fuzzy
+msgid "System level details"
+msgstr "Afișați detalii despre eveniment"
 
 msgid "System temperature"
 msgstr "Temperatura sistemului"
@@ -19711,9 +19870,6 @@ msgstr "Temperatura sistemului: %s"
 
 msgid "System: "
 msgstr "Sistem:"
-
-msgid "SystemInfo"
-msgstr "SystemInfo"
 
 msgid "Systeminfo"
 msgstr "SystemInfo"
@@ -20380,7 +20536,8 @@ msgstr "Nu există niciun semnal de blocat!"
 msgid "There might not be enough space on the selected partition. Do you really want to continue?"
 msgstr "S -ar putea să nu existe suficient spațiu pe partiția selectată. Chiar vrei să continui?"
 
-msgid "There was an error downloading the update list.  Please try again."
+#, fuzzy
+msgid "There was an error downloading the update list. Please try again."
 msgstr "A existat o eroare de descărcare a listei de actualizări.  Vă rugăm să încercați din nou."
 
 #, fuzzy, python-format
@@ -21106,6 +21263,9 @@ msgstr "Modul de ton"
 msgid "Tonga"
 msgstr "Tonga"
 
+msgid "Tools for installing, removing, and maintaining IPK packages."
+msgstr ""
+
 msgid "Top"
 msgstr "Top"
 
@@ -21550,6 +21710,10 @@ msgstr "Serviciu necunoscut"
 msgid "Unknown group: %d"
 msgstr "Grup necunoscut: %d"
 
+#, fuzzy
+msgid "Unknown info type: "
+msgstr "Grup necunoscut: %d"
+
 msgid "Unknown service!"
 msgstr "Serviciu necunoscut!"
 
@@ -21644,9 +21808,6 @@ msgstr "Actualizați pluginul"
 msgid "Update Plugins"
 msgstr "Actualizați pluginurile"
 
-msgid "Update completed."
-msgstr "Actualizare finalizată."
-
 msgid "Update delay for Events in List"
 msgstr "Actualizați întârzierea pentru evenimente din listă"
 
@@ -21672,9 +21833,6 @@ msgstr ""
 
 msgid "Update the selected plugin / list of plugins"
 msgstr "Actualizați pluginul / lista de pluginuri selectate"
-
-msgid "Updated"
-msgstr "Actualizat"
 
 msgid "Updated version unknown"
 msgstr "Versiune actualizată necunoscută"
@@ -21959,6 +22117,12 @@ msgstr "Flash folosit"
 
 msgid "Used service scan type"
 msgstr "Tipul de scanare a serviciului folosit"
+
+msgid "Used to specify delay when switching between services and AC3 passthrough is enabled."
+msgstr ""
+
+msgid "Used to specify delay when switching between services and AC3+/Atmos passthrough is enabled."
+msgstr ""
 
 msgid "Used:"
 msgstr "Folosit:"
@@ -22257,6 +22421,10 @@ msgstr "Vizualizați Teletext ..."
 msgid "View the archive contents"
 msgstr "Vizualizați conținutul arhivei"
 
+#, fuzzy
+msgid "View the default files included in backups"
+msgstr "Fișiere/foldere implicite pentru a face backup"
+
 msgid "View the next item in a list"
 msgstr "Vizualizați următorul element dintr -o listă"
 
@@ -22268,6 +22436,10 @@ msgstr "Vizualizați elementul anterior dintr -o listă"
 
 msgid "View video CD..."
 msgstr "Vizualizați CD -ul video ..."
+
+#, fuzzy
+msgid "View your OScam information"
+msgstr "Informații despre rețea"
 
 msgid "View, install and remove available or installed packages."
 msgstr "Vizualizați, instalați și eliminați pachetele disponibile sau instalate."
@@ -23302,10 +23474,6 @@ msgstr "Receptorul dvs. poate folosi amplitudinea tonului. Consultați manualul 
 msgid "Your receiver does not have an internet connection"
 msgstr "Receptorul dvs. nu are o conexiune la internet"
 
-#, python-format
-msgid "Your receiver might be unusable now.  Please consult the manual for further assistance before rebooting your %s %s."
-msgstr "Receptorul dvs. ar putea fi inutilizabil acum.  Vă rugăm să consultați manualul pentru asistență suplimentară înainte de a reporni %s %s."
-
 msgid "Youth"
 msgstr "Tineret"
 
@@ -23494,9 +23662,6 @@ msgstr "Alpharev atunci cel mai nou"
 
 msgid "am"
 msgstr "a.m"
-
-msgid "an internal error has occur"
-msgstr "A apărut o eroare internă"
 
 msgid "aqua"
 msgstr "Aqua"
@@ -24314,8 +24479,9 @@ msgstr "Film/dramă serioasă/clasică/religioasă/istorică"
 msgid "service PIN"
 msgstr "Pin de service"
 
-msgid "services"
-msgstr "Servicii"
+#, fuzzy
+msgid "services Settings"
+msgstr "Setări dispozitiv"
 
 msgid "share:"
 msgstr "Distribuie:"
@@ -24640,48 +24806,6 @@ msgstr "Da"
 
 msgid "yes (keep feeds)"
 msgstr "Da (păstrați hrana)"
-
-#, python-brace-format
-msgid "{0} feed catalog package was updated."
-msgid_plural "{0} feed catalog packages were updated."
-msgstr[0] "{0} Pachetul catalogului de alimentare a fost actualizat."
-msgstr[1] "{0} Pachetele de catalog de alimentare au fost actualizate."
-
-#, python-brace-format
-msgid "{0} package was configured."
-msgid_plural "{0} packages were configured."
-msgstr[0] "{0} Pachetul a fost configurat."
-msgstr[1] "{0} Pachetele au fost configurate."
-
-#, python-brace-format
-msgid "{0} package was downloaded."
-msgid_plural "{0} packages were downloaded."
-msgstr[0] "{0} Pachetul a fost descărcat."
-msgstr[1] "{0} Pachetele au fost descărcate."
-
-#, python-brace-format
-msgid "{0} package was identified for upgrade."
-msgid_plural "{0} packages were identified for upgrade."
-msgstr[0] "{0} Pachetul a fost identificat pentru actualizare."
-msgstr[1] "{0} Pachetele au fost identificate pentru actualizare."
-
-#, python-brace-format
-msgid "{0} package was installed."
-msgid_plural "{0} packages were installed."
-msgstr[0] "{0} Pachetul a fost instalat."
-msgstr[1] "{0} Pachetele au fost instalate."
-
-#, python-brace-format
-msgid "{0} package was removed."
-msgid_plural "{0} packages were removed."
-msgstr[0] "{0} Pachetul a fost eliminat."
-msgstr[1] "{0} Pachetele au fost eliminate."
-
-#, python-brace-format
-msgid "{0} package was upgraded."
-msgid_plural "{0} packages were upgraded."
-msgstr[0] "{0} Pachetul a fost modernizat."
-msgstr[1] "{0} Pachetele au fost modernizate."
 
 #, python-brace-format
 msgid "{name} it has been uninstalled."

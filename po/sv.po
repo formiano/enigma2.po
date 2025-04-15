@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Opendroid\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-01 08:40+0200\n"
+"POT-Creation-Date: 2025-04-15 06:02+0200\n"
 "PO-Revision-Date: 2025-03-27 12:22+0100\n"
 "Last-Translator: FULL NAME <Opendroid-Team <opendroid2013@gmail.com>, >\n"
 "Language-Team: torac <info@takerman.se>\n"
@@ -1003,12 +1003,6 @@ msgid "%d package upgraded."
 msgid_plural "%d packages upgraded."
 msgstr[0] "%d -paketet uppgraderat."
 msgstr[1] "%d paket uppgraderade."
-
-#, fuzzy, python-format
-msgid "%d package was deselected."
-msgid_plural "%d packages were deselected."
-msgstr[0] "%D -paketet avmarkerades."
-msgstr[1] "%D -paket avmarkerades."
 
 #, fuzzy, python-format
 msgid "%d plugin is not available:"
@@ -2078,6 +2072,10 @@ msgstr "Adress"
 msgid "Adjust 3D settings"
 msgstr "Justera 3D -inställningar"
 
+#, fuzzy
+msgid "Adjust decoding options"
+msgstr "Omedelbara inspelningsåtgärder"
+
 msgid "Adjust the color settings so that all the color shades are distinguishable, but appear as saturated as possible. If you are happy with the result, press OK to close the video fine-tuning, or use the number keys to select other test screens."
 msgstr "Justera färginställningarna så att alla färgskuggor kan urskiljas, men visas så mättade som möjligt. Om du är nöjd med resultatet trycker du på OK för att stänga videoklippet eller använd nummernycklarna för att välja andra testskärmar."
 
@@ -2941,6 +2939,10 @@ msgstr ""
 msgid "Backup prefix"
 msgstr "Backup Prefix"
 
+#, fuzzy
+msgid "Backup settings"
+msgstr "Säkerhetskopieringsinställningar"
+
 #, python-format
 msgid "Backup tool for %s %s"
 msgstr "Säkerhetskopieringsverktyg för %s %s"
@@ -3803,6 +3805,10 @@ msgstr "Ändra upprepade och försena inställningar?"
 msgid "Change step size"
 msgstr "Ändra stegstorlek"
 
+#, fuzzy
+msgid "Change the root password"
+msgstr "Redigera lösenordet."
+
 msgid "Change to Radio services mode"
 msgstr "Ändra till radiotjänster"
 
@@ -3961,6 +3967,9 @@ msgstr "Tetjenska"
 msgid "Check"
 msgstr "Kontrollera"
 
+msgid "Check and install available software updates"
+msgstr ""
+
 msgid "Check disk terminated with success"
 msgstr "Kontrollera disken med framgång"
 
@@ -4070,6 +4079,14 @@ msgstr "Välj ett landsschema för avkodning av genreinformation i EPG -eveneman
 
 msgid "Choose a country scheme for decoding rating information in EPG events."
 msgstr "Välj ett landsschema för avkodning av betygsinformation i EPG -evenemang."
+
+#, fuzzy
+msgid "Choose extra files and folders to include in backups"
+msgstr "Filer/mappar för att utesluta från säkerhetskopiering"
+
+#, fuzzy
+msgid "Choose files and folders to exclude from backup"
+msgstr "Filer/mappar för att utesluta från säkerhetskopiering"
 
 msgid "Choose how much EPG history, if any, to keep in the EPG cache. This historic data can be browsed in any of the EPG views. This can be useful when you need information about an event which has recently finished."
 msgstr "Välj hur mycket EPG -historia, om någon, för att hålla i EPG -cachen. Denna historiska data kan bläddras i någon av EPG -vyerna. Detta kan vara användbart när du behöver information om ett evenemang som nyligen är avslutat."
@@ -4223,6 +4240,10 @@ msgstr "Rensa före skanning"
 
 msgid "Clear fixed"
 msgstr "Rensad fast"
+
+#, fuzzy
+msgid "Clear memory setup"
+msgstr "Clearmem-uppsättning"
 
 msgid "Clear play list"
 msgstr "Clear Play List"
@@ -4399,6 +4420,10 @@ msgstr "Kommando att springa"
 msgid "Command execution..."
 msgstr "Kommandoutförande ..."
 
+#, fuzzy
+msgid "Command failed: "
+msgstr "Kommando färdig."
+
 msgid "Command finished."
 msgid_plural "Commands finished."
 msgstr[0] "Kommando färdig."
@@ -4482,11 +4507,22 @@ msgstr "Konfigurationsverktyg för OSCAM"
 msgid "Configure DNS (name servers)"
 msgstr "Konfigurera DNS (namnservrar)"
 
+#, fuzzy
+msgid "Configure Samba network sharing"
+msgstr "Konfigurera nätverket igen"
+
+#, fuzzy
+msgid "Configure Softcam settings"
+msgstr "Softcam -inställningar"
+
 msgid "Configure an additional delay to improve external subtitle synchronization."
 msgstr "Konfigurera en ytterligare fördröjning för att förbättra extern undertextsynkronisering."
 
 msgid "Configure an additional delay to improve subtitle synchronization."
 msgstr "Konfigurera en ytterligare fördröjning för att förbättra undertexter synkronisering."
+
+msgid "Configure and manage your hard disk"
+msgstr ""
 
 msgid "Configure default setting for new timers. Need a restart after changing."
 msgstr "Konfigurera standardinställning för nya timers. Behöver en omstart efter att du har ändrat."
@@ -4548,6 +4584,9 @@ msgstr ""
 
 msgid "Configure remote control type"
 msgstr "Konfigurera fjärrkontrolltyp"
+
+msgid "Configure swap space settings"
+msgstr ""
 
 msgid "Configure the DiSEqC mode for this LNB."
 msgstr "Konfigurera DISEQC -läget för denna LNB."
@@ -4829,6 +4868,9 @@ msgstr "Konfigurera om \"inspelning\" -symbolen (i skärmen och LCD -huden) enda
 msgid "Configure which color format should be used on the SCART output."
 msgstr "Konfigurera vilket färgformat som ska användas på SCART -utgången."
 
+msgid "Configure which system settings to back up"
+msgstr ""
+
 msgid "Configure which tuner for recordings will be preferred, when more than one tuner is available."
 msgstr "Konfigurera vilken tuner för inspelningar kommer att föredras när mer än en tuner är tillgänglig."
 
@@ -4900,6 +4942,10 @@ msgstr "Anslutningsinformation"
 
 msgid "Connection using the supplied FTP parameters failed. Please recheck the details and try again."
 msgstr "Anslutning med hjälp av de medföljande FTP -parametrarna misslyckades. Kontrollera detaljerna igen och försök igen."
+
+#, fuzzy
+msgid "Connector"
+msgstr "Ansluta"
 
 msgid "Console"
 msgstr "Trösta"
@@ -5112,9 +5158,6 @@ msgstr "Land för EPG -evenemangsgenreinformation"
 msgid "Country for EPG event rating information"
 msgstr "Land för EPG Event Rating Information"
 
-msgid "Cpu"
-msgstr "Cpu"
-
 msgid "Crash Logs"
 msgstr "Kraschloggar"
 
@@ -5183,9 +5226,6 @@ msgstr "Kroatisk"
 
 msgid "Cron Manager"
 msgstr "Cron manager"
-
-msgid "CronManager"
-msgstr "Cronmanager"
 
 msgid "CronTimers"
 msgstr "Kronter"
@@ -5289,6 +5329,10 @@ msgid "Customize OpenWebIF settings for fallback tuner"
 msgstr "Anpassa OpenWebif -inställningar för Fallback Tuner"
 
 msgid "Customize System Settings"
+msgstr "Anpassa systeminställningar"
+
+#, fuzzy
+msgid "Customize your infobar settings"
 msgstr "Anpassa systeminställningar"
 
 msgid "Cut"
@@ -5620,9 +5664,6 @@ msgstr "Felsökningsloggtidsformat *"
 
 msgid "Decoding Setup"
 msgstr "Avkodning"
-
-msgid "Decoding_Setup"
-msgstr "Avkodning_setup"
 
 msgid "Deep Standby"
 msgstr "Djupt standby"
@@ -5987,10 +6028,6 @@ msgstr "Avmarkera alla relaterade filer"
 msgid "Deselect only highlighted file"
 msgstr "Avmarkera endast markerad fil"
 
-#, python-format
-msgid "Deselected packages usually occur because those packaged are incompatible with existing packages.  While this is mostly harmless it is possible that your %s %s may experience issues."
-msgstr "Avmarkerade paket förekommer vanligtvis eftersom de förpackade är oförenliga med befintliga paket.  Även om detta mestadels är ofarligt är det möjligt att dina %s %s kan uppleva problem."
-
 msgid "Destination of fallback remote receiver"
 msgstr "Destination för Fallback -fjärrmottagare"
 
@@ -6005,6 +6042,10 @@ msgstr "Destination för Fallback-fjärrmottagare för DVB-T"
 
 msgid "Detail of GStreamer log."
 msgstr "Detalj av Gstreamer -logg."
+
+#, fuzzy
+msgid "Detailed memory usage"
+msgstr "Totalt minne"
 
 msgid "Details"
 msgstr "Information"
@@ -6194,6 +6235,10 @@ msgstr "Inaktiverad eller WPA/WPA2"
 msgid "Dish"
 msgstr "Maträtt"
 
+#, fuzzy
+msgid "Disk partition info"
+msgstr "En partition"
+
 msgid "Disk temperature: unknown"
 msgstr "Disktemperatur: Okänd"
 
@@ -6212,8 +6257,16 @@ msgstr "Visningsinställningar"
 msgid "Display Skin"
 msgstr "Visa på huden"
 
+#, fuzzy
+msgid "Display available disk space"
+msgstr "Visa fil som text"
+
 msgid "Display context menu"
 msgstr "Visa kontextmeny"
+
+#, fuzzy
+msgid "Display current kernel info"
+msgstr "Ta bort aktuell linje"
 
 msgid "Display file as hexadecimal"
 msgstr "Visa fil som hexadecimal"
@@ -6472,6 +6525,10 @@ msgstr "Vill du ersätta:"
 msgid "Do you want to restart now?"
 msgstr "Vill du starta om nu?"
 
+#, fuzzy
+msgid "Do you want to restart the GUI now?"
+msgstr "Vill du starta om nu?"
+
 msgid "Do you want to restore your settings?"
 msgstr "Vill du återställa dina inställningar?"
 
@@ -6593,7 +6650,8 @@ msgstr "Nedladdningsbild"
 msgid "Downloading filed, test another VOD title"
 msgstr "Nedladdning av arkiv, testa en annan VOD -titel"
 
-msgid "Downloading latest update list.  Please wait..."
+#, fuzzy
+msgid "Downloading latest update list. Please wait..."
 msgstr "Nedladdning av den senaste uppdateringslistan.  Vänligen vänta ..."
 
 msgid "Downloading plugin information. Please wait..."
@@ -6677,9 +6735,6 @@ msgstr "ECM -information"
 #, python-format
 msgid "ECM information for '%s'"
 msgstr "ECM -information för '%s'"
-
-msgid "EDID decode"
-msgstr "Edidavkodning"
 
 msgid "EJECTCD"
 msgstr "Ejcd"
@@ -7526,6 +7581,10 @@ msgstr ""
 "Fel att få länk via %s\n"
 "%s"
 
+#, fuzzy
+msgid "Error reading file: "
+msgstr "Felläsning webbsida!"
+
 msgid "Error reading webpage!"
 msgstr "Felläsning webbsida!"
 
@@ -8251,6 +8310,10 @@ msgstr "Filsystemkontroll"
 msgid "File appears to be busy.\n"
 msgstr "Filen verkar vara upptagen."
 
+#, fuzzy
+msgid "File not found: "
+msgstr "Visa tjänst inte hittad info"
+
 msgid "File system"
 msgstr "Filsystem"
 
@@ -8372,6 +8435,10 @@ msgstr "Flash och återställer inställningar och utvalda plugins (fråga anvä
 #, python-format
 msgid "Flash directory '%s' not allowed!"
 msgstr "Flash Directory '%s' inte tillåtet!"
+
+#, fuzzy
+msgid "Flash the image"
+msgstr "Blixtbild"
 
 #, python-format
 msgid "Flash type:\t%s"
@@ -8518,6 +8585,10 @@ msgstr "Gratis"
 msgid "Free Flash:\t%s\n"
 msgstr "Gratis blixt: %s"
 
+#, fuzzy
+msgid "Free Space"
+msgstr "Frigör"
+
 msgid "Free flash"
 msgstr "Gratisblixt"
 
@@ -8535,9 +8606,6 @@ msgstr "GRATIS TILL AIR (FTA) -tjänst"
 
 msgid "Free:"
 msgstr "Gratis:"
-
-msgid "FreeSpace"
-msgstr "Frigör"
 
 msgid "French"
 msgstr "Franska"
@@ -8727,6 +8795,10 @@ msgstr "Tunerinformation"
 
 msgid "General PCM delay"
 msgstr ""
+
+#, fuzzy
+msgid "General system information"
+msgstr "Tunerinformation"
 
 msgid "Generic"
 msgstr "Generisk"
@@ -9105,9 +9177,6 @@ msgstr "Hausa"
 
 msgid "Hawaiian"
 msgstr "Hawaiian"
-
-msgid "HddSetup"
-msgstr "Hddsetup"
 
 #, python-format
 msgid "Heads: %s (max) %s (current)"
@@ -9535,6 +9604,10 @@ msgstr "Portnummer för strömrelä -servern som används för att descramble -t
 msgid "IP of fallback remote receiver"
 msgstr "IP av Fallback -fjärrmottagare"
 
+#, fuzzy
+msgid "IPK Tools"
+msgstr "IPK -verktyg"
+
 msgid "IPv4 only"
 msgstr "Endast IPv4"
 
@@ -9693,9 +9766,6 @@ msgstr "Bildbackup till %s"
 msgid "Image Flash Actions"
 msgstr "Bildflashåtgärder"
 
-msgid "Image Info"
-msgstr "Bildinformation"
-
 msgid "Image Information"
 msgstr "Bildinformation"
 
@@ -9704,9 +9774,6 @@ msgstr "Bildversion"
 
 msgid "Image-Flasher"
 msgstr "Bildflashare"
-
-msgid "Image-Version"
-msgstr "Bildversion"
 
 #, python-format
 msgid "Image:\t%s"
@@ -9914,11 +9981,12 @@ msgstr "Infobar installation"
 msgid "Infobar frontend data source"
 msgstr "Infobar frontend -datakälla"
 
-msgid "Infobar_Setup"
-msgstr "Infobar_setup"
-
 msgid "Information"
 msgstr "Information"
+
+#, fuzzy
+msgid "Information about the system"
+msgstr "Visa mer information om den här filen"
 
 msgid "Infos"
 msgstr "Infos"
@@ -9964,6 +10032,14 @@ msgid "Input"
 msgstr "Input"
 
 msgid "Input "
+msgstr "Input"
+
+#, fuzzy
+msgid "Input 1"
+msgstr "Input"
+
+#, fuzzy
+msgid "Input 2"
 msgstr "Input"
 
 #, fuzzy
@@ -10239,11 +10315,12 @@ msgid "Jersey"
 msgstr "Jersey"
 
 #, fuzzy
+msgid "Job Manager"
+msgstr "Arbetsmästare"
+
+#, fuzzy
 msgid "Job overview"
 msgstr "Ingen tjänst"
-
-msgid "JobManager"
-msgstr "Arbetsmästare"
 
 msgid "Jordan"
 msgstr "Jordan"
@@ -10368,6 +10445,10 @@ msgstr "Kärna"
 #, python-format
 msgid "Kernel (Box):\t%s"
 msgstr "Kärna (ruta): %s"
+
+#, fuzzy
+msgid "Kernel modules list"
+msgstr "Öppna filmlistan"
 
 msgid "Kernel version"
 msgstr "Kärnversion"
@@ -10806,6 +10887,10 @@ msgstr "Bo"
 msgid "Live TV Actions"
 msgstr "Live TV -åtgärder"
 
+#, fuzzy
+msgid "Live process list"
+msgstr "Visa som lista"
+
 msgid "Load"
 msgstr "Ladda"
 
@@ -11030,6 +11115,14 @@ msgstr ""
 msgid "MOUSE"
 msgstr "MUS"
 
+#, fuzzy
+msgid "MTD"
+msgstr "Mtu"
+
+#, fuzzy
+msgid "MTD partitions"
+msgstr "partition (er)"
+
 msgid "MTU"
 msgstr "Mtu"
 
@@ -11107,6 +11200,10 @@ msgstr "Hantera %s"
 msgid "Manage Locale/Language Selection settings"
 msgstr "Hantera inställningar för plats/språkval"
 
+#, fuzzy
+msgid "Manage and configure your online update sources"
+msgstr "Hantera dina onlineuppdateringsfiler"
+
 msgid "Manage and explore directories and files."
 msgstr "Hantera och utforska kataloger och filer."
 
@@ -11118,7 +11215,24 @@ msgstr "Hantera de markerade %s"
 msgid "Manage the highlighted %s / list of %s"
 msgstr "Hantera den markerade %s / listan med %s"
 
-msgid "Manage your online update files"
+#, fuzzy
+msgid "Manage update files"
+msgstr "Hantera dina onlineuppdateringsfiler"
+
+#, fuzzy
+msgid "Manage your cron jobs"
+msgstr "Hantera dina onlineuppdateringsfiler"
+
+#, fuzzy
+msgid "Manage your services"
+msgstr "Byt till TV -tjänster läge"
+
+#, fuzzy
+msgid "Manage your software updates"
+msgstr "Hantera dina onlineuppdateringsfiler"
+
+#, fuzzy
+msgid "Manage your system logs"
 msgstr "Hantera dina onlineuppdateringsfiler"
 
 msgid "Manual"
@@ -11279,9 +11393,6 @@ msgstr "Medellåda"
 msgid "Mem cleared"
 msgstr "Mem rensad"
 
-msgid "MemInfo"
-msgstr "Meminfo"
-
 msgid "Memory Info"
 msgstr "Minnesinfo"
 
@@ -11297,6 +11408,10 @@ msgstr "Minnesindex"
 #, python-format
 msgid "Memory information for %s %s"
 msgstr "Minnesinformation för %s %s"
+
+#, fuzzy
+msgid "Memory usage overview"
+msgstr "Ingen tjänst"
 
 msgid "Memory:"
 msgstr "Minne:"
@@ -11467,7 +11582,8 @@ msgstr "Modulation"
 msgid "Modulator"
 msgstr "Modulation"
 
-msgid "Module"
+#, fuzzy
+msgid "Modules"
 msgstr "Modul"
 
 msgid "Moldova, Republic of"
@@ -11911,9 +12027,6 @@ msgstr "Rör sig västerut ..."
 msgid "Mozambique"
 msgstr "Mozambique"
 
-msgid "Mtd"
-msgstr "Mtd"
-
 msgid "Multi"
 msgstr "Mång"
 
@@ -11932,9 +12045,6 @@ msgstr "EPG -inställningar"
 
 msgid "MultiLib"
 msgstr "Multilib"
-
-msgid "MultiQuickButton"
-msgstr "Multikickbutton"
 
 msgid "MultiTranscoding"
 msgstr "Multitranskoding"
@@ -11983,6 +12093,9 @@ msgstr "N"
 
 msgid "N/A"
 msgstr "N/a"
+
+msgid "NCam"
+msgstr ""
 
 msgid "NEXT"
 msgstr ""
@@ -12091,9 +12204,6 @@ msgstr "Navigera till den valda katalogen"
 msgid "Navigate up/down with UP/DOWN buttons and page up/down with LEFT/RIGHT. OK to perform the action described in the currently highlighted help."
 msgstr "Navigera upp/ner med upp/ner -knapparna och sid upp/ner med vänster/höger. Ok att utföra åtgärden som beskrivs i den för närvarande markerade hjälpen."
 
-msgid "NcamInfo"
-msgstr "Ncaminfo"
-
 msgid "Ndonga"
 msgstr "Ndonga"
 
@@ -12171,6 +12281,10 @@ msgstr "Nätverksinformation"
 #, python-format
 msgid "Network information for %s %s"
 msgstr "Nätverksinformation för %s %s"
+
+#, fuzzy
+msgid "Network interface information"
+msgstr "Nätverksinformation"
 
 msgid "Network menu"
 msgstr "Nätverksmeny"
@@ -12425,6 +12539,10 @@ msgstr "Ingen resurschef"
 msgid "No satellite, terrestrial or cable tuner is configured. Please check your tuner setup."
 msgstr "Ingen satellit-, mark- eller kabelmottagare är konfigurerad. Kontrollera din tunerinställning."
 
+#, fuzzy
+msgid "No selection."
+msgstr "Filmval"
+
 msgid "No service"
 msgstr "Ingen tjänst"
 
@@ -12488,12 +12606,6 @@ msgstr "Inga tuners strömmar för närvarande."
 
 msgid "No update required!"
 msgstr "Ingen uppdatering krävs!"
-
-msgid "No updates available."
-msgstr "Inga uppdateringar tillgängliga."
-
-msgid "No updates were available.  Please try again later."
-msgstr "Inga uppdateringar fanns tillgängliga.  Försök igen senare."
 
 #, python-format
 msgid "No valid mount for '%s' found!"
@@ -13367,6 +13479,12 @@ msgstr "Partitioner"
 msgid "Pass-through"
 msgstr "Genomgång"
 
+msgid "Passthrough audio handling delay AC3"
+msgstr ""
+
+msgid "Passthrough audio handling delay AC3+"
+msgstr ""
+
 msgid "Password"
 msgstr "Lösenord"
 
@@ -13378,6 +13496,10 @@ msgstr "Lösenord (httpwd)"
 
 msgid "Password Actions"
 msgstr "Lösenordsåtgärder"
+
+#, fuzzy
+msgid "Password Change"
+msgstr "Lösenordsbyte"
 
 msgid "Password Settings"
 msgstr "Lösenordsinställningar"
@@ -13393,9 +13515,6 @@ msgstr "Lösenord ändras."
 
 msgid "Password setup"
 msgstr "Lösenordsinställning"
-
-msgid "Password-Change"
-msgstr "Lösenordsbyte"
 
 #, python-format
 msgid "Path '%s' missing!"
@@ -14694,6 +14813,10 @@ msgstr "QuickSelect Actions"
 msgid "RADIO"
 msgstr "RADIO"
 
+#, fuzzy
+msgid "RAM"
+msgstr "ÄRM"
+
 msgid "RAM (Details)"
 msgstr "RAM (detaljer)"
 
@@ -14753,9 +14876,6 @@ msgstr "Urval av radiokanal"
 
 msgid "Radio Channel Selection Actions"
 msgstr "Radiokanalvalsåtgärder"
-
-msgid "Ram"
-msgstr "Ram"
 
 msgid "Random"
 msgstr "Slumpmässig"
@@ -15477,11 +15597,12 @@ msgstr "Starta om GUI nu?"
 msgid "Restart Network"
 msgstr "Starta om nätverk"
 
-msgid "Restart Network Adapter"
-msgstr "Starta om nätverksadapter"
-
 msgid "Restart STB"
 msgstr "Starta om stb"
+
+#, fuzzy
+msgid "Restart all network interfaces and services"
+msgstr "Starta om din nätverksanslutning och gränssnitt."
 
 msgid "Restart enigma"
 msgstr "Starta om gåta"
@@ -15510,14 +15631,15 @@ msgstr "Återställ borttagna användarbuketter"
 msgid "Restore Plugins"
 msgstr "Återställ plugins"
 
-msgid "Restore Settings"
-msgstr "Återställ inställningar"
-
 msgid "Restore System Settings"
 msgstr "Återställ systeminställningar"
 
 msgid "Restore backups"
 msgstr "Återställa säkerhetskopior"
+
+#, fuzzy
+msgid "Restore settings"
+msgstr "Återställ inställningar"
 
 msgid "Restore settings now"
 msgstr "Återställ inställningar nu"
@@ -15533,6 +15655,10 @@ msgstr "Återställ dina %s %s med en ny firmware."
 
 msgid "Restore your backups by date."
 msgstr "Återställ dina säkerhetskopior efter datum."
+
+#, fuzzy
+msgid "Restore your previously saved backup"
+msgstr "Återgå till tidigare tjänst"
 
 msgid "Restoring..."
 msgstr "Återställer ..."
@@ -15662,6 +15788,9 @@ msgstr "Kör hur ofta?"
 
 msgid "Run how often?"
 msgstr "Kör hur ofta?"
+
+msgid "Run or schedule user scripts"
+msgstr ""
 
 msgid "Run script"
 msgstr "Körscript"
@@ -16861,6 +16990,10 @@ msgstr "Välj det markerade spåret och starta om"
 msgid "Select the initial position of the timeline marker. The marker is the vertical line drawn on the EPG that shows the current time. The larger the value the more the marker will move to the right showing more history and less of upcoming events."
 msgstr "Välj den ursprungliga positionen för tidslinjemarkören. Markören är den vertikala linjen som dras på EPG som visar den aktuella tiden. Ju större värde desto mer kommer markören att flytta till höger och visa mer historia och mindre av kommande evenemang."
 
+#, fuzzy
+msgid "Select the input connector you want to use."
+msgstr "Klicka på knappen på din fjärrkontroll du vill ändra."
+
 msgid "Select the last item in list or move to the end of text"
 msgstr "Välj det sista objektet i listan eller gå till slutet av texten"
 
@@ -17131,6 +17264,10 @@ msgstr "Välj din säkerhetskopieringsenhet."
 msgid "Select your country. If not available select 'All'."
 msgstr "Välj ditt land. Om det inte är tillgängligt väljer du \"alla\"."
 
+#, fuzzy
+msgid "Select your keymap configuration"
+msgstr "Återställ nätverkskonfiguration"
+
 msgid "Select your provider and region. If not present in this list you will need to select one of the other 'Service scan types'."
 msgstr "Välj din leverantör och region. Om du inte finns i den här listan måste du välja en av de andra \"serviceskanningstyperna\"."
 
@@ -17170,6 +17307,10 @@ msgstr "Välja satelliter 2 (usals)"
 
 msgid "Selecting this option allows you to configure a group of satellites in one block."
 msgstr "Om du väljer detta alternativ kan du konfigurera en grupp satelliter i ett block."
+
+#, fuzzy
+msgid "Selection error"
+msgstr "Välj gränssnitt"
 
 msgid "Send DiSEqC"
 msgstr "Skicka diseqc"
@@ -17371,6 +17512,10 @@ msgstr "ServiceInfo"
 
 msgid "Services"
 msgstr "Tjänster"
+
+#, fuzzy
+msgid "Services Settings"
+msgstr "Enhetsinställningar"
 
 msgid "Services may be grouped in bouquets. When enabled, you can use more than one bouquet."
 msgstr "Tjänster kan grupperas i buketter. När du är aktiverad kan du använda mer än en bukett."
@@ -17742,6 +17887,10 @@ msgstr "Visa boxportal"
 msgid "Show CI messages"
 msgstr "Visa CI -meddelanden"
 
+#, fuzzy
+msgid "Show CPU details"
+msgstr "Visa händelsesuppgifter"
+
 msgid "Show Clients"
 msgstr "Visa klienter"
 
@@ -18048,6 +18197,10 @@ msgstr "Visa kryptoinfo i Infobar"
 msgid "Show current directory"
 msgstr "Visa aktuell katalog"
 
+#, fuzzy
+msgid "Show current image version"
+msgstr "Visa bildversion"
+
 msgid "Show default after description"
 msgstr "Visa standard efter beskrivning"
 
@@ -18183,6 +18336,10 @@ msgstr "Visa meny"
 
 msgid "Show message when recording starts"
 msgstr "Visa meddelande när inspelningen startar"
+
+#, fuzzy
+msgid "Show mounted filesystems"
+msgstr "Valfilsystem."
 
 msgid "Show movie lengths in movie list"
 msgstr "Visa filmlängder i filmlistan"
@@ -18822,9 +18979,6 @@ msgstr "Softcam -installation"
 msgid "Softcam setup"
 msgstr "Softcam -installation"
 
-msgid "Softcam-Setup"
-msgstr "Softcam-uppsättning"
-
 msgid "SoftcamSetup"
 msgstr "Softcamsetup"
 
@@ -18860,9 +19014,6 @@ msgid ""
 "Software update starting, please wait.\n"
 "\n"
 msgstr "Programvaruuppdatering startar, vänta."
-
-msgid "Software-Manager"
-msgstr "Mjukvaruhanterare"
 
 msgid "Softwaremanager..."
 msgstr "Softwaremanager ..."
@@ -19526,8 +19677,9 @@ msgstr "Bytstorlek:"
 msgid "Swap services"
 msgstr "Swaptjänster"
 
-msgid "SwapManager"
-msgstr "Swapmanager"
+#, fuzzy
+msgid "Swap space details"
+msgstr "Visa händelsesuppgifter"
 
 msgid "SwaptoNand"
 msgstr "Swapton och"
@@ -19697,8 +19849,15 @@ msgstr "Systemplugin"
 msgid "System Settings"
 msgstr "Systeminställningar"
 
+msgid "System Tools (OPD)"
+msgstr ""
+
 msgid "System cleaning"
 msgstr "Systemrengöring"
+
+#, fuzzy
+msgid "System level details"
+msgstr "Visa händelsesuppgifter"
 
 msgid "System temperature"
 msgstr "Systemtemperatur"
@@ -19709,9 +19868,6 @@ msgstr "Systemtemperatur: %s"
 
 msgid "System: "
 msgstr "System:"
-
-msgid "SystemInfo"
-msgstr "Systeminfo"
 
 msgid "Systeminfo"
 msgstr "Systeminfo"
@@ -20378,7 +20534,8 @@ msgstr "Det finns ingen signal att låsa på!"
 msgid "There might not be enough space on the selected partition. Do you really want to continue?"
 msgstr "Det kanske inte finns tillräckligt med utrymme på den valda partitionen. Vill du verkligen fortsätta?"
 
-msgid "There was an error downloading the update list.  Please try again."
+#, fuzzy
+msgid "There was an error downloading the update list. Please try again."
 msgstr "Det fanns ett fel som laddade ner uppdateringslistan.  Försök igen."
 
 #, python-format
@@ -21104,6 +21261,9 @@ msgstr "Tonläge"
 msgid "Tonga"
 msgstr "Tonga"
 
+msgid "Tools for installing, removing, and maintaining IPK packages."
+msgstr ""
+
 msgid "Top"
 msgstr "Bästa"
 
@@ -21548,6 +21708,10 @@ msgstr "Okänd service"
 msgid "Unknown group: %d"
 msgstr "Okänd grupp: %d"
 
+#, fuzzy
+msgid "Unknown info type: "
+msgstr "Okänd grupp: %d"
+
 msgid "Unknown service!"
 msgstr "Okänd service!"
 
@@ -21642,9 +21806,6 @@ msgstr "Uppdatera plugin"
 msgid "Update Plugins"
 msgstr "Uppdatera plugins"
 
-msgid "Update completed."
-msgstr "Uppdatera slutförd."
-
 msgid "Update delay for Events in List"
 msgstr "Uppdateringsfördröjning för händelser i listan"
 
@@ -21670,9 +21831,6 @@ msgstr ""
 
 msgid "Update the selected plugin / list of plugins"
 msgstr "Uppdatera det valda plugin / listan med plugins"
-
-msgid "Updated"
-msgstr "Uppdaterad"
 
 msgid "Updated version unknown"
 msgstr "Uppdaterad version okänd"
@@ -21957,6 +22115,12 @@ msgstr "Begagnad blixt"
 
 msgid "Used service scan type"
 msgstr "Begagnad serviceskanningstyp"
+
+msgid "Used to specify delay when switching between services and AC3 passthrough is enabled."
+msgstr ""
+
+msgid "Used to specify delay when switching between services and AC3+/Atmos passthrough is enabled."
+msgstr ""
 
 msgid "Used:"
 msgstr "Begagnad:"
@@ -22255,6 +22419,10 @@ msgstr "Visa teletext ..."
 msgid "View the archive contents"
 msgstr "Visa arkivinnehållet"
 
+#, fuzzy
+msgid "View the default files included in backups"
+msgstr "Standardfiler/mappar för att säkerhetskopiera"
+
 msgid "View the next item in a list"
 msgstr "Visa nästa objekt i en lista"
 
@@ -22266,6 +22434,10 @@ msgstr "Visa föregående objekt i en lista"
 
 msgid "View video CD..."
 msgstr "Visa video -CD ..."
+
+#, fuzzy
+msgid "View your OScam information"
+msgstr "Nätverksinformation"
 
 msgid "View, install and remove available or installed packages."
 msgstr "Visa, installera och ta bort tillgängliga eller installerade paket."
@@ -23300,10 +23472,6 @@ msgstr "Din mottagare kan använda tonamplitud. Kontakta din mottagarhandbok fö
 msgid "Your receiver does not have an internet connection"
 msgstr "Din mottagare har ingen internetanslutning"
 
-#, python-format
-msgid "Your receiver might be unusable now.  Please consult the manual for further assistance before rebooting your %s %s."
-msgstr "Din mottagare kan vara oanvändbar nu.  Kontakta manualen för ytterligare hjälp innan du startar om dina %s %s."
-
 msgid "Youth"
 msgstr "Ungdom"
 
@@ -23492,9 +23660,6 @@ msgstr "Alpharev då nyaste"
 
 msgid "am"
 msgstr "Jag är"
-
-msgid "an internal error has occur"
-msgstr "Ett internt fel har inträffat"
 
 msgid "aqua"
 msgstr "vatten"
@@ -24312,8 +24477,9 @@ msgstr "Allvarlig/klassisk/religiös/historisk film/drama"
 msgid "service PIN"
 msgstr "servicestift"
 
-msgid "services"
-msgstr "tjänster"
+#, fuzzy
+msgid "services Settings"
+msgstr "Enhetsinställningar"
 
 msgid "share:"
 msgstr "dela:"
@@ -24638,48 +24804,6 @@ msgstr "ja"
 
 msgid "yes (keep feeds)"
 msgstr "ja (håll matar)"
-
-#, python-brace-format
-msgid "{0} feed catalog package was updated."
-msgid_plural "{0} feed catalog packages were updated."
-msgstr[0] "{0} matningskatalogpaket uppdaterades."
-msgstr[1] "{0} matningskatalogpaket uppdaterades."
-
-#, python-brace-format
-msgid "{0} package was configured."
-msgid_plural "{0} packages were configured."
-msgstr[0] "{0} -paketet konfigurerades."
-msgstr[1] "{0} paket konfigurerades."
-
-#, python-brace-format
-msgid "{0} package was downloaded."
-msgid_plural "{0} packages were downloaded."
-msgstr[0] "{0} Paketet laddades ner."
-msgstr[1] "{0} paket laddades ner."
-
-#, python-brace-format
-msgid "{0} package was identified for upgrade."
-msgid_plural "{0} packages were identified for upgrade."
-msgstr[0] "{0} -paketet identifierades för uppgradering."
-msgstr[1] "{0} Paket identifierades för uppgradering."
-
-#, python-brace-format
-msgid "{0} package was installed."
-msgid_plural "{0} packages were installed."
-msgstr[0] "{0} Paketet installerades."
-msgstr[1] "{0} Paket installerades."
-
-#, python-brace-format
-msgid "{0} package was removed."
-msgid_plural "{0} packages were removed."
-msgstr[0] "{0} paketet togs bort."
-msgstr[1] "{0} paket togs bort."
-
-#, python-brace-format
-msgid "{0} package was upgraded."
-msgid_plural "{0} packages were upgraded."
-msgstr[0] "{0} Paketet uppgraderades."
-msgstr[1] "{0} Paket uppgraderades."
 
 #, python-brace-format
 msgid "{name} it has been uninstalled."

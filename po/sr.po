@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Opendroid\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-01 08:40+0200\n"
+"POT-Creation-Date: 2025-04-15 06:02+0200\n"
 "PO-Revision-Date: 2025-03-27 12:21+0100\n"
 "Last-Translator: OPD Team <opendroid2013@gmail.com>\n"
 "Language-Team: veselin & majevica CRNABERZA <jovanovic@gmx.ch>\n"
@@ -1026,13 +1026,6 @@ msgid "%d package upgraded."
 msgid_plural "%d packages upgraded."
 msgstr[0] "Уплаћени су% Д пакет."
 msgstr[1] "% Д Пакети надограђени."
-msgstr[2] ""
-
-#, fuzzy, python-format
-msgid "%d package was deselected."
-msgid_plural "%d packages were deselected."
-msgstr[0] "% Д пакет је изазван."
-msgstr[1] "% Д пакети су изазвани."
 msgstr[2] ""
 
 #, fuzzy, python-format
@@ -2106,6 +2099,10 @@ msgstr "Адреса"
 msgid "Adjust 3D settings"
 msgstr "Подесите 3Д подешавања"
 
+#, fuzzy
+msgid "Adjust decoding options"
+msgstr "Инстант акције за снимање"
+
 msgid "Adjust the color settings so that all the color shades are distinguishable, but appear as saturated as possible. If you are happy with the result, press OK to close the video fine-tuning, or use the number keys to select other test screens."
 msgstr "Подесите подешавања боја тако да се све нијансе боја разликују, али се појављују што је могуће засићено. Ако сте задовољни резултатом, притисните ОК да бисте затворили видео фино подешавање или користите БРОЈ КЉУЧА да бисте изабрали остале тестне екране."
 
@@ -2969,6 +2966,10 @@ msgstr ""
 msgid "Backup prefix"
 msgstr "Префикс резервне копије"
 
+#, fuzzy
+msgid "Backup settings"
+msgstr "Подешавања резервне копије"
+
 #, fuzzy, python-format
 msgid "Backup tool for %s %s"
 msgstr "Резервни алат за% с% с"
@@ -3831,6 +3832,10 @@ msgstr "Промените подешавање понављања и одлаг
 msgid "Change step size"
 msgstr "Промените величину корака"
 
+#, fuzzy
+msgid "Change the root password"
+msgstr "Уредите лозинку."
+
 msgid "Change to Radio services mode"
 msgstr "Промена у режиму радио услуга"
 
@@ -3989,6 +3994,9 @@ msgstr "Чечен"
 msgid "Check"
 msgstr "Провјерити"
 
+msgid "Check and install available software updates"
+msgstr ""
+
 msgid "Check disk terminated with success"
 msgstr "Проверите диск укинут успехом"
 
@@ -4098,6 +4106,14 @@ msgstr "Изаберите шему земље за декодирање жан�
 
 msgid "Choose a country scheme for decoding rating information in EPG events."
 msgstr "Изаберите шему земље за декодирање информација о оцени у ЕПГ догађајима."
+
+#, fuzzy
+msgid "Choose extra files and folders to include in backups"
+msgstr "Датотеке / мапе за искључење из резервне копије"
+
+#, fuzzy
+msgid "Choose files and folders to exclude from backup"
+msgstr "Датотеке / мапе за искључење из резервне копије"
 
 msgid "Choose how much EPG history, if any, to keep in the EPG cache. This historic data can be browsed in any of the EPG views. This can be useful when you need information about an event which has recently finished."
 msgstr "Изаберите колико историје ЕПГ-а, ако их има, да се држите у ЕПГ кешу. Овај историјски подаци могу се прегледати у било којем од приказа ЕПГ-а. Ово може бити корисно када су вам потребне информације о догађају који је недавно завршио."
@@ -4251,6 +4267,10 @@ msgstr "Ведро пре скенирања"
 
 msgid "Clear fixed"
 msgstr "Јасно фиксни"
+
+#, fuzzy
+msgid "Clear memory setup"
+msgstr "ЦлеарМем-Сетуп"
 
 msgid "Clear play list"
 msgstr "Јасна листа за репродукцију"
@@ -4428,6 +4448,10 @@ msgstr "Команда за покретање"
 msgid "Command execution..."
 msgstr "Изведба команде ..."
 
+#, fuzzy
+msgid "Command failed: "
+msgstr "Команда је завршена."
+
 msgid "Command finished."
 msgid_plural "Commands finished."
 msgstr[0] "Команда је завршена."
@@ -4512,11 +4536,22 @@ msgstr "Алат за конфигурацију ОСЦАМ-а"
 msgid "Configure DNS (name servers)"
 msgstr "Конфигуришите ДНС (сервери имена)"
 
+#, fuzzy
+msgid "Configure Samba network sharing"
+msgstr "Поново конфигуришите мрежу"
+
+#, fuzzy
+msgid "Configure Softcam settings"
+msgstr "СофтЦам Сеттингс"
+
 msgid "Configure an additional delay to improve external subtitle synchronization."
 msgstr "Конфигуришите додатно кашњење за побољшање спољног синхронизације титла."
 
 msgid "Configure an additional delay to improve subtitle synchronization."
 msgstr "Конфигуришите додатно кашњење за побољшање синхронизације титлова."
+
+msgid "Configure and manage your hard disk"
+msgstr ""
 
 msgid "Configure default setting for new timers. Need a restart after changing."
 msgstr "Конфигуришите подразумевано подешавање за нове тајмере. Потребан вам је поновно покретање након промене."
@@ -4578,6 +4613,9 @@ msgstr ""
 
 msgid "Configure remote control type"
 msgstr "Конфигуришите врсту даљинског управљача"
+
+msgid "Configure swap space settings"
+msgstr ""
 
 msgid "Configure the DiSEqC mode for this LNB."
 msgstr "Конфигуришите режим ДИСЕКЦ за овај ЛНБ."
@@ -4859,6 +4897,9 @@ msgstr "Конфигуришите да ли је симбол \"Снимање\
 msgid "Configure which color format should be used on the SCART output."
 msgstr "Конфигуришите који формат у боји треба користити на СЦАРТ излазима."
 
+msgid "Configure which system settings to back up"
+msgstr ""
+
 msgid "Configure which tuner for recordings will be preferred, when more than one tuner is available."
 msgstr "Конфигуришите који ће се преферирати тјунер за снимке, када је на располагању више од једног тјунера."
 
@@ -4930,6 +4971,10 @@ msgstr "Информације о повезивању"
 
 msgid "Connection using the supplied FTP parameters failed. Please recheck the details and try again."
 msgstr "Повезивање помоћу испоручених ФТП параметара није успело. Поново провјерите детаље и покушајте поново."
+
+#, fuzzy
+msgid "Connector"
+msgstr "Повезати"
 
 msgid "Console"
 msgstr "Конзола"
@@ -5142,9 +5187,6 @@ msgstr "Информације о погледу на ЕПГ ЕПГ"
 msgid "Country for EPG event rating information"
 msgstr "Држава за ЕПГ Информације о оцени догађаја"
 
-msgid "Cpu"
-msgstr "ЦПУ"
-
 msgid "Crash Logs"
 msgstr "Трупци судара"
 
@@ -5213,9 +5255,6 @@ msgstr "Хрватски"
 
 msgid "Cron Manager"
 msgstr "Црон Манагер"
-
-msgid "CronManager"
-msgstr "ЦронМанагер"
 
 msgid "CronTimers"
 msgstr "Цронтимерс"
@@ -5319,6 +5358,10 @@ msgid "Customize OpenWebIF settings for fallback tuner"
 msgstr "Прилагодите Подешавања ОпенВебиф за повратно тјунер"
 
 msgid "Customize System Settings"
+msgstr "Прилагодите подешавања система"
+
+#, fuzzy
+msgid "Customize your infobar settings"
 msgstr "Прилагодите подешавања система"
 
 msgid "Cut"
@@ -5650,9 +5693,6 @@ msgstr "Број погрешака за уклањање погрешака *"
 
 msgid "Decoding Setup"
 msgstr "Подешавање декодирања"
-
-msgid "Decoding_Setup"
-msgstr "Декодинг_сетуп"
 
 msgid "Deep Standby"
 msgstr "Дубоко стање"
@@ -6017,10 +6057,6 @@ msgstr "Поништите одабир свих повезаних датоте
 msgid "Deselect only highlighted file"
 msgstr "Поништи одабир само означене датотеке"
 
-#, fuzzy, python-format
-msgid "Deselected packages usually occur because those packaged are incompatible with existing packages.  While this is mostly harmless it is possible that your %s %s may experience issues."
-msgstr "Осимљиви пакети обично се јављају јер су они упаковани неспојиви са постојећим пакетима.  Иако је то углавном безопасно, могуће је да ваше% с% с може доживети питања."
-
 msgid "Destination of fallback remote receiver"
 msgstr "Дестинација Фалбацк Ремоте пријемник"
 
@@ -6035,6 +6071,10 @@ msgstr "Дестинација Фалкбалл Ремоте Ремоте за �
 
 msgid "Detail of GStreamer log."
 msgstr "Детаљ ГСтреамер Лог."
+
+#, fuzzy
+msgid "Detailed memory usage"
+msgstr "Тотална меморија"
 
 msgid "Details"
 msgstr "Детаљи"
@@ -6224,6 +6264,10 @@ msgstr "Онемогућено или ВПА / ВПА2"
 msgid "Dish"
 msgstr "Јело"
 
+#, fuzzy
+msgid "Disk partition info"
+msgstr "Једна партиција"
+
 msgid "Disk temperature: unknown"
 msgstr "Температура на диску: Непознато"
 
@@ -6242,8 +6286,16 @@ msgstr "Подешавања приказа"
 msgid "Display Skin"
 msgstr "Коже приказати кожу"
 
+#, fuzzy
+msgid "Display available disk space"
+msgstr "Прикажите датотеку као текст"
+
 msgid "Display context menu"
 msgstr "Прикажи контекстни мени"
+
+#, fuzzy
+msgid "Display current kernel info"
+msgstr "Избришите тренутну линију"
 
 msgid "Display file as hexadecimal"
 msgstr "Прикажите датотеку као хексадецимални"
@@ -6502,6 +6554,10 @@ msgstr "Да ли желите да замените:"
 msgid "Do you want to restart now?"
 msgstr "Да ли се сада желите поново покренути?"
 
+#, fuzzy
+msgid "Do you want to restart the GUI now?"
+msgstr "Да ли се сада желите поново покренути?"
+
 msgid "Do you want to restore your settings?"
 msgstr "Да ли желите да вратите своја подешавања?"
 
@@ -6624,7 +6680,8 @@ msgstr "Преузимање слике"
 msgid "Downloading filed, test another VOD title"
 msgstr "Преузимање поднето, тестирајте још један вод наслов"
 
-msgid "Downloading latest update list.  Please wait..."
+#, fuzzy
+msgid "Downloading latest update list. Please wait..."
 msgstr "Преузимање најновије листе ажурирања.  Молимо причекајте ..."
 
 msgid "Downloading plugin information. Please wait..."
@@ -6708,9 +6765,6 @@ msgstr "ЕЦМ информације"
 #, fuzzy, python-format
 msgid "ECM information for '%s'"
 msgstr "Информације о ЕЦМ-у за '% с'"
-
-msgid "EDID decode"
-msgstr "Едид Децоде"
 
 msgid "EJECTCD"
 msgstr "Ејецтцд"
@@ -7559,6 +7613,10 @@ msgstr ""
 "Грешка приликом добијања везе преко% с\n"
 "% с"
 
+#, fuzzy
+msgid "Error reading file: "
+msgstr "Грешка у читању веб странице!"
+
 msgid "Error reading webpage!"
 msgstr "Грешка у читању веб странице!"
 
@@ -8284,6 +8342,10 @@ msgstr "Провера датотечног система"
 msgid "File appears to be busy.\n"
 msgstr "Чини се да је датотека заузета."
 
+#, fuzzy
+msgid "File not found: "
+msgstr "Схов Сервице није пронађен информација"
+
 msgid "File system"
 msgstr "Систем датотека"
 
@@ -8405,6 +8467,10 @@ msgstr "Подешавања Фласх и Враћање и одабрани д
 #, fuzzy, python-format
 msgid "Flash directory '%s' not allowed!"
 msgstr "Фласх Дирецтори '% с' није дозвољено!"
+
+#, fuzzy
+msgid "Flash the image"
+msgstr "Фласх имаге"
 
 #, fuzzy, python-format
 msgid "Flash type:\t%s"
@@ -8551,6 +8617,10 @@ msgstr "Слободан"
 msgid "Free Flash:\t%s\n"
 msgstr "Бесплатни блиц:% с"
 
+#, fuzzy
+msgid "Free Space"
+msgstr "Слободни простор"
+
 msgid "Free flash"
 msgstr "Бесплатни блиц"
 
@@ -8568,9 +8638,6 @@ msgstr "Бесплатно за ваздух (ФТА) услуга"
 
 msgid "Free:"
 msgstr "БЕСПЛАТНО:"
-
-msgid "FreeSpace"
-msgstr "Слободни простор"
 
 msgid "French"
 msgstr "Француски"
@@ -8760,6 +8827,10 @@ msgstr "Информације о тучера"
 
 msgid "General PCM delay"
 msgstr ""
+
+#, fuzzy
+msgid "General system information"
+msgstr "Информације о тучера"
 
 msgid "Generic"
 msgstr "Генерички"
@@ -9138,9 +9209,6 @@ msgstr "Хауса"
 
 msgid "Hawaiian"
 msgstr "Хавајски"
-
-msgid "HddSetup"
-msgstr "ХДСЕДЕУП"
 
 #, fuzzy, python-format
 msgid "Heads: %s (max) %s (current)"
@@ -9568,6 +9636,10 @@ msgstr "Порт број за сервер Стреам Релаи који с�
 msgid "IP of fallback remote receiver"
 msgstr "ИП повратног удаљеног пријемника"
 
+#, fuzzy
+msgid "IPK Tools"
+msgstr "ИПК Алати"
+
 msgid "IPv4 only"
 msgstr "ИПв4 само"
 
@@ -9726,9 +9798,6 @@ msgstr "Резервна копија слика на% с"
 msgid "Image Flash Actions"
 msgstr "Слика Фласх акције"
 
-msgid "Image Info"
-msgstr "Информације о слици"
-
 msgid "Image Information"
 msgstr "Информације о сликама"
 
@@ -9737,9 +9806,6 @@ msgstr "Верзија слике"
 
 msgid "Image-Flasher"
 msgstr "Паковање слика"
-
-msgid "Image-Version"
-msgstr "Слика-верзија"
 
 #, fuzzy, python-format
 msgid "Image:\t%s"
@@ -9947,11 +10013,12 @@ msgstr "Инфобар Сетуп"
 msgid "Infobar frontend data source"
 msgstr "Инфобар Извор података"
 
-msgid "Infobar_Setup"
-msgstr "Инфобар_сетуп"
-
 msgid "Information"
 msgstr "Информације"
+
+#, fuzzy
+msgid "Information about the system"
+msgstr "Прикажите више информација о овој датотеци"
 
 msgid "Infos"
 msgstr "Инфос"
@@ -9997,6 +10064,14 @@ msgid "Input"
 msgstr "Улаз"
 
 msgid "Input "
+msgstr "Улаз"
+
+#, fuzzy
+msgid "Input 1"
+msgstr "Улаз"
+
+#, fuzzy
+msgid "Input 2"
 msgstr "Улаз"
 
 #, fuzzy
@@ -10272,11 +10347,12 @@ msgid "Jersey"
 msgstr "Дрес"
 
 #, fuzzy
+msgid "Job Manager"
+msgstr "ЈобМанагер"
+
+#, fuzzy
 msgid "Job overview"
 msgstr "Нема услуге"
-
-msgid "JobManager"
-msgstr "ЈобМанагер"
 
 msgid "Jordan"
 msgstr "Јордан"
@@ -10402,6 +10478,10 @@ msgstr "Кернел"
 #, fuzzy, python-format
 msgid "Kernel (Box):\t%s"
 msgstr "Кернел (кутија):% с"
+
+#, fuzzy
+msgid "Kernel modules list"
+msgstr "Отворите листу филмова"
 
 msgid "Kernel version"
 msgstr "Верзија кернела"
@@ -10841,6 +10921,10 @@ msgstr "Живети"
 msgid "Live TV Actions"
 msgstr "ТВ акције уживо"
 
+#, fuzzy
+msgid "Live process list"
+msgstr "Поглед на листу"
+
 msgid "Load"
 msgstr "Оптеретити"
 
@@ -11065,6 +11149,14 @@ msgstr ""
 msgid "MOUSE"
 msgstr "Миша"
 
+#, fuzzy
+msgid "MTD"
+msgstr "МТУ"
+
+#, fuzzy
+msgid "MTD partitions"
+msgstr "Партиција (а)"
+
 msgid "MTU"
 msgstr "МТУ"
 
@@ -11142,6 +11234,10 @@ msgstr "Управљати% с"
 msgid "Manage Locale/Language Selection settings"
 msgstr "Управљајте подешавањима локације / селекције језика"
 
+#, fuzzy
+msgid "Manage and configure your online update sources"
+msgstr "Управљајте својим интернет датотекама за ажурирање"
+
 msgid "Manage and explore directories and files."
 msgstr "Управљање и истраживање директоријума и датотека."
 
@@ -11153,7 +11249,24 @@ msgstr "Управљајте означеним% с"
 msgid "Manage the highlighted %s / list of %s"
 msgstr "Управљајте истакнутим% С / листом% с"
 
-msgid "Manage your online update files"
+#, fuzzy
+msgid "Manage update files"
+msgstr "Управљајте својим интернет датотекама за ажурирање"
+
+#, fuzzy
+msgid "Manage your cron jobs"
+msgstr "Управљајте својим интернет датотекама за ажурирање"
+
+#, fuzzy
+msgid "Manage your services"
+msgstr "Промена у режиму ТВ услуге"
+
+#, fuzzy
+msgid "Manage your software updates"
+msgstr "Управљајте својим интернет датотекама за ажурирање"
+
+#, fuzzy
+msgid "Manage your system logs"
 msgstr "Управљајте својим интернет датотекама за ажурирање"
 
 msgid "Manual"
@@ -11314,9 +11427,6 @@ msgstr "Средњи оквир за алат"
 msgid "Mem cleared"
 msgstr "МЕМ је очистио"
 
-msgid "MemInfo"
-msgstr "Меминфо"
-
 msgid "Memory Info"
 msgstr "Информације о меморији"
 
@@ -11332,6 +11442,10 @@ msgstr "Индекс меморије"
 #, fuzzy, python-format
 msgid "Memory information for %s %s"
 msgstr "Информације о меморији за% с% с"
+
+#, fuzzy
+msgid "Memory usage overview"
+msgstr "Нема услуге"
 
 msgid "Memory:"
 msgstr "Меморија:"
@@ -11502,7 +11616,8 @@ msgstr "Модулација"
 msgid "Modulator"
 msgstr "Модулација"
 
-msgid "Module"
+#, fuzzy
+msgid "Modules"
 msgstr "Модул"
 
 msgid "Moldova, Republic of"
@@ -11946,9 +12061,6 @@ msgstr "Кретање запад ..."
 msgid "Mozambique"
 msgstr "Мозамбик"
 
-msgid "Mtd"
-msgstr "Мтд"
-
 msgid "Multi"
 msgstr "Мулти"
 
@@ -11967,9 +12079,6 @@ msgstr "ЕПГ подешавања"
 
 msgid "MultiLib"
 msgstr "Мултилиб"
-
-msgid "MultiQuickButton"
-msgstr "Мултикуицкбуттон"
 
 msgid "MultiTranscoding"
 msgstr "Мултитрансцодинг"
@@ -12018,6 +12127,9 @@ msgstr "Н"
 
 msgid "N/A"
 msgstr "Н / А"
+
+msgid "NCam"
+msgstr ""
 
 msgid "NEXT"
 msgstr ""
@@ -12126,9 +12238,6 @@ msgstr "Дођите до изабраног директорија"
 msgid "Navigate up/down with UP/DOWN buttons and page up/down with LEFT/RIGHT. OK to perform the action described in the currently highlighted help."
 msgstr "Навигација горе / доле са горњим тастерима горе / доле и странице горе / доле левом / десном десном углом. ОК да извршите акцију описану у тренутно означеном помоћи."
 
-msgid "NcamInfo"
-msgstr "Нцаминфо"
-
 msgid "Ndonga"
 msgstr "Ндонга"
 
@@ -12206,6 +12315,10 @@ msgstr "Информације о мрежи"
 #, fuzzy, python-format
 msgid "Network information for %s %s"
 msgstr "Информације о мрежи за% с% с"
+
+#, fuzzy
+msgid "Network interface information"
+msgstr "Информације о мрежи"
 
 msgid "Network menu"
 msgstr "Мрежни мени"
@@ -12460,6 +12573,10 @@ msgstr "Нема менаџера ресурса"
 msgid "No satellite, terrestrial or cable tuner is configured. Please check your tuner setup."
 msgstr "Без сателитског, земаљског или кабловског тјунера је конфигуриран. Молимо вас да проверите подешавање свог тунера."
 
+#, fuzzy
+msgid "No selection."
+msgstr "Избор филма"
+
 msgid "No service"
 msgstr "Нема услуге"
 
@@ -12523,12 +12640,6 @@ msgstr "Тренутно нема тјунера."
 
 msgid "No update required!"
 msgstr "Није потребно ажурирање!"
-
-msgid "No updates available."
-msgstr "Нема доступних ажурирања."
-
-msgid "No updates were available.  Please try again later."
-msgstr "Није било доступно ниједно ажурирање.  Покушајте поново касније."
 
 #, fuzzy, python-format
 msgid "No valid mount for '%s' found!"
@@ -13402,6 +13513,12 @@ msgstr "Партиције"
 msgid "Pass-through"
 msgstr "Пролаз"
 
+msgid "Passthrough audio handling delay AC3"
+msgstr ""
+
+msgid "Passthrough audio handling delay AC3+"
+msgstr ""
+
 msgid "Password"
 msgstr "Лозинка"
 
@@ -13413,6 +13530,10 @@ msgstr "Лозинка (хттпвд)"
 
 msgid "Password Actions"
 msgstr "Акције лозинке"
+
+#, fuzzy
+msgid "Password Change"
+msgstr "Промена лозинке"
 
 msgid "Password Settings"
 msgstr "Подешавања лозинке"
@@ -13428,9 +13549,6 @@ msgstr "Лозинка је промењена."
 
 msgid "Password setup"
 msgstr "Подешавање лозинке"
-
-msgid "Password-Change"
-msgstr "Промена лозинке"
 
 #, fuzzy, python-format
 msgid "Path '%s' missing!"
@@ -14731,6 +14849,10 @@ msgstr "КуицкСелецт Ацтионс"
 msgid "RADIO"
 msgstr "Радио"
 
+#, fuzzy
+msgid "RAM"
+msgstr "Рука"
+
 msgid "RAM (Details)"
 msgstr "РАМ (детаљи)"
 
@@ -14790,9 +14912,6 @@ msgstr "Избор радио канала"
 
 msgid "Radio Channel Selection Actions"
 msgstr "Акције селекције радио канала"
-
-msgid "Ram"
-msgstr "Рам"
 
 msgid "Random"
 msgstr "Насумичан"
@@ -15512,11 +15631,12 @@ msgstr "Рестарт ГУИ сада?"
 msgid "Restart Network"
 msgstr "Поново покрените мрежу"
 
-msgid "Restart Network Adapter"
-msgstr "Поново покрените мрежни адаптер"
-
 msgid "Restart STB"
 msgstr "Поново покрените СТБ"
+
+#, fuzzy
+msgid "Restart all network interfaces and services"
+msgstr "Поново покрените мрежну везу и интерфејсе."
 
 msgid "Restart enigma"
 msgstr "Поново покрените Енигму"
@@ -15545,14 +15665,15 @@ msgstr "Вратите избрисане боукете корисника"
 msgid "Restore Plugins"
 msgstr "Вратите додатке"
 
-msgid "Restore Settings"
-msgstr "Поставке обновите"
-
 msgid "Restore System Settings"
 msgstr "Подешавања система Враћање"
 
 msgid "Restore backups"
 msgstr "Обнављање резервних копија"
+
+#, fuzzy
+msgid "Restore settings"
+msgstr "Поставке обновите"
 
 msgid "Restore settings now"
 msgstr "Вратите поставке сада"
@@ -15568,6 +15689,10 @@ msgstr "Вратите своје% с% с са новим фирмвером."
 
 msgid "Restore your backups by date."
 msgstr "Вратите резервне копије по датуму."
+
+#, fuzzy
+msgid "Restore your previously saved backup"
+msgstr "Повратак на претходну услугу"
 
 msgid "Restoring..."
 msgstr "Обнављање ..."
@@ -15697,6 +15822,9 @@ msgstr "Покрените колико често?"
 
 msgid "Run how often?"
 msgstr "Покрените колико често?"
+
+msgid "Run or schedule user scripts"
+msgstr ""
 
 msgid "Run script"
 msgstr "Скрипта"
@@ -16899,6 +17027,10 @@ msgstr "Изаберите означени утор и поновно покр�
 msgid "Select the initial position of the timeline marker. The marker is the vertical line drawn on the EPG that shows the current time. The larger the value the more the marker will move to the right showing more history and less of upcoming events."
 msgstr "Изаберите почетни положај маркера временске траке. Маркер је вертикална линија нацртана на ЕПГ-у која приказује тренутно време. Што је вредност већа, то ће се више маркер преселити у право приказивање више историје и мање предстојећих догађаја."
 
+#, fuzzy
+msgid "Select the input connector you want to use."
+msgstr "Кликните на дугме на даљинском даљину који желите да промените."
+
 msgid "Select the last item in list or move to the end of text"
 msgstr "Изаберите последњи артикал на листи или пређите на крај текста"
 
@@ -17169,6 +17301,10 @@ msgstr "Изаберите свој резервни уређај."
 msgid "Select your country. If not available select 'All'."
 msgstr "Изаберите своју земљу. Ако није доступно Изаберите \"Све\"."
 
+#, fuzzy
+msgid "Select your keymap configuration"
+msgstr "Ресетујте мрежну конфигурацију"
+
 msgid "Select your provider and region. If not present in this list you will need to select one of the other 'Service scan types'."
 msgstr "Изаберите свог провајдера и региона. Ако није присутно на овој листи, мораћете да одаберете једну од осталих врста скенирања услуга '."
 
@@ -17208,6 +17344,10 @@ msgstr "Одабир сателити 2 (УСАЛС)"
 
 msgid "Selecting this option allows you to configure a group of satellites in one block."
 msgstr "Одабир ове опције омогућава вам да конфигуришете групу сателита у једном блоку."
+
+#, fuzzy
+msgid "Selection error"
+msgstr "Изаберите интерфејс"
 
 msgid "Send DiSEqC"
 msgstr "Пошаљи ДИСЕКЦ"
@@ -17409,6 +17549,10 @@ msgstr "СервицеИнфо"
 
 msgid "Services"
 msgstr "Услуге"
+
+#, fuzzy
+msgid "Services Settings"
+msgstr "Подешавања уређаја"
 
 msgid "Services may be grouped in bouquets. When enabled, you can use more than one bouquet."
 msgstr "Услуге се могу групирати у букетима. Када је омогућен, можете користити више букета."
@@ -17780,6 +17924,10 @@ msgstr "Прикажи кутију портала"
 msgid "Show CI messages"
 msgstr "Прикажи ЦИ поруке"
 
+#, fuzzy
+msgid "Show CPU details"
+msgstr "Покажите детаље догађаја"
+
 msgid "Show Clients"
 msgstr "Прикажи клијенте"
 
@@ -18086,6 +18234,10 @@ msgstr "Прикажи Црипто информације у Инфобар"
 msgid "Show current directory"
 msgstr "Прикажи тренутни директориј"
 
+#, fuzzy
+msgid "Show current image version"
+msgstr "Покажи северсион"
+
 msgid "Show default after description"
 msgstr "Прикажи подразумевано након описа"
 
@@ -18221,6 +18373,10 @@ msgstr "Покажи мени"
 
 msgid "Show message when recording starts"
 msgstr "Прикажи поруку приликом почетка снимања"
+
+#, fuzzy
+msgid "Show mounted filesystems"
+msgstr "Избор датотечног система."
 
 msgid "Show movie lengths in movie list"
 msgstr "Прикажи дужине филма на листи филмова"
@@ -18862,9 +19018,6 @@ msgstr "Софтцам Сетуп"
 msgid "Softcam setup"
 msgstr "Софтцам Сетуп"
 
-msgid "Softcam-Setup"
-msgstr "Софтцам-Сетуп"
-
 msgid "SoftcamSetup"
 msgstr "Софтцамсетеп"
 
@@ -18900,9 +19053,6 @@ msgid ""
 "Software update starting, please wait.\n"
 "\n"
 msgstr "Покретање ажурирања софтвера, причекајте."
-
-msgid "Software-Manager"
-msgstr "Софтвер-менаџер"
 
 msgid "Softwaremanager..."
 msgstr "Софтвареманагер ..."
@@ -19566,8 +19716,9 @@ msgstr "Величина замене:"
 msgid "Swap services"
 msgstr "Замените услуге"
 
-msgid "SwapManager"
-msgstr "Свапманагер"
+#, fuzzy
+msgid "Swap space details"
+msgstr "Покажите детаље догађаја"
 
 msgid "SwaptoNand"
 msgstr "Сваптоанланд"
@@ -19737,8 +19888,15 @@ msgstr "Системски додатак"
 msgid "System Settings"
 msgstr "Системска подешавања"
 
+msgid "System Tools (OPD)"
+msgstr ""
+
 msgid "System cleaning"
 msgstr "Чишћење система"
+
+#, fuzzy
+msgid "System level details"
+msgstr "Покажите детаље догађаја"
 
 msgid "System temperature"
 msgstr "Температура система"
@@ -19749,9 +19907,6 @@ msgstr "Температура система:% с"
 
 msgid "System: "
 msgstr "Систем:"
-
-msgid "SystemInfo"
-msgstr "СистемИнфо"
 
 msgid "Systeminfo"
 msgstr "СистемИнфо"
@@ -20418,7 +20573,8 @@ msgstr "Не постоји сигнал за закључавање!"
 msgid "There might not be enough space on the selected partition. Do you really want to continue?"
 msgstr "Можда нема довољно простора на одабраној партицији. Да ли стварно желите да наставите?"
 
-msgid "There was an error downloading the update list.  Please try again."
+#, fuzzy
+msgid "There was an error downloading the update list. Please try again."
 msgstr "Дошло је до грешке приликом преузимања листе ажурирања.  Покушајте поново."
 
 #, fuzzy, python-format
@@ -21142,6 +21298,9 @@ msgstr "Режим тона"
 msgid "Tonga"
 msgstr "Тонга"
 
+msgid "Tools for installing, removing, and maintaining IPK packages."
+msgstr ""
+
 msgid "Top"
 msgstr "На врху"
 
@@ -21586,6 +21745,10 @@ msgstr "Непозната услуга"
 msgid "Unknown group: %d"
 msgstr "Непозната група:% Д"
 
+#, fuzzy
+msgid "Unknown info type: "
+msgstr "Непозната група:% Д"
+
 msgid "Unknown service!"
 msgstr "Непозната услуга!"
 
@@ -21680,9 +21843,6 @@ msgstr "Ажурирање додатка"
 msgid "Update Plugins"
 msgstr "Ажурирајте додатке"
 
-msgid "Update completed."
-msgstr "Ажурирање завршено."
-
 msgid "Update delay for Events in List"
 msgstr "Ажурирање кашњења за догађаје на листи"
 
@@ -21708,9 +21868,6 @@ msgstr ""
 
 msgid "Update the selected plugin / list of plugins"
 msgstr "Ажурирајте одабрани додатак / списак додатака"
-
-msgid "Updated"
-msgstr "Ажуриран"
 
 msgid "Updated version unknown"
 msgstr "Ажурирана верзија непозната"
@@ -21995,6 +22152,12 @@ msgstr "Половни Фласх"
 
 msgid "Used service scan type"
 msgstr "Половне тип скенирања услуга"
+
+msgid "Used to specify delay when switching between services and AC3 passthrough is enabled."
+msgstr ""
+
+msgid "Used to specify delay when switching between services and AC3+/Atmos passthrough is enabled."
+msgstr ""
 
 msgid "Used:"
 msgstr "Користи се:"
@@ -22293,6 +22456,10 @@ msgstr "Погледајте телетекст ..."
 msgid "View the archive contents"
 msgstr "Погледајте садржај архиве"
 
+#, fuzzy
+msgid "View the default files included in backups"
+msgstr "Подразумеване датотеке / мапе за израду резервне копије"
+
 msgid "View the next item in a list"
 msgstr "Погледајте следећи артикал на листи"
 
@@ -22304,6 +22471,10 @@ msgstr "Прегледајте претходну ставку на листи"
 
 msgid "View video CD..."
 msgstr "Погледајте видео ЦД ..."
+
+#, fuzzy
+msgid "View your OScam information"
+msgstr "Информације о мрежи"
 
 msgid "View, install and remove available or installed packages."
 msgstr "Преглед, инсталирање и уклањање доступних или инсталираних пакета."
@@ -23338,10 +23509,6 @@ msgstr "Ваш пријемник може користити амплитуду
 msgid "Your receiver does not have an internet connection"
 msgstr "Ваш пријемник нема интернетску везу"
 
-#, fuzzy, python-format
-msgid "Your receiver might be unusable now.  Please consult the manual for further assistance before rebooting your %s %s."
-msgstr "Ваш пријемник је можда сада неупотребљив.  Пре поновног покретања% с% с."
-
 msgid "Youth"
 msgstr "Младост"
 
@@ -23530,9 +23697,6 @@ msgstr "Алпхарев тада најновије"
 
 msgid "am"
 msgstr "у ам"
-
-msgid "an internal error has occur"
-msgstr "Дошло је до интерне грешке"
 
 msgid "aqua"
 msgstr "акуа"
@@ -24350,8 +24514,9 @@ msgstr "Озбиљан / класичан / религијски / истори�
 msgid "service PIN"
 msgstr "сервисни пин"
 
-msgid "services"
-msgstr "услуге"
+#, fuzzy
+msgid "services Settings"
+msgstr "Подешавања уређаја"
 
 msgid "share:"
 msgstr "Схаре:"
@@ -24677,55 +24842,6 @@ msgstr "да"
 
 msgid "yes (keep feeds)"
 msgstr "Да (наставите храни)"
-
-#, python-brace-format
-msgid "{0} feed catalog package was updated."
-msgid_plural "{0} feed catalog packages were updated."
-msgstr[0] "{0} feed catalog package was updated."
-msgstr[1] "{0} feed catalog packages were updated."
-msgstr[2] "{0} feed catalog packages were updated."
-
-#, python-brace-format
-msgid "{0} package was configured."
-msgid_plural "{0} packages were configured."
-msgstr[0] "{0} package was configured."
-msgstr[1] "{0} packages were configured."
-msgstr[2] "{0} packages were configured."
-
-#, python-brace-format
-msgid "{0} package was downloaded."
-msgid_plural "{0} packages were downloaded."
-msgstr[0] "{0} package was downloaded."
-msgstr[1] "{0} packages were downloaded."
-msgstr[2] "{0} packages were downloaded."
-
-#, python-brace-format
-msgid "{0} package was identified for upgrade."
-msgid_plural "{0} packages were identified for upgrade."
-msgstr[0] "{0} package was identified for upgrade."
-msgstr[1] "{0} packages were identified for upgrade."
-msgstr[2] "{0} packages were identified for upgrade."
-
-#, python-brace-format
-msgid "{0} package was installed."
-msgid_plural "{0} packages were installed."
-msgstr[0] "{0} package was installed."
-msgstr[1] "{0} packages were installed."
-msgstr[2] "{0} packages were installed."
-
-#, python-brace-format
-msgid "{0} package was removed."
-msgid_plural "{0} packages were removed."
-msgstr[0] "{0} package was removed."
-msgstr[1] "{0} packages were removed."
-msgstr[2] "{0} packages were removed."
-
-#, python-brace-format
-msgid "{0} package was upgraded."
-msgid_plural "{0} packages were upgraded."
-msgstr[0] "{0} package was upgraded."
-msgstr[1] "{0} packages were upgraded."
-msgstr[2] "{0} packages were upgraded."
 
 #, python-brace-format
 msgid "{name} it has been uninstalled."
