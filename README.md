@@ -2,4 +2,4 @@
 
 ## Translation status
 
-[![Translation status](https://hosted.weblate.org/widgets/opd/-/enigma2-7-6/open-graph.png)](https://hosted.weblate.org/projects/opd/enigma2-7-6/)
+[![Translation status](http://127.0.0.1:8000/widgets/enigma2/-/enigma/open-graph.png)](http://127.0.0.1:8000/projects/enigma2/enigma/)
