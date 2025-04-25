@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Opendroid\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-15 06:02+0200\n"
+"POT-Creation-Date: 2025-04-23 17:39+0200\n"
 "PO-Revision-Date: 2024-09-20 23:58+0200\n"
 "Last-Translator: OPD Team <opendroid2013@gmail.com>\n"
 "Language-Team: Team Linux-box <www.linux-box.es>\n"
@@ -883,17 +883,17 @@ msgstr[1] "%d Minutos"
 msgid "%d Minutes"
 msgstr "%d Minutos"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Month"
 msgid_plural "%d Months"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d Min"
+msgstr[1] "%d Mins"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Pixel"
 msgid_plural "%d Pixels"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d Píxel"
+msgstr[1] "%d Píxel"
 
 #, python-format
 msgid "%d Pixel wide"
@@ -915,17 +915,18 @@ msgstr[1] "%d segundos"
 msgid "%d Seconds"
 msgstr "%d Segundos"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Week"
 msgid_plural "%d Weeks"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Semanal"
+msgstr[1] "Semanal"
 
-#, python-format
+#
+#, fuzzy, python-format
 msgid "%d Year"
 msgid_plural "%d Years"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Año"
+msgstr[1] "Año"
 
 #. TRANSLATORS: Intermediate scanning result, '%d' channel(s) have been found so far
 #, python-format
@@ -939,6 +940,12 @@ msgid "%d core"
 msgid_plural "%d cores"
 msgstr[0] "%d núcleo"
 msgstr[1] "%d núcleos"
+
+#, fuzzy, python-format
+msgid "%d feed catalog package was updated."
+msgid_plural "%d feed catalog packages were updated."
+msgstr[0] "%d paquete actualizado."
+msgstr[1] "%d paquetes actualizados."
 
 #, python-format
 msgid "%d kB"
@@ -1003,6 +1010,48 @@ msgstr[1] ""
 #, python-format
 msgid "%d package upgraded."
 msgid_plural "%d packages upgraded."
+msgstr[0] "%d paquete actualizado."
+msgstr[1] "%d paquetes actualizados."
+
+#, fuzzy, python-format
+msgid "%d package was configured."
+msgid_plural "%d packages were configured."
+msgstr[0] "%d paquete actualizado."
+msgstr[1] "%d paquetes actualizados."
+
+#, fuzzy, python-format
+msgid "%d package was deselected."
+msgid_plural "%d packages were deselected."
+msgstr[0] "%d paquete fue deseleccionado."
+msgstr[1] "%d paquete fue deseleccionado."
+
+#, fuzzy, python-format
+msgid "%d package was downloaded."
+msgid_plural "%d packages were downloaded."
+msgstr[0] "%d paquete actualizado."
+msgstr[1] "%d paquetes actualizados."
+
+#, fuzzy, python-format
+msgid "%d package was identified for upgrade."
+msgid_plural "%d packages were identified for upgrade."
+msgstr[0] "%d paquete actualizado."
+msgstr[1] "%d paquetes actualizados."
+
+#, fuzzy, python-format
+msgid "%d package was installed."
+msgid_plural "%d packages were installed."
+msgstr[0] "%d paquete fue instalado."
+msgstr[1] "%d paquete fue instalado."
+
+#, fuzzy, python-format
+msgid "%d package was removed."
+msgid_plural "%d packages were removed."
+msgstr[0] "%d paquete actualizado."
+msgstr[1] "%d paquetes actualizados."
+
+#, fuzzy, python-format
+msgid "%d package was upgraded."
+msgid_plural "%d packages were upgraded."
 msgstr[0] "%d paquete actualizado."
 msgstr[1] "%d paquetes actualizados."
 
@@ -1994,6 +2043,10 @@ msgstr "Añadir nueva entrada de canal cuádruple"
 msgid "Add RecordTimer"
 msgstr "Añadir temporizador de grabación"
 
+#, fuzzy
+msgid "Add Service"
+msgstr "Añadir canal"
+
 #
 msgid "Add Service To Bouquet"
 msgstr "Añadir canal al grupo"
@@ -2018,11 +2071,19 @@ msgstr "Añadir temporizador de zapeo"
 msgid "Add a DNS entry"
 msgstr "Añadir una entrada DNS"
 
+#, fuzzy
+msgid "Add a RADIO service to the Volume Offset list"
+msgstr "Añadir un servicio a la lista de compensaciones de volumen"
+
 msgid "Add a RecordTimer"
 msgstr "Añadir un temporizador de grabación"
 
 msgid "Add a RecordTimer for current event"
 msgstr "Añadir un temporizador de grabación para el programa actual"
+
+#, fuzzy
+msgid "Add a TV service to the Volume Offset list"
+msgstr "Añadir un servicio a la lista de compensaciones de volumen"
 
 msgid "Add a ZapTimer for current event"
 msgstr "Añadir un temporizador de zapeo para el programa actual"
@@ -2050,7 +2111,8 @@ msgstr "Añadir nuevo temporizador"
 msgid "Add a new title"
 msgstr "Añadir un nuevo título"
 
-msgid "Add a service to the Volume Offsets list"
+#, fuzzy
+msgid "Add a service to the Volume Offset list"
 msgstr "Añadir un servicio a la lista de compensaciones de volumen"
 
 msgid "Add a timer for the current event"
@@ -2135,7 +2197,8 @@ msgstr ""
 msgid "Add the current directory as a bookmark"
 msgstr "Añadir el directorio actual como favorito"
 
-msgid "Add the current service to the Volume Offsets list"
+#, fuzzy
+msgid "Add the current/active service to the Volume Offset list"
 msgstr "Añadir el servicio actual a la lista de compensaciones de volumen"
 
 msgid "Add the selected service to a bouquet or alternative"
@@ -2160,6 +2223,10 @@ msgstr ""
 
 msgid "Add/Remove highlighted plugin to/from update list"
 msgstr ""
+
+#, fuzzy
+msgid "Add/Remove the current service to/from the Volume Offset list"
+msgstr "Añadir el servicio actual a la lista de compensaciones de volumen"
 
 msgid "Adding schedule..."
 msgstr "Añadiendo calendario..."
@@ -2884,6 +2951,10 @@ msgstr "Comenzando enfoque automático..."
 msgid "Auto multi-selection"
 msgstr ""
 
+#, fuzzy
+msgid "Auto show volume level"
+msgstr "Nivel de volumen automático"
+
 msgid "Auto shut down"
 msgstr "Apagado automático"
 
@@ -3022,6 +3093,35 @@ msgstr "Pulsación tecla azul: corta / larga"
 #
 msgid "Back"
 msgstr "Atrás"
+
+#
+#, fuzzy
+msgid "Back USB"
+msgstr "Atrás"
+
+msgid "Back USB 3.0"
+msgstr ""
+
+msgid "Back USB-C"
+msgstr ""
+
+msgid "Back, inner USB"
+msgstr ""
+
+msgid "Back, left USB"
+msgstr ""
+
+msgid "Back, lower USB"
+msgstr ""
+
+msgid "Back, outer USB"
+msgstr ""
+
+msgid "Back, right USB"
+msgstr ""
+
+msgid "Back, upper USB"
+msgstr ""
 
 msgid "Back/Recall"
 msgstr "Volver/Recuperar"
@@ -5603,6 +5703,10 @@ msgid "Currently Defined Volume Offsets:"
 msgstr "Compensaciones de volumen definidas actualmente:"
 
 #, fuzzy
+msgid "Currently Remembered Volume Levels:"
+msgstr "Compensaciones de volumen definidas actualmente:"
+
+#, fuzzy
 msgid "Currently the commit log cannot be retrieved - please try later again."
 msgstr "No se puede recuperar la información de geolocalización, por favor inténtelo de nuevo más tarde."
 
@@ -6089,6 +6193,10 @@ msgstr ""
 msgid "Define the file system mount options."
 msgstr ""
 
+#, fuzzy
+msgid "Defined volume offset"
+msgstr "Desplazamiento de volumen predeterminado"
+
 msgid "Defines how fast the time jumps are repeated. Values lower than 500ms may be problematic with NAS."
 msgstr "Define cuan rápido los saltos de tiempo se repiten. Valores inferior a 500ms pueden ser problemáticos con los NAS."
 
@@ -6279,9 +6387,6 @@ msgstr "Eliminar el carácter debajo el cursor de texto"
 
 msgid "Delete the current time shift buffer and restart time shift"
 msgstr "Eliminar buffer actual y reiniciar timeshift"
-
-msgid "Delete the currently highlighted service from the Volume Offsets list"
-msgstr "Eliminar el servicio actualmente resaltado de la lista de desviaciones de volumen"
 
 msgid "Delete the currently selected timer"
 msgstr "Eliminar el temporizador seleccionado"
@@ -7423,9 +7528,6 @@ msgstr "Habilitar edición de grupos"
 #, fuzzy
 msgid "Enable ClearMem"
 msgstr "Habilitar modo movimiento"
-
-msgid "Enable Dolby Digital / Dolby AC-3 offsets"
-msgstr "Habilitar compensaciones Dolby Digital / Dolby AC-3"
 
 msgid "Enable EIT EPG"
 msgstr "Habilitar EPG EIT"
@@ -9229,6 +9331,12 @@ msgstr "Viernes"
 msgid "From :"
 msgstr "Desde:"
 
+msgid "Front USB"
+msgstr ""
+
+msgid "Front USB 3.0"
+msgstr ""
+
 #, fuzzy
 msgid "Front processor version"
 msgstr "Versión del procesador principal"
@@ -10801,6 +10909,14 @@ msgstr ""
 msgid "Internal Reader /dev/sci1:"
 msgstr ""
 
+#, fuzzy
+msgid "Internal SSD"
+msgstr "Interno"
+
+#, fuzzy
+msgid "Internal USB"
+msgstr "Interno"
+
 #
 msgid "Internal flash"
 msgstr "Flash interna"
@@ -11334,6 +11450,10 @@ msgstr ""
 msgid "Last used share: "
 msgstr "Último intercambio: "
 
+#, fuzzy
+msgid "Last used/set volume"
+msgstr "Último intercambio: "
+
 msgctxt "third event: 'third' event label"
 msgid "Later"
 msgstr "Luego"
@@ -11370,6 +11490,11 @@ msgstr "Libano"
 msgid "Left"
 msgstr "Izquierda"
 
+#
+#, fuzzy
+msgid "Left USB"
+msgstr "Izquierda"
+
 msgid "Left column"
 msgstr ""
 
@@ -11382,6 +11507,12 @@ msgstr ""
 #
 msgid "Left from service name"
 msgstr "A la izquierda del nombre de canal"
+
+msgid "Left, back USB"
+msgstr ""
+
+msgid "Left, front USB"
+msgstr ""
 
 msgid "Left, wrapped"
 msgstr "izquierda, envuelto"
@@ -11716,6 +11847,10 @@ msgstr "Bucle a"
 #
 msgid "Lower Framerate saves CPU Time."
 msgstr "Menor velocidad de fotogramas ahorra tiempo de CPU"
+
+#, fuzzy
+msgid "Lower USB"
+msgstr "Minúscula"
 
 msgid "Lower case"
 msgstr "Minúscula"
@@ -12165,6 +12300,9 @@ msgstr ""
 msgid "Mexico"
 msgstr "México"
 
+msgid "Micro SD"
+msgstr ""
+
 msgid "Micronesia, Federated States of"
 msgstr "Estados Federados de Micronesia"
 
@@ -12218,6 +12356,10 @@ msgid "Mipsel"
 msgstr "Mipsel"
 
 msgid "Miscellaneous"
+msgstr "Varios"
+
+#, fuzzy
+msgid "Miscellaneous languages"
 msgstr "Varios"
 
 #, python-format
@@ -14655,6 +14797,10 @@ msgid "Playback Settings"
 msgstr "Ajustes de reproducción"
 
 #, fuzzy
+msgid "Playback Time:"
+msgstr "Temporizador de retroceso"
+
+#, fuzzy
 msgid "Playback, Recording, VOD & Time Shift"
 msgstr "Grabaciones y Timeshift"
 
@@ -16816,6 +16962,11 @@ msgstr "Remarcar subtítulos"
 msgid "Right"
 msgstr "Derecha"
 
+#
+#, fuzzy
+msgid "Right USB"
+msgstr "Derecha"
+
 msgid "Right column"
 msgstr ""
 
@@ -16828,6 +16979,12 @@ msgstr ""
 #
 msgid "Right from service name"
 msgstr "A la derecha del nombre de canal"
+
+msgid "Right, back USB"
+msgstr ""
+
+msgid "Right, front USB"
+msgstr ""
 
 msgid "Right, wrapped"
 msgstr "derecha, envuelto"
@@ -16947,6 +17104,15 @@ msgstr "Configurar SABnzbd"
 msgid "SAT"
 msgstr "SAT"
 
+msgid "SATA"
+msgstr ""
+
+msgid "SATA BACK"
+msgstr ""
+
+msgid "SATA FRONT"
+msgstr ""
+
 msgid "SATPI Setting Actions"
 msgstr "Acciones de ajuste del ATPI"
 
@@ -16958,6 +17124,10 @@ msgstr "Alcance de búsqueda optimizado SCPC"
 
 msgid "SCR timing adjustment, in conjunction with SCR socket and operation of several SCR devices with one cable."
 msgstr "Ajuste de la sincronización del SCR, junto con la toma del SCR y el funcionamiento de varios dispositivos SCR con un solo cable."
+
+#, fuzzy
+msgid "SD"
+msgstr "OSD"
 
 #, python-format
 msgid "SDcard slot %s%s"
@@ -17465,6 +17635,9 @@ msgstr "Seleccione \"A\" o \"B\" si su sistema de antena lo requiere, de lo cont
 msgid "Select 'Band' if using a 'Universal' LNB, otherwise consult your LNB specifications."
 msgstr "Seleccione \"banda\" si utiliza un LNB \"universal\"; en caso contrario, consulte la hoja de especificaciones de su LNB."
 
+msgid "Select 'Disabled' to disable all automated volume adjustments. Select 'Defined volume offsets' to assign a specified offset to the service's volume level. Select 'Last used/set volume' to remember the volume level last used for each service."
+msgstr ""
+
 msgid "Select 'Enable' to start the CI+ helper."
 msgstr ""
 
@@ -17497,9 +17670,6 @@ msgstr "Seleccione \"Sí\" si se debe comprobar el tráfico de la red antes de a
 
 msgid "Select 'Yes' if this tuner is connected to the SCR device through another tuner, otherwise select 'No'."
 msgstr "Seleccione \"sí\" si este sintonizador está conectado al dispositivo SCR a través de otro sintonizador, de lo contrario seleccione \"no\"."
-
-msgid "Select 'Yes' if volume adjustments should be applied to Dolby sound tracks."
-msgstr "Seleccione \"Sí\" si los ajustes de volumen deben aplicarse a las pistas de sonido Dolby."
 
 msgid "Select 'Yes' if you are using a multi-switch which requires a DiSEqC Port-A command signal. Select 'No' for all other setups."
 msgstr "Seleccione \"Sí\" si está utilizando un multiswitch que requiere una señal de comando DiSEqC en el Puerto-A. Seleccione 'No' para todas las demás configuraciones."
@@ -17680,6 +17850,10 @@ msgstr "Si se ajusta a ‘sí’, la lista de canales aparecerá en los cambios 
 
 msgid "Select 'Yes' to show the current directory in the list of directories. Note that File Commander must be restarted for this change to take effect."
 msgstr ""
+
+#, fuzzy
+msgid "Select 'Yes' to show the volume level on any automated changes of volume level."
+msgstr "Si se ajusta a 'sí', se mostrarán los grupos cada vez que abras el EPG."
 
 #, fuzzy
 msgid "Select 'Yes' to show this plugin in the Plugin Browser."
@@ -18923,6 +19097,10 @@ msgstr ""
 
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr "Configura el tipo de indicación de progreso en la pantalla de selección de canales."
+
+#, fuzzy, python-format
+msgid "Set the volume level for the '%s' service."
+msgstr "Seleccione el primer elemento de la lista"
 
 #, python-format
 msgid "Set the volume offset for the '%s' service."
@@ -22767,6 +22945,10 @@ msgstr ""
 msgid "Toggle between bouquet/EPG lists"
 msgstr "Alternar entre listas grupos/epg"
 
+#, fuzzy
+msgid "Toggle between the available TV and RADIO services"
+msgstr "Cambia entre televisión y radio"
+
 msgid "Toggle display of image information"
 msgstr ""
 
@@ -23244,6 +23426,12 @@ msgstr "USALS"
 msgid "USALS automatically moves a motorized dish to the correct satellite based on the coordinates entered by the user. Without USALS each satellite will need to be setup and saved individually."
 msgstr ""
 
+msgid "USB 2.0 (Back, inner)"
+msgstr ""
+
+msgid "USB 3.0 (Back, outer)"
+msgstr ""
+
 msgid "USB Disk Format"
 msgstr ""
 
@@ -23553,6 +23741,10 @@ msgstr "Saltos superiores -"
 
 msgid "Uphops: "
 msgstr "Saltos superiores: "
+
+#, fuzzy
+msgid "Upper USB"
+msgstr "USB superior"
 
 #, fuzzy
 msgid "Upper case"
@@ -24245,17 +24437,22 @@ msgstr "Modo voltaje"
 msgid "Volume"
 msgstr "Volumen"
 
-msgid "Volume Adjust"
-msgstr "Ajustar volumen"
-
 msgid "Volume Adjust Actions"
 msgstr ""
 
 msgid "Volume Adjust Service Selection"
 msgstr ""
 
+#, fuzzy
+msgid "Volume Adjust Service Selection Actions"
+msgstr "Mostrar selección de subcanal"
+
 msgid "Volume Adjust Settings"
 msgstr ""
+
+#, fuzzy
+msgid "Volume adjustment mode"
+msgstr "Ajustar volumen"
 
 msgid "Volume down"
 msgstr "Bajar volumen"
@@ -25739,8 +25936,14 @@ msgstr "Descargando"
 msgid "drama (general)"
 msgstr "Película / drama (general)"
 
+msgid "eMMC"
+msgstr ""
+
 #, python-format
 msgid "eMMC slot %s%s"
+msgstr ""
+
+msgid "eSATA"
 msgstr ""
 
 msgid "east"

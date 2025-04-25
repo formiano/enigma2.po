@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Opendroid\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-15 06:02+0200\n"
+"POT-Creation-Date: 2025-04-23 17:39+0200\n"
 "PO-Revision-Date: 2024-09-21 00:00+0200\n"
 "Last-Translator: OPD Team <opendroid2013@gmail.com>\n"
 "Language-Team: TimoJ/Samzam/Habbe\n"
@@ -876,17 +876,17 @@ msgstr[1] "%d Minuuttia"
 msgid "%d Minutes"
 msgstr "%d Minuuttia"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Month"
 msgid_plural "%d Months"
-msgstr[0] "%d Kuukausi"
-msgstr[1] "%d Kuukaudet"
+msgstr[0] "%d minuutti"
+msgstr[1] "%d minuuttia"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Pixel"
 msgid_plural "%d Pixels"
-msgstr[0] "%d Pikseli"
-msgstr[1] "%d Pikselit"
+msgstr[0] "%d Pikseliä"
+msgstr[1] "%d Pikseliä"
 
 #, python-format
 msgid "%d Pixel wide"
@@ -908,17 +908,17 @@ msgstr[1] "%d sekuntia"
 msgid "%d Seconds"
 msgstr "%d Sekuntia"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Week"
 msgid_plural "%d Weeks"
-msgstr[0] "%d Viikko"
-msgstr[1] "%d Viikot"
+msgstr[0] "Viikoittain"
+msgstr[1] "Viikoittain"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Year"
 msgid_plural "%d Years"
-msgstr[0] "%d Vuosi"
-msgstr[1] "%d Vuodet"
+msgstr[0] "Vuosi"
+msgstr[1] "Vuosi"
 
 #. TRANSLATORS: Intermediate scanning result, '%d' channel(s) have been found so far
 #, python-format
@@ -932,6 +932,12 @@ msgid "%d core"
 msgid_plural "%d cores"
 msgstr[0] "%d ydin"
 msgstr[1] "%d ydintä"
+
+#, fuzzy, python-format
+msgid "%d feed catalog package was updated."
+msgid_plural "%d feed catalog packages were updated."
+msgstr[0] "%d paketti on päivitetty"
+msgstr[1] "%d paketit on päivitetty."
 
 #, python-format
 msgid "%d kB"
@@ -994,6 +1000,48 @@ msgstr[1] "%d paketit on merkitty päivitettäväksi."
 #, python-format
 msgid "%d package upgraded."
 msgid_plural "%d packages upgraded."
+msgstr[0] "%d Paketti päivitetty."
+msgstr[1] "%d Pakettia päivitetty."
+
+#, fuzzy, python-format
+msgid "%d package was configured."
+msgid_plural "%d packages were configured."
+msgstr[0] "%d Paketti päivitetty."
+msgstr[1] "%d Pakettia päivitetty."
+
+#, fuzzy, python-format
+msgid "%d package was deselected."
+msgid_plural "%d packages were deselected."
+msgstr[0] "%d paketin valinta poistettu."
+msgstr[1] "%d paketin valinta poistettu."
+
+#, fuzzy, python-format
+msgid "%d package was downloaded."
+msgid_plural "%d packages were downloaded."
+msgstr[0] "%d Paketti päivitetty."
+msgstr[1] "%d Pakettia päivitetty."
+
+#, fuzzy, python-format
+msgid "%d package was identified for upgrade."
+msgid_plural "%d packages were identified for upgrade."
+msgstr[0] "%d paketti, joka on merkitty päivitettäväksi."
+msgstr[1] "%d paketit on merkitty päivitettäväksi."
+
+#, fuzzy, python-format
+msgid "%d package was installed."
+msgid_plural "%d packages were installed."
+msgstr[0] "%d asennetut paketti."
+msgstr[1] "%d asennetut paketit."
+
+#, fuzzy, python-format
+msgid "%d package was removed."
+msgid_plural "%d packages were removed."
+msgstr[0] "%d paketti, joka on merkitty poistettavaksi."
+msgstr[1] "%d paketit, jotka on merkitty poistettavaksi."
+
+#, fuzzy, python-format
+msgid "%d package was upgraded."
+msgid_plural "%d packages were upgraded."
 msgstr[0] "%d Paketti päivitetty."
 msgstr[1] "%d Pakettia päivitetty."
 
@@ -1913,6 +1961,10 @@ msgstr "Lisää uusi lähetin ryhmä"
 msgid "Add RecordTimer"
 msgstr "Lisää ajastus"
 
+#, fuzzy
+msgid "Add Service"
+msgstr "Lisää kanava"
+
 msgid "Add Service To Bouquet"
 msgstr "Lisää kanava suosikkilistalle"
 
@@ -1934,11 +1986,19 @@ msgstr "Lisää kanavanvaihto ajastus"
 msgid "Add a DNS entry"
 msgstr "Lisää DNS merkintä"
 
+#, fuzzy
+msgid "Add a RADIO service to the Volume Offset list"
+msgstr "Lisää kanavan Äänen voimakkuuden Offsetti listalle"
+
 msgid "Add a RecordTimer"
 msgstr "Lisää ajastus"
 
 msgid "Add a RecordTimer for current event"
 msgstr "Lisää tallennusajastus tähän ohjelmaan"
+
+#, fuzzy
+msgid "Add a TV service to the Volume Offset list"
+msgstr "Lisää kanavan Äänen voimakkuuden Offsetti listalle"
 
 msgid "Add a ZapTimer for current event"
 msgstr "Lisää kanavanvaihtoajastus tähän ohjelmaan"
@@ -1964,7 +2024,8 @@ msgstr "Lisää uusi ajastus"
 msgid "Add a new title"
 msgstr "Lisää uusi tallenne"
 
-msgid "Add a service to the Volume Offsets list"
+#, fuzzy
+msgid "Add a service to the Volume Offset list"
 msgstr "Lisää kanavan Äänen voimakkuuden Offsetti listalle"
 
 msgid "Add a timer for the current event"
@@ -2041,7 +2102,8 @@ msgstr "Lisää kanava tähän kanavalistaan?"
 msgid "Add the current directory as a bookmark"
 msgstr "Lisää nykyinen hakemisto kirjanmerkiksi"
 
-msgid "Add the current service to the Volume Offsets list"
+#, fuzzy
+msgid "Add the current/active service to the Volume Offset list"
 msgstr "Lisää nykyinen kanava Äänen voimakkuuden Offsetti listalle"
 
 msgid "Add the selected service to a bouquet or alternative"
@@ -2064,6 +2126,10 @@ msgstr "Lisää / Poista korostettu lisäosa lataus listalta"
 
 msgid "Add/Remove highlighted plugin to/from update list"
 msgstr "Lisää / Poista korostettu lisäosa päivitys listalle"
+
+#, fuzzy
+msgid "Add/Remove the current service to/from the Volume Offset list"
+msgstr "Lisää nykyinen kanava Äänen voimakkuuden Offsetti listalle"
 
 msgid "Adding schedule..."
 msgstr "Lisätään aikataulu..."
@@ -2757,6 +2823,10 @@ msgstr "Automaattinen hienosäätö käynnistyy..."
 msgid "Auto multi-selection"
 msgstr "Automaattinen valinta"
 
+#, fuzzy
+msgid "Auto show volume level"
+msgstr "Automaattinen äänenvoimakkuus"
+
 msgid "Auto shut down"
 msgstr "Automaattinen sammutus"
 
@@ -2886,6 +2956,34 @@ msgstr "Näppäimen Sininen Lyhyt/Pitkä"
 
 msgid "Back"
 msgstr "Takaisin"
+
+#, fuzzy
+msgid "Back USB"
+msgstr "Takaisin"
+
+msgid "Back USB 3.0"
+msgstr ""
+
+msgid "Back USB-C"
+msgstr ""
+
+msgid "Back, inner USB"
+msgstr ""
+
+msgid "Back, left USB"
+msgstr ""
+
+msgid "Back, lower USB"
+msgstr ""
+
+msgid "Back, outer USB"
+msgstr ""
+
+msgid "Back, right USB"
+msgstr ""
+
+msgid "Back, upper USB"
+msgstr ""
 
 msgid "Back/Recall"
 msgstr "Peruuta/Uudelleen"
@@ -5365,6 +5463,10 @@ msgid "Currently Defined Volume Offsets:"
 msgstr "Tällä hetkellä määritellyt Äänen voimakkuuden poikkeamat"
 
 #, fuzzy
+msgid "Currently Remembered Volume Levels:"
+msgstr "Tällä hetkellä määritellyt Äänen voimakkuuden poikkeamat"
+
+#, fuzzy
 msgid "Currently the commit log cannot be retrieved - please try later again."
 msgstr "%s lokeja ei voi noutaa, yritä uudelleen myöhemmin."
 
@@ -5830,6 +5932,10 @@ msgstr ""
 msgid "Define the file system mount options."
 msgstr ""
 
+#, fuzzy
+msgid "Defined volume offset"
+msgstr "Oletus äänenvoimakkuuden offsetti"
+
 msgid "Defines how fast the time jumps are repeated. Values lower than 500ms may be problematic with NAS."
 msgstr "Määrittää, kuinka nopeasti aikahyppy toistetaan. Alle 500ms (0.5s) arvot voivat aiheuttaa ongelmia NAS-levyjen kanssa."
 
@@ -6012,9 +6118,6 @@ msgstr "Poista merkki tekstikohdistimen alta"
 
 msgid "Delete the current time shift buffer and restart time shift"
 msgstr "Poista nykyinen aikasiirtopuskuri ja käynnistä ajansiirto uudelleen"
-
-msgid "Delete the currently highlighted service from the Volume Offsets list"
-msgstr "Poista nykyinen korostettu kanavan äänen voimakkuuden Offsets listasta"
 
 msgid "Delete the currently selected timer"
 msgstr "Poistaaksesi vain valittu ajastus"
@@ -7067,9 +7170,6 @@ msgstr "Kanavalistojen lisäys ja poisto"
 #, fuzzy
 msgid "Enable ClearMem"
 msgstr "Suosikkien järjestely"
-
-msgid "Enable Dolby Digital / Dolby AC-3 offsets"
-msgstr "Ota Dolby Digital / Dolby AC-3 offsetti käyttöön"
 
 msgid "Enable EIT EPG"
 msgstr "Ota käyttöön EIT EPG"
@@ -8773,6 +8873,12 @@ msgstr "Perjantai"
 msgid "From :"
 msgstr "Mistä :"
 
+msgid "Front USB"
+msgstr ""
+
+msgid "Front USB 3.0"
+msgstr ""
+
 #, fuzzy
 msgid "Front processor version"
 msgstr "Edustaprosessorin versio"
@@ -10258,6 +10364,14 @@ msgstr ""
 msgid "Internal Reader /dev/sci1:"
 msgstr ""
 
+#, fuzzy
+msgid "Internal SSD"
+msgstr "Sisäinen"
+
+#, fuzzy
+msgid "Internal USB"
+msgstr "Sisäinen"
+
 msgid "Internal flash"
 msgstr "Sisäinen muisti"
 
@@ -10762,6 +10876,10 @@ msgstr "Viimeksi käytetty sarake"
 msgid "Last used share: "
 msgstr "Viimeksi käytetty jako: "
 
+#, fuzzy
+msgid "Last used/set volume"
+msgstr "Viimeksi käytetty sarake"
+
 msgctxt "third event: 'third' event label"
 msgid "Later"
 msgstr "Myöhemmin"
@@ -10794,6 +10912,10 @@ msgstr "Libanoni"
 msgid "Left"
 msgstr "Vasen"
 
+#, fuzzy
+msgid "Left USB"
+msgstr "Vasen"
+
 msgid "Left column"
 msgstr "Vasen sarake"
 
@@ -10805,6 +10927,12 @@ msgstr "Vasemman sarakkeen tiedostolajittelu"
 
 msgid "Left from service name"
 msgstr "Kanavanimestä vasemmalle"
+
+msgid "Left, back USB"
+msgstr ""
+
+msgid "Left, front USB"
+msgstr ""
 
 msgid "Left, wrapped"
 msgstr "vasemmalla, rivitä teksti"
@@ -11113,6 +11241,10 @@ msgstr "Läpisyöttö"
 
 msgid "Lower Framerate saves CPU Time."
 msgstr "Matalampi kuvataajuus vähentää CPU-kuormaa"
+
+#, fuzzy
+msgid "Lower USB"
+msgstr "Pienet kirjaimet"
 
 msgid "Lower case"
 msgstr "Pienet kirjaimet"
@@ -11525,6 +11657,9 @@ msgstr "Mittaustila"
 msgid "Mexico"
 msgstr "Meksiko"
 
+msgid "Micro SD"
+msgstr ""
+
 msgid "Micronesia, Federated States of"
 msgstr "Micronesia"
 
@@ -11575,6 +11710,10 @@ msgid "Mipsel"
 msgstr "Mipsel"
 
 msgid "Miscellaneous"
+msgstr "Sekalaiset"
+
+#, fuzzy
+msgid "Miscellaneous languages"
 msgstr "Sekalaiset"
 
 #, python-format
@@ -13855,6 +13994,10 @@ msgid "Playback Settings"
 msgstr "Toisto Asetukset"
 
 #, fuzzy
+msgid "Playback Time:"
+msgstr "Vara ajastin"
+
+#, fuzzy
 msgid "Playback, Recording, VOD & Time Shift"
 msgstr "Tallennus & Ajansiirto"
 
@@ -15890,6 +16033,10 @@ msgstr "Uudelleenrivitä tekstitys"
 msgid "Right"
 msgstr "Oikea"
 
+#, fuzzy
+msgid "Right USB"
+msgstr "Oikea"
+
 msgid "Right column"
 msgstr "Oikea sarake"
 
@@ -15901,6 +16048,12 @@ msgstr "Oikean sarakkeen tiedosto lajittelu"
 
 msgid "Right from service name"
 msgstr "Kanavanimestä oikealle"
+
+msgid "Right, back USB"
+msgstr ""
+
+msgid "Right, front USB"
+msgstr ""
 
 msgid "Right, wrapped"
 msgstr "oikealla, rivitä teksti"
@@ -16013,6 +16166,15 @@ msgstr "SABnzbd asetukset"
 msgid "SAT"
 msgstr "SAT"
 
+msgid "SATA"
+msgstr ""
+
+msgid "SATA BACK"
+msgstr ""
+
+msgid "SATA FRONT"
+msgstr ""
+
 msgid "SATPI Setting Actions"
 msgstr "SATPI asetukset"
 
@@ -16024,6 +16186,10 @@ msgstr "SCPC optimoitu hakualue"
 
 msgid "SCR timing adjustment, in conjunction with SCR socket and operation of several SCR devices with one cable."
 msgstr "SCR ajastuksen säätö yhdessä SCR liitännän ja useiden SCR laitteiden toiminnan kanssa yhdellä kaapelilla."
+
+#, fuzzy
+msgid "SD"
+msgstr "Kuvaruutu"
 
 #, python-format
 msgid "SDcard slot %s%s"
@@ -16490,6 +16656,9 @@ msgstr ""
 "Valitse 'taajuusalue', jos käytössä 'universaali' LNB, muutoin lisätiedot\n"
 "LNB:n teknisistä tiedoista."
 
+msgid "Select 'Disabled' to disable all automated volume adjustments. Select 'Defined volume offsets' to assign a specified offset to the service's volume level. Select 'Last used/set volume' to remember the volume level last used for each service."
+msgstr ""
+
 msgid "Select 'Enable' to start the CI+ helper."
 msgstr "Valitse 'Käytössä' Avataksesi CI+ avustajan."
 
@@ -16526,9 +16695,6 @@ msgid "Select 'Yes' if this tuner is connected to the SCR device through another
 msgstr ""
 "Valitse 'kyllä', jos tämä viritin on kytketty SCR laitteeseen toisen\n"
 "virittimen läpi, muutoin valitse 'ei'."
-
-msgid "Select 'Yes' if volume adjustments should be applied to Dolby sound tracks."
-msgstr "Valitse 'Kyllä' jos äänenvoimakkuuden säätöjä tulee soveltaa Dolby ääni raitoihin."
 
 msgid "Select 'Yes' if you are using a multi-switch which requires a DiSEqC Port-A command signal. Select 'No' for all other setups."
 msgstr ""
@@ -16712,6 +16878,10 @@ msgstr "'Kyllä' valinnalla kanavalista näytetään, kun vaihdetaan radio- ja T
 
 msgid "Select 'Yes' to show the current directory in the list of directories. Note that File Commander must be restarted for this change to take effect."
 msgstr "Valitse 'Kyllä', jos haluat näyttää nykyisen hakemiston hakemistoluettelossa. Huomaa, että tiedostonhallinta on käynnistettävä uudelleen, jotta tämä muutos tulee voimaan."
+
+#, fuzzy
+msgid "Select 'Yes' to show the volume level on any automated changes of volume level."
+msgstr "Valitse ”Kyllä” palvelimen nimen ja IP osoitteen piilottamiseksi."
 
 #, fuzzy
 msgid "Select 'Yes' to show this plugin in the Plugin Browser."
@@ -17897,6 +18067,10 @@ msgstr "Aseta aika joka odotettaan ennen kuin suoritettaan oletustoiminto sammut
 
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr "Määritä ohjelman pituuden osoittamisen tyyppi kanavien valintalistassa."
+
+#, fuzzy, python-format
+msgid "Set the volume level for the '%s' service."
+msgstr "Aseta äänenvoimakkuuden siirtymä '%s' kanavalle."
 
 #, python-format
 msgid "Set the volume offset for the '%s' service."
@@ -21476,6 +21650,10 @@ msgstr ""
 msgid "Toggle between bouquet/EPG lists"
 msgstr "Vaihda suosikkien ja ohjelmatietojen välillä"
 
+#, fuzzy
+msgid "Toggle between the available TV and RADIO services"
+msgstr "Vaihda käytettävissä oleviin RADIO kanaviin"
+
 msgid "Toggle display of image information"
 msgstr "Vaihda kuvatietojen näyttö"
 
@@ -21892,6 +22070,12 @@ msgstr "USALS"
 msgid "USALS automatically moves a motorized dish to the correct satellite based on the coordinates entered by the user. Without USALS each satellite will need to be setup and saved individually."
 msgstr "USALS siirtää automaattisesti moottoroidun lautasen oikeaan satelliittiin käyttäjän syöttämien koordinaattien mukaisesti. Ilman USALS:a jokainen satelliitti pitää määrittää ja tallentaa yksitellen."
 
+msgid "USB 2.0 (Back, inner)"
+msgstr ""
+
+msgid "USB 3.0 (Back, outer)"
+msgstr ""
+
 msgid "USB Disk Format"
 msgstr ""
 
@@ -22175,6 +22359,10 @@ msgstr "Ylöshyppy -"
 
 msgid "Uphops: "
 msgstr "Ylöshypyt: "
+
+#, fuzzy
+msgid "Upper USB"
+msgstr "Isot kirjaimet"
 
 msgid "Upper case"
 msgstr "Isot kirjaimet"
@@ -22803,17 +22991,22 @@ msgstr "13/18V-jännite"
 msgid "Volume"
 msgstr "Äänenvoimakkuus"
 
-msgid "Volume Adjust"
-msgstr "Äänenvoimakkuuden säätö"
-
 msgid "Volume Adjust Actions"
 msgstr "Äänenvoimakkuuden säätötoiminnot"
 
 msgid "Volume Adjust Service Selection"
 msgstr "Äänenvoimakkuuden säätö valinta palvelu"
 
+#, fuzzy
+msgid "Volume Adjust Service Selection Actions"
+msgstr "Äänenvoimakkuuden säätö valinta palvelu"
+
 msgid "Volume Adjust Settings"
 msgstr "Äänenvoimakkuuden säätö asetukset"
+
+#, fuzzy
+msgid "Volume adjustment mode"
+msgstr "Äänenvoimakkuuden säätö"
 
 msgid "Volume down"
 msgstr "Äänenvoimakkuus -"
@@ -24200,9 +24393,15 @@ msgstr "Ladataan"
 msgid "drama (general)"
 msgstr "draama (yleinen)"
 
+msgid "eMMC"
+msgstr ""
+
 #, python-format
 msgid "eMMC slot %s%s"
 msgstr "eMMC sjiainti %s%s"
+
+msgid "eSATA"
+msgstr ""
 
 msgid "east"
 msgstr "itään"

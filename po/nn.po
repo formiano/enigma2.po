@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Opendroid\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-15 06:02+0200\n"
+"POT-Creation-Date: 2025-04-23 17:39+0200\n"
 "PO-Revision-Date: 2024-09-21 00:23+0200\n"
 "Last-Translator: Stig-O <stiose@hotmail.com>\n"
 "Language-Team: Stig-O\n"
@@ -1009,11 +1009,11 @@ msgstr[1] "%d Minutter"
 msgid "%d Minutes"
 msgstr ""
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Month"
 msgid_plural "%d Months"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d Min"
+msgstr[1] "%d Min"
 
 #, python-format
 msgid "%d Pixel"
@@ -1041,17 +1041,19 @@ msgstr[1] "%d sekunder"
 msgid "%d Seconds"
 msgstr ""
 
-#, python-format
+#
+#, fuzzy, python-format
 msgid "%d Week"
 msgid_plural "%d Weeks"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Ukentlig"
+msgstr[1] "Ukentlig"
 
-#, python-format
+#
+#, fuzzy, python-format
 msgid "%d Year"
 msgid_plural "%d Years"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "År"
+msgstr[1] "År"
 
 #
 #. TRANSLATORS: Intermediate scanning result, '%d' channel(s) have been found so far
@@ -1066,6 +1068,13 @@ msgid "%d core"
 msgid_plural "%d cores"
 msgstr[0] ""
 msgstr[1] ""
+
+#
+#, fuzzy, python-format
+msgid "%d feed catalog package was updated."
+msgid_plural "%d feed catalog packages were updated."
+msgstr[0] "Pakkeliste oppdatering"
+msgstr[1] "Pakkeliste oppdatering"
 
 #, python-format
 msgid "%d kB"
@@ -1132,6 +1141,55 @@ msgid "%d package upgraded."
 msgid_plural "%d packages upgraded."
 msgstr[0] ""
 msgstr[1] ""
+
+#
+#, fuzzy, python-format
+msgid "%d package was configured."
+msgid_plural "%d packages were configured."
+msgstr[0] "Pakkeliste oppdatering"
+msgstr[1] "Pakkeliste oppdatering"
+
+#
+#, fuzzy, python-format
+msgid "%d package was deselected."
+msgid_plural "%d packages were deselected."
+msgstr[0] "Pakkeliste oppdatering"
+msgstr[1] "Pakkeliste oppdatering"
+
+#
+#, fuzzy, python-format
+msgid "%d package was downloaded."
+msgid_plural "%d packages were downloaded."
+msgstr[0] "Pakkeliste oppdatering"
+msgstr[1] "Pakkeliste oppdatering"
+
+#
+#, fuzzy, python-format
+msgid "%d package was identified for upgrade."
+msgid_plural "%d packages were identified for upgrade."
+msgstr[0] "Pakkeliste oppdatering"
+msgstr[1] "Pakkeliste oppdatering"
+
+#
+#, fuzzy, python-format
+msgid "%d package was installed."
+msgid_plural "%d packages were installed."
+msgstr[0] "Pakkeliste oppdatering"
+msgstr[1] "Pakkeliste oppdatering"
+
+#
+#, fuzzy, python-format
+msgid "%d package was removed."
+msgid_plural "%d packages were removed."
+msgstr[0] "Pakkeliste oppdatering"
+msgstr[1] "Pakkeliste oppdatering"
+
+#
+#, fuzzy, python-format
+msgid "%d package was upgraded."
+msgid_plural "%d packages were upgraded."
+msgstr[0] "Pakkeliste oppdatering"
+msgstr[1] "Pakkeliste oppdatering"
 
 #, python-format
 msgid "%d plugin is not available:"
@@ -2144,6 +2202,11 @@ msgid "Add RecordTimer"
 msgstr "Legge til timer"
 
 #
+#, fuzzy
+msgid "Add Service"
+msgstr "Legg til kanal"
+
+#
 msgid "Add Service To Bouquet"
 msgstr "Legg kanal til i favorittlister"
 
@@ -2170,12 +2233,18 @@ msgstr "Legg til Timer"
 msgid "Add a DNS entry"
 msgstr ""
 
+msgid "Add a RADIO service to the Volume Offset list"
+msgstr ""
+
 #
 msgid "Add a RecordTimer"
 msgstr "Legge til timer"
 
 msgid "Add a RecordTimer for current event"
 msgstr "Lag en timer for aktuelle program"
+
+msgid "Add a TV service to the Volume Offset list"
+msgstr ""
 
 msgid "Add a ZapTimer for current event"
 msgstr "Legg til zap timer for nåværende program"
@@ -2203,7 +2272,7 @@ msgstr ""
 msgid "Add a new title"
 msgstr "Legg til en ny tittel"
 
-msgid "Add a service to the Volume Offsets list"
+msgid "Add a service to the Volume Offset list"
 msgstr ""
 
 msgid "Add a timer for the current event"
@@ -2288,7 +2357,7 @@ msgstr ""
 msgid "Add the current directory as a bookmark"
 msgstr ""
 
-msgid "Add the current service to the Volume Offsets list"
+msgid "Add the current/active service to the Volume Offset list"
 msgstr ""
 
 msgid "Add the selected service to a bouquet or alternative"
@@ -2313,6 +2382,9 @@ msgid "Add/Remove highlighted plugin to/from remove list"
 msgstr ""
 
 msgid "Add/Remove highlighted plugin to/from update list"
+msgstr ""
+
+msgid "Add/Remove the current service to/from the Volume Offset list"
 msgstr ""
 
 msgid "Adding schedule..."
@@ -3071,6 +3143,9 @@ msgstr "Auto fokus påbegynnes..."
 msgid "Auto multi-selection"
 msgstr ""
 
+msgid "Auto show volume level"
+msgstr ""
+
 msgid "Auto shut down"
 msgstr ""
 
@@ -3212,6 +3287,35 @@ msgstr ""
 #
 msgid "Back"
 msgstr "Tilbake"
+
+#
+#, fuzzy
+msgid "Back USB"
+msgstr "Tilbake"
+
+msgid "Back USB 3.0"
+msgstr ""
+
+msgid "Back USB-C"
+msgstr ""
+
+msgid "Back, inner USB"
+msgstr ""
+
+msgid "Back, left USB"
+msgstr ""
+
+msgid "Back, lower USB"
+msgstr ""
+
+msgid "Back, outer USB"
+msgstr ""
+
+msgid "Back, right USB"
+msgstr ""
+
+msgid "Back, upper USB"
+msgstr ""
 
 msgid "Back/Recall"
 msgstr ""
@@ -5848,6 +5952,9 @@ msgstr ""
 msgid "Currently Defined Volume Offsets:"
 msgstr ""
 
+msgid "Currently Remembered Volume Levels:"
+msgstr ""
+
 msgid "Currently the commit log cannot be retrieved - please try later again."
 msgstr ""
 
@@ -6351,6 +6458,9 @@ msgstr ""
 msgid "Define the file system mount options."
 msgstr ""
 
+msgid "Defined volume offset"
+msgstr ""
+
 msgid "Defines how fast the time jumps are repeated. Values lower than 500ms may be problematic with NAS."
 msgstr ""
 
@@ -6543,9 +6653,6 @@ msgid "Delete the character under the text cursor"
 msgstr ""
 
 msgid "Delete the current time shift buffer and restart time shift"
-msgstr ""
-
-msgid "Delete the currently highlighted service from the Volume Offsets list"
 msgstr ""
 
 msgid "Delete the currently selected timer"
@@ -7682,9 +7789,6 @@ msgstr "Aktiver favoritt editering"
 #, fuzzy
 msgid "Enable ClearMem"
 msgstr "Aktiver flytte modus"
-
-msgid "Enable Dolby Digital / Dolby AC-3 offsets"
-msgstr ""
 
 msgid "Enable EIT EPG"
 msgstr "Aktivere EIT EPG"
@@ -9515,6 +9619,12 @@ msgstr "Fredag"
 msgid "From :"
 msgstr "Fra :"
 
+msgid "Front USB"
+msgstr ""
+
+msgid "Front USB 3.0"
+msgstr ""
+
 msgid "Front processor version"
 msgstr ""
 
@@ -11135,6 +11245,16 @@ msgid "Internal Reader /dev/sci1:"
 msgstr ""
 
 #
+#, fuzzy
+msgid "Internal SSD"
+msgstr "Intern "
+
+#
+#, fuzzy
+msgid "Internal USB"
+msgstr "Intern "
+
+#
 msgid "Internal flash"
 msgstr "Intern Flash"
 
@@ -11670,6 +11790,10 @@ msgstr ""
 msgid "Last used share: "
 msgstr "Sist brukte deling:"
 
+#, fuzzy
+msgid "Last used/set volume"
+msgstr "Sist brukte deling:"
+
 msgctxt "third event: 'third' event label"
 msgid "Later"
 msgstr "Senere"
@@ -11709,6 +11833,11 @@ msgstr ""
 msgid "Left"
 msgstr "Venstre"
 
+#
+#, fuzzy
+msgid "Left USB"
+msgstr "Venstre"
+
 msgid "Left column"
 msgstr ""
 
@@ -11721,6 +11850,12 @@ msgstr ""
 #
 msgid "Left from service name"
 msgstr "Til venstre for kanalnavn"
+
+msgid "Left, back USB"
+msgstr ""
+
+msgid "Left, front USB"
+msgstr ""
 
 msgid "Left, wrapped"
 msgstr ""
@@ -12065,6 +12200,9 @@ msgid "Loop through to"
 msgstr "Loop til"
 
 msgid "Lower Framerate saves CPU Time."
+msgstr ""
+
+msgid "Lower USB"
 msgstr ""
 
 msgid "Lower case"
@@ -12512,6 +12650,9 @@ msgstr ""
 msgid "Mexico"
 msgstr ""
 
+msgid "Micro SD"
+msgstr ""
+
 msgid "Micronesia, Federated States of"
 msgstr ""
 
@@ -12570,6 +12711,10 @@ msgstr ""
 
 msgid "Miscellaneous"
 msgstr ""
+
+#, fuzzy
+msgid "Miscellaneous languages"
+msgstr "språk"
 
 #, python-format
 msgid ""
@@ -15049,6 +15194,10 @@ msgstr ""
 msgid "Playback Settings"
 msgstr ""
 
+#, fuzzy
+msgid "Playback Time:"
+msgstr "Spill av mediafiler"
+
 msgid "Playback, Recording, VOD & Time Shift"
 msgstr ""
 
@@ -17264,6 +17413,11 @@ msgstr ""
 msgid "Right"
 msgstr "Høyre"
 
+#
+#, fuzzy
+msgid "Right USB"
+msgstr "Høyre"
+
 msgid "Right column"
 msgstr ""
 
@@ -17275,6 +17429,12 @@ msgstr ""
 
 msgid "Right from service name"
 msgstr "Rett fra kanalnavn"
+
+msgid "Right, back USB"
+msgstr ""
+
+msgid "Right, front USB"
+msgstr ""
 
 msgid "Right, wrapped"
 msgstr ""
@@ -17393,6 +17553,15 @@ msgstr "SABnzbd Oppsett"
 msgid "SAT"
 msgstr ""
 
+msgid "SATA"
+msgstr ""
+
+msgid "SATA BACK"
+msgstr ""
+
+msgid "SATA FRONT"
+msgstr ""
+
 #, fuzzy
 msgid "SATPI Setting Actions"
 msgstr "AFP Oppsett"
@@ -17406,6 +17575,11 @@ msgstr ""
 
 msgid "SCR timing adjustment, in conjunction with SCR socket and operation of several SCR devices with one cable."
 msgstr ""
+
+#
+#, fuzzy
+msgid "SD"
+msgstr "SSID:"
 
 #, python-format
 msgid "SDcard slot %s%s"
@@ -17921,6 +18095,9 @@ msgstr ""
 msgid "Select 'Band' if using a 'Universal' LNB, otherwise consult your LNB specifications."
 msgstr ""
 
+msgid "Select 'Disabled' to disable all automated volume adjustments. Select 'Defined volume offsets' to assign a specified offset to the service's volume level. Select 'Last used/set volume' to remember the volume level last used for each service."
+msgstr ""
+
 msgid "Select 'Enable' to start the CI+ helper."
 msgstr ""
 
@@ -17952,9 +18129,6 @@ msgid "Select 'Yes' if network traffic should be checked before activating the t
 msgstr ""
 
 msgid "Select 'Yes' if this tuner is connected to the SCR device through another tuner, otherwise select 'No'."
-msgstr ""
-
-msgid "Select 'Yes' if volume adjustments should be applied to Dolby sound tracks."
 msgstr ""
 
 msgid "Select 'Yes' if you are using a multi-switch which requires a DiSEqC Port-A command signal. Select 'No' for all other setups."
@@ -18137,6 +18311,10 @@ msgstr "Hvis satt til 'ja' vil kanallisten bli vist etter bytte mellom radio-og 
 
 msgid "Select 'Yes' to show the current directory in the list of directories. Note that File Commander must be restarted for this change to take effect."
 msgstr ""
+
+#, fuzzy
+msgid "Select 'Yes' to show the volume level on any automated changes of volume level."
+msgstr "Hvis satt til 'ja' vil favorittlister bli vist hver gang du åpner EPG."
 
 #, fuzzy
 msgid "Select 'Yes' to show this plugin in the Plugin Browser."
@@ -19378,6 +19556,10 @@ msgstr ""
 
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr "Angi typen for fremdriftsindikatoren i kanalvalg-skjermen."
+
+#, python-format
+msgid "Set the volume level for the '%s' service."
+msgstr ""
 
 #, python-format
 msgid "Set the volume offset for the '%s' service."
@@ -23225,6 +23407,9 @@ msgstr ""
 msgid "Toggle between bouquet/EPG lists"
 msgstr "Veksle mellom favoritt/epg lister"
 
+msgid "Toggle between the available TV and RADIO services"
+msgstr ""
+
 msgid "Toggle display of image information"
 msgstr ""
 
@@ -23702,6 +23887,12 @@ msgstr "USALS"
 msgid "USALS automatically moves a motorized dish to the correct satellite based on the coordinates entered by the user. Without USALS each satellite will need to be setup and saved individually."
 msgstr ""
 
+msgid "USB 2.0 (Back, inner)"
+msgstr ""
+
+msgid "USB 3.0 (Back, outer)"
+msgstr ""
+
 msgid "USB Disk Format"
 msgstr ""
 
@@ -24004,6 +24195,10 @@ msgstr "Opphopp -"
 
 msgid "Uphops: "
 msgstr "Opphopp: "
+
+#, fuzzy
+msgid "Upper USB"
+msgstr "En linje"
 
 msgid "Upper case"
 msgstr ""
@@ -24671,16 +24866,21 @@ msgstr "Spenningsmodus"
 msgid "Volume"
 msgstr ""
 
-msgid "Volume Adjust"
-msgstr ""
-
 msgid "Volume Adjust Actions"
 msgstr ""
 
 msgid "Volume Adjust Service Selection"
 msgstr ""
 
+#
+#, fuzzy
+msgid "Volume Adjust Service Selection Actions"
+msgstr "Film utvalg"
+
 msgid "Volume Adjust Settings"
+msgstr ""
+
+msgid "Volume adjustment mode"
 msgstr ""
 
 msgid "Volume down"
@@ -26142,8 +26342,14 @@ msgstr "Laster ned"
 msgid "drama (general)"
 msgstr "film/drama (generelt)"
 
+msgid "eMMC"
+msgstr ""
+
 #, python-format
 msgid "eMMC slot %s%s"
+msgstr ""
+
+msgid "eSATA"
 msgstr ""
 
 #

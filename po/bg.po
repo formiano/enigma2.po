@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Opendroid / enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-15 06:02+0200\n"
+"POT-Creation-Date: 2025-04-23 17:39+0200\n"
 "PO-Revision-Date: 2024-09-20 23:54+0200\n"
 "Last-Translator: OPD Team <opendroid2013@gmail.com>\n"
 "Language-Team: TEAM <EMAIL@ADDRESS>\n"
@@ -875,17 +875,17 @@ msgstr[1] "%d минути"
 msgid "%d Minutes"
 msgstr ""
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Month"
 msgid_plural "%d Months"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d Минута"
+msgstr[1] "%d Минути"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Pixel"
 msgid_plural "%d Pixels"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d широчина пиксел"
+msgstr[1] "%d широчина пиксели"
 
 #, fuzzy, python-format
 msgid "%d Pixel wide"
@@ -907,17 +907,17 @@ msgstr[1] "%d секунди"
 msgid "%d Seconds"
 msgstr ""
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Week"
 msgid_plural "%d Weeks"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Седмично"
+msgstr[1] "Седмично"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Year"
 msgid_plural "%d Years"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Година"
+msgstr[1] "Година"
 
 #. TRANSLATORS: Intermediate scanning result, '%d' channel(s) have been found so far
 #, python-format
@@ -931,6 +931,12 @@ msgid "%d core"
 msgid_plural "%d cores"
 msgstr[0] "%d ядро"
 msgstr[1] "%d ядра"
+
+#, fuzzy, python-format
+msgid "%d feed catalog package was updated."
+msgid_plural "%d feed catalog packages were updated."
+msgstr[0] "Актуализиране на списък с пакети"
+msgstr[1] "Актуализиране на списък с пакети"
 
 #, python-format
 msgid "%d kB"
@@ -995,6 +1001,48 @@ msgid "%d package upgraded."
 msgid_plural "%d packages upgraded."
 msgstr[0] ""
 msgstr[1] ""
+
+#, fuzzy, python-format
+msgid "%d package was configured."
+msgid_plural "%d packages were configured."
+msgstr[0] "Актуализиране на списък с пакети"
+msgstr[1] "Актуализиране на списък с пакети"
+
+#, fuzzy, python-format
+msgid "%d package was deselected."
+msgid_plural "%d packages were deselected."
+msgstr[0] "Избран е Местен %s (%s)."
+msgstr[1] "Избран е Местен %s (%s)."
+
+#, fuzzy, python-format
+msgid "%d package was downloaded."
+msgid_plural "%d packages were downloaded."
+msgstr[0] "Актуализиране на списък с пакети"
+msgstr[1] "Актуализиране на списък с пакети"
+
+#, fuzzy, python-format
+msgid "%d package was identified for upgrade."
+msgid_plural "%d packages were identified for upgrade."
+msgstr[0] "Актуализиране на списък с пакети"
+msgstr[1] "Актуализиране на списък с пакети"
+
+#, fuzzy, python-format
+msgid "%d package was installed."
+msgid_plural "%d packages were installed."
+msgstr[0] "Избран е Местен %s (%s)."
+msgstr[1] "Избран е Местен %s (%s)."
+
+#, fuzzy, python-format
+msgid "%d package was removed."
+msgid_plural "%d packages were removed."
+msgstr[0] "Избран е Местен %s (%s)."
+msgstr[1] "Избран е Местен %s (%s)."
+
+#, fuzzy, python-format
+msgid "%d package was upgraded."
+msgid_plural "%d packages were upgraded."
+msgstr[0] "Актуализиране на списък с пакети"
+msgstr[1] "Актуализиране на списък с пакети"
 
 #, python-format
 msgid "%d plugin is not available:"
@@ -1907,6 +1955,10 @@ msgstr "Добавяне на нов вход за четири канала"
 msgid "Add RecordTimer"
 msgstr "Добавяне на таймер за запис"
 
+#, fuzzy
+msgid "Add Service"
+msgstr "Добавяне на сервиз"
+
 msgid "Add Service To Bouquet"
 msgstr "добави сервиз към букет"
 
@@ -1928,11 +1980,17 @@ msgstr ""
 msgid "Add a DNS entry"
 msgstr "Добавяне на запис в DNS"
 
+msgid "Add a RADIO service to the Volume Offset list"
+msgstr ""
+
 msgid "Add a RecordTimer"
 msgstr "Добави записващ таймер"
 
 msgid "Add a RecordTimer for current event"
 msgstr "Добавяне на записващ таймер за текущото събитие"
+
+msgid "Add a TV service to the Volume Offset list"
+msgstr ""
 
 msgid "Add a ZapTimer for current event"
 msgstr "Добавяне на zap таймер за текущото събитие"
@@ -1958,7 +2016,7 @@ msgstr ""
 msgid "Add a new title"
 msgstr "Добавяне на ново заглавие"
 
-msgid "Add a service to the Volume Offsets list"
+msgid "Add a service to the Volume Offset list"
 msgstr ""
 
 msgid "Add a timer for the current event"
@@ -2035,7 +2093,7 @@ msgstr ""
 msgid "Add the current directory as a bookmark"
 msgstr ""
 
-msgid "Add the current service to the Volume Offsets list"
+msgid "Add the current/active service to the Volume Offset list"
 msgstr ""
 
 msgid "Add the selected service to a bouquet or alternative"
@@ -2057,6 +2115,9 @@ msgid "Add/Remove highlighted plugin to/from remove list"
 msgstr ""
 
 msgid "Add/Remove highlighted plugin to/from update list"
+msgstr ""
+
+msgid "Add/Remove the current service to/from the Volume Offset list"
 msgstr ""
 
 msgid "Adding schedule..."
@@ -2745,6 +2806,10 @@ msgstr "Автоматичното фокусиране е започнало ..
 msgid "Auto multi-selection"
 msgstr ""
 
+#, fuzzy
+msgid "Auto show volume level"
+msgstr "Автоматична настройка нивото на звука"
+
 msgid "Auto shut down"
 msgstr ""
 
@@ -2874,6 +2939,34 @@ msgstr "Син превключвател: Синьо-късо/Синьо-дъл
 
 msgid "Back"
 msgstr "Назад"
+
+#, fuzzy
+msgid "Back USB"
+msgstr "Назад"
+
+msgid "Back USB 3.0"
+msgstr ""
+
+msgid "Back USB-C"
+msgstr ""
+
+msgid "Back, inner USB"
+msgstr ""
+
+msgid "Back, left USB"
+msgstr ""
+
+msgid "Back, lower USB"
+msgstr ""
+
+msgid "Back, outer USB"
+msgstr ""
+
+msgid "Back, right USB"
+msgstr ""
+
+msgid "Back, upper USB"
+msgstr ""
 
 msgid "Back/Recall"
 msgstr "Назад/Припомняне"
@@ -5341,6 +5434,9 @@ msgstr ""
 msgid "Currently Defined Volume Offsets:"
 msgstr ""
 
+msgid "Currently Remembered Volume Levels:"
+msgstr ""
+
 #, fuzzy
 msgid "Currently the commit log cannot be retrieved - please try later again."
 msgstr "Журналите на %s не могат да бъдат извлечени, моля, опитайте отново по-късно."
@@ -5807,6 +5903,9 @@ msgstr ""
 msgid "Define the file system mount options."
 msgstr ""
 
+msgid "Defined volume offset"
+msgstr ""
+
 msgid "Defines how fast the time jumps are repeated. Values lower than 500ms may be problematic with NAS."
 msgstr "Определя колко бързо се повтарят времевите скокове. Стойности по-ниски от 500ms може да бъдат проблематични с NAS."
 
@@ -5989,9 +6088,6 @@ msgstr "Изтрийте знака под текстовия курсор"
 
 msgid "Delete the current time shift buffer and restart time shift"
 msgstr "Изтрийте текущия буфер за изместване на времето и рестартирайте функцията за изместване на времето"
-
-msgid "Delete the currently highlighted service from the Volume Offsets list"
-msgstr ""
 
 msgid "Delete the currently selected timer"
 msgstr ""
@@ -7039,9 +7135,6 @@ msgstr "активиране на редактиране на букет"
 #, fuzzy
 msgid "Enable ClearMem"
 msgstr "активиране на режим на движение"
-
-msgid "Enable Dolby Digital / Dolby AC-3 offsets"
-msgstr ""
 
 msgid "Enable EIT EPG"
 msgstr "Разрешаване на EIT EPG"
@@ -8741,6 +8834,12 @@ msgstr "Петък"
 msgid "From :"
 msgstr "От:"
 
+msgid "Front USB"
+msgstr ""
+
+msgid "Front USB 3.0"
+msgstr ""
+
 #, fuzzy
 msgid "Front processor version"
 msgstr "Предна версия на процесора"
@@ -10217,6 +10316,14 @@ msgstr ""
 msgid "Internal Reader /dev/sci1:"
 msgstr ""
 
+#, fuzzy
+msgid "Internal SSD"
+msgstr "Вътрешен"
+
+#, fuzzy
+msgid "Internal USB"
+msgstr "Вътрешен"
+
 msgid "Internal flash"
 msgstr "Вътрешен флаш"
 
@@ -10721,6 +10828,10 @@ msgstr ""
 msgid "Last used share: "
 msgstr "Последно използвано споделяне: "
 
+#, fuzzy
+msgid "Last used/set volume"
+msgstr "Последно използвано споделяне: "
+
 msgctxt "third event: 'third' event label"
 msgid "Later"
 msgstr ""
@@ -10752,6 +10863,10 @@ msgstr ""
 msgid "Left"
 msgstr "Наляво"
 
+#, fuzzy
+msgid "Left USB"
+msgstr "Наляво"
+
 msgid "Left column"
 msgstr ""
 
@@ -10763,6 +10878,12 @@ msgstr ""
 
 msgid "Left from service name"
 msgstr "Отляво на сервизното име"
+
+msgid "Left, back USB"
+msgstr ""
+
+msgid "Left, front USB"
+msgstr ""
 
 msgid "Left, wrapped"
 msgstr "наляво, увито"
@@ -11069,6 +11190,10 @@ msgstr "Преминете през до"
 
 msgid "Lower Framerate saves CPU Time."
 msgstr "По-ниска честота на кадрите спестява време на процесора"
+
+#, fuzzy
+msgid "Lower USB"
+msgstr "Малки букви"
 
 msgid "Lower case"
 msgstr "Малки букви"
@@ -11478,6 +11603,9 @@ msgstr ""
 msgid "Mexico"
 msgstr ""
 
+msgid "Micro SD"
+msgstr ""
+
 msgid "Micronesia, Federated States of"
 msgstr ""
 
@@ -11530,6 +11658,10 @@ msgid "Mipsel"
 msgstr ""
 
 msgid "Miscellaneous"
+msgstr "Разни"
+
+#, fuzzy
+msgid "Miscellaneous languages"
 msgstr "Разни"
 
 #, python-format
@@ -13794,6 +13926,10 @@ msgid "Playback Settings"
 msgstr ""
 
 #, fuzzy
+msgid "Playback Time:"
+msgstr "Резервен Таймер"
+
+#, fuzzy
 msgid "Playback, Recording, VOD & Time Shift"
 msgstr "Записи & Timeshift"
 
@@ -15774,6 +15910,10 @@ msgstr "Преопаковане на субтитрите"
 msgid "Right"
 msgstr "Надясно"
 
+#, fuzzy
+msgid "Right USB"
+msgstr "Надясно"
+
 msgid "Right column"
 msgstr ""
 
@@ -15785,6 +15925,12 @@ msgstr ""
 
 msgid "Right from service name"
 msgstr "Отдясно на серизното име"
+
+msgid "Right, back USB"
+msgstr ""
+
+msgid "Right, front USB"
+msgstr ""
 
 msgid "Right, wrapped"
 msgstr "надясно, увит"
@@ -15896,6 +16042,15 @@ msgstr "SABnzbd настройки"
 msgid "SAT"
 msgstr ""
 
+msgid "SATA"
+msgstr ""
+
+msgid "SATA BACK"
+msgstr ""
+
+msgid "SATA FRONT"
+msgstr ""
+
 #, fuzzy
 msgid "SATPI Setting Actions"
 msgstr "Настройки на SATPI"
@@ -15908,6 +16063,9 @@ msgstr "SCPC оптимизиран обхват на търсене"
 
 msgid "SCR timing adjustment, in conjunction with SCR socket and operation of several SCR devices with one cable."
 msgstr "Регулиране на времето на SCR, във връзка с SCR контакт и работа на няколко SCR устройства с един кабел."
+
+msgid "SD"
+msgstr ""
 
 #, python-format
 msgid "SDcard slot %s%s"
@@ -16370,6 +16528,9 @@ msgstr "Изберете 'A' или 'B', ако вашата антенна си
 msgid "Select 'Band' if using a 'Universal' LNB, otherwise consult your LNB specifications."
 msgstr "Изберете 'лента', ако използвате 'универсален' конвертор, в противен случай се консултирайте със спецификацията на вашия конвертор."
 
+msgid "Select 'Disabled' to disable all automated volume adjustments. Select 'Defined volume offsets' to assign a specified offset to the service's volume level. Select 'Last used/set volume' to remember the volume level last used for each service."
+msgstr ""
+
 msgid "Select 'Enable' to start the CI+ helper."
 msgstr ""
 
@@ -16402,9 +16563,6 @@ msgstr ""
 
 msgid "Select 'Yes' if this tuner is connected to the SCR device through another tuner, otherwise select 'No'."
 msgstr "Изберете „да“, ако този тунер е свързан към SCR устройството чрез друг тунер, в противен случай изберете „не“."
-
-msgid "Select 'Yes' if volume adjustments should be applied to Dolby sound tracks."
-msgstr ""
 
 msgid "Select 'Yes' if you are using a multi-switch which requires a DiSEqC Port-A command signal. Select 'No' for all other setups."
 msgstr "Изберете \"да\" само ако използвате мултипревключвател, който изисква команден сигнал DiSEqC Port-A. За всички други настройки изберете „не“."
@@ -16586,6 +16744,10 @@ msgstr "Ако е зададено 'да', списъкът на каналит�
 
 msgid "Select 'Yes' to show the current directory in the list of directories. Note that File Commander must be restarted for this change to take effect."
 msgstr ""
+
+#, fuzzy
+msgid "Select 'Yes' to show the volume level on any automated changes of volume level."
+msgstr "Ако е зададено 'да', букетите ще се показват всеки път, когато отворите EPG."
 
 #, fuzzy
 msgid "Select 'Yes' to show this plugin in the Plugin Browser."
@@ -17754,6 +17916,10 @@ msgstr "Задайте времето за изчакване за изпълн�
 
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr "Задайте типа на индикацията за прогрес в екрана за избор на канал."
+
+#, fuzzy, python-format
+msgid "Set the volume level for the '%s' service."
+msgstr "Задайте време за скриване на инфобара."
 
 #, python-format
 msgid "Set the volume offset for the '%s' service."
@@ -21302,6 +21468,10 @@ msgstr ""
 msgid "Toggle between bouquet/EPG lists"
 msgstr "Превключване между списъци с букети/EPG"
 
+#, fuzzy
+msgid "Toggle between the available TV and RADIO services"
+msgstr "Превключва между телевизия и радио"
+
 msgid "Toggle display of image information"
 msgstr ""
 
@@ -21717,6 +21887,12 @@ msgstr ""
 msgid "USALS automatically moves a motorized dish to the correct satellite based on the coordinates entered by the user. Without USALS each satellite will need to be setup and saved individually."
 msgstr "USALS автоматично премества моторизирана антена към правилния сателит въз основа на въведените от потребителя координати. Без USALS всеки сателит ще трябва да бъде настроен и запазен поотделно."
 
+msgid "USB 2.0 (Back, inner)"
+msgstr ""
+
+msgid "USB 3.0 (Back, outer)"
+msgstr ""
+
 msgid "USB Disk Format"
 msgstr ""
 
@@ -21999,6 +22175,10 @@ msgstr ""
 
 msgid "Uphops: "
 msgstr ""
+
+#, fuzzy
+msgid "Upper USB"
+msgstr "Главна буква"
 
 msgid "Upper case"
 msgstr "Главна буква"
@@ -22618,17 +22798,22 @@ msgstr "Режим волтаж"
 msgid "Volume"
 msgstr "Сила на звука"
 
-msgid "Volume Adjust"
-msgstr "Регулиране на силата на звука"
-
 msgid "Volume Adjust Actions"
 msgstr ""
 
 msgid "Volume Adjust Service Selection"
 msgstr ""
 
+#, fuzzy
+msgid "Volume Adjust Service Selection Actions"
+msgstr "Действия за избор на сервиз"
+
 msgid "Volume Adjust Settings"
 msgstr ""
+
+#, fuzzy
+msgid "Volume adjustment mode"
+msgstr "Регулиране на силата на звука"
 
 msgid "Volume down"
 msgstr "Сила на звука надолу"
@@ -23998,8 +24183,14 @@ msgstr "Изтегляне на"
 msgid "drama (general)"
 msgstr "драма (общо)"
 
+msgid "eMMC"
+msgstr ""
+
 #, python-format
 msgid "eMMC slot %s%s"
+msgstr ""
+
+msgid "eSATA"
 msgstr ""
 
 msgid "east"

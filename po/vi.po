@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-15 06:02+0200\n"
+"POT-Creation-Date: 2025-04-23 17:39+0200\n"
 "PO-Revision-Date: 2024-09-21 00:07+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -901,15 +901,15 @@ msgstr[0] "%d phút"
 msgid "%d Minutes"
 msgstr ""
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Month"
 msgid_plural "%d Months"
-msgstr[0] ""
+msgstr[0] "%d Min"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Pixel"
 msgid_plural "%d Pixels"
-msgstr[0] ""
+msgstr[0] "%d pixel rộng"
 
 #, fuzzy, python-format
 msgid "%d Pixel wide"
@@ -929,15 +929,15 @@ msgstr[0] "%d giây"
 msgid "%d Seconds"
 msgstr ""
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Week"
 msgid_plural "%d Weeks"
-msgstr[0] ""
+msgstr[0] "Hàng tuần"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Year"
 msgid_plural "%d Years"
-msgstr[0] ""
+msgstr[0] "Năm"
 
 #. TRANSLATORS: Intermediate scanning result, '%d' channel(s) have been found so far
 #, python-format
@@ -949,6 +949,11 @@ msgstr[0] "%d kênh được tìm thấy"
 msgid "%d core"
 msgid_plural "%d cores"
 msgstr[0] ""
+
+#, fuzzy, python-format
+msgid "%d feed catalog package was updated."
+msgid_plural "%d feed catalog packages were updated."
+msgstr[0] "Cập nhật danh sách gói"
 
 #, python-format
 msgid "%d kB"
@@ -1005,6 +1010,41 @@ msgstr[0] ""
 msgid "%d package upgraded."
 msgid_plural "%d packages upgraded."
 msgstr[0] ""
+
+#, fuzzy, python-format
+msgid "%d package was configured."
+msgid_plural "%d packages were configured."
+msgstr[0] "Cập nhật danh sách gói"
+
+#, fuzzy, python-format
+msgid "%d package was deselected."
+msgid_plural "%d packages were deselected."
+msgstr[0] "Cập nhật danh sách gói"
+
+#, fuzzy, python-format
+msgid "%d package was downloaded."
+msgid_plural "%d packages were downloaded."
+msgstr[0] "Cập nhật danh sách gói"
+
+#, fuzzy, python-format
+msgid "%d package was identified for upgrade."
+msgid_plural "%d packages were identified for upgrade."
+msgstr[0] "Cập nhật danh sách gói"
+
+#, fuzzy, python-format
+msgid "%d package was installed."
+msgid_plural "%d packages were installed."
+msgstr[0] "Cập nhật danh sách gói"
+
+#, fuzzy, python-format
+msgid "%d package was removed."
+msgid_plural "%d packages were removed."
+msgstr[0] "Cập nhật danh sách gói"
+
+#, fuzzy, python-format
+msgid "%d package was upgraded."
+msgid_plural "%d packages were upgraded."
+msgstr[0] "Cập nhật danh sách gói"
 
 #, python-format
 msgid "%d plugin is not available:"
@@ -1928,6 +1968,10 @@ msgstr "Thêm mục nhập kênh Quad mới"
 msgid "Add RecordTimer"
 msgstr "Thêm bộ đếm thời gian"
 
+#, fuzzy
+msgid "Add Service"
+msgstr "Thêm dịch vụ"
+
 msgid "Add Service To Bouquet"
 msgstr "thêm dịch vụ vào gói kênh"
 
@@ -1949,11 +1993,17 @@ msgstr "Thêm bộ đếm thời gian"
 msgid "Add a DNS entry"
 msgstr ""
 
+msgid "Add a RADIO service to the Volume Offset list"
+msgstr ""
+
 msgid "Add a RecordTimer"
 msgstr "Thêm bộ đếm thời gian"
 
 msgid "Add a RecordTimer for current event"
 msgstr "Thêm một bộ đếm thời gian cho sự kiện hiện tại"
+
+msgid "Add a TV service to the Volume Offset list"
+msgstr ""
 
 msgid "Add a ZapTimer for current event"
 msgstr "Thêm / xóa bộ đếm thời gian thay đổi cho sự kiện hiện tại"
@@ -1979,7 +2029,7 @@ msgstr ""
 msgid "Add a new title"
 msgstr "Thêm một tiêu đề mới"
 
-msgid "Add a service to the Volume Offsets list"
+msgid "Add a service to the Volume Offset list"
 msgstr ""
 
 msgid "Add a timer for the current event"
@@ -2056,7 +2106,7 @@ msgstr ""
 msgid "Add the current directory as a bookmark"
 msgstr ""
 
-msgid "Add the current service to the Volume Offsets list"
+msgid "Add the current/active service to the Volume Offset list"
 msgstr ""
 
 msgid "Add the selected service to a bouquet or alternative"
@@ -2078,6 +2128,9 @@ msgid "Add/Remove highlighted plugin to/from remove list"
 msgstr ""
 
 msgid "Add/Remove highlighted plugin to/from update list"
+msgstr ""
+
+msgid "Add/Remove the current service to/from the Volume Offset list"
 msgstr ""
 
 msgid "Adding schedule..."
@@ -2779,6 +2832,10 @@ msgstr "Tự động lấy nét bắt đầu .."
 msgid "Auto multi-selection"
 msgstr ""
 
+#, fuzzy
+msgid "Auto show volume level"
+msgstr "Mức âm lượng tự động"
+
 msgid "Auto shut down"
 msgstr ""
 
@@ -2909,6 +2966,34 @@ msgstr "BlueSwitch: Blue-Short / Blue-Long"
 
 msgid "Back"
 msgstr "Trở lại"
+
+#, fuzzy
+msgid "Back USB"
+msgstr "Trở lại"
+
+msgid "Back USB 3.0"
+msgstr ""
+
+msgid "Back USB-C"
+msgstr ""
+
+msgid "Back, inner USB"
+msgstr ""
+
+msgid "Back, left USB"
+msgstr ""
+
+msgid "Back, lower USB"
+msgstr ""
+
+msgid "Back, outer USB"
+msgstr ""
+
+msgid "Back, right USB"
+msgstr ""
+
+msgid "Back, upper USB"
+msgstr ""
 
 msgid "Back/Recall"
 msgstr "Quay lại / Nhớ lại"
@@ -5387,6 +5472,9 @@ msgstr ""
 msgid "Currently Defined Volume Offsets:"
 msgstr ""
 
+msgid "Currently Remembered Volume Levels:"
+msgstr ""
+
 msgid "Currently the commit log cannot be retrieved - please try later again."
 msgstr ""
 
@@ -5860,6 +5948,9 @@ msgstr ""
 msgid "Define the file system mount options."
 msgstr ""
 
+msgid "Defined volume offset"
+msgstr ""
+
 msgid "Defines how fast the time jumps are repeated. Values lower than 500ms may be problematic with NAS."
 msgstr "Xác định tốc độ nhảy thời gian được lặp lại nhanh như thế nào. Giá trị thấp hơn 500ms có thể có vấn đề với NAS."
 
@@ -6044,9 +6135,6 @@ msgstr "Xóa ký tự dưới con trỏ bộ đệm văn bản"
 
 msgid "Delete the current time shift buffer and restart time shift"
 msgstr "Xóa bộ đệm timeshift hiện tại và khởi động lại timeshift"
-
-msgid "Delete the currently highlighted service from the Volume Offsets list"
-msgstr ""
 
 msgid "Delete the currently selected timer"
 msgstr ""
@@ -7106,9 +7194,6 @@ msgstr "cho phép chỉnh sửa gói kênh"
 #, fuzzy
 msgid "Enable ClearMem"
 msgstr "cho phép chế độ di chuyển"
-
-msgid "Enable Dolby Digital / Dolby AC-3 offsets"
-msgstr ""
 
 msgid "Enable EIT EPG"
 msgstr "Kích hoạt EIT EPG"
@@ -8827,6 +8912,12 @@ msgstr "Thứ sáu"
 msgid "From :"
 msgstr "Từ :"
 
+msgid "Front USB"
+msgstr ""
+
+msgid "Front USB 3.0"
+msgstr ""
+
 msgid "Front processor version"
 msgstr ""
 
@@ -10324,6 +10415,14 @@ msgstr ""
 msgid "Internal Reader /dev/sci1:"
 msgstr ""
 
+#, fuzzy
+msgid "Internal SSD"
+msgstr "Nội bộ"
+
+#, fuzzy
+msgid "Internal USB"
+msgstr "Nội bộ"
+
 msgid "Internal flash"
 msgstr "Đèn flash bên trong"
 
@@ -10835,6 +10934,10 @@ msgstr ""
 msgid "Last used share: "
 msgstr "Chia sẻ được sử dụng lần cuối: "
 
+#, fuzzy
+msgid "Last used/set volume"
+msgstr "Chia sẻ được sử dụng lần cuối: "
+
 msgctxt "third event: 'third' event label"
 msgid "Later"
 msgstr "Hiện tại không thể truy xuất nhật ký cam kết vui lòng thử lại sau"
@@ -10867,6 +10970,10 @@ msgstr "Lebanon"
 msgid "Left"
 msgstr "Trái"
 
+#, fuzzy
+msgid "Left USB"
+msgstr "Trái"
+
 msgid "Left column"
 msgstr ""
 
@@ -10878,6 +10985,12 @@ msgstr ""
 
 msgid "Left from service name"
 msgstr "Còn lại từ tên dịch vụ"
+
+msgid "Left, back USB"
+msgstr ""
+
+msgid "Left, front USB"
+msgstr ""
 
 msgid "Left, wrapped"
 msgstr "trái, bọc"
@@ -11190,6 +11303,10 @@ msgstr "Vòng qua"
 
 msgid "Lower Framerate saves CPU Time."
 msgstr "Tốc độ khung hình thấp hơn tiết kiệm thời gian CPU"
+
+#, fuzzy
+msgid "Lower USB"
+msgstr "Chữ thường"
 
 msgid "Lower case"
 msgstr "Chữ thường"
@@ -11616,6 +11733,9 @@ msgstr ""
 msgid "Mexico"
 msgstr "Mexico"
 
+msgid "Micro SD"
+msgstr ""
+
 #, fuzzy
 msgid "Micronesia, Federated States of"
 msgstr "Micronesia (Liên bang)"
@@ -11672,6 +11792,10 @@ msgstr ""
 
 msgid "Miscellaneous"
 msgstr ""
+
+#, fuzzy
+msgid "Miscellaneous languages"
+msgstr "ngôn ngữ"
 
 #, python-format
 msgid ""
@@ -13987,6 +14111,10 @@ msgid "Playback Settings"
 msgstr ""
 
 #, fuzzy
+msgid "Playback Time:"
+msgstr "Hẹn giờ dự phòng"
+
+#, fuzzy
 msgid "Playback, Recording, VOD & Time Shift"
 msgstr "Ghi âm & Timeshift"
 
@@ -15976,6 +16104,10 @@ msgstr "Viết lại phụ đề"
 msgid "Right"
 msgstr "Đúng"
 
+#, fuzzy
+msgid "Right USB"
+msgstr "Đúng"
+
 msgid "Right column"
 msgstr ""
 
@@ -15987,6 +16119,12 @@ msgstr ""
 
 msgid "Right from service name"
 msgstr "Ngay từ tên dịch vụ"
+
+msgid "Right, back USB"
+msgstr ""
+
+msgid "Right, front USB"
+msgstr ""
 
 msgid "Right, wrapped"
 msgstr "phải, bọc"
@@ -16103,6 +16241,15 @@ msgstr "Thiết lập SABnzbd"
 msgid "SAT"
 msgstr "SAT"
 
+msgid "SATA"
+msgstr ""
+
+msgid "SATA BACK"
+msgstr ""
+
+msgid "SATA FRONT"
+msgstr ""
+
 #, fuzzy
 msgid "SATPI Setting Actions"
 msgstr "Cài đặt AFP"
@@ -16116,6 +16263,10 @@ msgstr "Phạm vi tìm kiếm được tối ưu hóa SCPC"
 
 msgid "SCR timing adjustment, in conjunction with SCR socket and operation of several SCR devices with one cable."
 msgstr "Điều chỉnh thời gian SCR, kết hợp với ổ cắm SCR và hoạt động của một số thiết bị SCR với một cáp."
+
+#, fuzzy
+msgid "SD"
+msgstr "OSD"
 
 #, python-format
 msgid "SDcard slot %s%s"
@@ -16585,6 +16736,9 @@ msgstr "Chọn 'A' hoặc 'B' nếu hệ thống trên không của bạn yêu c
 msgid "Select 'Band' if using a 'Universal' LNB, otherwise consult your LNB specifications."
 msgstr "Chọn 'băng tần' nếu sử dụng LNB 'phổ quát', nếu không hãy tham khảo bảng thông số LNB của bạn."
 
+msgid "Select 'Disabled' to disable all automated volume adjustments. Select 'Defined volume offsets' to assign a specified offset to the service's volume level. Select 'Last used/set volume' to remember the volume level last used for each service."
+msgstr ""
+
 msgid "Select 'Enable' to start the CI+ helper."
 msgstr ""
 
@@ -16617,9 +16771,6 @@ msgstr ""
 
 msgid "Select 'Yes' if this tuner is connected to the SCR device through another tuner, otherwise select 'No'."
 msgstr "Chọn 'có' nếu bộ chỉnh này được kết nối với thiết bị SCR thông qua bộ chỉnh khác, nếu không thì chọn 'không'."
-
-msgid "Select 'Yes' if volume adjustments should be applied to Dolby sound tracks."
-msgstr ""
 
 msgid "Select 'Yes' if you are using a multi-switch which requires a DiSEqC Port-A command signal. Select 'No' for all other setups."
 msgstr "Chỉ chọn 'có' nếu bạn đang sử dụng đa tín hiệu yêu cầu tín hiệu lệnh DiSEqC Port-A. Đối với tất cả các thiết lập khác, chọn 'không'."
@@ -16800,6 +16951,10 @@ msgstr "Nếu được đặt thành 'có', danh sách kênh sẽ được hiể
 
 msgid "Select 'Yes' to show the current directory in the list of directories. Note that File Commander must be restarted for this change to take effect."
 msgstr ""
+
+#, fuzzy
+msgid "Select 'Yes' to show the volume level on any automated changes of volume level."
+msgstr "Nếu được đặt thành 'có', các bó hoa sẽ được hiển thị mỗi khi bạn mở EPG."
 
 #, fuzzy
 msgid "Select 'Yes' to show this plugin in the Plugin Browser."
@@ -17980,6 +18135,10 @@ msgstr ""
 
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr "Đặt loại chỉ báo tiến trình trong màn hình chọn kênh."
+
+#, fuzzy, python-format
+msgid "Set the volume level for the '%s' service."
+msgstr "Đặt thời gian để ẩn infobar."
 
 #, python-format
 msgid "Set the volume offset for the '%s' service."
@@ -21575,6 +21734,10 @@ msgstr ""
 msgid "Toggle between bouquet/EPG lists"
 msgstr "Chuyển đổi giữa các danh sách bó / epg"
 
+#, fuzzy
+msgid "Toggle between the available TV and RADIO services"
+msgstr "Chuyển đổi giữa tv và radio ..."
+
 msgid "Toggle display of image information"
 msgstr ""
 
@@ -21999,6 +22162,12 @@ msgstr "USALS"
 msgid "USALS automatically moves a motorized dish to the correct satellite based on the coordinates entered by the user. Without USALS each satellite will need to be setup and saved individually."
 msgstr "USALS tự động di chuyển một đĩa có động cơ đến đúng vệ tinh dựa trên tọa độ mà người dùng nhập vào. Không có USALS, mỗi vệ tinh sẽ cần được thiết lập và lưu riêng lẻ."
 
+msgid "USB 2.0 (Back, inner)"
+msgstr ""
+
+msgid "USB 3.0 (Back, outer)"
+msgstr ""
+
 msgid "USB Disk Format"
 msgstr ""
 
@@ -22281,6 +22450,10 @@ msgstr "Uphops -"
 
 msgid "Uphops: "
 msgstr "Uphops: "
+
+#, fuzzy
+msgid "Upper USB"
+msgstr "Hồ sơ ở trên"
 
 msgid "Upper case"
 msgstr "Hồ sơ ở trên"
@@ -22909,17 +23082,22 @@ msgstr "Chế độ điện áp"
 msgid "Volume"
 msgstr "Âm lượng"
 
-msgid "Volume Adjust"
-msgstr "Điều chỉnh âm lượng"
-
 msgid "Volume Adjust Actions"
 msgstr ""
 
 msgid "Volume Adjust Service Selection"
 msgstr ""
 
+#, fuzzy
+msgid "Volume Adjust Service Selection Actions"
+msgstr "Hiển thị lựa chọn dịch vụ phụ"
+
 msgid "Volume Adjust Settings"
 msgstr ""
+
+#, fuzzy
+msgid "Volume adjustment mode"
+msgstr "Điều chỉnh âm lượng"
 
 msgid "Volume down"
 msgstr "Giảm âm lượng"
@@ -24306,8 +24484,14 @@ msgstr "Đang tải xuống"
 msgid "drama (general)"
 msgstr "phim / kịch (nói chung)"
 
+msgid "eMMC"
+msgstr ""
+
 #, python-format
 msgid "eMMC slot %s%s"
+msgstr ""
+
+msgid "eSATA"
 msgstr ""
 
 msgid "east"

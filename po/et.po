@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Opendroid-Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-15 06:02+0200\n"
+"POT-Creation-Date: 2025-04-23 17:39+0200\n"
 "PO-Revision-Date: 2024-09-20 23:58+0200\n"
 "Last-Translator: OPD Team <opendroid2013@gmail.com>\n"
 "Language-Team: Digi-tv.ee\n"
@@ -876,17 +876,17 @@ msgstr[1] "%d Minutit"
 msgid "%d Minutes"
 msgstr "%d minutit"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Month"
 msgid_plural "%d Months"
-msgstr[0] "%d kuu"
-msgstr[1] "%d kuud"
+msgstr[0] "%d min"
+msgstr[1] "%d min"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Pixel"
 msgid_plural "%d Pixels"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d pikslit"
+msgstr[1] "%d pikslit"
 
 #, python-format
 msgid "%d Pixel wide"
@@ -908,17 +908,17 @@ msgstr[1] "%d sekundit"
 msgid "%d Seconds"
 msgstr "%d sekundit"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Week"
 msgid_plural "%d Weeks"
-msgstr[0] "%d nädal"
-msgstr[1] "%d nädalat"
+msgstr[0] "Iga nädal"
+msgstr[1] "Iga nädal"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Year"
 msgid_plural "%d Years"
-msgstr[0] "%d aasta"
-msgstr[1] "%d aastat"
+msgstr[0] "Aasta"
+msgstr[1] "Aasta"
 
 #. TRANSLATORS: Intermediate scanning result, '%d' channel(s) have been found so far
 #, python-format
@@ -932,6 +932,12 @@ msgid "%d core"
 msgid_plural "%d cores"
 msgstr[0] "%d tuum"
 msgstr[1] "%d tuuma"
+
+#, fuzzy, python-format
+msgid "%d feed catalog package was updated."
+msgid_plural "%d feed catalog packages were updated."
+msgstr[0] "%d pakett uuendati."
+msgstr[1] "%d paketti uuendati."
 
 #, python-format
 msgid "%d kB"
@@ -994,6 +1000,48 @@ msgstr[1] ""
 #, python-format
 msgid "%d package upgraded."
 msgid_plural "%d packages upgraded."
+msgstr[0] "%d pakett uuendati."
+msgstr[1] "%d paketti uuendati."
+
+#, fuzzy, python-format
+msgid "%d package was configured."
+msgid_plural "%d packages were configured."
+msgstr[0] "%d pakett uuendati."
+msgstr[1] "%d paketti uuendati."
+
+#, fuzzy, python-format
+msgid "%d package was deselected."
+msgid_plural "%d packages were deselected."
+msgstr[0] "%d pakett uuendati."
+msgstr[1] "%d paketti uuendati."
+
+#, fuzzy, python-format
+msgid "%d package was downloaded."
+msgid_plural "%d packages were downloaded."
+msgstr[0] "%d pakett uuendati."
+msgstr[1] "%d paketti uuendati."
+
+#, fuzzy, python-format
+msgid "%d package was identified for upgrade."
+msgid_plural "%d packages were identified for upgrade."
+msgstr[0] "%d pakett uuendati."
+msgstr[1] "%d paketti uuendati."
+
+#, fuzzy, python-format
+msgid "%d package was installed."
+msgid_plural "%d packages were installed."
+msgstr[0] "%d pakett uuendati."
+msgstr[1] "%d paketti uuendati."
+
+#, fuzzy, python-format
+msgid "%d package was removed."
+msgid_plural "%d packages were removed."
+msgstr[0] "%d pakett uuendati."
+msgstr[1] "%d paketti uuendati."
+
+#, fuzzy, python-format
+msgid "%d package was upgraded."
+msgid_plural "%d packages were upgraded."
 msgstr[0] "%d pakett uuendati."
 msgstr[1] "%d paketti uuendati."
 
@@ -1938,6 +1986,11 @@ msgstr "Lisa uus Quad PiP kanal"
 msgid "Add RecordTimer"
 msgstr "Lisa salvestustaimer"
 
+#
+#, fuzzy
+msgid "Add Service"
+msgstr "Lisa kanal"
+
 msgid "Add Service To Bouquet"
 msgstr "Lisa kanal lemmiknimekirja"
 
@@ -1959,11 +2012,17 @@ msgstr "Lisa kanalivahetustaimer"
 msgid "Add a DNS entry"
 msgstr ""
 
+msgid "Add a RADIO service to the Volume Offset list"
+msgstr ""
+
 msgid "Add a RecordTimer"
 msgstr "Lisa salvestustaimer"
 
 msgid "Add a RecordTimer for current event"
 msgstr "Lisa käesolevale saatele salvestustaimer"
+
+msgid "Add a TV service to the Volume Offset list"
+msgstr ""
 
 msgid "Add a ZapTimer for current event"
 msgstr "Lisa käesolevale saatele kanalivahetustaimer"
@@ -1989,7 +2048,7 @@ msgstr ""
 msgid "Add a new title"
 msgstr "Lisa uus pealkiri"
 
-msgid "Add a service to the Volume Offsets list"
+msgid "Add a service to the Volume Offset list"
 msgstr ""
 
 msgid "Add a timer for the current event"
@@ -2069,7 +2128,7 @@ msgstr ""
 msgid "Add the current directory as a bookmark"
 msgstr ""
 
-msgid "Add the current service to the Volume Offsets list"
+msgid "Add the current/active service to the Volume Offset list"
 msgstr ""
 
 msgid "Add the selected service to a bouquet or alternative"
@@ -2091,6 +2150,9 @@ msgid "Add/Remove highlighted plugin to/from remove list"
 msgstr ""
 
 msgid "Add/Remove highlighted plugin to/from update list"
+msgstr ""
+
+msgid "Add/Remove the current service to/from the Volume Offset list"
 msgstr ""
 
 msgid "Adding schedule..."
@@ -2794,6 +2856,10 @@ msgstr "Autofookus käivitub..."
 msgid "Auto multi-selection"
 msgstr ""
 
+#, fuzzy
+msgid "Auto show volume level"
+msgstr "Automaatne helitase"
+
 msgid "Auto shut down"
 msgstr ""
 
@@ -2926,6 +2992,34 @@ msgstr "Lühike SININE/pikk SININE vahetus"
 
 msgid "Back"
 msgstr "Tagasi"
+
+#, fuzzy
+msgid "Back USB"
+msgstr "Tagasi"
+
+msgid "Back USB 3.0"
+msgstr ""
+
+msgid "Back USB-C"
+msgstr ""
+
+msgid "Back, inner USB"
+msgstr ""
+
+msgid "Back, left USB"
+msgstr ""
+
+msgid "Back, lower USB"
+msgstr ""
+
+msgid "Back, outer USB"
+msgstr ""
+
+msgid "Back, right USB"
+msgstr ""
+
+msgid "Back, upper USB"
+msgstr ""
 
 msgid "Back/Recall"
 msgstr "Back/Recall"
@@ -5426,6 +5520,9 @@ msgstr ""
 msgid "Currently Defined Volume Offsets:"
 msgstr ""
 
+msgid "Currently Remembered Volume Levels:"
+msgstr ""
+
 msgid "Currently the commit log cannot be retrieved - please try later again."
 msgstr ""
 
@@ -5902,6 +5999,9 @@ msgstr ""
 msgid "Define the file system mount options."
 msgstr ""
 
+msgid "Defined volume offset"
+msgstr ""
+
 msgid "Defines how fast the time jumps are repeated. Values lower than 500ms may be problematic with NAS."
 msgstr "Määrab, kui tihti ajahüpet korratakse. Väärtused alla 500ms võivad NAS kasutamisel osutuda probleemseks."
 
@@ -6088,9 +6188,6 @@ msgstr "Kustuta teksti puhvri kursori alla jääv tähemärk"
 
 msgid "Delete the current time shift buffer and restart time shift"
 msgstr "Kustuta ajanihke puhver ja taaskäivita ajanihe"
-
-msgid "Delete the currently highlighted service from the Volume Offsets list"
-msgstr ""
 
 msgid "Delete the currently selected timer"
 msgstr ""
@@ -7165,9 +7262,6 @@ msgstr "Muuda lemmiknimekirju"
 #, fuzzy
 msgid "Enable ClearMem"
 msgstr "Liiguta kanaleid"
-
-msgid "Enable Dolby Digital / Dolby AC-3 offsets"
-msgstr ""
 
 msgid "Enable EIT EPG"
 msgstr "EIT EPG lubatud"
@@ -8903,6 +8997,12 @@ msgstr "Reede"
 msgid "From :"
 msgstr ""
 
+msgid "Front USB"
+msgstr ""
+
+msgid "Front USB 3.0"
+msgstr ""
+
 msgid "Front processor version"
 msgstr ""
 
@@ -10421,6 +10521,14 @@ msgstr ""
 msgid "Internal Reader /dev/sci1:"
 msgstr ""
 
+#, fuzzy
+msgid "Internal SSD"
+msgstr "Sisemine"
+
+#, fuzzy
+msgid "Internal USB"
+msgstr "Sisemine"
+
 msgid "Internal flash"
 msgstr "Sisemälu"
 
@@ -10940,6 +11048,10 @@ msgstr ""
 msgid "Last used share: "
 msgstr "Viimati kasutatud: "
 
+#, fuzzy
+msgid "Last used/set volume"
+msgstr "Viimati kasutatud: "
+
 msgctxt "third event: 'third' event label"
 msgid "Later"
 msgstr "Hiljem"
@@ -10972,6 +11084,10 @@ msgstr "Liibanon"
 msgid "Left"
 msgstr "Vasak"
 
+#, fuzzy
+msgid "Left USB"
+msgstr "Vasak"
+
 msgid "Left column"
 msgstr ""
 
@@ -10983,6 +11099,12 @@ msgstr ""
 
 msgid "Left from service name"
 msgstr "Kanali nimest vasakul"
+
+msgid "Left, back USB"
+msgstr ""
+
+msgid "Left, front USB"
+msgstr ""
 
 msgid "Left, wrapped"
 msgstr "Vasakul, reamurdmisega"
@@ -11305,6 +11427,10 @@ msgstr "Läbiviik kuni"
 
 msgid "Lower Framerate saves CPU Time."
 msgstr "Madalam kaadrisagedus säästab protsessoriaega"
+
+#, fuzzy
+msgid "Lower USB"
+msgstr "Väiketähed"
 
 msgid "Lower case"
 msgstr "Väiketähed"
@@ -11745,6 +11871,9 @@ msgstr ""
 msgid "Mexico"
 msgstr "Mehhiko"
 
+msgid "Micro SD"
+msgstr ""
+
 #, fuzzy
 msgid "Micronesia, Federated States of"
 msgstr "Mikroneesia Liiduriigid"
@@ -11801,6 +11930,10 @@ msgstr ""
 
 #, fuzzy
 msgid "Miscellaneous"
+msgstr "Erinevad keeled"
+
+#, fuzzy
+msgid "Miscellaneous languages"
 msgstr "Erinevad keeled"
 
 #, python-format
@@ -14165,6 +14298,11 @@ msgstr ""
 msgid "Playback Settings"
 msgstr ""
 
+# /Extensions/MediaPlayer
+#, fuzzy
+msgid "Playback Time:"
+msgstr "Esita meediafaile"
+
 #, fuzzy
 msgid "Playback, Recording, VOD & Time Shift"
 msgstr "Salvestus ja ajanihe"
@@ -16185,6 +16323,10 @@ msgstr "Subtiitrite ümberpakkimine"
 msgid "Right"
 msgstr "Parem"
 
+#, fuzzy
+msgid "Right USB"
+msgstr "Parem"
+
 msgid "Right column"
 msgstr ""
 
@@ -16196,6 +16338,12 @@ msgstr ""
 
 msgid "Right from service name"
 msgstr "Kanali nimest paremal"
+
+msgid "Right, back USB"
+msgstr ""
+
+msgid "Right, front USB"
+msgstr ""
 
 msgid "Right, wrapped"
 msgstr "Paremal, reamurdmisega"
@@ -16314,6 +16462,15 @@ msgstr "SABnzbd seaded"
 msgid "SAT"
 msgstr "SAT"
 
+msgid "SATA"
+msgstr ""
+
+msgid "SATA BACK"
+msgstr ""
+
+msgid "SATA FRONT"
+msgstr ""
+
 #, fuzzy
 msgid "SATPI Setting Actions"
 msgstr "AFP seaded"
@@ -16327,6 +16484,10 @@ msgstr "SCPC optimeeritud otsingu vahemik"
 
 msgid "SCR timing adjustment, in conjunction with SCR socket and operation of several SCR devices with one cable."
 msgstr ""
+
+#, fuzzy
+msgid "SD"
+msgstr "Ekraanigraafika"
 
 #, python-format
 msgid "SDcard slot %s%s"
@@ -16808,6 +16969,9 @@ msgstr "Vali 'A' või 'B*, kui antennisüsteem seda nõuab, muudel juhtudel vali
 msgid "Select 'Band' if using a 'Universal' LNB, otherwise consult your LNB specifications."
 msgstr "Universaalse LNB puhul vali 'sagedusala', muudel juhtudel vaata LNB käsiraamatust."
 
+msgid "Select 'Disabled' to disable all automated volume adjustments. Select 'Defined volume offsets' to assign a specified offset to the service's volume level. Select 'Last used/set volume' to remember the volume level last used for each service."
+msgstr ""
+
 msgid "Select 'Enable' to start the CI+ helper."
 msgstr ""
 
@@ -16840,9 +17004,6 @@ msgstr ""
 
 msgid "Select 'Yes' if this tuner is connected to the SCR device through another tuner, otherwise select 'No'."
 msgstr "Vali 'jah', kui see tuuner on ühendatud SCR seadmega teise tuuneri kaudu. Muudel juhtudel vali ei."
-
-msgid "Select 'Yes' if volume adjustments should be applied to Dolby sound tracks."
-msgstr ""
 
 msgid "Select 'Yes' if you are using a multi-switch which requires a DiSEqC Port-A command signal. Select 'No' for all other setups."
 msgstr "Vali 'jah' ainult juhul, kui kasutatav multiswich lüliti nõuab DiSEqC Port-A käsu signaali. Kõigil teistel juhtudel vali 'ei'."
@@ -17024,6 +17185,10 @@ msgstr "Kui lubatud, avatakse TV ja raadio režiimi vahetudes kanalinimekiri."
 
 msgid "Select 'Yes' to show the current directory in the list of directories. Note that File Commander must be restarted for this change to take effect."
 msgstr ""
+
+#, fuzzy
+msgid "Select 'Yes' to show the volume level on any automated changes of volume level."
+msgstr "Kui lubatud, kuvatakse saatekava avamisel alati lemmiknimekirjad."
 
 #, fuzzy
 msgid "Select 'Yes' to show this plugin in the Plugin Browser."
@@ -18218,6 +18383,10 @@ msgstr ""
 
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr "Määra saate edenemise näit kanalinimekirjas."
+
+#, fuzzy, python-format
+msgid "Set the volume level for the '%s' service."
+msgstr "Määra aeg inforiba peitmiseks."
 
 #, python-format
 msgid "Set the volume offset for the '%s' service."
@@ -21866,6 +22035,10 @@ msgstr ""
 msgid "Toggle between bouquet/EPG lists"
 msgstr "Vaheta lemmiknimekiri ja epg loend"
 
+#, fuzzy
+msgid "Toggle between the available TV and RADIO services"
+msgstr "TV / Raadio lüliti"
+
 msgid "Toggle display of image information"
 msgstr ""
 
@@ -22300,6 +22473,12 @@ msgstr "USALS"
 msgid "USALS automatically moves a motorized dish to the correct satellite based on the coordinates entered by the user. Without USALS each satellite will need to be setup and saved individually."
 msgstr "USALS liigutab ajamiga mootori õige satelliidi peale automaatselt vastavalt kasutaja antud koordinaatidele. USALS'ita tuleb iga satelliit eraldi seadistada ja salvestada."
 
+msgid "USB 2.0 (Back, inner)"
+msgstr ""
+
+msgid "USB 3.0 (Back, outer)"
+msgstr ""
+
 msgid "USB Disk Format"
 msgstr ""
 
@@ -22590,6 +22769,10 @@ msgstr "Uphops -"
 
 msgid "Uphops: "
 msgstr "Uphops: "
+
+#, fuzzy
+msgid "Upper USB"
+msgstr "Suurtähed"
 
 msgid "Upper case"
 msgstr "Suurtähed"
@@ -23235,17 +23418,22 @@ msgstr "Pinge tüüp"
 msgid "Volume"
 msgstr "Helitugevus"
 
-msgid "Volume Adjust"
-msgstr "Helitaseme kohandamine"
-
 msgid "Volume Adjust Actions"
 msgstr ""
 
 msgid "Volume Adjust Service Selection"
 msgstr ""
 
+#, fuzzy
+msgid "Volume Adjust Service Selection Actions"
+msgstr "Kuva alamkanalite valik"
+
 msgid "Volume Adjust Settings"
 msgstr ""
+
+#, fuzzy
+msgid "Volume adjustment mode"
+msgstr "Helitaseme kohandamine"
 
 msgid "Volume down"
 msgstr "Heli maha"
@@ -24662,8 +24850,14 @@ msgstr "Allalaadimisel"
 msgid "drama (general)"
 msgstr "film/draama"
 
+msgid "eMMC"
+msgstr ""
+
 #, python-format
 msgid "eMMC slot %s%s"
+msgstr ""
+
+msgid "eSATA"
 msgstr ""
 
 msgid "east"

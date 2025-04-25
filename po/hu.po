@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Opendroid\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-15 06:02+0200\n"
+"POT-Creation-Date: 2025-04-23 17:39+0200\n"
 "PO-Revision-Date: 2024-09-21 00:01+0200\n"
 "Last-Translator: OPD Team <opendroid2013@gmail.com>\n"
 "Language-Team: Mediavox, robertut <info@mediavox.hu, robertut@yahoo.com>\n"
@@ -905,17 +905,17 @@ msgstr[1] "%d Perc"
 msgid "%d Minutes"
 msgstr ""
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Month"
 msgid_plural "%d Months"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d perc"
+msgstr[1] "%d perc"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Pixel"
 msgid_plural "%d Pixels"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d pixel széles"
+msgstr[1] "%d pixel széles"
 
 #, fuzzy, python-format
 msgid "%d Pixel wide"
@@ -937,17 +937,17 @@ msgstr[1] "%d másodperc"
 msgid "%d Seconds"
 msgstr ""
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Week"
 msgid_plural "%d Weeks"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Hetente"
+msgstr[1] "Hetente"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Year"
 msgid_plural "%d Years"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Év"
+msgstr[1] "Év"
 
 #. TRANSLATORS: Intermediate scanning result, '%d' channel(s) have been found so far
 #, python-format
@@ -961,6 +961,12 @@ msgid "%d core"
 msgid_plural "%d cores"
 msgstr[0] "%d core"
 msgstr[1] "%d core"
+
+#, fuzzy, python-format
+msgid "%d feed catalog package was updated."
+msgid_plural "%d feed catalog packages were updated."
+msgstr[0] "%d csomag frissítve."
+msgstr[1] "%d csomag frissítve."
 
 #, python-format
 msgid "%d kB"
@@ -1023,6 +1029,48 @@ msgstr[1] ""
 #, python-format
 msgid "%d package upgraded."
 msgid_plural "%d packages upgraded."
+msgstr[0] "%d csomag frissítve."
+msgstr[1] "%d csomag frissítve."
+
+#, fuzzy, python-format
+msgid "%d package was configured."
+msgid_plural "%d packages were configured."
+msgstr[0] "%d csomag frissítve."
+msgstr[1] "%d csomag frissítve."
+
+#, fuzzy, python-format
+msgid "%d package was deselected."
+msgid_plural "%d packages were deselected."
+msgstr[0] "%d csomag kijelölés nélkül."
+msgstr[1] "%d csomag kijelölés nélkül."
+
+#, fuzzy, python-format
+msgid "%d package was downloaded."
+msgid_plural "%d packages were downloaded."
+msgstr[0] "%d csomag frissítve."
+msgstr[1] "%d csomag frissítve."
+
+#, fuzzy, python-format
+msgid "%d package was identified for upgrade."
+msgid_plural "%d packages were identified for upgrade."
+msgstr[0] "%d csomag frissítve."
+msgstr[1] "%d csomag frissítve."
+
+#, fuzzy, python-format
+msgid "%d package was installed."
+msgid_plural "%d packages were installed."
+msgstr[0] "%d csomag telepítve."
+msgstr[1] "%d csomag telepítve."
+
+#, fuzzy, python-format
+msgid "%d package was removed."
+msgid_plural "%d packages were removed."
+msgstr[0] "%d csomag frissítve."
+msgstr[1] "%d csomag frissítve."
+
+#, fuzzy, python-format
+msgid "%d package was upgraded."
+msgid_plural "%d packages were upgraded."
 msgstr[0] "%d csomag frissítve."
 msgstr[1] "%d csomag frissítve."
 
@@ -1951,6 +1999,10 @@ msgstr "Új négy csatornás bejegyzés hozzáadása"
 msgid "Add RecordTimer"
 msgstr "Felvétel időzítő hozzáadása"
 
+#, fuzzy
+msgid "Add Service"
+msgstr "Csatorna hozzáadása"
+
 msgid "Add Service To Bouquet"
 msgstr "csatorna hozzáadása csatornacsomaghoz"
 
@@ -1972,11 +2024,17 @@ msgstr "Zap időzítő hozzáadása"
 msgid "Add a DNS entry"
 msgstr ""
 
+msgid "Add a RADIO service to the Volume Offset list"
+msgstr ""
+
 msgid "Add a RecordTimer"
 msgstr "Egy felvételi időzítő hozzáadása"
 
 msgid "Add a RecordTimer for current event"
 msgstr "Egy felvételi időzítő hozzáadása a jelenlegi eseményhez"
+
+msgid "Add a TV service to the Volume Offset list"
+msgstr ""
 
 msgid "Add a ZapTimer for current event"
 msgstr "Elkapcsolás időzítő hozzáadása az aktuális eseményhez"
@@ -2002,7 +2060,7 @@ msgstr ""
 msgid "Add a new title"
 msgstr "Új cím hozzáadása"
 
-msgid "Add a service to the Volume Offsets list"
+msgid "Add a service to the Volume Offset list"
 msgstr ""
 
 msgid "Add a timer for the current event"
@@ -2079,7 +2137,7 @@ msgstr ""
 msgid "Add the current directory as a bookmark"
 msgstr ""
 
-msgid "Add the current service to the Volume Offsets list"
+msgid "Add the current/active service to the Volume Offset list"
 msgstr ""
 
 msgid "Add the selected service to a bouquet or alternative"
@@ -2101,6 +2159,9 @@ msgid "Add/Remove highlighted plugin to/from remove list"
 msgstr ""
 
 msgid "Add/Remove highlighted plugin to/from update list"
+msgstr ""
+
+msgid "Add/Remove the current service to/from the Volume Offset list"
 msgstr ""
 
 msgid "Adding schedule..."
@@ -2795,6 +2856,10 @@ msgstr "Autofókusz kezdődik..."
 msgid "Auto multi-selection"
 msgstr ""
 
+#, fuzzy
+msgid "Auto show volume level"
+msgstr "Automatikus hangerő"
+
 msgid "Auto shut down"
 msgstr ""
 
@@ -2925,6 +2990,34 @@ msgstr "Kék gomb: Kék röviden/Kék hosszan"
 
 msgid "Back"
 msgstr "Vissza"
+
+#, fuzzy
+msgid "Back USB"
+msgstr "Vissza"
+
+msgid "Back USB 3.0"
+msgstr ""
+
+msgid "Back USB-C"
+msgstr ""
+
+msgid "Back, inner USB"
+msgstr ""
+
+msgid "Back, left USB"
+msgstr ""
+
+msgid "Back, lower USB"
+msgstr ""
+
+msgid "Back, outer USB"
+msgstr ""
+
+msgid "Back, right USB"
+msgstr ""
+
+msgid "Back, upper USB"
+msgstr ""
 
 msgid "Back/Recall"
 msgstr "Vissza/Visszahívás"
@@ -5393,6 +5486,9 @@ msgstr ""
 msgid "Currently Defined Volume Offsets:"
 msgstr ""
 
+msgid "Currently Remembered Volume Levels:"
+msgstr ""
+
 msgid "Currently the commit log cannot be retrieved - please try later again."
 msgstr ""
 
@@ -5865,6 +5961,9 @@ msgstr ""
 msgid "Define the file system mount options."
 msgstr ""
 
+msgid "Defined volume offset"
+msgstr ""
+
 msgid "Defines how fast the time jumps are repeated. Values lower than 500ms may be problematic with NAS."
 msgstr "Meghatározza, hogy az idő ugrása milyen gyorsan ismétlődik. Az 500 ms alatti értékek problémát okozhatnak a NAS-nak."
 
@@ -6049,9 +6148,6 @@ msgstr "Karakter törlése a szövegpuffer kurzor alatt"
 
 msgid "Delete the current time shift buffer and restart time shift"
 msgstr "Törölje az aktuális Timeshift puffert, és indítsa újra a Timeshift-et"
-
-msgid "Delete the currently highlighted service from the Volume Offsets list"
-msgstr ""
 
 msgid "Delete the currently selected timer"
 msgstr ""
@@ -7099,9 +7195,6 @@ msgstr "csatornacsomag szerkesztés engedélyezése"
 #, fuzzy
 msgid "Enable ClearMem"
 msgstr "mozgatási mód engedélyezése"
-
-msgid "Enable Dolby Digital / Dolby AC-3 offsets"
-msgstr ""
 
 msgid "Enable EIT EPG"
 msgstr "EIT EPG engedélyezése"
@@ -8815,6 +8908,12 @@ msgstr "Péntek"
 msgid "From :"
 msgstr "Innen:"
 
+msgid "Front USB"
+msgstr ""
+
+msgid "Front USB 3.0"
+msgstr ""
+
 msgid "Front processor version"
 msgstr ""
 
@@ -10303,6 +10402,14 @@ msgstr ""
 msgid "Internal Reader /dev/sci1:"
 msgstr ""
 
+#, fuzzy
+msgid "Internal SSD"
+msgstr "Belső"
+
+#, fuzzy
+msgid "Internal USB"
+msgstr "Belső"
+
 msgid "Internal flash"
 msgstr "Belső Flash"
 
@@ -10815,6 +10922,10 @@ msgstr ""
 msgid "Last used share: "
 msgstr "Utolsó használt megosztás: "
 
+#, fuzzy
+msgid "Last used/set volume"
+msgstr "Utolsó használt megosztás: "
+
 msgctxt "third event: 'third' event label"
 msgid "Later"
 msgstr "Később"
@@ -10847,6 +10958,10 @@ msgstr "Libanon"
 msgid "Left"
 msgstr "Bal"
 
+#, fuzzy
+msgid "Left USB"
+msgstr "Bal"
+
 msgid "Left column"
 msgstr ""
 
@@ -10858,6 +10973,12 @@ msgstr ""
 
 msgid "Left from service name"
 msgstr "A csatornanév bal oldalán"
+
+msgid "Left, back USB"
+msgstr ""
+
+msgid "Left, front USB"
+msgstr ""
 
 msgid "Left, wrapped"
 msgstr "bal oldalon sortöréssel"
@@ -11170,6 +11291,10 @@ msgstr "Loop through to"
 
 msgid "Lower Framerate saves CPU Time."
 msgstr "Lower Framerate saves CPU Time."
+
+#, fuzzy
+msgid "Lower USB"
+msgstr "Kisbetűs"
 
 msgid "Lower case"
 msgstr "Kisbetűs"
@@ -11593,6 +11718,9 @@ msgstr ""
 msgid "Mexico"
 msgstr "Mexikó"
 
+msgid "Micro SD"
+msgstr ""
+
 #, fuzzy
 msgid "Micronesia, Federated States of"
 msgstr "Mikronézia"
@@ -11647,6 +11775,10 @@ msgid "Mipsel"
 msgstr ""
 
 msgid "Miscellaneous"
+msgstr "Vegyes"
+
+#, fuzzy
+msgid "Miscellaneous languages"
 msgstr "Vegyes"
 
 #, python-format
@@ -13949,6 +14081,10 @@ msgid "Playback Settings"
 msgstr ""
 
 #, fuzzy
+msgid "Playback Time:"
+msgstr "Tartalék távoli időzítő"
+
+#, fuzzy
 msgid "Playback, Recording, VOD & Time Shift"
 msgstr "Felvételek és Timeshift"
 
@@ -15929,6 +16065,10 @@ msgstr "Feliratok újratördelése"
 msgid "Right"
 msgstr "Jobb"
 
+#, fuzzy
+msgid "Right USB"
+msgstr "Jobb"
+
 msgid "Right column"
 msgstr ""
 
@@ -15940,6 +16080,12 @@ msgstr ""
 
 msgid "Right from service name"
 msgstr "A csatornanév jobb oldalán"
+
+msgid "Right, back USB"
+msgstr ""
+
+msgid "Right, front USB"
+msgstr ""
 
 msgid "Right, wrapped"
 msgstr "jobb oldalon sortöréssel"
@@ -16055,6 +16201,15 @@ msgstr "SABnzbd Beállítás"
 msgid "SAT"
 msgstr "SAT"
 
+msgid "SATA"
+msgstr ""
+
+msgid "SATA BACK"
+msgstr ""
+
+msgid "SATA FRONT"
+msgstr ""
+
 #, fuzzy
 msgid "SATPI Setting Actions"
 msgstr "AFP beállítása"
@@ -16068,6 +16223,10 @@ msgstr "SCPC optimalizált keresési tartomány"
 
 msgid "SCR timing adjustment, in conjunction with SCR socket and operation of several SCR devices with one cable."
 msgstr "SCR időzítés beállítása, együtt SCR aljzat és a több SCR eszközök egy kábellel."
+
+#, fuzzy
+msgid "SD"
+msgstr "OSD"
 
 #, python-format
 msgid "SDcard slot %s%s"
@@ -16539,6 +16698,9 @@ msgstr "Válassza az 'A' vagy 'B' opciót, ha a aerial rendszer ezt megköveteli
 msgid "Select 'Band' if using a 'Universal' LNB, otherwise consult your LNB specifications."
 msgstr "Ha 'univerzális' LNB-t használ, válassza a 'sáv' lehetőséget, különben forduljon az LNB specifikációs laphoz."
 
+msgid "Select 'Disabled' to disable all automated volume adjustments. Select 'Defined volume offsets' to assign a specified offset to the service's volume level. Select 'Last used/set volume' to remember the volume level last used for each service."
+msgstr ""
+
 msgid "Select 'Enable' to start the CI+ helper."
 msgstr ""
 
@@ -16571,9 +16733,6 @@ msgstr ""
 
 msgid "Select 'Yes' if this tuner is connected to the SCR device through another tuner, otherwise select 'No'."
 msgstr "Válassza az 'igen' lehetőséget, ha ez a tuner egy másik tuneren keresztül csatlakozik az SCR eszközhöz, ellenkező esetben válassza a 'nem' lehetőséget."
-
-msgid "Select 'Yes' if volume adjustments should be applied to Dolby sound tracks."
-msgstr ""
 
 msgid "Select 'Yes' if you are using a multi-switch which requires a DiSEqC Port-A command signal. Select 'No' for all other setups."
 msgstr "Csak akkor válassza az 'igen' beállítást, ha multiswich-t használ, amelyhez DiSEqC Port-A parancs jelet igényel. Az összes többi beállításhoz válassza a 'nem' lehetőséget."
@@ -16754,6 +16913,10 @@ msgstr "Ha az 'igen'-t választja, a csatorna lista megjelenik a rádió és a T
 
 msgid "Select 'Yes' to show the current directory in the list of directories. Note that File Commander must be restarted for this change to take effect."
 msgstr ""
+
+#, fuzzy
+msgid "Select 'Yes' to show the volume level on any automated changes of volume level."
+msgstr "Ha az 'igen'-t választja, akkor csatornacsomagot kell választania az EPG műsorújság minden egyes megnyitása előtt."
 
 #, fuzzy
 msgid "Select 'Yes' to show this plugin in the Plugin Browser."
@@ -17934,6 +18097,10 @@ msgstr "Állítsa be az alapértelmezett művelet végrehajtásának várakozás
 
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr "Állítsa be a folyamatjelző típusát a csatornaválasztó képernyőn."
+
+#, fuzzy, python-format
+msgid "Set the volume level for the '%s' service."
+msgstr "Állítsa be az Információs sáv elrejtéséhez szükséges időt."
 
 #, python-format
 msgid "Set the volume offset for the '%s' service."
@@ -21519,6 +21686,10 @@ msgstr ""
 msgid "Toggle between bouquet/EPG lists"
 msgstr "Váltás a Csatornacsomag/EPG lista között"
 
+#, fuzzy
+msgid "Toggle between the available TV and RADIO services"
+msgstr "A tv és a rádió közötti váltás ..."
+
 msgid "Toggle display of image information"
 msgstr ""
 
@@ -21943,6 +22114,12 @@ msgstr "USALS"
 msgid "USALS automatically moves a motorized dish to the correct satellite based on the coordinates entered by the user. Without USALS each satellite will need to be setup and saved individually."
 msgstr "Az USALS automatikusan áthelyezi a motorizált antennát a megfelelő műholdra a felhasználó által megadott koordináták alapján. USALS nélkül minden műholdat külön-külön kell beállítani és menteni."
 
+msgid "USB 2.0 (Back, inner)"
+msgstr ""
+
+msgid "USB 3.0 (Back, outer)"
+msgstr ""
+
 msgid "USB Disk Format"
 msgstr ""
 
@@ -22224,6 +22401,10 @@ msgstr "Uphops -"
 
 msgid "Uphops: "
 msgstr "Uphops: "
+
+#, fuzzy
+msgid "Upper USB"
+msgstr "Nagybetű"
 
 msgid "Upper case"
 msgstr "Nagybetű"
@@ -22849,17 +23030,22 @@ msgstr "Feszültség"
 msgid "Volume"
 msgstr "Hangerő"
 
-msgid "Volume Adjust"
-msgstr "Hangerő szabályozás"
-
 msgid "Volume Adjust Actions"
 msgstr ""
 
 msgid "Volume Adjust Service Selection"
 msgstr ""
 
+#, fuzzy
+msgid "Volume Adjust Service Selection Actions"
+msgstr "IceTV - Szolgáltatás kiválasztása"
+
 msgid "Volume Adjust Settings"
 msgstr ""
+
+#, fuzzy
+msgid "Volume adjustment mode"
+msgstr "Hangerő szabályozás"
 
 msgid "Volume down"
 msgstr "Hangerő le"
@@ -24241,8 +24427,14 @@ msgstr "Letöltés"
 msgid "drama (general)"
 msgstr "dráma (általános)"
 
+msgid "eMMC"
+msgstr ""
+
 #, python-format
 msgid "eMMC slot %s%s"
+msgstr ""
+
+msgid "eSATA"
 msgstr ""
 
 msgid "east"

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Opendroid\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-15 06:02+0200\n"
+"POT-Creation-Date: 2025-04-23 17:39+0200\n"
 "PO-Revision-Date: 2025-03-27 12:22+0100\n"
 "Last-Translator: FULL NAME <Opendroid-Team <opendroid2013@gmail.com>, >\n"
 "Language-Team: torac <info@takerman.se>\n"
@@ -883,16 +883,16 @@ msgstr[1] "%D minuter"
 msgid "%d Minutes"
 msgstr "%d minuter"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Month"
 msgid_plural "%d Months"
-msgstr[0] "%d månad"
-msgstr[1] "%d månader"
+msgstr[0] "%d min"
+msgstr[1] "%d mins"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Pixel"
 msgid_plural "%d Pixels"
-msgstr[0] "%d pixel"
+msgstr[0] "%d pixlar"
 msgstr[1] "%d pixlar"
 
 #, python-format
@@ -915,17 +915,17 @@ msgstr[1] "%d sekunder"
 msgid "%d Seconds"
 msgstr "%d sekunder"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Week"
 msgid_plural "%d Weeks"
-msgstr[0] "%d vecka"
-msgstr[1] "%d veckor"
+msgstr[0] "Varje vecka"
+msgstr[1] "Varje vecka"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Year"
 msgid_plural "%d Years"
-msgstr[0] "%d år"
-msgstr[1] "%d år"
+msgstr[0] "År"
+msgstr[1] "År"
 
 #. TRANSLATORS: Intermediate scanning result, '%d' channel(s) have been found so far
 #, fuzzy, python-format
@@ -939,6 +939,12 @@ msgid "%d core"
 msgid_plural "%d cores"
 msgstr[0] "%D Core"
 msgstr[1] "%d kärnor"
+
+#, fuzzy, python-format
+msgid "%d feed catalog package was updated."
+msgid_plural "%d feed catalog packages were updated."
+msgstr[0] "%D -paketet har en uppdatering"
+msgstr[1] "%D -paket har uppdateringar."
 
 #, python-format
 msgid "%d kB"
@@ -1001,6 +1007,48 @@ msgstr[1] "%D -paket markerade för uppdatering."
 #, python-format
 msgid "%d package upgraded."
 msgid_plural "%d packages upgraded."
+msgstr[0] "%d -paketet uppgraderat."
+msgstr[1] "%d paket uppgraderade."
+
+#, fuzzy, python-format
+msgid "%d package was configured."
+msgid_plural "%d packages were configured."
+msgstr[0] "%d -paketet uppgraderat."
+msgstr[1] "%d paket uppgraderade."
+
+#, fuzzy, python-format
+msgid "%d package was deselected."
+msgid_plural "%d packages were deselected."
+msgstr[0] "Inga paket valda."
+msgstr[1] "Inga paket valda."
+
+#, fuzzy, python-format
+msgid "%d package was downloaded."
+msgid_plural "%d packages were downloaded."
+msgstr[0] "%d -paketet uppgraderat."
+msgstr[1] "%d paket uppgraderade."
+
+#, fuzzy, python-format
+msgid "%d package was identified for upgrade."
+msgid_plural "%d packages were identified for upgrade."
+msgstr[0] "%D -paketet markerat för uppdatering."
+msgstr[1] "%D -paket markerade för uppdatering."
+
+#, fuzzy, python-format
+msgid "%d package was installed."
+msgid_plural "%d packages were installed."
+msgstr[0] "%D -paket installerat."
+msgstr[1] "%D -paket installerade."
+
+#, fuzzy, python-format
+msgid "%d package was removed."
+msgid_plural "%d packages were removed."
+msgstr[0] "%d -paketet markerat för borttagning."
+msgstr[1] "%D -paket markerade för borttagning."
+
+#, fuzzy, python-format
+msgid "%d package was upgraded."
+msgid_plural "%d packages were upgraded."
 msgstr[0] "%d -paketet uppgraderat."
 msgstr[1] "%d paket uppgraderade."
 
@@ -1904,6 +1952,10 @@ msgstr "Lägg till ny quadkanalinmatning"
 msgid "Add RecordTimer"
 msgstr "Lägg till skivtimer"
 
+#, fuzzy
+msgid "Add Service"
+msgstr "Add service"
+
 msgid "Add Service To Bouquet"
 msgstr "Lägg till service i buketten"
 
@@ -1925,11 +1977,19 @@ msgstr "Lägg till Zaptimer"
 msgid "Add a DNS entry"
 msgstr "Lägg till en DNS -post"
 
+#, fuzzy
+msgid "Add a RADIO service to the Volume Offset list"
+msgstr "Lägg till en tjänst i listan Volymförskjutningar"
+
 msgid "Add a RecordTimer"
 msgstr "Lägg till en skivtimer"
 
 msgid "Add a RecordTimer for current event"
 msgstr "Lägg till en skivtimer för aktuell händelse"
+
+#, fuzzy
+msgid "Add a TV service to the Volume Offset list"
+msgstr "Lägg till en tjänst i listan Volymförskjutningar"
 
 msgid "Add a ZapTimer for current event"
 msgstr "Lägg till en Zaptimer för aktuell händelse"
@@ -1955,7 +2015,8 @@ msgstr "Lägg till en ny timer"
 msgid "Add a new title"
 msgstr "Lägg till en ny titel"
 
-msgid "Add a service to the Volume Offsets list"
+#, fuzzy
+msgid "Add a service to the Volume Offset list"
 msgstr "Lägg till en tjänst i listan Volymförskjutningar"
 
 msgid "Add a timer for the current event"
@@ -2030,7 +2091,8 @@ msgstr "Lägg till tjänster till denna bukett?"
 msgid "Add the current directory as a bookmark"
 msgstr "Lägg till den aktuella katalogen som ett bokmärke"
 
-msgid "Add the current service to the Volume Offsets list"
+#, fuzzy
+msgid "Add the current/active service to the Volume Offset list"
 msgstr "Lägg till den aktuella tjänsten i Volymförskjutningslistan"
 
 msgid "Add the selected service to a bouquet or alternative"
@@ -2053,6 +2115,10 @@ msgstr "Lägg till/ta bort markerat plugin till/från ta bort listan"
 
 msgid "Add/Remove highlighted plugin to/from update list"
 msgstr "Lägg till/ta bort markerat plugin till/från uppdateringslistan"
+
+#, fuzzy
+msgid "Add/Remove the current service to/from the Volume Offset list"
+msgstr "Lägg till den aktuella tjänsten i Volymförskjutningslistan"
 
 msgid "Adding schedule..."
 msgstr "Lägga till schema ..."
@@ -2744,6 +2810,10 @@ msgstr "Auto Focus börjar ..."
 msgid "Auto multi-selection"
 msgstr "Auto multi-selection"
 
+#, fuzzy
+msgid "Auto show volume level"
+msgstr "Bilvolymnivå"
+
 msgid "Auto shut down"
 msgstr "Auto Stäng av"
 
@@ -2870,6 +2940,34 @@ msgstr "Blå switch: blå/blå lång"
 
 msgid "Back"
 msgstr "Tillbaka"
+
+#, fuzzy
+msgid "Back USB"
+msgstr "Tillbaka"
+
+msgid "Back USB 3.0"
+msgstr ""
+
+msgid "Back USB-C"
+msgstr ""
+
+msgid "Back, inner USB"
+msgstr ""
+
+msgid "Back, left USB"
+msgstr ""
+
+msgid "Back, lower USB"
+msgstr ""
+
+msgid "Back, outer USB"
+msgstr ""
+
+msgid "Back, right USB"
+msgstr ""
+
+msgid "Back, upper USB"
+msgstr ""
 
 msgid "Back/Recall"
 msgstr "Tillbaka/återkallande"
@@ -5307,6 +5405,10 @@ msgstr ""
 msgid "Currently Defined Volume Offsets:"
 msgstr "För närvarande definierade volymförskjutningar:"
 
+#, fuzzy
+msgid "Currently Remembered Volume Levels:"
+msgstr "För närvarande definierade volymförskjutningar:"
+
 msgid "Currently the commit log cannot be retrieved - please try later again."
 msgstr "För närvarande kan åtagande loggen inte hämtas - försök senare igen."
 
@@ -5764,6 +5866,10 @@ msgstr "Definiera den anpassade monteringspunkten för enheten."
 msgid "Define the file system mount options."
 msgstr "Definiera alternativen för filsystemmontering."
 
+#, fuzzy
+msgid "Defined volume offset"
+msgstr "Standardvolymförskjutning"
+
 msgid "Defines how fast the time jumps are repeated. Values lower than 500ms may be problematic with NAS."
 msgstr "Definierar hur snabbt tidshoppet upprepas. Värden lägre än 500 ms kan vara problematiska med NAS."
 
@@ -5945,9 +6051,6 @@ msgstr "Ta bort tecknet under textmarkören"
 
 msgid "Delete the current time shift buffer and restart time shift"
 msgstr "Ta bort den aktuella tidsskiftbufferten och starta om tidsskift"
-
-msgid "Delete the currently highlighted service from the Volume Offsets list"
-msgstr "Radera den för närvarande markerade tjänsten från volymförskjutningslistan"
 
 msgid "Delete the currently selected timer"
 msgstr "Ta bort den för närvarande valda timern"
@@ -6984,9 +7087,6 @@ msgstr "Aktivera bukettredigera"
 
 msgid "Enable ClearMem"
 msgstr "Aktivera clearmem"
-
-msgid "Enable Dolby Digital / Dolby AC-3 offsets"
-msgstr "Aktivera Dolby Digital / Dolby AC-3 Offsets"
 
 msgid "Enable EIT EPG"
 msgstr "Aktivera EIT EPG"
@@ -8655,6 +8755,12 @@ msgstr "Fredag"
 msgid "From :"
 msgstr "Från:"
 
+msgid "Front USB"
+msgstr ""
+
+msgid "Front USB 3.0"
+msgstr ""
+
 msgid "Front processor version"
 msgstr "Frontprocessorversion"
 
@@ -10194,6 +10300,14 @@ msgstr "Intern läsare /dev /sci0:"
 msgid "Internal Reader /dev/sci1:"
 msgstr "Intern läsare /dev /Sci1:"
 
+#, fuzzy
+msgid "Internal SSD"
+msgstr "Inre"
+
+#, fuzzy
+msgid "Internal USB"
+msgstr "Inre"
+
 msgid "Internal flash"
 msgstr "Internt blixt"
 
@@ -10700,6 +10814,10 @@ msgstr "Senast använda kolumn"
 msgid "Last used share: "
 msgstr "Senast begagnad andel:"
 
+#, fuzzy
+msgid "Last used/set volume"
+msgstr "Senast använda kolumn"
+
 msgctxt "third event: 'third' event label"
 msgid "Later"
 msgstr "Senare"
@@ -10731,6 +10849,10 @@ msgstr "Libanon"
 msgid "Left"
 msgstr "Vänster"
 
+#, fuzzy
+msgid "Left USB"
+msgstr "Vänster"
+
 msgid "Left column"
 msgstr "Vänsterkolumn"
 
@@ -10744,6 +10866,12 @@ msgstr "Höger kolumnfil sortering"
 
 msgid "Left from service name"
 msgstr "Kvar från servicenamn"
+
+msgid "Left, back USB"
+msgstr ""
+
+msgid "Left, front USB"
+msgstr ""
 
 msgid "Left, wrapped"
 msgstr "Vänster, insvept"
@@ -11054,6 +11182,10 @@ msgstr "Slingra sig till"
 
 msgid "Lower Framerate saves CPU Time."
 msgstr ""
+
+#, fuzzy
+msgid "Lower USB"
+msgstr "Gemen"
 
 msgid "Lower case"
 msgstr "Gemen"
@@ -11472,6 +11604,9 @@ msgstr "Mätningsläge"
 msgid "Mexico"
 msgstr "Mexiko"
 
+msgid "Micro SD"
+msgstr ""
+
 msgid "Micronesia, Federated States of"
 msgstr "Mikronesien, federerade tillstånd av"
 
@@ -11523,6 +11658,10 @@ msgid "Mipsel"
 msgstr "Mipsel"
 
 msgid "Miscellaneous"
+msgstr "Diverse"
+
+#, fuzzy
+msgid "Miscellaneous languages"
 msgstr "Diverse"
 
 #, fuzzy, python-format
@@ -13742,6 +13881,10 @@ msgstr "Spela den valda tjänsten"
 msgid "Playback Settings"
 msgstr "Uppspelningsinställningar"
 
+#, fuzzy
+msgid "Playback Time:"
+msgstr "Fallbacktimer"
+
 msgid "Playback, Recording, VOD & Time Shift"
 msgstr "Uppspelning, inspelning, VOD & Time Shift"
 
@@ -15716,6 +15859,10 @@ msgstr "Snacka på undertexter"
 msgid "Right"
 msgstr "Rätt"
 
+#, fuzzy
+msgid "Right USB"
+msgstr "Rätt"
+
 msgid "Right column"
 msgstr "Högerkolumn"
 
@@ -15727,6 +15874,12 @@ msgstr "Höger kolumnfil sortering"
 
 msgid "Right from service name"
 msgstr "Från servicenamn"
+
+msgid "Right, back USB"
+msgstr ""
+
+msgid "Right, front USB"
+msgstr ""
 
 msgid "Right, wrapped"
 msgstr "Höger, lindad"
@@ -15837,6 +15990,15 @@ msgstr "Sabnzbd -inställningar"
 msgid "SAT"
 msgstr "Sat"
 
+msgid "SATA"
+msgstr ""
+
+msgid "SATA BACK"
+msgstr ""
+
+msgid "SATA FRONT"
+msgstr ""
+
 msgid "SATPI Setting Actions"
 msgstr "SATPI Ställer in åtgärder"
 
@@ -15848,6 +16010,10 @@ msgstr "SCPC -optimerat sökområde"
 
 msgid "SCR timing adjustment, in conjunction with SCR socket and operation of several SCR devices with one cable."
 msgstr "SCR -timingjustering, i samband med SCR -uttag och drift av flera SCR -enheter med en kabel."
+
+#, fuzzy
+msgid "SD"
+msgstr "OSD"
 
 #, python-format
 msgid "SDcard slot %s%s"
@@ -16301,6 +16467,9 @@ msgstr "Välj 'A' eller 'B' Om ditt flygsystem kräver detta, välj 'Inget'. Om 
 msgid "Select 'Band' if using a 'Universal' LNB, otherwise consult your LNB specifications."
 msgstr "Välj 'Band' Om du använder en 'Universal' LNB, anser annars dina LNB -specifikationer."
 
+msgid "Select 'Disabled' to disable all automated volume adjustments. Select 'Defined volume offsets' to assign a specified offset to the service's volume level. Select 'Last used/set volume' to remember the volume level last used for each service."
+msgstr ""
+
 msgid "Select 'Enable' to start the CI+ helper."
 msgstr "Välj 'Aktivera' för att starta CI+ Helper."
 
@@ -16333,9 +16502,6 @@ msgstr "Välj 'Ja' om nätverkstrafik ska kontrolleras innan du aktiverar timern
 
 msgid "Select 'Yes' if this tuner is connected to the SCR device through another tuner, otherwise select 'No'."
 msgstr "Välj 'Ja' om den här tunern är ansluten till SCR -enheten via en annan tuner, annars välj 'Nej'."
-
-msgid "Select 'Yes' if volume adjustments should be applied to Dolby sound tracks."
-msgstr "Välj 'Ja' om volymjusteringar ska tillämpas på Dolby -ljudspår."
 
 msgid "Select 'Yes' if you are using a multi-switch which requires a DiSEqC Port-A command signal. Select 'No' for all other setups."
 msgstr "Välj 'Ja' om du använder en multi-switch som kräver en DISEQC Port-A-kommandosignal. Välj 'Nej' för alla andra inställningar."
@@ -16516,6 +16682,10 @@ msgstr "Välj 'Ja' för att visa kanallistan efter växling mellan radio- och TV
 
 msgid "Select 'Yes' to show the current directory in the list of directories. Note that File Commander must be restarted for this change to take effect."
 msgstr "Välj 'Ja' för att visa den aktuella katalogen i listan över kataloger. Observera att filchefen måste startas om för att denna ändring ska träda i kraft."
+
+#, fuzzy
+msgid "Select 'Yes' to show the volume level on any automated changes of volume level."
+msgstr "Välj 'Ja' för att dölja servernamnet och IP -adressen på servern."
 
 msgid "Select 'Yes' to show this plugin in the Plugin Browser."
 msgstr "Välj 'Ja' för att visa detta plugin i plugin -webbläsaren."
@@ -17671,6 +17841,10 @@ msgstr "Ställ in tid att vänta på att köra standardåtgärden i avstängning
 
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr "Ställ in typen av framstegsindikering på skärmen kanalval."
+
+#, fuzzy, python-format
+msgid "Set the volume level for the '%s' service."
+msgstr "Ställ in volymförskjutningen för '%s' -tjänsten."
 
 #, python-format
 msgid "Set the volume offset for the '%s' service."
@@ -21192,6 +21366,10 @@ msgstr "Växla automatisk uppdatering på/av"
 msgid "Toggle between bouquet/EPG lists"
 msgstr "Växla mellan bukett/EPG -listor"
 
+#, fuzzy
+msgid "Toggle between the available TV and RADIO services"
+msgstr "Byt till tillgängliga radiotjänster"
+
 msgid "Toggle display of image information"
 msgstr "Växla visning av bildinformation"
 
@@ -21595,6 +21773,12 @@ msgstr "Us"
 msgid "USALS automatically moves a motorized dish to the correct satellite based on the coordinates entered by the user. Without USALS each satellite will need to be setup and saved individually."
 msgstr "Usal flyttar automatiskt en motoriserad maträtt till rätt satellit baserat på koordinaterna som anges av användaren. Utan USA: er måste varje satellit installeras och sparas individuellt."
 
+msgid "USB 2.0 (Back, inner)"
+msgstr ""
+
+msgid "USB 3.0 (Back, outer)"
+msgstr ""
+
 msgid "USB Disk Format"
 msgstr "USB -diskformat"
 
@@ -21871,6 +22055,10 @@ msgstr "Överhoppar -"
 
 msgid "Uphops: "
 msgstr "Överhoppar:"
+
+#, fuzzy
+msgid "Upper USB"
+msgstr "I övre fall"
 
 msgid "Upper case"
 msgstr "I övre fall"
@@ -22478,17 +22666,22 @@ msgstr "Spänningsläge"
 msgid "Volume"
 msgstr "Volym"
 
-msgid "Volume Adjust"
-msgstr "Justering"
-
 msgid "Volume Adjust Actions"
 msgstr "Volymjusteringsåtgärder"
 
 msgid "Volume Adjust Service Selection"
 msgstr "Volymjusteringsval"
 
+#, fuzzy
+msgid "Volume Adjust Service Selection Actions"
+msgstr "Volymjusteringsval"
+
 msgid "Volume Adjust Settings"
 msgstr "Volymjusteringsinställningar"
+
+#, fuzzy
+msgid "Volume adjustment mode"
+msgstr "Justering"
 
 msgid "Volume down"
 msgstr "Nedgång"
@@ -23855,9 +24048,15 @@ msgstr "Ladda ner fix"
 msgid "drama (general)"
 msgstr "drama (allmän)"
 
+msgid "eMMC"
+msgstr ""
+
 #, python-format
 msgid "eMMC slot %s%s"
 msgstr "EMMC -slot %s %s"
+
+msgid "eSATA"
+msgstr ""
 
 msgid "east"
 msgstr "österut"

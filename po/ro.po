@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Opendroid\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-15 06:02+0200\n"
+"POT-Creation-Date: 2025-04-23 17:39+0200\n"
 "PO-Revision-Date: 2025-03-27 12:17+0100\n"
 "Last-Translator: OPD Team <opendroid2013@gmail.com>\n"
 "Language-Team: HDTV ROMANIA(superonic,costel_mbc,neutrin,otheitis,cipy_1982,neutrin,runcanion)\n"
@@ -885,17 +885,17 @@ msgstr[1] "%D minute"
 msgid "%d Minutes"
 msgstr "%d minute"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Month"
 msgid_plural "%d Months"
-msgstr[0] "%d lună"
-msgstr[1] "%d luni"
+msgstr[0] "%d min"
+msgstr[1] "%d min"
 
 #, fuzzy, python-format
 msgid "%d Pixel"
 msgid_plural "%d Pixels"
-msgstr[0] "%d pixel"
-msgstr[1] "%D pixeli"
+msgstr[0] "%d pixeli"
+msgstr[1] "%d pixeli"
 
 #, python-format
 msgid "%d Pixel wide"
@@ -917,17 +917,17 @@ msgstr[1] "%d secunde"
 msgid "%d Seconds"
 msgstr "%d secunde"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Week"
 msgid_plural "%d Weeks"
-msgstr[0] "%d săptămână"
-msgstr[1] "%d săptămâni"
+msgstr[0] "Săptămânal"
+msgstr[1] "Săptămânal"
 
 #, fuzzy, python-format
 msgid "%d Year"
 msgid_plural "%d Years"
-msgstr[0] "%d an"
-msgstr[1] "%D ani"
+msgstr[0] "An"
+msgstr[1] "An"
 
 #. TRANSLATORS: Intermediate scanning result, '%d' channel(s) have been found so far
 #, fuzzy, python-format
@@ -941,6 +941,12 @@ msgid "%d core"
 msgid_plural "%d cores"
 msgstr[0] "%d nucleu"
 msgstr[1] "%d nuclee"
+
+#, fuzzy, python-format
+msgid "%d feed catalog package was updated."
+msgid_plural "%d feed catalog packages were updated."
+msgstr[0] "Pachetul %D are o actualizare"
+msgstr[1] "%D Pachetele au actualizări."
 
 #, python-format
 msgid "%d kB"
@@ -1003,6 +1009,48 @@ msgstr[1] "%D Pachete marcate pentru actualizare."
 #, fuzzy, python-format
 msgid "%d package upgraded."
 msgid_plural "%d packages upgraded."
+msgstr[0] "%D Pachet actualizat."
+msgstr[1] "%D pachete modernizate."
+
+#, fuzzy, python-format
+msgid "%d package was configured."
+msgid_plural "%d packages were configured."
+msgstr[0] "%D Pachet actualizat."
+msgstr[1] "%D pachete modernizate."
+
+#, fuzzy, python-format
+msgid "%d package was deselected."
+msgid_plural "%d packages were deselected."
+msgstr[0] "Nu există pachete selectate."
+msgstr[1] "Nu există pachete selectate."
+
+#, fuzzy, python-format
+msgid "%d package was downloaded."
+msgid_plural "%d packages were downloaded."
+msgstr[0] "%D Pachet actualizat."
+msgstr[1] "%D pachete modernizate."
+
+#, fuzzy, python-format
+msgid "%d package was identified for upgrade."
+msgid_plural "%d packages were identified for upgrade."
+msgstr[0] "%D Pachet marcat pentru actualizare."
+msgstr[1] "%D Pachete marcate pentru actualizare."
+
+#, fuzzy, python-format
+msgid "%d package was installed."
+msgid_plural "%d packages were installed."
+msgstr[0] "%d pachet instalat."
+msgstr[1] "%D pachete instalate."
+
+#, fuzzy, python-format
+msgid "%d package was removed."
+msgid_plural "%d packages were removed."
+msgstr[0] "%D Pachet marcat pentru eliminare."
+msgstr[1] "%D Pachete marcate pentru eliminare."
+
+#, fuzzy, python-format
+msgid "%d package was upgraded."
+msgid_plural "%d packages were upgraded."
 msgstr[0] "%D Pachet actualizat."
 msgstr[1] "%D pachete modernizate."
 
@@ -1906,6 +1954,10 @@ msgstr "Adăugați o nouă intrare Quad Channel"
 msgid "Add RecordTimer"
 msgstr "Adăugați recordTimer"
 
+#, fuzzy
+msgid "Add Service"
+msgstr "Adăugați serviciu"
+
 msgid "Add Service To Bouquet"
 msgstr "Adăugați servicii la buchet"
 
@@ -1927,11 +1979,19 @@ msgstr "Adăugați zaptimer"
 msgid "Add a DNS entry"
 msgstr "Adăugați o intrare DNS"
 
+#, fuzzy
+msgid "Add a RADIO service to the Volume Offset list"
+msgstr "Adăugați un serviciu la lista de compensări de volum"
+
 msgid "Add a RecordTimer"
 msgstr "Adăugați un recordTimer"
 
 msgid "Add a RecordTimer for current event"
 msgstr "Adăugați un recordTimer pentru evenimentul curent"
+
+#, fuzzy
+msgid "Add a TV service to the Volume Offset list"
+msgstr "Adăugați un serviciu la lista de compensări de volum"
 
 msgid "Add a ZapTimer for current event"
 msgstr "Adăugați un zaptimer pentru evenimentul curent"
@@ -1957,7 +2017,8 @@ msgstr "Adăugați un nou cronometru"
 msgid "Add a new title"
 msgstr "Adăugați un nou titlu"
 
-msgid "Add a service to the Volume Offsets list"
+#, fuzzy
+msgid "Add a service to the Volume Offset list"
 msgstr "Adăugați un serviciu la lista de compensări de volum"
 
 msgid "Add a timer for the current event"
@@ -2032,7 +2093,8 @@ msgstr "Adăugați servicii la acest buchet?"
 msgid "Add the current directory as a bookmark"
 msgstr "Adăugați directorul curent ca marcaj"
 
-msgid "Add the current service to the Volume Offsets list"
+#, fuzzy
+msgid "Add the current/active service to the Volume Offset list"
 msgstr "Adăugați serviciul curent la lista de compensări de volum"
 
 msgid "Add the selected service to a bouquet or alternative"
@@ -2055,6 +2117,10 @@ msgstr "Adăugați/eliminați pluginul evidențiat la/din lista de eliminare"
 
 msgid "Add/Remove highlighted plugin to/from update list"
 msgstr "Adăugați/eliminați pluginul evidențiat la/din lista de actualizări"
+
+#, fuzzy
+msgid "Add/Remove the current service to/from the Volume Offset list"
+msgstr "Adăugați serviciul curent la lista de compensări de volum"
 
 msgid "Adding schedule..."
 msgstr "Adăugarea programului ..."
@@ -2746,6 +2812,10 @@ msgstr "Focus auto începe ..."
 msgid "Auto multi-selection"
 msgstr "Auto multi-selecție"
 
+#, fuzzy
+msgid "Auto show volume level"
+msgstr "Nivel de volum auto"
+
 msgid "Auto shut down"
 msgstr "Închidere automată"
 
@@ -2872,6 +2942,34 @@ msgstr "Comutator albastru: albastru/albastru lung"
 
 msgid "Back"
 msgstr "Spate"
+
+#, fuzzy
+msgid "Back USB"
+msgstr "Spate"
+
+msgid "Back USB 3.0"
+msgstr ""
+
+msgid "Back USB-C"
+msgstr ""
+
+msgid "Back, inner USB"
+msgstr ""
+
+msgid "Back, left USB"
+msgstr ""
+
+msgid "Back, lower USB"
+msgstr ""
+
+msgid "Back, outer USB"
+msgstr ""
+
+msgid "Back, right USB"
+msgstr ""
+
+msgid "Back, upper USB"
+msgstr ""
 
 msgid "Back/Recall"
 msgstr "Înapoi/reamintire"
@@ -5309,6 +5407,10 @@ msgstr ""
 msgid "Currently Defined Volume Offsets:"
 msgstr "În prezent, compensări de volum definite:"
 
+#, fuzzy
+msgid "Currently Remembered Volume Levels:"
+msgstr "În prezent, compensări de volum definite:"
+
 msgid "Currently the commit log cannot be retrieved - please try later again."
 msgstr "În prezent, jurnalul de angajare nu poate fi preluat - vă rugăm să încercați din nou mai târziu."
 
@@ -5766,6 +5868,10 @@ msgstr "Definiți punctul de montaj personalizat pentru dispozitiv."
 msgid "Define the file system mount options."
 msgstr "Definiți opțiunile de montare a sistemului de fișiere."
 
+#, fuzzy
+msgid "Defined volume offset"
+msgstr "Compensare implicită a volumului"
+
 msgid "Defines how fast the time jumps are repeated. Values lower than 500ms may be problematic with NAS."
 msgstr "Definește cât de repede se repetă salturile de timp. Valorile mai mici de 500ms pot fi problematice cu NAS."
 
@@ -5947,9 +6053,6 @@ msgstr "Ștergeți personajul sub cursorul de text"
 
 msgid "Delete the current time shift buffer and restart time shift"
 msgstr "Ștergeți bufferul de schimbare de timp curent și reporniți schimbarea timpului"
-
-msgid "Delete the currently highlighted service from the Volume Offsets list"
-msgstr "Ștergeți serviciul evidențiat în prezent din lista de compensări de volum"
 
 msgid "Delete the currently selected timer"
 msgstr "Ștergeți cronometrul selectat în prezent"
@@ -6986,9 +7089,6 @@ msgstr "Activați editarea buchetului"
 
 msgid "Enable ClearMem"
 msgstr "Activați Clearmem"
-
-msgid "Enable Dolby Digital / Dolby AC-3 offsets"
-msgstr "Activați compensările Dolby Digital / Dolby AC-3"
 
 msgid "Enable EIT EPG"
 msgstr "Activați EIT EPG"
@@ -8657,6 +8757,12 @@ msgstr "vineri"
 msgid "From :"
 msgstr "De la:"
 
+msgid "Front USB"
+msgstr ""
+
+msgid "Front USB 3.0"
+msgstr ""
+
 msgid "Front processor version"
 msgstr "Versiunea procesorului frontal"
 
@@ -10196,6 +10302,14 @@ msgstr "Cititor intern /Dev /Sci0:"
 msgid "Internal Reader /dev/sci1:"
 msgstr "Cititor intern /Dev /Sci1:"
 
+#, fuzzy
+msgid "Internal SSD"
+msgstr "Intern"
+
+#, fuzzy
+msgid "Internal USB"
+msgstr "Intern"
+
 msgid "Internal flash"
 msgstr "Bliț intern"
 
@@ -10702,6 +10816,10 @@ msgstr "Ultima coloană folosită"
 msgid "Last used share: "
 msgstr "Ultima cotă folosită:"
 
+#, fuzzy
+msgid "Last used/set volume"
+msgstr "Ultima coloană folosită"
+
 msgctxt "third event: 'third' event label"
 msgid "Later"
 msgstr "Mai târziu"
@@ -10733,6 +10851,10 @@ msgstr "Liban"
 msgid "Left"
 msgstr "Stânga"
 
+#, fuzzy
+msgid "Left USB"
+msgstr "Stânga"
+
 msgid "Left column"
 msgstr "Coloana din stânga"
 
@@ -10746,6 +10868,12 @@ msgstr "Sortarea fișierului din coloană din dreapta"
 
 msgid "Left from service name"
 msgstr "Lăsat de la numele serviciului"
+
+msgid "Left, back USB"
+msgstr ""
+
+msgid "Left, front USB"
+msgstr ""
 
 msgid "Left, wrapped"
 msgstr "Stânga, învelită"
@@ -11056,6 +11184,10 @@ msgstr "Buclați -vă până la"
 
 msgid "Lower Framerate saves CPU Time."
 msgstr ""
+
+#, fuzzy
+msgid "Lower USB"
+msgstr "Minuscul"
 
 msgid "Lower case"
 msgstr "Minuscul"
@@ -11474,6 +11606,9 @@ msgstr "Mod de contorizare"
 msgid "Mexico"
 msgstr "Mexic"
 
+msgid "Micro SD"
+msgstr ""
+
 msgid "Micronesia, Federated States of"
 msgstr "Micronezie, state federate ale"
 
@@ -11525,6 +11660,10 @@ msgid "Mipsel"
 msgstr "Mipsel"
 
 msgid "Miscellaneous"
+msgstr "Diverse"
+
+#, fuzzy
+msgid "Miscellaneous languages"
 msgstr "Diverse"
 
 #, fuzzy, python-format
@@ -13744,6 +13883,10 @@ msgstr "Joacă serviciul selectat"
 msgid "Playback Settings"
 msgstr "Setări de redare"
 
+#, fuzzy
+msgid "Playback Time:"
+msgstr "Cronometru de referință"
+
 msgid "Playback, Recording, VOD & Time Shift"
 msgstr "Redare, înregistrare, VOD și schimb de timp"
 
@@ -15718,6 +15861,10 @@ msgstr "Rewrap subtitrări"
 msgid "Right"
 msgstr "Corect"
 
+#, fuzzy
+msgid "Right USB"
+msgstr "Corect"
+
 msgid "Right column"
 msgstr "Coloana din dreapta"
 
@@ -15729,6 +15876,12 @@ msgstr "Sortarea fișierului din coloană din dreapta"
 
 msgid "Right from service name"
 msgstr "Chiar de la numele serviciului"
+
+msgid "Right, back USB"
+msgstr ""
+
+msgid "Right, front USB"
+msgstr ""
 
 msgid "Right, wrapped"
 msgstr "Corect, învelit"
@@ -15839,6 +15992,15 @@ msgstr "Setări Sabnzbd"
 msgid "SAT"
 msgstr "Sat"
 
+msgid "SATA"
+msgstr ""
+
+msgid "SATA BACK"
+msgstr ""
+
+msgid "SATA FRONT"
+msgstr ""
+
 msgid "SATPI Setting Actions"
 msgstr "Acțiuni de setare SATPI"
 
@@ -15850,6 +16012,10 @@ msgstr "Gama de căutare optimizată SCPC"
 
 msgid "SCR timing adjustment, in conjunction with SCR socket and operation of several SCR devices with one cable."
 msgstr "Reglarea cronometrului SCR, în combinație cu priza SCR și funcționarea mai multor dispozitive SCR cu un cablu."
+
+#, fuzzy
+msgid "SD"
+msgstr "OSD"
 
 #, python-format
 msgid "SDcard slot %s%s"
@@ -16303,6 +16469,9 @@ msgstr "Selectați „A” sau „B” dacă sistemul dvs. aerian necesită aces
 msgid "Select 'Band' if using a 'Universal' LNB, otherwise consult your LNB specifications."
 msgstr "Selectați „Band” dacă utilizați un LNB „universal”, altfel consultați specificațiile LNB."
 
+msgid "Select 'Disabled' to disable all automated volume adjustments. Select 'Defined volume offsets' to assign a specified offset to the service's volume level. Select 'Last used/set volume' to remember the volume level last used for each service."
+msgstr ""
+
 msgid "Select 'Enable' to start the CI+ helper."
 msgstr "Selectați „Activați” pentru a porni CI+ Helper."
 
@@ -16335,9 +16504,6 @@ msgstr "Selectați „Da” dacă traficul de rețea ar trebui verificat înaint
 
 msgid "Select 'Yes' if this tuner is connected to the SCR device through another tuner, otherwise select 'No'."
 msgstr "Selectați „Da” Dacă acest tuner este conectat la dispozitivul SCR printr -un alt tuner, altfel selectați „Nu”."
-
-msgid "Select 'Yes' if volume adjustments should be applied to Dolby sound tracks."
-msgstr "Selectați „Da” dacă ajustările de volum ar trebui să fie aplicate pe piesele sonore Dolby."
 
 msgid "Select 'Yes' if you are using a multi-switch which requires a DiSEqC Port-A command signal. Select 'No' for all other setups."
 msgstr "Selectați „Da” dacă utilizați un comutator multiplu care necesită un semnal de comandă Port-A DISEQC. Selectați „Nu” pentru toate celelalte configurații."
@@ -16518,6 +16684,10 @@ msgstr "Selectați „Da” pentru a afișa lista de canale după comutarea înt
 
 msgid "Select 'Yes' to show the current directory in the list of directories. Note that File Commander must be restarted for this change to take effect."
 msgstr "Selectați „Da” pentru a afișa directorul curent din lista de directoare. Rețineți că comandantul de fișiere trebuie repornit pentru ca această modificare să intre în vigoare."
+
+#, fuzzy
+msgid "Select 'Yes' to show the volume level on any automated changes of volume level."
+msgstr "Selectați „Da” pentru a ascunde numele serverului și adresa IP a serverului."
 
 msgid "Select 'Yes' to show this plugin in the Plugin Browser."
 msgstr "Selectați „Da” pentru a afișa acest plugin în browserul pluginului."
@@ -17673,6 +17843,10 @@ msgstr "Setați timpul pentru a aștepta executarea acțiunii implicite în mesa
 
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr "Setați tipul indicației de progres în ecranul de selecție a canalului."
+
+#, fuzzy, python-format
+msgid "Set the volume level for the '%s' service."
+msgstr "Setați compensarea volumului pentru serviciul „%s”."
 
 #, python-format
 msgid "Set the volume offset for the '%s' service."
@@ -21194,6 +21368,10 @@ msgstr "Comutați/opriți automat automat"
 msgid "Toggle between bouquet/EPG lists"
 msgstr "Comutați între listele de buchet/EPG"
 
+#, fuzzy
+msgid "Toggle between the available TV and RADIO services"
+msgstr "Treceți la serviciile radio disponibile"
+
 msgid "Toggle display of image information"
 msgstr "Comutați afișarea informațiilor despre imagine"
 
@@ -21597,6 +21775,12 @@ msgstr "Usals"
 msgid "USALS automatically moves a motorized dish to the correct satellite based on the coordinates entered by the user. Without USALS each satellite will need to be setup and saved individually."
 msgstr "Usals mută automat o farfurie motorizată la satelitul corect pe baza coordonatelor introduse de utilizator. Fără usals, fiecare satelit va trebui să fie configurat și salvat individual."
 
+msgid "USB 2.0 (Back, inner)"
+msgstr ""
+
+msgid "USB 3.0 (Back, outer)"
+msgstr ""
+
 msgid "USB Disk Format"
 msgstr "Format de disc USB"
 
@@ -21873,6 +22057,10 @@ msgstr "Uphops -"
 
 msgid "Uphops: "
 msgstr "Uphops:"
+
+#, fuzzy
+msgid "Upper USB"
+msgstr "Carcasă superioară"
 
 msgid "Upper case"
 msgstr "Carcasă superioară"
@@ -22480,17 +22668,22 @@ msgstr "Mod de tensiune"
 msgid "Volume"
 msgstr "Volum"
 
-msgid "Volume Adjust"
-msgstr "Reglarea volumului"
-
 msgid "Volume Adjust Actions"
 msgstr "Acțiuni de ajustare a volumului"
 
 msgid "Volume Adjust Service Selection"
 msgstr "Reglarea volumului selecția serviciului"
 
+#, fuzzy
+msgid "Volume Adjust Service Selection Actions"
+msgstr "Reglarea volumului selecția serviciului"
+
 msgid "Volume Adjust Settings"
 msgstr "Setări de ajustare a volumului"
+
+#, fuzzy
+msgid "Volume adjustment mode"
+msgstr "Reglarea volumului"
 
 msgid "Volume down"
 msgstr "Volum în jos"
@@ -23857,9 +24050,15 @@ msgstr "Descărcați FIX"
 msgid "drama (general)"
 msgstr "dramă (general)"
 
+msgid "eMMC"
+msgstr ""
+
 #, python-format
 msgid "eMMC slot %s%s"
 msgstr "Slot EMMC %s %s"
+
+msgid "eSATA"
+msgstr ""
 
 msgid "east"
 msgstr "Orientul"

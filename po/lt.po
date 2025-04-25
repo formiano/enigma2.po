@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-15 06:02+0200\n"
+"POT-Creation-Date: 2025-04-23 17:39+0200\n"
 "PO-Revision-Date: 2024-09-21 00:04+0200\n"
 "Last-Translator: OPD Team <opendroid2013@gmail.com>\n"
 "Language-Team: \n"
@@ -878,16 +878,16 @@ msgstr[1] "%d Minutės"
 msgid "%d Minutes"
 msgstr "%d minutės"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Month"
 msgid_plural "%d Months"
-msgstr[0] "%d mėnuo"
-msgstr[1] "%d mėnesiai"
+msgstr[0] "%d min."
+msgstr[1] "%d min."
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Pixel"
 msgid_plural "%d Pixels"
-msgstr[0] "%d pikselis"
+msgstr[0] "%d pikseliai"
 msgstr[1] "%d pikseliai"
 
 #, python-format
@@ -910,17 +910,17 @@ msgstr[1] "%d sekundės"
 msgid "%d Seconds"
 msgstr "%d sekundės"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Week"
 msgid_plural "%d Weeks"
-msgstr[0] "%d savaitė"
-msgstr[1] "%d savaitės"
+msgstr[0] "Kas savaitę"
+msgstr[1] "Kas savaitę"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Year"
 msgid_plural "%d Years"
-msgstr[0] "%d Metai"
-msgstr[1] "%d Metai"
+msgstr[0] "Metai"
+msgstr[1] "Metai"
 
 #. TRANSLATORS: Intermediate scanning result, '%d' channel(s) have been found so far
 #, python-format
@@ -934,6 +934,12 @@ msgid "%d core"
 msgid_plural "%d cores"
 msgstr[0] "%d branduolys"
 msgstr[1] "%d branduoliai"
+
+#, fuzzy, python-format
+msgid "%d feed catalog package was updated."
+msgid_plural "%d feed catalog packages were updated."
+msgstr[0] "%d paketas atnaujintas."
+msgstr[1] "%d paketai atnaujinti."
 
 #, python-format
 msgid "%d kB"
@@ -996,6 +1002,48 @@ msgstr[1] ""
 #, python-format
 msgid "%d package upgraded."
 msgid_plural "%d packages upgraded."
+msgstr[0] "%d paketas atnaujintas."
+msgstr[1] "%d paketai atnaujinti."
+
+#, fuzzy, python-format
+msgid "%d package was configured."
+msgid_plural "%d packages were configured."
+msgstr[0] "%d paketas atnaujintas."
+msgstr[1] "%d paketai atnaujinti."
+
+#, fuzzy, python-format
+msgid "%d package was deselected."
+msgid_plural "%d packages were deselected."
+msgstr[0] "%d paketo pasirinkimas buvo panaikintas."
+msgstr[1] "%d paketo pasirinkimas buvo panaikintas."
+
+#, fuzzy, python-format
+msgid "%d package was downloaded."
+msgid_plural "%d packages were downloaded."
+msgstr[0] "%d paketas atnaujintas."
+msgstr[1] "%d paketai atnaujinti."
+
+#, fuzzy, python-format
+msgid "%d package was identified for upgrade."
+msgid_plural "%d packages were identified for upgrade."
+msgstr[0] "%d paketas atnaujintas."
+msgstr[1] "%d paketai atnaujinti."
+
+#, fuzzy, python-format
+msgid "%d package was installed."
+msgid_plural "%d packages were installed."
+msgstr[0] "Atnaujinta, įdiegtas %d paketas."
+msgstr[1] "Atnaujinta, įdiegtas %d paketas."
+
+#, fuzzy, python-format
+msgid "%d package was removed."
+msgid_plural "%d packages were removed."
+msgstr[0] "%d paketas atnaujintas."
+msgstr[1] "%d paketai atnaujinti."
+
+#, fuzzy, python-format
+msgid "%d package was upgraded."
+msgid_plural "%d packages were upgraded."
 msgstr[0] "%d paketas atnaujintas."
 msgstr[1] "%d paketai atnaujinti."
 
@@ -1917,6 +1965,10 @@ msgstr "Pridėti naują Quad kanalo įrašą"
 msgid "Add RecordTimer"
 msgstr "Pridėti įrašymo laikmatį"
 
+#, fuzzy
+msgid "Add Service"
+msgstr "Pridėti kanalą"
+
 msgid "Add Service To Bouquet"
 msgstr "pridėti kanalą į paketą"
 
@@ -1938,11 +1990,19 @@ msgstr "Pridėti jungimo laikmatį"
 msgid "Add a DNS entry"
 msgstr "DNS įrašo įtraukimas"
 
+#, fuzzy
+msgid "Add a RADIO service to the Volume Offset list"
+msgstr "Įtraukti paslaugą į garsumo poslinkių sąrašą"
+
 msgid "Add a RecordTimer"
 msgstr "Pridėti įrašymo laikmatį"
 
 msgid "Add a RecordTimer for current event"
 msgstr "Pridėti įrašymo laikmatį šiam įvykiui"
+
+#, fuzzy
+msgid "Add a TV service to the Volume Offset list"
+msgstr "Įtraukti paslaugą į garsumo poslinkių sąrašą"
 
 msgid "Add a ZapTimer for current event"
 msgstr "Pridėti perjungimo laikmatį šiam įvykiui"
@@ -1968,7 +2028,8 @@ msgstr "Pridėti naują laikmatį"
 msgid "Add a new title"
 msgstr "Pridėkite naują pavadinimą"
 
-msgid "Add a service to the Volume Offsets list"
+#, fuzzy
+msgid "Add a service to the Volume Offset list"
 msgstr "Įtraukti paslaugą į garsumo poslinkių sąrašą"
 
 msgid "Add a timer for the current event"
@@ -2045,7 +2106,8 @@ msgstr ""
 msgid "Add the current directory as a bookmark"
 msgstr "Pridėkite dabartinį katalogą kaip žymelę"
 
-msgid "Add the current service to the Volume Offsets list"
+#, fuzzy
+msgid "Add the current/active service to the Volume Offset list"
 msgstr "Įtraukti dabartinę paslaugą į garsumo poslinkių sąrašą"
 
 msgid "Add the selected service to a bouquet or alternative"
@@ -2068,6 +2130,10 @@ msgstr ""
 
 msgid "Add/Remove highlighted plugin to/from update list"
 msgstr ""
+
+#, fuzzy
+msgid "Add/Remove the current service to/from the Volume Offset list"
+msgstr "Įtraukti dabartinę paslaugą į garsumo poslinkių sąrašą"
 
 msgid "Adding schedule..."
 msgstr "Pridedamas tvarkaraštis..."
@@ -2759,6 +2825,10 @@ msgstr "Pradedamas auto fokusavimas..."
 msgid "Auto multi-selection"
 msgstr ""
 
+#, fuzzy
+msgid "Auto show volume level"
+msgstr "Automatinis garsumo lygis"
+
 msgid "Auto shut down"
 msgstr "Automatinis išjungimas"
 
@@ -2888,6 +2958,34 @@ msgstr "MĖLYNAS mygtukas: MĖLYNAS/MĖLYNAS ilgas"
 
 msgid "Back"
 msgstr "Atgal"
+
+#, fuzzy
+msgid "Back USB"
+msgstr "Atgal"
+
+msgid "Back USB 3.0"
+msgstr ""
+
+msgid "Back USB-C"
+msgstr ""
+
+msgid "Back, inner USB"
+msgstr ""
+
+msgid "Back, left USB"
+msgstr ""
+
+msgid "Back, lower USB"
+msgstr ""
+
+msgid "Back, outer USB"
+msgstr ""
+
+msgid "Back, right USB"
+msgstr ""
+
+msgid "Back, upper USB"
+msgstr ""
 
 msgid "Back/Recall"
 msgstr "Atgal/atkurti"
@@ -5367,6 +5465,10 @@ msgid "Currently Defined Volume Offsets:"
 msgstr "Šiuo metu nustatyti apimties poslinkiai:"
 
 #, fuzzy
+msgid "Currently Remembered Volume Levels:"
+msgstr "Šiuo metu nustatyti apimties poslinkiai:"
+
+#, fuzzy
 msgid "Currently the commit log cannot be retrieved - please try later again."
 msgstr "%s naujinių žurnalų negalima nuskaityti, bandykite dar kartą vėliau."
 
@@ -5832,6 +5934,10 @@ msgstr ""
 msgid "Define the file system mount options."
 msgstr ""
 
+#, fuzzy
+msgid "Defined volume offset"
+msgstr "Numatytasis garsumo poslinkis"
+
 msgid "Defines how fast the time jumps are repeated. Values lower than 500ms may be problematic with NAS."
 msgstr "Apibrėžia, kaip tankiai kartojami laiko šuoliai. Mažesnės, nei 500ms reikšmės gali būti problematiškos, naudojant NAS saugyklas."
 
@@ -6014,9 +6120,6 @@ msgstr "Trinti po teksto žymekliu esantį simbolį"
 
 msgid "Delete the current time shift buffer and restart time shift"
 msgstr "Valyti šio laiko poslinkio atmintinę ir laiko poslinkį paleisti iš naujo"
-
-msgid "Delete the currently highlighted service from the Volume Offsets list"
-msgstr "Ištrinkite šiuo metu paryškintą paslaugą iš garsumo išjungimo rinkinių sąrašo"
 
 msgid "Delete the currently selected timer"
 msgstr "Naikinti šiuo metu pasirinktą laikmatį"
@@ -7067,9 +7170,6 @@ msgstr "įjungti paketo redagavimą"
 #, fuzzy
 msgid "Enable ClearMem"
 msgstr "įjungti perkėlimą"
-
-msgid "Enable Dolby Digital / Dolby AC-3 offsets"
-msgstr "Įjunkite Dolby Digital / Dolby AC-3 poslinkius"
 
 msgid "Enable EIT EPG"
 msgstr "Įjungti EIT EPG"
@@ -8772,6 +8872,12 @@ msgstr "Penktadienis"
 msgid "From :"
 msgstr "Nuo:"
 
+msgid "Front USB"
+msgstr ""
+
+msgid "Front USB 3.0"
+msgstr ""
+
 #, fuzzy
 msgid "Front processor version"
 msgstr "Priekinio procesoriaus versija"
@@ -10249,6 +10355,14 @@ msgstr ""
 msgid "Internal Reader /dev/sci1:"
 msgstr ""
 
+#, fuzzy
+msgid "Internal SSD"
+msgstr "Vidinis"
+
+#, fuzzy
+msgid "Internal USB"
+msgstr "Vidinis"
+
 msgid "Internal flash"
 msgstr "Vidinė atmintis"
 
@@ -10753,6 +10867,10 @@ msgstr "Paskutinį kartą naudotas stulpelis"
 msgid "Last used share: "
 msgstr "Paskutinis naudotas bendrinimas: "
 
+#, fuzzy
+msgid "Last used/set volume"
+msgstr "Paskutinį kartą naudotas stulpelis"
+
 msgctxt "third event: 'third' event label"
 msgid "Later"
 msgstr "Vėliau"
@@ -10784,6 +10902,10 @@ msgstr "Libanas"
 msgid "Left"
 msgstr "Kairė"
 
+#, fuzzy
+msgid "Left USB"
+msgstr "Kairė"
+
 msgid "Left column"
 msgstr "Kairysis stulpelis"
 
@@ -10795,6 +10917,12 @@ msgstr "Kairiojo stulpelio failo rūšiavimas"
 
 msgid "Left from service name"
 msgstr "Į kairę nuo kanalo pavadinimo"
+
+msgid "Left, back USB"
+msgstr ""
+
+msgid "Left, front USB"
+msgstr ""
 
 msgid "Left, wrapped"
 msgstr "kairėje, suvyniota"
@@ -11102,6 +11230,10 @@ msgstr "Kilpa iki"
 
 msgid "Lower Framerate saves CPU Time."
 msgstr "Žemesnis kadrų dažnis atlaisvins CPU"
+
+#, fuzzy
+msgid "Lower USB"
+msgstr "Mažosios raidės"
 
 msgid "Lower case"
 msgstr "Mažosios raidės"
@@ -11514,6 +11646,9 @@ msgstr "Matavimo režimas"
 msgid "Mexico"
 msgstr "Meksika"
 
+msgid "Micro SD"
+msgstr ""
+
 msgid "Micronesia, Federated States of"
 msgstr "Mikronezijos Federacinės Valstijos"
 
@@ -11564,6 +11699,10 @@ msgid "Mipsel"
 msgstr "Mipsel"
 
 msgid "Miscellaneous"
+msgstr "Įvairios kalbos"
+
+#, fuzzy
+msgid "Miscellaneous languages"
 msgstr "Įvairios kalbos"
 
 #, python-format
@@ -13829,6 +13968,10 @@ msgid "Playback Settings"
 msgstr "Atkūrimo nustatymai"
 
 #, fuzzy
+msgid "Playback Time:"
+msgstr "Atsarginis laikmatis"
+
+#, fuzzy
 msgid "Playback, Recording, VOD & Time Shift"
 msgstr "Įrašai ir laiko poslinkis"
 
@@ -15810,6 +15953,10 @@ msgstr "Iš naujo įkelti subtitrus"
 msgid "Right"
 msgstr "Dešinys"
 
+#, fuzzy
+msgid "Right USB"
+msgstr "Dešinys"
+
 msgid "Right column"
 msgstr "Dešinysis stulpelis"
 
@@ -15821,6 +15968,12 @@ msgstr "Dešiniojo stulpelio failo rūšiavimas"
 
 msgid "Right from service name"
 msgstr "Kanalo pavadinimo dešinėje"
+
+msgid "Right, back USB"
+msgstr ""
+
+msgid "Right, front USB"
+msgstr ""
 
 msgid "Right, wrapped"
 msgstr "dešinėn, suvynioti"
@@ -15933,6 +16086,15 @@ msgstr "SABnzbd parametrai"
 msgid "SAT"
 msgstr "ŠEŠ"
 
+msgid "SATA"
+msgstr ""
+
+msgid "SATA BACK"
+msgstr ""
+
+msgid "SATA FRONT"
+msgstr ""
+
 msgid "SATPI Setting Actions"
 msgstr "SATPI nustatymo veiksmai"
 
@@ -15944,6 +16106,10 @@ msgstr "SCPC optimizuotas paieškos diapazonas"
 
 msgid "SCR timing adjustment, in conjunction with SCR socket and operation of several SCR devices with one cable."
 msgstr "SCR laiko reguliavimas, kartu su SCR lizdu ir kelių SCR įrenginių veikimas vienu kabeliu."
+
+#, fuzzy
+msgid "SD"
+msgstr "OSD"
 
 #, python-format
 msgid "SDcard slot %s%s"
@@ -16406,6 +16572,9 @@ msgstr "Pasirinkite 'A' arba 'B', jei jūsų antenos sistema reikalauja to, kita
 msgid "Select 'Band' if using a 'Universal' LNB, otherwise consult your LNB specifications."
 msgstr "Jei naudojate 'universalią' LNB, pasirinkite 'juosta', kitaip kreipkitės į savo LNB specifikacijų lapą."
 
+msgid "Select 'Disabled' to disable all automated volume adjustments. Select 'Defined volume offsets' to assign a specified offset to the service's volume level. Select 'Last used/set volume' to remember the volume level last used for each service."
+msgstr ""
+
 msgid "Select 'Enable' to start the CI+ helper."
 msgstr ""
 
@@ -16438,9 +16607,6 @@ msgstr "Pasirinkite 'Taip', jei prieš įjungiant laikmatį reikia patikrinti ti
 
 msgid "Select 'Yes' if this tuner is connected to the SCR device through another tuner, otherwise select 'No'."
 msgstr "Pasirinkite 'taip', jei šis imtuvas yra prijungtas prie SCR įrenginio per kitą imtuvą, kitaip pasirinkite 'ne'."
-
-msgid "Select 'Yes' if volume adjustments should be applied to Dolby sound tracks."
-msgstr "Pasirinkite 'Taip', jei Dolby garso takeliams turėtų būti taikomi garsumo koregavimai."
 
 msgid "Select 'Yes' if you are using a multi-switch which requires a DiSEqC Port-A command signal. Select 'No' for all other setups."
 msgstr "Pasirinkite tik \"taip\", jei naudojate \"multiswich\", kurio komandinis signalas \"DiSEqC Port-A\" reikalingas. Visoms kitoms sąrankoms pasirinkite \"ne\"."
@@ -16621,6 +16787,10 @@ msgstr "Jei nustatyta 'taip', po perjungimo tarp radijo ir TV režimų bus rodom
 
 msgid "Select 'Yes' to show the current directory in the list of directories. Note that File Commander must be restarted for this change to take effect."
 msgstr "Pasirinkite \"Taip\", kad katalogų sąraše būtų rodomas dabartinis katalogas. Atminkite, kad failų vadas turi būti paleistas iš naujo, kad šis pakeitimas įsigaliotų."
+
+#, fuzzy
+msgid "Select 'Yes' to show the volume level on any automated changes of volume level."
+msgstr "Jei nustatyta 'taip', kiekvieną kartą atveriant EPG, bus rodomas paketų sąrašas."
 
 #, fuzzy
 msgid "Select 'Yes' to show this plugin in the Plugin Browser."
@@ -17790,6 +17960,10 @@ msgstr "Nustatykite laiką, per kurį laukiama numatytojo veiksmo vykdant išjun
 
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr "Nustatykite pasirinkto kanalo veiksmo eigos indikaciją kanalų pasirinkimo lange."
+
+#, fuzzy, python-format
+msgid "Set the volume level for the '%s' service."
+msgstr "Nustatykite paslaugos '%s' garsumo poslinkį."
 
 #, python-format
 msgid "Set the volume offset for the '%s' service."
@@ -21340,6 +21514,10 @@ msgstr ""
 msgid "Toggle between bouquet/EPG lists"
 msgstr "Perjungti paketo / EPG sąrašus"
 
+#, fuzzy
+msgid "Toggle between the available TV and RADIO services"
+msgstr "Perjunkite į galimas RADIJO paslaugas"
+
 msgid "Toggle display of image information"
 msgstr ""
 
@@ -21755,6 +21933,12 @@ msgstr "USALS"
 msgid "USALS automatically moves a motorized dish to the correct satellite based on the coordinates entered by the user. Without USALS each satellite will need to be setup and saved individually."
 msgstr "USALS automatiškai perkelia motorizuotą anteną į tinkamą palydovą, remiantis vartotojo įrašytomis koordinatėmis. Be USALS kiekvienas palydovas turės būti nustatytas ir išsaugotas atskirai."
 
+msgid "USB 2.0 (Back, inner)"
+msgstr ""
+
+msgid "USB 3.0 (Back, outer)"
+msgstr ""
+
 msgid "USB Disk Format"
 msgstr ""
 
@@ -22038,6 +22222,10 @@ msgstr "Uphops -"
 
 msgid "Uphops: "
 msgstr "Uphops: "
+
+#, fuzzy
+msgid "Upper USB"
+msgstr "Didžiosios raidės"
 
 msgid "Upper case"
 msgstr "Didžiosios raidės"
@@ -22656,17 +22844,22 @@ msgstr "Įtampos režimas"
 msgid "Volume"
 msgstr "Garsumas"
 
-msgid "Volume Adjust"
-msgstr "Garsumo reguliavimas"
-
 msgid "Volume Adjust Actions"
 msgstr "Garsumo reguliavimo veiksmai"
 
 msgid "Volume Adjust Service Selection"
 msgstr "Garsumo reguliavimo paslaugos pasirinkimas"
 
+#, fuzzy
+msgid "Volume Adjust Service Selection Actions"
+msgstr "Garsumo reguliavimo paslaugos pasirinkimas"
+
 msgid "Volume Adjust Settings"
 msgstr "Garsumo reguliavimo nustatymai"
+
+#, fuzzy
+msgid "Volume adjustment mode"
+msgstr "Garsumo reguliavimas"
 
 msgid "Volume down"
 msgstr "Sumažinti garsumą"
@@ -24044,9 +24237,15 @@ msgstr "Parsisiunčiama"
 msgid "drama (general)"
 msgstr "dramos (bendrai)"
 
+msgid "eMMC"
+msgstr ""
+
 #, python-format
 msgid "eMMC slot %s%s"
 msgstr "eMMC lizdas %s%s"
+
+msgid "eSATA"
+msgstr ""
 
 msgid "east"
 msgstr "rytai"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Opendroid\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-15 06:02+0200\n"
+"POT-Creation-Date: 2025-04-23 17:39+0200\n"
 "PO-Revision-Date: 2024-09-21 00:06+0200\n"
 "Last-Translator: OPD Team <opendroid2013@gmail.com>\n"
 "Language-Team: SK jazyk upravil dym1\n"
@@ -882,18 +882,18 @@ msgstr[2] "%d minút"
 msgid "%d Minutes"
 msgstr "%d minúty"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Month"
 msgid_plural "%d Months"
-msgstr[0] "%d mesiac"
-msgstr[1] "%d mesiace"
-msgstr[2] "%d mesiacov"
+msgstr[0] "%d min"
+msgstr[1] "%d minúty"
+msgstr[2] "%d minút"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Pixel"
 msgid_plural "%d Pixels"
-msgstr[0] "%d pixel"
-msgstr[1] "%d pixely"
+msgstr[0] "%d pixelov"
+msgstr[1] "%d pixelov"
 msgstr[2] "%d pixelov"
 
 #, python-format
@@ -918,19 +918,19 @@ msgstr[2] "%d sekúnd"
 msgid "%d Seconds"
 msgstr "%d sekúnd"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Week"
 msgid_plural "%d Weeks"
-msgstr[0] "%d týždeň"
-msgstr[1] "%d týždne"
-msgstr[2] "%d týždňov"
+msgstr[0] "Týždenne"
+msgstr[1] "Týždenne"
+msgstr[2] "Týždenne"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Year"
 msgid_plural "%d Years"
-msgstr[0] "%d rok"
-msgstr[1] "%d roky"
-msgstr[2] "%d rokov"
+msgstr[0] "Rok"
+msgstr[1] "Rok"
+msgstr[2] "Rok"
 
 #. TRANSLATORS: Intermediate scanning result, '%d' channel(s) have been found so far
 #, python-format
@@ -946,6 +946,13 @@ msgid_plural "%d cores"
 msgstr[0] "%d jadro"
 msgstr[1] "%d jadrá"
 msgstr[2] "%d jadier"
+
+#, fuzzy, python-format
+msgid "%d feed catalog package was updated."
+msgid_plural "%d feed catalog packages were updated."
+msgstr[0] "Aktualizáciu má %d balíček"
+msgstr[1] "Aktualizáciu majú %d balíčky."
+msgstr[2] "Aktualizáciu má %d balíčkov."
 
 #, python-format
 msgid "%d kB"
@@ -1015,6 +1022,55 @@ msgstr[2] "%d balíčkov označených na aktualizáciu."
 #, python-format
 msgid "%d package upgraded."
 msgid_plural "%d packages upgraded."
+msgstr[0] "Aktualizovaný bol %d balíček."
+msgstr[1] "Aktualizované boli %d balíčky."
+msgstr[2] "Aktualizovaných bolo %d balíčkov."
+
+#, fuzzy, python-format
+msgid "%d package was configured."
+msgid_plural "%d packages were configured."
+msgstr[0] "Aktualizovaný bol %d balíček."
+msgstr[1] "Aktualizované boli %d balíčky."
+msgstr[2] "Aktualizovaných bolo %d balíčkov."
+
+#, fuzzy, python-format
+msgid "%d package was deselected."
+msgid_plural "%d packages were deselected."
+msgstr[0] "Odznačený bol %d balíček."
+msgstr[1] "Odznačený bol %d balíček."
+msgstr[2] "Odznačený bol %d balíček."
+
+#, fuzzy, python-format
+msgid "%d package was downloaded."
+msgid_plural "%d packages were downloaded."
+msgstr[0] "Aktualizovaný bol %d balíček."
+msgstr[1] "Aktualizované boli %d balíčky."
+msgstr[2] "Aktualizovaných bolo %d balíčkov."
+
+#, fuzzy, python-format
+msgid "%d package was identified for upgrade."
+msgid_plural "%d packages were identified for upgrade."
+msgstr[0] "%d balíček označený na aktualizáciu."
+msgstr[1] "%d balíčky označené na aktualizáciu."
+msgstr[2] "%d balíčkov označených na aktualizáciu."
+
+#, fuzzy, python-format
+msgid "%d package was installed."
+msgid_plural "%d packages were installed."
+msgstr[0] "Bol nainštalovaný %d balíček."
+msgstr[1] "Boli nainštalované %d balíčky."
+msgstr[2] "Bolo nainštalovaných %d balíčkov."
+
+#, fuzzy, python-format
+msgid "%d package was removed."
+msgid_plural "%d packages were removed."
+msgstr[0] "Na odstránenie bol vybraný %d balíček."
+msgstr[1] "Na odstránenie boli vybrané %d balíčky."
+msgstr[2] "Na odstránenie bolo vybraných %d balíčkov."
+
+#, fuzzy, python-format
+msgid "%d package was upgraded."
+msgid_plural "%d packages were upgraded."
 msgstr[0] "Aktualizovaný bol %d balíček."
 msgstr[1] "Aktualizované boli %d balíčky."
 msgstr[2] "Aktualizovaných bolo %d balíčkov."
@@ -1930,6 +1986,10 @@ msgstr "Pridať nový záznam pre Quad kanál"
 msgid "Add RecordTimer"
 msgstr "Pridať časovač nahrávania"
 
+#, fuzzy
+msgid "Add Service"
+msgstr "Pridať stanicu"
+
 msgid "Add Service To Bouquet"
 msgstr "Pridať stanicu do prehľadu"
 
@@ -1951,11 +2011,19 @@ msgstr "Pridať časovač prepnutia"
 msgid "Add a DNS entry"
 msgstr "Pridať záznam DNS"
 
+#, fuzzy
+msgid "Add a RADIO service to the Volume Offset list"
+msgstr "Pridať stanicu do zoznamu pre posun hlasitosti"
+
 msgid "Add a RecordTimer"
 msgstr "Pridať časovač nahrávania"
 
 msgid "Add a RecordTimer for current event"
 msgstr "Pridať časovač nahrávania pre aktuálnu udalosť"
+
+#, fuzzy
+msgid "Add a TV service to the Volume Offset list"
+msgstr "Pridať stanicu do zoznamu pre posun hlasitosti"
 
 msgid "Add a ZapTimer for current event"
 msgstr "Pridať časovač prepnutia pre aktuálnu udalosť"
@@ -1981,7 +2049,8 @@ msgstr "Pridať nový časovač"
 msgid "Add a new title"
 msgstr "Pridať nový titul"
 
-msgid "Add a service to the Volume Offsets list"
+#, fuzzy
+msgid "Add a service to the Volume Offset list"
 msgstr "Pridať stanicu do zoznamu pre posun hlasitosti"
 
 msgid "Add a timer for the current event"
@@ -2058,7 +2127,8 @@ msgstr "Pridať služby do tohto prehľadu?"
 msgid "Add the current directory as a bookmark"
 msgstr "Pridať aktuálny priečinok ako záložku"
 
-msgid "Add the current service to the Volume Offsets list"
+#, fuzzy
+msgid "Add the current/active service to the Volume Offset list"
 msgstr "Pridať aktuálnu stanicu do zoznamu pre posun hlasitosti"
 
 msgid "Add the selected service to a bouquet or alternative"
@@ -2081,6 +2151,10 @@ msgstr "Pridať/odstránť zvýraznený plugin do alebo zo zoznamu na odstránen
 
 msgid "Add/Remove highlighted plugin to/from update list"
 msgstr "Pridať/odstránť zvýraznený plugin do alebo zo zoznamu na aktualizáciu"
+
+#, fuzzy
+msgid "Add/Remove the current service to/from the Volume Offset list"
+msgstr "Pridať aktuálnu stanicu do zoznamu pre posun hlasitosti"
 
 msgid "Adding schedule..."
 msgstr "Pridáva sa plán..."
@@ -2770,6 +2844,10 @@ msgstr "Auto fokus začal..."
 msgid "Auto multi-selection"
 msgstr "Automatický viacnásobný výber"
 
+#, fuzzy
+msgid "Auto show volume level"
+msgstr "Automatická úroveň hlasitosti"
+
 msgid "Auto shut down"
 msgstr "Automatické vypnutie"
 
@@ -2899,6 +2977,34 @@ msgstr "Modré tlačidlo: krátke/dlhé stlačenie"
 
 msgid "Back"
 msgstr "Späť"
+
+#, fuzzy
+msgid "Back USB"
+msgstr "Späť"
+
+msgid "Back USB 3.0"
+msgstr ""
+
+msgid "Back USB-C"
+msgstr ""
+
+msgid "Back, inner USB"
+msgstr ""
+
+msgid "Back, left USB"
+msgstr ""
+
+msgid "Back, lower USB"
+msgstr ""
+
+msgid "Back, outer USB"
+msgstr ""
+
+msgid "Back, right USB"
+msgstr ""
+
+msgid "Back, upper USB"
+msgstr ""
 
 msgid "Back/Recall"
 msgstr "Späť/Odvolať"
@@ -5379,6 +5485,10 @@ msgid "Currently Defined Volume Offsets:"
 msgstr "Aktuálne definované posuny hlasitosti:"
 
 #, fuzzy
+msgid "Currently Remembered Volume Levels:"
+msgstr "Aktuálne definované posuny hlasitosti:"
+
+#, fuzzy
 msgid "Currently the commit log cannot be retrieved - please try later again."
 msgstr "Denník o odovzdaní '%s' nie je možné prevziať, skúste to neskôr, prosím."
 
@@ -5844,6 +5954,10 @@ msgstr ""
 msgid "Define the file system mount options."
 msgstr ""
 
+#, fuzzy
+msgid "Defined volume offset"
+msgstr "Predvolený posun hlasitosti"
+
 msgid "Defines how fast the time jumps are repeated. Values lower than 500ms may be problematic with NAS."
 msgstr "Určuje, ako rýchlo sa opakujú časové skoky. Hodnoty menšie ako 500 ms môžu byť v kombinácii s NAS problematické."
 
@@ -6026,9 +6140,6 @@ msgstr "Vymazať znaky pod textovým kurzorom"
 
 msgid "Delete the current time shift buffer and restart time shift"
 msgstr "Vymazať aktuálnu vyrov. pamäť pre timeshift a reštartovať ho"
-
-msgid "Delete the currently highlighted service from the Volume Offsets list"
-msgstr "Vymazať aktuálne zvýraznenú stanicu zo zoznamu pre posun hlasitosti"
 
 msgid "Delete the currently selected timer"
 msgstr "Vymazať práve vybraný časovač"
@@ -7082,9 +7193,6 @@ msgstr "Zapnúť úpravu prehľadu"
 #, fuzzy
 msgid "Enable ClearMem"
 msgstr "Zapnúť režim presunu"
-
-msgid "Enable Dolby Digital / Dolby AC-3 offsets"
-msgstr "Aktivovať posuny Dolby Digital/Dolby AC-3"
 
 msgid "Enable EIT EPG"
 msgstr "Povoliť EIT EPG"
@@ -8790,6 +8898,12 @@ msgstr "Piatok"
 msgid "From :"
 msgstr "Od:"
 
+msgid "Front USB"
+msgstr ""
+
+msgid "Front USB 3.0"
+msgstr ""
+
 #, fuzzy
 msgid "Front processor version"
 msgstr "Verzia front procesora"
@@ -10270,6 +10384,14 @@ msgstr ""
 msgid "Internal Reader /dev/sci1:"
 msgstr ""
 
+#, fuzzy
+msgid "Internal SSD"
+msgstr "Interné"
+
+#, fuzzy
+msgid "Internal USB"
+msgstr "Interné"
+
 msgid "Internal flash"
 msgstr "Vnútorná flash"
 
@@ -10775,6 +10897,10 @@ msgstr "Naposledy použitý stĺpec"
 msgid "Last used share: "
 msgstr "Posledné použité zdieľanie: "
 
+#, fuzzy
+msgid "Last used/set volume"
+msgstr "Naposledy použitý stĺpec"
+
 msgctxt "third event: 'third' event label"
 msgid "Later"
 msgstr "Neskôr"
@@ -10807,6 +10933,10 @@ msgstr "Libanon"
 msgid "Left"
 msgstr "Vľavo"
 
+#, fuzzy
+msgid "Left USB"
+msgstr "Vľavo"
+
 msgid "Left column"
 msgstr "Ľavý stĺpec"
 
@@ -10818,6 +10948,12 @@ msgstr "Zoraďovanie súborov v ľavom stĺpci"
 
 msgid "Left from service name"
 msgstr "Vľavo od názvu stanice"
+
+msgid "Left, back USB"
+msgstr ""
+
+msgid "Left, front USB"
+msgstr ""
 
 msgid "Left, wrapped"
 msgstr "Doľava, zalomené"
@@ -11127,6 +11263,10 @@ msgstr "Prepojiť slučkou na"
 
 msgid "Lower Framerate saves CPU Time."
 msgstr "Nižšia snímková frekvencia šetrí procesorový čas."
+
+#, fuzzy
+msgid "Lower USB"
+msgstr "malé písmená"
 
 msgid "Lower case"
 msgstr "malé písmená"
@@ -11539,6 +11679,9 @@ msgstr "Režim merania"
 msgid "Mexico"
 msgstr "Mexiko"
 
+msgid "Micro SD"
+msgstr ""
+
 msgid "Micronesia, Federated States of"
 msgstr "Mikronézia (Federatívne štáty)"
 
@@ -11589,6 +11732,10 @@ msgid "Mipsel"
 msgstr "Mipsel"
 
 msgid "Miscellaneous"
+msgstr "Rôzne"
+
+#, fuzzy
+msgid "Miscellaneous languages"
 msgstr "Rôzne"
 
 #, python-format
@@ -13861,6 +14008,10 @@ msgid "Playback Settings"
 msgstr "Nastavenia prehrávania"
 
 #, fuzzy
+msgid "Playback Time:"
+msgstr "Záložný časovač"
+
+#, fuzzy
 msgid "Playback, Recording, VOD & Time Shift"
 msgstr "Prehrávanie, nahrávanie a timeshift"
 
@@ -15898,6 +16049,10 @@ msgstr "Znovu zalomiť titulky"
 msgid "Right"
 msgstr "Vpravo"
 
+#, fuzzy
+msgid "Right USB"
+msgstr "Vpravo"
+
 msgid "Right column"
 msgstr "Pravý stĺpec"
 
@@ -15909,6 +16064,12 @@ msgstr "Zoraďovanie súborov v pravom stĺpci"
 
 msgid "Right from service name"
 msgstr "Vpravo od názvu stanice"
+
+msgid "Right, back USB"
+msgstr ""
+
+msgid "Right, front USB"
+msgstr ""
 
 msgid "Right, wrapped"
 msgstr "Doprava, zalomené"
@@ -16021,6 +16182,15 @@ msgstr "Nastavenie SABnzbd"
 msgid "SAT"
 msgstr "SAT"
 
+msgid "SATA"
+msgstr ""
+
+msgid "SATA BACK"
+msgstr ""
+
+msgid "SATA FRONT"
+msgstr ""
+
 msgid "SATPI Setting Actions"
 msgstr "Akcie pre nastavenie SATPI"
 
@@ -16032,6 +16202,10 @@ msgstr "SCPC – optimalizovaný rozsah vyhľadávania"
 
 msgid "SCR timing adjustment, in conjunction with SCR socket and operation of several SCR devices with one cable."
 msgstr "Prispôsobenie časovania SCR v spojení so socketom SCR a prevádzkou viacerých zariadení SCR pomocou jedného kábla."
+
+#, fuzzy
+msgid "SD"
+msgstr "OSD"
 
 #, python-format
 msgid "SDcard slot %s%s"
@@ -16499,6 +16673,9 @@ msgstr "Ak si to vyžaduje anténny systém, vyberte možnosť 'A' alebo 'B'. In
 msgid "Select 'Band' if using a 'Universal' LNB, otherwise consult your LNB specifications."
 msgstr "Ak sa používa 'univerzálny' LNB, vyberte 'pásmo' (band), v opačnom prípade si pozrite špecifikácie vášho LNB."
 
+msgid "Select 'Disabled' to disable all automated volume adjustments. Select 'Defined volume offsets' to assign a specified offset to the service's volume level. Select 'Last used/set volume' to remember the volume level last used for each service."
+msgstr ""
+
 msgid "Select 'Enable' to start the CI+ helper."
 msgstr "Na spustenie pomocníka pre CI+ helper, zvoľte možnosť 'Zapnúť'."
 
@@ -16531,9 +16708,6 @@ msgstr "Ak je pred aktivovaním časovača potrebné skontrolovať sieťovú pre
 
 msgid "Select 'Yes' if this tuner is connected to the SCR device through another tuner, otherwise select 'No'."
 msgstr "Ak je tento tuner pripojený na SCR zariadenie prostredníctvom iného tunera, vyberte možnosť 'áno'. Inak vyberte možnosť 'nie'."
-
-msgid "Select 'Yes' if volume adjustments should be applied to Dolby sound tracks."
-msgstr "Ak sa má použiť prispôsobenie hlasitosti na zvukové stopy Dolby, vyberte voľbu 'Áno'."
 
 msgid "Select 'Yes' if you are using a multi-switch which requires a DiSEqC Port-A command signal. Select 'No' for all other setups."
 msgstr "Ak používate multiprepínač, ktorý vyžaduje príkazový signál DiSEqC Port-A, vyberte možnosť 'Áno'. Pre všetky ostatné nastavenia vyberte 'Nie'."
@@ -16715,6 +16889,10 @@ msgstr "Ak je nastavené na 'áno', po prepnutí medzi rádiami/TV kanálmi sa z
 
 msgid "Select 'Yes' to show the current directory in the list of directories. Note that File Commander must be restarted for this change to take effect."
 msgstr "Ak chcete v zozname priečinkov zobraziť aktuálny priečinok, vyberte možnosť 'Áno'. Táto zmena sa uplatní až po reštartovaní Správcu súborov."
+
+#, fuzzy
+msgid "Select 'Yes' to show the volume level on any automated changes of volume level."
+msgstr "Voľba 'Áno' skryje názov a IP adresu servera."
 
 #, fuzzy
 msgid "Select 'Yes' to show this plugin in the Plugin Browser."
@@ -17894,6 +18072,10 @@ msgstr "Nastavenie času čakania na vykonanie predvolenej akcie v správach o v
 
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr "Nastavenie typu zobrazenia indikátora priebehu na obrazovke výberu kanála."
+
+#, fuzzy, python-format
+msgid "Set the volume level for the '%s' service."
+msgstr "Nastaviť posun hlasitosti pre stanicu '%s'."
 
 #, python-format
 msgid "Set the volume offset for the '%s' service."
@@ -21469,6 +21651,10 @@ msgstr ""
 msgid "Toggle between bouquet/EPG lists"
 msgstr "Prepnúť medzi zoznamami prehľadov/EPG"
 
+#, fuzzy
+msgid "Toggle between the available TV and RADIO services"
+msgstr "Prepnúť na dostupné RÁDIO stanice"
+
 msgid "Toggle display of image information"
 msgstr "Prepnúť zobrazenie informácií o image"
 
@@ -21884,6 +22070,12 @@ msgstr "USALS"
 msgid "USALS automatically moves a motorized dish to the correct satellite based on the coordinates entered by the user. Without USALS each satellite will need to be setup and saved individually."
 msgstr "USALS automaticky otočí motorizovanú anténu na správny satelit na základe súradníc zadaných používateľom. Bez systému USALS bude potrebné nastaviť a uložiť každú družicu samostatne."
 
+msgid "USB 2.0 (Back, inner)"
+msgstr ""
+
+msgid "USB 3.0 (Back, outer)"
+msgstr ""
+
 msgid "USB Disk Format"
 msgstr ""
 
@@ -22167,6 +22359,10 @@ msgstr "Uphops -"
 
 msgid "Uphops: "
 msgstr "Uphops: "
+
+#, fuzzy
+msgid "Upper USB"
+msgstr "Veľké písmená"
 
 msgid "Upper case"
 msgstr "Veľké písmená"
@@ -22795,17 +22991,22 @@ msgstr "Režim napätia"
 msgid "Volume"
 msgstr "Hlasitosť"
 
-msgid "Volume Adjust"
-msgstr "Prispôsobenie hlasitosti"
-
 msgid "Volume Adjust Actions"
 msgstr "Akcie nastavenia hlasitosti"
 
 msgid "Volume Adjust Service Selection"
 msgstr "Výber stanice na úpravu hlasitosti"
 
+#, fuzzy
+msgid "Volume Adjust Service Selection Actions"
+msgstr "Výber stanice na úpravu hlasitosti"
+
 msgid "Volume Adjust Settings"
 msgstr "Nastavenia úpravy hlasitosti"
+
+#, fuzzy
+msgid "Volume adjustment mode"
+msgstr "Prispôsobenie hlasitosti"
 
 msgid "Volume down"
 msgstr "Zníženie hlasitosti"
@@ -24186,9 +24387,15 @@ msgstr "Sťahovanie"
 msgid "drama (general)"
 msgstr "dráma (všeobecne)"
 
+msgid "eMMC"
+msgstr ""
+
 #, python-format
 msgid "eMMC slot %s%s"
 msgstr "Slot eMMC %s%s"
+
+msgid "eSATA"
+msgstr ""
 
 msgid "east"
 msgstr "východ"

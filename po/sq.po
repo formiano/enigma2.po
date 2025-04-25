@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-15 06:02+0200\n"
+"POT-Creation-Date: 2025-04-23 17:39+0200\n"
 "PO-Revision-Date: 2024-09-21 00:06+0200\n"
 "Last-Translator: BliNeR-KeY <blinerg@gmail.com>\n"
 "Language-Team: Albanian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sq/>\n"
@@ -879,17 +879,17 @@ msgstr[1] "%d Minuta"
 msgid "%d Minutes"
 msgstr ""
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Month"
 msgid_plural "%d Months"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d Min"
+msgstr[1] "%d Mins"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Pixel"
 msgid_plural "%d Pixels"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d pixel gjerë"
+msgstr[1] "%d pixels gjerë"
 
 #, fuzzy, python-format
 msgid "%d Pixel wide"
@@ -911,17 +911,17 @@ msgstr[1] "%d sekonda"
 msgid "%d Seconds"
 msgstr ""
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Week"
 msgid_plural "%d Weeks"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Javore"
+msgstr[1] "Javore"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Year"
 msgid_plural "%d Years"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Viti"
+msgstr[1] "Viti"
 
 #. TRANSLATORS: Intermediate scanning result, '%d' channel(s) have been found so far
 #, python-format
@@ -935,6 +935,12 @@ msgid "%d core"
 msgid_plural "%d cores"
 msgstr[0] "%d core"
 msgstr[1] "%d cores"
+
+#, fuzzy, python-format
+msgid "%d feed catalog package was updated."
+msgid_plural "%d feed catalog packages were updated."
+msgstr[0] "Pakete %d e përmirësuar."
+msgstr[1] "Paketa %d e përmirësuar."
 
 #, python-format
 msgid "%d kB"
@@ -997,6 +1003,48 @@ msgstr[1] ""
 #, python-format
 msgid "%d package upgraded."
 msgid_plural "%d packages upgraded."
+msgstr[0] "Pakete %d e përmirësuar."
+msgstr[1] "Paketa %d e përmirësuar."
+
+#, fuzzy, python-format
+msgid "%d package was configured."
+msgid_plural "%d packages were configured."
+msgstr[0] "Pakete %d e përmirësuar."
+msgstr[1] "Paketa %d e përmirësuar."
+
+#, fuzzy, python-format
+msgid "%d package was deselected."
+msgid_plural "%d packages were deselected."
+msgstr[0] "%d Paketa u zgjodh."
+msgstr[1] "%d Paketa u zgjodh."
+
+#, fuzzy, python-format
+msgid "%d package was downloaded."
+msgid_plural "%d packages were downloaded."
+msgstr[0] "Pakete %d e përmirësuar."
+msgstr[1] "Paketa %d e përmirësuar."
+
+#, fuzzy, python-format
+msgid "%d package was identified for upgrade."
+msgid_plural "%d packages were identified for upgrade."
+msgstr[0] "Pakete %d e përmirësuar."
+msgstr[1] "Paketa %d e përmirësuar."
+
+#, fuzzy, python-format
+msgid "%d package was installed."
+msgid_plural "%d packages were installed."
+msgstr[0] "%d Paketa u instalua."
+msgstr[1] "%d Paketa u instalua."
+
+#, fuzzy, python-format
+msgid "%d package was removed."
+msgid_plural "%d packages were removed."
+msgstr[0] "Pakete %d e përmirësuar."
+msgstr[1] "Paketa %d e përmirësuar."
+
+#, fuzzy, python-format
+msgid "%d package was upgraded."
+msgid_plural "%d packages were upgraded."
 msgstr[0] "Pakete %d e përmirësuar."
 msgstr[1] "Paketa %d e përmirësuar."
 
@@ -1914,6 +1962,10 @@ msgstr "Shto hyrjen e re të Kanalit Quad"
 msgid "Add RecordTimer"
 msgstr "Shto Record Timer"
 
+#, fuzzy
+msgid "Add Service"
+msgstr "Shto shërbim"
+
 msgid "Add Service To Bouquet"
 msgstr ""
 
@@ -1935,11 +1987,19 @@ msgstr "Shto Zap Timer"
 msgid "Add a DNS entry"
 msgstr "Shtoni një hyrje DNS"
 
+#, fuzzy
+msgid "Add a RADIO service to the Volume Offset list"
+msgstr "Shto një shërbim në listën Volume Offsets"
+
 msgid "Add a RecordTimer"
 msgstr "Shto një kronometre rekord"
 
 msgid "Add a RecordTimer for current event"
 msgstr "Shto një kronometruar rekord për ngjarjen aktuale"
+
+#, fuzzy
+msgid "Add a TV service to the Volume Offset list"
+msgstr "Shto një shërbim në listën Volume Offsets"
 
 msgid "Add a ZapTimer for current event"
 msgstr "Shto një kronometr zap për ngjarjen aktuale"
@@ -1965,7 +2025,8 @@ msgstr ""
 msgid "Add a new title"
 msgstr "Shto një titull të ri"
 
-msgid "Add a service to the Volume Offsets list"
+#, fuzzy
+msgid "Add a service to the Volume Offset list"
 msgstr "Shto një shërbim në listën Volume Offsets"
 
 msgid "Add a timer for the current event"
@@ -2042,7 +2103,8 @@ msgstr ""
 msgid "Add the current directory as a bookmark"
 msgstr ""
 
-msgid "Add the current service to the Volume Offsets list"
+#, fuzzy
+msgid "Add the current/active service to the Volume Offset list"
 msgstr "Shto shërbimin aktual në listën Volume Offsets"
 
 msgid "Add the selected service to a bouquet or alternative"
@@ -2065,6 +2127,10 @@ msgstr ""
 
 msgid "Add/Remove highlighted plugin to/from update list"
 msgstr ""
+
+#, fuzzy
+msgid "Add/Remove the current service to/from the Volume Offset list"
+msgstr "Shto shërbimin aktual në listën Volume Offsets"
 
 msgid "Adding schedule..."
 msgstr "Duke shtuar orarin..."
@@ -2754,6 +2820,10 @@ msgstr "Auto fokusin duke filluar ..."
 msgid "Auto multi-selection"
 msgstr ""
 
+#, fuzzy
+msgid "Auto show volume level"
+msgstr "Niveli i volumit auto"
+
 msgid "Auto shut down"
 msgstr ""
 
@@ -2883,6 +2953,34 @@ msgstr "Çelësi BLU: BLU/BLU i gjatë"
 
 msgid "Back"
 msgstr "Mbrapa"
+
+#, fuzzy
+msgid "Back USB"
+msgstr "Mbrapa"
+
+msgid "Back USB 3.0"
+msgstr ""
+
+msgid "Back USB-C"
+msgstr ""
+
+msgid "Back, inner USB"
+msgstr ""
+
+msgid "Back, left USB"
+msgstr ""
+
+msgid "Back, lower USB"
+msgstr ""
+
+msgid "Back, outer USB"
+msgstr ""
+
+msgid "Back, right USB"
+msgstr ""
+
+msgid "Back, upper USB"
+msgstr ""
 
 msgid "Back/Recall"
 msgstr "Kthehu/Kujto"
@@ -5350,6 +5448,10 @@ msgid "Currently Defined Volume Offsets:"
 msgstr "Kompensimet e volumit të përcaktuara aktualisht:"
 
 #, fuzzy
+msgid "Currently Remembered Volume Levels:"
+msgstr "Kompensimet e volumit të përcaktuara aktualisht:"
+
+#, fuzzy
 msgid "Currently the commit log cannot be retrieved - please try later again."
 msgstr "%s commit logs nuk mund të marrë, ju lutem provoni përsëri më vonë."
 
@@ -5813,6 +5915,10 @@ msgstr ""
 msgid "Define the file system mount options."
 msgstr ""
 
+#, fuzzy
+msgid "Defined volume offset"
+msgstr "Kompensim i prezgjedhur i volumit"
+
 msgid "Defines how fast the time jumps are repeated. Values lower than 500ms may be problematic with NAS."
 msgstr "Përcakton se sa shpejt përsëriten kërcimet e kohës. Vlerat më të ulta se 500 metra mund të jenë problematike me NAS."
 
@@ -5995,9 +6101,6 @@ msgstr "Fshini karakterin nën kursorin e tekstit"
 
 msgid "Delete the current time shift buffer and restart time shift"
 msgstr "Fshini buferin aktual të zhvendosjes së kohës dhe rinisni zhvendosjen e kohës"
-
-msgid "Delete the currently highlighted service from the Volume Offsets list"
-msgstr "Elemino shërbimin e theksuar aktualisht nga lista Volume Offsets"
 
 msgid "Delete the currently selected timer"
 msgstr ""
@@ -7046,9 +7149,6 @@ msgstr ""
 #, fuzzy
 msgid "Enable ClearMem"
 msgstr "Aktivizo pamjen paraprake"
-
-msgid "Enable Dolby Digital / Dolby AC-3 offsets"
-msgstr "Aktivizo zhvendosjet Dolby Digital / Dolby AC-3"
 
 msgid "Enable EIT EPG"
 msgstr "Aktivo EIT EPG"
@@ -8743,6 +8843,12 @@ msgstr "E premte"
 msgid "From :"
 msgstr "Nga:"
 
+msgid "Front USB"
+msgstr ""
+
+msgid "Front USB 3.0"
+msgstr ""
+
 #, fuzzy
 msgid "Front processor version"
 msgstr "Versioni i procesorit të përparmë"
@@ -10212,6 +10318,14 @@ msgstr ""
 msgid "Internal Reader /dev/sci1:"
 msgstr ""
 
+#, fuzzy
+msgid "Internal SSD"
+msgstr "Internale"
+
+#, fuzzy
+msgid "Internal USB"
+msgstr "Internale"
+
 msgid "Internal flash"
 msgstr ""
 
@@ -10711,6 +10825,9 @@ msgstr ""
 msgid "Last used share: "
 msgstr ""
 
+msgid "Last used/set volume"
+msgstr ""
+
 msgctxt "third event: 'third' event label"
 msgid "Later"
 msgstr "Vone"
@@ -10742,6 +10859,9 @@ msgstr ""
 msgid "Left"
 msgstr ""
 
+msgid "Left USB"
+msgstr ""
+
 msgid "Left column"
 msgstr ""
 
@@ -10752,6 +10872,12 @@ msgid "Left column file sort"
 msgstr ""
 
 msgid "Left from service name"
+msgstr ""
+
+msgid "Left, back USB"
+msgstr ""
+
+msgid "Left, front USB"
 msgstr ""
 
 msgid "Left, wrapped"
@@ -11056,6 +11182,9 @@ msgid "Loop through to"
 msgstr ""
 
 msgid "Lower Framerate saves CPU Time."
+msgstr ""
+
+msgid "Lower USB"
 msgstr ""
 
 msgid "Lower case"
@@ -11461,6 +11590,9 @@ msgstr ""
 msgid "Mexico"
 msgstr ""
 
+msgid "Micro SD"
+msgstr ""
+
 msgid "Micronesia, Federated States of"
 msgstr ""
 
@@ -11513,6 +11645,10 @@ msgid "Mipsel"
 msgstr ""
 
 msgid "Miscellaneous"
+msgstr "Tjera"
+
+#, fuzzy
+msgid "Miscellaneous languages"
 msgstr "Tjera"
 
 #, python-format
@@ -13744,6 +13880,9 @@ msgstr ""
 msgid "Playback Settings"
 msgstr ""
 
+msgid "Playback Time:"
+msgstr ""
+
 #, fuzzy
 msgid "Playback, Recording, VOD & Time Shift"
 msgstr "Regjistrimet dhe zhvendosja në kohë"
@@ -15687,6 +15826,10 @@ msgstr ""
 msgid "Right"
 msgstr "Djatht"
 
+#, fuzzy
+msgid "Right USB"
+msgstr "Djatht"
+
 msgid "Right column"
 msgstr ""
 
@@ -15697,6 +15840,12 @@ msgid "Right column file sort"
 msgstr ""
 
 msgid "Right from service name"
+msgstr ""
+
+msgid "Right, back USB"
+msgstr ""
+
+msgid "Right, front USB"
 msgstr ""
 
 msgid "Right, wrapped"
@@ -15810,6 +15959,15 @@ msgstr ""
 msgid "SAT"
 msgstr "SAT"
 
+msgid "SATA"
+msgstr ""
+
+msgid "SATA BACK"
+msgstr ""
+
+msgid "SATA FRONT"
+msgstr ""
+
 #, fuzzy
 msgid "SATPI Setting Actions"
 msgstr "Veprimet e vendosjes së inadyn"
@@ -15823,6 +15981,10 @@ msgstr ""
 
 msgid "SCR timing adjustment, in conjunction with SCR socket and operation of several SCR devices with one cable."
 msgstr ""
+
+#, fuzzy
+msgid "SD"
+msgstr "OSD"
 
 #, python-format
 msgid "SDcard slot %s%s"
@@ -16287,6 +16449,9 @@ msgstr ""
 msgid "Select 'Band' if using a 'Universal' LNB, otherwise consult your LNB specifications."
 msgstr ""
 
+msgid "Select 'Disabled' to disable all automated volume adjustments. Select 'Defined volume offsets' to assign a specified offset to the service's volume level. Select 'Last used/set volume' to remember the volume level last used for each service."
+msgstr ""
+
 msgid "Select 'Enable' to start the CI+ helper."
 msgstr ""
 
@@ -16318,9 +16483,6 @@ msgid "Select 'Yes' if network traffic should be checked before activating the t
 msgstr ""
 
 msgid "Select 'Yes' if this tuner is connected to the SCR device through another tuner, otherwise select 'No'."
-msgstr ""
-
-msgid "Select 'Yes' if volume adjustments should be applied to Dolby sound tracks."
 msgstr ""
 
 msgid "Select 'Yes' if you are using a multi-switch which requires a DiSEqC Port-A command signal. Select 'No' for all other setups."
@@ -16502,6 +16664,10 @@ msgstr "Nëse vendoset në 'po', lista e kanaleve do të shfaqet pas kalimit nd�
 
 msgid "Select 'Yes' to show the current directory in the list of directories. Note that File Commander must be restarted for this change to take effect."
 msgstr ""
+
+#, fuzzy
+msgid "Select 'Yes' to show the volume level on any automated changes of volume level."
+msgstr "Nëse vendoset në 'po', buqetat do të shfaqen sa herë që hapni EPG-në."
 
 #, fuzzy
 msgid "Select 'Yes' to show this plugin in the Plugin Browser."
@@ -17651,6 +17817,10 @@ msgid "Set the time to wait for execute the default action in shutdown, standby 
 msgstr ""
 
 msgid "Set the type of the progress indication in the channel selection screen."
+msgstr ""
+
+#, python-format
+msgid "Set the volume level for the '%s' service."
 msgstr ""
 
 #, python-format
@@ -21135,6 +21305,10 @@ msgstr ""
 msgid "Toggle between bouquet/EPG lists"
 msgstr ""
 
+#, fuzzy
+msgid "Toggle between the available TV and RADIO services"
+msgstr "Kalo te shërbimet e disponueshme RADIO"
+
 msgid "Toggle display of image information"
 msgstr ""
 
@@ -21544,6 +21718,12 @@ msgstr ""
 msgid "USALS automatically moves a motorized dish to the correct satellite based on the coordinates entered by the user. Without USALS each satellite will need to be setup and saved individually."
 msgstr ""
 
+msgid "USB 2.0 (Back, inner)"
+msgstr ""
+
+msgid "USB 3.0 (Back, outer)"
+msgstr ""
+
 msgid "USB Disk Format"
 msgstr ""
 
@@ -21818,6 +21998,10 @@ msgstr ""
 
 msgid "Uphops: "
 msgstr ""
+
+#, fuzzy
+msgid "Upper USB"
+msgstr "vija e sipërme"
 
 msgid "Upper case"
 msgstr ""
@@ -22429,17 +22613,22 @@ msgstr "Modaliteti i tensionit"
 msgid "Volume"
 msgstr "Volumi"
 
-msgid "Volume Adjust"
-msgstr "Rregullimi i volumit"
-
 msgid "Volume Adjust Actions"
 msgstr "Veprimet e rregullimit të volumit"
 
 msgid "Volume Adjust Service Selection"
 msgstr "Volumi Rregullo Përzgjedhjen e Shërbimit"
 
+#, fuzzy
+msgid "Volume Adjust Service Selection Actions"
+msgstr "Volumi Rregullo Përzgjedhjen e Shërbimit"
+
 msgid "Volume Adjust Settings"
 msgstr "Cilësimet e rregullimit të volumit"
+
+#, fuzzy
+msgid "Volume adjustment mode"
+msgstr "Rregullimi i volumit"
 
 msgid "Volume down"
 msgstr "Ule volumin"
@@ -23815,8 +24004,14 @@ msgstr "Po shkarkohet"
 msgid "drama (general)"
 msgstr ""
 
+msgid "eMMC"
+msgstr ""
+
 #, python-format
 msgid "eMMC slot %s%s"
+msgstr ""
+
+msgid "eSATA"
 msgstr ""
 
 msgid "east"

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Opendroid\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-15 06:02+0200\n"
+"POT-Creation-Date: 2025-04-23 17:39+0200\n"
 "PO-Revision-Date: 2024-09-21 00:07+0200\n"
 "Last-Translator: FULL NAME <Opendroid-Team <opendroid2013@gmail.com>, >\n"
 "Language-Team: sat-ukraine.info <bodyan_ua@hotmail.com>\n"
@@ -885,19 +885,19 @@ msgstr[2] "%d хвилин"
 msgid "%d Minutes"
 msgstr "%d хвилин"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Month"
 msgid_plural "%d Months"
-msgstr[0] "%d Місяць"
-msgstr[1] "%d Mісяця"
-msgstr[2] "%d Місяців"
+msgstr[0] "%d хвилина"
+msgstr[1] "%d хвилини"
+msgstr[2] "%d хвилин"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Pixel"
 msgid_plural "%d Pixels"
-msgstr[0] "%d Піксель"
-msgstr[1] "%d Пікселя"
-msgstr[2] "%d Пікселів"
+msgstr[0] "%d пікселів"
+msgstr[1] "%d пікселів"
+msgstr[2] "%d пікселів"
 
 #, python-format
 msgid "%d Pixel wide"
@@ -921,19 +921,19 @@ msgstr[2] "%d секунд"
 msgid "%d Seconds"
 msgstr "%d секунд"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Week"
 msgid_plural "%d Weeks"
-msgstr[0] "%d Неділя"
-msgstr[1] "%d Неділі"
-msgstr[2] "%d Неділів"
+msgstr[0] "Щотижня"
+msgstr[1] "Щотижня"
+msgstr[2] "Щотижня"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Year"
 msgid_plural "%d Years"
-msgstr[0] "%d Рік"
-msgstr[1] "%d Роки"
-msgstr[2] "%d Років"
+msgstr[0] "Рік"
+msgstr[1] "Рік"
+msgstr[2] "Рік"
 
 #. TRANSLATORS: Intermediate scanning result, '%d' channel(s) have been found so far
 #, python-format
@@ -949,6 +949,13 @@ msgid_plural "%d cores"
 msgstr[0] "%d ядро"
 msgstr[1] "%d ядра"
 msgstr[2] "%d ядер"
+
+#, fuzzy, python-format
+msgid "%d feed catalog package was updated."
+msgid_plural "%d feed catalog packages were updated."
+msgstr[0] "%d пакет має оновлення"
+msgstr[1] "%d пакети мають оновлення."
+msgstr[2] "%d пакет мають оновлення."
 
 #, python-format
 msgid "%d kB"
@@ -1018,6 +1025,55 @@ msgstr[2] "%d пакетів позначено для оновлення."
 #, python-format
 msgid "%d package upgraded."
 msgid_plural "%d packages upgraded."
+msgstr[0] "Оновлено %d пакет."
+msgstr[1] "Оновлено %d пакети."
+msgstr[2] "Оновлено %d пакетів."
+
+#, fuzzy, python-format
+msgid "%d package was configured."
+msgid_plural "%d packages were configured."
+msgstr[0] "Оновлено %d пакет."
+msgstr[1] "Оновлено %d пакети."
+msgstr[2] "Оновлено %d пакетів."
+
+#, fuzzy, python-format
+msgid "%d package was deselected."
+msgid_plural "%d packages were deselected."
+msgstr[0] "%d пакет був відмінений."
+msgstr[1] "%d пакет був відмінений."
+msgstr[2] "%d пакет був відмінений."
+
+#, fuzzy, python-format
+msgid "%d package was downloaded."
+msgid_plural "%d packages were downloaded."
+msgstr[0] "Оновлено %d пакет."
+msgstr[1] "Оновлено %d пакети."
+msgstr[2] "Оновлено %d пакетів."
+
+#, fuzzy, python-format
+msgid "%d package was identified for upgrade."
+msgid_plural "%d packages were identified for upgrade."
+msgstr[0] "%d пакет позначений для оновлення."
+msgstr[1] "%d пакети позначені для оновлення."
+msgstr[2] "%d пакетів позначено для оновлення."
+
+#, fuzzy, python-format
+msgid "%d package was installed."
+msgid_plural "%d packages were installed."
+msgstr[0] "Встановлено %d пакет."
+msgstr[1] "Встановлено %d пакети."
+msgstr[2] "Встановлено %d пакетів."
+
+#, fuzzy, python-format
+msgid "%d package was removed."
+msgid_plural "%d packages were removed."
+msgstr[0] "%d пакет позначено для видалення."
+msgstr[1] "%d пакети позначено для видалення."
+msgstr[2] "%d пакетів позначено для видалення."
+
+#, fuzzy, python-format
+msgid "%d package was upgraded."
+msgid_plural "%d packages were upgraded."
 msgstr[0] "Оновлено %d пакет."
 msgstr[1] "Оновлено %d пакети."
 msgstr[2] "Оновлено %d пакетів."
@@ -1933,6 +1989,10 @@ msgstr "Додати новий чотирьохканальний вхід"
 msgid "Add RecordTimer"
 msgstr "Додати Таймер Запису"
 
+#, fuzzy
+msgid "Add Service"
+msgstr "Додати канал"
+
 msgid "Add Service To Bouquet"
 msgstr "Додати канал в фаворит"
 
@@ -1954,11 +2014,19 @@ msgstr "Додати Таймер Переключення"
 msgid "Add a DNS entry"
 msgstr "Добавити запис DNS"
 
+#, fuzzy
+msgid "Add a RADIO service to the Volume Offset list"
+msgstr "Додайте службу до списку зміщення гучності"
+
 msgid "Add a RecordTimer"
 msgstr "Додати таймер запису"
 
 msgid "Add a RecordTimer for current event"
 msgstr "Додати таймер запису для поточного події"
+
+#, fuzzy
+msgid "Add a TV service to the Volume Offset list"
+msgstr "Додайте службу до списку зміщення гучності"
 
 msgid "Add a ZapTimer for current event"
 msgstr "Додати таймер перемикання для даної передачі"
@@ -1984,7 +2052,8 @@ msgstr "Додати новий таймер"
 msgid "Add a new title"
 msgstr "Додати нову назву"
 
-msgid "Add a service to the Volume Offsets list"
+#, fuzzy
+msgid "Add a service to the Volume Offset list"
 msgstr "Додайте службу до списку зміщення гучності"
 
 msgid "Add a timer for the current event"
@@ -2061,7 +2130,8 @@ msgstr "Додати канали до фавориту?"
 msgid "Add the current directory as a bookmark"
 msgstr "Додати поточний каталог як закладку"
 
-msgid "Add the current service to the Volume Offsets list"
+#, fuzzy
+msgid "Add the current/active service to the Volume Offset list"
 msgstr "Додайте поточну службу до списку зміщення гучності"
 
 msgid "Add the selected service to a bouquet or alternative"
@@ -2084,6 +2154,10 @@ msgstr "Додати/Видалити виділений плагін до/із 
 
 msgid "Add/Remove highlighted plugin to/from update list"
 msgstr "Додати/Видалити виділений плагін до/із списку оновлень"
+
+#, fuzzy
+msgid "Add/Remove the current service to/from the Volume Offset list"
+msgstr "Додайте поточну службу до списку зміщення гучності"
 
 msgid "Adding schedule..."
 msgstr "Додавання завдання..."
@@ -2773,6 +2847,10 @@ msgstr "Застосувати автофокус..."
 msgid "Auto multi-selection"
 msgstr "Автоматичний багаторазовий вибір"
 
+#, fuzzy
+msgid "Auto show volume level"
+msgstr "Автоматичне регулювання гучності"
+
 msgid "Auto shut down"
 msgstr "Автоматичне відключення"
 
@@ -2902,6 +2980,34 @@ msgstr "Синя-Заміна дії: Синя-коротке/Синя-довг�
 
 msgid "Back"
 msgstr "Назад"
+
+#, fuzzy
+msgid "Back USB"
+msgstr "Назад"
+
+msgid "Back USB 3.0"
+msgstr ""
+
+msgid "Back USB-C"
+msgstr ""
+
+msgid "Back, inner USB"
+msgstr ""
+
+msgid "Back, left USB"
+msgstr ""
+
+msgid "Back, lower USB"
+msgstr ""
+
+msgid "Back, outer USB"
+msgstr ""
+
+msgid "Back, right USB"
+msgstr ""
+
+msgid "Back, upper USB"
+msgstr ""
 
 msgid "Back/Recall"
 msgstr "Назад/Повторити"
@@ -5382,6 +5488,10 @@ msgid "Currently Defined Volume Offsets:"
 msgstr "Поточні зміщення гучності:"
 
 #, fuzzy
+msgid "Currently Remembered Volume Levels:"
+msgstr "Поточні зміщення гучності:"
+
+#, fuzzy
 msgid "Currently the commit log cannot be retrieved - please try later again."
 msgstr "Журнали записів %s неможливо отримати, будь ласка, спробуйте пізніше."
 
@@ -5847,6 +5957,10 @@ msgstr ""
 msgid "Define the file system mount options."
 msgstr ""
 
+#, fuzzy
+msgid "Defined volume offset"
+msgstr "Зміщення гучності за замовчуванням"
+
 msgid "Defines how fast the time jumps are repeated. Values lower than 500ms may be problematic with NAS."
 msgstr "Визначає час повторного запиту. Значення нижче 500 мс можуть бути проблематичними з NAS."
 
@@ -6029,9 +6143,6 @@ msgstr "Видалити символ під текстовим курсором
 
 msgid "Delete the current time shift buffer and restart time shift"
 msgstr "Видалити файл поточного таймшифта і перезапустити таймшифт"
-
-msgid "Delete the currently highlighted service from the Volume Offsets list"
-msgstr "Видалити поточний виділений канал зі списку зміщення гучності"
 
 msgid "Delete the currently selected timer"
 msgstr "Видалити поточний вибраний таймер"
@@ -7085,9 +7196,6 @@ msgstr "Ввімкнути редагування фавориту"
 #, fuzzy
 msgid "Enable ClearMem"
 msgstr "Ввімкнути режим переміщення"
-
-msgid "Enable Dolby Digital / Dolby AC-3 offsets"
-msgstr "Увімкнути зміщення Dolby Digital / Dolby AC-3"
 
 msgid "Enable EIT EPG"
 msgstr "Включити EIT EPG"
@@ -8793,6 +8901,12 @@ msgstr "П'ятниця"
 msgid "From :"
 msgstr "Від :"
 
+msgid "Front USB"
+msgstr ""
+
+msgid "Front USB 3.0"
+msgstr ""
+
 #, fuzzy
 msgid "Front processor version"
 msgstr "Версія процесора"
@@ -10273,6 +10387,14 @@ msgstr ""
 msgid "Internal Reader /dev/sci1:"
 msgstr ""
 
+#, fuzzy
+msgid "Internal SSD"
+msgstr "Внутрішній"
+
+#, fuzzy
+msgid "Internal USB"
+msgstr "Внутрішній"
+
 msgid "Internal flash"
 msgstr "Внутрішня пам’ять"
 
@@ -10778,6 +10900,10 @@ msgstr "Останній використаний стовпець"
 msgid "Last used share: "
 msgstr "Останній мережевий диск: "
 
+#, fuzzy
+msgid "Last used/set volume"
+msgstr "Останній використаний стовпець"
+
 msgctxt "third event: 'third' event label"
 msgid "Later"
 msgstr "Пізніше"
@@ -10810,6 +10936,10 @@ msgstr "Ліван"
 msgid "Left"
 msgstr "Вліво"
 
+#, fuzzy
+msgid "Left USB"
+msgstr "Вліво"
+
 msgid "Left column"
 msgstr "Ліва колонка"
 
@@ -10821,6 +10951,12 @@ msgstr "Сортування файлів у лівій колонці"
 
 msgid "Left from service name"
 msgstr "Ліворуч назви каналу"
+
+msgid "Left, back USB"
+msgstr ""
+
+msgid "Left, front USB"
+msgstr ""
 
 msgid "Left, wrapped"
 msgstr "зліва, прихований"
@@ -11130,6 +11266,10 @@ msgstr "Налаштувати петлю до"
 
 msgid "Lower Framerate saves CPU Time."
 msgstr "Низька частота кадрів знижує навантаження на процесор"
+
+#, fuzzy
+msgid "Lower USB"
+msgstr "Нижній регістр"
 
 msgid "Lower case"
 msgstr "Нижній регістр"
@@ -11542,6 +11682,9 @@ msgstr "Режим вимірювання"
 msgid "Mexico"
 msgstr "Мексика"
 
+msgid "Micro SD"
+msgstr ""
+
 msgid "Micronesia, Federated States of"
 msgstr "Мікронезія, Федеративні Штати"
 
@@ -11592,6 +11735,10 @@ msgid "Mipsel"
 msgstr "Mipsel"
 
 msgid "Miscellaneous"
+msgstr "Різне"
+
+#, fuzzy
+msgid "Miscellaneous languages"
 msgstr "Різне"
 
 #, python-format
@@ -13864,6 +14011,10 @@ msgid "Playback Settings"
 msgstr "Налаштування відтворення"
 
 #, fuzzy
+msgid "Playback Time:"
+msgstr "Резервний таймер"
+
+#, fuzzy
 msgid "Playback, Recording, VOD & Time Shift"
 msgstr "Запис і таймшифт"
 
@@ -15901,6 +16052,10 @@ msgstr "Перезапускати субтитри"
 msgid "Right"
 msgstr "Вправо"
 
+#, fuzzy
+msgid "Right USB"
+msgstr "Вправо"
+
 msgid "Right column"
 msgstr "Права колонка"
 
@@ -15912,6 +16067,12 @@ msgstr "Сортування файлів у правому стовпці"
 
 msgid "Right from service name"
 msgstr "Після назви каналу"
+
+msgid "Right, back USB"
+msgstr ""
+
+msgid "Right, front USB"
+msgstr ""
 
 msgid "Right, wrapped"
 msgstr "справа, прихований"
@@ -16024,6 +16185,15 @@ msgstr "Налаштування SABnzbd"
 msgid "SAT"
 msgstr "САТ"
 
+msgid "SATA"
+msgstr ""
+
+msgid "SATA BACK"
+msgstr ""
+
+msgid "SATA FRONT"
+msgstr ""
+
 msgid "SATPI Setting Actions"
 msgstr "Дії налаштування SATPI"
 
@@ -16035,6 +16205,10 @@ msgstr "SCPC оптимізований діапазон пошуку"
 
 msgid "SCR timing adjustment, in conjunction with SCR socket and operation of several SCR devices with one cable."
 msgstr "Регулювання синхронізації SCR у поєднанні з роз'ємом SCR та роботою декількох пристроїв SCR за допомогою одного кабелю."
+
+#, fuzzy
+msgid "SD"
+msgstr "OSD"
 
 #, python-format
 msgid "SDcard slot %s%s"
@@ -16502,6 +16676,9 @@ msgstr "Виберіть 'A' або 'B', якщо це потрібно для �
 msgid "Select 'Band' if using a 'Universal' LNB, otherwise consult your LNB specifications."
 msgstr "Виберіть 'band', якщо використовується \"універсальний\" LNB, інакше зверніться до специфікації LNB."
 
+msgid "Select 'Disabled' to disable all automated volume adjustments. Select 'Defined volume offsets' to assign a specified offset to the service's volume level. Select 'Last used/set volume' to remember the volume level last used for each service."
+msgstr ""
+
 msgid "Select 'Enable' to start the CI+ helper."
 msgstr "Виберіть 'Увімкнути', щоб запустити помічник CI+."
 
@@ -16534,9 +16711,6 @@ msgstr "Виберіть 'Так', якщо перед активацією та
 
 msgid "Select 'Yes' if this tuner is connected to the SCR device through another tuner, otherwise select 'No'."
 msgstr "Виберіть 'так', якщо цей тюнер підключено до пристрою SCR через інший тюнер, інакше виберіть 'ні'."
-
-msgid "Select 'Yes' if volume adjustments should be applied to Dolby sound tracks."
-msgstr "Виберіть 'Так', якщо налаштування гучності потрібно застосувати до звукових доріжок Dolby."
 
 msgid "Select 'Yes' if you are using a multi-switch which requires a DiSEqC Port-A command signal. Select 'No' for all other setups."
 msgstr "Виберіть 'Так' коли Ви використовуєте мультисвіч, який вимагає команду DiSEqC Port-A. Для всіх інших налаштувань виберіть 'Ні'."
@@ -16718,6 +16892,10 @@ msgstr "Якщо вибрано 'так', список каналів буде �
 
 msgid "Select 'Yes' to show the current directory in the list of directories. Note that File Commander must be restarted for this change to take effect."
 msgstr "Виберіть 'Так', щоб показати поточний каталог у списку каталогів. Зауважте, що File Commander потрібно перезапустити, щоб ця зміна набула чинності."
+
+#, fuzzy
+msgid "Select 'Yes' to show the volume level on any automated changes of volume level."
+msgstr "Виберіть 'Так', щоб приховати ім'я сервера та IP-адресу сервера."
 
 #, fuzzy
 msgid "Select 'Yes' to show this plugin in the Plugin Browser."
@@ -17897,6 +18075,10 @@ msgstr "Встановіть час очікування виконання ст
 
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr "Встановіть тип відображення прогресу в меню вибору каналів."
+
+#, fuzzy, python-format
+msgid "Set the volume level for the '%s' service."
+msgstr "Встановіть зміщення гучності для каналу '%s'."
 
 #, python-format
 msgid "Set the volume offset for the '%s' service."
@@ -21472,6 +21654,10 @@ msgstr ""
 msgid "Toggle between bouquet/EPG lists"
 msgstr "Перемикання між списками фаворити/телегід"
 
+#, fuzzy
+msgid "Toggle between the available TV and RADIO services"
+msgstr "Перейдіть на доступні послуги RADIO"
+
 msgid "Toggle display of image information"
 msgstr "Перемкнути відображення інформації про імідж"
 
@@ -21887,6 +22073,12 @@ msgstr "USALS"
 msgid "USALS automatically moves a motorized dish to the correct satellite based on the coordinates entered by the user. Without USALS each satellite will need to be setup and saved individually."
 msgstr "USALS автоматично переміщує антену до потрібного супутника на основі координат, введених користувачем. Без USALS кожний супутник потрібно буде налаштувати та зберігати індивідуально."
 
+msgid "USB 2.0 (Back, inner)"
+msgstr ""
+
+msgid "USB 3.0 (Back, outer)"
+msgstr ""
+
 msgid "USB Disk Format"
 msgstr ""
 
@@ -22170,6 +22362,10 @@ msgstr "Uphops-"
 
 msgid "Uphops: "
 msgstr "Uphops: "
+
+#, fuzzy
+msgid "Upper USB"
+msgstr "Верхній регістр"
 
 msgid "Upper case"
 msgstr "Верхній регістр"
@@ -22798,17 +22994,22 @@ msgstr "Режим напруги"
 msgid "Volume"
 msgstr "Гучність"
 
-msgid "Volume Adjust"
-msgstr "Регулювання гучності"
-
 msgid "Volume Adjust Actions"
 msgstr "Дії регулювання гучності"
 
 msgid "Volume Adjust Service Selection"
 msgstr "Вибір каналу регулювання гучності"
 
+#, fuzzy
+msgid "Volume Adjust Service Selection Actions"
+msgstr "Вибір каналу регулювання гучності"
+
 msgid "Volume Adjust Settings"
 msgstr "Налаштування гучності"
+
+#, fuzzy
+msgid "Volume adjustment mode"
+msgstr "Регулювання гучності"
 
 msgid "Volume down"
 msgstr "Гучність нижче"
@@ -24189,9 +24390,15 @@ msgstr "Завантажується"
 msgid "drama (general)"
 msgstr "драма (загальна)"
 
+msgid "eMMC"
+msgstr ""
+
 #, python-format
 msgid "eMMC slot %s%s"
 msgstr "eMMC слот %s%s"
+
+msgid "eSATA"
+msgstr ""
 
 msgid "east"
 msgstr "схід"

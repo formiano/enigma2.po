@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-15 06:02+0200\n"
+"POT-Creation-Date: 2025-04-23 17:39+0200\n"
 "PO-Revision-Date: 2024-09-21 00:08+0200\n"
 "Last-Translator: FULL NAME <Opendroid-Team <opendroid2013@gmail.com>, >\n"
 "Language-Team: Gimsy,Formiano,erminio\n"
@@ -22,7 +22,7 @@ msgid ""
 "<This tuner is configured automatically>"
 msgstr ""
 "\n"
-"<此调谐器已被自动配置>"
+"<此调谐器已自动配置>"
 
 #, fuzzy
 msgid ""
@@ -35,7 +35,7 @@ msgid ""
 "Recording in progress."
 msgstr ""
 "\n"
-"正在进行录制。"
+"正在录制。"
 
 msgid ""
 "\n"
@@ -83,13 +83,13 @@ msgid "   (2.1 GHz)"
 msgstr ""
 
 msgid "  Menu key : Select quad channel"
-msgstr "  菜单键 : 选择四宫格频道"
+msgstr "  Menu 键：选择四路频道"
 
 msgid "  REC  "
 msgstr "  录制  "
 
 msgid "  Red key : Show/Hide channel name"
-msgstr "  红色键:显示/隐藏频道名称"
+msgstr "  红键：显示/隐藏频道名称"
 
 #, python-format
 msgid " (Channel %s)"
@@ -121,28 +121,25 @@ msgid " <empty>"
 msgstr " <空>"
 
 msgid " HI "
-msgstr " HI "
+msgstr " 听障 "
 
-#, fuzzy
 msgid " Server and "
-msgstr "服务器关闭"
+msgstr " 服务器和 "
 
 msgid " and"
 msgstr " 和"
 
-#, fuzzy
 msgid " as HDD ?"
-msgstr "当作硬盘使用"
+msgstr " 作为硬盘？ "
 
 msgid "!! Boot loader Upgrade !!"
-msgstr "!! 升级引导程序!!"
+msgstr "!! 引导加载程序升级 !!"
 
-#, fuzzy
 msgid "# = Reboot Required"
-msgstr "* =需要重新启动"
+msgstr "# = 需要重新启动"
 
 msgid "%-H:%M"
-msgstr "%-时:%分"
+msgstr "%-H:%M"
 
 msgid "%-H:%M:%S"
 msgstr "%-H:%M:%S"
@@ -784,6 +781,7 @@ msgstr "%b=%d "
 msgid "%d"
 msgid_plural "%d"
 msgstr[0] "%d"
+msgstr[1] "%d"
 
 msgid "%d %B %Y"
 msgstr "%d %B %Y"
@@ -798,21 +796,25 @@ msgstr "%d %b %Y"
 msgid "%d + %d + %d Minute"
 msgid_plural "%d + %d + %d Minutes"
 msgstr[0] "%d + %d + %d 分钟"
+msgstr[1] "%d + %d + %d 分钟"
 
 #, python-format
 msgid "%d Day"
 msgid_plural "%d Days"
 msgstr[0] "%d 天"
+msgstr[1] "%d 天"
 
 #, python-format
 msgid "%d Digit"
 msgid_plural "%d Digits"
-msgstr[0] "%d 个数字"
+msgstr[0] "%d 位"
+msgstr[1] "%d 位"
 
 #, python-format
 msgid "%d Event"
 msgid_plural "%d Events"
 msgstr[0] "%d 个事件"
+msgstr[1] "%d 个事件"
 
 #, python-format
 msgid "%d GB"
@@ -822,6 +824,7 @@ msgstr "%d GB"
 msgid "%d Hour"
 msgid_plural "%d Hours"
 msgstr[0] "%d 小时"
+msgstr[1] "%d 小时"
 
 #, python-format
 msgid "%d Hours"
@@ -860,39 +863,45 @@ msgstr "%d MHz"
 msgid "%d Min"
 msgid_plural "%d Mins"
 msgstr[0] "%d 分钟"
+msgstr[1] "%d 分钟"
 
 #, python-format
 msgid "%d Minute"
 msgid_plural "%d Minutes"
 msgstr[0] "%d 分钟"
+msgstr[1] "%d 分钟"
 
 #, python-format
 msgid "%d Minutes"
-msgstr "%d 分钟"
+msgstr "%d  分钟"
 
 #, python-format
 msgid "%d Month"
 msgid_plural "%d Months"
 msgstr[0] "%d 个月"
+msgstr[1] "%d 个月"
 
 #, python-format
 msgid "%d Pixel"
 msgid_plural "%d Pixels"
 msgstr[0] "%d 个像素"
+msgstr[1] "%d 个像素"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d Pixel wide"
 msgid_plural "%d Pixels wide"
 msgstr[0] "%d 个像素宽"
+msgstr[1] "%d 个像素宽"
 
 #, python-format
 msgid "%d Pixels"
-msgstr "%d 像素"
+msgstr "%d 个像素"
 
 #, python-format
 msgid "%d Second"
 msgid_plural "%d Seconds"
 msgstr[0] "%d 秒"
+msgstr[1] "%d 秒"
 
 #, python-format
 msgid "%d Seconds"
@@ -901,12 +910,14 @@ msgstr "%d 秒"
 #, python-format
 msgid "%d Week"
 msgid_plural "%d Weeks"
-msgstr[0] "%d 个星期"
+msgstr[0] "%d 星期"
+msgstr[1] "%d 星期"
 
 #, python-format
 msgid "%d Year"
 msgid_plural "%d Years"
 msgstr[0] "%d 年"
+msgstr[1] "%d 年"
 
 #. TRANSLATORS: Intermediate scanning result, '%d' channel(s) have been found so far
 #, python-format
@@ -917,7 +928,14 @@ msgstr[0] "找到 %d 个频道"
 #, python-format
 msgid "%d core"
 msgid_plural "%d cores"
-msgstr[0] "%d核心"
+msgstr[0] "%d 核"
+msgstr[1] "%d 核"
+
+#, python-format
+msgid "%d feed catalog package was updated."
+msgid_plural "%d feed catalog packages were updated."
+msgstr[0] "已更新 %d 个订阅源目录包。"
+msgstr[1] "已更新 %d 个订阅源目录包。"
 
 #, python-format
 msgid "%d kB"
@@ -941,53 +959,110 @@ msgid "%d ms"
 msgstr "%d 毫秒"
 
 #, python-format
+msgid "%d package found."
+msgid_plural "%d packages found."
+msgstr[0] "找到 %d 个软件包。"
+msgstr[1] "找到 %d 个软件包。"
+
+#, python-format
 msgid "%d package has an update"
 msgid_plural "%d packages have updates."
 msgstr[0] "有 %d 个软件包可更新"
+msgstr[1] "有 %d 个软件包可更新。"
 
 #, python-format
 msgid "%d package installable."
 msgid_plural "%d packages installable."
-msgstr[0] ""
+msgstr[0] "有 %d 个软件包可安装。"
+msgstr[1] "有 %d 个软件包可安装。"
 
 #, python-format
 msgid "%d package installed."
 msgid_plural "%d packages installed."
-msgstr[0] ""
+msgstr[0] "已安装 %d 个软件包。"
+msgstr[1] "已安装 %d 个软件包。"
 
 #, python-format
 msgid "%d package marked for install."
 msgid_plural "%d packages marked for install."
-msgstr[0] ""
+msgstr[0] "%d 个标记为需要安装。"
+msgstr[1] "%d 个标记为需要安装。"
 
 #, python-format
 msgid "%d package marked for remove."
 msgid_plural "%d packages marked for remove."
-msgstr[0] ""
+msgstr[0] "%d 个标记为需要删除。"
+msgstr[1] "%d 个标记为需要删除。"
 
 #, python-format
 msgid "%d package marked for update."
 msgid_plural "%d packages marked for update."
-msgstr[0] ""
+msgstr[0] "已标记 %d 个要更新的软件包。"
+msgstr[1] "已标记 %d 个要更新的软件包。"
 
 #, python-format
 msgid "%d package upgraded."
 msgid_plural "%d packages upgraded."
-msgstr[0] "已升级 %d 个程序包."
+msgstr[0] "升级了 %d 个软件包。"
+msgstr[1] "升级了 %d 个软件包。"
+
+#, python-format
+msgid "%d package was configured."
+msgid_plural "%d packages were configured."
+msgstr[0] "已配置 %d 个软件包。"
+msgstr[1] "已配置 %d 个软件包。"
+
+#, python-format
+msgid "%d package was deselected."
+msgid_plural "%d packages were deselected."
+msgstr[0] "已反选 %d 个软件包。"
+msgstr[1] "已反选 %d 个软件包。"
+
+#, python-format
+msgid "%d package was downloaded."
+msgid_plural "%d packages were downloaded."
+msgstr[0] "已下载 %d 个软件包。"
+msgstr[1] "已下载 %d 个软件包。"
+
+#, python-format
+msgid "%d package was identified for upgrade."
+msgid_plural "%d packages were identified for upgrade."
+msgstr[0] "%d 个软件包已确定升级。"
+msgstr[1] "%d 个软件包已确定升级。"
+
+#, python-format
+msgid "%d package was installed."
+msgid_plural "%d packages were installed."
+msgstr[0] "已安装 %d 个软件包。"
+msgstr[1] "已安装 %d 个软件包。"
+
+#, python-format
+msgid "%d package was removed."
+msgid_plural "%d packages were removed."
+msgstr[0] "已删除 %d 个软件包。"
+msgstr[1] "已删除 %d 个软件包。"
+
+#, python-format
+msgid "%d package was upgraded."
+msgid_plural "%d packages were upgraded."
+msgstr[0] "已升级 %d 个软件包。"
+msgstr[1] "已升级 %d 个软件包。"
 
 #, python-format
 msgid "%d plugin is not available:"
 msgid_plural "%d plugins are not available:"
-msgstr[0] ""
+msgstr[0] "有 %d 个插件不可用："
+msgstr[1] "有 %d 个插件不可用："
 
 #, python-format
 msgid "%d sec"
 msgstr "%d 秒"
 
-#, fuzzy, python-format
-msgid "%d second"
-msgid_plural "%d seconds"
-msgstr[0] "%d 秒"
+#, python-format
+msgid "%d service found."
+msgid_plural "%d services found."
+msgstr[0] "找到 %d 个频道。"
+msgstr[1] "找到 %d 个频道。"
 
 #, python-format
 msgid "%d times"
@@ -996,7 +1071,8 @@ msgstr "%d 次"
 #, python-format
 msgid "%d wireless network found!"
 msgid_plural "%d wireless networks found!"
-msgstr[0] "找到%d个无线网络!"
+msgstr[0] "发现 %d 个无线网络！"
+msgstr[1] "发现 %d 个无线网络！"
 
 msgid "%d+%b_"
 msgstr "%d+%b_"
@@ -1099,7 +1175,7 @@ msgstr ""
 
 #, python-format
 msgid "%s %s advanced remote control (native)"
-msgstr "%s %s 高级远程控制(本机)"
+msgstr "%s %s 高级遥控（本机）"
 
 #, python-format
 msgid "%s %s front panel"
@@ -1115,7 +1191,7 @@ msgstr "%s %s 红外鼠标"
 
 #, python-format
 msgid "%s %s remote control (native)"
-msgstr "%s %s 远程控制(本机)"
+msgstr "%s %s 遥控（本机）"
 
 #, python-format
 msgid "%s %sB"
@@ -1155,16 +1231,16 @@ msgstr "%s MHz"
 
 #, python-format
 msgid "%s has been activated."
-msgstr ""
+msgstr "%s 已被激活。"
 
 #, python-format
 msgid "%s has been disabled."
-msgstr ""
+msgstr "%s 已被禁用。"
 
 #. TRANSLATORS: The satellite with name '%s' is no longer used after a configuration change. The user is asked whether or not the satellite should be deleted.
 #, python-format
 msgid "%s is no longer used. Should it be deleted?"
-msgstr "%s不再使用,是否删除？"
+msgstr "%s 不再使用，是否删除？"
 
 #, python-format
 msgid "%s long"
@@ -1267,7 +1343,7 @@ msgid "(TV)"
 msgstr " (电视)"
 
 msgid "(The file '/media/hdd/images/config/myrestore.sh' exists and will be run after the image is flashed.)"
-msgstr ""
+msgstr "（文件 '/media/hdd/images/config/myrestore.sh' 存在，将在镜像刷入后运行。）"
 
 msgid "(empty)"
 msgstr "(空)"
@@ -1344,7 +1420,7 @@ msgid "12 character"
 msgstr "12 个字符"
 
 msgid "12, show Latin-1 characters except for greek and cyrillic, switch to 8 if needed."
-msgstr ""
+msgstr "12，显示除希腊语和西里尔字母外的Latin-1字符， 必要时切换到8。"
 
 msgid "12V output"
 msgstr "12V输出"
@@ -1519,7 +1595,7 @@ msgid "<Current movie list location>"
 msgstr "<当前影片列表位置>"
 
 msgid "<Default movie location>"
-msgstr "<默认录像位置>"
+msgstr "<默认影片位置>"
 
 msgid "<Last timer location>"
 msgstr "<最后一个定时器位置>"
@@ -1534,25 +1610,25 @@ msgid "A background update check is in progress, please wait a few minutes and t
 msgstr "正在进行后台更新检查,请等待几分钟,然后重试."
 
 msgid "A backup is now being created."
-msgstr ""
+msgstr "现在正在创建备份。"
 
 msgid "A comma separated list of extensions to be used for 'My Extension' setting of 'Filter extension'. Enter the extension names without a leading dot (.)."
-msgstr ""
+msgstr "以逗号分隔的扩展名列表，用于“我的扩展名”>>“筛选扩展名”的设置。输入不带前导点（.）的扩展名。"
 
 #, python-format
 msgid "A completed task wants to set your %s %s to standby. Do that now?"
-msgstr ""
+msgstr "一项已完成的任务要将您的 %s%s 置为待机状态。是否执行？"
 
 #, python-format
 msgid "A completed task wants to shut down your %s %s. Shutdown now?"
-msgstr ""
+msgstr "一项已完成的任务要关闭您的 %s%s。现在关机吗？"
 
 #, python-format
 msgid "A crash log was %s created in '%s'"
 msgstr "崩溃日志 %s 已创建到 '%s'"
 
 msgid "A file from media is in use!"
-msgstr "来自媒体的文件正在使用中!"
+msgstr "正在使用来自媒体的文件！"
 
 #, python-format
 msgid "A finished PowerTimer wants to reboot your %s %s. Do that now?"
@@ -1582,19 +1658,19 @@ msgid ""
 "A finished record timer wants to set your\n"
 "%s %s to standby. Do that now?"
 msgstr ""
-"已完成的录制定时器要设置\n"
-"%s 将 %s 设为待机状态,是否执行?"
+"一个已结束的录像定时器\n"
+"要将 %s %s 置为到待机状态，是否执行？"
 
 #, python-format
 msgid ""
 "A finished record timer wants to shut down\n"
 "your %s %s. Shutdown now?"
 msgstr ""
-"已完成的录制定时器要关闭\n"
-" %s %s. 是否执行?"
+"一个已结束的录像定时器\n"
+"想要关闭 %s %s。要关闭吗？"
 
 msgid "A highlight on the remote control image shows which button the help refers to. If more than one button performs the indicated function, more than one highlight will be shown. Text below the list lists the active buttons and whether the function requires a long press or SHIFT of the button(s)."
-msgstr "操作遥控器图片上的高亮按键以实现对应功能. 如果多个按键都可以实现此功能,所有按键都将高亮显示.列表下方的文本列出了活动按钮以及该功能是否需要长按或SHIFT键."
+msgstr "遥控器图像上的高亮部分显示帮助所指的按钮。如果多个按钮执行指示的功能，则将显示多个高亮部分。列表下方的文本列出了活动按钮以及该功能是否需要长按或按 SHIFT 键。"
 
 #, python-format
 msgid ""
@@ -1623,6 +1699,9 @@ msgid ""
 "\n"
 "Go to Deep Standby now?"
 msgstr ""
+"录像、录像定时器或电源定时器正在运行或将在 15 分钟内开始。 %s 延长至 30 分钟。 您的 %s %s 将在录像或电源定时器事件后进入深度待机。\n"
+"\n"
+"现在进入深度待机？"
 
 #, python-format
 msgid "A required tool (%s) was not found."
@@ -1820,9 +1899,11 @@ msgid "Activate network settings"
 msgstr "激活网络设置"
 
 msgid "Activate the configured network settings."
-msgstr "激活已配置的网络设置."
+msgstr "启用已配置的网络设置。"
 
-#, fuzzy
+msgid "Activate the flash expander, save all changed settings and exit"
+msgstr "激活闪存扩展器，保存所有更改的设置并退出"
+
 msgid "Activate this device"
 msgstr "激活时移结束"
 
@@ -1863,28 +1944,31 @@ msgid "Add Current"
 msgstr "添加当前"
 
 msgid "Add File Commander to Extensions Menu"
-msgstr ""
+msgstr "将文件指挥官添加到扩展菜单"
 
 msgid "Add File Commander to Main Menu"
-msgstr ""
+msgstr "将文件指挥官添加到主菜单"
 
 msgid "Add File Commander to the Extensions Menu list of options."
-msgstr ""
+msgstr "将文件指挥官添加到选项的扩展菜单列表中。"
 
 msgid "Add File Commander to the Main Menu list of options."
-msgstr ""
+msgstr "将文件指挥官添加到主菜单的选项列表中。"
 
 msgid "Add HDMI-IN To Bouquet"
-msgstr ""
+msgstr "添加 HDMI-IN 到频道群"
 
 msgid "Add Marker To Bouquet"
-msgstr "添加标记"
+msgstr "添加标记到频道群"
 
 msgid "Add New Quad Channel Entry"
 msgstr "添加新的四画面频道条目"
 
 msgid "Add RecordTimer"
 msgstr "添加录制定时器"
+
+msgid "Add Service"
+msgstr "添加频道"
 
 msgid "Add Service To Bouquet"
 msgstr "添加频道到自定义组"
@@ -1907,11 +1991,17 @@ msgstr "添加换台定时器"
 msgid "Add a DNS entry"
 msgstr ""
 
+msgid "Add a RADIO service to the Volume Offset list"
+msgstr ""
+
 msgid "Add a RecordTimer"
 msgstr "添加录制定时器"
 
 msgid "Add a RecordTimer for current event"
 msgstr "为当前事件添加录制定时器"
+
+msgid "Add a TV service to the Volume Offset list"
+msgstr "将电视频道添加到音量偏移列表"
 
 msgid "Add a ZapTimer for current event"
 msgstr "为当前事件添加换台定时器"
@@ -1923,22 +2013,22 @@ msgid "Add a mark"
 msgstr "添加一个标记"
 
 msgid "Add a new bouquet"
-msgstr ""
+msgstr "添加新频道群"
 
 msgid "Add a new marker before the current service"
-msgstr ""
+msgstr "在当前频道之前添加新标记"
 
 msgid "Add a new tag"
-msgstr "增加新标签"
+msgstr "添加新标签"
 
 msgid "Add a new timer"
-msgstr ""
+msgstr "添加新定时器"
 
 msgid "Add a new title"
-msgstr "添加新的标题"
+msgstr "添加新标题"
 
-msgid "Add a service to the Volume Offsets list"
-msgstr ""
+msgid "Add a service to the Volume Offset list"
+msgstr "添加频道到音量偏移列表"
 
 msgid "Add a timer for the current event"
 msgstr "为当前事件添加定时器"
@@ -1959,19 +2049,19 @@ msgid "Add files to play list"
 msgstr "将文件添加到播放列表"
 
 msgid "Add highlighted directory to bookmarks"
-msgstr "添加选中的文件夹到书签"
+msgstr "将突出显示的目录添加到书签"
 
 msgid "Add legacy LEFT/RIGHT actions"
-msgstr ""
+msgstr "添加传统 左/右键操作"
 
 msgid "Add more slots"
-msgstr ""
+msgstr "添加更多插槽"
 
 msgid "Add new CCcam line"
-msgstr ""
+msgstr "添加新 CCcam 行"
 
 msgid "Add new NewCamd line"
-msgstr ""
+msgstr "添加新的 NewCamd 行"
 
 msgid "Add new tag"
 msgstr "添加新标签"
@@ -1998,45 +2088,47 @@ msgstr "添加录制(当前事件后停止)"
 msgid "Add service"
 msgstr "添加频道"
 
-#, fuzzy
 msgid "Add service names"
-msgstr "添加频道"
+msgstr "添加频道名称"
 
 msgid "Add service names to each #SERVICE entry."
-msgstr ""
+msgstr "将频道名称添加到每个#频道条目。"
 
 msgid "Add service to AutoCam"
-msgstr ""
+msgstr "添加频道到 自动 CAM"
 
 msgid "Add services to this bouquet?"
-msgstr ""
+msgstr "添加频道到此频道群吗?"
 
 msgid "Add the current directory as a bookmark"
-msgstr ""
+msgstr "将当前目录添加为书签"
 
-msgid "Add the current service to the Volume Offsets list"
-msgstr ""
+msgid "Add the current/active service to the Volume Offset list"
+msgstr "添加当前频道到音量补偿列表"
 
 msgid "Add the selected service to a bouquet or alternative"
-msgstr ""
+msgstr "将所选频道添加到频道群或备选中"
 
 msgid "Add title"
 msgstr "添加标题"
 
 msgid "Add/Remove Timer"
-msgstr "添加/删除 定时器"
+msgstr "添加/删除定时器"
 
 msgid "Add/Remove a timer for the current event"
-msgstr "添加/删除 当前事件定时器"
+msgstr "添加/移除当前事件的定时器"
 
 msgid "Add/Remove highlighted plugin to/from install list"
-msgstr ""
+msgstr "在安装列表中添加/删除突出显示的插件"
 
 msgid "Add/Remove highlighted plugin to/from remove list"
-msgstr ""
+msgstr "在/从删除列表中添加/删除突出显示的插件"
 
 msgid "Add/Remove highlighted plugin to/from update list"
-msgstr ""
+msgstr "在/从更新列表中添加/删除突出显示的插件"
+
+msgid "Add/Remove the current service to/from the Volume Offset list"
+msgstr "将当前频道添加至/移出音量偏移列表"
 
 msgid "Adding schedule..."
 msgstr "添加任务..."
@@ -2208,7 +2300,7 @@ msgid "Allocate"
 msgstr "分配"
 
 msgid "Allocate a number to the physical LNB you are configuring. You will be able to select this LNB again for other satellites (e.g. motorized dishes) to save setting up the same LNB multiple times."
-msgstr "为正在配置的物理LNB分配一个数字.您可以再次为其他卫星(如极轴)选择此LNB,以节省多次设置相同的LNB."
+msgstr "为正在配置的物理高频头分配一个数字。 您可对其他卫星（例如极轴天线）再次选择此高频头，以省去多次设置相同高频头的操作。"
 
 msgid "Allow 10bit"
 msgstr "支持10位颜色"
@@ -2269,7 +2361,7 @@ msgid "Allows you to show/hide Log Manager in extensions (BLUE button)."
 msgstr "允许您显示/隐藏日志管理器的扩展(蓝色键)."
 
 msgid "Allows you to show/hide OScam/CCcam in the Extension Menu screen (BLUE button)."
-msgstr ""
+msgstr "允许您在扩展菜单屏幕中显示/隐藏 OScam/CCcam（蓝键）。"
 
 msgid "Allows you to tag your image backup to a box. (default is box name/type)"
 msgstr ""
@@ -2299,7 +2391,7 @@ msgid "Also on standby"
 msgstr "同时待机"
 
 msgid "Also use a #DESCRIPTION line after each #SERVICE line to hold the service's name."
-msgstr ""
+msgstr "还可以在每个#频道行之后使用#描述行来保存频道的名称。"
 
 msgid "Alternative"
 msgstr "备选方案"
@@ -2726,6 +2818,10 @@ msgstr "启动自动对焦..."
 msgid "Auto multi-selection"
 msgstr ""
 
+#, fuzzy
+msgid "Auto show volume level"
+msgstr "自动音量级别"
+
 msgid "Auto shut down"
 msgstr ""
 
@@ -2856,11 +2952,38 @@ msgstr "蓝键切换:蓝键－短按/蓝键－长按"
 msgid "Back"
 msgstr "返回"
 
+msgid "Back USB"
+msgstr "背面 USB"
+
+msgid "Back USB 3.0"
+msgstr "背面 USB 3.0"
+
+msgid "Back USB-C"
+msgstr "背面 USB-C"
+
+msgid "Back, inner USB"
+msgstr "背面，内置 USB"
+
+msgid "Back, left USB"
+msgstr "背面，左侧 USB"
+
+msgid "Back, lower USB"
+msgstr "背面，下方 USB"
+
+msgid "Back, outer USB"
+msgstr "背面，外部 USB"
+
+msgid "Back, right USB"
+msgstr "背面，右侧 USB"
+
+msgid "Back, upper USB"
+msgstr "背面，上方 USB"
+
 msgid "Back/Recall"
-msgstr "返回/取消"
+msgstr "返回/唤回"
 
 msgid "Background"
-msgstr "背景"
+msgstr "后台"
 
 msgid "Background color"
 msgstr "背景颜色"
@@ -2887,10 +3010,10 @@ msgid "Backup Mode"
 msgstr "备份模式"
 
 msgid "Backup Mode: Flash Online"
-msgstr ""
+msgstr "备份模式：在线刷机"
 
 msgid "Backup Mode: USB Recovery"
-msgstr ""
+msgstr "备份模式：USB 恢复"
 
 msgid "Backup Settings"
 msgstr "备份设置"
@@ -5324,6 +5447,9 @@ msgstr ""
 msgid "Currently Defined Volume Offsets:"
 msgstr ""
 
+msgid "Currently Remembered Volume Levels:"
+msgstr ""
+
 #, fuzzy
 msgid "Currently the commit log cannot be retrieved - please try later again."
 msgstr "无法检索 %s 提交日志,请稍后再试."
@@ -5790,6 +5916,9 @@ msgstr ""
 msgid "Define the file system mount options."
 msgstr ""
 
+msgid "Defined volume offset"
+msgstr ""
+
 msgid "Defines how fast the time jumps are repeated. Values lower than 500ms may be problematic with NAS."
 msgstr "定义重复跳转的时间有多快.数值低于500毫秒可能NAS会有问题."
 
@@ -5972,9 +6101,6 @@ msgstr "删除文本光标下的字符"
 
 msgid "Delete the current time shift buffer and restart time shift"
 msgstr "删除当前的时移缓冲区并重新开始时移"
-
-msgid "Delete the currently highlighted service from the Volume Offsets list"
-msgstr ""
 
 msgid "Delete the currently selected timer"
 msgstr ""
@@ -7023,9 +7149,6 @@ msgstr "启用自定义组编辑"
 #, fuzzy
 msgid "Enable ClearMem"
 msgstr "启用移动模式"
-
-msgid "Enable Dolby Digital / Dolby AC-3 offsets"
-msgstr ""
 
 msgid "Enable EIT EPG"
 msgstr "启用 EIT EPG"
@@ -8722,6 +8845,12 @@ msgstr "星期五"
 msgid "From :"
 msgstr "来自:"
 
+msgid "Front USB"
+msgstr ""
+
+msgid "Front USB 3.0"
+msgstr ""
+
 #, fuzzy
 msgid "Front processor version"
 msgstr "前处理器版本"
@@ -10199,6 +10328,14 @@ msgstr ""
 msgid "Internal Reader /dev/sci1:"
 msgstr ""
 
+#, fuzzy
+msgid "Internal SSD"
+msgstr "内置"
+
+#, fuzzy
+msgid "Internal USB"
+msgstr "内置"
+
 msgid "Internal flash"
 msgstr "内部闪存"
 
@@ -10702,6 +10839,10 @@ msgstr ""
 msgid "Last used share: "
 msgstr "最后使用的共享: "
 
+#, fuzzy
+msgid "Last used/set volume"
+msgstr "最后使用的共享: "
+
 msgctxt "third event: 'third' event label"
 msgid "Later"
 msgstr "稍后"
@@ -10733,6 +10874,10 @@ msgstr "黎巴嫩"
 msgid "Left"
 msgstr "左箭头"
 
+#, fuzzy
+msgid "Left USB"
+msgstr "左箭头"
+
 msgid "Left column"
 msgstr ""
 
@@ -10744,6 +10889,12 @@ msgstr ""
 
 msgid "Left from service name"
 msgstr "频道名称左边"
+
+msgid "Left, back USB"
+msgstr ""
+
+msgid "Left, front USB"
+msgstr ""
 
 msgid "Left, wrapped"
 msgstr "左边,覆盖"
@@ -11050,6 +11201,10 @@ msgstr "环通到"
 
 msgid "Lower Framerate saves CPU Time."
 msgstr "较低的帧率节省CPU时间"
+
+#, fuzzy
+msgid "Lower USB"
+msgstr "小写格式"
 
 msgid "Lower case"
 msgstr "小写格式"
@@ -11462,6 +11617,9 @@ msgstr ""
 msgid "Mexico"
 msgstr "墨西哥"
 
+msgid "Micro SD"
+msgstr ""
+
 msgid "Micronesia, Federated States of"
 msgstr "密克罗尼西亚联邦"
 
@@ -11514,6 +11672,10 @@ msgid "Mipsel"
 msgstr "Mipsel架构"
 
 msgid "Miscellaneous"
+msgstr "其他"
+
+#, fuzzy
+msgid "Miscellaneous languages"
 msgstr "其他"
 
 #, python-format
@@ -13781,6 +13943,10 @@ msgid "Playback Settings"
 msgstr ""
 
 #, fuzzy
+msgid "Playback Time:"
+msgstr "备用定时器"
+
+#, fuzzy
 msgid "Playback, Recording, VOD & Time Shift"
 msgstr "录制/时移"
 
@@ -15760,6 +15926,10 @@ msgstr "重新换行字幕"
 msgid "Right"
 msgstr "右箭头"
 
+#, fuzzy
+msgid "Right USB"
+msgstr "右箭头"
+
 msgid "Right column"
 msgstr ""
 
@@ -15771,6 +15941,12 @@ msgstr ""
 
 msgid "Right from service name"
 msgstr "频道名称右侧"
+
+msgid "Right, back USB"
+msgstr ""
+
+msgid "Right, front USB"
+msgstr ""
 
 msgid "Right, wrapped"
 msgstr "右边,覆盖"
@@ -15883,6 +16059,15 @@ msgstr "SABnzbd 设置"
 msgid "SAT"
 msgstr "卫星"
 
+msgid "SATA"
+msgstr ""
+
+msgid "SATA BACK"
+msgstr ""
+
+msgid "SATA FRONT"
+msgstr ""
+
 #, fuzzy
 msgid "SATPI Setting Actions"
 msgstr "SATPI 设置"
@@ -15895,6 +16080,10 @@ msgstr "SCPC优化搜索范围"
 
 msgid "SCR timing adjustment, in conjunction with SCR socket and operation of several SCR devices with one cable."
 msgstr "SCR定时调整,结合SCR插座和使用一根电缆即可操作多个SCR设备."
+
+#, fuzzy
+msgid "SD"
+msgstr "OSD菜单"
 
 #, python-format
 msgid "SDcard slot %s%s"
@@ -16355,6 +16544,9 @@ msgstr "如果天线系统需要,请选择'A'或'B',否则请选择’无'.如�
 msgid "Select 'Band' if using a 'Universal' LNB, otherwise consult your LNB specifications."
 msgstr "如果使用'通用”高频头,请选择'波段',否则请查阅高频头规格表."
 
+msgid "Select 'Disabled' to disable all automated volume adjustments. Select 'Defined volume offsets' to assign a specified offset to the service's volume level. Select 'Last used/set volume' to remember the volume level last used for each service."
+msgstr ""
+
 msgid "Select 'Enable' to start the CI+ helper."
 msgstr ""
 
@@ -16387,9 +16579,6 @@ msgstr ""
 
 msgid "Select 'Yes' if this tuner is connected to the SCR device through another tuner, otherwise select 'No'."
 msgstr "如果此调谐器通过另一个调谐器连接到SCR设备,请选择'是',否则请选择'否'."
-
-msgid "Select 'Yes' if volume adjustments should be applied to Dolby sound tracks."
-msgstr ""
 
 msgid "Select 'Yes' if you are using a multi-switch which requires a DiSEqC Port-A command signal. Select 'No' for all other setups."
 msgstr "仅当您使用需要DiSEqC Port-A命令信号的多路开关时才选择'是'.对于所有其他设置,请选择'否'."
@@ -16570,6 +16759,10 @@ msgstr "如果设置为'是'的频道列表将显示在广播和电视模式之�
 
 msgid "Select 'Yes' to show the current directory in the list of directories. Note that File Commander must be restarted for this change to take effect."
 msgstr ""
+
+#, fuzzy
+msgid "Select 'Yes' to show the volume level on any automated changes of volume level."
+msgstr "如果设置为'是'每次打开EPG将显示自定义."
 
 #, fuzzy
 msgid "Select 'Yes' to show this plugin in the Plugin Browser."
@@ -17735,6 +17928,10 @@ msgstr "设置在关机,待机或重新启动消息中等待执行默认操作�
 
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr "在频道选择界面中设置进度条的类型."
+
+#, fuzzy, python-format
+msgid "Set the volume level for the '%s' service."
+msgstr "设置隐藏信息栏的时间."
 
 #, python-format
 msgid "Set the volume offset for the '%s' service."
@@ -21281,6 +21478,10 @@ msgstr ""
 msgid "Toggle between bouquet/EPG lists"
 msgstr "在 自定义组/EPG列表 之间切换"
 
+#, fuzzy
+msgid "Toggle between the available TV and RADIO services"
+msgstr "在电视和广播之间切换"
+
 msgid "Toggle display of image information"
 msgstr ""
 
@@ -21696,6 +21897,12 @@ msgstr "极轴"
 msgid "USALS automatically moves a motorized dish to the correct satellite based on the coordinates entered by the user. Without USALS each satellite will need to be setup and saved individually."
 msgstr "USALS会根据用户输入的坐标自动将机动天线移至正确的卫星.如果没有USALS,则需要分别设置和保存每个卫星."
 
+msgid "USB 2.0 (Back, inner)"
+msgstr ""
+
+msgid "USB 3.0 (Back, outer)"
+msgstr ""
+
 msgid "USB Disk Format"
 msgstr ""
 
@@ -21977,6 +22184,10 @@ msgstr "向上跳 -"
 
 msgid "Uphops: "
 msgstr "升级: "
+
+#, fuzzy
+msgid "Upper USB"
+msgstr "大写格式"
 
 msgid "Upper case"
 msgstr "大写格式"
@@ -22595,17 +22806,22 @@ msgstr "电压模式"
 msgid "Volume"
 msgstr "音量"
 
-msgid "Volume Adjust"
-msgstr "音量调节"
-
 msgid "Volume Adjust Actions"
 msgstr ""
 
 msgid "Volume Adjust Service Selection"
 msgstr ""
 
+#, fuzzy
+msgid "Volume Adjust Service Selection Actions"
+msgstr "频道选择操作"
+
 msgid "Volume Adjust Settings"
 msgstr ""
+
+#, fuzzy
+msgid "Volume adjustment mode"
+msgstr "音量调节"
 
 msgid "Volume down"
 msgstr "音量减小"
@@ -23980,8 +24196,14 @@ msgstr "正在下载"
 msgid "drama (general)"
 msgstr "戏剧（一般）"
 
+msgid "eMMC"
+msgstr ""
+
 #, python-format
 msgid "eMMC slot %s%s"
+msgstr ""
+
+msgid "eSATA"
 msgstr ""
 
 msgid "east"
