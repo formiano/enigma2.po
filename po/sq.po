@@ -9,16 +9,15 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-28 15:03+0200\n"
-"PO-Revision-Date: 2024-09-21 00:06+0200\n"
-"Last-Translator: BliNeR-KeY <blinerg@gmail.com>\n"
-"Language-Team: Albanian <https://hosted.weblate.org/projects/openatv/"
-"enigma2-7-0-po/sq/>\n"
+"PO-Revision-Date: 2025-05-05 16:10+0000\n"
+"Last-Translator: formia <tipomimmo@gmail.com>\n"
+"Language-Team: Albanian <http://localhost:8000/projects/enigma2/enigma/sq/>\n"
 "Language: sq\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 msgid ""
 "\n"
@@ -27,11 +26,12 @@ msgstr ""
 "\n"
 "<Ky sintonizues konfigurohet automatikisht>"
 
-#, fuzzy
 msgid ""
 "\n"
 "Partition scheme:\n"
-msgstr "Particionet"
+msgstr ""
+"\n"
+"Skema pjestuese:\n"
 
 msgid ""
 "\n"
@@ -50,40 +50,51 @@ msgid ""
 " - for GigaBlue UE and GigaBlue Quad\n"
 " - for VU+ Ultimo and VU+ Duo2"
 msgstr ""
+"\n"
+"VFD Zgjidh\n"
+"nga burimi i xhennetit, (pija) e shiko!\n"
+"\n"
+"Plugin nga për\n"
+"\n"
+"- për GigaBlue UE dhe GigaBlue Kuad\n"
+"- për VU+ Ultimo dhe VU+ Duo2"
 
 msgid ""
 "\n"
 "Warning: all the data will be lost.\n"
 "Are you sure you want to format this device?\n"
 msgstr ""
+"\n"
+"Kujdes: të gjitha të dhënat do të humbasin.\n"
+"Jeni i sigurt që dëshironi të formatoni këtë dispozitiv?\n"
 
 msgid " "
 msgstr " "
 
-#, fuzzy, python-format
+#, python-format
 msgid "   (%s MHz)"
-msgstr "%s MHz"
+msgstr "   (%s MHz)"
 
 msgid "   (1.0 GHz)"
 msgstr ""
 
 msgid "   (1.3 GHz)"
-msgstr ""
+msgstr "   (1.3 GHz)"
 
 msgid "   (1.5 GHz)"
-msgstr ""
+msgstr "   (1.5 GHz)"
 
 msgid "   (1.6 GHz)"
-msgstr ""
+msgstr "   (1.6 GHz)"
 
 msgid "   (1.7 GHz)"
-msgstr ""
+msgstr "   (1.7 GHz)"
 
 msgid "   (2.0 GHz)"
-msgstr ""
+msgstr "   (2.0 GHz)"
 
 msgid "   (2.1 GHz)"
-msgstr ""
+msgstr "   (2.1 GHz)"
 
 msgid "  Menu key : Select quad channel"
 msgstr "  Butoni i Menysë: Përzgjidhni kanalin e katërfishtë"
@@ -120,22 +131,20 @@ msgstr " <S'ka Kanal>"
 msgid " <empty>"
 msgstr " <bosh>"
 
-#, fuzzy
 msgid " Server and "
-msgstr "Informacioni i serverit CCcam"
+msgstr " Serveri dhe "
 
 msgid " and"
 msgstr " dhe"
 
 msgid " as HDD ?"
-msgstr ""
+msgstr " si HDD?"
 
 msgid "!! Boot loader Upgrade !!"
 msgstr "!! Përditësimi i Bootloader-it !!"
 
-#, fuzzy
 msgid "# = Reboot Required"
-msgstr "* = Rinisja kërkohet"
+msgstr "# = Rebout wanted"
 
 msgid "%-H:%M"
 msgstr "%-H:%M"
@@ -794,7 +803,7 @@ msgstr "%d %b %Y"
 #, python-format
 msgid "%d + %d + %d Minute"
 msgid_plural "%d + %d + %d Minutes"
-msgstr[0] ""
+msgstr[0] "%d + %d + %d minuta"
 msgstr[1] ""
 
 #, python-format
@@ -806,14 +815,14 @@ msgstr[1] "%d Ditë"
 #, python-format
 msgid "%d Digit"
 msgid_plural "%d Digits"
-msgstr[0] ""
+msgstr[0] "Digit"
 msgstr[1] ""
 
 #, python-format
 msgid "%d Event"
 msgid_plural "%d Events"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Eventi"
+msgstr[1] "Ngjarje"
 
 #, python-format
 msgid "%d GB"
@@ -827,7 +836,7 @@ msgstr[1] "%d orësh"
 
 #, python-format
 msgid "%d Hours"
-msgstr ""
+msgstr "Ora"
 
 #, python-format
 msgid "%d MB"
@@ -835,7 +844,7 @@ msgstr "%d MB"
 
 #, python-format
 msgid "%d MB/s"
-msgstr ""
+msgstr "MB/s"
 
 #, python-format
 msgid "%d MHz"
@@ -872,29 +881,29 @@ msgstr[1] "%d Minuta"
 
 #, python-format
 msgid "%d Minutes"
-msgstr ""
+msgstr "minuta"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d Month"
 msgid_plural "%d Months"
-msgstr[0] "%d Min"
+msgstr[0] "Muaji"
 msgstr[1] "%d Mins"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d Pixel"
 msgid_plural "%d Pixels"
-msgstr[0] "%d pixel gjerë"
-msgstr[1] "%d pixels gjerë"
-
-#, fuzzy, python-format
-msgid "%d Pixel wide"
-msgid_plural "%d Pixels wide"
-msgstr[0] "%d pixel gjerë"
+msgstr[0] "Pixel"
 msgstr[1] "%d pixels gjerë"
 
 #, python-format
+msgid "%d Pixel wide"
+msgid_plural "%d Pixels wide"
+msgstr[0] "%d pixel gjerë"
+msgstr[1] "Pixels gjerë"
+
+#, python-format
 msgid "%d Pixels"
-msgstr ""
+msgstr "Pixels"
 
 #, python-format
 msgid "%d Second"
@@ -904,19 +913,19 @@ msgstr[1] "%d sekonda"
 
 #, python-format
 msgid "%d Seconds"
-msgstr ""
+msgstr "Seconds"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d Week"
 msgid_plural "%d Weeks"
 msgstr[0] "Javore"
-msgstr[1] "Javore"
+msgstr[1] "Javë"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d Year"
 msgid_plural "%d Years"
 msgstr[0] "Viti"
-msgstr[1] "Viti"
+msgstr[1] "Vite"
 
 #. TRANSLATORS: Intermediate scanning result, '%d' channel(s) have been found so far
 #, python-format
@@ -931,11 +940,11 @@ msgid_plural "%d cores"
 msgstr[0] "%d core"
 msgstr[1] "%d cores"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d feed catalog package was updated."
 msgid_plural "%d feed catalog packages were updated."
 msgstr[0] "Pakete %d e përmirësuar."
-msgstr[1] "Paketa %d e përmirësuar."
+msgstr[1] "%d paketat e katalogut të ushqimit u përditësuan."
 
 #, python-format
 msgid "%d kB"
@@ -945,10 +954,10 @@ msgstr "%d kB"
 msgid "%d min"
 msgstr "%d min"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] "%d minuta"
+msgstr[0] "minutë"
 msgstr[1] "%d minuta"
 
 #, python-format
@@ -962,38 +971,38 @@ msgstr "%d ms"
 #, python-format
 msgid "%d package has an update"
 msgid_plural "%d packages have updates."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d paketa ka një përditësim"
+msgstr[1] "%d paketat kanë të reja."
 
 #, python-format
 msgid "%d package installable."
 msgid_plural "%d packages installable."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d paketë instaluar."
+msgstr[1] "%d paketa instaluar."
 
 #, python-format
 msgid "%d package installed."
 msgid_plural "%d packages installed."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d instaluar paketë."
+msgstr[1] "%d instaluar paketat."
 
 #, python-format
 msgid "%d package marked for install."
 msgid_plural "%d packages marked for install."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d paketë shënuar për instalimin."
+msgstr[1] "%d paketa të shënuara për instalimin."
 
 #, python-format
 msgid "%d package marked for remove."
 msgid_plural "%d packages marked for remove."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d paketë e shënuar për heqjen."
+msgstr[1] "%d paketa të shënuara për heqjen."
 
 #, python-format
 msgid "%d package marked for update."
 msgid_plural "%d packages marked for update."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d paketë e shënuar për përditësim."
+msgstr[1] "%d paketa të shënuara për të përditësuar."
 
 #, python-format
 msgid "%d package upgraded."
@@ -1001,62 +1010,62 @@ msgid_plural "%d packages upgraded."
 msgstr[0] "Pakete %d e përmirësuar."
 msgstr[1] "Paketa %d e përmirësuar."
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d package was configured."
 msgid_plural "%d packages were configured."
 msgstr[0] "Pakete %d e përmirësuar."
-msgstr[1] "Paketa %d e përmirësuar."
+msgstr[1] "%d pako u konfiguruar."
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d package was deselected."
 msgid_plural "%d packages were deselected."
 msgstr[0] "%d Paketa u zgjodh."
-msgstr[1] "%d Paketa u zgjodh."
+msgstr[1] "%d paketat ishin të zgjedhura."
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d package was downloaded."
 msgid_plural "%d packages were downloaded."
 msgstr[0] "Pakete %d e përmirësuar."
-msgstr[1] "Paketa %d e përmirësuar."
+msgstr[1] "%d paketat u shkarkuan."
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d package was identified for upgrade."
 msgid_plural "%d packages were identified for upgrade."
 msgstr[0] "Pakete %d e përmirësuar."
-msgstr[1] "Paketa %d e përmirësuar."
+msgstr[1] "%d paketa u identifikuan për përmirësimin."
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d package was installed."
 msgid_plural "%d packages were installed."
 msgstr[0] "%d Paketa u instalua."
-msgstr[1] "%d Paketa u instalua."
+msgstr[1] "%d paketat janë instaluar."
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d package was removed."
 msgid_plural "%d packages were removed."
 msgstr[0] "Pakete %d e përmirësuar."
-msgstr[1] "Paketa %d e përmirësuar."
+msgstr[1] "%d paketa u hoqën."
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d package was upgraded."
 msgid_plural "%d packages were upgraded."
 msgstr[0] "Pakete %d e përmirësuar."
-msgstr[1] "Paketa %d e përmirësuar."
+msgstr[1] "%d paketat janë përmirësuar."
 
 #, python-format
 msgid "%d plugin is not available:"
 msgid_plural "%d plugins are not available:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d nuk është në dispozicion:"
+msgstr[1] "%d plugin nuk janë në dispozicion:"
 
 #, python-format
 msgid "%d sec"
 msgstr "%d sek"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d second"
 msgid_plural "%d seconds"
-msgstr[0] "%d sekond"
+msgstr[0] "%d sekondë"
 msgstr[1] "%d sekonda"
 
 #, python-format
@@ -1106,9 +1115,8 @@ msgstr "%d.%m"
 msgid "%d.%m.%Y"
 msgstr "%d.%m.%Y"
 
-#, fuzzy
 msgid "%d.%m.%Y - %H:%M:%S"
-msgstr "%-H:%M:%S"
+msgstr "%d.%m.%Y - %H:%M:%S"
 
 msgid "%d/%-m"
 msgstr "%d/%-m"
@@ -1152,13 +1160,13 @@ msgstr "%m/%d "
 msgid "%m/%d/%Y"
 msgstr "%m/%d/%Y"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%s "
-msgstr "%s GHz"
+msgstr "%s "
 
-#, fuzzy, python-format
+#, python-format
 msgid "%s  "
-msgstr "%s  (%s)"
+msgstr "%s  "
 
 #, python-format
 msgid "%s %02d.%02d."
@@ -1166,7 +1174,7 @@ msgstr "%s %02d.%02d."
 
 #, python-format
 msgid "%s %s"
-msgstr ""
+msgstr "%s %s"
 
 #, python-format
 msgid "%s %s advanced remote control (native)"
@@ -1190,7 +1198,7 @@ msgstr "%s %s telekomandë (native)"
 
 #, python-format
 msgid "%s %sB"
-msgstr ""
+msgstr "%s %s B"
 
 #, python-format
 msgid "%s ( %s Cards )"
@@ -1202,19 +1210,19 @@ msgstr "%s (%04o)"
 
 #, python-format
 msgid "%s Browser Manage Actions"
-msgstr ""
+msgstr "Veprimet"
 
 #, python-format
 msgid "%s GHz"
 msgstr "%s GHz"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%s Info - Configuration"
-msgstr "%s Informacion"
+msgstr "Informacione - Konfigurimi"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%s Info - Main Menu"
-msgstr "Menyja kryesore e CCcamInfo"
+msgstr "Info Menuja"
 
 #, python-format
 msgid "%s KSymb/s"
@@ -1239,15 +1247,15 @@ msgstr "%s nuk përdoret më. A duhet të eleminohet?"
 
 #, python-format
 msgid "%s long"
-msgstr ""
+msgstr "I gjatë"
 
 #, python-format
 msgid "%s not available."
 msgstr "%s nuk është në dispozicion."
 
-#, fuzzy, python-format
+#, python-format
 msgid "%s webif disabled"
-msgstr "%s është çaktivizuar."
+msgstr "Webif është çaktivuar"
 
 #, python-format
 msgid "%s%d min"
@@ -1305,10 +1313,11 @@ msgid ""
 "'Network peer' automatically detects other Enigma2 receivers on the local "
 "network. You can also manually enter the URL or IP address."
 msgstr ""
+"'Vëzhguesi Network' automatikisht zbulon marrës të tjerë Enigma2 në rrjetin "
+"lokal. Mund të hyni manualisht në adresën URL ose IP."
 
-#, fuzzy
 msgid "(All readers)"
-msgstr "( Të gjithë lexuesit)"
+msgstr "(Të gjithë lexuesit)"
 
 #, python-format
 msgid "(Attention: There will be a restart after %d crashes.)"
@@ -1323,9 +1332,9 @@ msgstr " (FnF)"
 msgid "(Radio)"
 msgstr "(Radio)"
 
-#, fuzzy, python-format
+#, python-format
 msgid "(Show only reader) (%s)"
-msgstr "(Shfaq vetëm lexues:"
+msgstr "(Shfaq vetëm lexues) (%s"
 
 msgid "(TV)"
 msgstr "(TV)"
@@ -1353,23 +1362,23 @@ msgid "* current animation"
 msgstr "* animacion aktual"
 
 msgid "*.tar.gz & *.bh.tgz & *.ipk removed"
-msgstr ""
+msgstr "*.tar.gz & *.bh.tgz & *.ipk u hoq"
 
 msgid "+24 Hours"
-msgstr ""
+msgstr "+24 orë"
 
 msgctxt "Text list separator"
 msgid ", "
 msgstr ", "
 
 msgid "-24 Hours"
-msgstr ""
+msgstr "-24 orë"
 
 msgid "-24h/+24 Hours"
 msgstr "-24h/+24 orë"
 
 msgid "/media/custom"
-msgstr ""
+msgstr "media"
 
 msgid "/s"
 msgstr "/s"
@@ -1420,26 +1429,25 @@ msgid "16:9 Always"
 msgstr "16:9 Gjithmonë"
 
 msgid "16:9 Combined"
-msgstr ""
+msgstr "16:9 Kombinohet"
 
 msgid "16:9 Ignore"
-msgstr ""
+msgstr "16:9 Shpërfill"
 
 msgid "16:9 Letterbox"
 msgstr "16:9 Kutia e letrave"
 
 msgid "16:9 PanScan"
-msgstr ""
+msgstr "16:9 Panskani"
 
 msgid "16:9 reset to normal"
-msgstr ""
+msgstr "16:9 rivendoset në normale"
 
 msgid "18 V"
 msgstr "18 V"
 
-#, fuzzy
 msgid "1st infobar timeout"
-msgstr "Koha e parë e infobarit"
+msgstr "hera e parë e informacioneve"
 
 msgid "1x"
 msgstr "1x"
@@ -1478,10 +1486,10 @@ msgid "3x"
 msgstr "3x"
 
 msgid "4:3 Combined"
-msgstr ""
+msgstr "4:3 Kombinohet"
 
 msgid "4:3 Ignore"
-msgstr ""
+msgstr "Shpërfill"
 
 msgid "4:3 Letterbox"
 msgstr "4:3 Kutia e letrave"
@@ -1493,25 +1501,22 @@ msgid "4x"
 msgstr "4x"
 
 msgid "50-200 Mbps"
-msgstr ""
+msgstr "50-200 Mbps"
 
 msgid "8 character"
 msgstr "8 karaktere"
 
-#, fuzzy
 msgid "81"
-msgstr "1"
+msgstr "81"
 
-#, fuzzy
 msgid "82"
-msgstr "2"
+msgstr "82"
 
-#, fuzzy
 msgid "83"
-msgstr "3"
+msgstr "83"
 
 msgid "8888"
-msgstr ""
+msgstr "8888"
 
 msgid "8bit"
 msgstr "8 bit"
@@ -1538,7 +1543,7 @@ msgid "<Last timer location>"
 msgstr "<Vendndodhja e kohëmatësit të fundit>"
 
 msgid "<Select a device>"
-msgstr ""
+msgstr "<Zgjidh një dispozitiv>"
 
 msgid "A"
 msgstr "A"
@@ -1551,15 +1556,16 @@ msgstr ""
 "minuta dhe provoni përsëri."
 
 msgid "A backup is now being created."
-msgstr ""
+msgstr "Tani po krijohet një mbështetje."
 
 #, python-format
 msgid "A completed task wants to set your %s %s to standby. Do that now?"
 msgstr ""
+"Një detyrë e përfunduar dëshiron të caktojë [X35XX] tuaj në gatishmëri. Tani?"
 
 #, python-format
 msgid "A completed task wants to shut down your %s %s. Shutdown now?"
-msgstr ""
+msgstr "Një detyrë e përfunduar dëshiron të mbyllë %s tuaj %s. Tani mbylle?"
 
 #, python-format
 msgid "A crash log was %s created in '%s'"
@@ -1754,13 +1760,13 @@ msgid "Abort"
 msgstr "Ndërpreje"
 
 msgid "Abort Alternatives Edit"
-msgstr ""
+msgstr "Alternativat ndrysho"
 
 msgid "Abort Bouquet Edit"
-msgstr ""
+msgstr "Anullo Editimin e Buketës"
 
 msgid "Abort Favorites Edit"
-msgstr ""
+msgstr "Anullo"
 
 msgid "Aborted a pseudo recording.\n"
 msgstr "Ndërpreu një pseudo regjistrim.\n"
@@ -1778,9 +1784,8 @@ msgid "About..."
 msgstr "Rreth..."
 
 msgid "Above 200 Mbps"
-msgstr ""
+msgstr "Sipër 200 Mbps"
 
-#, fuzzy
 msgid "Access point"
 msgstr "Pika e hyrjes"
 
@@ -1788,17 +1793,16 @@ msgid "Access point:"
 msgstr "Pika e hyrjes"
 
 msgid "Access to geolocation information requires an Internet connection."
-msgstr ""
+msgstr "Futja në informacionin gjeolokativ kërkon një lidhje interneti."
 
 msgid "Accessed"
-msgstr ""
+msgstr "Hyrje"
 
 msgid "Action"
 msgstr "Veprimi"
 
-#, fuzzy
 msgid "Actions"
-msgstr "Veprimi"
+msgstr "Veprimet"
 
 msgid "Activate"
 msgstr "Aktivo"
@@ -1815,9 +1819,8 @@ msgstr "Aktivizo Picture in Picture"
 msgid "Activate network adapter configuration"
 msgstr "Aktivizo konfigurimin e përshtatësve të rrjetit"
 
-#, fuzzy
 msgid "Activate this device"
-msgstr "Aktivizo fundin e timeshift"
+msgstr "Aktivizo këtë dispozitiv"
 
 msgid "Activate time shift End"
 msgstr "Aktivizo fundin e timeshift"
@@ -1838,7 +1841,7 @@ msgid "Add"
 msgstr "Shto"
 
 msgid "Add Alternatives"
-msgstr ""
+msgstr "Shto alternativa"
 
 msgid "Add AutoTimer"
 msgstr "Shto AutoTimer"
@@ -1847,19 +1850,19 @@ msgid "Add Bookmark"
 msgstr "Shto libërshënues"
 
 msgid "Add Bouquet"
-msgstr ""
+msgstr "Shto Bouquet"
 
 msgid "Add Bouquet To Parental Protection"
-msgstr ""
+msgstr "Shto Butet për mbrojtjen e prindërve"
 
 msgid "Add Current"
 msgstr "Shto Rrymë"
 
 msgid "Add HDMI-IN To Bouquet"
-msgstr ""
+msgstr "Shto HDMI-IN To Bouquet"
 
 msgid "Add Marker To Bouquet"
-msgstr ""
+msgstr "Shto"
 
 msgid "Add New Quad Channel Entry"
 msgstr "Shto hyrjen e re të Kanalit Quad"
@@ -1867,21 +1870,20 @@ msgstr "Shto hyrjen e re të Kanalit Quad"
 msgid "Add RecordTimer"
 msgstr "Shto Record Timer"
 
-#, fuzzy
 msgid "Add Service"
 msgstr "Shto shërbim"
 
 msgid "Add Service To Bouquet"
-msgstr ""
+msgstr "Shto shërbimin në treg"
 
 msgid "Add Service To Favorites"
-msgstr ""
+msgstr "Shto shërbimin tek të preferuarit"
 
 msgid "Add Timer"
 msgstr "Shto kohëmatës"
 
 msgid "Add To Parental Protection"
-msgstr ""
+msgstr "Shto në mbrojtjen e prindërve"
 
 msgid "Add Zap+RecordTimer"
 msgstr "Shto Zap+Record Timer"
@@ -1892,9 +1894,8 @@ msgstr "Shto Zap Timer"
 msgid "Add a DNS entry"
 msgstr "Shtoni një hyrje DNS"
 
-#, fuzzy
 msgid "Add a RADIO service to the Volume Offset list"
-msgstr "Shto një shërbim në listën Volume Offsets"
+msgstr "Shto një shërbim RADIO për listën e ndalimit të vëllimit"
 
 msgid "Add a RecordTimer"
 msgstr "Shto një kronometre rekord"
@@ -1902,9 +1903,8 @@ msgstr "Shto një kronometre rekord"
 msgid "Add a RecordTimer for current event"
 msgstr "Shto një kronometruar rekord për ngjarjen aktuale"
 
-#, fuzzy
 msgid "Add a TV service to the Volume Offset list"
-msgstr "Shto një shërbim në listën Volume Offsets"
+msgstr "Shto një shërbim TV në listën e ndalimit të vëllimit"
 
 msgid "Add a ZapTimer for current event"
 msgstr "Shto një kronometr zap për ngjarjen aktuale"
@@ -1916,23 +1916,22 @@ msgid "Add a mark"
 msgstr "Shtoni një shenjë"
 
 msgid "Add a new bouquet"
-msgstr ""
+msgstr "Shto një buqetë të re"
 
 msgid "Add a new marker before the current service"
-msgstr ""
+msgstr "Shto a i ri"
 
 msgid "Add a new tag"
 msgstr "Shto një etiketë të re"
 
 msgid "Add a new timer"
-msgstr ""
+msgstr "Shto a i ri"
 
 msgid "Add a new title"
 msgstr "Shto një titull të ri"
 
-#, fuzzy
 msgid "Add a service to the Volume Offset list"
-msgstr "Shto një shërbim në listën Volume Offsets"
+msgstr "Shto një shërbim për listën e ndalimit të volumit"
 
 msgid "Add a timer for the current event"
 msgstr "Shto një kohëmues për ngjarjen aktuale"
@@ -1956,13 +1955,13 @@ msgid "Add highlighted directory to bookmarks"
 msgstr "Shto kartelën e zgjedhur tek libërshënuesit"
 
 msgid "Add more slots"
-msgstr ""
+msgstr "Shto"
 
 msgid "Add new CCcam line"
-msgstr ""
+msgstr "Shto një linjë të re CCkam"
 
 msgid "Add new NewCamd line"
-msgstr ""
+msgstr "Shto një rresht të ri"
 
 msgid "Add new tag"
 msgstr "Shto etiketë të re"
@@ -1982,28 +1981,26 @@ msgstr "Shto regjistrimin (për një kohë të pacaktuar)"
 msgid "Add recording (Stop after current event)"
 msgstr "Shto regjistrimin (ndalo pas ngjarjes aktuale)"
 
-#, fuzzy
 msgid "Add recording (stop after current event)"
-msgstr "Shto regjistrimin (ndalo pas ngjarjes aktuale)"
+msgstr "Shto mbas"
 
 msgid "Add service"
 msgstr "Shto shërbim"
 
 msgid "Add service to AutoCam"
-msgstr ""
+msgstr "Shto shërbimin tek AutoCam"
 
 msgid "Add services to this bouquet?"
-msgstr ""
+msgstr "Shtoj shërbime në këtë buqetë?"
 
 msgid "Add the current directory as a bookmark"
-msgstr ""
+msgstr "Shto file aktual"
 
-#, fuzzy
 msgid "Add the current/active service to the Volume Offset list"
-msgstr "Shto shërbimin aktual në listën Volume Offsets"
+msgstr "Shto në lista"
 
 msgid "Add the selected service to a bouquet or alternative"
-msgstr ""
+msgstr "Shtoni shërbimin e zgjedhur një buqetë apo alternativë"
 
 msgid "Add title"
 msgstr "Shto titulli"
@@ -2015,17 +2012,16 @@ msgid "Add/Remove a timer for the current event"
 msgstr "Shto Hiq një kohëm_ë për ngjarjen aktuale"
 
 msgid "Add/Remove highlighted plugin to/from install list"
-msgstr ""
+msgstr "Shto/Hiq"
 
 msgid "Add/Remove highlighted plugin to/from remove list"
-msgstr ""
+msgstr "Shto sipër Hiq lista"
 
 msgid "Add/Remove highlighted plugin to/from update list"
-msgstr ""
+msgstr "Shto/Hiq"
 
-#, fuzzy
 msgid "Add/Remove the current service to/from the Volume Offset list"
-msgstr "Shto shërbimin aktual në listën Volume Offsets"
+msgstr "Shto/Hiq shërbimin aktual në/nga lista e Offset e vëllimit"
 
 msgid "Adding schedule..."
 msgstr "Duke shtuar orarin..."
@@ -2057,9 +2053,8 @@ msgstr "Adresa"
 msgid "Adjust 3D settings"
 msgstr "Rregullo rregullimet 3D"
 
-#, fuzzy
 msgid "Adjust decoding options"
-msgstr "Opsionet e audios..."
+msgstr "Rregullo opsionet e dekodimit"
 
 msgid ""
 "Adjust the color settings so that all the color shades are distinguishable, "
@@ -2104,7 +2099,7 @@ msgid "Afrikaans"
 msgstr "Afrikanisht"
 
 msgid "After Event"
-msgstr ""
+msgstr "Ndodhi"
 
 msgid "After event"
 msgstr "Pas ngjarjes"
@@ -2143,18 +2138,20 @@ msgid ""
 "All Softcams will be deinstalled\n"
 "Are you sure ?"
 msgstr ""
+"Të gjitha pajisjet e buta do të deinstalohen\n"
+"Je i sigurt?"
 
 msgid "All ages"
 msgstr "Të gjitha moshat"
 
 msgid "All events down"
-msgstr ""
+msgstr "Ndodhitë"
 
 msgid "All events up"
-msgstr ""
+msgstr "Të gjitha ngjarjet mbaruan"
 
 msgid "All files"
-msgstr ""
+msgstr "Të gjithë files"
 
 msgid "All resolutions"
 msgstr "Të gjitha rezolutat"
@@ -2218,13 +2215,13 @@ msgid "Alphanumeric"
 msgstr "Alfanumerik"
 
 msgid "Also import at reboot/restart enigma2"
-msgstr ""
+msgstr "Importo"
 
 msgid "Also import from the extension menu"
-msgstr ""
+msgstr "Importo menuja"
 
 msgid "Also import when box is leaving standby"
-msgstr ""
+msgstr "Importo"
 
 msgid "Also on standby"
 msgstr "Gjithashtu në gadishmëri"
@@ -2239,13 +2236,13 @@ msgid "Alternative 2"
 msgstr "Alternativa 2"
 
 msgid "Alternative Edit"
-msgstr ""
+msgstr "Ndrysho"
 
 msgid "Alternative URLs for DVB-T/C or ATSC"
-msgstr ""
+msgstr "URL alternative për DVB-T/C ose ATSC"
 
 msgid "Always"
-msgstr ""
+msgstr "Gjithmonë"
 
 msgid "Always ask"
 msgstr "Gjithmonë pyesni"
@@ -2265,9 +2262,8 @@ msgstr "amharike"
 msgid "Amlogic"
 msgstr "Amlogike"
 
-#, fuzzy
 msgid "Amlogic remote"
-msgstr "Amlogike"
+msgstr "Largësia amloge"
 
 msgid "An error occurred while downloading the packet list. Please try again."
 msgstr ""
@@ -2286,7 +2282,7 @@ msgid "Android Linux SE"
 msgstr "Android Linux SE"
 
 msgid "Angle"
-msgstr ""
+msgstr "Angle"
 
 msgid "Angola"
 msgstr "Angola"
@@ -2316,7 +2312,7 @@ msgid "Any activity"
 msgstr "Çdo aktivitet"
 
 msgid "Any recordings"
-msgstr ""
+msgstr "Çdo regjistrim"
 
 msgid "Aperture F number"
 msgstr ""
@@ -2331,7 +2327,7 @@ msgid "Arabic"
 msgstr "Arabisht"
 
 msgid "Arabic (Egyptian)"
-msgstr ""
+msgstr "Arabisht"
 
 #, fuzzy
 msgid "Arabic (Iraq)"
