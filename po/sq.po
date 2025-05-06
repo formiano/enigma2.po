@@ -1,15 +1,18 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: Opendroid / enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-28 15:03+0200\n"
-"PO-Revision-Date: 2025-05-05 19:43+0000\n"
+"POT-Creation-Date: 2025-05-05 16:04+0200\n"
+"PO-Revision-Date: 2025-05-05 22:29+0200\n"
+"Last-Translator: OPD Team <opendroid2013@gmail.com>\n"
+"Language-Team: TEAM <EMAIL@ADDRESS>\n"
 "Language: sq\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 3.4.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.5\n"
 
 msgid ""
 "\n"
@@ -60,7 +63,6 @@ msgstr ""
 "Kujdes: të gjitha të dhënat do të humbasin.\n"
 "Jeni i sigurt që dëshironi të formatoni këtë dispozitiv?\n"
 
-#, python-format
 msgid "   (%s MHz)"
 msgstr "   (%s MHz)"
 
@@ -125,13 +127,13 @@ msgid " HI "
 msgstr "HI"
 
 msgid " Server and "
-msgstr " Serveri dhe "
+msgstr "Serveri dhe"
 
 msgid " and"
 msgstr "dhe"
 
 msgid " as HDD ?"
-msgstr " si HDD?"
+msgstr "si HDD?"
 
 msgid "!! Boot loader Upgrade !!"
 msgstr "! Ngarkuesi i Butit!"
@@ -163,12 +165,20 @@ msgstr "%-I:%M:%S%P"
 msgid "%-I:%M:%S%^p"
 msgstr "%-I:%M:%S%^p"
 
+#. TRANSLATORS: Full date representation daynum monthname year in strftime()
+#. format! See 'man strftime'.
 msgid "%-d %B %Y"
 msgstr "%-d %B %Y"
 
+#. TRANSLATORS: Small date representation daynum short monthname in strftime()
+#. format! See 'man strftime'.
+#. TRANSLATORS: compact date representation (for VFD) daynum short monthname
+#. in strftime() format! See 'man strftime'
 msgid "%-d %b"
 msgstr "%-d %b"
 
+#. TRANSLATORS: Long date representation daynum short monthname year in
+#. strftime() format! See 'man strftime'.
 msgid "%-d %b %Y"
 msgstr "%-d %b %Y"
 
@@ -277,6 +287,8 @@ msgstr "%2.1f Seconds"
 msgid "%A"
 msgstr "%A"
 
+#. TRANSLATORS: Short date representation dayname daynum short monthname in
+#. strftime() format! See 'man strftime'.
 msgid "%A %-d %B"
 msgstr "%A %-d %B"
 
@@ -466,9 +478,12 @@ msgstr "%I:%M:%S%P"
 msgid "%I:%M:%S%^p"
 msgstr "%I:%M:%S%^p"
 
+#. TRANSLATORS: short time representation hour:minute (Same as "Default")
 msgid "%R"
 msgstr "%R"
 
+#. TRANSLATORS: time representation hour:minute:seconds for 24 hour clock or
+#. 12 hour clock without AM/PM and hour:minute for 12 hour clocks with AM/PM
 msgid "%T"
 msgstr "%T"
 
@@ -511,15 +526,23 @@ msgstr "%Y/%m/%d"
 msgid "%a"
 msgstr "%a"
 
+#. TRANSLATORS: Small date representation short dayname daynum in strftime()
+#. format! See 'man strftime'.
 msgid "%a %-d"
 msgstr "%a %-d"
 
+#. TRANSLATORS: Long date representation short dayname daynum monthname year
+#. in strftime() format! See 'man strftime'.
 msgid "%a %-d %B %Y"
 msgstr "%a %-d %B %Y"
 
+#. TRANSLATORS: Short date representation short dayname daynum short monthname
+#. in strftime() format! See 'man strftime'.
 msgid "%a %-d %b"
 msgstr "%a %-d %b"
 
+#. TRANSLATORS: Long date representation short dayname daynum short monthname
+#. year in strftime() format! See 'man strftime'.
 msgid "%a %-d %b %Y"
 msgstr "%a %-d %b %Y"
 
@@ -773,8 +796,6 @@ msgstr "%d %b %Y"
 
 msgid "%d + %d + %d Minute"
 msgid_plural "%d + %d + %d Minutes"
-msgstr[0] "%d + %d + %d minuta"
-msgstr[1] ""
 msgstr[0] "%d + %d+ %d minuta"
 msgstr[1] "%d + %d+ %d minuta"
 
@@ -785,15 +806,11 @@ msgstr[1] "%d Days"
 
 msgid "%d Digit"
 msgid_plural "%d Digits"
-msgstr[0] "Digit"
-msgstr[1] ""
 msgstr[0] "%d Digit"
 msgstr[1] "%d Digits"
 
 msgid "%d Event"
 msgid_plural "%d Events"
-msgstr[0] "Eventi"
-msgstr[1] "Ngjarje"
 msgstr[0] "Event %d"
 msgstr[1] "Evente %d"
 
@@ -812,7 +829,6 @@ msgid "%d MB"
 msgstr "%d MB"
 
 msgid "%d MB/s"
-msgstr "MB/s"
 msgstr "%d MB/s"
 
 msgid "%d MHz"
@@ -829,31 +845,6 @@ msgstr[0] "%d Minute"
 msgstr[1] "%d Minutes"
 
 msgid "%d Minutes"
-<<<<<<< HEAD
-msgstr "minuta"
-
-#, python-format
-msgid "%d Month"
-msgid_plural "%d Months"
-msgstr[0] "Muaji"
-msgstr[1] "%d Mins"
-
-#, python-format
-msgid "%d Pixel"
-msgid_plural "%d Pixels"
-msgstr[0] "Pixel"
-msgstr[1] "%d pixels gjerë"
-
-#, python-format
-msgid "%d Pixel wide"
-msgid_plural "%d Pixels wide"
-msgstr[0] "%d pixel gjerë"
-msgstr[1] "Pixels gjerë"
-
-#, python-format
-msgid "%d Pixels"
-msgstr "Pixels"
-=======
 msgstr "%d Minutes"
 
 msgid "%d Month"
@@ -873,7 +864,6 @@ msgstr[1] "%d Pixels wide"
 
 msgid "%d Pixels"
 msgstr "%d Pixels"
->>>>>>> ebf6a85 (update po file)
 
 msgid "%d Second"
 msgid_plural "%d Seconds"
@@ -881,21 +871,6 @@ msgstr[0] "%d Second"
 msgstr[1] "%d Seconds"
 
 msgid "%d Seconds"
-<<<<<<< HEAD
-msgstr "Seconds"
-
-#, python-format
-msgid "%d Week"
-msgid_plural "%d Weeks"
-msgstr[0] "Javore"
-msgstr[1] "Javë"
-
-#, python-format
-msgid "%d Year"
-msgid_plural "%d Years"
-msgstr[0] "Viti"
-msgstr[1] "Vite"
-=======
 msgstr "%d Seconds"
 
 msgid "%d Week"
@@ -907,7 +882,6 @@ msgid "%d Year"
 msgid_plural "%d Years"
 msgstr[0] "Year"
 msgstr[1] "Year"
->>>>>>> ebf6a85 (update po file)
 
 msgid "%d channel found"
 msgid_plural "%d channels found"
@@ -919,18 +893,10 @@ msgid_plural "%d cores"
 msgstr[0] "%d core"
 msgstr[1] "%d cores"
 
-<<<<<<< HEAD
-#, python-format
-msgid "%d feed catalog package was updated."
-msgid_plural "%d feed catalog packages were updated."
-msgstr[0] "Pakete %d e përmirësuar."
-msgstr[1] "%d paketat e katalogut të ushqimit u përditësuan."
-=======
 msgid "%d feed catalog package was updated."
 msgid_plural "%d feed catalog packages were updated."
 msgstr[0] "u përditësua paketa e katalogut të ushqimit %d."
 msgstr[1] "janë përditësuar paketat e katalogut të ushqimit %d."
->>>>>>> ebf6a85 (update po file)
 
 msgid "%d kB"
 msgstr "%d kB"
@@ -938,18 +904,10 @@ msgstr "%d kB"
 msgid "%d min"
 msgstr "%d min"
 
-<<<<<<< HEAD
-#, python-format
-msgid "%d minute"
-msgid_plural "%d minutes"
-msgstr[0] "minutë"
-msgstr[1] "%d minuta"
-=======
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d minutes"
 msgstr[1] "%d minutes"
->>>>>>> ebf6a85 (update po file)
 
 msgid "%d minutes"
 msgstr "%d minutes"
@@ -959,110 +917,39 @@ msgstr "%d ms"
 
 msgid "%d package has an update"
 msgid_plural "%d packages have updates."
-<<<<<<< HEAD
-msgstr[0] "%d paketa ka një përditësim"
-msgstr[1] "%d paketat kanë të reja."
-=======
 msgstr[0] "%d pako ka një rifreskim"
 msgstr[1] "%d paketat kanë përditësime."
->>>>>>> ebf6a85 (update po file)
 
 msgid "%d package installable."
 msgid_plural "%d packages installable."
-<<<<<<< HEAD
-msgstr[0] "%d paketë instaluar."
-msgstr[1] "%d paketa instaluar."
-=======
 msgstr[0] "%d ndihmë."
 msgstr[1] "%d paketa të instaluara."
->>>>>>> ebf6a85 (update po file)
 
 msgid "%d package installed."
 msgid_plural "%d packages installed."
 msgstr[0] "%d instaluar paketë."
-<<<<<<< HEAD
-msgstr[1] "%d instaluar paketat."
-=======
 msgstr[1] "%d paketat e instaluara."
->>>>>>> ebf6a85 (update po file)
 
 msgid "%d package marked for install."
 msgid_plural "%d packages marked for install."
-<<<<<<< HEAD
-msgstr[0] "%d paketë shënuar për instalimin."
-msgstr[1] "%d paketa të shënuara për instalimin."
-=======
 msgstr[0] "%d paketë e shënuar për instalimin."
 msgstr[1] "%d packages marked for install."
->>>>>>> ebf6a85 (update po file)
 
 msgid "%d package marked for remove."
 msgid_plural "%d packages marked for remove."
 msgstr[0] "%d paketë e shënuar për heqjen."
-<<<<<<< HEAD
-msgstr[1] "%d paketa të shënuara për heqjen."
-=======
 msgstr[1] "%d packages marked for remove."
->>>>>>> ebf6a85 (update po file)
 
 msgid "%d package marked for update."
 msgid_plural "%d packages marked for update."
-<<<<<<< HEAD
-msgstr[0] "%d paketë e shënuar për përditësim."
-msgstr[1] "%d paketa të shënuara për të përditësuar."
-=======
 msgstr[0] "%d paketë e shënuar për rifreskim."
 msgstr[1] "%d paketa të shënuara për rifreskim."
->>>>>>> ebf6a85 (update po file)
 
 msgid "%d package upgraded."
 msgid_plural "%d packages upgraded."
 msgstr[0] "pakoja %d u përmirësua."
 msgstr[1] "%d packages upgraded."
 
-<<<<<<< HEAD
-#, python-format
-msgid "%d package was configured."
-msgid_plural "%d packages were configured."
-msgstr[0] "Pakete %d e përmirësuar."
-msgstr[1] "%d pako u konfiguruar."
-
-#, python-format
-msgid "%d package was deselected."
-msgid_plural "%d packages were deselected."
-msgstr[0] "%d Paketa u zgjodh."
-msgstr[1] "%d paketat ishin të zgjedhura."
-
-#, python-format
-msgid "%d package was downloaded."
-msgid_plural "%d packages were downloaded."
-msgstr[0] "Pakete %d e përmirësuar."
-msgstr[1] "%d paketat u shkarkuan."
-
-#, python-format
-msgid "%d package was identified for upgrade."
-msgid_plural "%d packages were identified for upgrade."
-msgstr[0] "Pakete %d e përmirësuar."
-msgstr[1] "%d paketa u identifikuan për përmirësimin."
-
-#, python-format
-msgid "%d package was installed."
-msgid_plural "%d packages were installed."
-msgstr[0] "%d Paketa u instalua."
-msgstr[1] "%d paketat janë instaluar."
-
-#, python-format
-msgid "%d package was removed."
-msgid_plural "%d packages were removed."
-msgstr[0] "Pakete %d e përmirësuar."
-msgstr[1] "%d paketa u hoqën."
-
-#, python-format
-msgid "%d package was upgraded."
-msgid_plural "%d packages were upgraded."
-msgstr[0] "Pakete %d e përmirësuar."
-msgstr[1] "%d paketat janë përmirësuar."
-=======
 msgid "%d package was configured."
 msgid_plural "%d packages were configured."
 msgstr[0] "%d package was configured."
@@ -1097,33 +984,19 @@ msgid "%d package was upgraded."
 msgid_plural "%d packages were upgraded."
 msgstr[0] "u përditësua pakoja %d."
 msgstr[1] "u përmirësuan paketat %d."
->>>>>>> ebf6a85 (update po file)
 
 msgid "%d plugin is not available:"
 msgid_plural "%d plugins are not available:"
-<<<<<<< HEAD
-msgstr[0] "%d nuk është në dispozicion:"
-msgstr[1] "%d plugin nuk janë në dispozicion:"
-=======
 msgstr[0] "plugin %d nuk është në dispozicion:"
 msgstr[1] "%d plugins are not available:"
->>>>>>> ebf6a85 (update po file)
 
 msgid "%d sec"
 msgstr "%d sec"
 
-<<<<<<< HEAD
-#, python-format
-msgid "%d second"
-msgid_plural "%d seconds"
-msgstr[0] "%d sekondë"
-msgstr[1] "%d sekonda"
-=======
 msgid "%d second"
 msgid_plural "%d seconds"
 msgstr[0] "%d Seconds"
 msgstr[1] "%d Seconds"
->>>>>>> ebf6a85 (update po file)
 
 msgid "%d times"
 msgstr "%d times"
@@ -1214,17 +1087,9 @@ msgstr "%m/%d "
 msgid "%m/%d/%Y"
 msgstr "%m/%d/%Y"
 
-<<<<<<< HEAD
-#, python-format
 msgid "%s "
 msgstr "%s "
 
-#, python-format
-=======
-msgid "%s "
-msgstr "%s "
-
->>>>>>> ebf6a85 (update po file)
 msgid "%s  "
 msgstr "%s  "
 
@@ -1250,11 +1115,7 @@ msgid "%s %s remote control (native)"
 msgstr "%s %s remote control (native)"
 
 msgid "%s %sB"
-<<<<<<< HEAD
-msgstr "%s %s B"
-=======
 msgstr "%s %sB"
->>>>>>> ebf6a85 (update po file)
 
 msgid "%s ( %s Cards )"
 msgstr "%s ( %s Cards )"
@@ -1263,30 +1124,16 @@ msgid "%s (%04o)"
 msgstr "%s (%04o)"
 
 msgid "%s Browser Manage Actions"
-<<<<<<< HEAD
-msgstr "Veprimet"
-=======
 msgstr "%s Browser Manage Actions"
->>>>>>> ebf6a85 (update po file)
 
 msgid "%s GHz"
 msgstr "%s GHz"
 
-<<<<<<< HEAD
-#, python-format
-msgid "%s Info - Configuration"
-msgstr "Informacione - Konfigurimi"
-
-#, python-format
-msgid "%s Info - Main Menu"
-msgstr "Info Menuja"
-=======
 msgid "%s Info - Configuration"
 msgstr "%s Info - Konfigurimi i Mail"
 
 msgid "%s Info - Main Menu"
 msgstr "%s Info - Menuja"
->>>>>>> ebf6a85 (update po file)
 
 msgid "%s KSymb/s"
 msgstr "%s KSymb/s"
@@ -1304,23 +1151,13 @@ msgid "%s is no longer used. Should it be deleted?"
 msgstr "%s nuk përdoret më. A duhet fshirë?"
 
 msgid "%s long"
-<<<<<<< HEAD
-msgstr "I gjatë"
-=======
 msgstr "%s i gjatë"
->>>>>>> ebf6a85 (update po file)
 
 msgid "%s not available."
 msgstr "%s nuk është në dispozicion."
 
-<<<<<<< HEAD
-#, python-format
-msgid "%s webif disabled"
-msgstr "Webif është çaktivuar"
-=======
 msgid "%s webif disabled"
 msgstr "%s webif është çaktivuar"
->>>>>>> ebf6a85 (update po file)
 
 msgid "%s%d min"
 msgstr "%s%d min"
@@ -1375,13 +1212,8 @@ msgid ""
 "'Unscramble & record ECM' gives the option to unscramble afterwards if unscrambling on recording failed. 'Don't unscramble, record ECM' save a "
 "scramble recording that can be unscrambled on playback. 'Normal' means unscramble the recording and don't record ECM."
 msgstr ""
-<<<<<<< HEAD
-"'Vëzhguesi Network' automatikisht zbulon marrës të tjerë Enigma2 në rrjetin "
-"lokal. Mund të hyni manualisht në adresën URL ose IP."
-=======
 "'Unscamble & rekord ECM' i jep mundësi të çaktivizohet më pas në qoftë se unscrabging në regjistrimin e dështuar. 'Mos u blloko, filmo ECM' përveç një "
 "regjistrimi të ngjeshur që mund të jetë i padëmtuar në playback. 'Normale' do të thotë çaktivizo regjistrimin dhe mos regjistro ECM."
->>>>>>> ebf6a85 (update po file)
 
 msgid "(All readers)"
 msgstr "(Të gjithë lexuesit)"
@@ -1398,14 +1230,8 @@ msgstr "(PiP)"
 msgid "(Radio)"
 msgstr "(Radio)"
 
-<<<<<<< HEAD
-#, python-format
-msgid "(Show only reader) (%s)"
-msgstr "(Shfaq vetëm lexues) (%s"
-=======
 msgid "(Show only reader) (%s)"
 msgstr "(Shfaq vetëm lexuesin) (%s)"
->>>>>>> ebf6a85 (update po file)
 
 msgid "(TV)"
 msgstr "(TV)"
@@ -1447,11 +1273,7 @@ msgid "-24h/+24 Hours"
 msgstr "-24h/+24 orë"
 
 msgid "/media/custom"
-<<<<<<< HEAD
-msgstr "media"
-=======
 msgstr "/media/custom"
->>>>>>> ebf6a85 (update po file)
 
 msgid "/s"
 msgstr "/s"
@@ -1520,43 +1342,26 @@ msgid "16:9 Always"
 msgstr "16:9 Always"
 
 msgid "16:9 Combined"
-<<<<<<< HEAD
-msgstr "16:9 Kombinohet"
-
-msgid "16:9 Ignore"
-msgstr "16:9 Shpërfill"
-=======
 msgstr "16:9 Combined"
 
 msgid "16:9 Ignore"
 msgstr "16:9 Ignore"
->>>>>>> ebf6a85 (update po file)
 
 msgid "16:9 Letterbox"
 msgstr "16:9 Letterbox"
 
 msgid "16:9 PanScan"
-<<<<<<< HEAD
-msgstr "16:9 Panskani"
-
-msgid "16:9 reset to normal"
-msgstr "16:9 rivendoset në normale"
-=======
 msgstr "16:9 PanScan"
 
 msgid "16:9 reset to normal"
 msgstr "16:9 reset to normal"
->>>>>>> ebf6a85 (update po file)
 
 msgid "18 V"
 msgstr "18 V"
 
-<<<<<<< HEAD
-=======
 msgid "1st InfoBar timeout"
 msgstr "Koha skadoi 1-ri InfoBar"
 
->>>>>>> ebf6a85 (update po file)
 msgid "1st infobar timeout"
 msgstr "hera e parë e informacioneve"
 
@@ -1612,17 +1417,10 @@ msgid "4"
 msgstr "4"
 
 msgid "4:3 Combined"
-<<<<<<< HEAD
-msgstr "4:3 Kombinohet"
-
-msgid "4:3 Ignore"
-msgstr "Shpërfill"
-=======
 msgstr "4:3 Combined"
 
 msgid "4:3 Ignore"
 msgstr "4:3 Ignore"
->>>>>>> ebf6a85 (update po file)
 
 msgid "4:3 Letterbox"
 msgstr "4:3 Letterbox"
@@ -1638,8 +1436,6 @@ msgstr "5"
 
 msgid "50-200 Mbps"
 msgstr "50-200 Mbps"
-<<<<<<< HEAD
-=======
 
 msgid "6"
 msgstr "6"
@@ -1649,7 +1445,6 @@ msgstr "7"
 
 msgid "8"
 msgstr "8"
->>>>>>> ebf6a85 (update po file)
 
 msgid "8 character"
 msgstr "8 simboli"
@@ -1694,11 +1489,7 @@ msgid "<Last timer location>"
 msgstr "<Last timer location>"
 
 msgid "<Select a device>"
-<<<<<<< HEAD
-msgstr "<Zgjidh një dispozitiv>"
-=======
 msgstr "<Select a device>"
->>>>>>> ebf6a85 (update po file)
 
 msgid "A"
 msgstr "A"
@@ -1708,29 +1499,17 @@ msgstr "Një kontroll i përditësimit të sfondit është në proces, ju lutemi
 
 msgid "A backup is now being created."
 msgstr "Tani po krijohet një mbështetje."
-<<<<<<< HEAD
-=======
 
 msgid ""
 "A comma separated list of extensions to be used for 'My Extension' setting of 'Filter extension'. Enter the extension names without a leading dot (.)."
 msgstr ""
 "Një listë shtesash të ndara me presje për tu përdorur për \"Shtypjen time\" të \"Pransës së Filtrave.\" Shkruaj emrat e shtesave pa një pike (.)."
->>>>>>> ebf6a85 (update po file)
 
 msgid "A completed task wants to set your %s %s to standby. Do that now?"
-<<<<<<< HEAD
-msgstr ""
-"Një detyrë e përfunduar dëshiron të caktojë [X35XX] tuaj në gatishmëri. Tani?"
-=======
 msgstr "A completed task wants to set your %s %s to standby. Do that now?"
->>>>>>> ebf6a85 (update po file)
 
 msgid "A completed task wants to shut down your %s %s. Shutdown now?"
-<<<<<<< HEAD
-msgstr "Një detyrë e përfunduar dëshiron të mbyllë %s tuaj %s. Tani mbylle?"
-=======
 msgstr "A completed task wants to shut down your %s %s. Shutdown now?"
->>>>>>> ebf6a85 (update po file)
 
 msgid "A crash log was %s created in '%s'"
 msgstr "A crash log was %s created in '%s'"
@@ -1953,8 +1732,6 @@ msgstr "Hyrje"
 msgid "Action"
 msgstr "Veprimi"
 
-<<<<<<< HEAD
-=======
 msgid "Action at end of media"
 msgstr "Veprimi në fund të medias"
 
@@ -1964,7 +1741,6 @@ msgstr "Veprimi në shtyp"
 msgid "Action on short POWER button press"
 msgstr "Veprimi në shtyp"
 
->>>>>>> ebf6a85 (update po file)
 msgid "Actions"
 msgstr "Veprimet"
 
@@ -2191,11 +1967,7 @@ msgid "Add the current directory as a bookmark"
 msgstr "Shto file aktual"
 
 msgid "Add the current/active service to the Volume Offset list"
-<<<<<<< HEAD
-msgstr "Shto në lista"
-=======
 msgstr "Add the current/active service to the Volume Offset list"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Add the selected service to a bouquet or alternative"
 msgstr "Shtoni shërbimin e zgjedhur një buqetë apo alternativë"
@@ -2210,18 +1982,6 @@ msgid "Add/Remove a timer for the current event"
 msgstr "Add/Remove a timer for the current event"
 
 msgid "Add/Remove highlighted plugin to/from install list"
-<<<<<<< HEAD
-msgstr "Shto/Hiq"
-
-msgid "Add/Remove highlighted plugin to/from remove list"
-msgstr "Shto sipër Hiq lista"
-
-msgid "Add/Remove highlighted plugin to/from update list"
-msgstr "Shto/Hiq"
-
-msgid "Add/Remove the current service to/from the Volume Offset list"
-msgstr "Shto/Hiq shërbimin aktual në/nga lista e Offset e vëllimit"
-=======
 msgstr "Add/Remove highlighted plugin to/from install list"
 
 msgid "Add/Remove highlighted plugin to/from remove list"
@@ -2232,7 +1992,6 @@ msgstr "Add/Remove highlighted plugin to/from update list"
 
 msgid "Add/Remove the current service to/from the Volume Offset list"
 msgstr "Add/Remove the current service to/from the Volume Offset list"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Adding schedule..."
 msgstr "Duke shtuar programin..."
@@ -2317,12 +2076,9 @@ msgstr "Afrikanë"
 
 msgid "After Event"
 msgstr "Ndodhi"
-<<<<<<< HEAD
-=======
 
 msgid "After PowerLost"
 msgstr "Pas humbjes së pushtetit"
->>>>>>> ebf6a85 (update po file)
 
 msgid "After event"
 msgstr "Eventi"
@@ -2507,11 +2263,7 @@ msgid "Alphanumeric"
 msgstr "Alfanumerik"
 
 msgid "Also import at reboot/restart enigma2"
-<<<<<<< HEAD
-msgstr "Importo"
-=======
 msgstr "Also import at reboot/restart enigma2"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Also import from the extension menu"
 msgstr "Importo menuja"
@@ -2538,9 +2290,6 @@ msgid "Alternative Edit"
 msgstr "Ndrysho"
 
 msgid "Alternative URLs for DVB-T/C or ATSC"
-<<<<<<< HEAD
-msgstr "URL alternative për DVB-T/C ose ATSC"
-=======
 msgstr "Alternative URLs for DVB-T/C or ATSC"
 
 msgid "Alternative radio mode"
@@ -2548,7 +2297,6 @@ msgstr "Modaliteti"
 
 msgid "Alternative services tuner priority"
 msgstr "Përparësi e shërbimeve alternative"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Always"
 msgstr "Gjithmonë"
@@ -2586,8 +2334,6 @@ msgstr "Amlogike"
 
 msgid "Amlogic remote"
 msgstr "Largësia amloge"
-<<<<<<< HEAD
-=======
 
 msgid ""
 "An attempt is made to capture the current TV status. If this is not possible due to incorrect or missing status messages it may cause the receiver to "
@@ -2595,7 +2341,6 @@ msgid ""
 msgstr ""
 "Një përpjekje është bërë për të kapur statusin aktual të TV. Nëse kjo nuk është e mundur për shkak të mesazheve të pasaktë ose të humbur të gjendjes, "
 "mund të bëjë që marrësi të reagojë papritur. Nga ana tjetër, përpiqet t'u përgjigjet më mirë kushteve të ndryshme operative."
->>>>>>> ebf6a85 (update po file)
 
 msgid "An error occurred while downloading the packet list. Please try again."
 msgstr "U ndesh një gabim gjatë shkarkimit të listës së paketave. Ju lutem provoni përsëri."
@@ -2724,17 +2469,8 @@ msgstr "Jeni i sigurt që dëshironi të eleminoni këtë figurë?"
 msgid "Are you sure you want to delete this log:\n"
 msgstr "Nga elemino:\n"
 
-<<<<<<< HEAD
-msgid ""
-"Are you sure you want to delete this:\n"
-" "
-msgstr ""
-"Jeni i sigurt që dëshironi të eleminoni këtë:\n"
-" "
-=======
 msgid "Are you sure you want to delete this:\n"
 msgstr "Jeni i sigurt që dëshironi të eleminoni këtë:\n"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Are you sure you want to delete this?"
 msgstr "Jeni i sigurt që dëshironi të eleminoni këtë?"
@@ -2766,21 +2502,12 @@ msgstr ""
 "Jeni i sigurt që dëshironi të rivendosni përforcimet?\n"
 "Marrësi juaj do të rifillojë mbas rikthimit të backups!"
 
-<<<<<<< HEAD
-#, python-format
-=======
->>>>>>> ebf6a85 (update po file)
 msgid ""
 "Are you sure you want to restore your %s %s backup?\n"
 "STB will restart after the restore"
 msgstr ""
-<<<<<<< HEAD
-"Jeni i sigurt që dëshironi të rivendosni përforcimet [X38X41X]?\n"
-"STB do të rinisë mbas rikthimit"
-=======
 "Are you sure you want to restore your %s %s backup?\n"
 "STB will restart after the restore"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Are you sure you want to save the EPG Cache to:\n"
 msgstr "Je i sigurt që dëshiron të shpëtosh Cache EG:\n"
@@ -2828,17 +2555,10 @@ msgid "Aspect Ratio Actions"
 msgstr "Shqyrto veprimet e Ratios"
 
 msgid "Aspect Ratio: "
-<<<<<<< HEAD
-msgstr "Aspekte Ratio: "
-
-msgid "Aspect Ratio: n/a"
-msgstr "Asct Ratio: n/a"
-=======
 msgstr "Aspekte Ratio:"
 
 msgid "Aspect Ratio: n/a"
 msgstr "Aspect Ratio: n/a"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Aspect list..."
 msgstr "Lista e opsioneve..."
@@ -2897,21 +2617,11 @@ msgstr "Zëri Kanali"
 msgid "Audio PID"
 msgstr "Zëri PID"
 
-<<<<<<< HEAD
-#, python-format
-msgid "Audio PID%s, Codec & Language"
-msgstr "Zëri PID%s, Codec & Language"
-
-#, python-format
-msgid "Audio PID%s, codec & lang"
-msgstr "Audio PID%s, codec & lang"
-=======
 msgid "Audio PID%s, Codec & Language"
 msgstr "Zëri PID%s, Codec & Language"
 
 msgid "Audio PID%s, codec & lang"
 msgstr "Zëri PID%s, codec & lang"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Audio PID, codec & lang"
 msgstr "Zëri PID, codec & lang"
@@ -2999,15 +2709,12 @@ msgstr "Auto:"
 
 msgid "Auto timeout:"
 msgstr "Auto:"
-<<<<<<< HEAD
-=======
 
 msgid "Auto video mode selected"
 msgstr "Automatike modaliteti"
 
 msgid "Auto video mode selected for the TV."
 msgstr "Modaliteti për TV."
->>>>>>> ebf6a85 (update po file)
 
 msgid "Auto(not available)"
 msgstr "Në dispozicion"
@@ -3017,12 +2724,9 @@ msgstr "Rregullimet AutoCam"
 
 msgid "AutoCam Setup Actions"
 msgstr "Veprimet"
-<<<<<<< HEAD
-=======
 
 msgid "AutoMountManager"
 msgstr "AutoMountManager"
->>>>>>> ebf6a85 (update po file)
 
 msgid "AutoTimer"
 msgstr "AutoTimer"
@@ -3124,11 +2828,7 @@ msgid "Back USB"
 msgstr "Back USB"
 
 msgid "Back USB 3.0"
-<<<<<<< HEAD
-msgstr "USP 3.0"
-=======
 msgstr "Back USB 3.0"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Back USB-C"
 msgstr "Mbrapa"
@@ -3223,15 +2923,12 @@ msgstr "Backup rregullimet"
 
 msgid "Backup tool for %s %s"
 msgstr "Mjet backup për %s %s"
-<<<<<<< HEAD
-=======
 
 msgid "Backup your %s %s settings."
 msgstr "Ruaj rregullimet tuaja %s %s."
 
 msgid "Backup your running %s %s image to HDD or USB."
 msgstr "Backup your running %s %s image to HDD or USB."
->>>>>>> ebf6a85 (update po file)
 
 msgid "Bahamas"
 msgstr "Bahama"
@@ -3259,27 +2956,15 @@ msgstr "Bazë"
 
 msgid "Base Shell"
 msgstr "Bazë"
-<<<<<<< HEAD
-=======
 
 msgid "Base time"
 msgstr "Ora bazë"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Base transparency for OpenOpera web browser"
 msgstr "Transparenca bazë për shfletuesin e internetit OpenOpera"
 
-<<<<<<< HEAD
-msgid ""
-"Base transparency for teletext, more options available within teletext "
-"screen."
-msgstr ""
-"Transparenca bazë për teletekst, më shumë opsione të disponueshme brenda "
-"ekranit teletekst."
-=======
 msgid "Base transparency for teletext, more options available within teletext screen."
 msgstr "Transparenca bazë për teletekst, më shumë opsione të disponueshme brenda ekranit teletekst."
->>>>>>> ebf6a85 (update po file)
 
 msgid "Baseball"
 msgstr "Bejzboll"
@@ -3438,11 +3123,7 @@ msgid "Boot-up action"
 msgstr "Veprimi"
 
 msgid "Bootloader:\t%s\n"
-<<<<<<< HEAD
-msgstr "Bootloger: %s\n"
-=======
 msgstr "Bootloager: %s\n"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Bosnia and Herzegovina"
 msgstr "Bosnje dhe Herzegovina"
@@ -3525,14 +3206,8 @@ msgstr "Gjenero Brend"
 msgid "Build Model"
 msgstr "Gjenero Model"
 
-<<<<<<< HEAD
-#, python-format
-msgid "Build:\t%s"
-msgstr "Gjenero"
-=======
 msgid "Build:\t%s"
 msgstr "Build: %s"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Build: %s"
 msgstr "Build: %s"
@@ -3584,12 +3259,9 @@ msgstr "Bytes marrë"
 
 msgid "Bytes sent"
 msgstr "Bytes u dërgua"
-<<<<<<< HEAD
-=======
 
 msgid "C"
 msgstr "C"
->>>>>>> ebf6a85 (update po file)
 
 msgid "C-Band"
 msgstr "C-Band"
@@ -3634,12 +3306,9 @@ msgstr "CCcam Line Ndrysho veprimet"
 
 msgid "CCcam Line Editor"
 msgstr "CCcam Modifikues line"
-<<<<<<< HEAD
-=======
 
 msgid "CCcam Profile Settings"
 msgstr "Rregullimet e profilit CCcam"
->>>>>>> ebf6a85 (update po file)
 
 msgid "CCcam Provider Info"
 msgstr "CCcam Sigurues Info"
@@ -3703,12 +3372,9 @@ msgstr "CI+ V13"
 
 msgid "CI+ V14"
 msgstr "CI+ V14"
-<<<<<<< HEAD
-=======
 
 msgid "CIFS/Samba Settings"
 msgstr "CIFS/Samba Settings"
->>>>>>> ebf6a85 (update po file)
 
 msgid "CPU"
 msgstr "CPU"
@@ -3718,18 +3384,12 @@ msgstr "Arkitektura CPU"
 
 msgid "CPU brand"
 msgstr "Marka CPU"
-<<<<<<< HEAD
-
-msgid "CPU speed/cores"
-msgstr "Shpejtësia/coreza CPU"
-=======
 
 msgid "CPU priority for scripts"
 msgstr "Përparësia CPU për script-et"
 
 msgid "CPU speed/cores"
 msgstr "CPU speed/cores"
->>>>>>> ebf6a85 (update po file)
 
 msgid "CPU temperature"
 msgstr "Temperatura CPU"
@@ -3738,11 +3398,7 @@ msgid "CPU:\t%s"
 msgstr "CPU: %s"
 
 msgid "CPU:\t%s %s %s\n"
-<<<<<<< HEAD
-msgstr "CPU: %s %s\n"
-=======
 msgstr "CPU: %s %s %s\n"
->>>>>>> ebf6a85 (update po file)
 
 msgid "CaID: "
 msgstr "CaID:"
@@ -3769,11 +3425,7 @@ msgid "Calculate"
 msgstr "Makinë llogaritëse"
 
 msgid "Calculate file hashes/checksums"
-<<<<<<< HEAD
-msgstr "Makinë llogaritëse"
-=======
 msgstr "Calculate file hashes/checksums"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Calculating..."
 msgstr "Duke llogaritur..."
@@ -3849,13 +3501,7 @@ msgstr "E pamundur lëvizja e file të mëparshëm të zhvendosjes! Mund ta prov
 msgid "Can't unmount partition, make sure it is not being used for swap or record/time shift paths"
 msgstr "E pamundur heqja e ndarjes, sigurohuni që nuk është duke u përdorur për shkëmbimin apo traversin rekord/time"
 
-<<<<<<< HEAD
-msgid ""
-"Can't unmount partiton, make sure it is not being used for swap or record/"
-"timeshift paths"
-=======
 msgid "Can't unmount partiton, make sure it is not being used for swap or record/timeshift paths"
->>>>>>> ebf6a85 (update po file)
 msgstr "Sipër jo për j"
 
 msgid "Canada"
@@ -3976,17 +3622,9 @@ msgid ""
 "Please stop this actions/applications and try again"
 msgstr ""
 "I pamundur formati i drive aktuale.\n"
-<<<<<<< HEAD
-"Ky problem mund të shkaktohet nga një regjistrim në progres, në kohën e "
-"sajuar ose nga disa mjete të jashtme (si samba, shkëmbimi i file dhe nfsd).\n"
-"Ndalni veprimet/aplikimet dhe provoni përsëri"
-
-#, python-format
-=======
 "Ky problem mund të shkaktohet nga një regjistrim në progres, në kohën e sajuar ose nga disa mjete të jashtme (si samba, shkëmbimi i file dhe nfsd).\n"
 "Ndalni veprimet/aplikimet dhe provoni përsëri"
 
->>>>>>> ebf6a85 (update po file)
 msgid "Cannot format partition %d"
 msgstr "I pamundur formati i ndarjes %d"
 
@@ -4006,12 +3644,7 @@ msgid ""
 "Please stop this actions/applications and try again"
 msgstr ""
 "J\n"
-<<<<<<< HEAD
-"Ky problem mund të shkaktohet nga një regjistrim në progres, në kohën e "
-"sajuar ose nga disa mjete të jashtme (si samba, shkëmbimi i file dhe nfsd).\n"
-=======
 "Ky problem mund të shkaktohet nga një regjistrim në progres, në kohën e sajuar ose nga disa mjete të jashtme (si samba, shkëmbimi i file dhe nfsd).\n"
->>>>>>> ebf6a85 (update po file)
 "Ndalni veprimet/aplikimet dhe provoni përsëri"
 
 msgid ""
@@ -4020,12 +3653,7 @@ msgid ""
 "Please stop this actions/applications and try again"
 msgstr ""
 "Nuk është e mundur t'i japësh makinës aktuale.\n"
-<<<<<<< HEAD
-"Ky problem mund të shkaktohet nga një regjistrim në progres, në kohën e "
-"sajuar ose nga disa mjete të jashtme (si samba, shkëmbimi i file dhe nfsd).\n"
-=======
 "Ky problem mund të shkaktohet nga një regjistrim në progres, në kohën e sajuar ose nga disa mjete të jashtme (si samba, shkëmbimi i file dhe nfsd).\n"
->>>>>>> ebf6a85 (update po file)
 "Ndalni veprimet/aplikimet dhe provoni përsëri"
 
 msgid "Cape Verde"
@@ -4199,11 +3827,6 @@ msgstr "Kanali Zgjedhja Menu"
 
 msgid "Channel Selection Context Menu Navigation Actions"
 msgstr "Kanali Zgjedhja"
-<<<<<<< HEAD
-
-msgid "Channel Selection Navigation Actions"
-msgstr "Kanali Zgjedhja Veprimet"
-=======
 
 msgid "Channel Selection List"
 msgstr "Lista e zgjedhjes së kanaleve"
@@ -4222,7 +3845,6 @@ msgstr "Pulsantët e kanalit"
 
 msgid "Channel buttons invert"
 msgstr "Ndërprit"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Channel down"
 msgstr "Kanali poshtë"
@@ -4307,8 +3929,6 @@ msgstr "Kontrollo dhe instalo përditësimet e programeve në dispozicion"
 
 msgid "Check disk terminated with success"
 msgstr "Kontrolli disk përfundoi me sukses"
-<<<<<<< HEAD
-=======
 
 msgid "Check power and input state from TV"
 msgstr "Kontrollo energjinë dhe hyrjen nga TV"
@@ -4318,7 +3938,6 @@ msgstr "Kontrollo lidhjen në internet"
 
 msgid "Check the internet connection again"
 msgstr "Kontrollo përsëri lidhjen në internet"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Checking Feeds"
 msgstr "Kontrolli i ushqimit"
@@ -4329,14 +3948,8 @@ msgstr "Kontrolli i logs..."
 msgid "Checking disk"
 msgstr "Disk"
 
-<<<<<<< HEAD
-#, python-format
-msgid "Checking disk %s"
-msgstr "Kontrolli i diskut %s"
-=======
 msgid "Checking disk %s"
 msgstr "Checking disk %s"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Checking file system..."
 msgstr "Kontrolli i sistemit të file..."
@@ -4375,24 +3988,12 @@ msgstr "Kineze"
 msgid "Chinese (Simplified)"
 msgstr "Kineze"
 
-<<<<<<< HEAD
-#, python-format
-msgid "Chipset:\t%s\n"
-msgstr "Chipset: %s\n"
-
-#, python-format
-msgid "Chipset:\tBroadcom %s\n"
-msgstr "Chipset: Broadcom %s\n"
-
-#, python-format
-=======
 msgid "Chipset:\t%s\n"
 msgstr "Chipset: %s\n"
 
 msgid "Chipset:\tBroadcom %s\n"
 msgstr "Chipset: Broadcom %s\n"
 
->>>>>>> ebf6a85 (update po file)
 msgid "Chipset:\tHiSilicon %s\n"
 msgstr "Chipset: HiSIcon %s\n"
 
@@ -4431,26 +4032,18 @@ msgstr "Zgjedhja ku duhet vendosur \"%s\""
 
 msgid "Choose CCcam-Reader"
 msgstr "Zgjidh CCcam-lexues"
-<<<<<<< HEAD
-=======
 
 msgid "Choose a country scheme for decoding genre information in EPG events."
 msgstr "Zgjidh një skemë vendi për dekodimin e informacionit të zhanrit në ngjarjet e EG."
 
 msgid "Choose a country scheme for decoding rating information in EPG events."
 msgstr "Zgjidh një skemë vendi për dekodimin e informacionit të vlerësimit në ngjarjet e EG."
->>>>>>> ebf6a85 (update po file)
 
 msgid "Choose extra files and folders to include in backups"
 msgstr "Zgjidh files dhe kartelat shtesë për t'u përfshirë në backup"
 
 msgid "Choose files and folders to exclude from backup"
 msgstr "Zgjidh files dhe kartelat për t'u përjashtuar nga backup"
-<<<<<<< HEAD
-
-msgid "Choose reader"
-msgstr "Zgjidh lexuesin"
-=======
 
 msgid ""
 "Choose how much EPG history, if any, to keep in the EPG cache. This historic data can be browsed in any of the EPG views. This can be useful when you "
@@ -4529,7 +4122,6 @@ msgstr "Zgjidh intervalin e kohës ku grafikët do të rrethohen."
 
 msgid "Choose what you want the button '0' to do when PiP is active."
 msgstr "Zgjidh atë që dëshiron të bësh butoni 0 kur PiP është aktiv."
->>>>>>> ebf6a85 (update po file)
 
 msgid "Choose where to mount your devices to:"
 msgstr "Zgjidhni ku të ngrini pajisjet tuaja:"
@@ -4644,13 +4236,8 @@ msgstr "Pastro depot virtuale të kujtesës"
 
 msgid "Clear warning"
 msgid_plural "Clear warnings"
-<<<<<<< HEAD
-msgstr[0] "Paralajmërim i qartë"
-msgstr[1] "Paralajmërime të qarta"
-=======
 msgstr[0] "Clear Log"
 msgstr[1] "Clear Log"
->>>>>>> ebf6a85 (update po file)
 
 msgid "ClearMem Info"
 msgstr "PastroMem Info"
@@ -4667,17 +4254,11 @@ msgstr "Kliko butonin tek telekomanda juaj që dëshironi të ndryshoni."
 msgid "Client"
 msgstr "Klienti"
 
-<<<<<<< HEAD
-#, python-format
-msgid "Client %s-%s"
-msgstr "Klienti %s-%s"
-=======
 msgid "Client %s-%s"
 msgstr "Klienti %s-%s"
 
 msgid "Client Mode setup"
 msgstr "Modaliteti i klientit"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Client is streaming from this box!"
 msgstr "Klienti po vjen nga kjo kuti!"
@@ -4699,12 +4280,9 @@ msgstr "Mbyll"
 
 msgid "Close CA device at programm end"
 msgstr "Mbyll dispozitivin CA në fund të programit"
-<<<<<<< HEAD
-=======
 
 msgid "Close PiP on exit"
 msgstr "Mbyll PiP në dalje"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Close Task List"
 msgstr "Lista e aktiviteteve"
@@ -4724,22 +4302,14 @@ msgstr "Mbyll dialog"
 msgid "Close screen"
 msgstr "Mbyll ekranin"
 
-<<<<<<< HEAD
-=======
 msgid "Close the Chkroot MultiBoot Manager"
 msgstr "Close the Kexec MultiBoot Manager"
 
->>>>>>> ebf6a85 (update po file)
 msgid "Close the Device Manager screen"
 msgstr "Mbyll ekranin e menazhuesit të dispozitivit"
 
 msgid "Close the Device Manager screen and exit all menus"
-<<<<<<< HEAD
-msgstr ""
-"Mbyll ekranin e menazhuesit të dispozitivit dhe dil nga të gjitha menutë"
-=======
 msgstr "Mbyll ekranin e menazhuesit të dispozitivit dhe dil nga të gjitha menutë"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Close the Kexec MultiBoot Manager"
 msgstr "Mbyll Menaxhuesin e MultiBoot Kexec"
@@ -4823,20 +4393,6 @@ msgid "Comedy"
 msgstr "Komedi"
 
 msgid "Command '%s' is unknown"
-<<<<<<< HEAD
-msgstr "Komanda '%s' është e panjohur"
-
-msgid "Command To Run"
-msgstr "Komanda për tu ekzekutuar"
-
-msgid "Command failed: "
-msgstr "Komanda dështoi: %s "
-
-msgid "Command finished."
-msgid_plural "Commands finished."
-msgstr[0] "Komanda përfundoi."
-msgstr[1] "Lloji i komandës"
-=======
 msgstr "Komanda '%s' nuk njihet"
 
 msgid "Command To Run"
@@ -4852,7 +4408,6 @@ msgid "Command finished."
 msgid_plural "Commands finished."
 msgstr[0] "Command failed: "
 msgstr[1] "Command failed: "
->>>>>>> ebf6a85 (update po file)
 
 msgid "Command order"
 msgstr "Komanda"
@@ -4863,10 +4418,6 @@ msgstr "Komanda për tu ekzekutuar"
 msgid "Command type"
 msgstr "Lloji i komandës"
 
-<<<<<<< HEAD
-msgid "Common Information Actions"
-msgstr "Veprimet e përbashkëta të informacionit"
-=======
 msgid "CommitInfo"
 msgstr "KryejInfo"
 
@@ -4875,7 +4426,6 @@ msgstr "Veprimet e përbashkëta të informacionit"
 
 msgid "Common Interface"
 msgstr "Interfaqja e përbashkët"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Common Interface Assignment"
 msgstr "Caktimi i përbashkët i interfaqes"
@@ -4902,11 +4452,7 @@ msgid "Composition of the recording filenames"
 msgstr "Kompozimi nga"
 
 msgid "Compressed bits/pixel"
-<<<<<<< HEAD
-msgstr "Kompresuar"
-=======
 msgstr "Compressed bits/pixel"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Config"
 msgstr "Konfigurim"
@@ -4935,23 +4481,15 @@ msgstr "Opsionet e konfigurimit për ekranin e NDIHMËs mund të gjenden në 'ME
 
 msgid "Configuration tool for OScam"
 msgstr "Mjet konfigurimi për Oskam"
-<<<<<<< HEAD
-=======
 
 msgid "Configure DNS (name servers)"
 msgstr "Konfiguro DNS ( servera me emër)"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Configure Samba network sharing"
 msgstr "Konfiguro ndarjen e rrjetit Samba"
 
 msgid "Configure Softcam settings"
 msgstr "Konfiguro rregullimet e softcam"
-<<<<<<< HEAD
-
-msgid "Configure and manage your hard disk"
-msgstr "Konfiguro dhe menaxhoje diskun tënd të fortë"
-=======
 
 msgid "Configure an additional delay to improve external subtitle synchronization."
 msgstr "Konfiguro një shtyrje shtesë për të përmirësuar sinkronizimin e emrit të jashtëm."
@@ -5022,15 +4560,12 @@ msgstr ""
 "Konfiguro ose verifiko DNS ( serverat e tu me emër) duke rregulluar vlerat e shfaqura.\n"
 "\n"
 "Kur rregullimet janë korrekte shtyp OK për të vazhduar."
->>>>>>> ebf6a85 (update po file)
 
 msgid "Configure remote control type"
 msgstr "Konfiguro llojin e kontrollit remot"
 
 msgid "Configure swap space settings"
 msgstr "Konfiguro rregullimet hapsinore"
-<<<<<<< HEAD
-=======
 
 msgid "Configure the DiSEqC mode for this LNB."
 msgstr "Konfiguro mënyrën DiSEqC për këtë LNB."
@@ -5055,7 +4590,6 @@ msgstr "Konfiguro abonimin e emrave të shërbimit."
 
 msgid "Configure the amount of time that will be presented."
 msgstr "Konfiguro sasinë e kohës që do të paraqitet."
->>>>>>> ebf6a85 (update po file)
 
 msgid "Configure the aspect ratio of the screen."
 msgstr "Konfiguro raportin aspekt të ekranit."
@@ -5337,8 +4871,6 @@ msgstr "Konfiguro cila format ngjyre duhet përdorur në prodhimin START."
 
 msgid "Configure which system settings to back up"
 msgstr "Konfiguro se cilat rregullime të sistemit do të kthehen"
-<<<<<<< HEAD
-=======
 
 msgid "Configure which tuner for recordings will be preferred, when more than one tuner is available."
 msgstr "Konfiguro se cili melodik do të preferohet, kur të jetë në dispozicion më shumë se një melodiator."
@@ -5363,7 +4895,6 @@ msgstr ""
 
 msgid "Configure your NTP server."
 msgstr "Konfiguro serverin tuaj NNTP."
->>>>>>> ebf6a85 (update po file)
 
 msgid "Configure your internal LAN"
 msgstr "Konfiguro"
@@ -5399,11 +4930,7 @@ msgid ""
 "Connect your usb storage to your %s %s box\n"
 "\n"
 msgstr ""
-<<<<<<< HEAD
-"Bashkoni depon tuaj me kutinë %s\n"
-=======
 "Bashkoje me arkivin tuaj %s %s\n"
->>>>>>> ebf6a85 (update po file)
 "\n"
 
 msgid "Connected clients"
@@ -5424,17 +4951,8 @@ msgstr "Lidhur"
 msgid "Connection information"
 msgstr "Informacione mbi lidhjen"
 
-<<<<<<< HEAD
-msgid ""
-"Connection using the supplied FTP parameters failed. Please recheck the "
-"details and try again."
-msgstr ""
-"Lidhja duke përdorur parametrat e dhëna FTP dështoi. Ju lutem kontrolloni "
-"detajet dhe provoni përsëri."
-=======
 msgid "Connection using the supplied FTP parameters failed. Please recheck the details and try again."
 msgstr "Lidhja duke përdorur parametrat e dhëna FTP dështoi. Ju lutem kontrolloni detajet dhe provoni përsëri."
->>>>>>> ebf6a85 (update po file)
 
 msgid "Connector"
 msgstr "Connector"
@@ -5463,24 +4981,11 @@ msgstr "Konsulto specifikimet e dispozitivit SCR për këtë informacion."
 msgid "Consult your motor's specifications for this information, or leave the default setting."
 msgstr "Konsultoni specifikimet e motorit tuaj për këtë informacion, ose lini rregullimet e prezgjedhura."
 
-<<<<<<< HEAD
-msgid ""
-"Consult your receiver's manual for more information on power management."
-msgstr ""
-"Konsultoni manualin e marrësit tuaj për më shumë informacion mbi "
-"administrimin e energjisë."
-
-msgid "Consult your receiver's manual for more information on power threshold."
-msgstr ""
-"Konsultoni manualin e marrësit tuaj për më shumë informacion në pragun e "
-"energjisë."
-=======
 msgid "Consult your receiver's manual for more information on power management."
 msgstr "Konsultoni manualin e marrësit tuaj për më shumë informacion mbi administrimin e energjisë."
 
 msgid "Consult your receiver's manual for more information on power threshold."
 msgstr "Konsultoni manualin e marrësit tuaj për më shumë informacion në pragun e energjisë."
->>>>>>> ebf6a85 (update po file)
 
 msgid "Contact Info"
 msgstr "Informacione kontakti"
@@ -5502,12 +5007,9 @@ msgstr "Kontinent"
 
 msgid "Continue ->"
 msgstr "Vazhdo"
-<<<<<<< HEAD
-=======
 
 msgid "Continue in background"
 msgstr "Vazhdo në sfond"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Continue playback"
 msgstr "Vazhdo"
@@ -5538,15 +5040,12 @@ msgstr "Kontrolli LED mund të ndizet ose fiket këtu."
 
 msgid "Control files:"
 msgstr "File kontrollues:"
-<<<<<<< HEAD
-=======
 
 msgid "Control of the position how finished timer are shown in the Timer List."
 msgstr "Kontrolli i pozicionit se si është shfaqur kronometri i fundit në Listën e Timer."
 
 msgid "Control the InfoBar fading speed"
 msgstr "Kontrollo shpejtësinë e venitjes së Info Bar"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Controlled by HDMI"
 msgstr "Kontrolluar nga HDMI"
@@ -5585,11 +5084,7 @@ msgid "Copy all related files"
 msgstr "Kopjo"
 
 msgid "Copy directory/file to target directory"
-<<<<<<< HEAD
-msgstr "Kopjo"
-=======
 msgstr "Copy directory/file to target directory"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Copy job completed."
 msgstr "Puna përfundoi."
@@ -5604,18 +5099,10 @@ msgid "Copy only highlighted file"
 msgstr "Kopjo"
 
 msgid "Copy the directory/file '%s'?"
-<<<<<<< HEAD
-msgstr "Kopjon directory/file '%s?"
-=======
 msgstr "Kopjon directory/file '%s'?"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Copy these %d directories/files?"
-<<<<<<< HEAD
-msgstr "Kopjo?"
-=======
 msgstr "Copy these %d directories/files?"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Copying files"
 msgstr "Duke kopjuar file"
@@ -5774,18 +5261,10 @@ msgid "Current directory"
 msgstr "Directory aktuale"
 
 msgid "Current directory (%s)"
-<<<<<<< HEAD
-msgstr "Zgjedhja aktuale"
-=======
 msgstr "Current directory (%s)"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Current location is '%s'."
-<<<<<<< HEAD
-msgstr "Pozicioni aktual është '%s."
-=======
 msgstr "Pozicioni aktual është '%s'."
->>>>>>> ebf6a85 (update po file)
 
 msgid "Current mode: %s \n"
 msgstr "Current mode: %s \n"
@@ -5815,13 +5294,8 @@ msgid ""
 "Current: %s\n"
 "Parent: %s"
 msgstr ""
-<<<<<<< HEAD
-"Aktual\n"
-"Prindi: %s"
-=======
 "Current: %s\n"
 "Parent: %s"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Currently Defined Volume Offsets:"
 msgstr "Tani përcaktimi i gojës:"
@@ -5837,11 +5311,6 @@ msgstr "E personalizuar"
 
 msgid "Custom mountpoint"
 msgstr "E personalizuar"
-<<<<<<< HEAD
-
-msgid "Customize OpenWebIF settings for fallback tuner"
-msgstr "Personalizo rregullimet OpenWebIF"
-=======
 
 msgid "Custom skip time for '1'/'3' buttons"
 msgstr "E personalizuar për"
@@ -5857,7 +5326,6 @@ msgstr "Personalizo rregullimet OpenWebIF"
 
 msgid "Customize System Settings"
 msgstr "Personalizo rregullimet e sistemit"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Customize your infobar settings"
 msgstr "Personalizo rregullimet"
@@ -5881,11 +5349,7 @@ msgid "Cycling"
 msgstr "Cikli"
 
 msgid "Cylinders: %s (max) %s (current)"
-<<<<<<< HEAD
-msgstr "Cillinders: %s (max) (X20X) (në vazhdim)"
-=======
 msgstr "Cillinders: %s (max) %s (në vazhdim)"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Cylinders: unknown"
 msgstr "Cilinders: i panjohur"
@@ -5915,11 +5379,7 @@ msgid "DLNA support"
 msgstr "Suporti DLNA"
 
 msgid "DMIPS:\t"
-<<<<<<< HEAD
-msgstr "DMIPS:\t"
-=======
 msgstr "DMIPS:"
->>>>>>> ebf6a85 (update po file)
 
 msgid "DMM advanced"
 msgstr "DMM"
@@ -5963,15 +5423,12 @@ msgstr "DVB Subtitles PID & Language"
 
 msgid "DVB Subtitles PID & lang"
 msgstr "DVB Subtitles PID & lang"
-<<<<<<< HEAD
-=======
 
 msgid "DVB subtitle black transparency"
 msgstr "DVB"
 
 msgid "DVB subtitles color"
 msgstr "DVB"
->>>>>>> ebf6a85 (update po file)
 
 msgid "DVB-C"
 msgstr "DVB-C"
@@ -6038,12 +5495,9 @@ msgstr "Data në ngjitje"
 
 msgid "Date descending"
 msgstr "Data në zbritje"
-<<<<<<< HEAD
-=======
 
 msgid "Date style"
 msgstr "Stili i datës"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Date/time input"
 msgstr "Date/time input"
@@ -6224,8 +5678,6 @@ msgstr "E prezgjedhur lloji"
 
 msgid "Default (Instant Record)"
 msgstr "E prezgjedhur"
-<<<<<<< HEAD
-=======
 
 msgid ""
 "Default CPU priority (nice) for executed scripts. This can reduce the system load so that scripts do not interfere with the rest of the system. "
@@ -6243,7 +5695,6 @@ msgid ""
 msgstr ""
 "Prioriteti I/O i paracaktuar (onice) për script-et e ekzekutuar. Kjo mund të zvogëlojë ngarkesën e sistemit, në mënyrë që shkrimet të mos ndërhyjnë në "
 "pjesën tjetër të sistemit. (Vlerat më të larta = prioritet më i ulët)"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Default Services Scanner"
 msgstr "Skanuesi i Shërbimeve të prezgjedhura"
@@ -6255,19 +5706,12 @@ msgid "Default left column directory"
 msgstr "E prezgjedhur kollona e majtë"
 
 msgid "Default movie location (%s)"
-<<<<<<< HEAD
-msgstr "Pozicioni i prezgjedhur i filmit (%s"
-=======
 msgstr "Pozicioni i prezgjedhur i filmit (%s)"
 
 msgid "Default movie selection location"
 msgstr "Pozicioni i prezgjedhur i përzgjedhjes së filmit"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Default port is '%d'. Change if required."
-<<<<<<< HEAD
-msgstr "Porti i paracaktuar është '%d'. Ndrysho nëse është e nevojshme."
-=======
 msgstr "Default port is '%d'. Change if required."
 
 msgid "Default recording type"
@@ -6296,7 +5740,6 @@ msgstr "E prezgjedhur modaliteti për TV."
 
 msgid "Default volume offset"
 msgstr "E prezgjedhur"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Default: '%s'."
 msgstr "E paracaktuar: '%s'."
@@ -6309,12 +5752,9 @@ msgstr "Përcakto se sa i butë është ky Sigurues"
 
 msgid "Define Softcam For This Service"
 msgstr "Përcakto ndihmën e butë për këtë shërbim"
-<<<<<<< HEAD
-=======
 
 msgid "Define additional delay in milliseconds before start of http(s) streams."
 msgstr "Përcakto një vonesë shtesë në milisekonda para se të fillosh përrenj të http31-it."
->>>>>>> ebf6a85 (update po file)
 
 msgid "Define the custom mountpoint for the device."
 msgstr "Përcakto pikat e personalizuara për pajisjen."
@@ -6324,8 +5764,6 @@ msgstr "Përcakto opsionet e montimit të sistemit të file."
 
 msgid "Defined volume offset"
 msgstr "Përshpejtues i volumit të përcaktuar"
-<<<<<<< HEAD
-=======
 
 msgid "Defines how fast the time jumps are repeated. Values lower than 500ms may be problematic with NAS."
 msgstr "Përcakton se sa shpejt përsëritet koha. Vlerat më të ulëta se 500 metra mund të jenë problematike me NAS - në."
@@ -6348,7 +5786,6 @@ msgid "Defines which fast forward speeds are using normal cueing. All other forw
 msgstr ""
 "Përcakton se cilat shpejtësi të shpejta po përdorin sinjale normale. Të gjitha shpejtësitë e para dhe të gjitha shpejtësia e erës përdorin kërcimet e "
 "kohës."
->>>>>>> ebf6a85 (update po file)
 
 msgid "Delay after DiSEqC peripheral power on command"
 msgstr "Vonesa pas pushtetit periferik të DiSEqC në komandë"
@@ -6420,11 +5857,7 @@ msgid "Delay:"
 msgstr "Vonesa:"
 
 msgid "Delay: %s"
-<<<<<<< HEAD
-msgstr "Interval: %s"
-=======
 msgstr "Vonesa: %s"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Delete"
 msgstr "Elemino"
@@ -6437,12 +5870,9 @@ msgstr "Elemino"
 
 msgid "Delete Directory"
 msgstr "Elemino Directory"
-<<<<<<< HEAD
-=======
 
 msgid "Delete EPG"
 msgstr "Elemino"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Delete Image"
 msgstr "Figura"
@@ -6529,21 +5959,13 @@ msgid "Delete the currently selected timer"
 msgstr "Elemino kohën e zgjedhur"
 
 msgid "Delete the directory/file '%s'?"
-<<<<<<< HEAD
-msgstr "Eleminon directory/file '%s?"
-=======
 msgstr "Eleminon directory/file '%s'?"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Delete the selected locally stored image"
 msgstr "Eleminon figurën e zgjedhur në lokale"
 
 msgid "Delete these %d directories/files?"
-<<<<<<< HEAD
-msgstr "Eleminon këto directory/file?"
-=======
 msgstr "Eleminon këto %d directories/file?"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Delete this tag"
 msgstr "Elemino këtë etiketë"
@@ -6619,12 +6041,9 @@ msgstr "Destinacioni i gjurmës së marrës në distancë për DVB-C"
 
 msgid "Destination of fallback remote receiver for DVB-T"
 msgstr "Destinacioni i marrësit të prapambetur për DVB-T"
-<<<<<<< HEAD
-=======
 
 msgid "Detail of GStreamer log."
 msgstr "Pjesë e log log Gstreamer."
->>>>>>> ebf6a85 (update po file)
 
 msgid "Detailed memory usage"
 msgstr "Përdorimi i detajuar i kujtesës"
@@ -6642,12 +6061,7 @@ msgid ""
 "Device Fixed Mount Point change needs a system restart in order to take effect.\n"
 "Restart your STB now?"
 msgstr ""
-<<<<<<< HEAD
-"Ndryshimi i fiksuar i Malit Point ka nevojë për një rinisje të sistemit në "
-"mënyrë që të hyjë në veprim.\n"
-=======
 "Ndryshimi i fiksuar i Malit Point ka nevojë për një rinisje të sistemit në mënyrë që të hyjë në veprim.\n"
->>>>>>> ebf6a85 (update po file)
 "Rifillo STB-në tënde tani?"
 
 msgid "Device Manager"
@@ -6658,12 +6072,9 @@ msgstr "Manazhuesi i pajisjeve: Hiqrja e shpejtë"
 
 msgid "Device Manager Actions"
 msgstr "Veprimet"
-<<<<<<< HEAD
-=======
 
 msgid "Device Settings"
 msgstr "Rregullimet e dispozitivit"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Device id"
 msgstr "ID e dispozitivit"
@@ -6682,12 +6093,9 @@ msgstr "Dispozitivi:"
 
 msgid "Devices Manager"
 msgstr "Menaxhuesi i Dispozitivëve"
-<<<<<<< HEAD
-=======
 
 msgid "DiSEqC"
 msgstr "DSEqC"
->>>>>>> ebf6a85 (update po file)
 
 msgid "DiSEqC 1.0 command"
 msgstr "DiSEqC 1.0 command"
@@ -6766,15 +6174,6 @@ msgid "Directory browser"
 msgstr "Directory"
 
 msgid "Directory/File %d of %d"
-<<<<<<< HEAD
-msgstr "Directory/File [X15XXX21X]"
-
-msgid "Directory/File Status Actions"
-msgstr "Veprimet e Directory/File"
-
-msgid "Directory/File status information"
-msgstr "Informacione mbi gjendjen directory/File"
-=======
 msgstr "Directory/File %d në %d"
 
 msgid "Directory/File Status Actions"
@@ -6782,7 +6181,6 @@ msgstr "Directory/File Status Actions"
 
 msgid "Directory/File status information"
 msgstr "Directory/File status information"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Disable"
 msgstr "Jo aktiv"
@@ -6813,15 +6211,12 @@ msgstr "Çaktivizon ekranin intro"
 
 msgid "Disable operator profiles"
 msgstr "Ç'aktivo profilet e operatorëve"
-<<<<<<< HEAD
-=======
 
 msgid "Disable the HDD Process on VFD."
 msgstr "Çaktivizo Procesin HDD në VFD."
 
 msgid "Disable the MultiBoot option"
 msgstr "Kexec MultiBoot Actions"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Disable timer"
 msgstr "Ç'aktivo"
@@ -6833,14 +6228,10 @@ msgid "Disabled PiP.\n"
 msgstr "PiP i Çaktivizuar.\n"
 
 msgid "Disabled or WPA/WPA2"
-<<<<<<< HEAD
-msgstr "Çaktivizuar ose WPA/WPA2"
-=======
 msgstr "Disabled or WPA/WPA2"
 
 msgid "Dish"
 msgstr "Dish"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Disk partition info"
 msgstr "Informacione ndarëse"
@@ -6883,12 +6274,9 @@ msgstr "Shfaq file si tekst"
 
 msgid "Display log for the currently selected timer"
 msgstr "Shfaq për"
-<<<<<<< HEAD
-=======
 
 msgid "Display message before playing next movie"
 msgstr "Shfaq mesazh përpara"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Display more information about this file"
 msgstr "Shfaq më shumë informacion rreth këtij file"
@@ -6985,12 +6373,7 @@ msgid ""
 "Do you really want to format the device in the Linux file system?\n"
 "All data on the device will be lost!"
 msgstr ""
-<<<<<<< HEAD
-"Me të vërtetë dëshironi të formatoni dispozitivin në sistemin e skedarëve "
-"Linux?\n"
-=======
 "Me të vërtetë dëshironi të formatoni dispozitivin në sistemin e skedarëve Linux?\n"
->>>>>>> ebf6a85 (update po file)
 "Të gjitha të dhënat në pajisje do të humbasin!"
 
 msgid "Do you really want to move to trashcan ?"
@@ -7023,21 +6406,13 @@ msgid "Do you really want to remove your bookmark for '%s'?"
 msgstr "Me të vërtetë dëshiron të heqësh libërshënuesin për '%s'?"
 
 msgid "Do you really want to stop and delete the timer '%s'?"
-<<<<<<< HEAD
-msgstr "Vërtet do të ndalosh dhe të fshish kohëmatësin '%s?'?"
-=======
 msgstr "Me të vërtetë dëshiron të ndalosh dhe të eleminosh kronometrin '%s'?"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Do you want change '%s' access mode?"
-<<<<<<< HEAD
-msgstr "Dëshiron të ndryshosh mënyrën e hyrjes '%s?"
-=======
 msgstr "Dëshiron të ndryshosh mënyrën e hyrjes '%s'?"
 
 msgid "Do you want the upgrade guide?"
 msgstr "A doni udhëzuesin e përmirësimit?"
->>>>>>> ebf6a85 (update po file)
 
 msgid ""
 "Do you want to also install samba client ?\n"
@@ -7134,12 +6509,9 @@ msgstr "Dëshiron të rinisësh këtë lojë?"
 
 msgid "Do you want to select another service?"
 msgstr "Dëshiron të zgjedhësh një shërbim tjetër?"
-<<<<<<< HEAD
-=======
 
 msgid "Do you want to start a backup now?"
 msgstr "Do të fillosh një rezervë tani?"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Do you want to update:"
 msgstr "Dëshiron të përditësosh:"
@@ -7212,12 +6584,9 @@ msgstr "Shkarkimi (vizoni të kaloni në një kanal DVB-S2/T/T2/C)"
 
 msgid "Download Image"
 msgstr "Shkarkimi i figurës"
-<<<<<<< HEAD
-=======
 
 msgid "Download and flash images on your %s %s."
 msgstr "Shkarko dhe shfaq figura tek %s %s."
->>>>>>> ebf6a85 (update po file)
 
 msgid "Download error"
 msgstr "Gabim gjatë shkarkimit"
@@ -7230,12 +6599,9 @@ msgstr "Shkarkimi i plugin"
 
 msgid "Download the selected image"
 msgstr "Shkarkimi i figurës së zgjedhur"
-<<<<<<< HEAD
-=======
 
 msgid "Downloadable plugins"
 msgstr "Plugin e shkarkuar"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Downloaded images"
 msgstr "Imazhe të shkarkuara"
@@ -7243,14 +6609,8 @@ msgstr "Imazhe të shkarkuara"
 msgid "Downloading"
 msgstr "Shkarkimi"
 
-<<<<<<< HEAD
-#, python-format
-msgid "Downloading %s"
-msgstr "Shkarkimi %s"
-=======
 msgid "Downloading %s"
 msgstr "Duke shkarkuar %s"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Downloading Image"
 msgstr "Duke shkarkuar figurën"
@@ -7265,11 +6625,7 @@ msgid "Downloading plugin information. Please wait..."
 msgstr "Duke shkarkuar informacionet e plugin. Ju lutem prisni..."
 
 msgid "Downloading starded - VOD: "
-<<<<<<< HEAD
-msgstr "Shkarkimi me yje - VOD: "
-=======
 msgstr "Shkarkimi me yje - VOD:"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Downmix"
 msgstr "Poshtë"
@@ -7292,29 +6648,17 @@ msgstr "Shofer dhe informata nga kokrrat"
 msgid "Drivers version"
 msgstr "Versioni i shoferëve"
 
-<<<<<<< HEAD
-#, python-format
-msgid "Drivers:\t%s"
-msgstr "Shoferët: %s"
-
-#, python-format
-msgid "Drivers: %s"
-msgstr "Shoferët: %s"
-=======
 msgid "Drivers:\t%s"
 msgstr "Drivers:\t%s"
 
 msgid "Drivers: %s"
 msgstr "Drivers: %s"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Duplex"
 msgstr "Duplex"
 
 msgid "Duplicate the current line"
 msgstr "Dyfisho rreshtin aktual"
-<<<<<<< HEAD
-=======
 
 msgid ""
 "During this time, the transmitter and the recording destination are checked. If the recording destination (eg NAS) does not ready in time for "
@@ -7322,7 +6666,6 @@ msgid ""
 msgstr ""
 "Gjatë kësaj kohe, transmetuesi dhe destinacioni i regjistrimit kontrollohen. Nëse destinacioni i regjistrimit (eg NAS) nuk është gati në kohë për "
 "regjistrimin, kjo kohë mund të rritet."
->>>>>>> ebf6a85 (update po file)
 
 msgid "Dutch"
 msgstr "Hollandeze"
@@ -7339,10 +6682,6 @@ msgstr "Xhangka"
 msgid "E"
 msgstr "E"
 
-<<<<<<< HEAD
-#, python-format
-=======
->>>>>>> ebf6a85 (update po file)
 msgid "E2 (re)starts:\t%s\n"
 msgstr "E2 (re) fillon: %s\n"
 
@@ -7362,11 +6701,7 @@ msgid "ECM information"
 msgstr "Informacione ECM"
 
 msgid "ECM information for '%s'"
-<<<<<<< HEAD
-msgstr "Informacione eCM për '%s '"
-=======
 msgstr "Informacione ECM për '%s' '"
->>>>>>> ebf6a85 (update po file)
 
 msgid "EJECTCD"
 msgstr "EJECTCD"
@@ -7446,12 +6781,9 @@ msgstr "Pozicioni"
 
 msgid "EPG only"
 msgstr "Vetëm"
-<<<<<<< HEAD
-=======
 
 msgid "EPG selection"
 msgstr "EG"
->>>>>>> ebf6a85 (update po file)
 
 msgid "EPG:"
 msgstr "EG:"
@@ -7611,11 +6943,6 @@ msgstr "Aktivo BT Zëri"
 
 msgid "Enable Bouquet Edit"
 msgstr "Aktivo Ndrysho"
-<<<<<<< HEAD
-
-msgid "Enable ClearMem"
-msgstr "Aktivo"
-=======
 
 msgid "Enable Chkroot MultiBoot"
 msgstr "Aktivo"
@@ -7625,7 +6952,6 @@ msgstr "Aktivo"
 
 msgid "Enable EIT EPG"
 msgstr "Aktivo EMG"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Enable Favorite Edit"
 msgstr "Aktivo Ndrysho"
@@ -7641,8 +6967,6 @@ msgstr "Aktivizo grafikët e tubacionit Gstreamer *"
 
 msgid "Enable IPv6"
 msgstr "Aktivo IPv6"
-<<<<<<< HEAD
-=======
 
 msgid "Enable InfoBar fade-out"
 msgstr "Aktivo informacionet Bar"
@@ -7652,18 +6976,12 @@ msgstr "Aktivo Këxec MultiBoot"
 
 msgid "Enable MHW EPG"
 msgstr "Aktivo EPG MHW"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Enable MiniTV"
 msgstr "Aktivizo MiniTV"
 
 msgid "Enable Move Mode"
 msgstr "Aktivo Modalitetin e lëvizjes"
-<<<<<<< HEAD
-
-msgid "Enable OK for channel selection"
-msgstr "Aktivo"
-=======
 
 msgid "Enable Netmed EPG"
 msgstr "Aktivo"
@@ -7676,7 +6994,6 @@ msgstr "Aktivo"
 
 msgid "Enable OpenTV EPG"
 msgstr "Aktivo TV ENG"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Enable PiP no HDR"
 msgstr "Aktivo"
@@ -7770,18 +7087,6 @@ msgstr "Aktivo kontrollin e trafikut të rrjetit"
 
 msgid "Enable new GStreamer playback"
 msgstr "Aktivo"
-<<<<<<< HEAD
-
-msgid "Enable preview"
-msgstr "Aktivizo pamjen paraprake"
-
-msgid "Enable this setting if your aerial system needs power."
-msgstr ""
-"Aktivizoni këtë cilësim nëse sistemi juaj i ajrit ka nevojë për energji"
-
-msgid "Enable timer"
-msgstr "Aktivizo kronometrin"
-=======
 
 msgid "Enable or disable client mode."
 msgstr "Aktivon ose çaktivon mënyrën e klientit."
@@ -7794,7 +7099,6 @@ msgstr "Aktivizo butonin e panikut"
 
 msgid "Enable preview"
 msgstr "Pamja e parë"
->>>>>>> ebf6a85 (update po file)
 
 msgid ""
 "Enable remote enigma2 receiver to be tried to tune into services that cannot be tuned into locally (e.g. tuner is occupied or service type is "
@@ -7875,18 +7179,6 @@ msgid ""
 "Enable usage of tuners from another Enigma2 receiver on the local network. Remote tuners will be used when tuners are not available on this receiver. "
 "(No free tuner or service type is not available.)"
 msgstr ""
-<<<<<<< HEAD
-"Aktivizo përdorimin e melodive nga një tjetër marrës Enigma2 në rrjetin "
-"lokal. Kënduesit në distancë do të përdoren kur audios të mos jenë në "
-"dispozicion në këtë marrës. (Nuk është në dispozicion asnjë melodi ose lloj "
-"shërbimi pa pagesë.)"
-
-msgid "Enable volume control with LEFT/RIGHT arrow buttons"
-msgstr "Aktivizo kontrollin e volumit me pulsantët e shigjetës LEFT/DUE"
-
-msgid "Enable zapping with UP/DOWN arrow buttons"
-msgstr "Aktivo me shigjetë"
-=======
 "Aktivizo përdorimin e melodive nga një tjetër marrës Enigma2 në rrjetin lokal. Kënduesit në distancë do të përdoren kur audios të mos jenë në "
 "dispozicion në këtë marrës. (Nuk është në dispozicion asnjë melodi ose lloj shërbimi pa pagesë.)"
 
@@ -7895,7 +7187,6 @@ msgstr "Enable volume control with LEFT/RIGHT arrow buttons"
 
 msgid "Enable zapping with UP/DOWN arrow buttons"
 msgstr "Enable zapping with UP/DOWN arrow buttons"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Enabled"
 msgstr "Aktiv"
@@ -7987,25 +7278,6 @@ msgstr "Qëndra e Reklamuar e Filmit"
 msgid "Enigma2 Changes"
 msgstr "Ndryshimet"
 
-<<<<<<< HEAD
-msgid ""
-"Enigma2 Skinselector\n"
-"\n"
-"If you experience any problems please contact\n"
-"stephan@reichholf.net\n"
-"\n"
-"© 2006 - Stephan Reichholf"
-msgstr ""
-"Enigma2 Skinselector\n"
-"\n"
-"Nëse keni ndonjë problem, ju lutemi kontaktoni\n"
-"stephan@reichholf.net\n"
-"\n"
-"© 2006 - Stephan Reichholf"
-
-#, python-format
-=======
->>>>>>> ebf6a85 (update po file)
 msgid "Enigma2 debug level:\t%s"
 msgstr "Niveli i debug Enigma2: %s"
 
@@ -8027,11 +7299,6 @@ msgstr "Shkruaj adresën IP"
 msgid "Enter PIN"
 msgstr "Shkruaj"
 
-<<<<<<< HEAD
-msgid ""
-"Enter a directory or process a file (play/view/edit/install/extract/run)"
-msgstr "Shto a a file"
-=======
 msgid "Enter a description for this timer."
 msgstr "Shkruaj një përshkrim për këtë kronometr."
 
@@ -8040,7 +7307,6 @@ msgstr "Shto a a file"
 
 msgid "Enter a name for this timer."
 msgstr "Shkruaj një emër për këtë kronometr."
->>>>>>> ebf6a85 (update po file)
 
 msgid "Enter a new name for this device."
 msgstr "Shkruaj një emër të ri për këtë dispozitiv."
@@ -8068,12 +7334,6 @@ msgstr "Shto kodi"
 
 msgid "Enter text via an attached keyboard"
 msgstr "Shkruaj tekst me anë të një tastiere të bashkangjitur"
-<<<<<<< HEAD
-
-msgid "Enter the IP address of the receiver to use for fallback tuners."
-msgstr ""
-"Shkruaj adresën IP të marrësit për t'u përdorur për kënduesit e kundërt."
-=======
 
 msgid "Enter the FTP password of the host receiver (required for any server running openDroid 7.5 or greater)."
 msgstr "Shkruaj fjalëkalimin FTP të marrësit host (kërkohet për çdo server në ekzekutim të hapjes Droid 7.5 ose më i madh)."
@@ -8089,18 +7349,12 @@ msgstr "Shkruaj adresën IP të marrësit."
 
 msgid "Enter the IP address of the receiver to use for fallback tuners."
 msgstr "Shkruaj adresën IP të marrësit për t'u përdorur për kënduesit e kundërt."
->>>>>>> ebf6a85 (update po file)
 
 msgid ""
 "Enter the URL/IP of the fallback remote receiver, e.g. '192.168.0.1'. The other details such as 'http://' and port number will be filled in "
 "automatically when you select save."
 msgstr ""
-<<<<<<< HEAD
-"Shkruaj URL/IP të marrësit të largët, d.sh. 192.168.0.1. Hollësitë e tjera "
-"si 'http://' dhe numri i portit do të plotësohen automatikisht kur të "
-=======
 "Shkruaj URL/IP të marrësit të largët, d.sh. 192.168.0.1. Hollësitë e tjera si 'http://' dhe numri i portit do të plotësohen automatikisht kur të "
->>>>>>> ebf6a85 (update po file)
 "zgjidhni ruajtjen."
 
 msgid "Enter the domain of the host receiver. Do not include 'http://' or port number."
@@ -8185,90 +7439,46 @@ msgid "Error"
 msgstr "Gabim"
 
 msgid "Error %d: %s"
-<<<<<<< HEAD
-msgstr "Gabim"
-=======
 msgstr "Error %d: %s"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Error %d: File '%s' cannot be opened!  (%s)"
-<<<<<<< HEAD
-msgstr "Gabim file j (%s"
-=======
 msgstr "Error %d: File '%s' cannot be opened!  (%s)"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Error %d: Unable to change password!  (%s)"
 msgstr "Error %d: Unable to change password!  (%s)"
 
 msgid "Error %d: Unable to check space!  (%s)"
-<<<<<<< HEAD
-msgstr "Gabim: I pamundur kontrolli i hapësirës! (%s"
-=======
 msgstr "Error %d: Unable to check space!  (%s)"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Error %d: Unable to create directory '%s'!  (%s)"
-<<<<<<< HEAD
-msgstr "Gabim: I pamundur krijimi i directory '%s"
-=======
 msgstr "Error %d: Unable to create directory '%s'!  (%s)"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Error %d: Unable to create package directory '%s'!  (%s)"
-<<<<<<< HEAD
-msgstr "Gabim: I pamundur krijimi i directory të paketave '%s! (X53X]"
-=======
 msgstr "Error %d: Unable to create package directory '%s'!  (%s)"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Error %d: Unable to delete downloaded image '%s'!  (%s)"
 msgstr "Error %d: Unable to delete downloaded image '%s'!  (%s)"
 
 msgid "Error %d: Unable to link '%s' as '%s'!  (%s)"
-<<<<<<< HEAD
-msgstr "Gabim: E pamundur lidhja '%s' si '%s"
-=======
 msgstr "Error %d: Unable to link '%s' as '%s'!  (%s)"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Error %d: Unable to read '%s'!  (%s)"
-<<<<<<< HEAD
-msgstr "Gabim: I pamundur leximi i '%s'! (X33X)"
-=======
 msgstr "Error %d: Unable to read '%s'!  (%s)"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Error %d: Unable to rename directory/file '%s' to '%s'!  (%s)"
-<<<<<<< HEAD
-msgstr "Gabim: I pamundur ndryshimi i emrit të directory/file '%s' në '%s'! (%s"
-=======
 msgstr "Error %d: Unable to rename directory/file '%s' to '%s'!  (%s)"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Error %d: Unable to rename related file '%s' to '%s'!  (%s)"
-<<<<<<< HEAD
-msgstr "Gabim: I pamundur ndryshimi i emrit të file '%s' tek '%s'"
-=======
 msgstr "Error %d: Unable to rename related file '%s' to '%s'!  (%s)"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Error %d: Unable to set access mode on '%s'!  (%s)"
-<<<<<<< HEAD
-msgstr "Gabim: E pamundur vendosja e modalitetit të hyrjes në modalitetin '%s'"
-=======
 msgstr "Error %d: Unable to set access mode on '%s'!  (%s)"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Error %d: Unable to start 'passwd' command!"
 msgstr "Error %d: Unable to start 'passwd' command!"
 
 msgid "Error %s: Unable to get information for '%s'!  (%s)"
-<<<<<<< HEAD
-msgstr "Gabim: E pamundur marrja e informacioneve për '%s'! (%s"
-=======
 msgstr "Error %s: Unable to get information for '%s'!  (%s)"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Error checking disk. The disk may be damaged"
 msgstr "Gabim gjatë kontrollit të diskut. Disku mund të dëmtohet"
@@ -8276,14 +7486,8 @@ msgstr "Gabim gjatë kontrollit të diskut. Disku mund të dëmtohet"
 msgid "Error code"
 msgstr "Gabim"
 
-<<<<<<< HEAD
-#, python-format
-msgid "Error command '%s'"
-msgstr "Gabim"
-=======
 msgid "Error command '%s'"
 msgstr "Gabim gjatë komandës '%s' '"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Error creating oscam camstart files!"
 msgstr "Gabim j!"
@@ -8320,11 +7524,7 @@ msgstr ""
 "%s"
 
 msgid "Error reading file: "
-<<<<<<< HEAD
-msgstr "Gabim j "
-=======
 msgstr "Gabim j"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Error reading webpage!"
 msgstr "Gabim j!"
@@ -8345,10 +7545,6 @@ msgstr ""
 "Gabim gjatë marrjes së informacioneve në kohë të gabuar\n"
 "%s"
 
-<<<<<<< HEAD
-#, python-format
-=======
->>>>>>> ebf6a85 (update po file)
 msgid ""
 "Error:\n"
 "%s"
@@ -8380,32 +7576,16 @@ msgid "Error: Creating directory '%s' failed!"
 msgstr "Error: Creating directory '%s' failed!"
 
 msgid "Error: Creating picon target directory: (%s)"
-<<<<<<< HEAD
-msgstr "Gabim j"
-
-#, python-format
-msgid "Error: Failed to run service scan!  (%s)"
-msgstr "Gabim j"
-=======
 msgstr "Error: Creating picon target directory: (%s)"
 
 msgid "Error: Failed to run service scan!  (%s)"
 msgstr "Gabim! (%s)"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Error: File '%s' cannot be opened!  (%s)"
-<<<<<<< HEAD
-msgstr "Gabim File hap! (%s"
-=======
 msgstr "Error: File '%s' cannot be opened!  (%s)"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Error: File or directory '%s' already exists!"
-<<<<<<< HEAD
-msgstr "Gabim File j!"
-=======
 msgstr "Error: File or directory '%s' already exists!"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Error: FileCommanderData screen requires a formatting dictionary!"
 msgstr "Gabim File Të dhënat e ekranit kërkon një fjalor për formatim!"
@@ -8417,27 +7597,9 @@ msgid "Error: Interaction failure, unable to change password!"
 msgstr "Gabim!"
 
 msgid "Error: Invalid directory '%s' selected!"
-<<<<<<< HEAD
-msgstr "Gabim!"
-=======
 msgstr "Error: Invalid directory '%s' selected!"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Error: It is not possible to run '%s' on '%s'!"
-<<<<<<< HEAD
-msgstr "Gabim është nuk j!"
-
-#, python-format
-msgid ""
-"Error: Program '%s' not installed and the package containing this program is "
-"unknown!"
-msgstr "Gabim Programi nuk dhe paketa që përmban këtë program nuk njihet!"
-
-#, python-format
-msgid ""
-"Error: Removing directory '%s' failed! (Maybe the directory is not empty.)"
-msgstr "Gabim hiq! (Ndoshta directory nuk është bosh.)"
-=======
 msgstr "Error: It is not possible to run '%s' on '%s'!"
 
 msgid "Error: Program '%s' not installed and the package containing this program is unknown!"
@@ -8445,14 +7607,9 @@ msgstr "Error: Program '%s' not installed and the package containing this progra
 
 msgid "Error: Removing directory '%s' failed! (Maybe the directory is not empty.)"
 msgstr "Error: Removing directory '%s' failed! (Maybe the directory is not empty.)"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Error: Script '%s' must have read permission to be able to run!"
-<<<<<<< HEAD
-msgstr "Gabim!"
-=======
 msgstr "Error: Script '%s' must have read permission to be able to run!"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Error: The new password may not be blank!"
 msgstr "Gabim i ri!"
@@ -8473,20 +7630,7 @@ msgid "Error: The selected service can't be recorded!"
 msgstr "Gabim: shërbimi i zgjedhur nuk mund të regjistrohet!"
 
 msgid "Error: There was a problem writing '%s'!"
-<<<<<<< HEAD
-msgstr "Gabim!"
-
-#, python-format
-msgid ""
-"Error: There was an issue in the reset of the feeds! Please reboot the %s %s "
-"and check the file system for any errors before trying this command again."
-msgstr ""
-"Gabim: Kishte një problem në rivendosjen e ushqimit! Rifillo [X7X] dhe "
-"kontrollo sistemin e file për ndonjë gabim para se të provosh përsëri këtë "
-"komandë."
-=======
 msgstr "Error: There was a problem writing '%s'!"
->>>>>>> ebf6a85 (update po file)
 
 msgid ""
 "Error: There was an issue in the reset of the feeds! Please reboot the %s %s and check the file system for any errors before trying this command again."
@@ -8498,32 +7642,16 @@ msgid "Error: Unable to create the required directories on the target device (e.
 msgstr "Gabim! Ju lutem verifikoni pajisjen dhe provoni përsëri."
 
 msgid "Error: Unable to rename directory '%s' to '%s'!"
-<<<<<<< HEAD
-msgstr "Gabim!"
-
-#, python-format
-msgid "Error: Unable to write log file '%s'!"
-msgstr "Gabim!"
-=======
 msgstr "Error: Unable to rename directory '%s' to '%s'!"
 
 msgid "Error: Unable to write log file '%s'!"
 msgstr "Error: Unable to write log file '%s'!"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Error: You can't run '%s' on '%s'!"
-<<<<<<< HEAD
-msgstr "Gabim!"
-=======
 msgstr "Error: You can't run '%s' on '%s'!"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Error: You can't run '%s' on a directory!"
-<<<<<<< HEAD
-msgstr "Gabim në a!"
-=======
 msgstr "Error: You can't run '%s' on a directory!"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Esperanto"
 msgstr "Esperanto"
@@ -8716,12 +7844,9 @@ msgstr "Program ekspozimi"
 
 msgid "Exposure time"
 msgstr "Koha e ekspozimit"
-<<<<<<< HEAD
-=======
 
 msgid "Ext. NumberZap"
 msgstr "NumriZap"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Extend"
 msgstr "Shtesë"
@@ -8754,11 +7879,7 @@ msgid "Extensions"
 msgstr "Shtesat"
 
 msgid "Extensions/BluePanel"
-<<<<<<< HEAD
-msgstr "Shtesat/BluePanel"
-=======
 msgstr "Extensions/BluePanel"
->>>>>>> ebf6a85 (update po file)
 
 msgid "External"
 msgstr "I jashtëm"
@@ -8767,17 +7888,10 @@ msgid "External PiP"
 msgstr "PiP e jashtme"
 
 msgid "External Reader /dev/ttyUSB0:"
-<<<<<<< HEAD
-msgstr "I jashtëm:"
-
-msgid "External Reader /dev/ttyUSB1:"
-msgstr "I jashtëm:"
-=======
 msgstr "External Reader /dev/ttyUSB0:"
 
 msgid "External Reader /dev/ttyUSB1:"
 msgstr "External Reader /dev/ttyUSB1:"
->>>>>>> ebf6a85 (update po file)
 
 msgid "External Storage %s"
 msgstr "Magazinim i jashtëm %s"
@@ -8865,11 +7979,6 @@ msgstr "Rregullimet FTP"
 
 msgid "FTP connection failure"
 msgstr "FTP dështoi"
-<<<<<<< HEAD
-
-msgid "Factory release"
-msgstr "Nxjerrja e Fabrikës"
-=======
 
 msgid "FTP passive mode"
 msgstr "Modaliteti pasiv FTP"
@@ -8882,7 +7991,6 @@ msgstr "Nxjerrja e Fabrikës"
 
 msgid "Fade the InfoBar on hide"
 msgstr "Fshiheni shtyllën e Infove"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Fahrenheit"
 msgstr "Unit-format"
@@ -8901,15 +8009,12 @@ msgstr "Ishujt Falkland (Malvinas)"
 
 msgid "Fallback API did not return a valid result."
 msgstr "Fallack API nuk kthehet një rezultat i vlefshëm."
-<<<<<<< HEAD
-=======
 
 msgid "Fallback Configuration"
 msgstr "Konfigurimi"
 
 msgid "Fallback Font *"
 msgstr "Gërmat e shlyerjes *"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Fallback Timer"
 msgstr "Ora"
@@ -8989,12 +8094,9 @@ msgstr "Epoka e Shpejtë"
 msgid "Fast forward"
 msgstr "Shpejt përpara"
 
-<<<<<<< HEAD
-=======
 msgid "Fast forward speeds"
 msgstr "Shpejt përpara"
 
->>>>>>> ebf6a85 (update po file)
 msgid "Fast mount"
 msgstr "Mali i Shpejtë"
 
@@ -9004,13 +8106,7 @@ msgid ""
 "Please unmount Fixed Mounted Devices with Device Manager Panel!"
 msgstr ""
 "Media është ngjitur shpejt.\n"
-<<<<<<< HEAD
-"Mund ta heqësh pa rrezik pajisjen tani, nëse nuk ka pjesë të mëtejshme ("
-"displayed si P.x në kompjuter - ku x >=2) janë montuar në të njëjtën pajisje."
-"\n"
-=======
 "Mund ta heqësh pa rrezik pajisjen tani, nëse nuk ka pjesë të mëtejshme (displayed si P.x në kompjuter - ku x >=2) janë montuar në të njëjtën pajisje.\n"
->>>>>>> ebf6a85 (update po file)
 "Ju lutem, pajisni me anë të panelit me pajisje!"
 
 msgid "Favorite Edit"
@@ -9035,23 +8131,13 @@ msgid "File"
 msgstr "File"
 
 msgid "File %d of %d"
-<<<<<<< HEAD
-msgstr "File nga"
-
-#, python-format
-=======
 msgstr "File %d of %d"
 
->>>>>>> ebf6a85 (update po file)
 msgid ""
 "File %s.conf not found.\n"
 "Enter username/password manually."
 msgstr ""
-<<<<<<< HEAD
-"File %s. Konfiguroni nuk u gjet.\n"
-=======
 "File %s.conf nuk u gjet.\n"
->>>>>>> ebf6a85 (update po file)
 "Shkruaj manualisht emrin e përdoruesit/fjalëkalimit."
 
 msgid "File Commander"
@@ -9085,11 +8171,7 @@ msgid "File Commander Delete"
 msgstr "File Komanda"
 
 msgid "File Commander Directory/File Information"
-<<<<<<< HEAD
-msgstr "File Directory/Dosje Informacione"
-=======
 msgstr "File Commander Directory/File Information"
->>>>>>> ebf6a85 (update po file)
 
 msgid "File Commander File Viewer"
 msgstr "Shikues file"
@@ -9126,12 +8208,9 @@ msgstr "Veprimet"
 
 msgid "File Commander Selection Actions"
 msgstr "File Zgjedhja"
-<<<<<<< HEAD
-=======
 
 msgid "File Commander Settings"
 msgstr "Rregullimet e komandës së file"
->>>>>>> ebf6a85 (update po file)
 
 msgid "File Commander Text Editor"
 msgstr "File Modifikues teksti"
@@ -9152,11 +8231,7 @@ msgid "File appears to be busy.\n"
 msgstr "File duket të jetë i zënë.\n"
 
 msgid "File not found: "
-<<<<<<< HEAD
-msgstr "Widget nuk u gjet: %s "
-=======
 msgstr "File not found: "
->>>>>>> ebf6a85 (update po file)
 
 msgid "File system"
 msgstr "File sistemi"
@@ -9249,21 +8324,12 @@ msgid ""
 "Fixed mounted first initialized Storage Device to /media/hdd. It needs a system restart in order to take effect.\n"
 "Restart your STB now?"
 msgstr ""
-<<<<<<< HEAD
-"U montua për herë të parë për pajisjen e Dispozitimit në /media/Hdd. Ajo ka "
-"nevojë për një rifillim të sistemit në mënyrë që të hyjë në veprim.\n"
-=======
 "U montua për herë të parë për pajisjen e Dispozitimit në /media/Hdd. Ajo ka nevojë për një rifillim të sistemit në mënyrë që të hyjë në veprim.\n"
->>>>>>> ebf6a85 (update po file)
 "Rifillo STB-në tënde tani?"
 
 msgid "Flash Image"
 msgstr "Figura Flash"
 
-<<<<<<< HEAD
-#, python-format
-=======
->>>>>>> ebf6a85 (update po file)
 msgid "Flash OnLine - %s Images"
 msgstr "Flash OnLine - %s Images"
 
@@ -9272,12 +8338,9 @@ msgstr "Flash OnLine - Shpërndarjet"
 
 msgid "Flash OnLine Actions"
 msgstr "Veprime Flash OnLine"
-<<<<<<< HEAD
-=======
 
 msgid "Flash Online"
 msgstr "Flash Online"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Flash and restore settings and no plugins"
 msgstr "Flash dhe rivendos rregullimet dhe asnjë plugin"
@@ -9291,14 +8354,8 @@ msgstr "Directory Flash '%s' nuk lejohet!"
 msgid "Flash the image"
 msgstr "File"
 
-<<<<<<< HEAD
-#, python-format
-msgid "Flash type:\t%s"
-msgstr "Lloji"
-=======
 msgid "Flash type:\t%s"
 msgstr "Lloji: %s"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Flash used"
 msgstr "Përdoret Flash"
@@ -9306,10 +8363,6 @@ msgstr "Përdoret Flash"
 msgid "Flash your %s %s and reboot now?"
 msgstr "Spastro %s %s dhe rifillo tani?"
 
-<<<<<<< HEAD
-#, python-format
-=======
->>>>>>> ebf6a85 (update po file)
 msgid "FlashOnline - %s Images"
 msgstr "FlashOnline - %s Images"
 
@@ -9357,8 +8410,6 @@ msgstr "Për sa minuta dëshiron të regjistrosh?"
 
 msgid "Force AC3plus"
 msgstr "Detyro"
-<<<<<<< HEAD
-=======
 
 msgid "Force LNB Power"
 msgstr "Detyro LNB Fuqia"
@@ -9368,7 +8419,6 @@ msgstr "Detyro LNB Rezervat e energjisë."
 
 msgid "Force LNB Tuner ToneBurst settings."
 msgstr "Detyro LNB Tuner ToneBurst rregullimet."
->>>>>>> ebf6a85 (update po file)
 
 msgid "Force Legacy Signal stats"
 msgstr "Detyro statistikat e shenjës së trashëgimisë"
@@ -9398,28 +8448,16 @@ msgid "Format terminated with success"
 msgstr "Formatimi përfundoi me sukses"
 
 msgid "Format/Partition your Devices and manage Mountpoints"
-<<<<<<< HEAD
-msgstr "Format/Partitëzo paisjet e tua dhe menaxho pikat e malit"
-=======
 msgstr "Format/Partition your Devices and manage Mountpoints"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Formatting disk"
 msgstr "Formatimi i diskut"
 
 msgid "Formatting disk %s"
-<<<<<<< HEAD
-msgstr "Formatimi i diskut [X16XX]"
-
-#, python-format
-msgid "Formatting partition %d"
-msgstr "Formatimi i ndarjes [X21X21X]"
-=======
 msgstr "Formatimi i diskut %s"
 
 msgid "Formatting partition %d"
 msgstr "Formatimi i ndarjes %d"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Formatting storage device..."
 msgstr "Formatimi i dispozitivit të ruajtjes..."
@@ -9429,17 +8467,11 @@ msgstr "Formatimi..."
 
 msgid "Forward Error Correction (FEC)"
 msgstr "Gabimi i përcjellë (FEC)"
-<<<<<<< HEAD
-=======
 
 msgid "Forward volume keys"
 msgstr "Vazhdo"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Four partitions (25% - 25% - 25% - 25%)"
-<<<<<<< HEAD
-msgstr "Katër ndarje (25% - 25% - 25% - 25%"
-=======
 msgstr "Katër ndarje (25% - 25% - 25% - 25%)"
 
 msgid "Frame rate"
@@ -9447,7 +8479,6 @@ msgstr "Korniza"
 
 msgid "Frame size in full view"
 msgstr "Madhësia e frame në paraqitje të plotë"
->>>>>>> ebf6a85 (update po file)
 
 msgid "France"
 msgstr "Francë"
@@ -9455,10 +8486,6 @@ msgstr "Francë"
 msgid "Free"
 msgstr "I lirë"
 
-<<<<<<< HEAD
-#, python-format
-=======
->>>>>>> ebf6a85 (update po file)
 msgid "Free Flash:\t%s\n"
 msgstr "Free Flash: %s\n"
 
@@ -9535,19 +8562,11 @@ msgid "Front USB"
 msgstr "Front USB"
 
 msgid "Front USB 3.0"
-<<<<<<< HEAD
-msgstr "Përpara USB 3.0"
-=======
 msgstr "Front USB 3.0"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Front processor version"
 msgstr "Versioni"
 
-<<<<<<< HEAD
-#, python-format
-=======
->>>>>>> ebf6a85 (update po file)
 msgid "Frontprocessor version:\t%s"
 msgstr "Versioni i proçesuesit: %s"
 
@@ -9559,12 +8578,9 @@ msgstr "Intervali i plotë"
 
 msgid "Full Stretch"
 msgstr "Shtrirja e plotë"
-<<<<<<< HEAD
-=======
 
 msgid "Full factory reset"
 msgstr "Restaurim i plotë i fabrikës"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Full screen"
 msgstr "Ekran i plotë"
@@ -9584,15 +8600,6 @@ msgstr "G"
 msgid "GB"
 msgstr "GB"
 
-<<<<<<< HEAD
-#, python-format
-msgid "GCC version:\t%s"
-msgstr "Versioni"
-
-#, python-format
-msgid "GStreamer:\t%s"
-msgstr "Gstreamer: %s"
-=======
 msgid "GCC version:\t%s"
 msgstr "Versioni: %s"
 
@@ -9613,7 +8620,6 @@ msgstr "Gstreamer: %s"
 
 msgid "GUI Skin *"
 msgstr "Lëkura GUI"
->>>>>>> ebf6a85 (update po file)
 
 msgid ""
 "GUI needs a restart to apply a new skin\n"
@@ -9707,20 +8713,10 @@ msgid "Geolocation data is not available."
 msgstr "Gjeolokacioni nuk është në dispozicion."
 
 msgid "Geolocation information cannot be retrieved, please try again later."
-<<<<<<< HEAD
-msgstr ""
-"Informacioni gjeolokativ nuk mund të merret, ju lutem provoni përsëri më "
-"vonë."
-=======
 msgstr "Informacioni gjeolokativ nuk mund të merret, ju lutem provoni përsëri më vonë."
->>>>>>> ebf6a85 (update po file)
 
 msgid "Geolocation information for %s %s"
-<<<<<<< HEAD
-msgstr "Informacione gjeolokate për %s [X31X31X]"
-=======
 msgstr "Informacione gjeolokacioni për %s %s"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Georgia"
 msgstr "Gjeorgji"
@@ -9749,10 +8745,6 @@ msgstr "Gjibraltar"
 msgid "Given device id"
 msgstr "ID e dhënë"
 
-<<<<<<< HEAD
-#, python-format
-=======
->>>>>>> ebf6a85 (update po file)
 msgid "Glibc version:\t%s"
 msgstr "Versioni Glibc: %s"
 
@@ -9854,12 +8846,9 @@ msgstr "Kalibrimi GotoX"
 
 msgid "Grab"
 msgstr "Kape"
-<<<<<<< HEAD
-=======
 
 msgid "Graphical DVB subtitles will be displayed in the selected color, instead of the original colors."
 msgstr "Nëntitujt grafikë DVB do të shfaqen në ngjyrën e zgjedhur, në vend të ngjyrave origjinale."
->>>>>>> ebf6a85 (update po file)
 
 msgid "Graphical EPG"
 msgstr "ENG grafik"
@@ -10019,8 +9008,6 @@ msgstr "Haitian / Haitian Creole"
 
 msgid "Halt"
 msgstr "Ndal"
-<<<<<<< HEAD
-=======
 
 msgid "Handle Python crashes"
 msgstr "Challeck Python"
@@ -10033,7 +9020,6 @@ msgstr "Nga TV"
 
 msgid "Handle wake up from TV"
 msgstr "Zgjohu nga televizori"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Hard Disk Settings"
 msgstr "Rregullimet e gabuara"
@@ -10053,14 +9039,8 @@ msgstr "Rregullimi"
 msgid "Harddisk standby after"
 msgstr "Pas"
 
-<<<<<<< HEAD
-#, python-format
-msgid "Hardware MultiBoot device:\t%s"
-msgstr "Dispozitivi i MultiBoot i hardware: %s"
-=======
 msgid "Hardware MultiBoot device:\t%s"
 msgstr "Dispozitivi i multiBoot i hardware: %s"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Hardware information"
 msgstr "Informacione hardware"
@@ -10078,11 +9058,7 @@ msgid "Hawaiian"
 msgstr "Havai"
 
 msgid "Heads: %s (max) %s (current)"
-<<<<<<< HEAD
-msgstr "Kokat: %s (max) %s (në vazhdim)"
-=======
 msgstr "Kreu: %s (max) %s (në vazhdim)"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Heads: unknown"
 msgstr "Kokat: nuk njihet"
@@ -10194,11 +9170,7 @@ msgid "Hide zap errors"
 msgstr "Fshih"
 
 msgid "Hide/Show the console screen"
-<<<<<<< HEAD
-msgstr "Fshih/Shfaq ekranin e konsolës"
-=======
 msgstr "Hide/Show the console screen"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Hierarchy info"
 msgstr "Informacione hierarkie"
@@ -10367,15 +9339,12 @@ msgstr "Tuneri hibrid"
 
 msgid "Hz"
 msgstr "Hz"
-<<<<<<< HEAD
-=======
 
 msgid "I"
 msgstr "I"
 
 msgid "I/O priority for scripts"
 msgstr "I/O priority for scripts"
->>>>>>> ebf6a85 (update po file)
 
 msgid "IMDb Details"
 msgstr "IMDb Detaje"
@@ -10397,32 +9366,18 @@ msgid ""
 "\n"
 "This Reader can be used to configure for example a connected easymouse."
 msgstr ""
-<<<<<<< HEAD
-"INFORMIMI: Relexuesi i jashtëm /dev/tyUSB0\n"
-"\n"
-"Ky lexues mund të përdoret për të konfiguruar për shembull një mig të lidhur "
-"lehtë."
-=======
 "INFORMATION: External Reader /dev/ttyUSB0\n"
 "\n"
 "This Reader can be used to configure for example a connected easymouse."
->>>>>>> ebf6a85 (update po file)
 
 msgid ""
 "INFORMATION: External Reader /dev/ttyUSB1\n"
 "\n"
 "This Reader can be used to configure for example a second connected easymouse."
 msgstr ""
-<<<<<<< HEAD
-"INFORMIMI: Relexuesi i jashtëm /dev/tyUSB1\n"
-"\n"
-"Ky lexues mund të përdoret për të konfiguruar për shembull një mig të dytë "
-"të lidhur lehtë."
-=======
 "INFORMATION: External Reader /dev/ttyUSB1\n"
 "\n"
 "This Reader can be used to configure for example a second connected easymouse."
->>>>>>> ebf6a85 (update po file)
 
 msgid ""
 "INFORMATION: Internal Reader /dev/sci0\n"
@@ -10643,14 +9598,7 @@ msgid ""
 "If your usb drive is connected and mounted you have to poweroff your box, remove the usb device and reboot.\n"
 "\n"
 msgstr ""
-<<<<<<< HEAD
-"Nëse makina jote është e lidhur dhe të është ngritur duhet të marrësh fuqinë "
-"e kutisë, të heqësh pajisjen dhe të rifillosh.\n"
-"\n"
-".\n"
-=======
 "Nëse makina jote është e lidhur dhe të është ngritur duhet të marrësh fuqinë e kutisë, të heqësh pajisjen dhe të rifillosh.\n"
->>>>>>> ebf6a85 (update po file)
 "\n"
 
 msgid "Igbo"
@@ -10658,8 +9606,6 @@ msgstr "Igbo"
 
 msgid "Ignore"
 msgstr "Shpërfill"
-<<<<<<< HEAD
-=======
 
 msgid "Ignore DVB-C namespace sub network"
 msgstr "Shpërfill"
@@ -10672,7 +9618,6 @@ msgstr "Shpërfill"
 
 msgid "Ignore unexpectedly wake up and stay in standby"
 msgstr "Shpërfilli papritmas zgjuar dhe të qëndrojnë në pritje"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Image Backup"
 msgstr "Figura"
@@ -10696,11 +9641,7 @@ msgid "Image-Flasher"
 msgstr "Figura"
 
 msgid "Image:\t%s"
-<<<<<<< HEAD
-msgstr "Figura: %s"
-=======
 msgstr "Image:\t%s"
->>>>>>> ebf6a85 (update po file)
 
 msgid "ImageWizard"
 msgstr "Figura"
@@ -10714,25 +9655,6 @@ msgstr "Fillo modaliteti"
 msgid "Immediately restart selected devices."
 msgstr "Nis menjëherë pajisjet e zgjedhura."
 
-<<<<<<< HEAD
-msgid ""
-"Import channels and/or EPG from remote receiver URL also when the receiver "
-"is getting out of standby"
-msgstr ""
-"Importo kanale dhe/ose EPC nga URL remote kur marrësi të dalë nga gatishmëria"
-
-msgid ""
-"Import channels and/or EPG from remote receiver URL when receiver is booted"
-msgstr ""
-"Importo kanale dhe/ose EPC nga URL remote e marrësve kur marrës të marrë"
-
-msgid ""
-"Import channels and/or EPG from remote receiver URL when receiver or enigma2 "
-"is restarted"
-msgstr ""
-"Importo kanale dhe/ose ENG nga URL e marrësit remote kur të riniset marrësi "
-"apo enigma2"
-=======
 msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
 msgstr "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
 
@@ -10741,15 +9663,12 @@ msgstr "Import channels and/or EPG from remote receiver URL when receiver is boo
 
 msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
 msgstr "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Import from remote receiver URL"
 msgstr "Importo URL nga remote"
 
 msgid "Import remote receiver URL"
 msgstr "Importo URL nga"
-<<<<<<< HEAD
-=======
 
 msgid ""
 "In addition to the check at an event start, a repetitive check can be used, so that the conditions 'buffer limit in hours' or 'check free space' are "
@@ -10763,7 +9682,6 @@ msgstr "Në mënyrën eksperte, konfiguroni se cilat melodi do të preferohen p�
 
 msgid "In most cases this should be set to No. Only enable if you have a very specific need."
 msgstr "Në shumicën e rasteve kjo duhet vendosur te Nr. Vetëm lejoni të keni një nevojë shumë specifike."
->>>>>>> ebf6a85 (update po file)
 
 msgid ""
 "In order to record a timer, a tuner was freed successfully:\n"
@@ -10852,12 +9770,9 @@ msgstr "Rrit"
 
 msgid "Increased voltage"
 msgstr "Rritet tensioni"
-<<<<<<< HEAD
-=======
 
 msgid "Index"
 msgstr "Treguesi"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Index allocated:"
 msgstr "Treguesi"
@@ -10876,8 +9791,6 @@ msgstr "Informacione"
 
 msgid "Info (EPG)"
 msgstr "Informacione"
-<<<<<<< HEAD
-=======
 
 msgid "Info button (long)"
 msgstr "Info pulsant (gjatë)"
@@ -10887,7 +9800,6 @@ msgstr "Informacione"
 
 msgid "Info icon width"
 msgstr "Ngjyra e ikonës"
->>>>>>> ebf6a85 (update po file)
 
 msgid "InfoBar"
 msgstr "InfoBar"
@@ -10897,15 +9809,12 @@ msgstr "InfoBar ENG"
 
 msgid "InfoBar EPG Actions"
 msgstr "InfoBar ENG Veprimet"
-<<<<<<< HEAD
-=======
 
 msgid "InfoBar EPG Settings"
 msgstr "InfoBar ENG Rregullimet"
 
 msgid "InfoBar EPG mode"
 msgstr "Modaliteti Info Bar ENG"
->>>>>>> ebf6a85 (update po file)
 
 msgid "InfoBar Event View Actions"
 msgstr "InfoBar Paraqitja Veprimet"
@@ -10914,9 +9823,6 @@ msgid "InfoBar RDS Actions"
 msgstr "Veprime Info Bar RDS"
 
 msgid "InfoBar Show/Hide Actions"
-<<<<<<< HEAD
-msgstr "InformacioneBar Shfaq Fshih"
-=======
 msgstr "InfoBar Show/Hide Actions"
 
 msgid "InfoBar fade-out speed"
@@ -10924,7 +9830,6 @@ msgstr "InfoBar zbehet me shpejtësi"
 
 msgid "InfoBar front end data source"
 msgstr "InfoBar fund"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Infobar Setup"
 msgstr "Infobar"
@@ -10946,8 +9851,6 @@ msgstr "Informacione"
 
 msgid "Init"
 msgstr "Int"
-<<<<<<< HEAD
-=======
 
 msgid "Initial fast forward speed"
 msgstr "Nis shpejtësinë e shpejtë përpara"
@@ -10960,7 +9863,6 @@ msgstr "Fillo"
 
 msgid "Initialization"
 msgstr "Nisja"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Initialize"
 msgstr "_Instalo"
@@ -10981,23 +9883,16 @@ msgid "Input"
 msgstr "Input"
 
 msgid "Input "
-<<<<<<< HEAD
-msgstr "Input "
-=======
 msgstr "Input"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Input 1"
 msgstr "Input"
 
 msgid "Input 2"
 msgstr "Input 2"
-<<<<<<< HEAD
-=======
 
 msgid "Input Device Settings"
 msgstr "Input Rregullimet e dispozitivit"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Input Stream ID"
 msgstr "ID e hyrjes Rrjedha"
@@ -11007,15 +9902,12 @@ msgstr "Emri i kanalit të hyrjes."
 
 msgid "Input config file name:"
 msgstr "Input emri:"
-<<<<<<< HEAD
-=======
 
 msgid "Input devices"
 msgstr "Input"
 
 msgid "Input scroll position"
 msgstr "Input"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Insert Line"
 msgstr "Fut Linja"
@@ -11037,27 +9929,21 @@ msgstr "Instalo komandën '%s'"
 
 msgid "Install All"
 msgstr "Instalo Gjithçka"
-<<<<<<< HEAD
-=======
 
 msgid "Install Local Extension"
 msgstr "Instalo shtesën lokale"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Install Plugin"
 msgstr "Instalo plugin"
 
 msgid "Install Plugins"
 msgstr "Instalo plugins"
-<<<<<<< HEAD
-=======
 
 msgid "Install a new image with a USB stick"
 msgstr "Instalo një figurë të re me një shkop USB"
 
 msgid "Install a new image with your web browser"
 msgstr "Instalo një figurë të re me shfletuesin tuaj web"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Install channel list"
 msgstr "Instalo listën e kanaleve"
@@ -11086,14 +9972,8 @@ msgstr "Instalo plugin e zgjedhur / lista e plugin"
 msgid "Installation finished."
 msgstr "Instalimi përfundoi."
 
-<<<<<<< HEAD
-#, python-format
-msgid "Installed:\t%s"
-msgstr "Instaluar: %s"
-=======
 msgid "Installed:\t%s"
 msgstr "I instaluar: %s"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Installing"
 msgstr "Duke instaluar"
@@ -11115,24 +9995,13 @@ msgstr "Fundi i çastit"
 
 msgid "Instant record"
 msgstr "Rekord i menjëhershëm"
-<<<<<<< HEAD
-=======
 
 msgid "Instant recording location"
 msgstr "Pozicioni i regjistrimit të menjëhershëm"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Interface"
 msgstr "Interfaqja"
 
-<<<<<<< HEAD
-#, python-format
-msgid "Interface '%s'"
-msgstr "Interfaqja '%s '"
-
-msgid "Interface: "
-msgstr "Interfaqja: "
-=======
 msgid "Interface '%s'"
 msgstr "Interfaqja '%s'"
 
@@ -11141,7 +10010,6 @@ msgstr "Interfaqja:"
 
 msgid "Interlaced"
 msgstr "Ndërlidhur"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Interlingua"
 msgstr "Interlingua"
@@ -11159,17 +10027,10 @@ msgid "Internal Flash"
 msgstr "Flash i brendshëm"
 
 msgid "Internal Reader /dev/sci0:"
-<<<<<<< HEAD
-msgstr "Reader i brendshëm /dev/sci0:"
-
-msgid "Internal Reader /dev/sci1:"
-msgstr "Reader i brendshëm /dev/sci1:"
-=======
 msgstr "Internal Reader /dev/sci0:"
 
 msgid "Internal Reader /dev/sci1:"
 msgstr "Internal Reader /dev/sci1:"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Internal SSD"
 msgstr "SSD e brendshme"
@@ -11181,18 +10042,10 @@ msgid "Internal flash"
 msgstr "Vetëtima e brendshme"
 
 msgid "Internal flash:  %s %s "
-<<<<<<< HEAD
-msgstr "Mjegull i brendshëm: %s %s "
-=======
 msgstr "Mbledhja e brendshme: %s %s"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Internal flash: %s %s as USB Recovery"
-<<<<<<< HEAD
-msgstr "Rremimi i brendshëm: %s %s si mëkëmbje USB"
-=======
 msgstr "Internal flash: %s %s as USB Recovery"
->>>>>>> ebf6a85 (update po file)
 
 msgid "Internal hdd only"
 msgstr "Vetëm hd i brendshëm"
