@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-28 15:03+0200\n"
-"PO-Revision-Date: 2025-05-06 15:37+0000\n"
+"PO-Revision-Date: 2025-05-08 09:17+0000\n"
 "Last-Translator: formia <tipomimmo@gmail.com>\n"
 "Language-Team: Lithuanian <http://localhost:8000/projects/enigma2/enigma/lt/>"
 "\n"
@@ -25,11 +25,12 @@ msgstr ""
 "\n"
 "<Šis imtuvas sukonfigūruotas automatiškai>"
 
-#, fuzzy
 msgid ""
 "\n"
 "Partition scheme:\n"
-msgstr "Skaidiniai"
+msgstr ""
+"\n"
+"Skaidymo schema:\n"
 
 msgid ""
 "\n"
@@ -48,40 +49,52 @@ msgid ""
 " - for GigaBlue UE and GigaBlue Quad\n"
 " - for VU+ Ultimo and VU+ Duo2"
 msgstr ""
+"\n"
+"VFD Skin- selektorius\n"
+"pagal satinfo & henritual (Ačiū už paramą)\n"
+"\n"
+"Name\n"
+"\n"
+"- GigaBlue UE ir GigaBlue Quad,\n"
+"- VU + Ultimo + VU + Duo2"
 
 msgid ""
 "\n"
 "Warning: all the data will be lost.\n"
 "Are you sure you want to format this device?\n"
 msgstr ""
+"\n"
+"Įspėjimas: visi duomenys bus prarasti.\n"
+"Jūs tikrai norite formatuoti šį įrenginį?\n"
+"?\n"
 
 msgid " "
 msgstr " "
 
-#, fuzzy, python-format
+#, python-format
 msgid "   (%s MHz)"
-msgstr "%s MHz"
+msgstr "   (%s MHz)"
 
 msgid "   (1.0 GHz)"
-msgstr ""
+msgstr "   (1,0 GHz)"
 
 msgid "   (1.3 GHz)"
-msgstr ""
+msgstr "   (1,3 GHz)"
 
 msgid "   (1.5 GHz)"
-msgstr ""
+msgstr "   (1,5 GHz)"
 
 msgid "   (1.6 GHz)"
-msgstr ""
+msgstr "   (1,6 GHz)"
 
 msgid "   (1.7 GHz)"
-msgstr ""
+msgstr "   (1,7 GHz)"
 
 msgid "   (2.0 GHz)"
-msgstr ""
+msgstr "   (2,0 GHz)"
 
 msgid "   (2.1 GHz)"
-msgstr ""
+msgstr "   (2,1 GHz)"
 
 msgid "  Menu key : Select quad channel"
 msgstr "  Menu mygtukas : pasirinkite 4 PIP kanalą"
@@ -118,23 +131,20 @@ msgstr " <Nėra kanalo>"
 msgid " <empty>"
 msgstr " <tuščia>"
 
-#, fuzzy
 msgid " Server and "
-msgstr "Serveris žemyn"
+msgstr " Serveris ir "
 
 msgid " and"
 msgstr " ir"
 
-#, fuzzy
 msgid " as HDD ?"
-msgstr "Naudoti kaip HDD"
+msgstr " hDD?"
 
 msgid "!! Boot loader Upgrade !!"
 msgstr "!! Įkrovos tvarkyklės atnaujinimas !!"
 
-#, fuzzy
 msgid "# = Reboot Required"
-msgstr "* = Būtina paleisti iš naujo"
+msgstr "# = Būtina paleisti iš naujo"
 
 msgid "%-H:%M"
 msgstr "%-V:%M"
@@ -873,13 +883,13 @@ msgstr[1] "%d Minutės"
 msgid "%d Minutes"
 msgstr "%d minutės"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d Month"
 msgid_plural "%d Months"
 msgstr[0] "%d min."
-msgstr[1] "%d min."
+msgstr[1] "%d Mėnesiai"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d Pixel"
 msgid_plural "%d Pixels"
 msgstr[0] "%d pikseliai"
@@ -905,17 +915,17 @@ msgstr[1] "%d sekundės"
 msgid "%d Seconds"
 msgstr "%d sekundės"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d Week"
 msgid_plural "%d Weeks"
 msgstr[0] "Kas savaitę"
-msgstr[1] "Kas savaitę"
+msgstr[1] "%d savaitės"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d Year"
 msgid_plural "%d Years"
 msgstr[0] "Metai"
-msgstr[1] "Metai"
+msgstr[1] "%d Metai"
 
 #. TRANSLATORS: Intermediate scanning result, '%d' channel(s) have been found so far
 #, python-format
@@ -930,11 +940,11 @@ msgid_plural "%d cores"
 msgstr[0] "%d branduolys"
 msgstr[1] "%d branduoliai"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d feed catalog package was updated."
 msgid_plural "%d feed catalog packages were updated."
 msgstr[0] "%d paketas atnaujintas."
-msgstr[1] "%d paketai atnaujinti."
+msgstr[1] "%d pašarų katalogo paketai buvo atnaujinti."
 
 #, python-format
 msgid "%d kB"
@@ -944,7 +954,7 @@ msgstr "%d kB"
 msgid "%d min"
 msgstr "%d min."
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d min."
@@ -961,14 +971,14 @@ msgstr "%d msek."
 #, python-format
 msgid "%d package has an update"
 msgid_plural "%d packages have updates."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d paketo atnaujinimas"
+msgstr[1] "%d paketų atnaujinimai."
 
 #, python-format
 msgid "%d package installable."
 msgid_plural "%d packages installable."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d paketas įdiegtinas."
+msgstr[1] "%d paketai įdiegti."
 
 #, python-format
 msgid "%d package installed."
@@ -991,8 +1001,8 @@ msgstr[1] ""
 #, python-format
 msgid "%d package marked for update."
 msgid_plural "%d packages marked for update."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d paketas pažymėtas atnaujinimui."
+msgstr[1] "%d paketų atnaujinimas."
 
 #, python-format
 msgid "%d package upgraded."
@@ -1000,41 +1010,41 @@ msgid_plural "%d packages upgraded."
 msgstr[0] "%d paketas atnaujintas."
 msgstr[1] "%d paketai atnaujinti."
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d package was configured."
 msgid_plural "%d packages were configured."
 msgstr[0] "%d paketas atnaujintas."
-msgstr[1] "%d paketai atnaujinti."
+msgstr[1] "%d paketai buvo sukonfigūruoti."
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d package was deselected."
 msgid_plural "%d packages were deselected."
 msgstr[0] "%d paketo pasirinkimas buvo panaikintas."
-msgstr[1] "%d paketo pasirinkimas buvo panaikintas."
+msgstr[1] "%d paketai buvo išrinkti."
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d package was downloaded."
 msgid_plural "%d packages were downloaded."
 msgstr[0] "%d paketas atnaujintas."
-msgstr[1] "%d paketai atnaujinti."
+msgstr[1] "%d paketai buvo atsisiųsti."
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d package was identified for upgrade."
 msgid_plural "%d packages were identified for upgrade."
 msgstr[0] "%d paketas atnaujintas."
-msgstr[1] "%d paketai atnaujinti."
+msgstr[1] "%d paketų atnaujinimui."
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d package was installed."
 msgid_plural "%d packages were installed."
 msgstr[0] "Atnaujinta, įdiegtas %d paketas."
-msgstr[1] "Atnaujinta, įdiegtas %d paketas."
+msgstr[1] "%d paketai buvo įdiegti."
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d package was removed."
 msgid_plural "%d packages were removed."
 msgstr[0] "%d paketas atnaujintas."
-msgstr[1] "%d paketai atnaujinti."
+msgstr[1] "%d paketai buvo pašalinti."
 
 #, fuzzy, python-format
 msgid "%d package was upgraded."
