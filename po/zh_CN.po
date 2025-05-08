@@ -5,8 +5,8 @@ msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-28 15:03+0200\n"
-"PO-Revision-Date: 2025-05-06 15:42+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2025-05-08 04:55+0000\n"
+"Last-Translator: formia <tipomimmo@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <http://localhost:8000/"
 "projects/enigma2/enigma/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -25,15 +25,13 @@ msgstr ""
 "\n"
 "<此调谐器已被自动配置>"
 
-#, fuzzy
 msgid ""
 "\n"
 "Partition scheme:\n"
 msgstr ""
 "\n"
-"分区\n"
+"分区计划:\n"
 
-#, fuzzy
 msgid ""
 "\n"
 "Recording in progress."
@@ -51,40 +49,52 @@ msgid ""
 " - for GigaBlue UE and GigaBlue Quad\n"
 " - for VU+ Ultimo and VU+ Duo2"
 msgstr ""
+"\n"
+"弱势妇女 皮肤选择器\n"
+"由 satinfo & Henrylicous (感谢您的支持)\n"
+"\n"
+"为 VFD- Display 选择外观的插件\n"
+"\n"
+"- 为Giga Blue UE和Giga Blue Quad配音\n"
+"- 用于VU+ Ultimo和VU+ Duo2"
 
 msgid ""
 "\n"
 "Warning: all the data will be lost.\n"
 "Are you sure you want to format this device?\n"
 msgstr ""
+"\n"
+"警告: 所有数据都将丢失 。\n"
+"您确定要格式化此设备吗 ?\n"
+"?\n"
 
 msgid " "
 msgstr " "
 
 #, fuzzy, python-format
 msgid "   (%s MHz)"
-msgstr "%s MHz"
+msgstr "   %s MHz"
 
 msgid "   (1.0 GHz)"
-msgstr ""
+msgstr "   (1.0千兆赫)"
 
 msgid "   (1.3 GHz)"
-msgstr ""
+msgstr "   (1.3千兆赫)"
 
 msgid "   (1.5 GHz)"
-msgstr ""
+msgstr "   (1.5千兆赫)"
 
 msgid "   (1.6 GHz)"
-msgstr ""
+msgstr "   (1.6千兆赫)"
 
 msgid "   (1.7 GHz)"
-msgstr ""
+msgstr "   (1.7千兆赫)"
 
 msgid "   (2.0 GHz)"
-msgstr ""
+msgstr "   (2.0千兆赫)"
 
 msgid "   (2.1 GHz)"
-msgstr ""
+msgstr "   (2.1千兆赫)"
 
 msgid "  Menu key : Select quad channel"
 msgstr "  菜单键 : 选择四宫格频道"
@@ -121,23 +131,20 @@ msgstr " 没有频道"
 msgid " <empty>"
 msgstr " 空白"
 
-#, fuzzy
 msgid " Server and "
-msgstr "服务器关闭"
+msgstr " 服务器和 "
 
 msgid " and"
 msgstr " 和"
 
-#, fuzzy
 msgid " as HDD ?"
-msgstr "当作硬盘使用"
+msgstr " 作为HDD?"
 
 msgid "!! Boot loader Upgrade !!"
 msgstr "!! 升级引导程序!!"
 
-#, fuzzy
 msgid "# = Reboot Required"
-msgstr "* =需要重新启动"
+msgstr "# = 需要重新启动"
 
 msgid "%-H:%M"
 msgstr "%-时:%分"
@@ -868,20 +875,20 @@ msgstr[0] "%d 分钟"
 msgid "%d Minutes"
 msgstr "%d 分钟"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d Month"
 msgid_plural "%d Months"
-msgstr[0] "%d 分钟"
+msgstr[0] "%d个月"
 
 #, python-format
 msgid "%d Pixel"
 msgid_plural "%d Pixels"
 msgstr[0] "%d 像素"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d Pixel wide"
 msgid_plural "%d Pixels wide"
-msgstr[0] "%d 个像素宽"
+msgstr[0] "%d像素宽度"
 
 #, python-format
 msgid "%d Pixels"
@@ -896,15 +903,15 @@ msgstr[0] "%d 秒"
 msgid "%d Seconds"
 msgstr "%d 秒"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d Week"
 msgid_plural "%d Weeks"
-msgstr[0] "每周"
+msgstr[0] "%d 周数"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d Year"
 msgid_plural "%d Years"
-msgstr[0] "年"
+msgstr[0] "%d 年数"
 
 #. TRANSLATORS: Intermediate scanning result, '%d' channel(s) have been found so far
 #, python-format
@@ -917,10 +924,10 @@ msgid "%d core"
 msgid_plural "%d cores"
 msgstr[0] "%d核心"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d feed catalog package was updated."
 msgid_plural "%d feed catalog packages were updated."
-msgstr[0] "有 %d 个软件包可更新"
+msgstr[0] "%d饲料目录包更新."
 
 #, python-format
 msgid "%d kB"
@@ -951,62 +958,62 @@ msgstr[0] "有 %d 个软件包可更新"
 #, python-format
 msgid "%d package installable."
 msgid_plural "%d packages installable."
-msgstr[0] ""
+msgstr[0] "%d包可安装."
 
 #, python-format
 msgid "%d package installed."
 msgid_plural "%d packages installed."
-msgstr[0] ""
+msgstr[0] "%d包已安装."
 
 #, python-format
 msgid "%d package marked for install."
 msgid_plural "%d packages marked for install."
-msgstr[0] ""
+msgstr[0] "%d包被标记为安装."
 
 #, python-format
 msgid "%d package marked for remove."
 msgid_plural "%d packages marked for remove."
-msgstr[0] ""
+msgstr[0] "%d包被标记为去除."
 
 #, python-format
 msgid "%d package marked for update."
 msgid_plural "%d packages marked for update."
-msgstr[0] ""
+msgstr[0] "%d包被标记为更新."
 
 #, python-format
 msgid "%d package upgraded."
 msgid_plural "%d packages upgraded."
 msgstr[0] "已升级 %d 个程序包."
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d package was configured."
 msgid_plural "%d packages were configured."
-msgstr[0] "已升级 %d 个程序包."
+msgstr[0] "%d软件包已配置."
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d package was deselected."
 msgid_plural "%d packages were deselected."
-msgstr[0] "已取消选择 %d 个程序包."
+msgstr[0] "%d包被取消选取."
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d package was downloaded."
 msgid_plural "%d packages were downloaded."
-msgstr[0] "已升级 %d 个程序包."
+msgstr[0] "%d包被下载."
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d package was identified for upgrade."
 msgid_plural "%d packages were identified for upgrade."
-msgstr[0] "已升级 %d 个程序包."
+msgstr[0] "%d包被确定升级."
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d package was installed."
 msgid_plural "%d packages were installed."
-msgstr[0] "已安装 %d 个软件包."
+msgstr[0] "%d包被安装."
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d package was removed."
 msgid_plural "%d packages were removed."
-msgstr[0] "已升级 %d 个程序包."
+msgstr[0] "%d包被移除."
 
 #, fuzzy, python-format
 msgid "%d package was upgraded."
@@ -1016,7 +1023,7 @@ msgstr[0] "已升级 %d 个程序包."
 #, python-format
 msgid "%d plugin is not available:"
 msgid_plural "%d plugins are not available:"
-msgstr[0] ""
+msgstr[0] "%d插件不可用 :"
 
 #, python-format
 msgid "%d sec"
@@ -1073,9 +1080,8 @@ msgstr "%d.%m"
 msgid "%d.%m.%Y"
 msgstr "%d.%m.%Y"
 
-#, fuzzy
 msgid "%d.%m.%Y - %H:%M:%S"
-msgstr "%-H:%M:%S"
+msgstr "%d.%m.%Y -%H:%M:%S"
 
 msgid "%d/%-m"
 msgstr "%d/%-m"
@@ -1119,13 +1125,13 @@ msgstr "%m/%d "
 msgid "%m/%d/%Y"
 msgstr "%m/%d/%Y"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%s "
-msgstr "%s GHz"
+msgstr "%s (中文(简体) ) "
 
-#, fuzzy, python-format
+#, python-format
 msgid "%s  "
-msgstr "%s  (%s)"
+msgstr "%s (中文(简体) )  "
 
 #, python-format
 msgid "%s %02d.%02d."
@@ -1133,7 +1139,7 @@ msgstr "%s %02d.%02d."
 
 #, python-format
 msgid "%s %s"
-msgstr ""
+msgstr "%s %s (英语)"
 
 #, python-format
 msgid "%s %s advanced remote control (native)"
@@ -1157,7 +1163,7 @@ msgstr "%s %s 远程控制(本机)"
 
 #, python-format
 msgid "%s %sB"
-msgstr ""
+msgstr "%s %s B"
 
 #, python-format
 msgid "%s ( %s Cards )"
@@ -1169,19 +1175,19 @@ msgstr "%s (%04o)"
 
 #, python-format
 msgid "%s Browser Manage Actions"
-msgstr ""
+msgstr "%s 浏览器管理动作"
 
 #, python-format
 msgid "%s GHz"
 msgstr "%s GHz"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%s Info - Configuration"
-msgstr "调谐器配置"
+msgstr "%s信息 - 配置"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%s Info - Main Menu"
-msgstr "oscam信息-主菜单"
+msgstr "%s信息 - 主菜单"
 
 #, python-format
 msgid "%s KSymb/s"
@@ -1193,11 +1199,11 @@ msgstr "%s MHz"
 
 #, python-format
 msgid "%s has been activated."
-msgstr ""
+msgstr "%s已经启动."
 
 #, python-format
 msgid "%s has been disabled."
-msgstr ""
+msgstr "%s已禁用."
 
 #. TRANSLATORS: The satellite with name '%s' is no longer used after a configuration change. The user is asked whether or not the satellite should be deleted.
 #, python-format
@@ -1206,7 +1212,7 @@ msgstr "%s不再使用,是否删除？"
 
 #, python-format
 msgid "%s long"
-msgstr ""
+msgstr "%s长"
 
 #, python-format
 msgid "%s not available."
