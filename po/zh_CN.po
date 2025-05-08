@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-28 15:03+0200\n"
-"PO-Revision-Date: 2025-05-08 04:55+0000\n"
+"PO-Revision-Date: 2025-05-08 14:41+0000\n"
 "Last-Translator: formia <tipomimmo@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <http://localhost:8000/"
 "projects/enigma2/enigma/zh_Hans/>\n"
@@ -71,9 +71,9 @@ msgstr ""
 msgid " "
 msgstr " "
 
-#, fuzzy, python-format
+#, python-format
 msgid "   (%s MHz)"
-msgstr "   %s MHz"
+msgstr "   (%s MHz) (中文(简体) )"
 
 msgid "   (1.0 GHz)"
 msgstr "   (1.0千兆赫)"
@@ -1015,10 +1015,10 @@ msgid "%d package was removed."
 msgid_plural "%d packages were removed."
 msgstr[0] "%d包被移除."
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d package was upgraded."
 msgid_plural "%d packages were upgraded."
-msgstr[0] "已升级 %d 个程序包."
+msgstr[0] "%d包被升级."
 
 #, python-format
 msgid "%d plugin is not available:"
@@ -1029,7 +1029,7 @@ msgstr[0] "%d插件不可用 :"
 msgid "%d sec"
 msgstr "%d 秒"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d second"
 msgid_plural "%d seconds"
 msgstr[0] "%d 秒"
@@ -1218,9 +1218,9 @@ msgstr "%s长"
 msgid "%s not available."
 msgstr "%s 不可用."
 
-#, fuzzy, python-format
+#, python-format
 msgid "%s webif disabled"
-msgstr "OScam webif已禁用"
+msgstr "%s web 如果已禁用"
 
 #, python-format
 msgid "%s%d min"
@@ -1277,11 +1277,11 @@ msgstr "'%s' 包含 %d 个文件和 %d 个子目录.\n"
 msgid ""
 "'Network peer' automatically detects other Enigma2 receivers on the local "
 "network. You can also manually enter the URL or IP address."
-msgstr ""
+msgstr "“ 网络对等点” 自动检测本地网络上的其他 Enigma2 接收器 。 您也可以手动输入 "
+"URL 或 IP 地址 ."
 
-#, fuzzy
 msgid "(All readers)"
-msgstr "(所有读卡器)"
+msgstr "(所有读者)"
 
 #, python-format
 msgid "(Attention: There will be a restart after %d crashes.)"
@@ -1296,9 +1296,9 @@ msgstr " (画中画)"
 msgid "(Radio)"
 msgstr " (广播)"
 
-#, fuzzy, python-format
+#, python-format
 msgid "(Show only reader) (%s)"
-msgstr "(仅显示读卡器:"
+msgstr "(只显示读者) (%s)"
 
 msgid "(TV)"
 msgstr " (电视)"
@@ -1306,7 +1306,7 @@ msgstr " (电视)"
 msgid ""
 "(The file '/media/hdd/images/config/myrestore.sh' exists and will be run "
 "after the image is flashed.)"
-msgstr ""
+msgstr "(文件\"/media/hdd/images/config/myrestore.sh\"存在并会在图像被闪出后运行.)"
 
 msgid "(empty)"
 msgstr "(空)"
@@ -1324,23 +1324,23 @@ msgid "* current animation"
 msgstr "* 当前动画"
 
 msgid "*.tar.gz & *.bh.tgz & *.ipk removed"
-msgstr ""
+msgstr "*.tar.gz & *.bh.tgz & *.ipk 已删除"
 
 msgid "+24 Hours"
-msgstr ""
+msgstr "+24 小时"
 
 msgctxt "Text list separator"
 msgid ", "
 msgstr ", "
 
 msgid "-24 Hours"
-msgstr ""
+msgstr "+24 小时"
 
 msgid "-24h/+24 Hours"
 msgstr "-24小时/+24小时"
 
 msgid "/media/custom"
-msgstr ""
+msgstr "/媒体/客户"
 
 msgid "/s"
 msgstr "/秒"
@@ -1391,29 +1391,28 @@ msgid "16:9 Always"
 msgstr "16:9总是"
 
 msgid "16:9 Combined"
-msgstr ""
+msgstr "16:9 合并"
 
 msgid "16:9 Ignore"
-msgstr ""
+msgstr "16:9 忽略"
 
 msgid "16:9 Letterbox"
 msgstr "16:9信箱模式"
 
 msgid "16:9 PanScan"
-msgstr ""
+msgstr "16: 9 PanScan (英语)"
 
 msgid "16:9 reset to normal"
-msgstr ""
+msgstr "16: 9 重置为正则"
 
 msgid "18 V"
 msgstr "18V"
 
-#, fuzzy
 msgid "1st infobar timeout"
 msgstr "第一信息栏超时"
 
 msgid "1x"
-msgstr ""
+msgstr "1个"
 
 msgid "2nd InfoBar Actions"
 msgstr "第二信息栏操作"
@@ -1446,13 +1445,13 @@ msgid "3D Surround Speaker Position"
 msgstr "3D环绕扬声器位置"
 
 msgid "3x"
-msgstr ""
+msgstr "3个"
 
 msgid "4:3 Combined"
-msgstr ""
+msgstr "4:3 合并"
 
 msgid "4:3 Ignore"
-msgstr ""
+msgstr "4: 3 忽略"
 
 msgid "4:3 Letterbox"
 msgstr "4:3信箱模式"
@@ -1461,28 +1460,25 @@ msgid "4:3 PanScan"
 msgstr "4:3全景模式"
 
 msgid "4x"
-msgstr ""
+msgstr "4个"
 
 msgid "50-200 Mbps"
-msgstr ""
+msgstr "50-200 (简体中文). 移动"
 
 msgid "8 character"
 msgstr "8个字符"
 
-#, fuzzy
 msgid "81"
-msgstr "1"
+msgstr "81国道"
 
-#, fuzzy
 msgid "82"
-msgstr "2"
+msgstr "82号"
 
-#, fuzzy
 msgid "83"
-msgstr "3"
+msgstr "83个"
 
 msgid "8888"
-msgstr ""
+msgstr "8888 (英语)"
 
 msgid "8bit"
 msgstr "8位"
@@ -1509,7 +1505,7 @@ msgid "<Last timer location>"
 msgstr "<最后一个定时器位置>"
 
 msgid "<Select a device>"
-msgstr ""
+msgstr "< 选择设备 >"
 
 msgid "A"
 msgstr "A"
@@ -1520,15 +1516,15 @@ msgid ""
 msgstr "正在进行后台更新检查,请等待几分钟,然后重试."
 
 msgid "A backup is now being created."
-msgstr ""
+msgstr "目前正在创建备份."
 
 #, python-format
 msgid "A completed task wants to set your %s %s to standby. Do that now?"
-msgstr ""
+msgstr "一个已完成的任务想要将您的%s%s设置为待命状态. 现在?"
 
 #, python-format
 msgid "A completed task wants to shut down your %s %s. Shutdown now?"
-msgstr ""
+msgstr "一个完成的任务想要关闭您的%s%s. 关机了吗?"
 
 #, python-format
 msgid "A crash log was %s created in '%s'"
@@ -1619,6 +1615,10 @@ msgid ""
 "\n"
 "Go to Deep Standby now?"
 msgstr ""
+"录音、录制定时器或动力定时器正在运行,或将在15分钟内启动。 %s延长至30分钟. "
+"你的%s%s将在录音或动力定时事件后去深待命.\n"
+"\n"
+"现在去深层待命?"
 
 #, python-format
 msgid "A required tool (%s) was not found."
@@ -1683,9 +1683,8 @@ msgstr "AC3+转码"
 msgid "AFL"
 msgstr "AFL"
 
-#, fuzzy
 msgid "AFP Actions"
-msgstr "画中画操作"
+msgstr "AFP 行动"
 
 msgid "AFP Settings"
 msgstr "AFP设置"
@@ -1736,27 +1735,25 @@ msgid "About..."
 msgstr "关于..."
 
 msgid "Above 200 Mbps"
-msgstr ""
+msgstr "超过 200 Mbps"
 
-#, fuzzy
 msgid "Access point"
-msgstr "无线接入点:"
+msgstr "访问点"
 
 msgid "Access point:"
 msgstr "无线接入点:"
 
 msgid "Access to geolocation information requires an Internet connection."
-msgstr ""
+msgstr "获得地理定位信息需要互联网连接."
 
 msgid "Accessed"
-msgstr ""
+msgstr "访问"
 
 msgid "Action"
 msgstr "动作"
 
-#, fuzzy
 msgid "Actions"
-msgstr "动作"
+msgstr "行动"
 
 msgid "Activate"
 msgstr "激活"
@@ -1773,9 +1770,8 @@ msgstr "激活画中画"
 msgid "Activate network adapter configuration"
 msgstr "激活网卡配置"
 
-#, fuzzy
 msgid "Activate this device"
-msgstr "激活时移结束"
+msgstr "激活此设备"
 
 msgid "Activate time shift End"
 msgstr "激活时移结束"
@@ -1814,7 +1810,7 @@ msgid "Add Current"
 msgstr "添加当前"
 
 msgid "Add HDMI-IN To Bouquet"
-msgstr ""
+msgstr "添加 HDMI- IN 到 Bouquet"
 
 msgid "Add Marker To Bouquet"
 msgstr "添加标记"
@@ -1825,9 +1821,8 @@ msgstr "添加新的四画面频道条目"
 msgid "Add RecordTimer"
 msgstr "添加录制定时器"
 
-#, fuzzy
 msgid "Add Service"
-msgstr "添加频道"
+msgstr "添加服务"
 
 msgid "Add Service To Bouquet"
 msgstr "添加频道到自定义组"
@@ -1848,10 +1843,10 @@ msgid "Add ZapTimer"
 msgstr "添加换台定时器"
 
 msgid "Add a DNS entry"
-msgstr ""
+msgstr "添加 DNS 条目"
 
 msgid "Add a RADIO service to the Volume Offset list"
-msgstr ""
+msgstr "在卷偏移列表中添加一个 RADIO 服务"
 
 msgid "Add a RecordTimer"
 msgstr "添加录制定时器"
@@ -1860,7 +1855,7 @@ msgid "Add a RecordTimer for current event"
 msgstr "为当前事件添加录制定时器"
 
 msgid "Add a TV service to the Volume Offset list"
-msgstr ""
+msgstr "在卷偏移列表中添加一个电视服务"
 
 msgid "Add a ZapTimer for current event"
 msgstr "为当前事件添加换台定时器"
@@ -1872,22 +1867,22 @@ msgid "Add a mark"
 msgstr "添加一个标记"
 
 msgid "Add a new bouquet"
-msgstr ""
+msgstr "添加新花纹"
 
 msgid "Add a new marker before the current service"
-msgstr ""
+msgstr "在当前服务前添加新标记"
 
 msgid "Add a new tag"
 msgstr "增加新标签"
 
 msgid "Add a new timer"
-msgstr ""
+msgstr "添加新计时器"
 
 msgid "Add a new title"
 msgstr "添加新的标题"
 
 msgid "Add a service to the Volume Offset list"
-msgstr ""
+msgstr "将服务添加到音量偏移列表"
 
 msgid "Add a timer for the current event"
 msgstr "为当前事件添加定时器"
@@ -1911,13 +1906,13 @@ msgid "Add highlighted directory to bookmarks"
 msgstr "添加选中的文件夹到书签"
 
 msgid "Add more slots"
-msgstr ""
+msgstr "添加更多空档"
 
 msgid "Add new CCcam line"
-msgstr ""
+msgstr "添加新CC相机线"
 
 msgid "Add new NewCamd line"
-msgstr ""
+msgstr "添加新分类线"
 
 msgid "Add new tag"
 msgstr "添加新标签"
@@ -1937,27 +1932,26 @@ msgstr "添加录制(不限时)"
 msgid "Add recording (Stop after current event)"
 msgstr "添加录制(当前事件后停止)"
 
-#, fuzzy
 msgid "Add recording (stop after current event)"
-msgstr "添加录制(当前事件后停止)"
+msgstr "添加录音( 在当前事件后停止)"
 
 msgid "Add service"
 msgstr "添加频道"
 
 msgid "Add service to AutoCam"
-msgstr ""
+msgstr "添加服务到自动卡"
 
 msgid "Add services to this bouquet?"
-msgstr ""
+msgstr "添加服务到此花序 ?"
 
 msgid "Add the current directory as a bookmark"
-msgstr ""
+msgstr "将当前目录添加为书签"
 
 msgid "Add the current/active service to the Volume Offset list"
-msgstr ""
+msgstr "将当前/活动服务添加到卷偏移列表"
 
 msgid "Add the selected service to a bouquet or alternative"
-msgstr ""
+msgstr "将选中的服务添加到花束或替代中"
 
 msgid "Add title"
 msgstr "添加标题"
@@ -1969,16 +1963,16 @@ msgid "Add/Remove a timer for the current event"
 msgstr "添加/删除 当前事件定时器"
 
 msgid "Add/Remove highlighted plugin to/from install list"
-msgstr ""
+msgstr "添加/ 移动突出显示的插件到/ 从安装列表中"
 
 msgid "Add/Remove highlighted plugin to/from remove list"
-msgstr ""
+msgstr "添加/ 移动突出显示的插件到/ 从删除列表中"
 
 msgid "Add/Remove highlighted plugin to/from update list"
-msgstr ""
+msgstr "添加/ 删除突出显示的插件到/ 从更新列表中"
 
 msgid "Add/Remove the current service to/from the Volume Offset list"
-msgstr ""
+msgstr "将当前服务添加/ 移动到/ 从量偏移列表中"
 
 msgid "Adding schedule..."
 msgstr "添加任务..."
@@ -2006,9 +2000,8 @@ msgstr "地址"
 msgid "Adjust 3D settings"
 msgstr "调整3D设置"
 
-#, fuzzy
 msgid "Adjust decoding options"
-msgstr "即时录像位置"
+msgstr "调整解码选项"
 
 msgid ""
 "Adjust the color settings so that all the color shades are distinguishable, "
@@ -2025,9 +2018,8 @@ msgstr "成人"
 msgid "Adult Audience, Strong Violence 15+"
 msgstr "成人节目, 强暴力等级15+"
 
-#, fuzzy
 msgid "Adv. UnInstall"
-msgstr "安裝"
+msgstr "Adv. 未安装"
 
 msgid "Advanced"
 msgstr "高级"
@@ -2051,7 +2043,7 @@ msgid "Afrikaans"
 msgstr "南非荷兰语"
 
 msgid "After Event"
-msgstr ""
+msgstr "事件发生后"
 
 msgid "After event"
 msgstr "事件之后"
@@ -2090,6 +2082,8 @@ msgid ""
 "All Softcams will be deinstalled\n"
 "Are you sure ?"
 msgstr ""
+"所有软相机将被解开\n"
+"你确定吗?"
 
 msgid "All ages"
 msgstr "所有年龄段"
@@ -2101,7 +2095,7 @@ msgid "All events up"
 msgstr "向上翻页"
 
 msgid "All files"
-msgstr ""
+msgstr "所有文件"
 
 msgid "All resolutions"
 msgstr "所有分辨率"
@@ -2152,7 +2146,7 @@ msgid "Alpha"
 msgstr "字母表"
 
 msgid "Alphabetical"
-msgstr ""
+msgstr "字母"
 
 msgid "Alphabetical under headings"
 msgstr "标题下按字母顺序排列"
@@ -2188,7 +2182,7 @@ msgid "Alternative URLs for DVB-T/C or ATSC"
 msgstr "DVB-T/C或ATSC替代URL地址"
 
 msgid "Always"
-msgstr ""
+msgstr "永远"
 
 msgid "Always ask"
 msgstr "总是询问"
@@ -2208,9 +2202,8 @@ msgstr "阿姆哈拉语"
 msgid "Amlogic"
 msgstr "半导体"
 
-#, fuzzy
 msgid "Amlogic remote"
-msgstr "半导体"
+msgstr "模拟远程"
 
 msgid "An error occurred while downloading the packet list. Please try again."
 msgstr "下载文件包列表时发生了一个错误.请重试."
@@ -2222,13 +2215,13 @@ msgid "Andorra"
 msgstr "安道尔"
 
 msgid "Android"
-msgstr ""
+msgstr "机器人"
 
 msgid "Android Linux SE"
-msgstr ""
+msgstr "Android Linux 软件 性别"
 
 msgid "Angle"
-msgstr ""
+msgstr "角度"
 
 msgid "Angola"
 msgstr "安哥拉"
@@ -2261,7 +2254,7 @@ msgid "Any recordings"
 msgstr "任何录制"
 
 msgid "Aperture F number"
-msgstr ""
+msgstr "孔径 F 号"
 
 msgid "Apply any changes to the active locale/language and exit"
 msgstr "对活动区域设置/语言应用任何更改并退出"
@@ -2273,27 +2266,25 @@ msgid "Arabic"
 msgstr "阿拉伯语"
 
 msgid "Arabic (Egyptian)"
-msgstr ""
+msgstr "阿拉伯语( 埃及语)"
 
-#, fuzzy
 msgid "Arabic (Iraq)"
-msgstr "阿拉伯语"
+msgstr "阿拉伯语( 伊拉克)"
 
 msgid "Arabic (Moroccan)"
-msgstr ""
+msgstr "阿拉伯语( 摩洛哥)"
 
 msgid "Arabic (Syro-Lebanese)"
-msgstr ""
+msgstr "阿拉伯语( 叙利亚- 黎巴嫩)"
 
 msgid "Arabic (Tunisian)"
-msgstr ""
+msgstr "阿拉伯语( 突尼斯语)"
 
 msgid "Aragonese"
 msgstr "阿拉贡语"
 
-#, fuzzy
 msgid "Are the settings correct ?"
-msgstr "这个设置是否可以？"
+msgstr "设置是否正确?"
 
 msgid "Are you ready to run the script ?"
 msgstr "是否准备好运行脚本？"
@@ -2337,19 +2328,20 @@ msgid "Are you sure you want to delete the EPG data from:\n"
 msgstr "是否确定要删除的EPG数据:\n"
 
 msgid "Are you sure you want to delete this image?"
-msgstr ""
+msgstr "您确定要删除此图像吗 ?"
 
 msgid "Are you sure you want to delete this log:\n"
 msgstr "是否确实要删除此日志:\n"
 
-#, fuzzy
 msgid ""
 "Are you sure you want to delete this:\n"
 " "
-msgstr "是否确实要删除此日志:\n"
+msgstr ""
+"您确定要删除这个 :\n"
+" "
 
 msgid "Are you sure you want to delete this?"
-msgstr ""
+msgstr "您确定要删除吗 ?"
 
 msgid "Are you sure you want to exit this wizard?"
 msgstr "是否确定要退出此向导?"
@@ -2379,13 +2371,13 @@ msgstr ""
 "确定要恢复这个备份?\n"
 "你的接收机将在恢复完成后重启!"
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Are you sure you want to restore your %s %s backup?\n"
 "STB will restart after the restore"
 msgstr ""
-"是否确定要恢复你的 %s %s备份?\n"
-"数字电视机顶盒将还原后重启"
+"您确定要恢复您的 %s%s 备份吗 ?\n"
+"STB 恢复后将重新启动"
 
 msgid "Are you sure you want to save the EPG Cache to:\n"
 msgstr "是否确实要将EPG缓存保存到:\n"
@@ -2415,7 +2407,7 @@ msgid "As plugin in extended bar"
 msgstr "作为扩展栏中的插件"
 
 msgid "Ascending"
-msgstr ""
+msgstr "上升"
 
 msgid "Ask user"
 msgstr "询问用户"
@@ -2432,13 +2424,11 @@ msgstr "高宽比"
 msgid "Aspect Ratio Actions"
 msgstr "屏幕比例操作"
 
-#, fuzzy
 msgid "Aspect Ratio: "
-msgstr "宽高比"
+msgstr "外观比 : "
 
-#, fuzzy
 msgid "Aspect Ratio: n/a"
-msgstr "宽高比"
+msgstr "外观比率:不详"
 
 msgid "Aspect list..."
 msgstr "纵横比列表..."
@@ -2447,7 +2437,7 @@ msgid "Aspect ratio"
 msgstr "宽高比"
 
 msgid "Aspect switch"
-msgstr ""
+msgstr "侧切换"
 
 msgid "Assamese"
 msgstr "阿萨姆语"
@@ -2474,11 +2464,11 @@ msgid "At end"
 msgstr "结束时"
 
 msgid "At end of current program"
-msgstr ""
+msgstr "在当前程序结束时"
 
 #, python-format
 msgid "At end: %s"
-msgstr ""
+msgstr "终: %s"
 
 msgid "Athletics"
 msgstr "田径"
@@ -2495,13 +2485,13 @@ msgstr "声道"
 msgid "Audio PID"
 msgstr "音频PID"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Audio PID%s, Codec & Language"
-msgstr "音频PID,编解码器和语言"
+msgstr "音频 PID%s, 代码和语言"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Audio PID%s, codec & lang"
-msgstr "音频PID,编解码器和语言"
+msgstr "音频 PID%s, 编码和lang"
 
 msgid "Audio PID, codec & lang"
 msgstr "音频PID,编解码器和语言"
@@ -2552,26 +2542,25 @@ msgid "Auto focus commencing ..."
 msgstr "启动自动对焦..."
 
 msgid "Auto shut down"
-msgstr ""
+msgstr "自动关闭"
 
 msgid "Auto standby"
 msgstr "自动待机"
 
 msgid "Auto timeout (5-150min):"
-msgstr ""
+msgstr "自动超时( 5- 150min ) :"
 
-#, fuzzy
 msgid "Auto timeout:"
-msgstr "不超时"
+msgstr "自动超时 :"
 
 msgid "Auto(not available)"
 msgstr "自动(不可用)"
 
 msgid "AutoCam Setup Actions"
-msgstr ""
+msgstr "自动卡姆设置动作"
 
 msgid "AutoTimer"
-msgstr ""
+msgstr "自动计时器"
 
 msgid "Automatic"
 msgstr "自动"
@@ -2585,9 +2574,8 @@ msgstr "自动分辨率"
 msgid "Automatic resolution label"
 msgstr "自动分辨率标签"
 
-#, fuzzy
 msgid "Automatically update Client/Server View?"
-msgstr "自动更新客户端/服务器视图?"
+msgstr "自动更新客户端/ 服务器视图 ?"
 
 msgid "Autostart"
 msgstr "自启动"
@@ -2638,18 +2626,17 @@ msgstr "可录制光盘"
 msgid "Back"
 msgstr "返回"
 
-#, fuzzy
 msgid "Back USB"
-msgstr "返回"
+msgstr "返回USB时"
 
 msgid "Back USB 3.0"
-msgstr ""
+msgstr "返回 USB 3.0"
 
 msgid "Back USB-C"
-msgstr ""
+msgstr "后面的USB -C"
 
 msgid "Back, inner USB"
-msgstr ""
+msgstr "回来,USB内部"
 
 msgid "Back, left USB"
 msgstr ""
