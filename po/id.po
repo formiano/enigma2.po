@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Opendroid\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-28 15:03+0200\n"
-"PO-Revision-Date: 2025-05-08 09:52+0000\n"
+"PO-Revision-Date: 2025-05-09 07:53+0000\n"
 "Last-Translator: formia <tipomimmo@gmail.com>\n"
 "Language-Team: Indonesian <http://localhost:8000/projects/enigma2/enigma/id/>"
 "\n"
@@ -163,103 +163,98 @@ msgid "%-I:%M%^p"
 msgstr ""
 
 msgid "%-I:%M:%S"
-msgstr ""
+msgstr "% -I:% M:% S"
 
 msgid "%-I:%M:%S%P"
-msgstr ""
+msgstr "% -I:% M:% S% P"
 
 msgid "%-I:%M:%S%^p"
-msgstr ""
+msgstr "% -I:% M:% S% ^ p"
 
 #. TRANSLATORS: Full date representation daynum monthname year in strftime() format! See 'man strftime'.
-#, fuzzy
 msgid "%-d %B %Y"
-msgstr "%d %B %Y"
+msgstr "% -d% B% Y"
 
 #. TRANSLATORS: Small date representation daynum short monthname in strftime() format! See 'man strftime'.
 #. TRANSLATORS: compact date representation (for VFD) daynum short monthname in strftime() format! See 'man strftime'
 msgid "%-d %b"
-msgstr ""
+msgstr "% -d% b"
 
 #. TRANSLATORS: Long date representation daynum short monthname year in strftime() format! See 'man strftime'.
 msgid "%-d %b %Y"
-msgstr ""
+msgstr "% -d% b% Y"
 
 msgid "%-d+%b_"
-msgstr ""
+msgstr "% -d +% b _"
 
 msgid "%-d-%B-%Y"
-msgstr ""
+msgstr "% -d-% B-% Y"
 
 msgid "%-d-%b"
-msgstr ""
+msgstr "% -d-% b"
 
 msgid "%-d-%b-%Y"
-msgstr ""
+msgstr "% -d-% b-% Y"
 
-#, fuzzy
 msgid "%-d. %B %Y"
-msgstr "%d %B %Y"
+msgstr "% -d.% B% Y"
 
 msgid "%-d. %b"
-msgstr ""
+msgstr "% -d.% b"
 
-#, fuzzy
 msgid "%-d. %b %Y"
-msgstr "%d %B %Y"
+msgstr "% -d.% b% Y"
 
 msgid "%-d.%-m"
-msgstr ""
+msgstr "% -d.% -m"
 
 msgid "%-d.%-m.%Y"
-msgstr ""
+msgstr "% -d.% -m.% Y"
 
-#, fuzzy
 msgid "%-d.%m"
-msgstr "%d.%m.   "
+msgstr "% -d.% m"
 
-#, fuzzy
 msgid "%-d.%m.%Y"
-msgstr "%d.%m.   "
+msgstr "% -d.% m.% Y"
 
 msgid "%-d/%-m"
-msgstr ""
+msgstr "% -d /% -m"
 
 msgid "%-d/%-m "
-msgstr ""
+msgstr "% -d /% -m "
 
 msgid "%-d/%-m/%Y"
-msgstr ""
+msgstr "% -d /% -m /% Y"
 
 msgid "%-d/%m"
-msgstr ""
+msgstr "% -d /% m"
 
 msgid "%-d/%m "
-msgstr ""
+msgstr "% -d /% m "
 
 msgid "%-d/%m/%Y"
-msgstr ""
+msgstr "% -d /% m /% Y"
 
 msgid "%-d=%b_"
-msgstr ""
+msgstr "% -d =% b _"
 
 msgid "%-m/%-d"
-msgstr ""
+msgstr "% -m /% -d"
 
 msgid "%-m/%-d "
-msgstr ""
+msgstr "% -m /% -d "
 
 msgid "%-m/%-d/%Y"
-msgstr ""
+msgstr "% -m /% -d /% Y"
 
 msgid "%-m/%d"
-msgstr ""
+msgstr "% -m /% d"
 
 msgid "%-m/%d "
-msgstr ""
+msgstr "% -m /% d "
 
 msgid "%-m/%d/%Y"
-msgstr ""
+msgstr "% -m /% d /% Y"
 
 #, python-format
 msgid "%.0f GB"
@@ -275,7 +270,7 @@ msgstr "%.2f GB"
 
 #, python-format
 msgid "%.3f MHz"
-msgstr ""
+msgstr "MHz"
 
 #, python-format
 msgid "%02d.%02d."
@@ -289,9 +284,9 @@ msgstr "%02d.%02d.%d"
 msgid "%02d:%02d"
 msgstr "%02d:%02d"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%02d:%02d - %02d:%02d"
-msgstr "%02d.%02d - %02d.%02d"
+msgstr "%02d: %02d - %02d: %02d"
 
 #, fuzzy, python-format
 msgid "%03d MB"
