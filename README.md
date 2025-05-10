@@ -2,4 +2,7 @@
 
 ## Translation status
 
-[![Stato traduzione](https://weblate.opendroid.org/widget/enigma2/enigma/open-graph.png)](https://weblate.opendroid.org/engage/enigma2/)
+<a href="http://127.0.0.1:8888/engage/enigma2/">
+  <img src="http://127.0.0.1:8888/widget/enigma2/enigma/open-graph.png" alt="Stato traduzione" />
+</a>
+
