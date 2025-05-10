@@ -2,4 +2,6 @@
 
 ## Translation status
 
-[![Translation status](http://127.0.0.1:8888/widget/enigma2/enigma/open-graph.png)](http://127.0.0.1:8888/projects/enigma2/enigma/)
+<a href="http://localhost:8888/engage/enigma2/">
+<img src="http://localhost:8888/widget/enigma2/enigma/open-graph.png" alt="Stato traduzione" />
+</a>
