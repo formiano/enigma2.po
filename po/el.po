@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Opendroid Enigma2 Official Greek Translation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-28 15:03+0200\n"
-"PO-Revision-Date: 2025-05-09 16:45+0000\n"
+"PO-Revision-Date: 2025-05-10 07:52+0000\n"
 "Last-Translator: formia <tipomimmo@gmail.com>\n"
 "Language-Team: Greek <http://localhost:8000/projects/enigma2/enigma/el/>\n"
 "Language: el\n"
@@ -6009,6 +6009,10 @@ msgid ""
 "Remote tuners will be used when tuners are not available on this receiver. "
 "(No free tuner or service type is not available.)"
 msgstr ""
+"Ενεργοποίηση χρήσης δέκτη από άλλο δέκτη Enigma2 στο τοπικό δίκτυο. Οι "
+"απομακρυσμένοι συντονιστές θα χρησιμοποιηθούν όταν οι συντονιστές δεν είναι "
+"διαθέσιμοι σε αυτόν τον δέκτη. (Δεν είναι διαθέσιμος κανένας ελεύθερος "
+"συντονιστής ή τύπος υπηρεσίας.)"
 
 msgid "Enable volume control with LEFT/RIGHT arrow buttons"
 msgstr "Ενεργοποίηση ελέγχου έντασης με αριστερά πλήκτρα βέλους / RIGHT"
@@ -6390,7 +6394,7 @@ msgid "Error reading webpage!"
 msgstr "Σφάλμα ανάγνωσης ιστοσελίδας!"
 
 msgid "Error retrieving installed packages."
-msgstr ""
+msgstr "Σφάλμα ανάκτησης εγκατεστημένων πακέτων."
 
 msgid "Error text:"
 msgstr "Κείμενο σφάλματος:"
@@ -6758,10 +6762,10 @@ msgid "External PiP"
 msgstr "Εξωτερικό PiP"
 
 msgid "External Reader /dev/ttyUSB0:"
-msgstr ""
+msgstr "Εξωτερικός αναγνώστης /dev/ttyUSB0:"
 
 msgid "External Reader /dev/ttyUSB1:"
-msgstr ""
+msgstr "Εξωτερικός αναγνώστης /dev/ttyUSB1:"
 
 #, python-format
 msgid "External Storage %s"
@@ -6824,7 +6828,7 @@ msgid "FP Upgrade"
 msgstr "Αναβάθμιση FP"
 
 msgid "FPU"
-msgstr ""
+msgstr "FPU"
 
 msgid "FSBL Update Check"
 msgstr "Έλεγχος ενημέρωσης του FSBL"
@@ -6936,7 +6940,7 @@ msgid "Fast DiSEqC"
 msgstr "Γρήγορο DiSEqC"
 
 msgid "Fast Mounted Remove"
-msgstr ""
+msgstr "Γρήγορη προσάρτηση Αφαίρεση"
 
 msgid "Fast Scan"
 msgstr "Γρήγορη ανίχνευση"
@@ -6957,6 +6961,12 @@ msgid ""
 "P.x on Devicelist - where x >=2) are mounted on the same Device.\n"
 "Please unmount Fixed Mounted Devices with Device Manager Panel!"
 msgstr ""
+"Τα γρήγορα τοποθετημένα μέσα αποπροσάρτησης.\n"
+"Μπορείτε να αφαιρέσετε με ασφάλεια τη συσκευή τώρα, αν δεν υπάρχουν "
+"περαιτέρω κατατμήσεις (που εμφανίζονται ως P.x στη λίστα συσκευών - όπου x "
+">=2) τοποθετούνται στην ίδια συσκευή.\n"
+"Παρακαλώ αποπροσαρτήστε τις σταθερές προσαρτημένες συσκευές με τον πίνακα "
+"διαχείρισης συσκευών!"
 
 msgid "Favorite Edit"
 msgstr "[Επεξεργασία αγαπημένου]"
@@ -7140,10 +7150,10 @@ msgstr "Φιvλανδικά"
 
 #, python-format
 msgid "Firmware: %s"
-msgstr ""
+msgstr "Firmware: %s"
 
 msgid "Firmware: unknown"
-msgstr ""
+msgstr "Firmware: άγνωστο"
 
 msgid "First playable time shift file!"
 msgstr "Πρώτο αρχείο χρονομετατόπισης για αναπαραγωγή!"
@@ -7166,6 +7176,9 @@ msgid ""
 "system restart in order to take effect.\n"
 "Restart your STB now?"
 msgstr ""
+"Σταθερή προσαρτημένη αρχική συσκευή αποθήκευσης σε /media/hdd. Χρειάζεται "
+"επανεκκίνηση του συστήματος για να τεθεί σε ισχύ.\n"
+"Να ξαναρχίσεις τα αφροδίσια τώρα?"
 
 msgid "Flash Image"
 msgstr "Φλασάρισμα image"
@@ -7217,7 +7230,7 @@ msgid "Flashed:\t%s"
 msgstr "Flash σε χρήση"
 
 msgid "Flashed:\tMultiboot active\n"
-msgstr ""
+msgstr "Flashed: Ενεργός πολλαπλών μποτών\n"
 
 msgid "Flashing"
 msgstr "Αναβοσβηνόμενο"
@@ -7276,10 +7289,12 @@ msgid "Format as"
 msgstr "Μορφοποίηση δίσκου"
 
 msgid "Format terminated with success"
-msgstr ""
+msgstr "Η μορφή τερματίστηκε με επιτυχία"
 
 msgid "Format/Partition your Devices and manage Mountpoints"
 msgstr ""
+"Μορφοποίηση/καταχώρηση των συσκευών σας και διαχείριση των σημείων "
+"προσάρτησης"
 
 #, fuzzy
 msgid "Formatting disk"
@@ -7302,11 +7317,11 @@ msgid "Formatting..."
 msgstr "Ρυθμίσεις..."
 
 msgid "Forward Error Correction (FEC)"
-msgstr ""
+msgstr "Διόρθωση προθεσμιακών σφαλμάτων (FEC)"
 
 #, python-format
 msgid "Four partitions (25% - 25% - 25% - 25%)"
-msgstr ""
+msgstr "Τέσσερα χωρίσματα (25% - 25% - 25% - 25%)"
 
 msgid "France"
 msgstr "Γαλλία"
@@ -7392,10 +7407,10 @@ msgid "From :"
 msgstr "Από :"
 
 msgid "Front USB"
-msgstr ""
+msgstr "Μπροστά USB"
 
 msgid "Front USB 3.0"
-msgstr ""
+msgstr "Μπροστά USB 3.0"
 
 #, fuzzy
 msgid "Front processor version"
@@ -7658,7 +7673,7 @@ msgid "GotoX calibration"
 msgstr "Υπολογισμός GotoX"
 
 msgid "Grab"
-msgstr ""
+msgstr "Πιάσε"
 
 msgid "Graphical EPG"
 msgstr "Γραφικός EPG"
@@ -7801,7 +7816,7 @@ msgid "Haitian / Haitian Creole"
 msgstr "Αϊτινά / Αϊτινή Κρεολική"
 
 msgid "Halt"
-msgstr ""
+msgstr "Αλτ"
 
 msgid "Hard Disk Settings"
 msgstr "Ρυθμίσεις σκληρού δίσκου"
@@ -7829,7 +7844,7 @@ msgid "Hardware serial"
 msgstr "Σειριακός αριθμός κάρτας"
 
 msgid "Hardware type"
-msgstr ""
+msgstr "Τύπος υλικού"
 
 msgid "Hausa"
 msgstr "Χάουσα"
@@ -7839,7 +7854,7 @@ msgstr "Χαβανέζικα"
 
 #, python-format
 msgid "Heads: %s (max) %s (current)"
-msgstr ""
+msgstr "Κεφαλές: %s (μέγ.) %s (τρέχουσες)"
 
 #, fuzzy
 msgid "Heads: unknown"
@@ -7880,7 +7895,7 @@ msgid "HiSilicon specific information"
 msgstr "Εμφάνιση πληροφοριών υπηρεσίας"
 
 msgid "HiSilicon specific information not found."
-msgstr ""
+msgstr "Δεν βρέθηκαν ειδικές πληροφορίες για το HiSilicon."
 
 msgid "Hidden / Blank"
 msgstr "Κρυφό / κενό"
@@ -8044,7 +8059,7 @@ msgid "Hungary"
 msgstr "Ουγγαρία"
 
 msgid "Hybrid Tuner"
-msgstr ""
+msgstr "Υβριδικός τόνος"
 
 msgid "Hz"
 msgstr "Hz"
@@ -8066,6 +8081,10 @@ msgid ""
 "\n"
 "This Reader can be used to configure for example a connected easymouse."
 msgstr ""
+"ΠΛΗΡΟΦΟΡΙΕΣ: Εξωτερικός αναγνώστης /dev/ttyUSB0\n"
+"\n"
+"Αυτός ο αναγνώστης μπορεί να χρησιμοποιηθεί για να ρυθμίσει για παράδειγμα "
+"ένα συνδεδεμένο εύκολο ποντίκι."
 
 msgid ""
 "INFORMATION: External Reader /dev/ttyUSB1\n"
@@ -8073,6 +8092,10 @@ msgid ""
 "This Reader can be used to configure for example a second connected "
 "easymouse."
 msgstr ""
+"ΠΛΗΡΟΦΟΡΙΕΣ: Εξωτερικός αναγνώστης /dev/ttyUSB1\n"
+"\n"
+"Αυτός ο αναγνώστης μπορεί να χρησιμοποιηθεί για να ρυθμίσει για παράδειγμα "
+"ένα δεύτερο συνδεδεμένο easymouse."
 
 msgid ""
 "INFORMATION: Internal Reader /dev/sci0\n"
@@ -8080,27 +8103,40 @@ msgid ""
 "All STB's having only one cardslot.\n"
 "On STB's having two cardslots it is mostly the lower cardslot."
 msgstr ""
+"ΠΛΗΡΟΦΟΡΙΕΣ: Εσωτερικός Αναγνώστης /dev/sci0\n"
+"\n"
+"Όλα τα STB έχουν μόνο ένα χαρτάκι.\n"
+"Στο STB έχουν δύο cardslots είναι ως επί το πλείστον το χαμηλότερο cardslot."
 
 msgid ""
 "INFORMATION: Internal Reader /dev/sci1\n"
 "\n"
 "On STB's having two cardslots it is mostly the upper cardslot."
 msgstr ""
+"ΠΛΗΡΟΦΟΡΙΕΣ: Εσωτερικός αναγνώστης /dev/sci1\n"
+"\n"
+"Στο STB έχουν δύο cardslots είναι κυρίως το πάνω cardslot."
 
 msgid ""
 "INFORMATION: Select OScam WebifPort\n"
 "Oscam Webif will be accessible on the selected port."
 msgstr ""
+"ΠΛΗΡΟΦΟΡΙΕΣ: Επιλέξτε OScam WebifPort\n"
+"Το Oscam Webif θα είναι προσβάσιμο στην επιλεγμένη θύρα."
 
 msgid ""
 "INFORMATION: make your selection and press GREEN\n"
 "All config files are backed up automatically"
 msgstr ""
+"ΠΛΗΡΟΦΟΡΙΕΣ: κάντε την επιλογή σας και πατήστε ΠΡΙΝ\n"
+"Όλα τα αρχεία ρυθμίσεων υποστηρίζονται αυτόματα"
 
 msgid ""
 "INFORMATION: please select your CI+ Modul\n"
 "\n"
 msgstr ""
+"ΠΛΗΡΟΦΟΡΙΕΣ: παρακαλώ επιλέξτε CI+ Modul\n"
+"\n"
 
 msgid "INS"
 msgstr "INS"
@@ -8119,7 +8155,7 @@ msgid "IP of fallback remote receiver"
 msgstr "IP του εφεδρικού απομακρυσμένου δέκτη"
 
 msgid "IPK Tools"
-msgstr ""
+msgstr "Εργαλεία IPK"
 
 #, fuzzy
 msgid "IPv4 only"
@@ -8248,6 +8284,11 @@ msgid ""
 "remove the usb device and reboot.\n"
 "\n"
 msgstr ""
+"Αν η μονάδα USB είναι συνδεδεμένη και τοποθετημένη πρέπει να ενεργοποιήσετε "
+"το κουτί σας, αφαιρέστε τη συσκευή usb και επανεκκίνηση.\n"
+"\n"
+".\n"
+"\n"
 
 msgid "Igbo"
 msgstr "Ίγκμπο"
@@ -8282,7 +8323,7 @@ msgstr "Ενέργειες φλασαρισμάτων image"
 
 #, python-format
 msgid "Image:\t%s"
-msgstr ""
+msgstr "Εικόνα: %s"
 
 msgid "ImageWizard"
 msgstr "Οδηγός Image"
@@ -8523,7 +8564,7 @@ msgid "Install settings, skins, software..."
 msgstr "Εγκατάσταση λογισμικού..."
 
 msgid "Install tar.gz, bh.tgz, nab.tgz"
-msgstr ""
+msgstr "Εγκατάσταση tar.gz, bh.tgz, nab.tgz"
 
 msgid "Install the package"
 msgstr "Εγκατάσταση του πακέτου"
@@ -8534,9 +8575,9 @@ msgstr "Εγκατάσταση του επιλεγμένου πρόσθετου 
 msgid "Installation finished."
 msgstr "Η εγκατάσταση ολοκληρώθηκε."
 
-#, fuzzy, python-format
+#, python-format
 msgid "Installed:\t%s"
-msgstr "Εγκατεστημένο"
+msgstr "Εγκαταστάθηκε: %s"
 
 msgid "Installing"
 msgstr "Εγκατάσταση"
@@ -8563,9 +8604,9 @@ msgstr "Άμεση εγγραφή"
 msgid "Interface"
 msgstr "Διεπαφή"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Interface '%s'"
-msgstr "Διεπαφή: "
+msgstr "Διεπαφή '%s \\\""
 
 msgid "Interface: "
 msgstr "Διεπαφή: "
@@ -8586,18 +8627,16 @@ msgid "Internal Flash"
 msgstr "Εσωτερική Flash"
 
 msgid "Internal Reader /dev/sci0:"
-msgstr ""
+msgstr "Εσωτερικός αναγνώστης /dev/sci0:"
 
 msgid "Internal Reader /dev/sci1:"
-msgstr ""
+msgstr "Εσωτερικός αναγνώστης /dev/sci1:"
 
-#, fuzzy
 msgid "Internal SSD"
-msgstr "Εσωτερικός"
+msgstr "Εσωτερική SSD"
 
-#, fuzzy
 msgid "Internal USB"
-msgstr "Εσωτερικός"
+msgstr "Εσωτερικό USB"
 
 msgid "Internal flash"
 msgstr "Εσωτερική flash"
@@ -8650,7 +8689,7 @@ msgid "Invert"
 msgstr "Αναστροφή"
 
 msgid "Ipk Tools"
-msgstr ""
+msgstr "Εργαλεία Ipk"
 
 msgid "Ipkg"
 msgstr "Ipkg"
@@ -8667,9 +8706,8 @@ msgstr "Ιρλανδία"
 msgid "Irish"
 msgstr "Ιρλανδικά"
 
-#, fuzzy
 msgid "Is a Ci+ Module installed:"
-msgstr "Τρέχον εγκατεστημένο"
+msgstr "Είναι εγκατεστημένη μια ενότητα Ci+:"
 
 msgid "Is the keyboard working?"
 msgstr "Λειτουργεί το πληκτρολόγιο;"
@@ -8713,9 +8751,8 @@ msgstr "Ιαβανικά"
 msgid "Jersey"
 msgstr "Τζέρσεϊ"
 
-#, fuzzy
 msgid "Job Manager"
-msgstr "Διαχείριση καταγραφών"
+msgstr "Διαχειριστής εργασίας"
 
 msgid "Jordan"
 msgstr "Ιορδανία"
@@ -8810,9 +8847,8 @@ msgstr "Καζακικά"
 msgid "Kazakhstan"
 msgstr "Καζακστάν"
 
-#, fuzzy
 msgid "Keep old drive"
-msgstr "Διατήρηση υπηρεσίας"
+msgstr "Κρατήστε παλιά κίνηση"
 
 msgid "Keep service"
 msgstr "Διατήρηση υπηρεσίας"
@@ -8831,7 +8867,7 @@ msgstr "Αρχείο kernel"
 
 #, python-format
 msgid "Kernel (Box):\t%s"
-msgstr ""
+msgstr "Πυρήνας (θέση): %s"
 
 #, fuzzy
 msgid "Kernel modules list"
@@ -8843,11 +8879,11 @@ msgstr "Αναστροφή"
 
 #, python-format
 msgid "Kernel:\t%s"
-msgstr ""
+msgstr "Πυρήνας: %s"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Kernel: %s"
-msgstr "Αρχείο kernel"
+msgstr "Πυρήνας: %s"
 
 msgid "Kexec MultiBoot Actions"
 msgstr "Ενέργειες πολλαπλής εκκίνησης Kexec"
@@ -8868,12 +8904,12 @@ msgstr "Πληκτρολόγιο"
 msgid "Keyboard data entry"
 msgstr "Εισαγωγή δεδομένων πληκτρολογίου"
 
-#, fuzzy
 msgid "Keymap Selection"
-msgstr "Επιλογή EPG"
+msgstr "Επιλογή χάρτη πλήκτρων"
 
 msgid "Keymap changed, you need to restart the GUI"
 msgstr ""
+"Ο χάρτης πλήκτρων άλλαξε, πρέπει να επανεκκινήσετε το γραφικό περιβάλλον"
 
 msgid "Kikuyu / Gikuyu"
 msgstr "Κικούγιου / Γκικούγιου"
@@ -8938,27 +8974,23 @@ msgstr "Ρυθμίσεις θέματος LCD"
 msgid "LCD SkinSelector"
 msgstr "Επιλογή θέματος LCD"
 
-#, fuzzy
 msgid "LCN Scanner"
-msgstr "Χωρίς κανάλι"
+msgstr "Ανιχνευτής LCN"
 
-#, fuzzy
 msgid "LCN Scanner Actions"
-msgstr "Σύνδεση δικτύου"
+msgstr "Ενέργειες ανιχνευτών LCN"
 
-#, fuzzy
 msgid "LCN Scanner plugin for DVB-C/T/T2 services"
-msgstr "Πρόσθετο LCN για υπηρεσίες DVB-T/T2"
+msgstr "LCN Πρόσθετο ανιχνευτών για τις υπηρεσίες DVB-C/T/T2"
 
-#, fuzzy
 msgid "LCN numbering"
-msgstr "Αριθμός"
+msgstr "Αριθ. LCN"
 
 msgid "LCN style QuickSelect entry selection"
 msgstr "Στυλ LCN στοιχείου επιλογής γρήγορης επιλογής"
 
 msgid "LIRC remote"
-msgstr ""
+msgstr "Τηλεχειριστήριο LIRC"
 
 msgid "LNB"
 msgstr "LNB"
@@ -8973,7 +9005,7 @@ msgid "LOF/L"
 msgstr "LOF/L"
 
 msgid "Label"
-msgstr ""
+msgstr "Ετικέτα"
 
 msgid "Language"
 msgstr "Γλώσσα"
@@ -9001,9 +9033,8 @@ msgstr "Λάο (Εθνική Δημοκρατία)"
 msgid "Large"
 msgstr "Μεγάλο"
 
-#, fuzzy
 msgid "Last Req."
-msgstr "Τελευταία ζήτηση"
+msgstr "Τελευταίος Reκ."
 
 msgid "Last config"
 msgstr "Τελευταία ρύθμιση"
@@ -9011,13 +9042,13 @@ msgstr "Τελευταία ρύθμιση"
 msgid "Last speed"
 msgstr "Τελευταία ταχύτητα"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Last update:\t%s"
-msgstr "Τελευταία ενημέρωση"
+msgstr "Τελευταία ενημέρωση: %s"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Last update: %s"
-msgstr "Τελευταία ενημέρωση"
+msgstr "Τελευταία ενημέρωση: %s"
 
 msgid "Last used column"
 msgstr "Στήλη που χρησιμοποιήθηκε τελευταία"
@@ -9025,17 +9056,15 @@ msgstr "Στήλη που χρησιμοποιήθηκε τελευταία"
 msgid "Last used share: "
 msgstr "Τελευταίο κοινόχρηστο στοιχείο: "
 
-#, fuzzy
 msgid "Last used/set volume"
-msgstr "Στήλη που χρησιμοποιήθηκε τελευταία"
+msgstr "Όγκος τελευταίας χρήσης/ρύθμισης"
 
 msgctxt "third event: 'third' event label"
 msgid "Later"
 msgstr "Αργότερα"
 
-#, fuzzy
 msgid "Latest Commits"
-msgstr "Υποβολή"
+msgstr "Τελευταίες αναλήψεις"
 
 msgid "Latin"
 msgstr "Λατινικά"
@@ -9064,9 +9093,8 @@ msgstr "Λίβανος"
 msgid "Left"
 msgstr "Αριστερά"
 
-#, fuzzy
 msgid "Left USB"
-msgstr "Αριστερά"
+msgstr "Αριστερά USB"
 
 msgid "Left column"
 msgstr "Αριστερή στήλη"
@@ -9075,10 +9103,10 @@ msgid "Left from service name"
 msgstr "Αριστερά του ονόματος υπηρεσίας"
 
 msgid "Left, back USB"
-msgstr ""
+msgstr "Αριστερά, πίσω USB"
 
 msgid "Left, front USB"
-msgstr ""
+msgstr "Αριστερά, εμπρός USB"
 
 msgid "Left, wrapped"
 msgstr "Αριστερά, σε αναδίπλωση"
@@ -9102,12 +9130,11 @@ msgstr "Ζουμάρισμα σε μπάρες πάνω - κάτω"
 msgid "Liberia"
 msgstr "Λιβερία"
 
-#, fuzzy
 msgid "Library"
-msgstr "Γιβραλτάρ"
+msgstr "Βιβλιοθήκη"
 
 msgid "Libs"
-msgstr ""
+msgstr "Λίμπς"
 
 msgid "Libya"
 msgstr "Λιβύη"
@@ -9152,9 +9179,8 @@ msgstr "Γραμμή %d / %d"
 msgid "Lingala"
 msgstr "Λιγκάλα"
 
-#, fuzzy
 msgid "Link detected"
-msgstr "Προορισμός συνδέσμου"
+msgstr "Ανιχνεύθηκε δεσμός"
 
 msgid "Link quality:"
 msgstr "Ποιότητα σύνδεσης:"
@@ -9210,9 +9236,8 @@ msgstr "Ζωντανά"
 msgid "Live TV Actions"
 msgstr "Ενέργειες ζωντανής TV"
 
-#, fuzzy
 msgid "Live process list"
-msgstr "Προβολή ως λίστα"
+msgstr "Ζωντανή λίστα διεργασίας"
 
 msgid "Load"
 msgstr "Φόρτωση"
@@ -9223,13 +9248,11 @@ msgstr "Φόρτωση λίστας αναπαραγωγής"
 msgid "Load tags from the timer and recordings"
 msgstr "Φόρτωση ετικετών από τους χρονοδιακόπτες και τις εγγραφές"
 
-#, fuzzy
 msgid "Loading commits, please wait..."
-msgstr "Φόρτωση πληροφοριών θέσης, περιμένετε..."
+msgstr "Φόρτωση δεμάτων, παρακαλώ περιμένετε..."
 
-#, fuzzy
 msgid "Loading information, please wait..."
-msgstr "Φόρτωση πληροφοριών θέσης, περιμένετε..."
+msgstr "Φόρτωση πληροφοριών, παρακαλώ περιμένετε..."
 
 msgid "Loading slot information, please wait..."
 msgstr "Φόρτωση πληροφοριών θέσης, περιμένετε..."
@@ -9240,9 +9263,8 @@ msgstr "Τοπικός δέκτης"
 msgid "Local date/time"
 msgstr "Τοπική ημερομηνία/ώρα"
 
-#, fuzzy
 msgid "Local information"
-msgstr "Πληροφορίες Oscam"
+msgstr "Τοπικές πληροφορίες"
 
 msgid "Local network"
 msgstr "Τοπικό δίκτυο"
@@ -9282,9 +9304,8 @@ msgstr "Τοποθεσία"
 msgid "Location Selection Actions"
 msgstr "Ενέργειες επιλογής τοποθεσίας"
 
-#, fuzzy
 msgid "Location information"
-msgstr "Εκπαίδευση/πληροφόρηση"
+msgstr "Πληροφορίες τοποθεσίας"
 
 #, python-format
 msgid "Location: %s"
@@ -9293,9 +9314,9 @@ msgstr "Τοποθεσία: %s"
 msgid "Log"
 msgstr "Καταγραφή"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Log %s-%s"
-msgstr "Αρχείο καταγραφής %d/%d"
+msgstr "Καταγραφή %s-%s"
 
 msgid "Log Manager"
 msgstr "Διαχείριση καταγραφών"
@@ -9303,9 +9324,8 @@ msgstr "Διαχείριση καταγραφών"
 msgid "Log results to harddisk"
 msgstr "Αποτελέσματα καταγραφών στον σκληρό δίσκο"
 
-#, fuzzy
 msgid "Log-Manager"
-msgstr "Διαχείριση καταγραφών"
+msgstr "Διαχειριστής καταγραφής"
 
 msgid "LogManager"
 msgstr "Διαχείριση καταγραφών"
@@ -9329,9 +9349,8 @@ msgstr "Γεωγραφικό μήκος"
 msgid "Loop through to"
 msgstr "Loop στο"
 
-#, fuzzy
 msgid "Lower USB"
-msgstr "Πεζά"
+msgstr "Χαμηλότερο USB"
 
 msgid "Lower case"
 msgstr "Πεζά"
@@ -9355,7 +9374,7 @@ msgid "Luxembourgish / Letzeburgesch"
 msgstr "Λουξεμβουργιανά"
 
 msgid "M2k"
-msgstr ""
+msgstr "M2ια"
 
 msgid "MAC Address Actions"
 msgstr "Ενέργειες διεύθυνσης MAC"
@@ -9363,7 +9382,6 @@ msgstr "Ενέργειες διεύθυνσης MAC"
 msgid "MAC Address Settings"
 msgstr "Ρυθμίσεις διεύθυνσης MAC"
 
-#, fuzzy
 msgid "MAC address"
 msgstr "Διεύθυνση MAC"
 
@@ -9376,9 +9394,8 @@ msgstr "MB"
 msgid "MENU"
 msgstr "ΜΕΝΟΥ"
 
-#, fuzzy
 msgid "MHz"
-msgstr "Hz"
+msgstr "MHz"
 
 msgid "MMA"
 msgstr "MMA"
@@ -9386,16 +9403,14 @@ msgstr "MMA"
 msgid "MOUSE"
 msgstr "ΠΟΝΤΙΚΙ"
 
-#, fuzzy
 msgid "MTD"
-msgstr "PMT PID"
+msgstr "ΜΤΔ"
 
-#, fuzzy
 msgid "MTD partitions"
-msgstr "Διαμερίσματα"
+msgstr "Κατατμήσεις MTD"
 
 msgid "MTU"
-msgstr ""
+msgstr "MTU"
 
 msgid "Macao"
 msgstr "Μακάο"
@@ -9406,9 +9421,8 @@ msgstr "Σκοπιανικά"
 msgid "Madagascar"
 msgstr "Μαδαγασκάρη"
 
-#, fuzzy
 msgid "Magenta"
-msgstr "Αργεντινή"
+msgstr "Ματζέντα"
 
 msgid "Magic"
 msgstr "Magic"
@@ -9469,9 +9483,8 @@ msgstr "Διαχείριση του %s"
 msgid "Manage Locale/Language Selection settings"
 msgstr "Διαχείριση ρυθμίσεων γλώσσας/διαλέκτου"
 
-#, fuzzy
 msgid "Manage and configure your online update sources"
-msgstr "Διαχείριση αρχείων διαδικτυακής ενημέρωσης"
+msgstr "Διαχείριση και ρύθμιση των online πηγών ενημέρωσης"
 
 msgid "Manage and explore directories and files."
 msgstr "Διαχείριση και εξερεύνηση φακέλων και αρχείων."
@@ -9484,25 +9497,20 @@ msgstr "Διαχείριση του επιλεγμένου %s"
 msgid "Manage the highlighted %s / list of %s"
 msgstr "Διαχείριση του επιλεγμένου %s / λίστας των %s"
 
-#, fuzzy
 msgid "Manage update files"
-msgstr "Διαχείριση αρχείων διαδικτυακής ενημέρωσης"
+msgstr "Διαχείριση αρχείων ενημέρωσης"
 
-#, fuzzy
 msgid "Manage your cron jobs"
-msgstr "Διαχείριση αρχείων διαδικτυακής ενημέρωσης"
+msgstr "Διαχείριση των εργασιών cron σας"
 
-#, fuzzy
 msgid "Manage your services"
-msgstr "Αλλαγή σε λειτουργία υπηρεσιών TV"
+msgstr "Διαχείριση των υπηρεσιών σας"
 
-#, fuzzy
 msgid "Manage your software updates"
-msgstr "Διαχείριση αρχείων διαδικτυακής ενημέρωσης"
+msgstr "Διαχείριση των ενημερώσεων λογισμικού σας"
 
-#, fuzzy
 msgid "Manage your system logs"
-msgstr "Διαχείριση αρχείων διαδικτυακής ενημέρωσης"
+msgstr "Διαχείριση των αρχείων καταγραφής του συστήματός σας"
 
 msgid "Manual"
 msgstr "Χειροκίνητη"
@@ -9611,33 +9619,29 @@ msgid "Medium toolbox"
 msgstr "Εργαλειοθήκη μέσων"
 
 msgid "Mem cleared"
-msgstr ""
+msgstr "- Εντάξει"
 
-#, fuzzy
 msgid "Memory Info"
 msgstr "Πληροφορίες μνήμης"
 
 msgid "Memory Information"
 msgstr "Πληροφορίες μνήμης"
 
-#, fuzzy
 msgid "Memory Information Actions"
-msgstr "Πληροφορίες μνήμης"
+msgstr "Πληροφορίες μνήμης Δράσεις"
 
 msgid "Memory index"
 msgstr "Θέση στη μνήμη"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Memory information for %s %s"
-msgstr "Πληροφορίες μνήμης"
+msgstr "Πληροφορίες μνήμης για %s %s"
 
-#, fuzzy
 msgid "Memory usage overview"
-msgstr "Επισκόπηση εργασιών"
+msgstr "Επισκόπηση χρήσης μνήμης"
 
-#, fuzzy
 msgid "Memory:"
-msgstr "Μνήμη"
+msgstr "Μνήμη:"
 
 msgid "Menu"
 msgstr "Μενού"
@@ -9676,7 +9680,7 @@ msgid "Mexico"
 msgstr "Μεξικό"
 
 msgid "Micro SD"
-msgstr ""
+msgstr "Μικρό SD"
 
 msgid "Micronesia, Federated States of"
 msgstr "Ομόσπονδες Πολιτείες της Μικρονησίας"
@@ -9727,9 +9731,8 @@ msgstr "Mipsel"
 msgid "Miscellaneous"
 msgstr "Διάφορα"
 
-#, fuzzy
 msgid "Miscellaneous languages"
-msgstr "Διάφορα"
+msgstr "Διάφορες γλώσσες"
 
 #, python-format
 msgid ""
@@ -9739,9 +9742,8 @@ msgstr ""
 "Λανθασμένα ρυθμισμένη σύνδεση του tuner %s στο tuner %s!\n"
 "Η επιλογή tuner %s \"σύνδεση στο\" έχει απενεργοποιηθεί"
 
-#, fuzzy
 msgid "Mobile connection"
-msgstr "Δεν υπάρχει σύνδεση"
+msgstr "Κινητή σύνδεση"
 
 msgid "Mode"
 msgstr "Λειτουργία"
@@ -9764,19 +9766,18 @@ msgstr "Μοντέλο"
 
 #, python-format
 msgid "Model:\t%s %s\n"
-msgstr ""
+msgstr "Υπόδειγμα: %s %s\n"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Model: %s"
-msgstr "Μοντέλο"
+msgstr "Υπόδειγμα: %s"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Model: %s %s\n"
-msgstr "Βίντεο: %s fps"
+msgstr "Υπόδειγμα: %s %s\n"
 
-#, fuzzy
 msgid "Model: unknown"
-msgstr "άγνωστο"
+msgstr "Μοντέλο: άγνωστο"
 
 msgid "Modified"
 msgstr "Τροποποιήθηκε"
@@ -9784,9 +9785,8 @@ msgstr "Τροποποιήθηκε"
 msgid "Modulation"
 msgstr "Διαμόρφωση"
 
-#, fuzzy
 msgid "Modules"
-msgstr "Διαμορφωτής"
+msgstr "Ενότητες"
 
 msgid "Moldova, Republic of"
 msgstr "Μολδαβία, Δημοκρατία"
@@ -9845,7 +9845,6 @@ msgstr "Προσάρτηση"
 msgid "Mount Menu Actions"
 msgstr "Ενέργειες μενού προσαρτήσεων"
 
-#, fuzzy
 msgid "Mount Point"
 msgstr "Σημείο προσάρτησης"
 
@@ -9853,59 +9852,55 @@ msgid "Mount Settings"
 msgstr "Ρυθμίσεις προσαρτήσεων"
 
 msgid "Mount as /media/hdd1"
-msgstr ""
+msgstr "Προσάρτηση ως /media/hdd1"
 
 msgid "Mount as /media/hdd2"
-msgstr ""
+msgstr "Προσάρτηση ως /media/hdd2"
 
 msgid "Mount as /media/hdd3"
-msgstr ""
+msgstr "Προσάρτηση ως /media/hdd3"
 
 msgid "Mount as /media/hdd4"
-msgstr ""
+msgstr "Προσάρτηση ως /media/hdd4"
 
 msgid "Mount as /media/hdd5"
-msgstr ""
+msgstr "Προσάρτηση ως /media/hdd5"
 
-#, fuzzy
 msgid "Mount as /media/usb"
-msgstr "Προσαρτημένες συσκευές"
+msgstr "Προσάρτηση ως /media/usb"
 
 msgid "Mount as /media/usb1"
-msgstr ""
+msgstr "Προσάρτηση ως /media/usb1"
 
 msgid "Mount as /media/usb2"
-msgstr ""
+msgstr "Προσάρτηση ως /media/usb2"
 
 msgid "Mount as /media/usb3"
-msgstr ""
+msgstr "Προσάρτηση ως /media/usb3"
 
 msgid "Mount as /media/usb4"
-msgstr ""
+msgstr "Προσάρτηση ως /media/usb4"
 
 msgid "Mount as /media/usb5"
-msgstr ""
+msgstr "Προσάρτηση ως /media/usb5"
 
-#, fuzzy
 msgid "Mount as main hdd"
-msgstr "Αποτυχία προσάρτησης"
+msgstr "Προσάρτηση ως κύρια hdd"
 
 msgid "Mount failed"
 msgstr "Αποτυχία προσάρτησης"
 
 msgid "Mount on custom path"
-msgstr ""
+msgstr "Προσάρτηση σε προσαρμοσμένη διαδρομή"
 
-#, fuzzy
 msgid "Mount point exist!"
-msgstr "Σημείο προσάρτησης"
+msgstr "Το σημείο του βουνού υπάρχει!"
 
 msgid "Mount: "
 msgstr "Προσάρτηση: "
 
-#, fuzzy
 msgid "Mountpoints"
-msgstr "Σημείο προσάρτησης"
+msgstr "Σημεία προσάρτησης"
 
 msgid "Mounts"
 msgstr "Σημεία προσάρτησης"
@@ -9983,9 +9978,8 @@ msgstr ""
 "Μετακίνηση μία οθόνη κάτω. Μετακίνηση στην τελευταία γραμμή της οθόνης αν "
 "αυτή είναι η τελευταία."
 
-#, fuzzy
 msgid "Move down to last entry"
-msgstr "Μετακίνηση στην τελευταία γραμμή"
+msgstr "Μετακίνηση κάτω στην τελευταία καταχώρηση"
 
 msgid "Move down to last line"
 msgstr "Μετακίνηση στην τελευταία γραμμή"
@@ -10175,9 +10169,8 @@ msgstr ""
 "Μετακίνηση μία οθόνη επάνω. Μετακίνηση στην πρώτη γραμμή της οθόνης αν αυτή "
 "είναι η πρώτη."
 
-#, fuzzy
 msgid "Move up to first entry"
-msgstr "Μετακίνηση στην πρώτη γραμμή"
+msgstr "Μετακίνηση στην πρώτη καταχώρηση"
 
 msgid "Move up to first line"
 msgstr "Μετακίνηση στην πρώτη γραμμή"
@@ -10262,17 +10255,14 @@ msgstr "Διαχείριση πολλαπλής εκκίνησης"
 msgid "MultiBoot Manager Actions"
 msgstr "Ρυθμίσεις διαχείρισης πολλαπλής εκκίνησης"
 
-#, fuzzy
 msgid "MultiLib"
-msgstr "Πολλαπλό"
+msgstr "MultiLib"
 
-#, fuzzy
 msgid "MultiTranscoding"
-msgstr "Διακωδικοποίηση: "
+msgstr "Πολλαπλή κωδικοποίηση"
 
-#, fuzzy
 msgid "Multimedia"
-msgstr "Πακέτα πολυμέσων"
+msgstr "Πολυμέσα"
 
 msgid "Multiple service support"
 msgstr "Υποστήριξη πολλαπλών υπηρεσιών"
@@ -10307,15 +10297,14 @@ msgstr "Μιανμάρ"
 msgid "Mystery"
 msgstr "Μυστήριο"
 
-#, fuzzy
 msgid "N"
-msgstr "Όχι"
+msgstr "Ν"
 
 msgid "N/A"
 msgstr "Μ/Δ"
 
 msgid "NCam"
-msgstr ""
+msgstr "NCam"
 
 msgid "NFS Actions"
 msgstr "Ενέργειες NFS"
@@ -10324,7 +10313,7 @@ msgid "NFS Settings"
 msgstr "Ρυθμίσεις NFS"
 
 msgid "NIM"
-msgstr ""
+msgstr "ΝΙΜ"
 
 msgid "NIM & Type"
 msgstr "Μονάδα tuner & τύπος"
@@ -10345,6 +10334,9 @@ msgid ""
 "active. Pressing any enabled button will cause the screen to reappear but "
 "the button will not be actioned."
 msgstr ""
+"ΣΗΜΕΙΩΣΗ: Ενώ η οθόνη της κονσόλας είναι κρυμμένη από την προβολή τα κουμπιά "
+"είναι ακόμα ενεργά. Πατώντας οποιοδήποτε ενεργοποιημένο κουμπί θα εμφανιστεί "
+"ξανά η οθόνη αλλά το κουμπί δεν θα ενεργοποιηθεί."
 
 msgid "NTP"
 msgstr "NTP"
@@ -10365,13 +10357,11 @@ msgstr "Φθίνουσα ονομασία"
 msgid "Name server %d"
 msgstr "Όνομα διακομιστή %d"
 
-#, fuzzy
 msgid "Name: "
-msgstr "Όνομα"
+msgstr "Όνομα: "
 
-#, fuzzy
 msgid "Name: n/a"
-msgstr "Όνομα"
+msgstr "Όνομα: n/a"
 
 msgid "Nameserver"
 msgstr "Διακομιστής ονομάτων"
@@ -10379,20 +10369,17 @@ msgstr "Διακομιστής ονομάτων"
 msgid "Nameserver settings"
 msgstr "Ρυθμίσεις διακομιστών ονομάτων"
 
-#, fuzzy
 msgid "Namespace & Orbital pos."
-msgstr "Χώρος ονόματος & τροχιακή θέση"
+msgstr "Namespace & Orbital pos."
 
-#, fuzzy
 msgid "Namespace & Orbital position"
-msgstr "Χώρος ονόματος & τροχιακή θέση"
+msgstr "Θέση Namespace & Orbital"
 
 msgid "Namibia"
 msgstr "Ναμίμπια"
 
-#, fuzzy
 msgid "Narration"
-msgstr "Κορεσμός"
+msgstr "Αφηγήσεις"
 
 msgid "Native"
 msgstr "Αυθεντική"
@@ -10426,9 +10413,8 @@ msgstr ""
 msgid "Ndonga"
 msgstr "Ντόνγκα"
 
-#, fuzzy
 msgid "Ne"
-msgstr "Νέο"
+msgstr "Όχι"
 
 msgid "Nepal"
 msgstr "Νεπάλ"
@@ -10463,9 +10449,8 @@ msgstr "ID δικτύου"
 msgid "Network Information"
 msgstr "Πληροφορίες δικτύου"
 
-#, fuzzy
 msgid "Network Information Actions"
-msgstr "Πληροφορίες δικτύου"
+msgstr "Ενέργειες ενημέρωσης δικτύου"
 
 msgid "Network Log Actions"
 msgstr "Ενέργειες καταγραφής δικτύου"
@@ -10488,17 +10473,15 @@ msgstr "Οδηγός δικτύου"
 msgid "Network adapter not connected to a network!"
 msgstr "Ο προσαρμογέας δικτύου δεν είναι συνδεδεμένος σε δίκτυο!"
 
-#, fuzzy
 msgid "Network information"
 msgstr "Πληροφορίες δικτύου"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Network information for %s %s"
-msgstr "Πληροφορίες δικτύου"
+msgstr "Πληροφορίες δικτύου για %s %s"
 
-#, fuzzy
 msgid "Network interface information"
-msgstr "Πληροφορίες δικτύου"
+msgstr "Πληροφορίες διασύνδεσης δικτύου"
 
 msgid "Network menu"
 msgstr "Μενού δικτύου"
@@ -10509,13 +10492,11 @@ msgstr "Προσαρτήσεις δικτύου"
 msgid "Network name (SSID)"
 msgstr "Όνομα δικτύου (SSID)"
 
-#, fuzzy
 msgid "Network peer"
-msgstr "Δοκιμή δικτύου"
+msgstr "Ομοίωμα δικτύου"
 
-#, fuzzy
 msgid "Network peers"
-msgstr "Δοκιμή δικτύου"
+msgstr "Επιλογείς δικτύου"
 
 msgid "Network scan"
 msgstr "Ανίχνευση δικτύου"
@@ -10550,9 +10531,8 @@ msgstr "Νέα Καληδονία"
 msgid "New PIN"
 msgstr "Νέο PIN"
 
-#, fuzzy
 msgid "New Storage Device"
-msgstr "Συσκευές αποθήκευσης"
+msgstr "Νέα συσκευή αποθήκευσης"
 
 msgid "New Zealand"
 msgstr "Νέα Ζηλανδία"
@@ -10615,13 +10595,11 @@ msgstr "Νιγηρία"
 msgid "Niue"
 msgstr "Νιούε"
 
-#, fuzzy
 msgid "Nne"
-msgstr "Κανένα"
+msgstr "Εν"
 
-#, fuzzy
 msgid "Nnw"
-msgstr "Νέο"
+msgstr "Όχι"
 
 msgid "No"
 msgstr "Όχι"
@@ -10629,24 +10607,23 @@ msgstr "Όχι"
 msgid "No (supported) DVDROM found!"
 msgstr "Δεν βρέθηκε (υποστηριζόμενο) DVD-ROM!"
 
-#, fuzzy
 msgid "No - simple"
-msgstr "απλό"
+msgstr "Όχι - απλό"
 
 msgid "No Connection"
 msgstr "Δεν υπάρχει σύνδεση"
 
-#, fuzzy
 msgid "No ECM PIDs available"
-msgstr "Μη διαθέσιμα ECMPids"
+msgstr "Δεν υπάρχουν διαθέσιμα PIDs ECM"
 
 msgid ""
 "No ECM info is currently available. This is only available while decrypting."
 msgstr ""
+"Προς το παρόν δεν υπάρχουν διαθέσιμες πληροφορίες ECM. Αυτό είναι διαθέσιμο "
+"μόνο κατά την αποκρυπτογράφηση."
 
-#, fuzzy
 msgid "No ECMPids available"
-msgstr "Μη διαθέσιμα ECMPids"
+msgstr "Δεν υπάρχουν διαθέσιμα ECMPIDs"
 
 msgid "No HDD found or HDD not initialized!"
 msgstr "Δεν βρέθηκε σκληρός δίσκος ή δεν έχει γίνει αρχικοποίηση!"
@@ -10666,13 +10643,11 @@ msgstr "Δεν έχει εισαχθεί κάρτα!"
 msgid "No channel"
 msgstr "Χωρίς κανάλι"
 
-#, fuzzy
 msgid "No channel list"
-msgstr "χωρίς λίστα καναλιών"
+msgstr "Χωρίς λίστα καναλιών"
 
-#, fuzzy
 msgid "No clients streaming"
-msgstr "Συνολικοί πελάτες σε ροή: %d (%s)"
+msgstr "Καμία ροή πελατών"
 
 msgid ""
 "No data on transponder!\n"
@@ -10703,9 +10678,8 @@ msgstr "Μη διαθέσιμη ελεύθερη θέση"
 msgid "No free tuner!"
 msgstr "Δεν υπάρχει ελεύθερο tuner!"
 
-#, fuzzy
 msgid "No hard disks detected."
-msgstr "Δεν έχει εισαχθεί κάρτα!"
+msgstr "Δεν ανιχνεύτηκαν σκληροί δίσκοι."
 
 msgid "No log files found so debug logs are unavailable!"
 msgstr ""
@@ -10724,9 +10698,8 @@ msgstr "Δεν βρέθηκαν δίκτυα"
 msgid "No of items switch (increase or reduced)"
 msgstr "Αριθμός αλλαγής στοιχείων (αύξηση ή μείωση)"
 
-#, fuzzy
 msgid "No packages selected."
-msgstr "Αποεπιλέχθηκε %d πακέτο."
+msgstr "Δεν επιλέχθηκαν πακέτα."
 
 msgid "No positioner capable frontend found."
 msgstr "Δεν βρέθηκε tuner που να υποστηρίζει μοτέρ."
@@ -10734,9 +10707,8 @@ msgstr "Δεν βρέθηκε tuner που να υποστηρίζει μοτέ�
 msgid "No priority"
 msgstr "Χωρίς προτεραιότητα"
 
-#, fuzzy
 msgid "No resource manager"
-msgstr "χωρίς διαχείριση πόρων"
+msgstr "Χωρίς διαχειριστή πόρων"
 
 msgid ""
 "No satellite, terrestrial or cable tuner is configured. Please check your "
@@ -10745,9 +10717,8 @@ msgstr ""
 "Μη ρυθμισμένο δορυφορικό, επίγειο ή καλωδιακό tuner. Ελέγξτε τις ρυθμίσεις "
 "tuner."
 
-#, fuzzy
 msgid "No selection."
-msgstr "Επιλογή ταινιών"
+msgstr "Καμία επιλογή."
 
 msgid "No service"
 msgstr "Καμία υπηρεσία"
@@ -10806,9 +10777,8 @@ msgstr ""
 "Δεν υπάρχει ενεργοποιημένο tuner!\n"
 "Ρυθμίστε το tuner πριν την ανίχνευση υπηρεσιών."
 
-#, fuzzy
 msgid "No tuners are currently streaming."
-msgstr "Συνολικοί πελάτες σε ροή: %d (%s)"
+msgstr "Δεν υπάρχουν συντονιστές προς το παρόν."
 
 msgid "No update required!"
 msgstr "Δεν απαιτείται ενημέρωση!"
@@ -10937,9 +10907,8 @@ msgstr "Χωρίς συσχέτιση"
 msgid "Not configured"
 msgstr "μη ρυθμισμένο"
 
-#, fuzzy
 msgid "Not defined"
-msgstr "Απροσδιόριστο"
+msgstr "Μη καθορισμένο"
 
 #, python-format
 msgid ""
@@ -10973,7 +10942,7 @@ msgid "Not tested:"
 msgstr "Μη ελεγμένα:"
 
 msgid "Note Release"
-msgstr ""
+msgstr "Έκδοση σημείωσης"
 
 msgid "Nothing"
 msgstr "Τίποτα"
@@ -11012,11 +10981,10 @@ msgstr ""
 "διαφορά ανάμεσα στις δύο φωτεινότερες σκιές. Αν το κάνατε, πιέστε ΟΚ."
 
 msgid "Nr"
-msgstr ""
+msgstr "Nr"
 
-#, fuzzy
 msgid "Nse"
-msgstr "Νέο"
+msgstr "ΝΕ"
 
 msgid "Number"
 msgstr "Αριθμός"
@@ -11024,17 +10992,14 @@ msgstr "Αριθμός"
 msgid "Number or SMS style data entry"
 msgstr "Στυλ εισόδου ως αριθμός ή SMS"
 
-#, fuzzy
 msgid "Nw"
-msgstr "Νέο"
+msgstr "Όχι"
 
-#, fuzzy
 msgid "OE Changes"
-msgstr "Έγινε αλλαγή"
+msgstr "Αλλαγές ΟΕ"
 
-#, fuzzy
 msgid "OE Log"
-msgstr "Άνοιγμα καταγραφής"
+msgstr "Καταγραφή OE"
 
 msgid "OK"
 msgstr "OK"
@@ -11042,44 +11007,36 @@ msgstr "OK"
 msgid "ONID"
 msgstr "ONID"
 
-#, fuzzy
 msgid "OPD BluePanel"
-msgstr "PPanel"
+msgstr "ΟΠΔ BluePanel"
 
-#, fuzzy
 msgid "OPD CronManager"
-msgstr "Διαχείριση προγραμματισμένων εργασιών"
+msgstr "ΟΠΔ CronManager"
 
 msgid "OPD Green Panel"
-msgstr ""
+msgstr "ΟΠΔ Πράσινος πίνακας"
 
-#, fuzzy
 msgid "OPD Panel"
-msgstr "PPanel"
+msgstr "ΟΠΔ Πίνακας"
 
-#, fuzzy
 msgid "OPD ScriptRunner"
-msgstr "Εκτέλεση σεναρίου ενεργειών"
+msgstr "Εκτέλεση σεναρίου OPD"
 
-#, fuzzy
 msgid "OPD SoftwarePanel"
-msgstr "Διαχείριση λογισμικού"
+msgstr "ΟΠΔ ΛογισμικόPanel"
 
-#, fuzzy
 msgid "OPD SwapManager"
-msgstr "Διαχείριση Swap"
+msgstr "Διανομέας OPD"
 
-#, fuzzy, python-format
+#, python-format
 msgid "OPD Version:\tV%s"
-msgstr "Έκδοση: %s"
+msgstr "Έκδοση ΟΠΔ: V%s"
 
-#, fuzzy
 msgid "OPD-Main Menu"
-msgstr "Κύριο μενού"
+msgstr "Κύριο μενού OPD"
 
-#, fuzzy
 msgid "OPD_panel"
-msgstr "PPanel"
+msgstr "OPD_panel"
 
 msgid "OSCam Info"
 msgstr "Πληροφορίες OScam"
@@ -11096,17 +11053,14 @@ msgstr "Ρύθμιση OSD"
 msgid "OSD name request"
 msgstr "Απαίτηση ονόματος OSD"
 
-#, fuzzy
 msgid "OScam can not be installed"
-msgstr "Λυπούμαστε, το %s δεν έχει εγκατασταθεί!"
+msgstr "Το OScam δεν μπορεί να εγκατασταθεί"
 
-#, fuzzy
 msgid "OScamInfo"
 msgstr "Πληροφορίες OScam"
 
-#, fuzzy
 msgid "OTT Model"
-msgstr "Μοντέλο"
+msgstr "Μοντέλο OTT"
 
 msgid "OVR"
 msgstr "OVR"
@@ -11121,7 +11075,7 @@ msgid "Off"
 msgstr "Κλειστό"
 
 msgid "Offset CA device index"
-msgstr ""
+msgstr "Μετατόπιση δείκτη συσκευής CA"
 
 msgid "Offset and close CA device"
 msgstr ""
