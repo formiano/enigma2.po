@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-28 15:03+0200\n"
-"PO-Revision-Date: 2025-05-11 14:22+0000\n"
+"PO-Revision-Date: 2025-05-11 14:38+0000\n"
 "Last-Translator: formia <tipomimmo@gmail.com>\n"
 "Language-Team: Lithuanian <http://localhost:8888/projects/enigma2/enigma/lt/>"
 "\n"
@@ -66,7 +66,6 @@ msgstr ""
 "\n"
 "Įspėjimas: visi duomenys bus prarasti.\n"
 "Jūs tikrai norite formatuoti šį įrenginį?\n"
-"?\n"
 
 msgid " "
 msgstr " "
@@ -832,7 +831,7 @@ msgstr "%d GB"
 msgid "%d Hour"
 msgid_plural "%d Hours"
 msgstr[0] "%d val."
-msgstr[1] "%d val."
+msgstr[1] "%d Valandos"
 
 #, python-format
 msgid "%d Hours"
@@ -871,7 +870,7 @@ msgstr "%d MHz"
 msgid "%d Min"
 msgid_plural "%d Mins"
 msgstr[0] "%d min."
-msgstr[1] "%d min."
+msgstr[1] "%d MN"
 
 #, python-format
 msgid "%d Minute"
@@ -1307,9 +1306,7 @@ msgstr "%s1080i rodyti kaip 1080p"
 
 #, python-format
 msgid "'%s' contains %d file(s) and %d sub-directories.\n"
-msgstr ""
-"'%s' turi %d failą(ų) ir %d sub-katalogų.\n"
-"\n"
+msgstr "'%s' turi %d failą(ų) ir %d sub-katalogų.\n"
 
 msgid ""
 "'Network peer' automatically detects other Enigma2 receivers on the local "
@@ -1332,7 +1329,7 @@ msgid "(PiP)"
 msgstr "(PiP)"
 
 msgid "(Radio)"
-msgstr " (Radijas)"
+msgstr "(Radijas)"
 
 #, python-format
 msgid "(Show only reader) (%s)"
@@ -1816,9 +1813,8 @@ msgstr "Įjungti vaizdą vaizde"
 msgid "Activate network adapter configuration"
 msgstr "Aktyvinti tinklo plokštės konfigūraciją"
 
-#, fuzzy
 msgid "Activate this device"
-msgstr "Aktyvuoti laiko poslinkio pabaigą"
+msgstr "Aktyvuoti šį įrenginį"
 
 msgid "Activate time shift End"
 msgstr "Aktyvuoti laiko poslinkio pabaigą"
@@ -1868,9 +1864,8 @@ msgstr "Pridėti naują Quad kanalo įrašą"
 msgid "Add RecordTimer"
 msgstr "Pridėti įrašymo laikmatį"
 
-#, fuzzy
 msgid "Add Service"
-msgstr "Pridėti kanalą"
+msgstr "Pridėti paslaugą"
 
 msgid "Add Service To Bouquet"
 msgstr "pridėti kanalą į paketą"
@@ -8345,6 +8340,11 @@ msgid ""
 "remove the usb device and reboot.\n"
 "\n"
 msgstr ""
+"Jei USB diskas yra prijungtas ir sumontuotas, turite išjungti imtuvą, išimti "
+"USB įrenginį ir paleisti iš naujo\n"
+"\n"
+".\n"
+"\n"
 
 msgid "Igbo"
 msgstr "Igbo"
@@ -8356,11 +8356,11 @@ msgid "Image Backup"
 msgstr "Atsarginė atvaizdo kopija"
 
 msgid "Image Backup Actions"
-msgstr ""
+msgstr "Vaizdo atsarginių kopijų kūrimo veiksmai"
 
 #, python-format
 msgid "Image Backup To %s"
-msgstr ""
+msgstr "Vaizdo atsarginė kopija į %s"
 
 msgid "Image Flash Actions"
 msgstr "Atvaizdo įdiegimo veiksmai"
@@ -8627,7 +8627,7 @@ msgid "Install the package"
 msgstr "Įdiekite paketą"
 
 msgid "Install the selected plugin / list of plugins"
-msgstr ""
+msgstr "Įdiekite pasirinktą papildinį / papildinių sąrašą"
 
 msgid "Installation finished."
 msgstr "Įdiegimas baigtas."
@@ -8948,13 +8948,13 @@ msgid "Kernel: %s"
 msgstr "Branduolio failas"
 
 msgid "Kexec MultiBoot Actions"
-msgstr ""
+msgstr "Kexec MultiBoot veiksmai"
 
 msgid "Kexec MultiBoot Initialization in progress!"
 msgstr "Kexec MultiBoot Inicijavimas vyksta!"
 
 msgid "Kexec MultiBoot Manager"
-msgstr ""
+msgstr "Kexec MultiBoot Manager"
 
 msgid "Kexec MultiBoot files are missing."
 msgstr "Trūksta Kexec MultiBoot failų."
@@ -9574,11 +9574,11 @@ msgstr "Tvarkykite ir tyrinėkite katalogus ir failus."
 
 #, python-format
 msgid "Manage the highlighted %s"
-msgstr ""
+msgstr "Tvarkykite paryškintus %s"
 
 #, python-format
 msgid "Manage the highlighted %s / list of %s"
-msgstr ""
+msgstr "Tvarkykite paryškintus %s / list of %s"
 
 #, fuzzy
 msgid "Manage update files"
@@ -11067,7 +11067,7 @@ msgid "Not tested:"
 msgstr "Netikrinta:"
 
 msgid "Note Release"
-msgstr ""
+msgstr "Pastaba Išleidimas"
 
 msgid "Nothing"
 msgstr "Nieko"
@@ -17460,8 +17460,6 @@ msgid ""
 "\n"
 msgstr ""
 "Šis vedlys padės jums formatuoti Usb masės saugojimo įrenginius Linux.\n"
-"\n"
-".\n"
 "\n"
 
 msgid "Three"
