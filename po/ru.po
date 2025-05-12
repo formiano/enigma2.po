@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Opendroid\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-28 15:03+0200\n"
-"PO-Revision-Date: 2025-05-12 09:17+0000\n"
+"PO-Revision-Date: 2025-05-12 09:20+0000\n"
 "Last-Translator: formia <tipomimmo@gmail.com>\n"
 "Language-Team: Russian <http://localhost:8888/projects/enigma2/enigma/ru/>\n"
 "Language: ru\n"
@@ -1193,21 +1193,21 @@ msgstr "%m/%d "
 msgid "%m/%d/%Y"
 msgstr "%m/%d/%Y"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%s "
-msgstr "%s %sB"
+msgstr "%s "
 
-#, fuzzy, python-format
+#, python-format
 msgid "%s  "
-msgstr "%s (%s)"
+msgstr "%s  "
 
 #, python-format
 msgid "%s %02d.%02d."
 msgstr "%s %02d.%02d."
 
-#, fuzzy, python-format
+#, python-format
 msgid "%s %s"
-msgstr "%s %sB"
+msgstr "%s %s"
 
 #, python-format
 msgid "%s %s advanced remote control (native)"
@@ -1249,13 +1249,13 @@ msgstr "%s Действия по управлению браузером"
 msgid "%s GHz"
 msgstr "%s ГГц"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%s Info - Configuration"
-msgstr "Тюнеры"
+msgstr "%s Информация - Конфигурация"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%s Info - Main Menu"
-msgstr "Главное меню"
+msgstr "%s Информация - Главное меню"
 
 #, python-format
 msgid "%s KSymb/s"
@@ -1286,9 +1286,9 @@ msgstr "%s длинный"
 msgid "%s not available."
 msgstr "%s недоступно."
 
-#, fuzzy, python-format
+#, python-format
 msgid "%s webif disabled"
-msgstr "Вэбинтерфейс OSCAM отключен"
+msgstr "%s Webif отключен"
 
 #, python-format
 msgid "%s%d min"
@@ -1349,9 +1349,8 @@ msgstr ""
 "Сетевой пир автоматически обнаруживает другие приемники Enigma2 в локальной "
 "сети. Вы также можете вручную ввести URL или IP-адрес."
 
-#, fuzzy
 msgid "(All readers)"
-msgstr "(Все ридеры)"
+msgstr "(Все читатели)"
 
 #, python-format
 msgid "(Attention: There will be a restart after %d crashes.)"
@@ -1366,9 +1365,9 @@ msgstr "(Картинка в картинке)"
 msgid "(Radio)"
 msgstr "(Радио)"
 
-#, fuzzy, python-format
+#, python-format
 msgid "(Show only reader) (%s)"
-msgstr "(Показать только ридер:"
+msgstr "(Показать только читатель) (%s)"
 
 msgid "(TV)"
 msgstr "(ТВ)"
@@ -1480,9 +1479,8 @@ msgstr "16/9 сброс в нормальное состояние"
 msgid "18 V"
 msgstr "18 В"
 
-#, fuzzy
 msgid "1st infobar timeout"
-msgstr "Задержка первого инфобара"
+msgstr "1-й тайм-аут infobar"
 
 msgid "1x"
 msgstr "1x"
@@ -1541,17 +1539,14 @@ msgstr "50-200 Мбит/с"
 msgid "8 character"
 msgstr "8 символов"
 
-#, fuzzy
 msgid "81"
-msgstr "1"
+msgstr "81"
 
-#, fuzzy
 msgid "82"
-msgstr "2"
+msgstr "82"
 
-#, fuzzy
 msgid "83"
-msgstr "3"
+msgstr "83"
 
 msgid "8888"
 msgstr "8888"
@@ -1819,9 +1814,8 @@ msgstr "О программе..."
 msgid "Above 200 Mbps"
 msgstr "Выше 200 Мбит/с"
 
-#, fuzzy
 msgid "Access point"
-msgstr "Точка доступа:"
+msgstr "Точка доступа"
 
 msgid "Access point:"
 msgstr "Точка доступа:"
@@ -1835,9 +1829,8 @@ msgstr "Доступ"
 msgid "Action"
 msgstr "Действие"
 
-#, fuzzy
 msgid "Actions"
-msgstr "Действие"
+msgstr "Меры"
 
 msgid "Activate"
 msgstr "Активация"
@@ -1854,9 +1847,8 @@ msgstr "Включить картинку в картинке"
 msgid "Activate network adapter configuration"
 msgstr "Активировать конфигурацию сетевого адаптера"
 
-#, fuzzy
 msgid "Activate this device"
-msgstr "Указать окончание таймшифта"
+msgstr "Активируйте это устройство"
 
 msgid "Activate time shift End"
 msgstr "Указать окончание таймшифта"
@@ -1906,9 +1898,8 @@ msgstr "Добавить новый 4Х канал"
 msgid "Add RecordTimer"
 msgstr "Добавить таймер записи"
 
-#, fuzzy
 msgid "Add Service"
-msgstr "Добавить канал"
+msgstr "Добавить сервис"
 
 msgid "Add Service To Bouquet"
 msgstr "Добавить канал к пакету"
@@ -1931,9 +1922,8 @@ msgstr "Добавить Zap-таймер"
 msgid "Add a DNS entry"
 msgstr "Добавить запись DNS"
 
-#, fuzzy
 msgid "Add a RADIO service to the Volume Offset list"
-msgstr "Добавить канал в список отключения громкости"
+msgstr "Добавить сервис RADIO в список Volume Offset"
 
 msgid "Add a RecordTimer"
 msgstr "Добавить таймер записи"
@@ -1941,9 +1931,8 @@ msgstr "Добавить таймер записи"
 msgid "Add a RecordTimer for current event"
 msgstr "Добавить таймер записи для данной передачи"
 
-#, fuzzy
 msgid "Add a TV service to the Volume Offset list"
-msgstr "Добавить канал в список отключения громкости"
+msgstr "Добавить телевизор в список Volume Offset"
 
 msgid "Add a ZapTimer for current event"
 msgstr "Добавить таймер переключения для данной передачи"
@@ -1969,9 +1958,8 @@ msgstr "Добавить новый таймер"
 msgid "Add a new title"
 msgstr "Добавить новое название"
 
-#, fuzzy
 msgid "Add a service to the Volume Offset list"
-msgstr "Добавить канал в список отключения громкости"
+msgstr "Добавить сервис в список Volume Offset"
 
 msgid "Add a timer for the current event"
 msgstr "Добавить таймер для текущего события"
@@ -2021,9 +2009,8 @@ msgstr "Начать запись (Конец не определён)"
 msgid "Add recording (Stop after current event)"
 msgstr "Начать запись (Стоп после текущего события)"
 
-#, fuzzy
 msgid "Add recording (stop after current event)"
-msgstr "Начать запись (Стоп после текущего события)"
+msgstr "Добавить запись (стоп после текущего события)"
 
 msgid "Add service"
 msgstr "Добавить канал"
@@ -2037,9 +2024,8 @@ msgstr "Добавить каналы в этот букет?"
 msgid "Add the current directory as a bookmark"
 msgstr "Добавить текущий каталог в качестве закладки"
 
-#, fuzzy
 msgid "Add the current/active service to the Volume Offset list"
-msgstr "Добавить текущий канал в список отключения громкости"
+msgstr "Добавить текущий / активный сервис в список Volume Offset"
 
 msgid "Add the selected service to a bouquet or alternative"
 msgstr "Добавить выбранный канал в букет или альтернативу"
@@ -2062,9 +2048,8 @@ msgstr "Добавить/удалить выделенный плагин в/и�
 msgid "Add/Remove highlighted plugin to/from update list"
 msgstr "Добавить/удалить выделенный плагин в/из списка обновлений"
 
-#, fuzzy
 msgid "Add/Remove the current service to/from the Volume Offset list"
-msgstr "Добавить текущий канал в список отключения громкости"
+msgstr "Добавить/удалить текущий сервис из списка Volume Offset"
 
 msgid "Adding schedule..."
 msgstr "Добавление задания..."
@@ -2096,9 +2081,8 @@ msgstr "Адрес"
 msgid "Adjust 3D settings"
 msgstr "Настройте параметры 3D"
 
-#, fuzzy
 msgid "Adjust decoding options"
-msgstr "Действия мгновенной записи"
+msgstr "Настройка вариантов декодирования"
 
 msgid ""
 "Adjust the color settings so that all the color shades are distinguishable, "
@@ -2117,9 +2101,8 @@ msgstr "Взрослый"
 msgid "Adult Audience, Strong Violence 15+"
 msgstr "Взрослая аудитория, Сильное насилие 15+"
 
-#, fuzzy
 msgid "Adv. UnInstall"
-msgstr "Удалить"
+msgstr "Исполнитель: UnInstall"
 
 msgid "Advanced"
 msgstr "Расширенный"
@@ -2306,9 +2289,8 @@ msgstr "Амхарский"
 msgid "Amlogic"
 msgstr "Amlogic"
 
-#, fuzzy
 msgid "Amlogic remote"
-msgstr "Amlogic"
+msgstr "Дистанционная ампликационная"
 
 msgid "An error occurred while downloading the packet list. Please try again."
 msgstr "При загрузке списка пакетов произошла ошибка. Попробуйте позже."
@@ -2373,9 +2355,8 @@ msgstr "Арабский"
 msgid "Arabic (Egyptian)"
 msgstr "Арабский (египетский)"
 
-#, fuzzy
 msgid "Arabic (Iraq)"
-msgstr "Арабский"
+msgstr "Арабский (Ирак)"
 
 msgid "Arabic (Moroccan)"
 msgstr "Арабский (марокканский)"
@@ -2389,9 +2370,8 @@ msgstr "Арабский (тунисский)"
 msgid "Aragonese"
 msgstr "Арагонский"
 
-#, fuzzy
 msgid "Are the settings correct ?"
-msgstr "Использовать эти настройки?"
+msgstr "Являются ли настройки правильными?"
 
 msgid "Are you ready to run the script ?"
 msgstr "Запустить скрипт?"
@@ -2440,11 +2420,12 @@ msgstr "Вы уверены, что хотите удалить этот ими�
 msgid "Are you sure you want to delete this log:\n"
 msgstr "Действительно хотите удалить этот лог:\n"
 
-#, fuzzy
 msgid ""
 "Are you sure you want to delete this:\n"
 " "
-msgstr "Вы уверены, что хотите удалить это?"
+msgstr ""
+"Вы уверены, что хотите удалить это:\n"
+" "
 
 msgid "Are you sure you want to delete this?"
 msgstr "Вы уверены, что хотите удалить это?"
@@ -2477,13 +2458,13 @@ msgstr ""
 "Уверены, что хотите восстановить из копии?\n"
 "Ресивер будет перезагружен после восстановления!"
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Are you sure you want to restore your %s %s backup?\n"
 "STB will restart after the restore"
 msgstr ""
-"Уверены, что хотите восстановить из копии %s %s?\n"
-"Ресивер будет перезагружен после восстановления"
+"Вы уверены, что хотите восстановить резервную копию %s %s?\n"
+"СТБ возобновит работу после восстановления"
 
 msgid "Are you sure you want to save the EPG Cache to:\n"
 msgstr "Хотите сохранить данные ТВ-гида здесь\n"
@@ -2530,13 +2511,11 @@ msgstr "Соотношение сторон"
 msgid "Aspect Ratio Actions"
 msgstr "Действия с соотношением сторон"
 
-#, fuzzy
 msgid "Aspect Ratio: "
-msgstr "Соотношение сторон"
+msgstr "Соотношение сторон "
 
-#, fuzzy
 msgid "Aspect Ratio: n/a"
-msgstr "Соотношение сторон"
+msgstr "Соотношение сторон: n/a"
 
 msgid "Aspect list..."
 msgstr "Cоотношение сторон..."
@@ -2593,13 +2572,13 @@ msgstr "Аудио канал"
 msgid "Audio PID"
 msgstr "Аудио PID"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Audio PID%s, Codec & Language"
-msgstr "Аудио PID, кодек и язык"
+msgstr "Аудио PID %s, кодек и язык"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Audio PID%s, codec & lang"
-msgstr "Аудио PID, кодек и язык"
+msgstr "Audio PID%s, кодек и лэнг"
 
 msgid "Audio PID, codec & lang"
 msgstr "Аудио PID, кодек и язык"
@@ -2658,9 +2637,8 @@ msgstr "Автопереход в режим ожидания"
 msgid "Auto timeout (5-150min):"
 msgstr "Автоматический тайм-аут (5-150 мин):"
 
-#, fuzzy
 msgid "Auto timeout:"
-msgstr "Постоянно"
+msgstr "Авто-тайм-аут:"
 
 msgid "Auto(not available)"
 msgstr "Авто (Не доступен)"
@@ -2683,9 +2661,8 @@ msgstr "Авторазрешение экрана"
 msgid "Automatic resolution label"
 msgstr "Метка авторазрешения экрана"
 
-#, fuzzy
 msgid "Automatically update Client/Server View?"
-msgstr "Автообновление просмотра клиент/сервер"
+msgstr "Автоматическое обновление Client/Server View?"
 
 msgid "Autostart"
 msgstr "Автозапуск"
@@ -2736,9 +2713,8 @@ msgstr "BLUDISC записываемый"
 msgid "Back"
 msgstr "Назад"
 
-#, fuzzy
 msgid "Back USB"
-msgstr "Назад"
+msgstr "Назад USB"
 
 msgid "Back USB 3.0"
 msgstr "Назад USB 3.0"
@@ -2810,9 +2786,8 @@ msgstr ""
 "Найдена копия плагинов!\n"
 "Хотите установить их сейчас?"
 
-#, fuzzy
 msgid "Backup settings"
-msgstr "Сохранить настройки"
+msgstr "Настройки резервного копирования"
 
 #, python-format
 msgid "Backup tool for %s %s"
@@ -2839,25 +2814,21 @@ msgstr "Бангладеш"
 msgid "Barbados"
 msgstr "Барбадос"
 
-#, fuzzy
 msgid "Base"
-msgstr "Бейсбол"
+msgstr "База"
 
-#, fuzzy
 msgid "Base Shell"
-msgstr "Основные пакеты оболочки"
+msgstr "Базовая Shell"
 
-#, fuzzy
 msgid "Base transparency for OpenOpera web browser"
-msgstr "Базовая прозрачность для веб-браузера OpenOpera."
+msgstr "Базовая прозрачность для веб-браузера OpenOpera"
 
-#, fuzzy
 msgid ""
 "Base transparency for teletext, more options available within teletext "
 "screen."
 msgstr ""
-"При выборе прозрачности для телетекста будет больше вариантов вывода "
-"телетекста."
+"Базовая прозрачность для телетекста, больше возможностей, доступных в "
+"телетекстовом экране."
 
 msgid "Baseball"
 msgstr "Бейсбол"
@@ -2949,13 +2920,11 @@ msgstr "Понижение блочных шумов"
 msgid "Blue"
 msgstr "Синий"
 
-#, fuzzy
 msgid "Blue Panel"
-msgstr "PPanel "
+msgstr "Голубая панель"
 
-#, fuzzy
 msgid "BluePanel/Extensions"
-msgstr "Быстрое меню/Дополнения"
+msgstr "BluePanel/Расширения"
 
 msgid "Bluetooth"
 msgstr "Bluetooth"
@@ -3037,9 +3006,8 @@ msgstr "Действия навигации по выбору букетов"
 msgid "Bouquets"
 msgstr "Букеты"
 
-#, fuzzy
 msgid "Bouquets start at 1"
-msgstr "Список букетов"
+msgstr "Букеты начинаются с 1"
 
 msgid "Bouvet Island"
 msgstr "Остров Буве"
@@ -3059,9 +3027,8 @@ msgstr "Яркость"
 msgid "British Indian Ocean Territory"
 msgstr "Британская территория Индийского океана"
 
-#, fuzzy
 msgid "Broadcast address"
-msgstr "Телерадиовещание/Пресса"
+msgstr "Вещательный адрес"
 
 msgid "Broadcom"
 msgstr "Broadcom"
@@ -3073,21 +3040,18 @@ msgstr "Бруней-Даруссалам"
 msgid "Buffering %d%%"
 msgstr "Буферизация %d%%"
 
-#, fuzzy
 msgid "Buffers"
-msgstr "Буферы"
+msgstr "Буфер"
 
-#, fuzzy
 msgid "Build Brand"
-msgstr "Выполнено %s"
+msgstr "Построить бренд"
 
-#, fuzzy
 msgid "Build Model"
-msgstr "Режим копирования"
+msgstr "Построить модель"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Build:\t%s"
-msgstr "Выполнено %s"
+msgstr "Построение: %s"
 
 #, python-format
 msgid "Build: %s"
@@ -3129,13 +3093,11 @@ msgstr "Кнопки"
 msgid "Bypass HDMI EDID Check"
 msgstr "Пропустить проверку HDMI EDID"
 
-#, fuzzy
 msgid "Bytes received"
-msgstr "Байтов получено"
+msgstr "Полученные байты"
 
-#, fuzzy
 msgid "Bytes sent"
-msgstr "Байтов отправлено"
+msgstr "Отправленные байты"
 
 msgid "C-Band"
 msgstr "C-диапазон"
@@ -3249,9 +3211,8 @@ msgstr "CPU бренд"
 msgid "CPU speed/cores"
 msgstr "Скорость процессора / Cores"
 
-#, fuzzy
 msgid "CPU temperature"
-msgstr "Температура системы"
+msgstr "Температура процессора"
 
 #, python-format
 msgid "CPU:\t%s"
@@ -3270,9 +3231,8 @@ msgstr "Кабельное"
 msgid "Cable Scan"
 msgstr "Поиск кабельных каналов"
 
-#, fuzzy
 msgid "Cached"
-msgstr "Кэшировано"
+msgstr "Кэшированный"
 
 msgid "Caid"
 msgstr "Жертва"
