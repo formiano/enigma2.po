@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Opendroid\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-28 15:03+0200\n"
-"PO-Revision-Date: 2025-05-12 10:44+0000\n"
+"PO-Revision-Date: 2025-05-12 10:57+0000\n"
 "Last-Translator: formia <tipomimmo@gmail.com>\n"
 "Language-Team: Russian <http://localhost:8888/projects/enigma2/enigma/ru/>\n"
 "Language: ru\n"
@@ -21,7 +21,7 @@ msgid ""
 "<This tuner is configured automatically>"
 msgstr ""
 "\n"
-"<Этот тюнер настроен автоматически>"
+"<Этот тюнер настраивается автоматически>"
 
 msgid ""
 "\n"
@@ -64,7 +64,6 @@ msgstr ""
 "\n"
 "Предупреждение: все данные будут потеряны.\n"
 "Вы уверены, что хотите отформатировать это устройство?\n"
-"?\n"
 
 msgid " "
 msgstr " "
@@ -5114,9 +5113,8 @@ msgstr "По убыванию"
 msgid "Descramble http streams"
 msgstr "Дескрембл http потоков"
 
-#, fuzzy
 msgid "Descrambling options"
-msgstr "Описание"
+msgstr "Варианты дескремблирования"
 
 msgid "Description"
 msgstr "Описание"
@@ -5154,22 +5152,20 @@ msgstr "Подробное использование памяти"
 msgid "Details"
 msgstr "Подробности"
 
-#, fuzzy
 msgid "Development"
-msgstr "Пакеты для разработчиков"
+msgstr "Развитие"
 
-#, fuzzy
 msgid "Device Details"
-msgstr "Настройки устройств"
+msgstr "Детали устройства"
 
-#, fuzzy
 msgid ""
 "Device Fixed Mount Point change needs a system restart in order to take "
 "effect.\n"
 "Restart your STB now?"
 msgstr ""
-"Для применения изменений требуется перезагрузка.\n"
-"Перезагрузить %s %s сейчас?"
+"Изменение фиксированной точки Маунт требует перезапуска системы, чтобы "
+"вступить в силу.\n"
+"Перезапуск СТБ сейчас?"
 
 msgid "Device Manager"
 msgstr "Диспетчер устройств"
@@ -5177,9 +5173,8 @@ msgstr "Диспетчер устройств"
 msgid "Device Manager - Fast Mounted Remove"
 msgstr "Диспетчер устройств - Fast Mounted Remove"
 
-#, fuzzy
 msgid "Device Manager Actions"
-msgstr "Диспетчер устройств"
+msgstr "Диспетчер устройств Actions"
 
 msgid "Device id"
 msgstr "Устройство id"
@@ -6406,21 +6401,17 @@ msgstr "Ошибка %d: %s"
 msgid "Error creating oscam camstart files!"
 msgstr "Ошибка: не удалось создать каталог '%s'!"
 
-#, fuzzy
 msgid "Error creating oscam.conf!"
-msgstr "Ошибка чтения bouquets.radio"
+msgstr "Ошибка создания oscam.conf!"
 
-#, fuzzy
 msgid "Error creating oscam.dvbapi!"
-msgstr "Ошибка чтения bouquets.radio"
+msgstr "Ошибка создания oscam.dvbapi!"
 
-#, fuzzy
 msgid "Error creating oscam.server!"
-msgstr "Ошибка чтения bouquets.tv"
+msgstr "Ошибка создания oscam.server!"
 
-#, fuzzy
 msgid "Error creating oscam.services!"
-msgstr "Ошибка чтения bouquets.radio"
+msgstr "Ошибка создания oscam.services!"
 
 #, fuzzy
 msgid "Error creating oscam.user!"
@@ -6444,9 +6435,8 @@ msgstr ""
 "Ошибка получения ссылки через %s\n"
 "%s"
 
-#, fuzzy
 msgid "Error reading file: "
-msgstr "Ошибка чтения страницы!"
+msgstr "Файл чтения ошибок: "
 
 msgid "Error reading webpage!"
 msgstr "Ошибка чтения страницы!"
@@ -6469,11 +6459,13 @@ msgstr ""
 "Ошибка получения информации о резервных таймерах\n"
 "%s"
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Error:\n"
 "%s"
-msgstr "Ошибка %d: %s"
+msgstr ""
+"Ошибка:\n"
+"%s"
 
 #, python-format
 msgid ""
@@ -7666,7 +7658,7 @@ msgid "Goto 0"
 msgstr "Установка на позицию 0"
 
 msgid "Goto :"
-msgstr "Позиция"
+msgstr "Гото:"
 
 msgid "Goto Date/Time"
 msgstr "Перейти на Время/Дата"
@@ -8073,9 +8065,8 @@ msgstr "Ужас"
 msgid "Horse Racing"
 msgstr "Лошадиные скачки"
 
-#, fuzzy
 msgid "Hostname"
-msgstr "Сетевое имя:"
+msgstr "Имя хозяина:"
 
 msgid "Hostname: "
 msgstr "Имя хозяина: "
@@ -11912,7 +11903,6 @@ msgid ""
 msgstr ""
 "Пожалуйста, убедитесь, что ваш USB-накопитель не подключен к вашей коробке "
 "%s %s, прежде чем продолжить.\n"
-".\n"
 
 msgid "Please choose an extension..."
 msgstr "Выберите дополнение..."
@@ -12430,8 +12420,6 @@ msgid ""
 msgstr ""
 "Нажмите красную кнопку, чтобы продолжить, когда будет готово.\n"
 "\n"
-".\n"
-"\n"
 
 msgid ""
 "Press Red button to continue, when you are ready and your usb is "
@@ -12439,7 +12427,6 @@ msgid ""
 msgstr ""
 "Нажмите красную кнопку, чтобы продолжить, когда вы готовы и ваш сайт "
 "отключен.\n"
-".\n"
 
 #, fuzzy
 msgid "Press Red button to continue."
@@ -17486,8 +17473,6 @@ msgstr ""
 "Этот мастер поможет вам отформатировать устройства массового хранения Usb "
 "для Linux.\n"
 "\n"
-".\n"
-"\n"
 
 msgid "Three"
 msgstr "Три"
@@ -20718,9 +20703,7 @@ msgid "text"
 msgstr "текст"
 
 msgid "the Green button and restart the wizard.\n"
-msgstr ""
-"зеленая кнопка и перезапуск волшебника.\n"
-".\n"
+msgstr "зеленая кнопка и перезапуск волшебника.\n"
 
 msgid "this info added"
 msgstr "эта информация добавлена"
@@ -20876,9 +20859,9 @@ msgstr "да"
 msgid "yes (keep feeds)"
 msgstr "Да (оставить фиды)"
 
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "{name} it has been uninstalled."
-msgstr "%s отключён."
+msgstr "{name} Он был удален."
 
 #, python-brace-format
 msgid "{name} it was uninstalled with forced options."
@@ -26390,13 +26373,11 @@ msgstr "Подключиться к Интернету"
 msgid "Please set up tuner A"
 msgstr "Пожалуйста, будьте терпеливы."
 
-#, fuzzy
 msgid ""
 "Please set up tuner A\n"
 "For Hybrid Tuner Models switch Tuner Type with left and right keys"
 msgstr ""
 "Настройте тюнер [TUNER].\n"
-"\n"
 "Для моделей с гибридным тюнером переключайте тип тюнера с помощью кнопок "
 "ВЛЕВО и ВПРАВО."
 
@@ -26404,13 +26385,11 @@ msgstr ""
 msgid "Please set up tuner B"
 msgstr "Пожалуйста, будьте терпеливы."
 
-#, fuzzy
 msgid ""
 "Please set up tuner B\n"
 "For Hybrid Tuner Models switch Tuner Type with left and right keys"
 msgstr ""
 "Настройте тюнер [TUNER].\n"
-"\n"
 "Для моделей с гибридным тюнером переключайте тип тюнера с помощью кнопок "
 "ВЛЕВО и ВПРАВО."
 
@@ -26418,13 +26397,11 @@ msgstr ""
 msgid "Please set up tuner C"
 msgstr "Пожалуйста, будьте терпеливы."
 
-#, fuzzy
 msgid ""
 "Please set up tuner C\n"
 "For Hybrid Tuner Models switch Tuner Type with left and right keys"
 msgstr ""
 "Настройте тюнер [TUNER].\n"
-"\n"
 "Для моделей с гибридным тюнером переключайте тип тюнера с помощью кнопок "
 "ВЛЕВО и ВПРАВО."
 
@@ -26432,13 +26409,11 @@ msgstr ""
 msgid "Please set up tuner D"
 msgstr "Пожалуйста, будьте терпеливы."
 
-#, fuzzy
 msgid ""
 "Please set up tuner D\n"
 "For Hybrid Tuner Models switch Tuner Type with left and right keys"
 msgstr ""
 "Настройте тюнер [TUNER].\n"
-"\n"
 "Для моделей с гибридным тюнером переключайте тип тюнера с помощью кнопок "
 "ВЛЕВО и ВПРАВО."
 
@@ -26446,13 +26421,11 @@ msgstr ""
 msgid "Please set up tuner E"
 msgstr "Настройте тюнер [TUNER]"
 
-#, fuzzy
 msgid ""
 "Please set up tuner E\n"
 "For Hybrid Tuner Models switch Tuner Type with left and right keys"
 msgstr ""
 "Настройте тюнер [TUNER].\n"
-"\n"
 "Для моделей с гибридным тюнером переключайте тип тюнера с помощью кнопок "
 "ВЛЕВО и ВПРАВО."
 
@@ -26460,13 +26433,11 @@ msgstr ""
 msgid "Please set up tuner F"
 msgstr "Пожалуйста, будьте терпеливы."
 
-#, fuzzy
 msgid ""
 "Please set up tuner F\n"
 "For Hybrid Tuner Models switch Tuner Type with left and right keys"
 msgstr ""
 "Настройте тюнер [TUNER].\n"
-"\n"
 "Для моделей с гибридным тюнером переключайте тип тюнера с помощью кнопок "
 "ВЛЕВО и ВПРАВО."
 
@@ -26474,13 +26445,11 @@ msgstr ""
 msgid "Please set up tuner G"
 msgstr "Пожалуйста, будьте терпеливы."
 
-#, fuzzy
 msgid ""
 "Please set up tuner G\n"
 "For Hybrid Tuner Models switch Tuner Type with left and right keys"
 msgstr ""
 "Настройте тюнер [TUNER].\n"
-"\n"
 "Для моделей с гибридным тюнером переключайте тип тюнера с помощью кнопок "
 "ВЛЕВО и ВПРАВО."
 
@@ -26488,27 +26457,23 @@ msgstr ""
 msgid "Please set up tuner H"
 msgstr "Пожалуйста, будьте терпеливы."
 
-#, fuzzy
 msgid ""
 "Please set up tuner H\n"
 "For Hybrid Tuner Models switch Tuner Type with left and right keys"
 msgstr ""
 "Настройте тюнер [TUNER].\n"
-"\n"
-"Для моделей с гибридным тюнером переключайте тип тюнера с помощью кнопок "
+"Для модлей с гибридным тюнером переключайте тип тюнера с помощью кнопок "
 "ВЛЕВО и ВПРАВО."
 
 #, fuzzy
 msgid "Please set up tuner I"
 msgstr "Пожалуйста, будьте терпеливы."
 
-#, fuzzy
 msgid ""
 "Please set up tuner I\n"
 "For Hybrid Tuner Models switch Tuner Type with left and right keys"
 msgstr ""
 "Настройте тюнер [TUNER].\n"
-"\n"
 "Для моделей с гибридным тюнером переключайте тип тюнера с помощью кнопок "
 "ВЛЕВО и ВПРАВО."
 
@@ -26516,15 +26481,12 @@ msgstr ""
 msgid "Please set up tuner J"
 msgstr "Пожалуйста, будьте терпеливы."
 
-#, fuzzy
 msgid ""
 "Please set up tuner J\n"
 "For Hybrid Tuner Models switch Tuner Type with left and right keys"
 msgstr ""
-"Настройте тюнер [TUNER].\n"
-"\n"
-"Для моделей с гибридным тюнером переключайте тип тюнера с помощью кнопок "
-"ВЛЕВО и ВПРАВО."
+"Пожалуйста, настройте тюнер J\n"
+"Гибридные модели переключателей Tuner Тип с левой и правой клавишами"
 
 #, fuzzy
 msgid "Please set up tuner K"
@@ -26534,39 +26496,30 @@ msgstr "Пожалуйста, будьте терпеливы."
 msgid "Please set up tuner Q"
 msgstr "Пожалуйста, будьте терпеливы."
 
-#, fuzzy
 msgid ""
 "Please set up tuner Q\n"
 "For Hybrid Tuner Models switch Tuner Type with left and right keys"
 msgstr ""
-"Настройте тюнер [TUNER].\n"
-"\n"
-"Для моделей с гибридным тюнером переключайте тип тюнера с помощью кнопок "
-"ВЛЕВО и ВПРАВО."
+"Пожалуйста, настройте тюнер Q\n"
+"Гибридные модели переключателей Tuner Тип с левой и правой клавишами"
 
 #, fuzzy
 msgid "Please set up tuner R"
 msgstr "Настройте тюнер [TUNER]"
 
-#, fuzzy
 msgid ""
 "Please set up tuner R\n"
 "For Hybrid Tuner Models switch Tuner Type with left and right keys"
 msgstr ""
-"Настройте тюнер [TUNER].\n"
-"\n"
-"Для моделей с гибридным тюнером переключайте тип тюнера с помощью кнопок "
-"ВЛЕВО и ВПРАВО."
+"Пожалуйста, настройте тюнер R\n"
+"Гибридные модели переключателей Tuner Тип с левой и правой клавишами"
 
-#, fuzzy
 msgid ""
 "Please set up tuner k\n"
 "For Hybrid Tuner Models switch Tuner Type with left and right keys"
 msgstr ""
-"Настройте тюнер [TUNER].\n"
-"\n"
-"Для моделей с гибридным тюнером переключайте тип тюнера с помощью кнопок "
-"ВЛЕВО и ВПРАВО."
+"Пожалуйста, настройте тюнер k\n"
+"Гибридные модели переключателей Tuner Тип с левой и правой клавишами"
 
 #, fuzzy
 msgid "Plugin install"
@@ -26594,15 +26547,12 @@ msgstr ""
 "Пропустить проверку интернет-соединения (отключает автоматическую установку "
 "пакета)"
 
-#, fuzzy
 msgid ""
 "Thank you for using the wizard. Your %s %s is now ready to use.\n"
 "Please press OK to start using your %s %s."
 msgstr ""
-"Благодарим Вас за использование и завершение работы с мастером. Теперь %s %s "
-"готов к использованию.\n"
-"\n"
-"Пожалуйста, нажмите OK, чтобы начать использовать %s %s."
+"Спасибо, что пользуетесь волшебником. Ваши % готовы к использованию.\n"
+"Пожалуйста, нажмите OK, чтобы начать использовать ваши %."
 
 msgid ""
 "Use the up/down keys on your remote control to select an option. After that, "
