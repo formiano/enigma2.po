@@ -1,6 +1,6 @@
 # enigma2.po OpenDroid
 
 ## Translation status
-![open-graph](https://github.com/user-attachments/assets/635f071d-922c-4b36-9194-3d7e936aa10f)
+![open-graph (1)](https://github.com/user-attachments/assets/640238c7-51d3-4f84-b600-f3f0e1ae2fe4)
 
 
