@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Opendroid\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-28 15:03+0200\n"
-"PO-Revision-Date: 2025-05-12 09:20+0000\n"
+"PO-Revision-Date: 2025-05-12 09:27+0000\n"
 "Last-Translator: formia <tipomimmo@gmail.com>\n"
 "Language-Team: Russian <http://localhost:8888/projects/enigma2/enigma/ru/>\n"
 "Language: ru\n"
@@ -218,7 +218,7 @@ msgid "%-d/%-m"
 msgstr "%-d.%-m"
 
 msgid "%-d/%-m "
-msgstr "%-d.%-m"
+msgstr "%-d/%-m "
 
 msgid "%-d/%-m/%Y"
 msgstr "%-d/%-m/%Y"
@@ -989,7 +989,7 @@ msgid "%d package has an update"
 msgid_plural "%d packages have updates."
 msgstr[0] "%d пакет можно обновить"
 msgstr[1] "%d пакета можно обновить."
-msgstr[2] "%d пакетов можно обновить."
+msgstr[2] "У пакетов есть обновления."
 
 #, python-format
 msgid "%d package installable."
@@ -2287,7 +2287,7 @@ msgid "Amharic"
 msgstr "Амхарский"
 
 msgid "Amlogic"
-msgstr "Amlogic"
+msgstr "Патологический"
 
 msgid "Amlogic remote"
 msgstr "Дистанционная ампликационная"
@@ -2530,10 +2530,10 @@ msgid "Assamese"
 msgstr "Ассамский"
 
 msgid "Assigned CAIds:"
-msgstr "Назначены CAID"
+msgstr "Назначенные КАИДы:"
 
 msgid "Assigned services/provider:"
-msgstr "Назначены каналы/провайдеры"
+msgstr "Назначенные услуги / поставщик:"
 
 msgid "Astra 1 19.2e"
 msgstr "Astra 1 19.2E"
@@ -2677,7 +2677,7 @@ msgid "Available locales are:"
 msgstr "Доступные локали:"
 
 msgid "Available shares:"
-msgstr "Доступные сетевые диски"
+msgstr "Доступные акции:"
 
 msgid "Avaric"
 msgstr "Аварский"
@@ -2891,7 +2891,7 @@ msgid "Bitrate"
 msgstr "Битрейт"
 
 msgid "Bitrate:"
-msgstr "Битрейт"
+msgstr "Битрейт:"
 
 msgid "Black"
 msgstr "Чёрный"
@@ -3031,7 +3031,7 @@ msgid "Broadcast address"
 msgstr "Вещательный адрес"
 
 msgid "Broadcom"
-msgstr "Broadcom"
+msgstr "Бродком"
 
 msgid "Brunei Darussalam"
 msgstr "Бруней-Даруссалам"
@@ -3106,7 +3106,7 @@ msgid "CCD-Width"
 msgstr "CCD-ширина"
 
 msgid "CCcam"
-msgstr "CCcam"
+msgstr "Камера"
 
 msgid "CCcam - Lines"
 msgstr "CCcam - Линии"
@@ -3172,7 +3172,7 @@ msgid "CF Drive"
 msgstr "CF привод"
 
 msgid "CH"
-msgstr "К. "
+msgstr "CH"
 
 #, python-format
 msgid "CH%s"
@@ -3504,7 +3504,7 @@ msgid "Cardreader found automatically"
 msgstr "Кардридер автоматически"
 
 msgid "Cards:"
-msgstr "Карты"
+msgstr "Карты:"
 
 msgid "Cards: "
 msgstr "Карты "
@@ -3531,7 +3531,7 @@ msgid "Cebuano"
 msgstr "Кебуано"
 
 msgid "Celsius"
-msgstr "Цельсий"
+msgstr "Цельсия"
 
 msgid "Center"
 msgstr "Центр"
@@ -3596,9 +3596,8 @@ msgstr "Изменить настройки повтора и задержки?"
 msgid "Change step size"
 msgstr "Изменение размера шага"
 
-#, fuzzy
 msgid "Change the root password"
-msgstr "Отредактировать пароль."
+msgstr "Изменить пароль root"
 
 msgid "Change to Radio services mode"
 msgstr "Перейти в режим радиоканалов"
@@ -3674,7 +3673,7 @@ msgid "Channel up"
 msgstr "Канал вверх"
 
 msgid "Channel:"
-msgstr "Канал"
+msgstr "Канал:"
 
 msgid "Channels and EPG"
 msgstr "Каналы и EPG"
@@ -3689,7 +3688,7 @@ msgid "Chapter"
 msgstr "Раздел"
 
 msgid "Chapter:"
-msgstr "Раздел"
+msgstr "Глава:"
 
 msgid "Character device"
 msgstr "Устройства хранения"
@@ -3755,17 +3754,17 @@ msgstr "Китайский"
 msgid "Chinese (Simplified)"
 msgstr "Китайский (упрощённый)"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Chipset:\t%s\n"
-msgstr "Чипсет BCM%s"
+msgstr "Чипсет: %s\n"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Chipset:\tBroadcom %s\n"
-msgstr "Чипсет BCM%s"
+msgstr "Чипсет: Broadcom %s\n"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Chipset:\tHiSilicon %s\n"
-msgstr "Чипсет BCM%s"
+msgstr "Чипсет: HiSilicon %s\n"
 
 #, python-format
 msgid "Chipset: BCM%s"
@@ -3811,7 +3810,7 @@ msgid "Choose reader"
 msgstr "Пожалуйста, выберите ридер"
 
 msgid "Choose where to mount your devices to:"
-msgstr "Выберите точку подключения для устройства"
+msgstr "Выберите, где установить свои устройства:"
 
 msgid "Christmas Island"
 msgstr "Остров Рождества"
@@ -4026,7 +4025,7 @@ msgid "Combined"
 msgstr "Комбинированный"
 
 msgid "Combo"
-msgstr "Combo "
+msgstr "Комбинация"
 
 #, fuzzy
 msgid "Combo Tuner"
@@ -4043,9 +4042,8 @@ msgstr "Команда '%s' неизвестна"
 msgid "Command To Run"
 msgstr "Команда для запуска"
 
-#, fuzzy
 msgid "Command failed: "
-msgstr "Обновление завершено."
+msgstr "Командование провалилось: "
 
 #, fuzzy
 msgid "Command finished."
@@ -4523,7 +4521,7 @@ msgid "Current Directory"
 msgstr "Текущий каталог"
 
 msgid "Current Event:"
-msgstr "Текущая передача"
+msgstr "Текущее событие:"
 
 msgid "Current Status:"
 msgstr "Текущий статус"
@@ -4562,7 +4560,7 @@ msgid "Current version unknown"
 msgstr "Текущая версия неизвестна"
 
 msgid "Current version:"
-msgstr "Текущая версия"
+msgstr "Текущая версия:"
 
 #, python-format
 msgid ""
@@ -4991,7 +4989,7 @@ msgid "Delay after voltage change before motor command"
 msgstr "Задержка после изменения напряжения мотора"
 
 msgid "Delay before key repeat starts:"
-msgstr "Задержка перед повторным нажатием кнопки"
+msgstr "Задержка перед повторением ключа:"
 
 msgid "Delay before sequence repeat"
 msgstr "Задержка перед последним повтором"
@@ -5006,7 +5004,7 @@ msgid "Delay time"
 msgstr "Время задержки"
 
 msgid "Delay:"
-msgstr "Задержка"
+msgstr "Задержка:"
 
 #, python-format
 msgid "Delay: %s"
@@ -5238,7 +5236,7 @@ msgid "Device mounts"
 msgstr "Подключение устройства"
 
 msgid "Device name:"
-msgstr "Имя устройства"
+msgstr "Имя устройства:"
 
 msgid "Device number"
 msgstr "Номер устройства"
@@ -5372,9 +5370,8 @@ msgstr "Отключен"
 msgid "Disabled PiP.\n"
 msgstr "Отключение PiP\n"
 
-#, fuzzy
 msgid "Disabled or WPA/WPA2"
-msgstr "Отключение PiP\n"
+msgstr "Инвалиды или WPA/WPA2"
 
 #, fuzzy
 msgid "Disk partition info"
@@ -5829,9 +5826,9 @@ msgstr "Дзонгка"
 msgid "E"
 msgstr "В"
 
-#, fuzzy, python-format
+#, python-format
 msgid "E2 (re)starts:\t%s\n"
-msgstr "Enigma2 (пере)запусков"
+msgstr "E2 (re)starts: %s\n"
 
 msgid "E2 Log"
 msgstr "Логотип E2"
@@ -6148,7 +6145,7 @@ msgid "Encryption key type"
 msgstr "Тип шифрования"
 
 msgid "Encryption:"
-msgstr "Шифрование"
+msgstr "Шифрование:"
 
 msgid "End"
 msgstr "End"
@@ -7082,7 +7079,7 @@ msgid "Favorite Edit"
 msgstr "[Редактирование избранного]"
 
 msgid "Favorites"
-msgstr "Favorites"
+msgstr "Любимые"
 
 msgid "Feed server DNS error!"
 msgstr "Ошибка DNS сервера фида!"
@@ -7438,9 +7435,9 @@ msgstr "Франция"
 msgid "Free"
 msgstr "Свободно"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Free Flash:\t%s\n"
-msgstr "Свободно флеш"
+msgstr "Бесплатный Flash: %s\n"
 
 #, fuzzy
 msgid "Free Space"
@@ -7513,7 +7510,7 @@ msgid "Friday"
 msgstr "Пятница"
 
 msgid "From :"
-msgstr "Из "
+msgstr "Из:"
 
 msgid "Front USB"
 msgstr "Передний USB"
@@ -7703,7 +7700,7 @@ msgid "Go to standby"
 msgstr "Перейти в режим ожидания"
 
 msgid "Go up the list"
-msgstr "Подняться по списку "
+msgstr "Поднимитесь по списку"
 
 msgid "Gold"
 msgstr "Золотой"
@@ -7721,7 +7718,7 @@ msgid "Goto 0"
 msgstr "Установка на позицию 0"
 
 msgid "Goto :"
-msgstr "Перейти "
+msgstr "Позиция"
 
 msgid "Goto Date/Time"
 msgstr "Перейти на Время/Дата"
@@ -7992,7 +7989,7 @@ msgid "Hexadecimal"
 msgstr "Шестнадцатеричный"
 
 msgid "HiSilicon"
-msgstr "HiSilicon"
+msgstr "Хисиликон"
 
 #, fuzzy
 msgid "HiSilicon specific information"
@@ -8105,10 +8102,10 @@ msgid "Hong Kong"
 msgstr "Гонконг"
 
 msgid "Hops"
-msgstr "Hops "
+msgstr "Хлопки"
 
 msgid "Hops:"
-msgstr "Hops: "
+msgstr "Хобс:"
 
 msgid "Horizontal"
 msgstr "Горизонтальная"
@@ -8133,7 +8130,7 @@ msgid "Hostname"
 msgstr "Сетевое имя:"
 
 msgid "Hostname: "
-msgstr "Сетевое имя:"
+msgstr "Имя хозяина: "
 
 msgid "Hotbird 13.0e"
 msgstr "Hotbird 13.0E"
@@ -8529,7 +8526,7 @@ msgid "Info"
 msgstr "Инфо"
 
 msgid "Info (EPG)"
-msgstr "Info (EPG)"
+msgstr "Информация (EPG)"
 
 msgid "InfoBar"
 msgstr "Инфобар"
@@ -8883,7 +8880,7 @@ msgid "Jump forward one hour"
 msgstr "Перейти вперёд на один час"
 
 msgid "Jump time"
-msgstr "Jump time"
+msgstr "Время прыжка"
 
 msgid "Jump to beginning of list"
 msgstr "Перейти в начало списка"
@@ -9331,7 +9328,7 @@ msgstr[1] "Список версии %d, найдено %d канала"
 msgstr[2] "Список версии %d, найдены %d каналов"
 
 msgid "List/Fav"
-msgstr "List/Fav"
+msgstr "Список/Fav"
 
 msgid "Listen to the radio"
 msgstr "Включить режим радио"
@@ -9861,7 +9858,7 @@ msgid "Minutes:"
 msgstr "Минуты:"
 
 msgid "Mipsel"
-msgstr "Mipsel"
+msgstr "Мипсель"
 
 msgid "Miscellaneous"
 msgstr "Смешанный"
@@ -9908,9 +9905,9 @@ msgstr "Модель: %s %s\n"
 msgid "Model: %s"
 msgstr "Модель"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Model: %s %s\n"
-msgstr "Видео %s fps"
+msgstr "Модель: %s %s\n"
 
 #, fuzzy
 msgid "Model: unknown"
@@ -11224,7 +11221,7 @@ msgid "OSCam Info"
 msgstr "Информация OScam"
 
 msgid "OSD"
-msgstr "OSD"
+msgstr "ОУР"
 
 msgid "OSD 3D Settings"
 msgstr "Настройки 3D"
@@ -11601,7 +11598,7 @@ msgid "PRIMETIME"
 msgstr "Прайм-тайм"
 
 msgid "PVR"
-msgstr "PVR"
+msgstr "ПВР"
 
 msgid "Package"
 msgstr "Пакет"
@@ -12479,11 +12476,14 @@ msgstr "Нажмите ОК, чтобы использовать этот язы
 msgid "Press OK to use this locale.  [%s]"
 msgstr "Нажмите OK, чтобы использовать эту локаль.  [%s]"
 
-#, fuzzy
 msgid ""
 "Press Red button to continue when ready.\n"
 "\n"
-msgstr "Нажмите OK, чтобы продолжить."
+msgstr ""
+"Нажмите красную кнопку, чтобы продолжить, когда будет готово.\n"
+"\n"
+".\n"
+"\n"
 
 msgid ""
 "Press Red button to continue, when you are ready and your usb is "
@@ -13269,7 +13269,7 @@ msgid "Remove the MultiBoot files"
 msgstr "Удалите файлы мультизагрузки"
 
 msgid "Remove the current bookmark"
-msgstr "Remove the current bookmark"
+msgstr "Удалите текущую закладку"
 
 msgid "Remove the selected plugin / list of plugins"
 msgstr "Удалить выбранный плагин/список плагинов"
@@ -15946,7 +15946,7 @@ msgid "SoftcamSetup"
 msgstr "Настройка Softcam"
 
 msgid "Softcams"
-msgstr "Softcams"
+msgstr "Мягкие камеры"
 
 msgid "Software Manager"
 msgstr "Управление ПО"
@@ -16263,7 +16263,7 @@ msgid "Stepped west"
 msgstr "Поворот на запад"
 
 msgid "Sti"
-msgstr "Sti"
+msgstr "Стэй"
 
 msgid "Stop"
 msgstr "Стоп"
@@ -16420,7 +16420,7 @@ msgid "Subservices"
 msgstr "Подканалы"
 
 msgid "Subtitle"
-msgstr "Subtitle"
+msgstr "Подзаголовок"
 
 msgid "Subtitle Actions"
 msgstr "Выбор субтитров"
@@ -16538,7 +16538,7 @@ msgid "Switch To Bookmarks Panel"
 msgstr "Переключиться на панель закладок"
 
 msgid "Switch To File List Panel"
-msgstr "Switch To File List Panel"
+msgstr "Переключитесь на панель File List"
 
 msgid "Switch between Audio-, Subtitlepage"
 msgstr "Переключить между страницами аудио и субтитров"
@@ -16783,7 +16783,7 @@ msgid "Tatar"
 msgstr "Татарский"
 
 msgid "Teletext"
-msgstr "Teletext"
+msgstr "Телетекст"
 
 msgid "Teletext Actions"
 msgstr "Действия с телетекстом"
@@ -17629,8 +17629,8 @@ msgid ""
 "Timer overlap in '%s' detected!\n"
 "Please recheck it!"
 msgstr ""
-"Timer overlap in '%s' detected!\n"
-"Please recheck it!"
+"Обнаружено совпадение таймера в %s!\n"
+"Пожалуйста, перепроверьте!"
 
 #, python-format
 msgid "Timer overlap in '%s' detected! Please check all the timers."
@@ -18205,16 +18205,16 @@ msgid "Unhide Parental Control Services"
 msgstr "Показать защищенные каналы"
 
 msgid "Unicable "
-msgstr "Unicable "
+msgstr "Объединяющий "
 
 msgid "Unicable / JESS"
-msgstr "Unicable / JESS"
+msgstr "JESS / JESS"
 
 msgid "Unicable LNB"
 msgstr "Unicable-LNB"
 
 msgid "Unicable Matrix"
-msgstr "Unicable Matrix"
+msgstr "Неуязвимая матрица"
 
 #, fuzzy
 msgid "Unique numbering"
@@ -18392,10 +18392,10 @@ msgid "Uphops +"
 msgstr "Uphops +"
 
 msgid "Uphops -"
-msgstr "Uphops -"
+msgstr "Апхопс -"
 
 msgid "Uphops: "
-msgstr "Uphops: "
+msgstr "Апхопы: "
 
 #, fuzzy
 msgid "Upper USB"
