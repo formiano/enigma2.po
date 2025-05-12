@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Opendroid\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-28 15:03+0200\n"
-"PO-Revision-Date: 2025-05-12 09:13+0000\n"
+"PO-Revision-Date: 2025-05-12 09:17+0000\n"
 "Last-Translator: formia <tipomimmo@gmail.com>\n"
 "Language-Team: Russian <http://localhost:8888/projects/enigma2/enigma/ru/>\n"
 "Language: ru\n"
@@ -23,11 +23,12 @@ msgstr ""
 "\n"
 "<Этот тюнер настраивается автоматически>"
 
-#, fuzzy
 msgid ""
 "\n"
 "Partition scheme:\n"
-msgstr "Разделы"
+msgstr ""
+"\n"
+"Схема раздела:\n"
 
 msgid ""
 "\n"
@@ -68,9 +69,9 @@ msgstr ""
 msgid " "
 msgstr " "
 
-#, fuzzy, python-format
+#, python-format
 msgid "   (%s MHz)"
-msgstr "%s МГц"
+msgstr "   %s МГц"
 
 msgid "   (1.0 GHz)"
 msgstr "   (1,0 ГГц)"
@@ -128,23 +129,20 @@ msgstr " <Нет канала!>"
 msgid " <empty>"
 msgstr " <Пустой>"
 
-#, fuzzy
 msgid " Server and "
-msgstr "Сервер не отвечает"
+msgstr " Сервер и "
 
 msgid " and"
 msgstr " и"
 
-#, fuzzy
 msgid " as HDD ?"
-msgstr "Как HDD"
+msgstr " как HDD?"
 
 msgid "!! Boot loader Upgrade !!"
 msgstr "!! Обновление загрузчика !!"
 
-#, fuzzy
 msgid "# = Reboot Required"
-msgstr "* = Требуется перезагрузка"
+msgstr "# = Требуется перезагрузка"
 
 msgid "%-H:%M"
 msgstr "%-H:%M"
@@ -891,19 +889,19 @@ msgstr[2] "%d минут"
 msgid "%d Minutes"
 msgstr "%d минут"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d Month"
 msgid_plural "%d Months"
 msgstr[0] "%d минута"
 msgstr[1] "%d минуты"
-msgstr[2] "%d минут"
+msgstr[2] "%d Месяцы"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d Pixel"
 msgid_plural "%d Pixels"
 msgstr[0] "%d пикселей"
 msgstr[1] "%d пикселей"
-msgstr[2] "%d пикселей"
+msgstr[2] "%d Пиксели"
 
 #, python-format
 msgid "%d Pixel wide"
@@ -927,19 +925,19 @@ msgstr[2] "%d секунд"
 msgid "%d Seconds"
 msgstr "%d секунд"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d Week"
 msgid_plural "%d Weeks"
 msgstr[0] "Еженедельно"
 msgstr[1] "Еженедельно"
-msgstr[2] "Еженедельно"
+msgstr[2] "%d Недели"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d Year"
 msgid_plural "%d Years"
 msgstr[0] "Год"
 msgstr[1] "Год"
-msgstr[2] "Год"
+msgstr[2] "%d Годы"
 
 #. TRANSLATORS: Intermediate scanning result, '%d' channel(s) have been found so far
 #, python-format
@@ -956,12 +954,12 @@ msgstr[0] "%d ядро"
 msgstr[1] "%d ядра"
 msgstr[2] "%d ядер"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d feed catalog package was updated."
 msgid_plural "%d feed catalog packages were updated."
 msgstr[0] "%d пакет можно обновить"
 msgstr[1] "%d пакета можно обновить."
-msgstr[2] "%d пакетов можно обновить."
+msgstr[2] "Обновлены пакеты каталога кормов %d."
 
 #, python-format
 msgid "%d kB"
@@ -971,12 +969,12 @@ msgstr "%d кБ"
 msgid "%d min"
 msgstr "%d мин"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d минут"
 msgstr[1] "%d минут"
-msgstr[2] "%d минут"
+msgstr[2] "%d минуты"
 
 #, python-format
 msgid "%d minutes"
@@ -1035,54 +1033,54 @@ msgstr[0] "%d пакет обновлён."
 msgstr[1] "%d пакета обновлено."
 msgstr[2] "%d пакетов обновлено."
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d package was configured."
 msgid_plural "%d packages were configured."
 msgstr[0] "%d пакет обновлён."
 msgstr[1] "%d пакета обновлено."
-msgstr[2] "%d пакетов обновлено."
+msgstr[2] "%d пакеты были настроены."
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d package was deselected."
 msgid_plural "%d packages were deselected."
 msgstr[0] "%d пакет был отменён."
 msgstr[1] "%d пакет был отменён."
-msgstr[2] "%d пакет был отменён."
+msgstr[2] "%d пакеты были отобраны."
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d package was downloaded."
 msgid_plural "%d packages were downloaded."
 msgstr[0] "%d пакет обновлён."
 msgstr[1] "%d пакета обновлено."
-msgstr[2] "%d пакетов обновлено."
+msgstr[2] "%d Пакеты были загружены."
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d package was identified for upgrade."
 msgid_plural "%d packages were identified for upgrade."
 msgstr[0] "%d пакет помечен для обновления."
 msgstr[1] "%d пакета помечено для обновления."
-msgstr[2] "%d пакетов помечено для обновления."
+msgstr[2] "%d пакеты были определены для обновления."
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d package was installed."
 msgid_plural "%d packages were installed."
 msgstr[0] "%d пакет установлен."
 msgstr[1] "%d пакета установлено."
-msgstr[2] "%d пакетов установлено."
+msgstr[2] "Были установлены %d пакеты."
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d package was removed."
 msgid_plural "%d packages were removed."
 msgstr[0] "%d пакет помечен для удаления."
 msgstr[1] "%d пакета помечено для удаления."
-msgstr[2] "%d пакетов помечено для удаления."
+msgstr[2] "Упаковки были удалены."
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d package was upgraded."
 msgid_plural "%d packages were upgraded."
 msgstr[0] "%d пакет обновлён."
 msgstr[1] "%d пакета обновлено."
-msgstr[2] "%d пакетов обновлено."
+msgstr[2] "Пакеты были модернизированы."
 
 #, python-format
 msgid "%d plugin is not available:"
@@ -1095,12 +1093,12 @@ msgstr[2] "%d плагинов недоступно:"
 msgid "%d sec"
 msgstr "%d сек"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%d second"
 msgid_plural "%d seconds"
 msgstr[0] "%d секунда"
 msgstr[1] "%d секунды"
-msgstr[2] "%d секунд"
+msgstr[2] "%d секунды"
 
 #, python-format
 msgid "%d times"
@@ -1150,9 +1148,8 @@ msgstr "%d.%m"
 msgid "%d.%m.%Y"
 msgstr "%d.%m.%Y"
 
-#, fuzzy
 msgid "%d.%m.%Y - %H:%M:%S"
-msgstr "%-H:%M:%S"
+msgstr "%d.%m.%Y - %H:%M:%S"
 
 msgid "%d/%-m"
 msgstr "%d/%-m"
@@ -22909,10 +22906,10 @@ msgstr ""
 "работающего под управлением openDroid 7.5 или выше)."
 
 msgid "Enter the FTP port of the host receiver (normally '21')."
-msgstr ""
+msgstr "Введите FTP-порт приемника (обычно 21)."
 
 msgid "Enter the FTP username of the host receiver (normally 'root')."
-msgstr ""
+msgstr "Введите имя пользователя FTP приемника хоста (обычно «root»)."
 
 #, fuzzy
 msgid "Enter the IP address of the host receiver."
@@ -22922,9 +22919,10 @@ msgid ""
 "Enter the domain of the host receiver. Do not include 'http://' or port "
 "number."
 msgstr ""
+"Введите домен принимающего хоста. Не включайте \"http://\" или номер порта."
 
 msgid "Enter the streaming port of the host receiver (normally '8001')."
-msgstr ""
+msgstr "Введите потоковый порт приемника хоста (обычно «8001»)."
 
 #, fuzzy
 msgid ""
@@ -23118,10 +23116,10 @@ msgid "History buttons mode"
 msgstr "Режим кнопок истории"
 
 msgid "Host domain"
-msgstr ""
+msgstr "Хост домен"
 
 msgid "Host receiver FTP password"
-msgstr ""
+msgstr "Хост-приемник FTP пароль"
 
 #, fuzzy
 msgid "Host receiver FTP port"
@@ -23136,10 +23134,10 @@ msgid "Host receiver IP address"
 msgstr "Ввод IP-адреса"
 
 msgid "Host receiver address type"
-msgstr ""
+msgstr "Тип адреса принимающей стороны"
 
 msgid "Host receiver streaming port"
-msgstr ""
+msgstr "Host-приемник потоковый порт"
 
 msgid "Http(s) stream start delay"
 msgstr "Задержка начала потока http (с)"
@@ -23219,6 +23217,7 @@ msgstr ""
 
 msgid "If set to 'yes' it will enable PLAY,PAUSE, SEEK on channel list movies"
 msgstr ""
+"Если он настроен на «да», он позволит играть, искать фильмы в списке каналов"
 
 msgid ""
 "If set to 'yes', allows you to use timeshift with alternative audio plugins."
@@ -23609,10 +23608,10 @@ msgid "Panic channel"
 msgstr "Канал на тревожной кнопке"
 
 msgid "Passthrough audio handling delay AC3"
-msgstr ""
+msgstr "Пропуск задержки обработки аудио AC3"
 
 msgid "Passthrough audio handling delay AC3+"
-msgstr ""
+msgstr "Пропуск задержки обработки аудио AC3+"
 
 msgid "Password (httpuser)"
 msgstr "Пароль (пользователь http)"
@@ -23903,7 +23902,7 @@ msgid "Save every (in hours)"
 msgstr "Сохранять каждые (В часах)"
 
 msgid "Schedule EPG and channel list import"
-msgstr ""
+msgstr "Расписание импорта EPG и списка каналов"
 
 msgid "Scheduled load of epg.dat"
 msgstr "Запланированная загрузка epg.dat"
@@ -23932,6 +23931,11 @@ msgid ""
 "volume level. Select 'Last used/set volume' to remember the volume level "
 "last used for each service."
 msgstr ""
+"Выберите «Disabled», чтобы отключить все автоматические настройки громкости. "
+"Выберите «Определенные объемные смещения» для присвоения заданного смещения "
+"уровню объема услуги. Выберите «Последний используемый / установленный объем»"
+", чтобы запомнить уровень громкости, последний используемый для каждой "
+"услуги."
 
 msgid "Select 'Enable' to start the CI+ helper."
 msgstr "Выберите 'Включить', чтобы запустить помощник CI+."
@@ -23961,6 +23965,10 @@ msgid ""
 "from 1. Use 'LCN numbering' to use consistent service LCNs where ever that "
 "service is used."
 msgstr ""
+"Выберите «Уникальная нумерация», чтобы назначить уникальные номера для "
+"каждой услуги в каждом букете. Используйте Букеты начинаются с 1, чтобы "
+"начать нумерацию каждого букета с 1. Используйте «нумерацию LCN» для "
+"использования согласованных служб LCN, где эта услуга используется."
 
 msgid "Select 'Yes' if an end time is required for this timer."
 msgstr "Выберите 'Да', если для этого таймера требуется время окончания."
@@ -24330,6 +24338,8 @@ msgid ""
 "Select a receiver to use for client mode. If the host receiver is not "
 "listed, manually enter the URL or IP address."
 msgstr ""
+"Выберите приемник для использования в клиентском режиме. Если хост-приемник "
+"не указан, вручную введите URL или IP-адрес."
 
 msgid "Select cardserver"
 msgstr "Выберите кардсервер"
@@ -24548,11 +24558,11 @@ msgstr ""
 "скином."
 
 msgid "Select the size of the volume step when the VOLUME buttons are pressed."
-msgstr ""
+msgstr "Выберите размер шага громкости, когда нажаты кнопки VOLUME."
 
 msgid ""
 "Select the size of the volume steps when the VOLUME buttons are held down."
-msgstr ""
+msgstr "Выберите размер шагов громкости, когда кнопки VOLUME удерживаются вниз."
 
 msgid "Select the sort order of the Extension Menu entries."
 msgstr "Выберите порядок сортировки записей меню расширений."
@@ -24660,7 +24670,7 @@ msgid "Select where the recording should be saved."
 msgstr "Выберите, где запись должна быть сохранена."
 
 msgid "Select witch Imageversion to Download"
-msgstr ""
+msgstr "Выберитеwitch Imageversion для загрузки"
 
 msgid "Select your time zone area or region."
 msgstr "Выберите свой часовой пояс или регион."
@@ -24824,6 +24834,8 @@ msgid ""
 "Set to 'Yes', to enable automatic recording of the background timeshift "
 "buffer."
 msgstr ""
+"Установите «Да», чтобы включить автоматическую запись фонового буфера "
+"временного смещения."
 
 msgid "Set to the desired primetime (hour)."
 msgstr "Выберите нужный прайм-тайм (вчасах)."
@@ -24870,6 +24882,8 @@ msgid ""
 "Should the FTP connection to the remote receiver be established in passive "
 "mode (normally 'no')?"
 msgstr ""
+"Следует ли устанавливать FTP-соединение с удаленным приемником в пассивном "
+"режиме (обычно «нет»)?"
 
 msgid "Show Development packages"
 msgstr "Показать пакеты разработки"
@@ -25429,11 +25443,15 @@ msgid ""
 "The AI mode used for translating languages. You can choose the one that "
 "gives the most accurate translation for your target language."
 msgstr ""
+"Режим AI, используемый для перевода языков. Вы можете выбрать тот, который "
+"дает наиболее точный перевод для вашего целевого языка."
 
 msgid ""
 "The AI-Powered Translation service will be optimized to provide the best "
 "performance based on the the Internet connection upload speed selected."
 msgstr ""
+"Сервис AI-Powered Translation будет оптимизирован для обеспечения наилучшей "
+"производительности на основе выбранной скорости загрузки интернет-соединения."
 
 msgid "The aspect ratio of the recording."
 msgstr "Соотношение сторон записи."
@@ -25693,7 +25711,7 @@ msgid "Time for next LCD scrolling"
 msgstr "Пауза между прокруткой текста на LCD"
 
 msgid "Time import should start"
-msgstr ""
+msgstr "Импорт времени должен начаться"
 
 msgid "Time jump avoid zero step size"
 msgstr "Интервал времени во избежание нулевого размера шага"
@@ -25901,11 +25919,15 @@ msgid ""
 "Used to specify delay when switching between services and AC3 passthrough is "
 "enabled."
 msgstr ""
+"Используется для указания задержки при включенном переключении между "
+"службами и прохождении AC3."
 
 msgid ""
 "Used to specify delay when switching between services and AC3+/Atmos "
 "passthrough is enabled."
 msgstr ""
+"Используется для указания задержки при включенном переключении между "
+"сервисами и пропуском AC3+/Atmos."
 
 msgid "User Feed URL"
 msgstr "Адрес фида пользователя"
@@ -26419,7 +26441,7 @@ msgid "Timerlist"
 msgstr "Список таймеров"
 
 msgid "[REC]"
-msgstr ""
+msgstr "[REC]"
 
 msgid "  REC  "
 msgstr "  REC  "
@@ -26661,6 +26683,8 @@ msgstr "Удалить"
 msgid ""
 "Skip internet connection check (disables automatic package installation)"
 msgstr ""
+"Пропустить проверку интернет-соединения (отключает автоматическую установку "
+"пакета)"
 
 #, fuzzy
 msgid ""
@@ -26676,6 +26700,8 @@ msgid ""
 "Use the up/down keys on your remote control to select an option. After that, "
 "press OK."
 msgstr ""
+"Используйте клавиши «вверх/вниз» на вашем пульте дистанционного управления, "
+"чтобы выбрать опцию. После этого нажмите OK."
 
 msgid "Use the wizard to set up basic features"
 msgstr "Пользуйтесь мастером для настройки основных параметров"
@@ -26686,6 +26712,11 @@ msgid ""
 "This start wizard will guide you through the basic setup of your %s %s.\n"
 "Press the OK button on your remote control to move to the next step."
 msgstr ""
+"Добро пожаловать.\n"
+"\n"
+"Этот начальный мастер проведет вас через базовую настройку ваших процентов.\n"
+"Нажмите кнопку OK на пульте дистанционного управления, чтобы перейти к "
+"следующему шагу."
 
 msgid "What do you want to scan?"
 msgstr "Что Вы хотите сканировать?"
@@ -26826,7 +26857,7 @@ msgid "Load EPG"
 msgstr "Загрузить кэш EPG"
 
 msgid "Load/Save/Delete"
-msgstr ""
+msgstr "Загрузка/сохранение/удаление"
 
 msgid "Locale / Language Settings"
 msgstr "Региональные/языковые настройки"
@@ -26942,7 +26973,7 @@ msgid "System Settings"
 msgstr "Сохранение настроек системы"
 
 msgid "System Tools (OPD)"
-msgstr ""
+msgstr "Системные инструменты (OPD)"
 
 msgid "This menu offers options related managing the software on the %s %s."
 msgstr "Это меню предлагает опции, связанные с управлением ПО на %s %s."
@@ -26960,10 +26991,10 @@ msgid "Tuners, Scanning & Configuration"
 msgstr "Тюнеры"
 
 msgid "USB Disk Format"
-msgstr ""
+msgstr "USB Формат диска"
 
 msgid "VCR scart"
-msgstr ""
+msgstr "VCR Scart"
 
 #, fuzzy
 msgid "VFD Skin Settings"
@@ -27365,12 +27396,14 @@ msgid "Add service names"
 msgstr "Добавить канал"
 
 msgid "Add service names to each #SERVICE entry."
-msgstr ""
+msgstr "Добавьте имена служб в каждую запись #SERVICE."
 
 msgid ""
 "Also use a #DESCRIPTION line after each #SERVICE line to hold the service's "
 "name."
 msgstr ""
+"Также используйте строку #DESCRIPTION после каждой строки #SERVICE, чтобы "
+"сохранить имя службы."
 
 #, fuzzy
 msgid "LCN Scanner Settings"
@@ -27406,6 +27439,8 @@ msgid ""
 "Use spacer lines to pad the bouquet to make the #SERVICE line numbers match "
 "the LCN."
 msgstr ""
+"Используйте строки прокладки для букета, чтобы номера строк #SERVICE "
+"соответствовали LCN."
 
 msgid "Configure DNS (name servers)"
 msgstr "Настроить DNS (серверы имён)"
@@ -27521,6 +27556,11 @@ msgid ""
 "\n"
 "Press OK to start configuring the network."
 msgstr ""
+"Добро пожаловать.\n"
+"\n"
+"Этот мастер проведет вас через базовую сетевую настройку процентов.\n"
+"\n"
+"Нажмите OK, чтобы начать настройку сети."
 
 msgid ""
 "Wireless network connection setup.\n"
@@ -27728,11 +27768,13 @@ msgstr ""
 "обновлению с сайта, новая прошивка попросит вас восстановить настройки."
 
 msgid "Allows you schedule your image backups."
-msgstr ""
+msgstr "Позволяет планировать резервные копии изображений."
 
 msgid ""
 "Allows you to tag your image backup to a box. (default is box name/type)"
 msgstr ""
+"Позволяет пометить резервную копию вашего изображения на коробку. (по "
+"умолчанию - имя/тип коробки)"
 
 #, fuzzy
 msgid "Backup prefix"
@@ -27755,17 +27797,17 @@ msgid "Schedule Backups"
 msgstr "Файлы для копирования"
 
 msgid "Set the repeat interval of backup schedule."
-msgstr ""
+msgstr "Установите повторный интервал графика резервного копирования."
 
 #, fuzzy
 msgid "Set the time of backup to start."
 msgstr "Время показа инфобара."
 
 msgid "Setup max. backups on storage"
-msgstr ""
+msgstr "Настройка Макс. резервные копии на складе"
 
 msgid "Setup max. backups on storage 0=all"
-msgstr ""
+msgstr "Настройка Макс. Резервное копирование в хранилище 0 = все"
 
 #, fuzzy
 msgid "Time of Backup to start"
