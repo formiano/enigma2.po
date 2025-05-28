@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Opendroid / enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-05 16:04+0200\n"
-"PO-Revision-Date: 2025-05-27 10:15+0000\n"
+"PO-Revision-Date: 2025-05-28 16:30+0000\n"
 "Last-Translator: formia <tipomimmo@gmail.com>\n"
 "Language-Team: Albanian <http://localhost:8888/projects/enigma2/enigma/sq/>\n"
 "Language: sq\n"
@@ -97,7 +97,7 @@ msgid "  Red key : Show/Hide channel name"
 msgstr "  Kyçi i kuq: Shfaq Fshih emri"
 
 msgid " (Channel %s)"
-msgstr " (Channel %s)"
+msgstr " (Kanali%s)"
 
 msgid " (Partition %d)"
 msgstr " (Pjesa %d)"
@@ -282,7 +282,7 @@ msgid "%03d MB"
 msgstr "%03d MB"
 
 msgid "%2.1f Seconds"
-msgstr "%2.1f Seconds"
+msgstr "%2.1f Sekonda"
 
 msgid "%A"
 msgstr "%A"
@@ -796,8 +796,8 @@ msgstr "%d %b %Y"
 
 msgid "%d + %d + %d Minute"
 msgid_plural "%d + %d + %d Minutes"
-msgstr[0] "%d + %d+ %d minuta"
-msgstr[1] "%d + %d+ %d minuta"
+msgstr[0] "%d + %d+ %d Minuta"
+msgstr[1] "%d + %d+ %d Minutat"
 
 msgid "%d Day"
 msgid_plural "%d Days"
@@ -806,8 +806,8 @@ msgstr[1] "unit-format"
 
 msgid "%d Digit"
 msgid_plural "%d Digits"
-msgstr[0] "%d Digit"
-msgstr[1] "%d Digits"
+msgstr[0] "%d Shifra"
+msgstr[1] "%d Shifrat"
 
 msgid "%d Event"
 msgid_plural "%d Events"
@@ -859,8 +859,8 @@ msgstr[1] "%d Pixels"
 
 msgid "%d Pixel wide"
 msgid_plural "%d Pixels wide"
-msgstr[0] "%d Pixel wide"
-msgstr[1] "Pixels gjerë"
+msgstr[0] "%d Pixel i gjerë"
+msgstr[1] "Piksele të gjera"
 
 msgid "%d Pixels"
 msgstr "%d Pixels"
@@ -871,7 +871,7 @@ msgstr[0] "%d Second"
 msgstr[1] "%d Seconds"
 
 msgid "%d Seconds"
-msgstr "%d Seconds"
+msgstr "%d Sekonda"
 
 msgid "%d Week"
 msgid_plural "%d Weeks"
@@ -999,7 +999,7 @@ msgstr[0] "%d Seconds"
 msgstr[1] "%d sekonda"
 
 msgid "%d times"
-msgstr "%d times"
+msgstr "%d herë"
 
 msgid "%d wireless network found!"
 msgid_plural "%d wireless networks found!"
@@ -1103,7 +1103,7 @@ msgid "%s %s advanced remote control (native)"
 msgstr "Telekomanda e avancuar %s %s (vendase)"
 
 msgid "%s %s front panel"
-msgstr "%s %s front panel"
+msgstr "%s %s paneli i përparmë"
 
 msgid "%s %s ir keyboard"
 msgstr "%s %spa ndërprerje tastierë"
@@ -1112,7 +1112,7 @@ msgid "%s %s ir mouse"
 msgstr "%s %s ir mouse"
 
 msgid "%s %s remote control (native)"
-msgstr "%s %s remote control (native)"
+msgstr "%s %s telekomandë (amtare)"
 
 msgid "%s %sB"
 msgstr "%s %sB"
@@ -1178,19 +1178,19 @@ msgid "%sMode for SD (up to 576p)"
 msgstr "%s Mode për SD (deri në 576p)"
 
 msgid "%sMode for UHD (up to 2160p)"
-msgstr "%sMode for UHD (up to 2160p)"
+msgstr "%sModaliteti për UHD (deri në 2160p"
 
 msgid "%sRefresh rate for FHD"
-msgstr "%sRefresh rate for FHD"
+msgstr "%sShpejtësia e rifreskimit për FHD"
 
 msgid "%sRefresh rate for HD"
-msgstr "%sRefresh rate for HD"
+msgstr "Shpejtësia e rifreskimit për HD"
 
 msgid "%sRefresh rate for SD"
-msgstr "%sRefresh rate for SD"
+msgstr "%sShpejtësia e rifreskimit për SD"
 
 msgid "%sRefresh rate for UHD"
-msgstr "%sRefresh rate for UHD"
+msgstr "%sShpejtësia e rifreskimit për UHD"
 
 msgid "%sShow 1080i as 1080p"
 msgstr "%sShow 1080i as 1080p"
@@ -1532,7 +1532,8 @@ msgid "A file from media is in use!"
 msgstr "Një dosje nga media është në përdorim!"
 
 msgid "A finished PowerTimer wants to reboot your %s %s. Do that now?"
-msgstr "A finished PowerTimer wants to reboot your %s %s. Do that now?"
+msgstr ""
+"Një PowerTimer i përfunduar dëshiron të rindezë %s %s tuaj. Bëje atë tani?"
 
 msgid "A finished PowerTimer wants to restart the user interface. Do that now?"
 msgstr "Një PowerTimer do të rinisë interfaqen e përdoruesit. Tani?"
@@ -1660,7 +1661,7 @@ msgid "AC3 downmix"
 msgstr "AC3 downmix"
 
 msgid "AC3 plus transcoding"
-msgstr "AC3 plus transcoding"
+msgstr "AC3 plus transkodimin"
 
 msgid "AC3plus transcoding"
 msgstr "Transcoding AC310"
@@ -1992,7 +1993,7 @@ msgid "Add the current directory as a bookmark"
 msgstr "Shto file aktual"
 
 msgid "Add the current/active service to the Volume Offset list"
-msgstr "Add the current/active service to the Volume Offset list"
+msgstr "Shtoni shërbimin aktual/aktiv në listën e Kompensimit të volumit"
 
 msgid "Add the selected service to a bouquet or alternative"
 msgstr "Shtoni shërbimin e zgjedhur një buqetë apo alternativë"
@@ -2004,16 +2005,16 @@ msgid "Add/Remove Timer"
 msgstr "Shto Hiq"
 
 msgid "Add/Remove a timer for the current event"
-msgstr "Add/Remove a timer for the current event"
+msgstr "Shto/Hiq një kohëmatës për ngjarjen aktuale"
 
 msgid "Add/Remove highlighted plugin to/from install list"
-msgstr "Add/Remove highlighted plugin to/from install list"
+msgstr "Shto/Hiq shtojcën e theksuar në/nga lista e instalimit"
 
 msgid "Add/Remove highlighted plugin to/from remove list"
-msgstr "Add/Remove highlighted plugin to/from remove list"
+msgstr "Shto/Hiq shtojcën e theksuar në/nga lista e heqjes"
 
 msgid "Add/Remove highlighted plugin to/from update list"
-msgstr "Add/Remove highlighted plugin to/from update list"
+msgstr "Shto/Hiq shtojcën e theksuar në/nga lista e përditësimeve"
 
 msgid "Add/Remove the current service to/from the Volume Offset list"
 msgstr "Shto/Hiq shërbimin aktual në/nga lista e Offset e vëllimit"
@@ -2022,7 +2023,7 @@ msgid "Adding schedule..."
 msgstr "Duke shtuar programin..."
 
 msgid "Additional files/folders to backup"
-msgstr "Additional files/folders to backup"
+msgstr "Skedarë/dosje shtesë për kopje rezervë"
 
 msgid ""
 "Additional motor options allow you to enter details from your motor's specifications so Enigma can work out how long it will take to move the dish "
@@ -2308,7 +2309,7 @@ msgid "Alphanumeric"
 msgstr "Alfanumerik"
 
 msgid "Also import at reboot/restart enigma2"
-msgstr "Also import at reboot/restart enigma2"
+msgstr "Importoni gjithashtu në reboot/restart enigma2"
 
 msgid "Also import from the extension menu"
 msgstr "Importo menuja"
@@ -2490,7 +2491,7 @@ msgstr ""
 "A jeni i sigurt për pastrimin e të gjitha buqetave të fshirë të përdoruesit?"
 
 msgid "Are you sure to remove all %d.%d%s%s services?"
-msgstr "Are you sure to remove all %d.%d%s%s services?"
+msgstr "Jeni i sigurt për të hequr të gjitha shërbimet %d.%d%s%s?"
 
 msgid "Are you sure to remove all cable services?"
 msgstr "A jeni i sigurt për të hequr të gjitha shërbimet kabllore?"
