@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Opendroid\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-25 18:49+0200\n"
-"PO-Revision-Date: 2026-07-26 17:42+0000\n"
+"PO-Revision-Date: 2026-07-26 17:49+0000\n"
 "Last-Translator: formiano <formianodicastellone@hotmail.it>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/opendroid-enigma2/"
 "enigma2-po/ar/>\n"
@@ -72,26 +72,26 @@ msgstr " "
 
 #, fuzzy
 msgid "  Menu key : Select quad channel"
-msgstr "  مفتاح القائمة: حدد أربعة قنوات"
+msgstr "  مفتاح منو: القناة الأربع المختارة"
 
 msgid "  REC  "
 msgstr "  تسجيل  "
 
 #, fuzzy
 msgid "  Red key : Show/Hide channel name"
-msgstr "  المفتاح الأحمر: إظهار / إخفاء اسم القناة"
+msgstr "  المفتاح الأحمر: اسم قناة العرض/القنوات الجانبية"
 
 #, fuzzy, python-format
 msgid " (Channel %s)"
-msgstr " (قناة %s)"
+msgstr " (الشانيل [X10])"
 
 #, fuzzy, python-format
 msgid " (Partition %d)"
-msgstr " (التقسيم %d)"
+msgstr " (الباب %d)"
 
 #, fuzzy
 msgid " (current channel)"
-msgstr " (قناة جارية)"
+msgstr " (القناة الحالية)"
 
 #, fuzzy
 msgid " (disabled)"
@@ -99,15 +99,15 @@ msgstr " (معطل)"
 
 #, fuzzy
 msgid " (higher than any auto)"
-msgstr " (أعلى من أي تلقائي)"
+msgstr " (أعلى من أي سيارة)"
 
 #, fuzzy
 msgid " (higher than rotor any auto)"
-msgstr " (أعلى من الدواران التلقائي)"
+msgstr " (أعلى من أي سيارة من طراز روتور)"
 
 #, fuzzy
 msgid " (lower than any auto)"
-msgstr " (أقل من أي تلقائي)"
+msgstr " (أقل من أي سيارة)"
 
 #
 #, fuzzy
@@ -120,7 +120,7 @@ msgstr " <فارغ>"
 
 #, fuzzy
 msgid " HI "
-msgstr " عالي "
+msgstr " مرحباً "
 
 #, fuzzy
 msgid " Server and "
@@ -132,7 +132,7 @@ msgstr " و"
 
 #, fuzzy
 msgid " as HDD ?"
-msgstr " كقرص صلب؟"
+msgstr " كـ \"إتش دي\"؟?"
 
 #, fuzzy
 msgid ""
@@ -140,58 +140,58 @@ msgid ""
 "\n"
 "Do you want to install the new settings list?"
 msgstr ""
-" متوفر !!\n"
+" !\n"
 "\n"
-"هل تريد تثبيت قائمة الإعدادات الجديدة؟"
+"هل تريد تركيب قائمة الأماكن الجديدة؟?"
 
 #, fuzzy
 msgid " of "
-msgstr " من "
+msgstr " of "
 
 #
 #, fuzzy
 msgid " updated"
-msgstr "التحديث"
+msgstr " مستكمل"
 
 #, fuzzy
 msgid "!! Boot loader Upgrade !!"
-msgstr "!! ترقية برنامج إقلاع النظام!!"
+msgstr "!! ترقية برنامج تحميل التشغيل !!"
 
 #, fuzzy
 msgid "# = Reboot Required"
-msgstr "# = يلزم إعادة التشغيل"
+msgstr "# = إعادة التشغيل المطلوبة"
 
 #, fuzzy
 msgid "%-H:%M"
-msgstr "%-س:%د"
+msgstr "%H:%M"
 
 #, fuzzy
 msgid "%-H:%M:%S"
-msgstr "%س:%د"
+msgstr "%-H:%M:%S"
 
 #, fuzzy
 msgid "%-I:%M"
-msgstr "%-I:%M"
+msgstr "٪-I:٪M"
 
 #, fuzzy
 msgid "%-I:%M%P"
-msgstr "%-I:%M%P"
+msgstr "%I:%M%P"
 
 #, fuzzy
 msgid "%-I:%M%^p"
-msgstr "%-I:%M%^p"
+msgstr "%I:%M%p"
 
 #, fuzzy
 msgid "%-I:%M:%S"
-msgstr "%-I:%M:%S"
+msgstr "%I:%M:%S"
 
 #, fuzzy
 msgid "%-I:%M:%S%P"
-msgstr "%-I:%M:%S%P"
+msgstr "%I:%M:%S%P"
 
 #, fuzzy
 msgid "%-I:%M:%S%^p"
-msgstr "%-I:%M:%S%^p"
+msgstr "%I:%M:%S%p"
 
 msgid "%-d %B %Y"
 msgstr "%d.%B %Y"
@@ -830,12 +830,12 @@ msgstr "%d %b %Y"
 #, fuzzy, python-format
 msgid "%d + %d + %d Minute"
 msgid_plural "%d + %d + %d Minutes"
-msgstr[0] ""
+msgstr[0] "%d + %d + %d دقائق"
 msgstr[1] "%d + %d + %d Minute"
-msgstr[2] ""
-msgstr[3] ""
+msgstr[2] "%d + %d + %d دقائق"
+msgstr[3] "%d + %d + %d دقائق"
 msgstr[4] ""
-msgstr[5] ""
+msgstr[5] "%d + %d + %d دقائق"
 
 #, python-format
 msgid "%d Day"
@@ -857,25 +857,25 @@ msgstr[3] ""
 msgstr[4] ""
 msgstr[5] ""
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Event"
 msgid_plural "%d Events"
-msgstr[0] ""
+msgstr[0] "%d الأحداث"
 msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[2] "%d الأحداث"
+msgstr[3] "%d الأحداث"
 msgstr[4] ""
-msgstr[5] ""
+msgstr[5] "%d الأحداث"
 
 #, python-format
 msgid "%d GB"
 msgstr "%d جيجابايت"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d Hour"
 msgid_plural "%d Hours"
 msgstr[0] ""
-msgstr[1] ""
+msgstr[1] "%d Hour"
 msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
