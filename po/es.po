@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Opendroid\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-25 18:49+0200\n"
-"PO-Revision-Date: 2026-07-26 11:58+0200\n"
+"POT-Creation-Date: 2026-07-26 20:44+0200\n"
+"PO-Revision-Date: 2024-09-20 23:58+0200\n"
 "Last-Translator: OPD Team <opendroid2013@gmail.com>\n"
 "Language-Team: Team Linux-box <www.linux-box.es>\n"
 "Language: es\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.9\n"
+"X-Generator: Poedit 3.5\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 msgid ""
@@ -107,16 +107,16 @@ msgid " <empty>"
 msgstr " Vacío"
 
 msgid " HI "
-msgstr " HI "
+msgstr "HI "
 
 msgid " Server and "
-msgstr " Servidor y "
+msgstr "Servidor y "
 
 msgid " and"
-msgstr " and"
+msgstr "y"
 
 msgid " as HDD ?"
-msgstr " como HDD ?"
+msgstr "como HDD ?"
 
 msgid ""
 " available !!\n"
@@ -254,11 +254,11 @@ msgstr "%.0f MB"
 msgid "%.2f GB"
 msgstr "%.2f GB"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%.2f Second"
 msgid_plural "%.2f Seconds"
-msgstr[0] "%2.1f Segundos"
-msgstr[1] "%2.1f Segundos"
+msgstr[0] "%.2f segundo"
+msgstr[1] "%.2f segundos"
 
 #, python-format
 msgid "%.3f MHz"
@@ -789,8 +789,8 @@ msgstr "%d %b %Y"
 #, python-format
 msgid "%d + %d + %d Minute"
 msgid_plural "%d + %d + %d Minutes"
-msgstr[0] "%d + %d + %d Minute"
-msgstr[1] "%d + %d + %d Minutes"
+msgstr[0] "%d + %d + %d Minuto"
+msgstr[1] "%d + %d + %d Minutos"
 
 #, python-format
 msgid "%d Day"
@@ -1065,8 +1065,8 @@ msgstr "%d times"
 #, python-format
 msgid "%d wireless network found!"
 msgid_plural "%d wireless networks found!"
-msgstr[0] "¡se ha encontrado la red inalámbrica %d!"
-msgstr[1] "%d redes inalámbricas encontradas!"
+msgstr[0] "¡%d red inalámbrica encontrada!"
+msgstr[1] "¡%d redes inalámbricas encontradas!"
 
 msgid "%d+%b_"
 msgstr "%d+%b_"
@@ -1296,17 +1296,17 @@ msgid "%sShow 1080i as 1080p"
 msgstr "%sMostrar 1080i como 1080p"
 
 msgid "'Buffer in hours' or 'number of last events'. For deleting older time shift files, the condition which occurred first has priority."
-msgstr "\"Buffer in hours\" o \"number of last events\" Para borrar los archivos de cambio de tiempo más antiguos, la condición que ocurrió primero tiene prioridad."
+msgstr "‘Buffer en horas’ o ‘número de últimos eventos’. Se eliminarán los archivos más antiguos primero."
 
 #, fuzzy
 msgid "'Handle Standby from TV' has a higher priority than 'Handle input from TV'."
-msgstr "\"La espera de la televisión\" tiene una prioridad más alta que \"La entrada de la televisión\"."
+msgstr "'La espera de la televisión' tiene una prioridad más alta que 'La entrada de la televisión'."
 
 msgid "'Network peer' automatically detects other Enigma2 receivers on the local network. You can also manually enter the URL or IP address."
-msgstr "\"Pareo de red\" detecta automáticamente otros receptores de Enigma2 en la red local. También puede introducir manualmente la dirección URL o IP."
+msgstr "'Pareo de red' detecta automáticamente otros receptores de Enigma2 en la red local. También puede introducir manualmente la dirección URL o IP."
 
 msgid "'Unscramble & record ECM' gives the option to unscramble afterwards if unscrambling on recording failed. 'Don't unscramble, record ECM' save a scramble recording that can be unscrambled on playback. 'Normal' means unscramble the recording and don't record ECM."
-msgstr "\"Unscramble \" record ECM' da la opción de deshacerse después si el descansamiento en la grabación falló. \"No descanses, graba ECM\" guarda una grabación que puede ser desenfrenada en la reproducción. \"Normal\" significa desactivar la grabación y no grabar ECM."
+msgstr "‘Descifrar y grabar ECM’ te da la opción de descifrar después si ha fallado el descifrado de la grabación. ‘No descifrar, grabar ECM’ permite guardar una grabación cifrada, descifrable en la reproducción. ‘Normal’ sirve para descifrar la grabación y no grabar el ECM."
 
 msgid "(All readers)"
 msgstr "(Todos los lectores)"
@@ -1316,7 +1316,7 @@ msgid "(Attention: There will be a restart after %d crashes.)"
 msgstr "(Atención: Habrá un reinicio después de que el %d se estrella.)"
 
 msgid "(FTA Service)"
-msgstr "(Servicio del TLC)"
+msgstr "(Servicio FTA)"
 
 msgid "(PiP)"
 msgstr "(PiP)"
@@ -1350,7 +1350,7 @@ msgid "* current animation"
 msgstr "* animación actual"
 
 msgid "*.tar.gz & *.bh.tgz & *.ipk removed"
-msgstr "*.tar.gz \" *.bh.tgz \""
+msgstr "*.tar.gz & *.bh.tgz & *.ipk eliminados"
 
 msgid "+24 Hours"
 msgstr "+24 Horas"
@@ -5351,6 +5351,14 @@ msgstr "Crear enlace duro con el archivo de cambio de tiempo falló!"
 
 msgid "Creating partition"
 msgstr "Creación de partición"
+
+msgid ""
+"Credentials missing!\n"
+"\n"
+"Please enter USERNAME and PASSWORD in:\n"
+"\n"
+"/etc/enigma2/opendroid/providers.xml"
+msgstr ""
 
 msgid "Cree"
 msgstr "Cree"
@@ -10366,7 +10374,7 @@ msgstr "Flash interno"
 
 #, python-format
 msgid "Internal flash:  %s %s "
-msgstr "Interínalo flash:  %s %s "
+msgstr "Flash interno: %s %s"
 
 #, python-format
 msgid "Internal flash: %s %s as USB Recovery"
@@ -15029,12 +15037,6 @@ msgstr "Proveedor"
 msgid "Provider Name: "
 msgstr "Nombre del proveedor:"
 
-msgid ""
-"Provider credentials missing!\n"
-"\n"
-"Please configure your provider first."
-msgstr ""
-
 msgid "Provider: "
 msgstr "Proveedor:"
 
@@ -16632,9 +16634,6 @@ msgstr "Buscando al oeste ..."
 
 msgid "Second cable of motorized LNB"
 msgstr "Segundo cable de LNB motorizado"
-
-msgid "SecondInfoBar"
-msgstr "SecondInfoBar"
 
 msgid "Secondary DNS"
 msgstr "DNS secundario"
