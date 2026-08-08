@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Opendroid\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-26 20:44+0200\n"
+"POT-Creation-Date: 2026-08-08 22:33+0200\n"
 "PO-Revision-Date: 2024-09-20 23:58+0200\n"
 "Last-Translator: OPD Team <opendroid2013@gmail.com>\n"
 "Language-Team: Team Linux-box <www.linux-box.es>\n"
@@ -1343,9 +1343,6 @@ msgstr "(Mostrar el menú de audio DVD opcional)"
 msgid "* = Restart Required"
 msgstr "* = reinicio requerido"
 
-msgid "* Only available if more than one interface is active."
-msgstr "* Sólo disponible si más de una interfaz está activa."
-
 msgid "* current animation"
 msgstr "* animación actual"
 
@@ -1743,6 +1740,10 @@ msgstr "AC3 más transcodificación"
 msgid "AC3plus transcoding"
 msgstr "Transcodificación AC3plus"
 
+#, fuzzy
+msgid "AC4"
+msgstr "DAC"
+
 msgid "AFL"
 msgstr "AFL"
 
@@ -1821,11 +1822,12 @@ msgstr "Sobre..."
 msgid "Above 200 Mbps"
 msgstr "Más de 200 Mbps"
 
+#, fuzzy
+msgid "Access mode"
+msgstr "Modo de prueba"
+
 msgid "Access point"
 msgstr "Punto de acceso"
-
-msgid "Access point:"
-msgstr "Punto de acceso:"
 
 msgid "Access to geolocation information requires an Internet connection."
 msgstr "El acceso a la información de geolocalización requiere una conexión a Internet."
@@ -1952,9 +1954,6 @@ msgstr "Añadir Zap+RecordTimer"
 
 msgid "Add ZapTimer"
 msgstr "Añadir ZapTimer"
-
-msgid "Add a DNS entry"
-msgstr "Añadir una entrada DNS"
 
 msgid "Add a RADIO service to the Volume Offset list"
 msgstr "Añadir un servicio de RADIO a la lista Volume Offset"
@@ -2178,6 +2177,9 @@ msgstr "Después de grabar"
 msgid "After zap"
 msgstr "Después de zap"
 
+msgid "Aggregate data only"
+msgstr ""
+
 msgid "Aggressive"
 msgstr ""
 
@@ -2276,6 +2278,9 @@ msgstr "Allow 10bit"
 msgid "Allow 12bit"
 msgstr "Allow 12bit"
 
+msgid "Allow guest access"
+msgstr ""
+
 msgid "Allow quit movie player with exit"
 msgstr "Permitir dejar al jugador de película con salida"
 
@@ -2287,6 +2292,10 @@ msgstr "Permitir subtítulos para el deterioro auditivo"
 
 msgid "Allow unsupported modes"
 msgstr "Permitir modos sin soporte"
+
+#, fuzzy
+msgid "Allowed clients"
+msgstr "Clientes activos"
 
 msgid "Allows the %s %s to read the stored EPG data regularly."
 msgstr "Permite al %s %s leer regularmente los datos de EPG almacenados."
@@ -2459,6 +2468,10 @@ msgstr "Velocidad de animación"
 msgid "Animations"
 msgstr "Animaciones"
 
+#, fuzzy
+msgid "Anonymize client IPs"
+msgstr "Clientes activos"
+
 msgid "Antarctica"
 msgstr "Antártida"
 
@@ -2479,6 +2492,9 @@ msgstr "Apply any changes to the active locale/language and exit"
 
 msgid "Apply the currently highlighted locale/language and exit"
 msgstr "Apply the currently highlighted locale/language and exit"
+
+msgid "Aqua"
+msgstr ""
 
 msgid "Arabic"
 msgstr "Árabe"
@@ -2905,6 +2921,10 @@ msgstr "Azerbaiyán"
 msgid "Azerbaijani"
 msgstr "Azerbaijani"
 
+#, fuzzy
+msgid "Azure"
+msgstr "azure"
+
 msgid "B"
 msgstr "B"
 
@@ -3150,9 +3170,6 @@ msgstr "Bislama"
 
 msgid "Bitrate"
 msgstr "Bitrate"
-
-msgid "Bitrate:"
-msgstr "Bitrate:"
 
 msgid "Black"
 msgstr "Negro"
@@ -3872,6 +3889,10 @@ msgstr "Centrado, envuelto"
 msgid "Central African Republic"
 msgstr "República Centroafricana"
 
+#, fuzzy
+msgid "Central Europe"
+msgstr "Central Khmer"
+
 msgid "Central Khmer"
 msgstr "Central Khmer"
 
@@ -4010,6 +4031,10 @@ msgstr "Botones de canal invertido"
 msgid "Channel down"
 msgstr "Canal abajo"
 
+#, fuzzy
+msgid "Channel list"
+msgstr "Lista de canales"
+
 msgid "Channel list cursor behavior"
 msgstr "Comportamiento del cursor lista de canales"
 
@@ -4042,9 +4067,6 @@ msgstr "Selección de canales"
 
 msgid "Channel up"
 msgstr "Canalizado"
-
-msgid "Channel:"
-msgstr "Canal:"
 
 msgid "ChannelEPG Settings"
 msgstr "ChannelEPG Ajustes"
@@ -4206,9 +4228,6 @@ msgstr "Elija archivos y carpetas adicionales para incluir en copias de segurida
 msgid "Choose files and folders to exclude from backup"
 msgstr "Elija archivos y carpetas para excluir de la copia de seguridad"
 
-msgid "Choose how much EPG history, if any, to keep in the EPG cache. This historic data can be browsed in any of the EPG views. This can be useful when you need information about an event which has recently finished."
-msgstr "Elija cuánto historial EPG, si es así, para mantenerse en el caché EPG. Estos datos históricos pueden consultarse en cualquiera de las vistas del EPG. Esto puede ser útil cuando usted necesita información sobre un evento que ha terminado recientemente."
-
 msgid "Choose reader"
 msgstr "Elegir lector"
 
@@ -4224,10 +4243,12 @@ msgstr "Elija el estilo de formato de pantalla para veces. 'H' / 'HH' es la hora
 msgid "Choose the fallback font."
 msgstr "Elija la fuente de otoño."
 
-msgid "Choose the front panel display formatting style for dates. 'D' / 'DD' is the date and 'M' / 'MM' is the month in digits.  ('DD' and 'MM' have leading zeros for single digit values.) The screen display will be based on your choice but can be influenced by the skin."
+#, fuzzy
+msgid "Choose the front panel display formatting style for dates. 'D'/'DD' is the date and 'M'/'MM' is the month in digits. ('DD' and 'MM' have leading zeros for single digit values.) The screen display will be based on your choice but can be influenced by the skin."
 msgstr "Elija el estilo de formato de panel frontal para las fechas. 'D' / 'DD' es la fecha y 'M' / 'MM' es el mes en dígitos. ('DD' y 'MM' tienen ceros líderes para valores de dígitos únicos.) La pantalla se basará en su elección pero puede ser influenciada por la piel."
 
-msgid "Choose the front panel display formatting style for times. 'H' / 'HH' is the hour for a 24 hour clock, 'h' / 'hh' is the hour for a 12 hour clock, 'mm' is the minutes.  ('HH' and 'hh' have leading zeros for single digit values.) The front panel display will be based on your choice but can be influenced any applicable skin."
+#, fuzzy
+msgid "Choose the front panel display formatting style for times. 'H'/'HH' is the hour for a 24 hour clock, 'h'/'hh' is the hour for a 12 hour clock, 'mm' is the minutes. ('HH' and 'hh' have leading zeros for single digit values.) The front panel display will be based on your choice but can be influenced any applicable skin."
 msgstr "Elija el estilo de formato de panel frontal para veces. 'H' / 'HH' es la hora para un reloj de 24 horas, 'h' / 'hh' es la hora para un reloj de 12 horas, 'mm' es los minutos. ('H' y 'hh' tienen ceros líderes para valores de dígitos únicos.) La pantalla frontal del panel se basará en su elección pero puede ser influenciada cualquier piel aplicable."
 
 msgid "Choose the location for crash and debug logs."
@@ -4236,7 +4257,8 @@ msgstr "Elija la ubicación para los registros de bloqueo y depuración."
 msgid "Choose the location where the EPG data will be stored when the %s %s is shut down. The location must be available at boot time."
 msgstr "Choose the location where the EPG data will be stored when the %s %s is shut down. The location must be available at boot time."
 
-msgid "Choose the name of the file that holds the EPG data when the %s %s is shut down. This can be handy to differentiate between several boxes."
+#, fuzzy
+msgid "Choose the name of the file that holds the EPG data when the %s %s is shut down. This can be handy to differentiate between several receivers."
 msgstr "Elija el nombre del archivo que contiene los datos EPG cuando el %s %s se cierra. Esto puede ser útil para diferenciar entre varias cajas."
 
 msgid "Choose the option to correct invalid EPG data."
@@ -4269,33 +4291,6 @@ msgstr "Elige dónde montar tus dispositivos para:"
 
 msgid "Choose where to save VOD movies"
 msgstr "Elige dónde guardar películas VOD"
-
-msgid "Choose whether AAC sound tracks should be transcoded."
-msgstr "Elija si las pistas de sonido AAC deben ser transcodificadas."
-
-msgid "Choose whether AC3 Plus sound tracks should be transcoded to AC3."
-msgstr "Elija si AC3 Más pistas de sonido deben ser transcodificadas a AC3."
-
-msgid "Choose whether AC3 sound tracks should be downmixed to stereo."
-msgstr "Elija si las pistas de sonido AC3 deben ser reducidas al estéreo."
-
-msgid "Choose whether DTS channel sound tracks should be downmixed or transcoded."
-msgstr "Elija si las pistas de sonido del canal DTS deben ser reducidas o transcodificadas."
-
-msgid "Choose whether DTS channel sound tracks should be downmixed to stereo."
-msgstr "Elija si las pistas de sonido del canal DTS deben ser reducidas al estéreo."
-
-msgid "Choose whether WMA Pro channel sound tracks should be downmixed or transcoded."
-msgstr "Elija si WMA Las pistas de sonido del canal Pro deben ser reducidas o transcodificadas."
-
-msgid "Choose whether multi channel sound tracks should be convert to PCM or SPDIF."
-msgstr "Elija si las pistas de sonido multicanal deben ser convertidas a PCM o SPDIF."
-
-msgid "Choose whether multi channel sound tracks should be downmixed to stereo."
-msgstr "Elija si las pistas de sonido multicanal deben ser reducidas al estéreo."
-
-msgid "Choose whether multi channel sound tracks should be output as PCM."
-msgstr "Elija si las pistas de sonido multicanal deben ser de salida como PCM."
 
 msgid "Choose whether or not to show an icon when a motorized dish is moving."
 msgstr "Elija si debe mostrar o no un icono cuando se mueve un plato motorizado."
@@ -4665,6 +4660,10 @@ msgstr "Configure para qué tipos de grabaciones se muestra una advertencia sobr
 msgid "Configure how recording filenames are constructed. Standard: Date Time - Channel - Title Very very short: Title Very short: Title - Date Time Short with time: Date Time - Title Short: Date - Title Long: Date Time - Channel - Title - Info"
 msgstr "Configure cómo se construyen los nombres de archivo de grabación. Estándar: Hora de la fecha - Canal - Título Muy corto: Título Muy corto: Título - Hora de la fecha Short with time: Date Time - Title Short: Date - Título Long: Fecha Hora - Canal - Título - Info"
 
+#, fuzzy
+msgid "Configure if 'epg.dat' should be saved at all."
+msgstr "Configure si epg.dat debe ser salvado en absoluto."
+
 msgid "Configure if and how crypto icons will be shown in the channel selection list."
 msgstr "Configure si y cómo se mostrarán los iconos criptográficos en la lista de selección de canales."
 
@@ -4682,9 +4681,6 @@ msgstr "Configure si y cuan ancho se mostrará la columna de nombre de servicio 
 
 msgid "Configure if crypto icons will be shown in the channel selection list."
 msgstr "Configure si los iconos criptográficos se mostrarán en la lista de selección de canales."
-
-msgid "Configure if epg.dat should be saved at all."
-msgstr "Configure si epg.dat debe ser salvado en absoluto."
 
 msgid "Configure if service picons will be shown in quickzap."
 msgstr "Configure si los píconos de servicio se mostrarán en quickzap."
@@ -4764,14 +4760,15 @@ msgstr "Configure el comportamiento al llegar al final de una película, durante
 msgid "Configure the border width of the subtitles. The dark border makes the subtitles easier to read on a light background."
 msgstr "Configure el ancho de la frontera de los subtítulos. La frontera oscura hace que los subtítulos sean más fáciles de leer en un fondo claro."
 
+#, fuzzy
+msgid "Configure the brightness level of the front panel display for Standby."
+msgstr "Configure el nivel de brillo de la pantalla del panel delantero para la espera."
+
 msgid "Configure the brightness level of the front panel display for dimmed operation."
 msgstr "Configure el nivel de brillo de la pantalla frontal del panel para la operación desactivada."
 
 msgid "Configure the brightness level of the front panel display for normal operation."
 msgstr "Configure el nivel de brillo de la pantalla del panel frontal para el funcionamiento normal."
-
-msgid "Configure the brightness level of the front panel display for standby."
-msgstr "Configure el nivel de brillo de la pantalla del panel delantero para la espera."
 
 msgid "Configure the color of the external subtitles, alternative (normal in white, italic in yellow, bold in cyan, underscore in green), white or yellow."
 msgstr "Configurar el color de los subtítulos externos, alternativa (normal en blanco, itálico en amarillo, negrita en cian, subrayar en verde), blanco o amarillo."
@@ -4985,9 +4982,6 @@ msgstr "Configure si una fuente fija o una fuente de TrueType escalable se utili
 
 msgid "Configure whether another tuner from the preferred list is allocated for recordings instead of sharing a tuner that is already active receiving the same live TV channel."
 msgstr "Configure si otro sintonizador de la lista preferida se asigna a las grabaciones en lugar de compartir un sintonizador que ya está activo recibiendo el mismo canal de televisión en vivo."
-
-msgid "Configure whether multi channel sound tracks should be downmixed to stereo."
-msgstr "Configure si las pistas de sonido multicanal deben ser reducidas al estéreo."
 
 msgid "Configure whether the 'recording' symbol (in the display skin and LCD skin) is visible for real recordings only or also for streaming and pseudo recordings (e.g. EPGrefresh)."
 msgstr "Configure si el símbolo \"recording\" (en la piel de la pantalla y la piel LCD) es visible para grabaciones reales solamente o también para streaming y pseudograbaciones (por ejemplo, EPGrefresh)."
@@ -5571,13 +5565,6 @@ msgstr "DMM advanced"
 msgid "DMM normal"
 msgstr "DMM normal"
 
-msgid "DNS (Dynamic Name Server) Actions"
-msgstr "DNS (Dynamic Name Server) Actions"
-
-#, fuzzy
-msgid "DNS Mode"
-msgstr "Modo 3D"
-
 msgid "DNS Settings"
 msgstr "Ajustes DNS"
 
@@ -5585,10 +5572,16 @@ msgid "DNS data source"
 msgstr "Fuente de datos del DNS"
 
 #, fuzzy
-msgid "DNS rotation"
-msgstr "Narración"
+msgid "DNS override"
+msgstr "Modo 3D"
+
+msgid "DNS protocol mode"
+msgstr ""
 
 msgid "DNS suffix"
+msgstr ""
+
+msgid "DNSCrypt"
 msgstr ""
 
 msgid ""
@@ -5628,11 +5621,17 @@ msgstr "DVB subtítulos color"
 msgid "DVB-C"
 msgstr "DVB-C"
 
+msgid "DVB-C / Cable only"
+msgstr ""
+
 msgid "DVB-C ANNEX B"
 msgstr "DVB-C ANNEX B"
 
 msgid "DVB-C ANNEX C"
 msgstr "DVB-C ANEXO C"
+
+msgid "DVB-C and DVB-T/T2 via external 5V controlled coax switch"
+msgstr ""
 
 msgid "DVB-S"
 msgstr "DVB-S"
@@ -5642,6 +5641,9 @@ msgstr "DVB-S2"
 
 msgid "DVB-T"
 msgstr "DVB-T"
+
+msgid "DVB-T/T2 / Terrestrial only"
+msgstr ""
 
 msgid "DVB-T2"
 msgstr "DVB-T2"
@@ -5902,6 +5904,10 @@ msgstr "Default Services Scanner"
 
 msgid "Default files/folders to backup"
 msgstr "Default files/folders to backup"
+
+#, fuzzy
+msgid "Default gateway"
+msgstr "Use una puerta de entrada"
 
 msgid "Default left column directory"
 msgstr "Directorio de columna izquierda predeterminado"
@@ -6525,7 +6531,8 @@ msgstr "Mostrar más información sobre este archivo"
 msgid "Display selection list as a selection menu"
 msgstr "Mostrar lista de selección como menú de selección"
 
-msgid "Display the EIT Now/Next event data in InfoBar."
+#, fuzzy
+msgid "Display the EIT Now/Next event data in the InfoBar."
 msgstr "Display the EIT Now/Next event data in InfoBar."
 
 msgid "Display the base locales or all locales for a language."
@@ -6773,6 +6780,9 @@ msgstr "Documental"
 msgid "Dolby Digital downmix is now"
 msgstr "Dolby Digital downmix está ahora"
 
+msgid "Dolby TrueHD"
+msgstr ""
+
 msgid "Domain"
 msgstr "Dominio"
 
@@ -7001,6 +7011,10 @@ msgstr "Modo botón EPG"
 msgid "EPG filename"
 msgstr "EPG nombre de archivo"
 
+#, fuzzy
+msgid "EPG history"
+msgstr "Historia"
+
 msgid ""
 "EPG key : Switch to channel list\n"
 "Ok key : Remove selected channel\n"
@@ -7053,6 +7067,10 @@ msgstr "Oriental"
 
 msgid "East limit set"
 msgstr "Conjunto de límite oriental"
+
+#, fuzzy
+msgid "Eastern satellites"
+msgstr "Satélites conectados"
 
 msgid "EasyMedia"
 msgstr "EasyMedia"
@@ -7194,6 +7212,10 @@ msgstr "Activar la grabación automática"
 msgid "Enable BT Audio"
 msgstr "Enable BT Audio"
 
+#, fuzzy
+msgid "Enable BT audio"
+msgstr "Enable BT Audio"
+
 msgid "Enable Bouquet Edit"
 msgstr "Enable Bouquet Edit"
 
@@ -7216,6 +7238,10 @@ msgstr "Activar la edición favorita"
 
 msgid "Enable Focus Animation"
 msgstr "Activar la animación focal"
+
+#, fuzzy
+msgid "Enable FreeSat EPG"
+msgstr "Enable freesat EPG"
 
 msgid "Enable GStreamer debug log *"
 msgstr "Activar el registro de depuración de GStreamer *"
@@ -7240,6 +7266,14 @@ msgstr "Enable MiniTV"
 
 msgid "Enable Move Mode"
 msgstr "Modo de movimiento enable"
+
+#, fuzzy
+msgid "Enable NFSv3"
+msgstr "Activar IPv6"
+
+#, fuzzy
+msgid "Enable NFSv4"
+msgstr "Activar IPv6"
 
 msgid "Enable Netmed EPG"
 msgstr "Enable Netmed EPG"
@@ -7341,14 +7375,15 @@ msgstr "Activar downmix digital"
 msgid "Enable fallback remote receiver"
 msgstr "Permite el receptor remoto de retroceso"
 
-msgid "Enable freesat EPG"
-msgstr "Enable freesat EPG"
-
 msgid "Enable import timer from fallback tuner"
 msgstr "Permite el temporizador de importación desde el afinador de retroceso"
 
 msgid "Enable intro screen"
 msgstr "Activar pantalla intro"
+
+#, fuzzy
+msgid "Enable monitoring UI"
+msgstr "Enable Virgin EPG"
 
 msgid "Enable multiple bouquets"
 msgstr "Permitir múltiples ramos"
@@ -7373,17 +7408,6 @@ msgstr "Activar la vista previa"
 
 msgid "Enable remote enigma2 receiver to be tried to tune into services that cannot be tuned into locally (e.g. tuner is occupied or service type is unavailable on the local tuner. Specify complete URL including http:// and port number (normally ...:8001), e.g. http://second_box:8001."
 msgstr "Permitir que el receptor remoto enigma2 sea tratado de sintonizar en servicios que no se pueden sintonizar en localmente (por ejemplo, el sintonizador está ocupado o el tipo de servicio no está disponible en el sintonizador local. Especifique la URL completa incluyendo http:// y el número de puerto (normalmente ...:8001), por ejemplo http://second_box:8001."
-
-#, fuzzy
-msgid "Enable subnetworks for cable connections."
-msgstr "Permite OK para la selección de canales"
-
-msgid "Enable subnetworks for terrestrial connections."
-msgstr ""
-
-#, fuzzy
-msgid "Enable support for subnetworks."
-msgstr "Permitir soporte de capítulo para archivos de vídeo"
 
 msgid "Enable teletext caching"
 msgstr "Enable teletext caching"
@@ -7477,9 +7501,6 @@ msgstr "Clave de cifrado"
 
 msgid "Encryption key type"
 msgstr "Tipo de clave de cifrado"
-
-msgid "Encryption:"
-msgstr "Encryption:"
 
 msgid "End"
 msgstr "Final"
@@ -7619,11 +7640,23 @@ msgstr "Introduzca la dirección IP del receptor host."
 msgid "Enter the IP address of the receiver to use for fallback tuners."
 msgstr "Ingrese la dirección IP del receptor para usar para los afinadores descomposición."
 
+msgid "Enter the IP address or subnet (e.g. 192.168.1.0/24) to which NFS host access is granted. Enter '*', the default, for all host access."
+msgstr ""
+
+msgid "Enter the IP address to be used as the gateway to other networks for this adapter. Typically this is the IP address of your router."
+msgstr ""
+
 msgid "Enter the URL/IP of the fallback remote receiver, e.g. '192.168.0.1'. The other details such as 'http://' and port number will be filled in automatically when you select save."
 msgstr "Introduzca la URL/IP del receptor remoto descomposición, por ejemplo '192.168.0.1'. Los otros detalles como 'http://' y el número de puerto se rellenarán automáticamente cuando seleccione guardar."
 
+msgid "Enter the ZeroTier Network ID. The ID should be exactly 16 characters in length."
+msgstr ""
+
 msgid "Enter the domain of the host receiver. Do not include 'http://' or port number."
 msgstr "Introduzca el dominio del receptor host. No incluye 'http://' ni número de puerto."
+
+msgid "Enter the fixed/static IPv4 address to be used for this network adapter."
+msgstr ""
 
 msgid "Enter the frequency at which you LNB switches between low band and high band. For more information consult the specifications of your LNB."
 msgstr "Introduzca la frecuencia en la que se conmuta LNB entre banda baja y banda alta. Para más información consulte las especificaciones de su LNB."
@@ -7631,8 +7664,26 @@ msgstr "Introduzca la frecuencia en la que se conmuta LNB entre banda baja y ban
 msgid "Enter the frequency step size for the tuner to use when searching for cable multiplexes. For more information consult your cable provider's documentation."
 msgstr "Introduzca el tamaño del paso de frecuencia para que el afinador use cuando busque multiplexes de cable. Para más información consulte la documentación de su proveedor de cable."
 
+msgid "Enter the number of NFS server threads to be allocated/used. Higher values improve performance with multiple clients but use more memory."
+msgstr ""
+
 msgid "Enter the number stored in the positioner that corresponds to this satellite."
 msgstr "Introduzca el número almacenado en el posicionador que corresponde a este satélite."
+
+msgid "Enter the password, pass-phrase or pre-shared key for the selected wireless network."
+msgstr ""
+
+msgid "Enter the primary IPv4 DNS setting for this adapter."
+msgstr ""
+
+msgid "Enter the primary IPv6 DNS setting for this adapter. (Optional)"
+msgstr ""
+
+msgid "Enter the secondary IPv4 DNS setting for this adapter. (Optional)"
+msgstr ""
+
+msgid "Enter the secondary IPv6 DNS setting for this adapter. (Optional)"
+msgstr ""
 
 msgid "Enter the service pin"
 msgstr "Introduzca el pin de servicio"
@@ -7649,8 +7700,14 @@ msgstr "Introduzca el tamaño en Megabyte de la tercera partición:"
 msgid "Enter the streaming port of the host receiver (normally '8001')."
 msgstr "Entra en el puerto de streaming del receptor host (normalmente '8001')."
 
+msgid "Enter the subnet mask to be used for this network adapter. (e.g. 255.255.255.0)"
+msgstr ""
+
 msgid "Enter the subscription code to fully enable the AI-Powered Translation plugin, the unified code for trial is 15."
 msgstr "Ingrese el código de suscripción para habilitar completamente el plugin de traducción de potencia AI, el código unificado para la prueba es 15."
+
+msgid "Enter the workgroup name to be used by this receiver for Samba based connections. (Default is 'WORKGROUP'.)"
+msgstr ""
 
 msgid "Enter your current latitude. This is the number of degrees you are from the equator as a decimal."
 msgstr "Entra en tu actual latitud. Este es el número de grados que eres del Ecuador como decimal."
@@ -8618,9 +8675,6 @@ msgstr "Terminado"
 msgid "Finished configuring your network"
 msgstr "Configuración final de su red"
 
-msgid "Finished restarting your network"
-msgstr "Acabado reiniciar su red"
-
 msgid "Finland"
 msgstr "Finlandia"
 
@@ -8763,6 +8817,9 @@ msgstr "Estadísticas de signos de fuerza Legacy"
 msgid "Force ToneBurst"
 msgstr "Force ToneBurst"
 
+msgid "Force a specific network link speed/duplex mode instead of auto-negotiation. Only change this if you have a specific reason as an incorrect setting can break network connectivity."
+msgstr ""
+
 msgid "Force de-interlace"
 msgstr "Force de-interlace"
 
@@ -8886,9 +8943,6 @@ msgstr "Tamaño del escaneo de frecuencia(khz)"
 
 msgid "Frequency steps"
 msgstr "Pasos de frecuencia"
-
-msgid "Frequency:"
-msgstr "Frecuencia:"
 
 msgid "Frequency: "
 msgstr "Frecuencia: "
@@ -9025,7 +9079,8 @@ msgstr "General"
 msgid "General AC3 delay"
 msgstr "Retraso general AC3"
 
-msgid "General BT Audio delay"
+#, fuzzy
+msgid "General BT audio delay"
 msgstr "General BT Retraso de audio"
 
 msgid "General Information"
@@ -9140,6 +9195,10 @@ msgid "Golf"
 msgstr "Golf"
 
 msgid "Google DNS"
+msgstr "Google DNS"
+
+#, fuzzy
+msgid "Google Public DNS"
 msgstr "Google DNS"
 
 msgid "Goto"
@@ -9822,6 +9881,10 @@ msgstr "Dirección IP del servidor Stream Relay utilizado para descifrar los ser
 msgid "IP of fallback remote receiver"
 msgstr "IP de receptor remoto de retroceso"
 
+#, fuzzy
+msgid "IP protocol"
+msgstr "Protocolo"
+
 msgid "IPK Tools"
 msgstr "Herramientas IPK"
 
@@ -10092,7 +10155,8 @@ msgstr "Incluir datos EPG"
 msgid "Include MultiBoot data *"
 msgstr "Incluir datos multiBoot *"
 
-msgid "Include SDT, BAT in http streams"
+#, fuzzy
+msgid "Include SDT and BAT in http streams"
 msgstr "Incluye SDT, BAT en las secuencias http"
 
 msgid "Include action map data"
@@ -10502,6 +10566,17 @@ msgstr "Job Manager"
 msgid "Job overview"
 msgstr "Resumen del trabajo"
 
+msgid "Join"
+msgstr ""
+
+#, fuzzy
+msgid "Join or leave the configured ZeroTier network"
+msgstr "Configuración final de su red"
+
+#, fuzzy
+msgid "Joined"
+msgstr "Combinado"
+
 msgid "Jordan"
 msgstr "Jordania"
 
@@ -10597,9 +10672,6 @@ msgstr "Kazakh"
 
 msgid "Kazakhstan"
 msgstr "Kazajstán"
-
-msgid "Keep EPG history (in minutes)"
-msgstr "Mantenga la historia del EPG (en minutos)"
 
 msgid "Keep old drive"
 msgstr "Mantén la vieja unidad"
@@ -10788,14 +10860,19 @@ msgstr "Color de apagado LED"
 msgid "LED Standby"
 msgstr "LED Standby"
 
+#, fuzzy
+msgid "LED brightness during Deep Standby."
+msgstr "Brillante LED durante la espera profunda."
+
+#, fuzzy
+msgid "LED brightness during Standby."
+msgstr "Brillante LED durante la espera."
+
 msgid "LED brightness during deep standby."
 msgstr "Brillante LED durante la espera profunda."
 
 msgid "LED brightness during normal operations."
 msgstr "El brillo LED durante las operaciones normales."
-
-msgid "LED brightness during standby."
-msgstr "Brillante LED durante la espera."
 
 msgid "LIRC remote"
 msgstr "Remoto LIRC"
@@ -10884,6 +10961,9 @@ msgstr "Letonia"
 msgid "Latvian"
 msgstr "Letonia"
 
+msgid "Leave"
+msgstr ""
+
 msgid "Leave DVD player?"
 msgstr "¿Dejar reproductor de DVD?"
 
@@ -10968,6 +11048,9 @@ msgstr "Fuente de luz"
 msgid "Limburgan / Limburger / Limburgish"
 msgstr "Limburgo / Limburgo / Limburgo"
 
+msgid "Lime"
+msgstr ""
+
 msgid "Limit character set for recording filenames"
 msgstr "Limitar caracteres para grabar nombres de archivo"
 
@@ -11010,6 +11093,10 @@ msgstr "Enlace detectado"
 
 msgid "Link quality:"
 msgstr "Calidad de enlace:"
+
+#, fuzzy
+msgid "Link speed"
+msgstr "Última velocidad"
 
 msgid "Link:"
 msgstr "Enlace:"
@@ -11251,12 +11338,6 @@ msgstr "Luxemburgo / Letzeburgesch"
 
 msgid "M2k"
 msgstr "M2k"
-
-msgid "MAC Address Actions"
-msgstr "MAC Address Actions"
-
-msgid "MAC Address Settings"
-msgstr "Ajustes de direcciones MAC"
 
 msgid "MAC address"
 msgstr "Dirección del MAC"
@@ -11953,12 +12034,6 @@ msgstr "Muévete con el trabajo."
 msgid "Move only highlighted file"
 msgstr "Mover sólo archivo resaltado"
 
-msgid "Move the current DNS entry down one line"
-msgstr "Mueva la entrada DNS actual por una línea"
-
-msgid "Move the current DNS entry up one line"
-msgstr "Mover la entrada DNS actual en una línea"
-
 msgid "Move the current bookmark down"
 msgstr "Mueva el marcador actual hacia abajo"
 
@@ -12280,6 +12355,9 @@ msgstr "NFS Actions"
 msgid "NFS Settings"
 msgstr "Ajustes NFS"
 
+msgid "NFS threads"
+msgstr ""
+
 msgid "NIM"
 msgstr "NIM"
 
@@ -12410,6 +12488,10 @@ msgstr "Network Adapter Actions"
 msgid "Network Adapter Setting Actions"
 msgstr "Acciones de configuración del adaptador de red"
 
+#, fuzzy
+msgid "Network Adapter Settings"
+msgstr "Acciones de configuración del adaptador de red"
+
 msgid "Network Adapter Text Actions"
 msgstr "Adaptador de red Text Actions"
 
@@ -12425,11 +12507,12 @@ msgstr "Network Information Actions"
 msgid "Network Log Actions"
 msgstr "Network Log Actions"
 
-msgid "Network MAC settings"
-msgstr "Configuración de redes MAC"
-
 msgid "Network Neighbourhood"
 msgstr "Vecindad de la red"
+
+#, fuzzy
+msgid "Network Restart"
+msgstr "Prueba de red"
 
 msgid "Network Settings"
 msgstr "Configuración de redes"
@@ -12460,6 +12543,10 @@ msgid "Network interface information"
 msgstr "Información de interfaz de red"
 
 msgid "Network menu"
+msgstr "Menú de red"
+
+#, fuzzy
+msgid "Network metric"
 msgstr "Menú de red"
 
 msgid "Network mounts"
@@ -12497,6 +12584,10 @@ msgstr ""
 "Asistente de red completado.\n"
 "\n"
 "Presione OK para continuar."
+
+#, fuzzy
+msgid "Network-ID"
+msgstr "ID de red"
 
 msgid "Network:"
 msgstr "Red:"
@@ -12580,6 +12671,10 @@ msgstr "Siguiente Bouquet"
 
 msgid "Next Page"
 msgstr "Página siguiente"
+
+#, fuzzy
+msgid "Next channel"
+msgstr "Siguiente canal página"
 
 msgid "Next channel page"
 msgstr "Siguiente canal página"
@@ -12867,6 +12962,12 @@ msgstr "Ninguno"
 msgid "NordVPN"
 msgstr ""
 
+msgid "NordVPN Secure DNS"
+msgstr ""
+
+msgid "NordVPN Smart DNS"
+msgstr ""
+
 msgid "NordVPN SmartDNS"
 msgstr ""
 
@@ -12927,6 +13028,9 @@ msgstr "No se instaló"
 msgid "Not Shown"
 msgstr "No Shown"
 
+msgid "Not a valid tuner"
+msgstr ""
+
 msgid "Not associated"
 msgstr "No asociado"
 
@@ -12953,6 +13057,9 @@ msgstr ""
 "Filesize: %sMB\n"
 "Espacio libre: %sMB\n"
 "Camino: %s"
+
+msgid "Not joined. Press Yellow to join."
+msgstr ""
 
 msgid "Not required"
 msgstr "No se requiere"
@@ -13158,6 +13265,10 @@ msgstr "Ojibwa"
 msgid "Older files in the time shift directory are removed on every event change."
 msgstr "Los archivos más antiguos en el directorio de cambios de tiempo se eliminan en cada cambio de evento."
 
+#, fuzzy
+msgid "Olympic blue"
+msgstr "azul olímpico"
+
 msgid "Olympics"
 msgstr "Olimpiadas"
 
@@ -13215,6 +13326,15 @@ msgstr "Sólo mueva el plato rápidamente antes de esta hora."
 
 msgid "Only on startup"
 msgstr "Sólo en startup"
+
+msgid "Only use DNS servers implementing the DNS-over-HTTPS protocol. This causes DNS lookups to be made via the encrypted HTTPS protocol."
+msgstr ""
+
+msgid "Only use DNS servers implementing the DNSCrypt protocol."
+msgstr ""
+
+msgid "Only use DNS servers implementing the Oblivious DNS-over-HTTPS protocol. This adds another layer of privacy by adding a proxy layer to the DNS-over-HTTPS request."
+msgstr ""
 
 msgid "Open"
 msgstr "Abierto"
@@ -13468,10 +13588,12 @@ msgstr "OpenViX"
 msgid "OpenVpn Log"
 msgstr "AbrirVpn Log"
 
-msgid "Operating LED status in deep standby mode"
+#, fuzzy
+msgid "Operating LED status in Deep Standby"
 msgstr "Estado LED operativo en modo de reserva profundo"
 
-msgid "Operating LED status in standby mode"
+#, fuzzy
+msgid "Operating LED status in Standby"
 msgstr "Estado LED operativo en modo standby"
 
 msgid "Operating LED status while running"
@@ -13497,6 +13619,10 @@ msgstr "Opciones"
 
 msgid "Or use standard 'Harddisk Setup' to initialize your drive in ext4."
 msgstr "O utilice 'Harddisk Setup' estándar para inicializar su unidad en ext4."
+
+#, fuzzy
+msgid "Orange"
+msgstr "naranja"
 
 msgid "Orbital position"
 msgstr "Posición orbital"
@@ -13819,6 +13945,10 @@ msgstr "Contraseña (httpuser)"
 msgid "Password (httpwd)"
 msgstr "Contraseña (httpwd)"
 
+#, fuzzy
+msgid "Password / Key"
+msgstr "Contraseña"
+
 msgid "Password Actions"
 msgstr "Password Actions"
 
@@ -13974,6 +14104,9 @@ msgstr "Pillarbox"
 msgid "Pilot"
 msgstr "Pilot"
 
+msgid "Pink"
+msgstr ""
+
 msgid "Pitcairn"
 msgstr "Pitcairn"
 
@@ -14018,6 +14151,10 @@ msgstr "Juega audio-CD..."
 
 msgid "Play back media files"
 msgstr "Juega archivos multimedia"
+
+#, fuzzy
+msgid "Play current channel"
+msgstr " (canal actual)"
 
 msgid "Play entry"
 msgstr "Entrada de reproducción"
@@ -14435,9 +14572,6 @@ msgstr "Por favor, espere mientras el plugin está actualizado."
 msgid "Please wait while we check your installed plugins..."
 msgstr "Por favor, espere mientras revisamos sus plugins instalados..."
 
-msgid "Please wait while we configure your network..."
-msgstr "Por favor, espere mientras configuramos su red..."
-
 msgid "Please wait while we prepare your network interfaces..."
 msgstr "Por favor, espere mientras preparamos sus interfaces de red..."
 
@@ -14587,7 +14721,8 @@ msgstr "Configuración del posicionador"
 msgid "Power"
 msgstr "Poder"
 
-msgid "Power LED State in Deep-Standby"
+#, fuzzy
+msgid "Power LED State in Deep Standby"
 msgstr "Power LED State in Deep-Standby"
 
 msgid "Power LED State in Standby"
@@ -14596,11 +14731,16 @@ msgstr "Power LED State in Standby"
 msgid "Power LED can be turned on or off here."
 msgstr "El LED de potencia puede encenderse o apagarse aquí."
 
-msgid "Power LED state during deep-standby."
+#, fuzzy
+msgid "Power LED state during Deep Standby."
 msgstr "Estado LED de potencia durante la alta calidad."
 
-msgid "Power LED state during standby."
+#, fuzzy
+msgid "Power LED state during Standby."
 msgstr "Power LED estado durante la espera."
+
+msgid "Power LED state during deep-standby."
+msgstr "Estado LED de potencia durante la alta calidad."
 
 msgid "Power On Display"
 msgstr "Pantalla de encendido de potencia"
@@ -14664,6 +14804,9 @@ msgstr "Preferir subtítulos para personas con discapacidad auditiva"
 
 msgid "Prefer subtitles stored by service"
 msgstr "Preferir subtítulos almacenados por servicio"
+
+msgid "Preferred connection priority when multiple Wi-Fi profiles are configured. Lower numbers have a higher priority."
+msgstr ""
 
 msgid "Preferred tuner"
 msgstr "Tuner preferido"
@@ -14785,9 +14928,6 @@ msgstr "Presione OK para seleccionar satélites"
 msgid "Press OK to select/deselect a CAId."
 msgstr "Press OK to select/deselect a CAId."
 
-msgid "Press OK to set the MAC address."
-msgstr "Presione OK para configurar la dirección MAC."
-
 msgid "Press OK to start the backup now"
 msgstr "Presione OK para iniciar la copia de seguridad ahora"
 
@@ -14839,9 +14979,6 @@ msgstr ""
 "Press up/down to scroll commits\n"
 "Press left/right to change project"
 
-msgid "Press yellow to set this interface as the default interface."
-msgstr "Pulse amarillo para configurar esta interfaz como la interfaz predeterminada."
-
 msgid "Pressing the panic button will zap you to this channel number in your first bouquet."
 msgstr "Presionar el botón de pánico le dará a este número de canal en su primer ramo."
 
@@ -14863,6 +15000,10 @@ msgstr "Anterior Bouquet"
 msgid "Previous Page"
 msgstr "Página anterior"
 
+#, fuzzy
+msgid "Previous channel"
+msgstr "Página del canal anterior"
+
 msgid "Previous channel page"
 msgstr "Página del canal anterior"
 
@@ -14878,6 +15019,14 @@ msgstr "Prevsong"
 msgid "Primary DNS"
 msgstr "DNS primario"
 
+#, fuzzy
+msgid "Primary DNS (IPv4)"
+msgstr "DNS primario"
+
+#, fuzzy
+msgid "Primary DNS (IPv6)"
+msgstr "DNS primario"
+
 msgid "Prime time"
 msgstr "Primer tiempo"
 
@@ -14889,6 +15038,9 @@ msgstr "Primer minuto"
 
 msgid "Priority"
 msgstr "Prioridad"
+
+msgid "Privacy level"
+msgstr ""
 
 msgid "Problem starting scan"
 msgstr "Problema de inicio de la exploración"
@@ -15079,6 +15231,10 @@ msgstr "Purge all but the current and permanent locales/languages. Add the curre
 msgid "Purging all unused locales/languages..."
 msgstr "Purging all unused locales/languages..."
 
+#, fuzzy
+msgid "Purple"
+msgstr "morado"
+
 msgid "Pushto / Pashto"
 msgstr "Pushto / Pashto"
 
@@ -15113,6 +15269,16 @@ msgstr "Canal Quad PiP"
 
 msgid "Quad PiP is not available."
 msgstr "Quad PiP no está disponible."
+
+msgid "Quad9 (Malware blocking + DNSSEC)"
+msgstr ""
+
+msgid "Quad9 (Malware blocking + ECS)"
+msgstr ""
+
+#, fuzzy
+msgid "Quad9 (Unsecured / no blocking)"
+msgstr "Quad9 DNS"
 
 msgid "Quad9 DNS"
 msgstr "Quad9 DNS"
@@ -15524,8 +15690,13 @@ msgstr ""
 msgid "Refresh"
 msgstr "Refresh"
 
-msgid "Refresh every (in hours)"
-msgstr "Refresca cada (en horas)"
+#, fuzzy
+msgid "Refresh ZeroTier status information"
+msgstr "Directory/File status information"
+
+#, fuzzy
+msgid "Refresh every"
+msgstr "Pantalla refrescante"
 
 msgid "Refresh rate"
 msgstr "Tasa de reducción"
@@ -15681,9 +15852,6 @@ msgstr "Quitar el servicio"
 
 msgid "Remove Terrestrial Services"
 msgstr "Remove Terrestre Services"
-
-msgid "Remove a DNS entry"
-msgstr "Eliminar una entrada DNS"
 
 msgid "Remove a mark"
 msgstr "Quitar una marca"
@@ -15976,6 +16144,10 @@ msgstr "Restart enigma"
 msgid "Restart necessary, restart GUI now?"
 msgstr "Reinicie necesario, reiniciar GUI ahora?"
 
+#, fuzzy
+msgid "Restart network to with current setup"
+msgstr "Inicio de la grabación del evento actual"
+
 msgid "Restart softcam"
 msgstr "Restart softcam"
 
@@ -16133,6 +16305,16 @@ msgstr "Imagen raíz"
 msgid "Root directory"
 msgstr "Directorio Root"
 
+msgid "Root squash"
+msgstr ""
+
+msgid "Rose"
+msgstr ""
+
+#, fuzzy
+msgid "Rotor is not configured"
+msgstr "No configurado"
+
 msgid "Rotor turning speed"
 msgstr "Velocidad de rotación"
 
@@ -16284,9 +16466,6 @@ msgstr "SSA file"
 msgid "SSID"
 msgstr "SSID"
 
-msgid "SSID:"
-msgstr "SSID:"
-
 msgid "STB Display"
 msgstr "STB Visualización"
 
@@ -16433,7 +16612,8 @@ msgstr "Guardar y parar"
 msgid "Save directory on EXIT"
 msgstr "Guardar directorio en EXIT"
 
-msgid "Save every (in hours)"
+#, fuzzy
+msgid "Save every"
 msgstr "Ahorra cada (en horas)"
 
 #, python-format
@@ -16574,10 +16754,12 @@ msgstr "Respaldos programados"
 msgid "Schedule EPG and channel list import"
 msgstr "Cuadro EPG e importación de lista de canales"
 
-msgid "Scheduled load of epg.dat"
+#, fuzzy
+msgid "Scheduled load of 'epg.dat'"
 msgstr "Carga programada de epg.dat"
 
-msgid "Scheduled save of epg.dat"
+#, fuzzy
+msgid "Scheduled save of 'epg.dat'"
 msgstr "Ahorro programado de epg.dat"
 
 msgid "Sci-Fi"
@@ -16636,6 +16818,14 @@ msgid "Second cable of motorized LNB"
 msgstr "Segundo cable de LNB motorizado"
 
 msgid "Secondary DNS"
+msgstr "DNS secundario"
+
+#, fuzzy
+msgid "Secondary DNS (IPv4)"
+msgstr "DNS secundario"
+
+#, fuzzy
+msgid "Secondary DNS (IPv6)"
 msgstr "DNS secundario"
 
 msgid "Seconds"
@@ -16752,9 +16942,6 @@ msgstr ""
 msgid "Select 'Yes' the keep the InfoBar displayed, with no timeout, while media playback is paused."
 msgstr "Seleccione 'Sí' la mantén la InfoBar mostrada, sin tiempo de salida, mientras que la reproducción de medios se pausa."
 
-msgid "Select 'Yes' to allow each storage device detected to be automatically exported as samba share."
-msgstr ""
-
 msgid "Select 'Yes' to allow the VPS to adjust recording timers based on broadcast Program Delivery Control (PDC) data. For this to work the service must provide reliable event PDC data."
 msgstr ""
 
@@ -16763,10 +16950,6 @@ msgstr "Seleccione 'Sí' para permitir el uso de la barra de búsqueda para salt
 
 msgid "Select 'Yes' to always show the bouquet screen first when opening the channel list. Select 'No' to open the channel list using the current bouquet."
 msgstr "Seleccione 'Sí' para mostrar siempre la pantalla del ramo primero al abrir la lista de canales. Seleccione 'No' para abrir la lista de canales usando el ramo actual."
-
-#, fuzzy
-msgid "Select 'Yes' to automatically rotate DNS servers."
-msgstr "Select 'Yes' to include symbol rate %s in your search."
 
 msgid "Select 'Yes' to check if network connections are coming from nominated IP Addresses at the activation time of the timer. If so, the timer will be deactivated."
 msgstr "Seleccione 'Sí' para comprobar si las conexiones de red vienen de direcciones IP nominadas en el momento de activación del temporizador. Si es así, el temporizador será desactivado."
@@ -16795,6 +16978,9 @@ msgstr "Seleccione 'Sí' para mostrar archivos desconocidos en el visor de archi
 msgid "Select 'Yes' to enable AI-Powered Translation for all teletext and DVB subtitles."
 msgstr "Seleccione 'Sí' para habilitar la traducción dirigida por AI para todos los subtítulos de teletexto y DVB."
 
+msgid "Select 'Yes' to enable DNS entry rotation. This rotation changes the order in which the list of DNS servers is used and can avoid issues if a DNS server in the list becomes unavailable."
+msgstr ""
+
 msgid "Select 'Yes' to enable editing of this device's settings. Selecting 'No' resets the devices settings to their default values."
 msgstr "Seleccione 'Sí' para habilitar la edición de los ajustes de este dispositivo. Seleccionar 'No' reajusta la configuración de los dispositivos a sus valores predeterminados."
 
@@ -16809,6 +16995,9 @@ msgstr "Seleccione 'Sí' para habilitar la vista previa de los canales mientras 
 
 msgid "Select 'Yes' to enable the loading of unlinked user bouquets. That is, user bouquets that are not included in the bouquets.tv or bouquets.radio files will be loaded. This allows you to, for example, create bouquets that do not conflict with, or get replaced by, bouquets that came from settings packages."
 msgstr "Seleccione 'Sí' para permitir la carga de ramos de usuario sin conexión. Es decir, ramos de usuario que no están incluidos en los ramos. tv o ramos. Los archivos de radio serán cargados. Esto le permite, por ejemplo, crear ramos que no entran en conflicto con, o se reemplazan por, ramos que vienen de paquetes de configuración."
+
+msgid "Select 'Yes' to enable the monitoring UI web interface for the DNSCrypt subsystem."
+msgstr ""
 
 msgid "Select 'Yes' to enable use of the LEFT/RIGHT buttons to move PageUp/PageDown when the LEFT/RIGHT buttons are otherwise undefined. This provides legacy navigation for users who prefer it."
 msgstr "Seleccione 'Sí' para permitir el uso de los botones LEFT/RIGHT para mover PageUp/PageDown cuando los botones LEFT/RIGHT no estén definidos. Esto proporciona navegación heredada para los usuarios que lo prefieren."
@@ -17185,6 +17374,10 @@ msgstr "Seleccione cuánto tiempo para mostrar el mensaje de tarea y script."
 msgid "Select how long, in seconds, that the volume and mute displays are shown before they automatically hide."
 msgstr "Seleccione cuánto tiempo, en segundos, que el volumen y las pantallas mudas se muestran antes de ocultar automáticamente."
 
+#, fuzzy
+msgid "Select how much EPG history, if any, to keep in the EPG cache. This historic data can be browsed in any of the EPG views. This can be useful for information about an event which has finished."
+msgstr "Elija cuánto historial EPG, si es así, para mantenerse en el caché EPG. Estos datos históricos pueden consultarse en cualquiera de las vistas del EPG. Esto puede ser útil cuando usted necesita información sobre un evento que ha terminado recientemente."
+
 msgid "Select how often this timer is to be repeated."
 msgstr "Seleccione con qué frecuencia se repetirá este temporizador."
 
@@ -17307,6 +17500,9 @@ msgstr "Seleccione la entrada %s"
 msgid "Select the AI-Powered Translation target language."
 msgstr "Seleccione el idioma de destino de traducción al producto AI."
 
+msgid "Select the DNS server(s) that will be used to lookup the host name to resolve the IP address."
+msgstr ""
+
 msgid "Select the No / False response"
 msgstr "Seleccione la respuesta No / Falso"
 
@@ -17340,9 +17536,6 @@ msgstr "Seleccione la frecuencia de la banda de usuario para ser asignada a este
 
 msgid "Select the Yes / True response"
 msgstr "Seleccione la respuesta Sí / Verdadera"
-
-msgid "Select the access mode for the automatically exported samba shares."
-msgstr ""
 
 msgid "Select the action to perform when the timer ends."
 msgstr "Seleccione la acción para realizar cuando el temporizador termine."
@@ -17507,6 +17700,12 @@ msgstr "Seleccione el fabricante de su dispositivo SCR. Si el fabricante no est�
 msgid "Select the method of restoring screen resolution and framebuffer when leaving teletext."
 msgstr "Seleccione el método de restaurar la resolución de pantalla y el framebuffer al salir del teletexto."
 
+msgid "Select the mode of access, Read/Write or Read Only, applied to all automatically exported Samba shares."
+msgstr ""
+
+msgid "Select the mode of access, Read/Write or Read Only, applied to all exported directories."
+msgstr ""
+
 msgid "Select the model number of your Unicable device. If the model number is not listed, set 'SCR' to 'User defined' and enter the device parameters manually according to its specifications."
 msgstr "Seleccione el número de modelo de su dispositivo Unicable. Si el número de modelo no está listado, configure 'SCR' a 'User defined' e introduzca los parámetros del dispositivo manualmente de acuerdo con sus especificaciones."
 
@@ -17527,6 +17726,12 @@ msgstr ""
 "Seleccione la interfaz de red que se utilizará para la conexión a Internet.\n"
 "\n"
 "Presione OK para continuar."
+
+msgid "Select the network metric for this adapter. When multiple adapters are active, the one with the lowest network metric is used as the default route for network traffic."
+msgstr ""
+
+msgid "Select the network name (SSID) of the wireless network to which the receiver should connect."
+msgstr ""
 
 #, python-format
 msgid "Select the new mount point for: '%s'"
@@ -17583,6 +17788,9 @@ msgstr "Seleccione el satélite que desea configurar. Una vez configurado, puede
 msgid "Select the screen layout, from the options provided by the skin, to be used for the ChannelSelection screen."
 msgstr "Seleccione el diseño de la pantalla, desde las opciones proporcionadas por la piel, para ser utilizado para la pantalla de ChannelSelection."
 
+msgid "Select the security protocol that will be used to access the selected wireless network."
+msgstr ""
+
 msgid "Select the shifted character set"
 msgstr "Seleccione el conjunto de caracteres cambiados"
 
@@ -17612,10 +17820,6 @@ msgstr "Seleccione el orden de tipo de las entradas del menú. El usuario defini
 
 msgid "Select the source location from where to obtain the upgrade files."
 msgstr "Seleccione la ubicación de la fuente desde donde obtener los archivos de actualización."
-
-#, fuzzy
-msgid "Select the source of the DNS settings."
-msgstr "Seleccione la fuente de la configuración DNS predeterminada."
 
 msgid "Select the starting/initial column to be activated on File Commander start up."
 msgstr "Select the starting/initial column to be activated on File Commander start up."
@@ -17736,6 +17940,56 @@ msgstr "Select what you want the Up/Down button to activate."
 
 msgid "Select where the recording should be saved."
 msgstr "Seleccione dónde debe guardarse la grabación."
+
+#, fuzzy
+msgid "Select whether AAC audio tracks should be transcoded."
+msgstr "Elija si las pistas de sonido AAC deben ser transcodificadas."
+
+#, fuzzy
+msgid "Select whether AC3 Plus audio tracks should be transcoded to AC3."
+msgstr "Elija si AC3 Más pistas de sonido deben ser transcodificadas a AC3."
+
+#, fuzzy
+msgid "Select whether AC3 audio tracks should be downmixed to stereo."
+msgstr "Elija si las pistas de sonido AC3 deben ser reducidas al estéreo."
+
+msgid "Select whether AC4 (Dolby Atmos) audio tracks should be passed through to the AVR, downmixed to stereo, or auto-routed based on HDMI sink capability."
+msgstr ""
+
+#, fuzzy
+msgid "Select whether DTS channel audio tracks should be downmixed or transcoded."
+msgstr "Elija si las pistas de sonido del canal DTS deben ser reducidas o transcodificadas."
+
+#, fuzzy
+msgid "Select whether DTS channel audio tracks should be downmixed to stereo."
+msgstr "Elija si las pistas de sonido del canal DTS deben ser reducidas al estéreo."
+
+#, fuzzy
+msgid "Select whether Dolby TrueHD audio tracks should be passed through or decoded."
+msgstr "Elija si las pistas de sonido del canal DTS deben ser reducidas o transcodificadas."
+
+msgid "Select whether IPv4, IPv6, or both protocols should be used. If both are enabled then which should be preferred."
+msgstr ""
+
+#, fuzzy
+msgid "Select whether WMA Pro channel audio tracks should be downmixed or transcoded."
+msgstr "Elija si WMA Las pistas de sonido del canal Pro deben ser reducidas o transcodificadas."
+
+#, fuzzy
+msgid "Select whether multichannel audio tracks should be converted to PCM or SPDIF."
+msgstr "Elija si las pistas de sonido multicanal deben ser convertidas a PCM o SPDIF."
+
+#, fuzzy
+msgid "Select whether multichannel audio tracks should be downmixed to stereo."
+msgstr "Elija si las pistas de sonido multicanal deben ser reducidas al estéreo."
+
+#, fuzzy
+msgid "Select whether multichannel audio tracks should be output as PCM."
+msgstr "Elija si las pistas de sonido multicanal deben ser de salida como PCM."
+
+#, fuzzy
+msgid "Select which IP protocols can be used with this adapter."
+msgstr "Seleccione el canal o servicio que se utilizará para este temporizador."
 
 msgid "Select wireless network"
 msgstr "Seleccionar red inalámbrica"
@@ -17861,6 +18115,15 @@ msgstr "Server %s-%s"
 msgid "Server down"
 msgstr "Servidor y "
 
+msgid "Server must not enforce its own blocklist. Some servers may implement their own blacklists to block sites for parental control, ad blocking, etc. reasons."
+msgstr ""
+
+msgid "Server must not log user queries (declarative). This can improve the privacy of DNS lookups by not logging the request on the server providing the data."
+msgstr ""
+
+msgid "Server must support DNS Security Extensions (DNSSEC). This is a data signing option that protects the integrity of the DNS data against compromises like cache poisoning."
+msgstr ""
+
 msgid "Server:"
 msgstr "Servidor:"
 
@@ -17981,6 +18244,10 @@ msgstr "Número de fuente tamaño"
 msgid "Service off-air"
 msgstr "Servicio fuera del aire"
 
+#, fuzzy
+msgid "Service online"
+msgstr "Tamaño fuente de servicio"
+
 msgid "Service picons aspect ratio"
 msgstr "Relación de aspecto de los piconos de servicio"
 
@@ -18079,9 +18346,6 @@ msgstr "Modo de escalado"
 msgid "Set Time"
 msgstr "Tiempo de configuración"
 
-msgid "Set a custom DNS suffix."
-msgstr ""
-
 msgid "Set a time offset before a timer is due to start to allow VPS to scan for the latest event timing. Select '0' to disable this feature."
 msgstr ""
 
@@ -18106,9 +18370,6 @@ msgstr "Conjunto fijo"
 msgid "Set fps for external subtitles"
 msgstr "Set fps for external subtitles"
 
-msgid "Set interface as the default Interface"
-msgstr "Establecer interfaz como la interfaz predeterminada"
-
 msgid "Set limits"
 msgstr "Fijar límites"
 
@@ -18123,10 +18384,6 @@ msgstr "Servicio de puesta en marcha"
 
 msgid "Set system"
 msgstr "Sistema de instalación"
-
-#, python-format
-msgid "Set the MAC address of your %s %s."
-msgstr "Set the MAC address of your %s %s."
 
 msgid "Set the User ID of the OpenWebif from your fallback tuner"
 msgstr "Establecer el ID de usuario del OpenWebif desde su afinador descomposición"
@@ -18162,14 +18419,24 @@ msgstr "Establecer el tamaño de salto de la barra de búsqueda."
 msgid "Set the number of lines to be saved for 'stout' and 'sterr' output in scripts."
 msgstr "Establecer el número de líneas que se guardarán para la salida 'stout' y 'sterr' en scripts."
 
+msgid "Set the password for the monitoring UI web interface."
+msgstr ""
+
 msgid "Set the password of the OpenWebif from your fallback tuner"
 msgstr "Establezca la contraseña del OpenWebif desde su afinador de la espalda"
+
+msgid "Set the port address (8080-9999) for the monitoring UI web interface."
+msgstr ""
 
 msgid "Set the port of the OpenWebif from your fallback tuner"
 msgstr "Establece el puerto del OpenWebif desde tu afinador descomposición"
 
 msgid "Set the position of the recording icons."
 msgstr "Establecer la posición de los iconos de grabación."
+
+#, fuzzy
+msgid "Set the privacy level for the monitoring UI web interface."
+msgstr "Establece el nivel de volumen para el servicio '%s'."
 
 msgid "Set the repeat interval of backup schedule."
 msgstr "Establecer el intervalo de repetición del programa de copia de seguridad."
@@ -18215,6 +18482,9 @@ msgstr "Establece el tiempo para esperar a ejecutar la acción predeterminada en
 
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr "Establecer el tipo de indicación de progreso en la pantalla de selección de canales."
+
+msgid "Set the username for the monitoring UI web interface."
+msgstr ""
 
 #, python-format
 msgid "Set the volume level for the '%s' service."
@@ -18265,6 +18535,14 @@ msgid "Set to the desired primetime (hour)."
 msgstr "Establece en el tiempo primo deseado (hora)."
 
 msgid "Set to the desired primetime (minutes."
+msgstr "Establece el tiempo de preparación deseado (minutos."
+
+#, fuzzy
+msgid "Set to the desired primetime hour."
+msgstr "Establece en el tiempo primo deseado (hora)."
+
+#, fuzzy
+msgid "Set to the desired primetime minutes."
 msgstr "Establece el tiempo de preparación deseado (minutos."
 
 msgid "Set to what you want the button to do."
@@ -18470,6 +18748,10 @@ msgstr "Mostrar paquetes Driver"
 msgid "Show ECM-Info"
 msgstr "Mostrar ECM-Info"
 
+#, fuzzy
+msgid "Show EIT Now/Next event data in the InfoBar"
+msgstr "Show the EIT Now/Next data in the InfoBar."
+
 msgid "Show EIT now/next in infobar"
 msgstr "Show EIT now/next in infobar"
 
@@ -18536,7 +18818,8 @@ msgstr "Mostrar paquetes M2k"
 msgid "Show Media Player in Main Menu"
 msgstr "Mostrar medios Jugador en Menú Principal"
 
-msgid "Show Media playback Remaining/Elapsed as"
+#, fuzzy
+msgid "Show Media playback remaining/elapsed as"
 msgstr "Show Media playback Remaining/Elapsed as"
 
 msgid "Show Merlin EPG Center"
@@ -18692,6 +18975,10 @@ msgstr "Mostrar configuraciones avanzadas"
 
 msgid "Show all available services"
 msgstr "Mostrar todos los servicios disponibles"
+
+#, fuzzy
+msgid "Show all details"
+msgstr "Mostrar detalles de la CPU"
 
 msgid "Show animation while busy"
 msgstr "Mostrar animación mientras ocupado"
@@ -19057,9 +19344,6 @@ msgstr "Mostrar mensajes de tarea si el Comandante de Archivo no está funcionan
 msgid "Show the DreamPlex player..."
 msgstr "Mostrar el jugador DreamPlex..."
 
-msgid "Show the EIT Now/Next data in the InfoBar."
-msgstr "Show the EIT Now/Next data in the InfoBar."
-
 msgid "Show the information on current event."
 msgstr "Mostrar la información sobre el evento actual."
 
@@ -19127,7 +19411,8 @@ msgstr "Show/Hide focus bar"
 msgid "Showiframe"
 msgstr "Showiframe"
 
-msgid "Shows live tv or informations on LCD."
+#, fuzzy
+msgid "Shows live TV or informations on LCD."
 msgstr "Muestra TV en vivo o información en LCD."
 
 msgid "Shows the icons when new/unseen, else will not show an icon."
@@ -19171,9 +19456,6 @@ msgstr "Calidad de la señal"
 
 msgid "Signal strength"
 msgstr "Fuerza de señalización"
-
-msgid "Signal strength:"
-msgstr "Fuerza de señalización:"
 
 msgid "Signal: "
 msgstr "Signal:"
@@ -19566,9 +19848,6 @@ msgstr "Somalia"
 msgid "Some TVs can't switch to the correct input if another HDMI port is active. This setting puts the TV into Standby before switching. If the TV does not turn back on, a slower transmission interval or repeating the wake-up command may be required."
 msgstr "Algunos televisores no pueden cambiar a la entrada correcta si otro puerto HDMI está activo. Este ajuste establece la TV para estar en espera antes del interruptor. (Si el televisor no vuelve a encenderlo, puede requerir un intervalo de transmisión más lento o la repetición del comando wake-up.)"
 
-msgid "Some modems/routers may not support IPv6."
-msgstr ""
-
 msgid "Sorbian"
 msgstr "Sorbian"
 
@@ -19612,9 +19891,6 @@ msgid ""
 msgstr ""
 "Lo siento, no hay nuevo dispositivo de almacenamiento USB detectado.\n"
 "Asegúrese de seguir las instrucciones del mago."
-
-msgid "Sorry, no physical devices that supports SWAP attached. Can't create Swapfile on network or fat32 filesystems"
-msgstr "Lo siento, no hay dispositivos físicos que soportan SWAP adjunto. No se puede crear Swapfile en red o sistemas de archivos fat32"
 
 msgid "Sorry, no physical devices that supports SWAP attached. Can't create swap file on network or FAT32 file systems"
 msgstr "Lo siento, no hay dispositivos físicos que soportan SWAP adjunto. No se puede crear un archivo de intercambio en sistemas de archivos de red o FAT32"
@@ -19732,6 +20008,9 @@ msgstr "Configuración de características especiales"
 
 msgid "Specify the directory to use when starting Media Player."
 msgstr "Especifique el directorio para usar al iniciar Media Player."
+
+msgid "Specify the network DNS suffix to be applied when only the host name is provided. This helps the DNS resolver find the requested host."
+msgstr ""
 
 msgid "Speed"
 msgstr "Speed"
@@ -19896,11 +20175,13 @@ msgstr "Tiempo de publicación del mensaje de estado"
 msgid "Status of the display during operation"
 msgstr "Estado de la pantalla durante la operación"
 
-msgid "Status of the display in deep standby"
+#, fuzzy
+msgid "Status of the display in Deep Standby"
 msgstr "Estado de la pantalla en profunda reserva"
 
-msgid "Status of the display in standby mode"
-msgstr "Estado de la pantalla en modo standby"
+#, fuzzy
+msgid "Status of the display in Standby"
+msgstr "Estado de la pantalla en profunda reserva"
 
 msgid "Status unavailable!"
 msgstr "¡Estado no disponible!"
@@ -20104,16 +20385,8 @@ msgid "Stripes"
 msgstr "Stripes"
 
 #, fuzzy
-msgid "Subnetwork (cable)"
-msgstr "Análisis de la red"
-
-#, fuzzy
-msgid "Subnetwork (terrestrial)"
-msgstr "Prueba de red"
-
-#, fuzzy
-msgid "Subnetwork support (general)"
-msgstr "deporte (general)"
+msgid "Subnet mask"
+msgstr "Netmask"
 
 msgid "Subservice Actions"
 msgstr "Medidas de subservicio"
@@ -20698,10 +20971,12 @@ msgstr ""
 msgid "The %s %s is shutting down. Please wait..."
 msgstr "El %s %s está cerrando. Por favor, espera..."
 
-msgid "The %s %s reads the stored EPG data every (hours)."
+#, fuzzy
+msgid "The %s %s reads the stored EPG data every selected number of hours."
 msgstr "El %s %s lee los datos de EPG almacenados cada hora."
 
-msgid "The %s %s stores the EPG data every (hours)."
+#, fuzzy
+msgid "The %s %s stores the EPG data every selected number of hours."
 msgstr "The %s %s stores the EPG data every (hours)."
 
 #, python-format
@@ -21127,17 +21402,19 @@ msgstr "Este medio DVD RW ya está formateado - reformatting borrará todo el co
 msgid "This Device is already mounted as HDD."
 msgstr "Este dispositivo ya está montado como HDD."
 
-msgid "This Option allows you to switch Audio to BT Speakers."
-msgstr "Esta opción le permite cambiar Audio a los altavoces BT."
-
 msgid "This allows you change the font size relative to skin size, so 1 increases by 1 point size, and -1 decreases by 1 point size."
 msgstr "Esto le permite cambiar el tamaño de la fuente en relación con el tamaño de la piel, por lo que 1 aumenta en un tamaño de punto, y -1 disminuye en un tamaño de punto."
 
-msgid "This allows you change the number of rows shown."
+#, fuzzy
+msgid "This allows you to change the font size relative to skin size, so 1 increases by 1 point size, and -1 decreases by 1 point size."
+msgstr "Esto le permite cambiar el tamaño de la fuente en relación con el tamaño de la piel, por lo que 1 aumenta en un tamaño de punto, y -1 disminuye en un tamaño de punto."
+
+#, fuzzy
+msgid "This allows you to change the number of rows shown."
 msgstr "Esto le permite cambiar el número de filas mostradas."
 
 #, fuzzy
-msgid "This allows you to set the maximum number of digits in a service number, up to 5."
+msgid "This allows you to set the maximum number of digits in a service number, up to 6."
 msgstr "Esto le permite establecer el número de dígitos a 5, si tiene más de 9999 canales."
 
 msgid "This bouquet is protected by a parental control PIN!"
@@ -21192,20 +21469,11 @@ msgstr "This option allows you choose how to display the remaining/elapsed time 
 msgid "This option allows you choose how to display the remaining/elapsed time for media playback."
 msgstr "This option allows you choose how to display the remaining/elapsed time for media playback."
 
-msgid "This option allows you choose if the display shows the time or nothing in Standby."
-msgstr "Esta opción le permite elegir si la pantalla muestra el tiempo o nada en Standby."
-
-msgid "This option allows you choose if the display shows the time, channel number or nothing during operation."
-msgstr "Esta opción le permite elegir si la pantalla muestra el tiempo, el número de canal o nada durante la operación."
-
 msgid "This option allows you choose the background color of transparent picons."
 msgstr "Esta opción le permite elegir el color de fondo de los piconos transparentes."
 
 msgid "This option allows you choose the option for Subservice indicator or selection."
 msgstr "Esta opción le permite elegir la opción para el indicador de subservicio o la selección."
-
-msgid "This option allows you set the layout view (Text or Graphics)."
-msgstr "Esta opción le permite configurar la vista de diseño (Texto o Gráficos)."
 
 msgid "This option allows you to Power Off the display."
 msgstr "Esta opción le permite activar la pantalla."
@@ -21259,7 +21527,28 @@ msgstr "Esta opción le permite elegir cómo mostrar el tiempo transcurrido, com
 msgid "This option allows you to choose how to display standard definition video on your TV."
 msgstr "Esta opción le permite elegir cómo mostrar vídeo de definición estándar en su TV."
 
-msgid "This option allows you to choose what the first button press jumps to in channel list screen, (so pressing '2' jumps to 'A' or '2' first), when 'Quick Actions' preset actions are performed. "
+#, fuzzy
+msgid "This option allows you to choose how to display the remaining time, the elapsed time, or both."
+msgstr "Esta opción le permite elegir cómo mostrar el tiempo restante, o el tiempo transcurrido, o ambos."
+
+#, fuzzy
+msgid "This option allows you to choose how to display the remaining/elapsed time for live TV."
+msgstr "This option allows you choose how to display the remaining/elapsed time for live tv."
+
+#, fuzzy
+msgid "This option allows you to choose how to display the remaining/elapsed time for media playback."
+msgstr "This option allows you choose how to display the remaining/elapsed time for media playback."
+
+#, fuzzy
+msgid "This option allows you to choose if the display shows the time or nothing in Standby."
+msgstr "Esta opción le permite elegir si la pantalla muestra el tiempo o nada en Standby."
+
+#, fuzzy
+msgid "This option allows you to choose if the display shows the time, channel number or nothing during operation."
+msgstr "Esta opción le permite elegir si la pantalla muestra el tiempo, el número de canal o nada durante la operación."
+
+#, fuzzy
+msgid "This option allows you to choose what the first button press jumps to in channel list screen, (so pressing '2' jumps to 'A' or '2' first), when 'Quick Actions' preset actions are performed."
 msgstr "Esta opción le permite elegir lo que el primer botón pulsar salta en la pantalla de la lista de canales, (así que pulsando '2' salta a 'A' o '2' primero), cuando las acciones predeterminadas 'Quick Actions' se realizan. "
 
 msgid "This option allows you to choose whether or not to display genre information for the event."
@@ -21303,6 +21592,18 @@ msgstr "Esta opción le permite forzar los modos HLG para UHD"
 msgid "This option allows you to set offset values for different Letterbox resolutions."
 msgstr "Esta opción le permite establecer valores de compensación para diferentes resoluciones de Letterbox."
 
+#, fuzzy
+msgid "This option allows you to set the Auto Volume Level output."
+msgstr "Esta opción configura el nivel de volumen automático."
+
+#, fuzzy
+msgid "This option allows you to set the layout view (Text or Graphics)."
+msgstr "Esta opción le permite configurar la vista de diseño (Texto o Gráficos)."
+
+#, fuzzy
+msgid "This option allows you to switch Audio to Bluetooth speakers."
+msgstr "Esta opción le permite cambiar Audio a los altavoces BT."
+
 msgid "This option allows you to the SNR as a percentage (not all receivers support this)."
 msgstr "Esta opción le permite al SNR como porcentaje (no todos los receptores apoyan esto)."
 
@@ -21313,14 +21614,9 @@ msgstr "Esta opción le permite utilizar todos los modos HDMI"
 msgid "This option allows you to view the old and new settings side by side."
 msgstr "Esta opción le permite ver la configuración antigua y nueva lado a lado."
 
-msgid "This option configures the general audio delay for BT Speakers."
+#, fuzzy
+msgid "This option configures the audio delay value for Bluetooth speakers."
 msgstr "Esta opción configura el retraso de audio general para los altavoces BT."
-
-msgid "This option configures the general audio delay of Dolby Digital sound tracks."
-msgstr "Esta opción configura el retraso de audio general de las pistas de sonido Dolby Digital."
-
-msgid "This option configures the general audio delay of stereo sound tracks."
-msgstr "Esta opción configura el retraso de audio general de las pistas de sonido estéreo."
 
 msgid "This option configures the picture sharpness."
 msgstr "Esta opción configura la agudeza de la imagen."
@@ -21330,9 +21626,6 @@ msgstr "Esta opción configura la resolución de pantalla en modo de salida PC."
 
 msgid "This option configures the video output mode (or resolution)."
 msgstr "Esta opción configura el modo de salida de vídeo (o resolución)."
-
-msgid "This option configures you can set Auto Volume Level."
-msgstr "Esta opción configura el nivel de volumen automático."
 
 msgid "This option lets you adjust the 3D depth"
 msgstr "Esta opción le permite ajustar la profundidad 3D"
@@ -21348,6 +21641,14 @@ msgstr "Esta opción le permite mostrar la opción en la pantalla de extensión.
 
 msgid "This option moves the PVR status display from a separate window into the MoviePlayer InfoBar."
 msgstr "Esta opción mueve la pantalla de estado PVR desde una ventana separada en el MoviePlayer InfoBar."
+
+#, fuzzy
+msgid "This option selects the general audio delay of Dolby Digital sound tracks."
+msgstr "Esta opción configura el retraso de audio general de las pistas de sonido Dolby Digital."
+
+#, fuzzy
+msgid "This option selects the general audio delay of stereo sound tracks."
+msgstr "Esta opción configura el retraso de audio general de las pistas de sonido estéreo."
 
 msgid "This option set the level of suppression of mosquito noise (Mosquito Noise is random aliasing as a result of strong compression). Obviously this goes at the cost of picture details."
 msgstr "Esta opción establece el nivel de supresión del ruido del mosquito (Mosquito Noise es aliado al azar como resultado de una fuerte compresión). Obviamente esto va al costo de los detalles de la imagen."
@@ -22082,6 +22383,13 @@ msgstr "Tuning algoritmo"
 msgid "Tunisia"
 msgstr "Túnez"
 
+msgid "Tunnel IPv4"
+msgstr ""
+
+#, fuzzy
+msgid "Tunnel IPv6"
+msgstr "Activar IPv6"
+
 msgid ""
 "Turbo: One reboot after flash\n"
 "Fast: One reboot after flash, one reboot after restore\n"
@@ -22507,8 +22815,21 @@ msgstr "Use AutoCam"
 msgid "Use DHCP"
 msgstr "Uso DHCP"
 
+msgid "Use DNS cache"
+msgstr ""
+
+#, fuzzy
+msgid "Use DNS rotation"
+msgstr "Narración"
+
+msgid "Use DNSCrypt servers"
+msgstr ""
+
 msgid "Use Deinterlacing for 1080i Videosignal?"
 msgstr "Use Deinterlacing para 1080i Videosignal?"
+
+msgid "Use DoH servers"
+msgstr ""
 
 msgid "Use EIT EPG information when it is available."
 msgstr "Utilice la información EIT EPG cuando esté disponible."
@@ -22534,6 +22855,9 @@ msgstr "Utilice la información EPG MHW cuando esté disponible."
 msgid "Use Netmed EPG information when it is available."
 msgstr "Utilice la información EPG Netmed cuando esté disponible."
 
+msgid "Use ODoH servers"
+msgstr ""
+
 msgid "Use OpenTV EPG. Requires tuning to specific transponder to absorb EPG."
 msgstr "Use OpenTV EPG. Requiere sintonizar un transpondedor específico para absorber EPG."
 
@@ -22555,6 +22879,9 @@ msgstr "Utilice la información de Virgin EPG cuando esté disponible."
 #, fuzzy
 msgid "Use Zap timer end times"
 msgstr "Usar el tiempo final del temporizador de Zap"
+
+msgid "Use a DNS cache to locally store recent DNS lookups to improve performance, reduce latency and outgoing traffic."
+msgstr ""
 
 msgid "Use a gateway"
 msgstr "Use una puerta de entrada"
@@ -22625,8 +22952,17 @@ msgstr "Uso de la navegación heredada"
 msgid "Use official channel numbering"
 msgstr "Utilice la numeración oficial de canales"
 
+msgid "Use only DNSSEC servers"
+msgstr ""
+
 msgid "Use only for Wake on WLan (WoW)"
 msgstr "Use sólo para Wake on WLan (WoW)"
+
+msgid "Use only no-filter servers"
+msgstr ""
+
+msgid "Use only no-log servers"
+msgstr ""
 
 msgid "Use original DVB subtitle position"
 msgstr "Use la posición original de subtítulo DVB"
@@ -22893,6 +23229,10 @@ msgstr "Venda"
 
 msgid "Venezuela, Bolivarian Republic of"
 msgstr "Venezuela, República Bolivariana de"
+
+#, fuzzy
+msgid "Version"
+msgstr "Versión: "
 
 msgid "Version: "
 msgstr "Versión: "
@@ -23246,6 +23586,12 @@ msgstr "Despierta a la espera"
 msgid "Wake up your AV Receiver or Soundbar from Standby"
 msgstr "Despierta tu VA Receptor de la reserva"
 
+msgid "Wake-on-LAN"
+msgstr ""
+
+msgid "Wake-on-WiFi"
+msgstr ""
+
 msgid "Wallis and Futuna"
 msgstr "Wallis y Futuna"
 
@@ -23391,6 +23737,10 @@ msgstr "West Frisian"
 msgid "Western Sahara"
 msgstr "Sáhara Occidental"
 
+#, fuzzy
+msgid "Western satellites"
+msgstr "Satélites conectados"
+
 msgid "What Day of month ?"
 msgstr "¿Qué día del mes?"
 
@@ -23442,7 +23792,8 @@ msgstr "Cuando esté habilitado, los datos AIT se incluirán en las secuencias h
 msgid "When enabled, EIT data will be included in http streams. This allows a client receiver to show EPG."
 msgstr "Cuando esté habilitado, los datos de EIT se incluirán en las secuencias http. Esto permite que un receptor de cliente muestre EPG."
 
-msgid "When enabled, SDT, BAT data will be included in http streams."
+#, fuzzy
+msgid "When enabled, SDT and BAT data will be included in http streams."
 msgstr "Cuando esté habilitado, SDT, los datos BAT se incluirán en las secuencias http."
 
 msgid "When enabled, a pop up message will be shown when a movie has finished and the next one will start."
@@ -23466,11 +23817,34 @@ msgstr "Cuando está habilitado, se permite una grabación para interrumpir la t
 msgid "When enabled, a warning will be displayed and the user will get an option to stop or to continue the time shift."
 msgstr "Cuando esté habilitado, se mostrará una advertencia y el usuario recibirá una opción para detener o continuar el cambio de tiempo."
 
+msgid "When enabled, allow Samba network access without a password."
+msgstr ""
+
+msgid "When enabled, allow connection to access points that don't broadcast their SSID."
+msgstr ""
+
+msgid "When enabled, allow each storage device detected to be automatically exported as a Samba share."
+msgstr ""
+
+msgid "When enabled, allow the receiver to be powered on by a remote Wake-on-LAN network signal (Magic Packet)."
+msgstr ""
+
+#, fuzzy
+msgid "When enabled, allow usage of the NFS version 3 protocols."
+msgstr "Cuando esté habilitado, se mostrará un mensaje emergente cuando comience una grabación."
+
+#, fuzzy
+msgid "When enabled, allow usage of the NFS version 4 protocols."
+msgstr "Cuando esté habilitado, se mostrará un mensaje emergente cuando comience una grabación."
+
 msgid "When enabled, always unscramble receiving http streams. This takes up more resources (unscrambling demuxers), only enable if necessary. Individual streams are always unscrambled if 0x100 is added to the service type, regardless of this setting."
 msgstr "Cuando está habilitado, siempre sin resolver recibir secuencias http. Esto absorbe más recursos (demuxers desmontadores), sólo permiten si es necesario. Los flujos individuales siempre están sin resolver si 0x100 se añade al tipo de servicio, independientemente de este ajuste."
 
 msgid "When enabled, authentication is required to watch http streams."
 msgstr "Cuando está habilitado, se requiere autenticación para ver las secuencias http."
+
+msgid "When enabled, connection via saved network is attempted when the Wi-Fi adapter connects."
+msgstr ""
 
 msgid "When enabled, content with an aspect ratio of 4:3 will be stretched to fit the screen."
 msgstr "When enabled, content with an aspect ratio of 4:3 will be stretched to fit the screen."
@@ -23493,6 +23867,12 @@ msgstr "Cuando estén habilitados, los subtítulos gráficos DVB se mostrarán e
 msgid "When enabled, it is possible to leave the movie player with exit."
 msgstr "Cuando está habilitado, es posible dejar el reproductor de películas con salida."
 
+msgid "When enabled, keep the Wi-Fi adapter in low-power scan mode during Standby to allow the receiver to be powered on by a remote network signal (Magic Packet)."
+msgstr ""
+
+msgid "When enabled, map root to nobody (more secure). When disabled, full root access is available."
+msgstr ""
+
 msgid "When enabled, measure power consumption to detect when the rotor stops turning (when supported by the tuner)."
 msgstr "Cuando está habilitado, mide el consumo de energía para detectar cuando el rotor deja de girar (cuando está soportado por el sintonizador)."
 
@@ -23501,6 +23881,9 @@ msgstr "Cuando está habilitado, los trashcans de red son probed para la limpiez
 
 msgid "When enabled, number markers will be hidden."
 msgstr "Cuando esté habilitado, los marcadores de números estarán ocultos."
+
+msgid "When enabled, obtain the IP address, subnet mask, gateway, and DNS settings automatically via DHCP."
+msgstr ""
 
 msgid "When enabled, pressing '0' will zap you to the first channel in your first bouquet and delete your zap-history."
 msgstr "Cuando esté habilitado, pulsar '0' te enviará al primer canal en tu primer ramo y eliminarás tu zap-historia."
@@ -23513,6 +23896,9 @@ msgstr "Cuando esté habilitado, muestre los números de canal en la pantalla de
 
 msgid "When enabled, show status or error messages."
 msgstr "Cuando esté habilitado, muestre el estado o los mensajes de error."
+
+msgid "When enabled, specify custom DNS settings for this adapter instead of the global DNS settings."
+msgstr ""
 
 msgid "When enabled, subtitles for the hearing impaired can be used."
 msgstr "Cuando está habilitado, se pueden utilizar subtítulos para el trastorno auditivo."
@@ -23559,6 +23945,12 @@ msgstr "Cuando esté habilitado, el receptor seleccionará una pista AC3 (cuando
 
 msgid "When enabled, the receiver will select an AC3+ track (when available)."
 msgstr "Cuando esté habilitado, el receptor seleccionará una pista AC3+ (cuando esté disponible)."
+
+msgid "When enabled, this Wi-Fi adapter is kept in Wake-on-WiFi mode only and will not be used to connect to any network."
+msgstr ""
+
+msgid "When enabled, this adapter is initialized and activated at boot time."
+msgstr ""
 
 msgid "When enabled, this setting has more weight than 'Preferred tuner for recordings'."
 msgstr "Cuando está habilitado, este ajuste tiene más peso que 'Afinador prefijado para grabaciones'."
@@ -23632,6 +24024,10 @@ msgstr "Mientras esté disponible"
 msgid "White"
 msgstr "Blanco"
 
+#, fuzzy
+msgid "Wi-Fi Connection Settings"
+msgstr "Ajustes de la colección"
+
 msgid "Wide"
 msgstr "Amplio"
 
@@ -23702,10 +24098,12 @@ msgstr "Con esta opción puede ocultar tareas de trabajo de la pantalla de exten
 msgid "With this option you can switch off the display during operation."
 msgstr "Con esta opción puede apagar la pantalla durante la operación."
 
-msgid "With this option you can switch off the display in Deep Standby Mode."
+#, fuzzy
+msgid "With this option you can switch off the display in Deep Standby."
 msgstr "Con esta opción puede apagar la pantalla en modo de espera profunda."
 
-msgid "With this option you can switch off the display in Standby Mode."
+#, fuzzy
+msgid "With this option you can switch off the display in Standby."
 msgstr "Con esta opción puede apagar la pantalla en modo Standby."
 
 msgid "With this option you can switch the LED color or deactivate the LED."
@@ -23723,11 +24121,18 @@ msgstr "Wizard Actions"
 msgid "Wnw"
 msgstr "Wnw"
 
+#, fuzzy
+msgid "WoW only"
+msgstr "EPG solamente"
+
 msgid "Wolof"
 msgstr "Wolof"
 
 msgid "Workaround for old tuner driver"
 msgstr "Reparación para el viejo conductor de tuner"
+
+msgid "Workgroup name"
+msgstr ""
 
 #, python-format
 msgid "Would you save the entered PIN %s persistent?"
@@ -24234,6 +24639,14 @@ msgstr "Zap up"
 msgid "Zap+Record next"
 msgstr "Zap+Record siguiente"
 
+#, fuzzy
+msgid "ZeroTier Actions"
+msgstr "Timer Actions"
+
+#, fuzzy
+msgid "ZeroTier Settings"
+msgstr "Ajustes PowerTimer"
+
 msgid "Zhuang / Chuang"
 msgstr "Zhuang / Chuang"
 
@@ -24339,9 +24752,6 @@ msgstr "alpharev entonces nuevo"
 msgid "am"
 msgstr "am"
 
-msgid "aqua"
-msgstr "aqua"
-
 msgid ""
 "are you sure you want to restore\n"
 "following backup:\n"
@@ -24374,9 +24784,6 @@ msgstr "pistas de audio"
 
 msgid "automatic"
 msgstr "automático"
-
-msgid "azure"
-msgstr "azure"
 
 msgid "back"
 msgstr "atrás"
@@ -24833,9 +25240,6 @@ msgstr "pasatiempos de ocio (general)"
 msgid "length"
 msgstr "longitud"
 
-msgid "lime"
-msgstr "lime"
-
 msgid "literature"
 msgstr "literatura"
 
@@ -24990,9 +25394,6 @@ msgstr "apagado o wpa2 en"
 msgid "ok"
 msgstr "ok"
 
-msgid "olympic blue"
-msgstr "azul olímpico"
-
 msgid "on READ ONLY medium."
 msgstr "en el READ ONLY medium."
 
@@ -25007,9 +25408,6 @@ msgstr "openDroid por OPD Image Team"
 
 msgid "or"
 msgstr "o"
-
-msgid "orange"
-msgstr "naranja"
 
 msgid "original language"
 msgstr "idioma original"
@@ -25039,9 +25437,6 @@ msgstr "escénicas"
 msgid "pid:"
 msgstr "pid:"
 
-msgid "pink"
-msgstr "rosa"
-
 msgid "please wait, loading picture..."
 msgstr "por favor, espera, cargando la foto..."
 
@@ -25068,9 +25463,6 @@ msgstr "provid:"
 
 msgid "provider:"
 msgstr "proveedor:"
-
-msgid "purple"
-msgstr "morado"
 
 msgid "quit"
 msgstr "renuncio"
@@ -25126,9 +25518,6 @@ msgstr "rock/pop"
 
 msgid "romance"
 msgstr "romance"
-
-msgid "rose"
-msgstr "rosa"
 
 msgid ""
 "satellites.xml not found or corrupted!\n"
@@ -25430,9 +25819,6 @@ msgstr "deportes acuáticos"
 
 msgid "west"
 msgstr "oeste"
-
-msgid "white"
-msgstr "blanco"
 
 msgid "width"
 msgstr "ancho"

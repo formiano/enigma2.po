@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-26 20:44+0200\n"
+"POT-Creation-Date: 2026-08-08 22:33+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: 王彪 <satfan@163.com>\n"
 "Language-Team: 中國\n"
@@ -1305,9 +1305,6 @@ msgstr "(显示可选 DVD 音频菜单)"
 msgid "* = Restart Required"
 msgstr "* = 需要重新启动"
 
-msgid "* Only available if more than one interface is active."
-msgstr "* 联合国 只有在多个接口活动时才可用."
-
 msgid "* current animation"
 msgstr "* 当前动画"
 
@@ -1705,6 +1702,10 @@ msgstr "AC3加转码"
 msgid "AC3plus transcoding"
 msgstr "AC3+ 转码"
 
+#, fuzzy
+msgid "AC4"
+msgstr "发援会"
+
 msgid "AFL"
 msgstr "武装部队"
 
@@ -1783,11 +1784,12 @@ msgstr "关于..."
 msgid "Above 200 Mbps"
 msgstr "超过 200 Mbps"
 
+#, fuzzy
+msgid "Access mode"
+msgstr "测试模式"
+
 msgid "Access point"
 msgstr "访问点"
-
-msgid "Access point:"
-msgstr "访问点 :"
 
 msgid "Access to geolocation information requires an Internet connection."
 msgstr "获得地理定位信息需要互联网连接."
@@ -1914,9 +1916,6 @@ msgstr "添加 Zap+ 记录计时器"
 
 msgid "Add ZapTimer"
 msgstr "添加时速"
-
-msgid "Add a DNS entry"
-msgstr "添加 DNS 条目"
 
 msgid "Add a RADIO service to the Volume Offset list"
 msgstr "在卷偏移列表中添加一个 RADIO 服务"
@@ -2140,6 +2139,9 @@ msgstr "录音后"
 msgid "After zap"
 msgstr "赞普之后"
 
+msgid "Aggregate data only"
+msgstr ""
+
 msgid "Aggressive"
 msgstr ""
 
@@ -2238,6 +2240,9 @@ msgstr "Allow 10bit"
 msgid "Allow 12bit"
 msgstr "Allow 12bit"
 
+msgid "Allow guest access"
+msgstr ""
+
 msgid "Allow quit movie player with exit"
 msgstr "允许退出的电影播放器退出"
 
@@ -2249,6 +2254,10 @@ msgstr "允许听力受损的字幕"
 
 msgid "Allow unsupported modes"
 msgstr "允许不支持的模式"
+
+#, fuzzy
+msgid "Allowed clients"
+msgstr "活跃客户"
 
 msgid "Allows the %s %s to read the stored EPG data regularly."
 msgstr "允许 %s %s 定期读取所存储的 IPG 数据."
@@ -2421,6 +2430,10 @@ msgstr "动画速度"
 msgid "Animations"
 msgstr "动画"
 
+#, fuzzy
+msgid "Anonymize client IPs"
+msgstr "活跃客户"
+
 msgid "Antarctica"
 msgstr "南极洲"
 
@@ -2441,6 +2454,9 @@ msgstr "Apply any changes to the active locale/language and exit"
 
 msgid "Apply the currently highlighted locale/language and exit"
 msgstr "Apply the currently highlighted locale/language and exit"
+
+msgid "Aqua"
+msgstr ""
 
 msgid "Arabic"
 msgstr "阿拉伯语"
@@ -2868,6 +2884,10 @@ msgstr "阿塞拜疆"
 msgid "Azerbaijani"
 msgstr "阿塞拜疆语Name"
 
+#, fuzzy
+msgid "Azure"
+msgstr "祖尔"
+
 msgid "B"
 msgstr "页:1"
 
@@ -3113,9 +3133,6 @@ msgstr "毕斯拉马"
 
 msgid "Bitrate"
 msgstr "比特率"
-
-msgid "Bitrate:"
-msgstr "比特率 :"
 
 msgid "Black"
 msgstr "黑色"
@@ -3835,6 +3852,10 @@ msgstr "中心,包裹"
 msgid "Central African Republic"
 msgstr "中非共和国"
 
+#, fuzzy
+msgid "Central Europe"
+msgstr "中高棉语Name"
+
 msgid "Central Khmer"
 msgstr "中高棉语Name"
 
@@ -3973,6 +3994,10 @@ msgstr "频道按钮倒转"
 msgid "Channel down"
 msgstr "频道向下"
 
+#, fuzzy
+msgid "Channel list"
+msgstr "频道列表"
+
 msgid "Channel list cursor behavior"
 msgstr "频道列表光标行为"
 
@@ -4005,9 +4030,6 @@ msgstr "频道选择"
 
 msgid "Channel up"
 msgstr "打开频道"
-
-msgid "Channel:"
-msgstr "频道 :"
 
 msgid "ChannelEPG Settings"
 msgstr "频道EPG 设置"
@@ -4166,9 +4188,6 @@ msgstr "选择备份中要包含的额外文件和文件夹"
 msgid "Choose files and folders to exclude from backup"
 msgstr "选择要从备份中排除的文件和文件夹"
 
-msgid "Choose how much EPG history, if any, to keep in the EPG cache. This historic data can be browsed in any of the EPG views. This can be useful when you need information about an event which has recently finished."
-msgstr "选择 IPG 保存到 IPG 缓存的 IPG 历史 。 这种历史数据可以在任何EPG视图中浏览. 当您需要关于最近完成的事件的信息时, 这会有所帮助 ."
-
 msgid "Choose reader"
 msgstr "选择阅读器"
 
@@ -4184,10 +4203,12 @@ msgstr "选择时间的显示格式样式。 \"H\"/\"HH\"是24小时钟的时数
 msgid "Choose the fallback font."
 msgstr "选择倒置字体 ."
 
-msgid "Choose the front panel display formatting style for dates. 'D' / 'DD' is the date and 'M' / 'MM' is the month in digits.  ('DD' and 'MM' have leading zeros for single digit values.) The screen display will be based on your choice but can be influenced by the skin."
+#, fuzzy
+msgid "Choose the front panel display formatting style for dates. 'D'/'DD' is the date and 'M'/'MM' is the month in digits. ('DD' and 'MM' have leading zeros for single digit values.) The screen display will be based on your choice but can be influenced by the skin."
 msgstr "选择日期的前面板显示格式样式。 “ D” / “ DD” 是日期,“ M” / “ MM” 是用数字表示的月份 。 (“ DD” 和“ MM” 对单个数字值有领先的零 。 ) 屏幕显示会基于您的选择,但会受皮肤的影响."
 
-msgid "Choose the front panel display formatting style for times. 'H' / 'HH' is the hour for a 24 hour clock, 'h' / 'hh' is the hour for a 12 hour clock, 'mm' is the minutes.  ('HH' and 'hh' have leading zeros for single digit values.) The front panel display will be based on your choice but can be influenced any applicable skin."
+#, fuzzy
+msgid "Choose the front panel display formatting style for times. 'H'/'HH' is the hour for a 24 hour clock, 'h'/'hh' is the hour for a 12 hour clock, 'mm' is the minutes. ('HH' and 'hh' have leading zeros for single digit values.) The front panel display will be based on your choice but can be influenced any applicable skin."
 msgstr "为时间选择前面板显示格式样式。 \"H\"/\"HH\"是24小时钟的时数,\"h\"/\"h\"是12小时钟的时数,\"mm\"是分钟. (\"HH\"和\"hh\"对单个数字值有领先的零. ) 前面板显示会基于您的选择,但会影响任何适用的皮肤."
 
 msgid "Choose the location for crash and debug logs."
@@ -4196,7 +4217,8 @@ msgstr "选择崩溃和调试日志的位置 ."
 msgid "Choose the location where the EPG data will be stored when the %s %s is shut down. The location must be available at boot time."
 msgstr "选择关闭 %s %s 时将存储 EPG 数据的位置。 地点必须在启动时间."
 
-msgid "Choose the name of the file that holds the EPG data when the %s %s is shut down. This can be handy to differentiate between several boxes."
+#, fuzzy
+msgid "Choose the name of the file that holds the EPG data when the %s %s is shut down. This can be handy to differentiate between several receivers."
 msgstr "选择在 %s %s 关闭时保存 IPG 数据的文件名称。 这可以方便地区分几个框."
 
 msgid "Choose the option to correct invalid EPG data."
@@ -4229,33 +4251,6 @@ msgstr "选择设备挂载到何处 :"
 
 msgid "Choose where to save VOD movies"
 msgstr "选择保存 VOD 电影的地点"
-
-msgid "Choose whether AAC sound tracks should be transcoded."
-msgstr "选择 AAC 音轨是否应该被转码 ."
-
-msgid "Choose whether AC3 Plus sound tracks should be transcoded to AC3."
-msgstr "选择AC3是否 加之音轨应被转码为AC3."
-
-msgid "Choose whether AC3 sound tracks should be downmixed to stereo."
-msgstr "选择 AC3 音轨是否应该向下混合到立体声 ."
-
-msgid "Choose whether DTS channel sound tracks should be downmixed or transcoded."
-msgstr "选择 DTS 频道音轨是下同音轨还是转码."
-
-msgid "Choose whether DTS channel sound tracks should be downmixed to stereo."
-msgstr "选择 DTS 频道音轨是否应该向下混合到立体声 ."
-
-msgid "Choose whether WMA Pro channel sound tracks should be downmixed or transcoded."
-msgstr "选择是否为 WMA Pro通道音轨应被下同或转码."
-
-msgid "Choose whether multi channel sound tracks should be convert to PCM or SPDIF."
-msgstr "选择多通道音轨是应该转换为PCM还是SPDIF."
-
-msgid "Choose whether multi channel sound tracks should be downmixed to stereo."
-msgstr "选择多通道音轨是否应该向下混合到立体声 ."
-
-msgid "Choose whether multi channel sound tracks should be output as PCM."
-msgstr "选择多通道音轨是否应该作为 PCM 输出 ."
 
 msgid "Choose whether or not to show an icon when a motorized dish is moving."
 msgstr "选择在运动盘移动时是否显示图标 ."
@@ -4619,6 +4614,10 @@ msgstr "配置在尝试重新启动框或图形用户界面时会显示哪些类
 msgid "Configure how recording filenames are constructed. Standard: Date Time - Channel - Title Very very short: Title Very short: Title - Date Time Short with time: Date Time - Title Short: Date - Title Long: Date Time - Channel - Title - Info"
 msgstr "配置记录文件名的构造方式 。 标准 : 日期时间 - 频道 - 标题 非常短:标题 非常简短: 标题 - 日期时间 时间短:日期时间 - 标题短:日期 - 标题长 : 日期时间 - 频道 - 标题 - 信息"
 
+#, fuzzy
+msgid "Configure if 'epg.dat' should be saved at all."
+msgstr "配置如果 epg.dat 应当保存 ."
+
 msgid "Configure if and how crypto icons will be shown in the channel selection list."
 msgstr "配置频道选择列表中是否和如何显示加密图标 ."
 
@@ -4636,9 +4635,6 @@ msgstr "配置在频道选择列表中显示服务名称列是否和宽度 ."
 
 msgid "Configure if crypto icons will be shown in the channel selection list."
 msgstr "在频道选择列表中显示加密图标时配置 ."
-
-msgid "Configure if epg.dat should be saved at all."
-msgstr "配置如果 epg.dat 应当保存 ."
 
 msgid "Configure if service picons will be shown in quickzap."
 msgstr "如果服务相片会以快板显示, 则配置 ."
@@ -4718,14 +4714,15 @@ msgstr "达到电影收尾时配置行为,在电影回放时配置行为."
 msgid "Configure the border width of the subtitles. The dark border makes the subtitles easier to read on a light background."
 msgstr "配置字幕的边框宽度。 黑暗的边框使得字幕在轻快的背景上更容易被读取."
 
+#, fuzzy
+msgid "Configure the brightness level of the front panel display for Standby."
+msgstr "配置用于备用的前面板显示的亮度级别 ."
+
 msgid "Configure the brightness level of the front panel display for dimmed operation."
 msgstr "配置前面板显示的亮度级别用于暗化操作."
 
 msgid "Configure the brightness level of the front panel display for normal operation."
 msgstr "为正常操作配置前面板显示的亮度级别."
-
-msgid "Configure the brightness level of the front panel display for standby."
-msgstr "配置用于备用的前面板显示的亮度级别 ."
 
 msgid "Configure the color of the external subtitles, alternative (normal in white, italic in yellow, bold in cyan, underscore in green), white or yellow."
 msgstr "配置外部字幕的颜色,可选用(通常为白色,斜体为黄色,粗体为青色,下划线为绿色),白色或黄色."
@@ -4939,9 +4936,6 @@ msgstr "配置固定字体或可缩放的TrueType字体用于远程文本."
 
 msgid "Configure whether another tuner from the preferred list is allocated for recordings instead of sharing a tuner that is already active receiving the same live TV channel."
 msgstr "配置是否从首选列表中为录音分配了另一个调音器,而不是共享一个已经活动接收同名电视直播频道的调音器."
-
-msgid "Configure whether multi channel sound tracks should be downmixed to stereo."
-msgstr "配置多通道音轨是否应该被降为立体声 ."
 
 msgid "Configure whether the 'recording' symbol (in the display skin and LCD skin) is visible for real recordings only or also for streaming and pseudo recordings (e.g. EPGrefresh)."
 msgstr "配置“ 记录” 符号( 在显示外观和液晶外观中) 是否只用于真实的录音, 或者也用于流相和伪相录音( 如 IPGrefresh) ."
@@ -5525,13 +5519,6 @@ msgstr "DMM 高级"
 msgid "DMM normal"
 msgstr "DMM 常规"
 
-msgid "DNS (Dynamic Name Server) Actions"
-msgstr "DNS( 动态名称服务器) 动作"
-
-#, fuzzy
-msgid "DNS Mode"
-msgstr "三维模式"
-
 msgid "DNS Settings"
 msgstr "DNS 设置"
 
@@ -5539,10 +5526,16 @@ msgid "DNS data source"
 msgstr "DNS 数据源"
 
 #, fuzzy
-msgid "DNS rotation"
-msgstr "叙述"
+msgid "DNS override"
+msgstr "三维模式"
+
+msgid "DNS protocol mode"
+msgstr ""
 
 msgid "DNS suffix"
+msgstr ""
+
+msgid "DNSCrypt"
 msgstr ""
 
 msgid ""
@@ -5582,11 +5575,17 @@ msgstr "DVB 字幕颜色"
 msgid "DVB-C"
 msgstr "DVB-C 电话"
 
+msgid "DVB-C / Cable only"
+msgstr ""
+
 msgid "DVB-C ANNEX B"
 msgstr "DVD-C 附件B"
 
 msgid "DVB-C ANNEX C"
 msgstr "DVD-C 附件C"
+
+msgid "DVB-C and DVB-T/T2 via external 5V controlled coax switch"
+msgstr ""
 
 msgid "DVB-S"
 msgstr "DVB - S (英语)"
@@ -5596,6 +5595,9 @@ msgstr "DVB-S2 电话"
 
 msgid "DVB-T"
 msgstr "DVB-T (英语)"
+
+msgid "DVB-T/T2 / Terrestrial only"
+msgstr ""
 
 msgid "DVB-T2"
 msgstr "DVB-T2 电话"
@@ -5856,6 +5858,10 @@ msgstr "默认服务扫描器"
 
 msgid "Default files/folders to backup"
 msgstr "Default files/folders to backup"
+
+#, fuzzy
+msgid "Default gateway"
+msgstr "使用网关"
 
 msgid "Default left column directory"
 msgstr "默认左列目录"
@@ -6478,7 +6484,8 @@ msgstr "显示此文件的更多信息"
 msgid "Display selection list as a selection menu"
 msgstr "将选择列表显示为选择菜单"
 
-msgid "Display the EIT Now/Next event data in InfoBar."
+#, fuzzy
+msgid "Display the EIT Now/Next event data in the InfoBar."
 msgstr "Display the EIT Now/Next event data in InfoBar."
 
 msgid "Display the base locales or all locales for a language."
@@ -6726,6 +6733,9 @@ msgstr "文档"
 msgid "Dolby Digital downmix is now"
 msgstr "Dolby Digital Downmix 现在开始"
 
+msgid "Dolby TrueHD"
+msgstr ""
+
 msgid "Domain"
 msgstr "域名"
 
@@ -6953,6 +6963,10 @@ msgstr "EPG 按钮模式"
 msgid "EPG filename"
 msgstr "EPG 文件名"
 
+#, fuzzy
+msgid "EPG history"
+msgstr "历史"
+
 msgid ""
 "EPG key : Switch to channel list\n"
 "Ok key : Remove selected channel\n"
@@ -7005,6 +7019,10 @@ msgstr "东"
 
 msgid "East limit set"
 msgstr "东边限制设置"
+
+#, fuzzy
+msgid "Eastern satellites"
+msgstr "连接的卫星"
 
 msgid "EasyMedia"
 msgstr "网易媒体"
@@ -7146,6 +7164,10 @@ msgstr "启用自动记录"
 msgid "Enable BT Audio"
 msgstr "启用 BT 音频"
 
+#, fuzzy
+msgid "Enable BT audio"
+msgstr "启用 BT 音频"
+
 msgid "Enable Bouquet Edit"
 msgstr "启用布奎特编辑"
 
@@ -7167,6 +7189,10 @@ msgstr "启用最喜爱的编辑"
 
 msgid "Enable Focus Animation"
 msgstr "启用焦点动画"
+
+#, fuzzy
+msgid "Enable FreeSat EPG"
+msgstr "启用 Freesat EMG"
 
 msgid "Enable GStreamer debug log *"
 msgstr "启用 GStreamer 调试日志 *"
@@ -7191,6 +7217,14 @@ msgstr "启用迷你电视"
 
 msgid "Enable Move Mode"
 msgstr "启用移动模式"
+
+#, fuzzy
+msgid "Enable NFSv3"
+msgstr "启用 IPv6"
+
+#, fuzzy
+msgid "Enable NFSv4"
+msgstr "启用 IPv6"
 
 msgid "Enable Netmed EPG"
 msgstr "启用 Netmed EPG"
@@ -7292,14 +7326,15 @@ msgstr "启用数字下方混合"
 msgid "Enable fallback remote receiver"
 msgstr "启用回落远程接收器"
 
-msgid "Enable freesat EPG"
-msgstr "启用 Freesat EMG"
-
 msgid "Enable import timer from fallback tuner"
 msgstr "启用从倒回调制器导入定时器"
 
 msgid "Enable intro screen"
 msgstr "启用内置屏幕"
+
+#, fuzzy
+msgid "Enable monitoring UI"
+msgstr "启用处女 IPG"
 
 msgid "Enable multiple bouquets"
 msgstr "启用多花序"
@@ -7324,17 +7359,6 @@ msgstr "启用预览"
 
 msgid "Enable remote enigma2 receiver to be tried to tune into services that cannot be tuned into locally (e.g. tuner is occupied or service type is unavailable on the local tuner. Specify complete URL including http:// and port number (normally ...:8001), e.g. http://second_box:8001."
 msgstr "允许远程谜团2接收器尝试被调制成无法调制到本地的服务(例如调制器被占用,或者本地调制器上没有服务类型). 指定完整的URL,包括 http://和端口号(通常为.:8001),例如 http://second_box:8001."
-
-#, fuzzy
-msgid "Enable subnetworks for cable connections."
-msgstr "启用“ 确定” 频道选择"
-
-msgid "Enable subnetworks for terrestrial connections."
-msgstr ""
-
-#, fuzzy
-msgid "Enable support for subnetworks."
-msgstr "启用视频文件的章节支持"
 
 msgid "Enable teletext caching"
 msgstr "启用远程文本缓存"
@@ -7428,9 +7452,6 @@ msgstr "加密密钥"
 
 msgid "Encryption key type"
 msgstr "加密密钥类型"
-
-msgid "Encryption:"
-msgstr "加密 :"
 
 msgid "End"
 msgstr "结束"
@@ -7568,11 +7589,23 @@ msgstr "输入主机接收器的IP地址 ."
 msgid "Enter the IP address of the receiver to use for fallback tuners."
 msgstr "输入接收器的 IP 地址, 用于回放调谐器 ."
 
+msgid "Enter the IP address or subnet (e.g. 192.168.1.0/24) to which NFS host access is granted. Enter '*', the default, for all host access."
+msgstr ""
+
+msgid "Enter the IP address to be used as the gateway to other networks for this adapter. Typically this is the IP address of your router."
+msgstr ""
+
 msgid "Enter the URL/IP of the fallback remote receiver, e.g. '192.168.0.1'. The other details such as 'http://' and port number will be filled in automatically when you select save."
 msgstr "输入后退远程接收器的 URL/IP, 例如“ 192. 168. 0.1 ” 。 选择保存时会自动填入“ http://” 和端口号码等细节 ."
 
+msgid "Enter the ZeroTier Network ID. The ID should be exactly 16 characters in length."
+msgstr ""
+
 msgid "Enter the domain of the host receiver. Do not include 'http://' or port number."
 msgstr "输入主机接收器的域 。 不包括\"http://\"或端口号."
+
+msgid "Enter the fixed/static IPv4 address to be used for this network adapter."
+msgstr ""
 
 msgid "Enter the frequency at which you LNB switches between low band and high band. For more information consult the specifications of your LNB."
 msgstr "输入低频段和高频段之间的频率。 欲了解更多信息,请查看贵国国家银行的规格."
@@ -7580,8 +7613,26 @@ msgstr "输入低频段和高频段之间的频率。 欲了解更多信息,请�
 msgid "Enter the frequency step size for the tuner to use when searching for cable multiplexes. For more information consult your cable provider's documentation."
 msgstr "输入调音器在搜索电缆多轴时使用的频率步骤大小。 更多信息,请查看您的有线电视提供者的文件."
 
+msgid "Enter the number of NFS server threads to be allocated/used. Higher values improve performance with multiple clients but use more memory."
+msgstr ""
+
 msgid "Enter the number stored in the positioner that corresponds to this satellite."
 msgstr "输入与此卫星相对应的位置器所存储的数字 ."
+
+msgid "Enter the password, pass-phrase or pre-shared key for the selected wireless network."
+msgstr ""
+
+msgid "Enter the primary IPv4 DNS setting for this adapter."
+msgstr ""
+
+msgid "Enter the primary IPv6 DNS setting for this adapter. (Optional)"
+msgstr ""
+
+msgid "Enter the secondary IPv4 DNS setting for this adapter. (Optional)"
+msgstr ""
+
+msgid "Enter the secondary IPv6 DNS setting for this adapter. (Optional)"
+msgstr ""
 
 msgid "Enter the service pin"
 msgstr "输入服务夹"
@@ -7598,8 +7649,14 @@ msgstr "输入第三个分区的兆字节大小 :"
 msgid "Enter the streaming port of the host receiver (normally '8001')."
 msgstr "输入主机接收器的流口( 通常为\" 8001\" ) ."
 
+msgid "Enter the subnet mask to be used for this network adapter. (e.g. 255.255.255.0)"
+msgstr ""
+
 msgid "Enter the subscription code to fully enable the AI-Powered Translation plugin, the unified code for trial is 15."
 msgstr "输入订阅代码以充分启用AI-Powered翻译插件,用于审判的统一代码为15."
+
+msgid "Enter the workgroup name to be used by this receiver for Samba based connections. (Default is 'WORKGROUP'.)"
+msgstr ""
 
 msgid "Enter your current latitude. This is the number of degrees you are from the equator as a decimal."
 msgstr "输入当前纬度 。 这是您作为小数点从赤道来的度数."
@@ -8567,9 +8624,6 @@ msgstr "完成"
 msgid "Finished configuring your network"
 msgstr "配置您的网络"
 
-msgid "Finished restarting your network"
-msgstr "重新启动您的网络"
-
 msgid "Finland"
 msgstr "芬兰"
 
@@ -8712,6 +8766,9 @@ msgstr "强制遗留信号统计"
 msgid "Force ToneBurst"
 msgstr "强制ToneBurst"
 
+msgid "Force a specific network link speed/duplex mode instead of auto-negotiation. Only change this if you have a specific reason as an incorrect setting can break network connectivity."
+msgstr ""
+
 msgid "Force de-interlace"
 msgstr "拆除间距"
 
@@ -8835,9 +8892,6 @@ msgstr "频率扫描步骤大小( khz)"
 
 msgid "Frequency steps"
 msgstr "频率步骤"
-
-msgid "Frequency:"
-msgstr "频率 :"
 
 msgid "Frequency: "
 msgstr "频率 :"
@@ -8974,7 +9028,8 @@ msgstr "常规"
 msgid "General AC3 delay"
 msgstr "一般 AC3 延迟"
 
-msgid "General BT Audio delay"
+#, fuzzy
+msgid "General BT audio delay"
 msgstr "常规BT 音频延迟"
 
 msgid "General Information"
@@ -9089,6 +9144,10 @@ msgid "Golf"
 msgstr "高尔夫"
 
 msgid "Google DNS"
+msgstr "谷歌 DNS 游戏"
+
+#, fuzzy
+msgid "Google Public DNS"
 msgstr "谷歌 DNS 游戏"
 
 msgid "Goto"
@@ -9771,6 +9830,10 @@ msgstr "Stream Relay服务器的IP地址用于去除只能通过Stream Relay解�
 msgid "IP of fallback remote receiver"
 msgstr "退后远程接收器的IP"
 
+#, fuzzy
+msgid "IP protocol"
+msgstr "议定书"
+
 msgid "IPK Tools"
 msgstr "IPK 工具"
 
@@ -10041,7 +10104,8 @@ msgstr "包含 EPG 数据"
 msgid "Include MultiBoot data *"
 msgstr "包含多波数据 * 联合国"
 
-msgid "Include SDT, BAT in http streams"
+#, fuzzy
+msgid "Include SDT and BAT in http streams"
 msgstr "在 http 流中包含 SDT, BAT"
 
 msgid "Include action map data"
@@ -10451,6 +10515,17 @@ msgstr "任务管理器"
 msgid "Job overview"
 msgstr "任务概览"
 
+msgid "Join"
+msgstr ""
+
+#, fuzzy
+msgid "Join or leave the configured ZeroTier network"
+msgstr "配置您的网络"
+
+#, fuzzy
+msgid "Joined"
+msgstr "合并"
+
 msgid "Jordan"
 msgstr "约旦"
 
@@ -10546,9 +10621,6 @@ msgstr "哈萨克语"
 
 msgid "Kazakhstan"
 msgstr "哈萨克斯坦"
-
-msgid "Keep EPG history (in minutes)"
-msgstr "保存 EPG 历史( 分钟)"
 
 msgid "Keep old drive"
 msgstr "保持旧驱动器"
@@ -10735,14 +10807,19 @@ msgstr "LED 关闭颜色"
 msgid "LED Standby"
 msgstr "发音 待命状态"
 
+#, fuzzy
+msgid "LED brightness during Deep Standby."
+msgstr "LED 在深度待命时亮度."
+
+#, fuzzy
+msgid "LED brightness during Standby."
+msgstr "备用时LED亮度."
+
 msgid "LED brightness during deep standby."
 msgstr "LED 在深度待命时亮度."
 
 msgid "LED brightness during normal operations."
 msgstr "LED 正常操作时亮度."
-
-msgid "LED brightness during standby."
-msgstr "备用时LED亮度."
 
 msgid "LIRC remote"
 msgstr "LIR 远程"
@@ -10831,6 +10908,9 @@ msgstr "拉脱维亚"
 msgid "Latvian"
 msgstr "拉脱维亚语Name"
 
+msgid "Leave"
+msgstr ""
+
 msgid "Leave DVD player?"
 msgstr "离开DVD播放器?"
 
@@ -10915,6 +10995,9 @@ msgstr "光源"
 msgid "Limburgan / Limburger / Limburgish"
 msgstr "林堡语 / 林堡语 / 林堡语"
 
+msgid "Lime"
+msgstr ""
+
 msgid "Limit character set for recording filenames"
 msgstr "限制文件名的字符集"
 
@@ -10957,6 +11040,10 @@ msgstr "检测到链接"
 
 msgid "Link quality:"
 msgstr "链接质量 :"
+
+#, fuzzy
+msgid "Link speed"
+msgstr "最后一个速度"
 
 msgid "Link:"
 msgstr "链接 :"
@@ -11197,12 +11284,6 @@ msgstr "卢森堡语/卢森堡语"
 
 msgid "M2k"
 msgstr "M2k 导弹"
-
-msgid "MAC Address Actions"
-msgstr "MAC 地址动作"
-
-msgid "MAC Address Settings"
-msgstr "MAC 地址设置"
 
 msgid "MAC address"
 msgstr "MAC 地址"
@@ -11899,12 +11980,6 @@ msgstr "已移动任务队列 ."
 msgid "Move only highlighted file"
 msgstr "只移动突出显示的文件"
 
-msgid "Move the current DNS entry down one line"
-msgstr "将当前 DNS 条目下移到一行"
-
-msgid "Move the current DNS entry up one line"
-msgstr "将当前 DNS 条目上移到一行"
-
 msgid "Move the current bookmark down"
 msgstr "将当前书签下移"
 
@@ -12226,6 +12301,9 @@ msgstr "NFS 动作"
 msgid "NFS Settings"
 msgstr "NFS 设置"
 
+msgid "NFS threads"
+msgstr ""
+
 msgid "NIM"
 msgstr "无"
 
@@ -12356,6 +12434,10 @@ msgstr "网络适配器动作"
 msgid "Network Adapter Setting Actions"
 msgstr "网络适配器设置动作"
 
+#, fuzzy
+msgid "Network Adapter Settings"
+msgstr "网络适配器设置动作"
+
 msgid "Network Adapter Text Actions"
 msgstr "网络适配器文本动作"
 
@@ -12371,11 +12453,12 @@ msgstr "网络信息行动"
 msgid "Network Log Actions"
 msgstr "网络日志动作"
 
-msgid "Network MAC settings"
-msgstr "网络 MAC 设置"
-
 msgid "Network Neighbourhood"
 msgstr "网络邻居"
+
+#, fuzzy
+msgid "Network Restart"
+msgstr "网络测试"
 
 msgid "Network Settings"
 msgstr "网络设置"
@@ -12406,6 +12489,10 @@ msgid "Network interface information"
 msgstr "网络接口信息"
 
 msgid "Network menu"
+msgstr "网络菜单"
+
+#, fuzzy
+msgid "Network metric"
 msgstr "网络菜单"
 
 msgid "Network mounts"
@@ -12443,6 +12530,10 @@ msgstr ""
 "网络向导完成 。\n"
 "\n"
 "按“确定”继续."
+
+#, fuzzy
+msgid "Network-ID"
+msgstr "网络标识"
 
 msgid "Network:"
 msgstr "网络 :"
@@ -12526,6 +12617,10 @@ msgstr "下一个 Bouquet"
 
 msgid "Next Page"
 msgstr "下一页"
+
+#, fuzzy
+msgid "Next channel"
+msgstr "下一个频道页面"
 
 msgid "Next channel page"
 msgstr "下一个频道页面"
@@ -12813,6 +12908,12 @@ msgstr "无"
 msgid "NordVPN"
 msgstr ""
 
+msgid "NordVPN Secure DNS"
+msgstr ""
+
+msgid "NordVPN Smart DNS"
+msgstr ""
+
 msgid "NordVPN SmartDNS"
 msgstr ""
 
@@ -12873,6 +12974,9 @@ msgstr "未安装"
 msgid "Not Shown"
 msgstr "未显示"
 
+msgid "Not a valid tuner"
+msgstr ""
+
 msgid "Not associated"
 msgstr "无关联"
 
@@ -12899,6 +13003,9 @@ msgstr ""
 "Filesize: %sMB\n"
 "Free Space: %sMB\n"
 "Path: %s"
+
+msgid "Not joined. Press Yellow to join."
+msgstr ""
 
 msgid "Not required"
 msgstr "无需"
@@ -13104,6 +13211,10 @@ msgstr "小纪布瓦"
 msgid "Older files in the time shift directory are removed on every event change."
 msgstr "每次事件更改时都会删除时间转移目录中的旧文件."
 
+#, fuzzy
+msgid "Olympic blue"
+msgstr "奥林匹克蓝"
+
 msgid "Olympics"
 msgstr "奥运会"
 
@@ -13161,6 +13272,15 @@ msgstr "只要在这个时候之前迅速移动菜肴."
 
 msgid "Only on startup"
 msgstr "仅在启动时"
+
+msgid "Only use DNS servers implementing the DNS-over-HTTPS protocol. This causes DNS lookups to be made via the encrypted HTTPS protocol."
+msgstr ""
+
+msgid "Only use DNS servers implementing the DNSCrypt protocol."
+msgstr ""
+
+msgid "Only use DNS servers implementing the Oblivious DNS-over-HTTPS protocol. This adds another layer of privacy by adding a proxy layer to the DNS-over-HTTPS request."
+msgstr ""
 
 msgid "Open"
 msgstr "打开"
@@ -13414,10 +13534,12 @@ msgstr "打开VIX"
 msgid "OpenVpn Log"
 msgstr "打开Vpn 日志"
 
-msgid "Operating LED status in deep standby mode"
+#, fuzzy
+msgid "Operating LED status in Deep Standby"
 msgstr "深待命状态操作 LED"
 
-msgid "Operating LED status in standby mode"
+#, fuzzy
+msgid "Operating LED status in Standby"
 msgstr "处于待命状态的 LED 操作状态"
 
 msgid "Operating LED status while running"
@@ -13443,6 +13565,10 @@ msgstr "选项"
 
 msgid "Or use standard 'Harddisk Setup' to initialize your drive in ext4."
 msgstr "或使用标准\"Harddisk setup\"在ext4中初始化您的驱动器."
+
+#, fuzzy
+msgid "Orange"
+msgstr "橙红色"
 
 msgid "Orbital position"
 msgstr "轨道位置"
@@ -13765,6 +13891,10 @@ msgstr "密码( httpuser)"
 msgid "Password (httpwd)"
 msgstr "密码 (httpwd)"
 
+#, fuzzy
+msgid "Password / Key"
+msgstr "密码"
+
 msgid "Password Actions"
 msgstr "密码动作"
 
@@ -13919,6 +14049,9 @@ msgstr "支柱框"
 msgid "Pilot"
 msgstr "飞行员"
 
+msgid "Pink"
+msgstr ""
+
 msgid "Pitcairn"
 msgstr "皮特凯恩"
 
@@ -13963,6 +14096,10 @@ msgstr "播放音频CD..."
 
 msgid "Play back media files"
 msgstr "播放媒体文件"
+
+#, fuzzy
+msgid "Play current channel"
+msgstr "(当前频道)"
 
 msgid "Play entry"
 msgstr "播放条目"
@@ -14376,9 +14513,6 @@ msgstr "请在插件更新时等待 ."
 msgid "Please wait while we check your installed plugins..."
 msgstr "检查您的插件时请稍候..."
 
-msgid "Please wait while we configure your network..."
-msgstr "请稍候, 当我们配置您的网络..."
-
 msgid "Please wait while we prepare your network interfaces..."
 msgstr "请等一下,我们准备您的网络接口..."
 
@@ -14528,7 +14662,8 @@ msgstr "定位器设置"
 msgid "Power"
 msgstr "权力"
 
-msgid "Power LED State in Deep-Standby"
+#, fuzzy
+msgid "Power LED State in Deep Standby"
 msgstr "电力LED 深山边州"
 
 msgid "Power LED State in Standby"
@@ -14537,11 +14672,16 @@ msgstr "电力LED 待命状态"
 msgid "Power LED can be turned on or off here."
 msgstr "电源LED可以在这里开启或关闭."
 
-msgid "Power LED state during deep-standby."
+#, fuzzy
+msgid "Power LED state during Deep Standby."
 msgstr "深立时电LED状态."
 
-msgid "Power LED state during standby."
+#, fuzzy
+msgid "Power LED state during Standby."
 msgstr "备用时的电源LED状态."
+
+msgid "Power LED state during deep-standby."
+msgstr "深立时电LED状态."
 
 msgid "Power On Display"
 msgstr "显示时的力量"
@@ -14605,6 +14745,9 @@ msgstr "偏好听力受损的字幕"
 
 msgid "Prefer subtitles stored by service"
 msgstr "按服务存储的首选字幕"
+
+msgid "Preferred connection priority when multiple Wi-Fi profiles are configured. Lower numbers have a higher priority."
+msgstr ""
 
 msgid "Preferred tuner"
 msgstr "首选调奏器"
@@ -14726,9 +14869,6 @@ msgstr "按“确定”键选择卫星"
 msgid "Press OK to select/deselect a CAId."
 msgstr "Press OK to select/deselect a CAId."
 
-msgid "Press OK to set the MAC address."
-msgstr "按“确定”设置MAC地址."
-
 msgid "Press OK to start the backup now"
 msgstr "按 “确定” 启动备份"
 
@@ -14780,9 +14920,6 @@ msgstr ""
 "Press up/down to scroll commits\n"
 "Press left/right to change project"
 
-msgid "Press yellow to set this interface as the default interface."
-msgstr "按下黄色设置此接口为默认接口."
-
 msgid "Pressing the panic button will zap you to this channel number in your first bouquet."
 msgstr "按下恐慌按钮会按下你的第一个花序上的频道号码."
 
@@ -14804,6 +14941,10 @@ msgstr "上一个 Bouquet"
 msgid "Previous Page"
 msgstr "上一页"
 
+#, fuzzy
+msgid "Previous channel"
+msgstr "上一个频道页面"
+
 msgid "Previous channel page"
 msgstr "上一个频道页面"
 
@@ -14819,6 +14960,14 @@ msgstr "前卫"
 msgid "Primary DNS"
 msgstr "初级 DNS"
 
+#, fuzzy
+msgid "Primary DNS (IPv4)"
+msgstr "初级 DNS"
+
+#, fuzzy
+msgid "Primary DNS (IPv6)"
+msgstr "初级 DNS"
+
 msgid "Prime time"
 msgstr "初始时间"
 
@@ -14830,6 +14979,9 @@ msgstr "初等时间"
 
 msgid "Priority"
 msgstr "优先权"
+
+msgid "Privacy level"
+msgstr ""
 
 msgid "Problem starting scan"
 msgstr "开始扫描有问题"
@@ -15020,6 +15172,10 @@ msgstr "Purge all but the current and permanent locales/languages. Add the curre
 msgid "Purging all unused locales/languages..."
 msgstr "Purging all unused locales/languages..."
 
+#, fuzzy
+msgid "Purple"
+msgstr "紫色"
+
 msgid "Pushto / Pashto"
 msgstr "普什图/普什图"
 
@@ -15054,6 +15210,16 @@ msgstr "Quad Pip 频道"
 
 msgid "Quad PiP is not available."
 msgstr "Quad Pip 不可用 ."
+
+msgid "Quad9 (Malware blocking + DNSSEC)"
+msgstr ""
+
+msgid "Quad9 (Malware blocking + ECS)"
+msgstr ""
+
+#, fuzzy
+msgid "Quad9 (Unsecured / no blocking)"
+msgstr "四方9个DNS"
 
 msgid "Quad9 DNS"
 msgstr "四方9个DNS"
@@ -15465,8 +15631,13 @@ msgstr ""
 msgid "Refresh"
 msgstr "刷新"
 
-msgid "Refresh every (in hours)"
-msgstr "每隔(小时)刷新一次"
+#, fuzzy
+msgid "Refresh ZeroTier status information"
+msgstr "Directory/File status information"
+
+#, fuzzy
+msgid "Refresh every"
+msgstr "刷新屏幕"
 
 msgid "Refresh rate"
 msgstr "刷新率"
@@ -15622,9 +15793,6 @@ msgstr "删除服务"
 
 msgid "Remove Terrestrial Services"
 msgstr "删除地面服务"
-
-msgid "Remove a DNS entry"
-msgstr "删除 DNS 条目"
 
 msgid "Remove a mark"
 msgstr "删除标记"
@@ -15917,6 +16085,10 @@ msgstr "重新开始谜题"
 msgid "Restart necessary, restart GUI now?"
 msgstr "需要重新启动吗 ?"
 
+#, fuzzy
+msgid "Restart network to with current setup"
+msgstr "开始记录当前事件"
+
 msgid "Restart softcam"
 msgstr "重新开始软相机"
 
@@ -16074,6 +16246,16 @@ msgstr "根图像"
 msgid "Root directory"
 msgstr "根目录"
 
+msgid "Root squash"
+msgstr ""
+
+msgid "Rose"
+msgstr ""
+
+#, fuzzy
+msgid "Rotor is not configured"
+msgstr "未配置"
+
 msgid "Rotor turning speed"
 msgstr "旋转转速"
 
@@ -16225,9 +16407,6 @@ msgstr "SSA 文件"
 msgid "SSID"
 msgstr "软件"
 
-msgid "SSID:"
-msgstr "安静:"
-
 msgid "STB Display"
 msgstr "编 显示"
 
@@ -16374,7 +16553,8 @@ msgstr "保存并停止"
 msgid "Save directory on EXIT"
 msgstr "在 EXIT 上保存目录"
 
-msgid "Save every (in hours)"
+#, fuzzy
+msgid "Save every"
 msgstr "保存时间( 小时)"
 
 #, python-format
@@ -16512,10 +16692,12 @@ msgstr "计划备份"
 msgid "Schedule EPG and channel list import"
 msgstr "计划 EPG 和频道列表导入"
 
-msgid "Scheduled load of epg.dat"
+#, fuzzy
+msgid "Scheduled load of 'epg.dat'"
 msgstr "计划负载 epg.dat"
 
-msgid "Scheduled save of epg.dat"
+#, fuzzy
+msgid "Scheduled save of 'epg.dat'"
 msgstr "计划保存 epg.dat"
 
 msgid "Sci-Fi"
@@ -16574,6 +16756,14 @@ msgid "Second cable of motorized LNB"
 msgstr "机动化LNB第二电缆"
 
 msgid "Secondary DNS"
+msgstr "二级DNS"
+
+#, fuzzy
+msgid "Secondary DNS (IPv4)"
+msgstr "二级DNS"
+
+#, fuzzy
+msgid "Secondary DNS (IPv6)"
 msgstr "二级DNS"
 
 msgid "Seconds"
@@ -16690,9 +16880,6 @@ msgstr ""
 msgid "Select 'Yes' the keep the InfoBar displayed, with no timeout, while media playback is paused."
 msgstr "选择“ 是” 保留显示的InfoBar, 没有超时, 而媒体播放暂停 ."
 
-msgid "Select 'Yes' to allow each storage device detected to be automatically exported as samba share."
-msgstr ""
-
 msgid "Select 'Yes' to allow the VPS to adjust recording timers based on broadcast Program Delivery Control (PDC) data. For this to work the service must provide reliable event PDC data."
 msgstr ""
 
@@ -16701,10 +16888,6 @@ msgstr "选择“ 是” 允许使用搜索栏跳转到事件内选定的点 ."
 
 msgid "Select 'Yes' to always show the bouquet screen first when opening the channel list. Select 'No' to open the channel list using the current bouquet."
 msgstr "选择“ 是” 在打开频道列表时总是先显示花纹屏幕 。 选择“ 否” 以使用当前花序打开频道列表 ."
-
-#, fuzzy
-msgid "Select 'Yes' to automatically rotate DNS servers."
-msgstr "选择“是”在搜索中包含符号率 %s."
 
 msgid "Select 'Yes' to check if network connections are coming from nominated IP Addresses at the activation time of the timer. If so, the timer will be deactivated."
 msgstr "选择“ 是” 以检查网络连接是否来自指定时间启动时的 IP 地址 。 如果是的话,定时器将被关闭."
@@ -16733,6 +16916,9 @@ msgstr "选择“ 是” 在文件命令文件查看器中显示未知文件, �
 msgid "Select 'Yes' to enable AI-Powered Translation for all teletext and DVB subtitles."
 msgstr "选择“ 是” 以启用所有远程文本和 DVB 字幕的 AI Powered 翻译 ."
 
+msgid "Select 'Yes' to enable DNS entry rotation. This rotation changes the order in which the list of DNS servers is used and can avoid issues if a DNS server in the list becomes unavailable."
+msgstr ""
+
 msgid "Select 'Yes' to enable editing of this device's settings. Selecting 'No' resets the devices settings to their default values."
 msgstr "选择“ 是” 以允许编辑此设备的设置 。 选择“ 无” 将设备设置重置到默认值 ."
 
@@ -16747,6 +16933,9 @@ msgstr "选择“ 是” 以启用 EPG 列表中的频道预览 。 按“ OK”
 
 msgid "Select 'Yes' to enable the loading of unlinked user bouquets. That is, user bouquets that are not included in the bouquets.tv or bouquets.radio files will be loaded. This allows you to, for example, create bouquets that do not conflict with, or get replaced by, bouquets that came from settings packages."
 msgstr "选择“ 是” 以启用未连接用户花序的加载 。 即未入花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花. tv或花t. 将装入无线电文件 。 例如,这允许您创建与来自设置包的花序不相冲突或被取而代之的花序."
+
+msgid "Select 'Yes' to enable the monitoring UI web interface for the DNSCrypt subsystem."
+msgstr ""
 
 msgid "Select 'Yes' to enable use of the LEFT/RIGHT buttons to move PageUp/PageDown when the LEFT/RIGHT buttons are otherwise undefined. This provides legacy navigation for users who prefer it."
 msgstr "选择“ 是” 以启用使用 LEFT/ RIGHT 按钮来移动 PageUp/PageDown 当 LEFT/ RIGHT 按钮被非定义时 。 这为喜欢它的用户提供了遗产导航."
@@ -17123,6 +17312,10 @@ msgstr "选择要显示任务和脚本信息的时间 ."
 msgid "Select how long, in seconds, that the volume and mute displays are shown before they automatically hide."
 msgstr "选择音量和哑声显示在自动隐藏前的长度, 以秒计 ."
 
+#, fuzzy
+msgid "Select how much EPG history, if any, to keep in the EPG cache. This historic data can be browsed in any of the EPG views. This can be useful for information about an event which has finished."
+msgstr "选择 IPG 保存到 IPG 缓存的 IPG 历史 。 这种历史数据可以在任何EPG视图中浏览. 当您需要关于最近完成的事件的信息时, 这会有所帮助 ."
+
 msgid "Select how often this timer is to be repeated."
 msgstr "选择要重复此计时器的频率 ."
 
@@ -17245,6 +17438,9 @@ msgstr "选择 %s 条目"
 msgid "Select the AI-Powered Translation target language."
 msgstr "选择 AI Powered 翻译目标语言 ."
 
+msgid "Select the DNS server(s) that will be used to lookup the host name to resolve the IP address."
+msgstr ""
+
 msgid "Select the No / False response"
 msgstr "选择无/ 虚假响应"
 
@@ -17278,9 +17474,6 @@ msgstr "选择要分配给此调制解调器的用户频段 。 这是SCR开关�
 
 msgid "Select the Yes / True response"
 msgstr "选择是/ 真实的响应"
-
-msgid "Select the access mode for the automatically exported samba shares."
-msgstr ""
 
 msgid "Select the action to perform when the timer ends."
 msgstr "选择计时器结束时要执行的动作 ."
@@ -17445,6 +17638,12 @@ msgstr "选择您的 SCR 设备的制造商 。 如果不列出制造商,请将�
 msgid "Select the method of restoring screen resolution and framebuffer when leaving teletext."
 msgstr "选择在离开远程文本时恢复屏幕分辨率和帧缓冲器的方法 ."
 
+msgid "Select the mode of access, Read/Write or Read Only, applied to all automatically exported Samba shares."
+msgstr ""
+
+msgid "Select the mode of access, Read/Write or Read Only, applied to all exported directories."
+msgstr ""
+
 msgid "Select the model number of your Unicable device. If the model number is not listed, set 'SCR' to 'User defined' and enter the device parameters manually according to its specifications."
 msgstr "选择不可读设备的模型编号。 如果不列出模型编号,请将“ SCR” 设置为“ 用户定义 ” , 并按照其规格手动输入设备参数 ."
 
@@ -17465,6 +17664,12 @@ msgstr ""
 "选择用于互联网连接的网络接口。\n"
 "\n"
 "按“确定”继续."
+
+msgid "Select the network metric for this adapter. When multiple adapters are active, the one with the lowest network metric is used as the default route for network traffic."
+msgstr ""
+
+msgid "Select the network name (SSID) of the wireless network to which the receiver should connect."
+msgstr ""
 
 #, python-format
 msgid "Select the new mount point for: '%s'"
@@ -17521,6 +17726,9 @@ msgstr "选择要配置的卫星 。 一旦配置完毕,您就可以选择和配
 msgid "Select the screen layout, from the options provided by the skin, to be used for the ChannelSelection screen."
 msgstr "从外观提供的选项中选择用于ChannelSelection屏幕的屏幕布局."
 
+msgid "Select the security protocol that will be used to access the selected wireless network."
+msgstr ""
+
 msgid "Select the shifted character set"
 msgstr "选择已改变的字符集"
 
@@ -17550,10 +17758,6 @@ msgstr "选择菜单项的排序顺序。 用户定义还允许隐藏菜单条�
 
 msgid "Select the source location from where to obtain the upgrade files."
 msgstr "选择获取升级文件的源位置."
-
-#, fuzzy
-msgid "Select the source of the DNS settings."
-msgstr "选择默认 DNS 设置的来源 ."
 
 msgid "Select the starting/initial column to be activated on File Commander start up."
 msgstr "Select the starting/initial column to be activated on File Commander start up."
@@ -17674,6 +17878,56 @@ msgstr "Select what you want the Up/Down button to activate."
 
 msgid "Select where the recording should be saved."
 msgstr "选择要保存录音的地方."
+
+#, fuzzy
+msgid "Select whether AAC audio tracks should be transcoded."
+msgstr "选择 AAC 音轨是否应该被转码 ."
+
+#, fuzzy
+msgid "Select whether AC3 Plus audio tracks should be transcoded to AC3."
+msgstr "选择AC3是否 加之音轨应被转码为AC3."
+
+#, fuzzy
+msgid "Select whether AC3 audio tracks should be downmixed to stereo."
+msgstr "选择 AC3 音轨是否应该向下混合到立体声 ."
+
+msgid "Select whether AC4 (Dolby Atmos) audio tracks should be passed through to the AVR, downmixed to stereo, or auto-routed based on HDMI sink capability."
+msgstr ""
+
+#, fuzzy
+msgid "Select whether DTS channel audio tracks should be downmixed or transcoded."
+msgstr "选择 DTS 频道音轨是下同音轨还是转码."
+
+#, fuzzy
+msgid "Select whether DTS channel audio tracks should be downmixed to stereo."
+msgstr "选择 DTS 频道音轨是否应该向下混合到立体声 ."
+
+#, fuzzy
+msgid "Select whether Dolby TrueHD audio tracks should be passed through or decoded."
+msgstr "选择 DTS 频道音轨是下同音轨还是转码."
+
+msgid "Select whether IPv4, IPv6, or both protocols should be used. If both are enabled then which should be preferred."
+msgstr ""
+
+#, fuzzy
+msgid "Select whether WMA Pro channel audio tracks should be downmixed or transcoded."
+msgstr "选择是否为 WMA Pro通道音轨应被下同或转码."
+
+#, fuzzy
+msgid "Select whether multichannel audio tracks should be converted to PCM or SPDIF."
+msgstr "选择多通道音轨是应该转换为PCM还是SPDIF."
+
+#, fuzzy
+msgid "Select whether multichannel audio tracks should be downmixed to stereo."
+msgstr "选择多通道音轨是否应该向下混合到立体声 ."
+
+#, fuzzy
+msgid "Select whether multichannel audio tracks should be output as PCM."
+msgstr "选择多通道音轨是否应该作为 PCM 输出 ."
+
+#, fuzzy
+msgid "Select which IP protocols can be used with this adapter."
+msgstr "选择用于此计时器的频道或服务 ."
 
 msgid "Select wireless network"
 msgstr "选择无线网络"
@@ -17799,6 +18053,15 @@ msgstr "服务器 %s-%s"
 msgid "Server down"
 msgstr "服务器和"
 
+msgid "Server must not enforce its own blocklist. Some servers may implement their own blacklists to block sites for parental control, ad blocking, etc. reasons."
+msgstr ""
+
+msgid "Server must not log user queries (declarative). This can improve the privacy of DNS lookups by not logging the request on the server providing the data."
+msgstr ""
+
+msgid "Server must support DNS Security Extensions (DNSSEC). This is a data signing option that protects the integrity of the DNS data against compromises like cache poisoning."
+msgstr ""
+
 msgid "Server:"
 msgstr "服务器 :"
 
@@ -17919,6 +18182,10 @@ msgstr "服务编号字体大小"
 msgid "Service off-air"
 msgstr "服务空出"
 
+#, fuzzy
+msgid "Service online"
+msgstr "服务字体大小"
+
 msgid "Service picons aspect ratio"
 msgstr "服务相片宽度比"
 
@@ -18017,9 +18284,6 @@ msgstr "缩放模式"
 msgid "Set Time"
 msgstr "设定时间"
 
-msgid "Set a custom DNS suffix."
-msgstr ""
-
 msgid "Set a time offset before a timer is due to start to allow VPS to scan for the latest event timing. Select '0' to disable this feature."
 msgstr ""
 
@@ -18044,9 +18308,6 @@ msgstr "设定已固定"
 msgid "Set fps for external subtitles"
 msgstr "设置外部字幕的 fps"
 
-msgid "Set interface as the default Interface"
-msgstr "设定接口为默认接口"
-
 msgid "Set limits"
 msgstr "设定限制"
 
@@ -18061,10 +18322,6 @@ msgstr "设置启动服务"
 
 msgid "Set system"
 msgstr "设置系统"
-
-#, python-format
-msgid "Set the MAC address of your %s %s."
-msgstr "设置您的 %s %s 的 MAC 地址."
 
 msgid "Set the User ID of the OpenWebif from your fallback tuner"
 msgstr "从您的倒回调制器中设置 OpenWebif 的用户代号"
@@ -18100,14 +18357,24 @@ msgstr "设置搜索栏的跳出大小 ."
 msgid "Set the number of lines to be saved for 'stout' and 'sterr' output in scripts."
 msgstr "设定要保存的行数, 用于脚本中的“ stout” 和“ sterr” 输出 ."
 
+msgid "Set the password for the monitoring UI web interface."
+msgstr ""
+
 msgid "Set the password of the OpenWebif from your fallback tuner"
 msgstr "设置 OpenWebif 的密码, 请从您的回放调制解调器中选择"
+
+msgid "Set the port address (8080-9999) for the monitoring UI web interface."
+msgstr ""
 
 msgid "Set the port of the OpenWebif from your fallback tuner"
 msgstr "从您的倒回调制器中设定 OpenWebif 端口"
 
 msgid "Set the position of the recording icons."
 msgstr "设置录制图标的位置 ."
+
+#, fuzzy
+msgid "Set the privacy level for the monitoring UI web interface."
+msgstr "为“%s”服务设定音量级别."
 
 msgid "Set the repeat interval of backup schedule."
 msgstr "设置备份时间表的重复间隔 ."
@@ -18153,6 +18420,9 @@ msgstr "设定在关闭、待命或重新启动信件中等待执行默认动作
 
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr "设定频道选择屏幕中进度指示的类型 ."
+
+msgid "Set the username for the monitoring UI web interface."
+msgstr ""
 
 #, python-format
 msgid "Set the volume level for the '%s' service."
@@ -18203,6 +18473,14 @@ msgid "Set to the desired primetime (hour)."
 msgstr "设定为期望的黄金时间( 小时) ."
 
 msgid "Set to the desired primetime (minutes."
+msgstr "设定为所期望的黄金时间(分数) ."
+
+#, fuzzy
+msgid "Set to the desired primetime hour."
+msgstr "设定为期望的黄金时间( 小时) ."
+
+#, fuzzy
+msgid "Set to the desired primetime minutes."
 msgstr "设定为所期望的黄金时间(分数) ."
 
 msgid "Set to what you want the button to do."
@@ -18408,6 +18686,10 @@ msgstr "显示驱动程序包"
 msgid "Show ECM-Info"
 msgstr "显示企业内容管理信息"
 
+#, fuzzy
+msgid "Show EIT Now/Next event data in the InfoBar"
+msgstr "Show the EIT Now/Next data in the InfoBar."
+
 msgid "Show EIT now/next in infobar"
 msgstr "Show EIT now/next in infobar"
 
@@ -18474,7 +18756,8 @@ msgstr "显示 M2k 包"
 msgid "Show Media Player in Main Menu"
 msgstr "显示媒体 主菜单中的玩家"
 
-msgid "Show Media playback Remaining/Elapsed as"
+#, fuzzy
+msgid "Show Media playback remaining/elapsed as"
 msgstr "Show Media playback Remaining/Elapsed as"
 
 msgid "Show Merlin EPG Center"
@@ -18630,6 +18913,10 @@ msgstr "显示高级设置"
 
 msgid "Show all available services"
 msgstr "显示所有可用的服务"
+
+#, fuzzy
+msgid "Show all details"
+msgstr "显示 CPU 细节"
 
 msgid "Show animation while busy"
 msgstr "忙时显示动画"
@@ -18995,9 +19282,6 @@ msgstr "如果文件指针未运行, 所有任务均已完成, 则显示任务�
 msgid "Show the DreamPlex player..."
 msgstr "显示 DreamPlex 播放器..."
 
-msgid "Show the EIT Now/Next data in the InfoBar."
-msgstr "Show the EIT Now/Next data in the InfoBar."
-
 msgid "Show the information on current event."
 msgstr "显示当前事件的信息 ."
 
@@ -19065,7 +19349,8 @@ msgstr "Show/Hide focus bar"
 msgid "Showiframe"
 msgstr "显示框"
 
-msgid "Shows live tv or informations on LCD."
+#, fuzzy
+msgid "Shows live TV or informations on LCD."
 msgstr "在 LCD 上显示活电视或信息 ."
 
 msgid "Shows the icons when new/unseen, else will not show an icon."
@@ -19109,9 +19394,6 @@ msgstr "信号质量"
 
 msgid "Signal strength"
 msgstr "信号强度"
-
-msgid "Signal strength:"
-msgstr "信号强度 :"
 
 msgid "Signal: "
 msgstr "信号 :"
@@ -19502,9 +19784,6 @@ msgstr "索马里"
 msgid "Some TVs can't switch to the correct input if another HDMI port is active. This setting puts the TV into Standby before switching. If the TV does not turn back on, a slower transmission interval or repeating the wake-up command may be required."
 msgstr "如果另一个HDMI端口活动,一些电视无法切换到正确的输入. 此设置将电视设置为开关前的备用. (如果电视机不回转,可能需要较慢的传输间隔或重复唤醒命令. )"
 
-msgid "Some modems/routers may not support IPv6."
-msgstr ""
-
 msgid "Sorbian"
 msgstr "索布语"
 
@@ -19548,9 +19827,6 @@ msgid ""
 msgstr ""
 "抱歉, 没有检测到新的 usb 存储设备 。\n"
 "一定要遵守巫师的指示."
-
-msgid "Sorry, no physical devices that supports SWAP attached. Can't create Swapfile on network or fat32 filesystems"
-msgstr "抱歉, 没有支持全部门办法的物理设备。 无法在网络或 fat32 文件系统中创建交换文件"
 
 msgid "Sorry, no physical devices that supports SWAP attached. Can't create swap file on network or FAT32 file systems"
 msgstr "抱歉, 没有支持全部门办法的物理设备。 无法在网络或 FAT32 文件系统中创建互换文件"
@@ -19668,6 +19944,9 @@ msgstr "特殊特性设置"
 
 msgid "Specify the directory to use when starting Media Player."
 msgstr "指定启动媒体播放器时使用的目录 ."
+
+msgid "Specify the network DNS suffix to be applied when only the host name is provided. This helps the DNS resolver find the requested host."
+msgstr ""
 
 msgid "Speed"
 msgstr "速度"
@@ -19831,11 +20110,13 @@ msgstr "状态消息超时"
 msgid "Status of the display during operation"
 msgstr "运行时显示状态"
 
-msgid "Status of the display in deep standby"
+#, fuzzy
+msgid "Status of the display in Deep Standby"
 msgstr "深空状态显示状态"
 
-msgid "Status of the display in standby mode"
-msgstr "在备用模式下显示的状态"
+#, fuzzy
+msgid "Status of the display in Standby"
+msgstr "深空状态显示状态"
 
 msgid "Status unavailable!"
 msgstr "状态没有!"
@@ -20039,16 +20320,8 @@ msgid "Stripes"
 msgstr "条纹"
 
 #, fuzzy
-msgid "Subnetwork (cable)"
-msgstr "网络扫描"
-
-#, fuzzy
-msgid "Subnetwork (terrestrial)"
-msgstr "网络测试"
-
-#, fuzzy
-msgid "Subnetwork support (general)"
-msgstr "运动(一般)"
+msgid "Subnet mask"
+msgstr "网膜"
 
 msgid "Subservice Actions"
 msgstr "子服务动作"
@@ -20633,10 +20906,12 @@ msgstr ""
 msgid "The %s %s is shutting down. Please wait..."
 msgstr "%s %s 正在关闭。 请等一下..."
 
-msgid "The %s %s reads the stored EPG data every (hours)."
+#, fuzzy
+msgid "The %s %s reads the stored EPG data every selected number of hours."
 msgstr "%s %s 每(小时)读取存储的 EPG 数据."
 
-msgid "The %s %s stores the EPG data every (hours)."
+#, fuzzy
+msgid "The %s %s stores the EPG data every selected number of hours."
 msgstr "%s %s 存储 EPG 数据每隔(小时)."
 
 #, python-format
@@ -21061,17 +21336,19 @@ msgstr "此 DVD RW 介质已经格式化了 - 重排将删除光碟上的所有�
 msgid "This Device is already mounted as HDD."
 msgstr "此设备已挂载为 HDD ."
 
-msgid "This Option allows you to switch Audio to BT Speakers."
-msgstr "此选项允许您切换音频到 BT 扬声器 ."
-
 msgid "This allows you change the font size relative to skin size, so 1 increases by 1 point size, and -1 decreases by 1 point size."
 msgstr "这使得您可以相对外观大小改变字体大小,因此1会增加1分大小,而-1会减少1分大小."
 
-msgid "This allows you change the number of rows shown."
+#, fuzzy
+msgid "This allows you to change the font size relative to skin size, so 1 increases by 1 point size, and -1 decreases by 1 point size."
+msgstr "这使得您可以相对外观大小改变字体大小,因此1会增加1分大小,而-1会减少1分大小."
+
+#, fuzzy
+msgid "This allows you to change the number of rows shown."
 msgstr "这允许您更改显示的行数 ."
 
 #, fuzzy
-msgid "This allows you to set the maximum number of digits in a service number, up to 5."
+msgid "This allows you to set the maximum number of digits in a service number, up to 6."
 msgstr "这使得您可以在超过9999频道时将数字设置为5."
 
 msgid "This bouquet is protected by a parental control PIN!"
@@ -21126,20 +21403,11 @@ msgstr "This option allows you choose how to display the remaining/elapsed time 
 msgid "This option allows you choose how to display the remaining/elapsed time for media playback."
 msgstr "This option allows you choose how to display the remaining/elapsed time for media playback."
 
-msgid "This option allows you choose if the display shows the time or nothing in Standby."
-msgstr "此选项允许您选择显示时是否在待命状态中显示时间 ."
-
-msgid "This option allows you choose if the display shows the time, channel number or nothing during operation."
-msgstr "此选项允许您选择显示在操作期间显示时间、 频道号码或无任何内容 ."
-
 msgid "This option allows you choose the background color of transparent picons."
 msgstr "此选项允许您选择透明相片的背景颜色 ."
 
 msgid "This option allows you choose the option for Subservice indicator or selection."
 msgstr "此选项允许您选择子服务指标或选择的选项 ."
-
-msgid "This option allows you set the layout view (Text or Graphics)."
-msgstr "此选项允许您设置布局视图( 文本或图形) ."
 
 msgid "This option allows you to Power Off the display."
 msgstr "此选项允许您关闭显示器 ."
@@ -21193,7 +21461,28 @@ msgstr "此选项允许您选择如何以 + 或 - 的方式显示过期时间 ."
 msgid "This option allows you to choose how to display standard definition video on your TV."
 msgstr "此选项允许您选择如何在您的电视上显示标准定义视频 ."
 
-msgid "This option allows you to choose what the first button press jumps to in channel list screen, (so pressing '2' jumps to 'A' or '2' first), when 'Quick Actions' preset actions are performed. "
+#, fuzzy
+msgid "This option allows you to choose how to display the remaining time, the elapsed time, or both."
+msgstr "此选项允许您选择如何显示剩余时间, 或过期时间, 或者两者兼有 ."
+
+#, fuzzy
+msgid "This option allows you to choose how to display the remaining/elapsed time for live TV."
+msgstr "This option allows you choose how to display the remaining/elapsed time for live tv."
+
+#, fuzzy
+msgid "This option allows you to choose how to display the remaining/elapsed time for media playback."
+msgstr "This option allows you choose how to display the remaining/elapsed time for media playback."
+
+#, fuzzy
+msgid "This option allows you to choose if the display shows the time or nothing in Standby."
+msgstr "此选项允许您选择显示时是否在待命状态中显示时间 ."
+
+#, fuzzy
+msgid "This option allows you to choose if the display shows the time, channel number or nothing during operation."
+msgstr "此选项允许您选择显示在操作期间显示时间、 频道号码或无任何内容 ."
+
+#, fuzzy
+msgid "This option allows you to choose what the first button press jumps to in channel list screen, (so pressing '2' jumps to 'A' or '2' first), when 'Quick Actions' preset actions are performed."
 msgstr "此选项允许您选择在频道列表屏幕中按下第一个按钮跳转到什么( 因此按下“ 2” 跳到“ A” 或“ 2” 的第一个) , 当“ 快速动作” 预设动作执行时 ."
 
 msgid "This option allows you to choose whether or not to display genre information for the event."
@@ -21237,6 +21526,18 @@ msgstr "此选项允许您对 UHD 强制 HLG 模式"
 msgid "This option allows you to set offset values for different Letterbox resolutions."
 msgstr "此选项允许您为不同的 Litterbox 分辨率设置偏移值 ."
 
+#, fuzzy
+msgid "This option allows you to set the Auto Volume Level output."
+msgstr "此选项配置您可以设置自动音量级别 ."
+
+#, fuzzy
+msgid "This option allows you to set the layout view (Text or Graphics)."
+msgstr "此选项允许您设置布局视图( 文本或图形) ."
+
+#, fuzzy
+msgid "This option allows you to switch Audio to Bluetooth speakers."
+msgstr "此选项允许您切换音频到 BT 扬声器 ."
+
 msgid "This option allows you to the SNR as a percentage (not all receivers support this)."
 msgstr "此选项允许您以百分数方式访问 SNR( 并非所有接收者都支持) ."
 
@@ -21247,14 +21548,9 @@ msgstr "此选项允许您使用所有 HDMI 模式"
 msgid "This option allows you to view the old and new settings side by side."
 msgstr "此选项允许您同时查看新旧设置 ."
 
-msgid "This option configures the general audio delay for BT Speakers."
+#, fuzzy
+msgid "This option configures the audio delay value for Bluetooth speakers."
 msgstr "此选项为 BT Speakers 配置一般音频延迟 ."
-
-msgid "This option configures the general audio delay of Dolby Digital sound tracks."
-msgstr "此选项配置 Dolby Digital 音轨的一般音频延迟 ."
-
-msgid "This option configures the general audio delay of stereo sound tracks."
-msgstr "此选项配置了音效音轨的一般音频延迟 ."
 
 msgid "This option configures the picture sharpness."
 msgstr "此选项配置图片的锐度 ."
@@ -21264,9 +21560,6 @@ msgstr "此选项以 PC 输出模式配置屏幕分辨率 ."
 
 msgid "This option configures the video output mode (or resolution)."
 msgstr "此选项配置视频输出模式( 或分辨率) ."
-
-msgid "This option configures you can set Auto Volume Level."
-msgstr "此选项配置您可以设置自动音量级别 ."
 
 msgid "This option lets you adjust the 3D depth"
 msgstr "此选项允许您调整 三维深度"
@@ -21282,6 +21575,14 @@ msgstr "此选项允许您在扩展屏幕中显示选项 ."
 
 msgid "This option moves the PVR status display from a separate window into the MoviePlayer InfoBar."
 msgstr "此选项将 PVR 状态显示从单独的窗口移动到 MoviePlayer InfoBar 中 ."
+
+#, fuzzy
+msgid "This option selects the general audio delay of Dolby Digital sound tracks."
+msgstr "此选项配置 Dolby Digital 音轨的一般音频延迟 ."
+
+#, fuzzy
+msgid "This option selects the general audio delay of stereo sound tracks."
+msgstr "此选项配置了音效音轨的一般音频延迟 ."
 
 msgid "This option set the level of suppression of mosquito noise (Mosquito Noise is random aliasing as a result of strong compression). Obviously this goes at the cost of picture details."
 msgstr "此选项设定了蚊子噪声的抑制程度(Mosquito Noise由于强烈压缩而随机化名). 显然,这是以图片细节为代价的."
@@ -22016,6 +22317,13 @@ msgstr "调试算法"
 msgid "Tunisia"
 msgstr "突尼斯"
 
+msgid "Tunnel IPv4"
+msgstr ""
+
+#, fuzzy
+msgid "Tunnel IPv6"
+msgstr "启用 IPv6"
+
 msgid ""
 "Turbo: One reboot after flash\n"
 "Fast: One reboot after flash, one reboot after restore\n"
@@ -22441,8 +22749,21 @@ msgstr "使用自动卡"
 msgid "Use DHCP"
 msgstr "使用 DHCP"
 
+msgid "Use DNS cache"
+msgstr ""
+
+#, fuzzy
+msgid "Use DNS rotation"
+msgstr "叙述"
+
+msgid "Use DNSCrypt servers"
+msgstr ""
+
 msgid "Use Deinterlacing for 1080i Videosignal?"
 msgstr "使用 Dinterlacing 为 1080i 视频信号吗 ?"
+
+msgid "Use DoH servers"
+msgstr ""
 
 msgid "Use EIT EPG information when it is available."
 msgstr "在有经济转型期经济促进小组信息时使用."
@@ -22468,6 +22789,9 @@ msgstr "可用时使用 MHW EPG 信息."
 msgid "Use Netmed EPG information when it is available."
 msgstr "可用时使用Netmed EPG信息."
 
+msgid "Use ODoH servers"
+msgstr ""
+
 msgid "Use OpenTV EPG. Requires tuning to specific transponder to absorb EPG."
 msgstr "使用OpenTV EPG.  Open. 需要调整到特定的转发器来吸收电子化处理器."
 
@@ -22489,6 +22813,9 @@ msgstr "可用时使用 Virgin EPG 信息 ."
 #, fuzzy
 msgid "Use Zap timer end times"
 msgstr "使用 Zap 计时器结束时间"
+
+msgid "Use a DNS cache to locally store recent DNS lookups to improve performance, reduce latency and outgoing traffic."
+msgstr ""
 
 msgid "Use a gateway"
 msgstr "使用网关"
@@ -22559,8 +22886,17 @@ msgstr "使用遗留导航"
 msgid "Use official channel numbering"
 msgstr "使用正式频道编号"
 
+msgid "Use only DNSSEC servers"
+msgstr ""
+
 msgid "Use only for Wake on WLan (WoW)"
 msgstr "仅用于 WLAN (WOW)"
+
+msgid "Use only no-filter servers"
+msgstr ""
+
+msgid "Use only no-log servers"
+msgstr ""
 
 msgid "Use original DVB subtitle position"
 msgstr "使用原始 DVB 字幕位置"
@@ -22827,6 +23163,10 @@ msgstr "文达"
 
 msgid "Venezuela, Bolivarian Republic of"
 msgstr "委内瑞拉玻利瓦尔共和国"
+
+#, fuzzy
+msgid "Version"
+msgstr "版本 :"
 
 msgid "Version: "
 msgstr "版本 :"
@@ -23180,6 +23520,12 @@ msgstr "醒来待命"
 msgid "Wake up your AV Receiver or Soundbar from Standby"
 msgstr "唤起你的AV 待命接收者"
 
+msgid "Wake-on-LAN"
+msgstr ""
+
+msgid "Wake-on-WiFi"
+msgstr ""
+
 msgid "Wallis and Futuna"
 msgstr "瓦利斯和富图纳"
 
@@ -23325,6 +23671,10 @@ msgstr "西弗里西亚语Name"
 msgid "Western Sahara"
 msgstr "西撒哈拉"
 
+#, fuzzy
+msgid "Western satellites"
+msgstr "连接的卫星"
+
 msgid "What Day of month ?"
 msgstr "什么节日的月份?"
 
@@ -23376,7 +23726,8 @@ msgstr "启用后, AIT 数据将包含在 http 流中. 这允许客户端接收�
 msgid "When enabled, EIT data will be included in http streams. This allows a client receiver to show EPG."
 msgstr "如果启用, 经济转型期数据将包含在 http 流中。 这允许客户端接收器显示EPG."
 
-msgid "When enabled, SDT, BAT data will be included in http streams."
+#, fuzzy
+msgid "When enabled, SDT and BAT data will be included in http streams."
 msgstr "启用时, SDT, BAT 数据将包含在 http 流中."
 
 msgid "When enabled, a pop up message will be shown when a movie has finished and the next one will start."
@@ -23400,11 +23751,34 @@ msgstr "当启用时,当没有免费调音器时,允许录音中断直播电视.
 msgid "When enabled, a warning will be displayed and the user will get an option to stop or to continue the time shift."
 msgstr "启用后, 将会显示警告, 用户将获得停止或继续时间转移的选项 ."
 
+msgid "When enabled, allow Samba network access without a password."
+msgstr ""
+
+msgid "When enabled, allow connection to access points that don't broadcast their SSID."
+msgstr ""
+
+msgid "When enabled, allow each storage device detected to be automatically exported as a Samba share."
+msgstr ""
+
+msgid "When enabled, allow the receiver to be powered on by a remote Wake-on-LAN network signal (Magic Packet)."
+msgstr ""
+
+#, fuzzy
+msgid "When enabled, allow usage of the NFS version 3 protocols."
+msgstr "启用时, 录音开始时会显示弹出的消息 ."
+
+#, fuzzy
+msgid "When enabled, allow usage of the NFS version 4 protocols."
+msgstr "启用时, 录音开始时会显示弹出的消息 ."
+
 msgid "When enabled, always unscramble receiving http streams. This takes up more resources (unscrambling demuxers), only enable if necessary. Individual streams are always unscrambled if 0x100 is added to the service type, regardless of this setting."
 msgstr "当启用时, 总是无法快速接收 http 流 。 这需要更多的资源(不可移动的调试器),只有在必要时才能启用. 如果将 0x100 添加到服务类型中,无论设置如何,单个流总是被取消."
 
 msgid "When enabled, authentication is required to watch http streams."
 msgstr "启用时, 需要认证来监视 http 流 ."
+
+msgid "When enabled, connection via saved network is attempted when the Wi-Fi adapter connects."
+msgstr ""
 
 msgid "When enabled, content with an aspect ratio of 4:3 will be stretched to fit the screen."
 msgstr "When enabled, content with an aspect ratio of 4:3 will be stretched to fit the screen."
@@ -23427,6 +23801,12 @@ msgstr "启用时, 图形 DVB 字幕会显示在原位置 ."
 msgid "When enabled, it is possible to leave the movie player with exit."
 msgstr "启用后,可以让出电影播放器退出."
 
+msgid "When enabled, keep the Wi-Fi adapter in low-power scan mode during Standby to allow the receiver to be powered on by a remote network signal (Magic Packet)."
+msgstr ""
+
+msgid "When enabled, map root to nobody (more secure). When disabled, full root access is available."
+msgstr ""
+
 msgid "When enabled, measure power consumption to detect when the rotor stops turning (when supported by the tuner)."
 msgstr "启用时,测量功率消耗以检测转子停止转动时(由调音器支持时)."
 
@@ -23435,6 +23815,9 @@ msgstr "启用时, 网络垃圾桶会被探测清扫 ."
 
 msgid "When enabled, number markers will be hidden."
 msgstr "启用后, 数字标记将被隐藏 ."
+
+msgid "When enabled, obtain the IP address, subnet mask, gateway, and DNS settings automatically via DHCP."
+msgstr ""
 
 msgid "When enabled, pressing '0' will zap you to the first channel in your first bouquet and delete your zap-history."
 msgstr "启用时, 按下\" 0\" 将会将您拖入您第一个花式的第一个频道并删除您的 Zap- History ."
@@ -23447,6 +23830,9 @@ msgstr "启用时, 在频道选择屏幕中显示频道编号 ."
 
 msgid "When enabled, show status or error messages."
 msgstr "启用时显示状态或错误消息 ."
+
+msgid "When enabled, specify custom DNS settings for this adapter instead of the global DNS settings."
+msgstr ""
 
 msgid "When enabled, subtitles for the hearing impaired can be used."
 msgstr "启用时,可以使用听力受损者的字幕."
@@ -23493,6 +23879,12 @@ msgstr "启用时,接收者会选择一个AC3音轨(如果有的话)."
 
 msgid "When enabled, the receiver will select an AC3+ track (when available)."
 msgstr "启用时,接收者会选择一个AC3+音轨(如果有的话)."
+
+msgid "When enabled, this Wi-Fi adapter is kept in Wake-on-WiFi mode only and will not be used to connect to any network."
+msgstr ""
+
+msgid "When enabled, this adapter is initialized and activated at boot time."
+msgstr ""
 
 msgid "When enabled, this setting has more weight than 'Preferred tuner for recordings'."
 msgstr "启用时, 此设置比“ 首选的录音调制器” 更有分量 ."
@@ -23566,6 +23958,10 @@ msgstr "虽有"
 msgid "White"
 msgstr "白色"
 
+#, fuzzy
+msgid "Wi-Fi Connection Settings"
+msgstr "收藏设置"
+
 msgid "Wide"
 msgstr "宽"
 
@@ -23636,10 +24032,12 @@ msgstr "通过这个选项, 您可以从扩展屏幕中隐藏任务任务( BLUE 
 msgid "With this option you can switch off the display during operation."
 msgstr "使用此选项, 您可以在操作中关闭显示 ."
 
-msgid "With this option you can switch off the display in Deep Standby Mode."
+#, fuzzy
+msgid "With this option you can switch off the display in Deep Standby."
 msgstr "使用此选项, 您可以关闭深待命模式的显示 ."
 
-msgid "With this option you can switch off the display in Standby Mode."
+#, fuzzy
+msgid "With this option you can switch off the display in Standby."
 msgstr "通过这个选项, 您可以关闭备用模式的显示 ."
 
 msgid "With this option you can switch the LED color or deactivate the LED."
@@ -23657,11 +24055,18 @@ msgstr "向导动作"
 msgid "Wnw"
 msgstr "旋转"
 
+#, fuzzy
+msgid "WoW only"
+msgstr "仅限 EPG"
+
 msgid "Wolof"
 msgstr "胡萝卜"
 
 msgid "Workaround for old tuner driver"
 msgstr "老调谐器驱动器的绕行工作"
+
+msgid "Workgroup name"
+msgstr ""
 
 #, python-format
 msgid "Would you save the entered PIN %s persistent?"
@@ -24168,6 +24573,14 @@ msgstr "欢呼吧"
 msgid "Zap+Record next"
 msgstr "下一个 Zap+ 记录"
 
+#, fuzzy
+msgid "ZeroTier Actions"
+msgstr "计时器动作"
+
+#, fuzzy
+msgid "ZeroTier Settings"
+msgstr "电时器设置"
+
 msgid "Zhuang / Chuang"
 msgstr " Zhu/ Chu"
 
@@ -24273,9 +24686,6 @@ msgstr "阿尔法雷夫是最新的"
 msgid "am"
 msgstr "已经"
 
-msgid "aqua"
-msgstr "水量计"
-
 msgid ""
 "are you sure you want to restore\n"
 "following backup:\n"
@@ -24308,9 +24718,6 @@ msgstr "音频音轨"
 
 msgid "automatic"
 msgstr "自动"
-
-msgid "azure"
-msgstr "祖尔"
 
 msgid "back"
 msgstr "回来"
@@ -24767,9 +25174,6 @@ msgstr "休闲爱好(一般)"
 msgid "length"
 msgstr "长度"
 
-msgid "lime"
-msgstr "石灰"
-
 msgid "literature"
 msgstr "文献"
 
@@ -24924,9 +25328,6 @@ msgstr "关闭或 wpa2 打开"
 msgid "ok"
 msgstr "还好"
 
-msgid "olympic blue"
-msgstr "奥林匹克蓝"
-
 msgid "on READ ONLY medium."
 msgstr "仅限读取介质."
 
@@ -24941,9 +25342,6 @@ msgstr "由 OPD 图像团队制作的 OpenDroid"
 
 msgid "or"
 msgstr "或者说"
-
-msgid "orange"
-msgstr "橙红色"
 
 msgid "original language"
 msgstr "原文"
@@ -24973,9 +25371,6 @@ msgstr "表演艺术"
 msgid "pid:"
 msgstr "pid : (英语)"
 
-msgid "pink"
-msgstr "粉红色"
-
 msgid "please wait, loading picture..."
 msgstr "请等一下,装入图片..."
 
@@ -25002,9 +25397,6 @@ msgstr "证明:"
 
 msgid "provider:"
 msgstr "提供者 :"
-
-msgid "purple"
-msgstr "紫色"
 
 msgid "quit"
 msgstr "退出"
@@ -25060,9 +25452,6 @@ msgstr "rock/pop"
 
 msgid "romance"
 msgstr "爱情"
-
-msgid "rose"
-msgstr "玫瑰丝"
 
 msgid ""
 "satellites.xml not found or corrupted!\n"
@@ -25364,9 +25753,6 @@ msgstr "水上运动"
 
 msgid "west"
 msgstr "西部"
-
-msgid "white"
-msgstr "白色"
 
 msgid "width"
 msgstr "宽度"

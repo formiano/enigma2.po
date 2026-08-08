@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Opendroid\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-26 20:44+0200\n"
+"POT-Creation-Date: 2026-08-08 22:33+0200\n"
 "PO-Revision-Date: 2025-03-27 12:17+0100\n"
 "Last-Translator: OPD Team <opendroid2013@gmail.com>\n"
 "Language-Team: HDTV ROMANIA(superonic,costel_mbc,neutrin,otheitis,cipy_1982,neutrin,runcanion)\n"
@@ -1342,9 +1342,6 @@ msgstr "(Afișați meniul audio DVD opțional)"
 msgid "* = Restart Required"
 msgstr "* = Reporniți necesar"
 
-msgid "* Only available if more than one interface is active."
-msgstr "* Disponibil numai dacă mai multe interfețe sunt active."
-
 msgid "* current animation"
 msgstr "* Animația actuală"
 
@@ -1747,6 +1744,10 @@ msgstr "AC3 plus transcodare"
 msgid "AC3plus transcoding"
 msgstr "Transcodarea AC3PLUS"
 
+#, fuzzy
+msgid "AC4"
+msgstr "DAC"
+
 msgid "AFL"
 msgstr "AFL"
 
@@ -1827,11 +1828,12 @@ msgstr "Despre..."
 msgid "Above 200 Mbps"
 msgstr "Peste 200 Mbps"
 
+#, fuzzy
+msgid "Access mode"
+msgstr "Modul de testare"
+
 msgid "Access point"
 msgstr "Punct de acces"
-
-msgid "Access point:"
-msgstr "Punct de acces:"
 
 msgid "Access to geolocation information requires an Internet connection."
 msgstr "Accesul la informații despre geolocalizare necesită o conexiune la internet."
@@ -1959,9 +1961,6 @@ msgstr "Adăugați ZAP+RecordTimer"
 
 msgid "Add ZapTimer"
 msgstr "Adăugați zaptimer"
-
-msgid "Add a DNS entry"
-msgstr "Adăugați o intrare DNS"
 
 #, fuzzy
 msgid "Add a RADIO service to the Volume Offset list"
@@ -2191,6 +2190,9 @@ msgstr "După înregistrare"
 msgid "After zap"
 msgstr "După Zap"
 
+msgid "Aggregate data only"
+msgstr ""
+
 msgid "Aggressive"
 msgstr ""
 
@@ -2290,6 +2292,9 @@ msgstr "Permiteți 10 biți"
 msgid "Allow 12bit"
 msgstr "Permiteți 12 biți"
 
+msgid "Allow guest access"
+msgstr ""
+
 msgid "Allow quit movie player with exit"
 msgstr "Permiteți renunțarea la film cu ieșire"
 
@@ -2301,6 +2306,10 @@ msgstr "Permiteți subtitrări pentru afectarea auzului"
 
 msgid "Allow unsupported modes"
 msgstr "Permiteți moduri neacceptate"
+
+#, fuzzy
+msgid "Allowed clients"
+msgstr "Clienți activi"
 
 msgid "Allows the %s %s to read the stored EPG data regularly."
 msgstr "Permite %s %s să citească în mod regulat datele EPG stocate."
@@ -2473,6 +2482,10 @@ msgstr "Viteza de animație"
 msgid "Animations"
 msgstr "Animații"
 
+#, fuzzy
+msgid "Anonymize client IPs"
+msgstr "Clienți activi"
+
 msgid "Antarctica"
 msgstr "Antarctica"
 
@@ -2493,6 +2506,9 @@ msgstr "Aplicați orice modificare la local/limbă activă și ieșire"
 
 msgid "Apply the currently highlighted locale/language and exit"
 msgstr "Aplicați localitatea/limba și ieșirea evidențiată în prezent evidențiată"
+
+msgid "Aqua"
+msgstr ""
 
 msgid "Arabic"
 msgstr "arabic"
@@ -2928,6 +2944,10 @@ msgstr "Azerbaidjan"
 msgid "Azerbaijani"
 msgstr "Azerbaidjani"
 
+#, fuzzy
+msgid "Azure"
+msgstr "azur"
+
 msgid "B"
 msgstr "B"
 
@@ -3176,9 +3196,6 @@ msgstr "Bislama"
 
 msgid "Bitrate"
 msgstr "Bitrate"
-
-msgid "Bitrate:"
-msgstr "Bitrate:"
 
 msgid "Black"
 msgstr "Negru"
@@ -3903,6 +3920,10 @@ msgstr "Centrat, învelit"
 msgid "Central African Republic"
 msgstr "Republica Centrafricană"
 
+#, fuzzy
+msgid "Central Europe"
+msgstr "Khmer central"
+
 msgid "Central Khmer"
 msgstr "Khmer central"
 
@@ -4042,6 +4063,10 @@ msgstr "Butoanele de canal Invert"
 msgid "Channel down"
 msgstr "Canal în jos"
 
+#, fuzzy
+msgid "Channel list"
+msgstr "Lista de canale"
+
 msgid "Channel list cursor behavior"
 msgstr "Comportamentul cursorului listei de canale"
 
@@ -4074,9 +4099,6 @@ msgstr "Selectarea canalului"
 
 msgid "Channel up"
 msgstr "Canal în sus"
-
-msgid "Channel:"
-msgstr "Canal:"
 
 msgid "ChannelEPG Settings"
 msgstr "Setări ChannelEpg"
@@ -4240,9 +4262,6 @@ msgstr "Fișiere/foldere pentru a exclude din backup"
 msgid "Choose files and folders to exclude from backup"
 msgstr "Fișiere/foldere pentru a exclude din backup"
 
-msgid "Choose how much EPG history, if any, to keep in the EPG cache. This historic data can be browsed in any of the EPG views. This can be useful when you need information about an event which has recently finished."
-msgstr "Alegeți cât de mult istoricul EPG, dacă există, pentru a păstra în memoria cache EPG. Aceste date istorice pot fi navigate în oricare dintre vizualizările EPG. Acest lucru poate fi util atunci când aveți nevoie de informații despre un eveniment care s -a terminat recent."
-
 msgid "Choose reader"
 msgstr "Alegeți cititor"
 
@@ -4258,10 +4277,12 @@ msgstr "Alegeți stilul de formatare a afișajului pentru timpuri. 'H' / 'HH' es
 msgid "Choose the fallback font."
 msgstr "Alegeți fontul Fallback."
 
-msgid "Choose the front panel display formatting style for dates. 'D' / 'DD' is the date and 'M' / 'MM' is the month in digits.  ('DD' and 'MM' have leading zeros for single digit values.) The screen display will be based on your choice but can be influenced by the skin."
+#, fuzzy
+msgid "Choose the front panel display formatting style for dates. 'D'/'DD' is the date and 'M'/'MM' is the month in digits. ('DD' and 'MM' have leading zeros for single digit values.) The screen display will be based on your choice but can be influenced by the skin."
 msgstr "Alegeți stilul de formatare a afișajului panoului frontal pentru date. 'D' / 'DD' este data și 'M' / 'MM' este luna în cifre.  („DD” și „MM” au zero de frunte pentru valori cu o singură cifră.) Afișarea ecranului se va baza pe alegerea dvs., dar poate fi influențată de piele."
 
-msgid "Choose the front panel display formatting style for times. 'H' / 'HH' is the hour for a 24 hour clock, 'h' / 'hh' is the hour for a 12 hour clock, 'mm' is the minutes.  ('HH' and 'hh' have leading zeros for single digit values.) The front panel display will be based on your choice but can be influenced any applicable skin."
+#, fuzzy
+msgid "Choose the front panel display formatting style for times. 'H'/'HH' is the hour for a 24 hour clock, 'h'/'hh' is the hour for a 12 hour clock, 'mm' is the minutes. ('HH' and 'hh' have leading zeros for single digit values.) The front panel display will be based on your choice but can be influenced any applicable skin."
 msgstr "Alegeți stilul de formatare a afișajului panoului frontal. 'H' / 'HH' este ora pentru un ceas de 24 de ore, 'h' / 'hh' este ora pentru un ceas de 12 ore, 'mm' este minutele.  („HH” și „HH” au zerouri de frunte pentru valori cu o singură cifră.) Afișajul panoului frontal se va baza pe alegerea dvs., dar poate fi influențat orice piele aplicabilă."
 
 msgid "Choose the location for crash and debug logs."
@@ -4270,7 +4291,8 @@ msgstr "Alegeți locația pentru jurnalele de prăbușire și depanare."
 msgid "Choose the location where the EPG data will be stored when the %s %s is shut down. The location must be available at boot time."
 msgstr "Alegeți locația în care datele EPG vor fi stocate atunci când %s %s va fi închisă. Locația trebuie să fie disponibilă la ora de pornire."
 
-msgid "Choose the name of the file that holds the EPG data when the %s %s is shut down. This can be handy to differentiate between several boxes."
+#, fuzzy
+msgid "Choose the name of the file that holds the EPG data when the %s %s is shut down. This can be handy to differentiate between several receivers."
 msgstr "Alegeți numele fișierului care deține datele EPG atunci când %s %s este închis. Acest lucru poate fi la îndemână pentru a diferenția între mai multe cutii."
 
 msgid "Choose the option to correct invalid EPG data."
@@ -4303,33 +4325,6 @@ msgstr "Alegeți unde să vă montați dispozitivele pentru:"
 
 msgid "Choose where to save VOD movies"
 msgstr "Alegeți unde să salvați filmele VOD"
-
-msgid "Choose whether AAC sound tracks should be transcoded."
-msgstr "Alegeți dacă piesele sonore AAC ar trebui transcodate."
-
-msgid "Choose whether AC3 Plus sound tracks should be transcoded to AC3."
-msgstr "Alegeți dacă piesele sonore AC3 Plus ar trebui transcodate în AC3."
-
-msgid "Choose whether AC3 sound tracks should be downmixed to stereo."
-msgstr "Alegeți dacă piesele sonore AC3 ar trebui să fie reduse la stereo."
-
-msgid "Choose whether DTS channel sound tracks should be downmixed or transcoded."
-msgstr "Alegeți dacă piesele sonore ale canalului DTS ar trebui să fie reduse sau transcodate."
-
-msgid "Choose whether DTS channel sound tracks should be downmixed to stereo."
-msgstr "Alegeți dacă piesele sonore ale canalului DTS ar trebui să fie reduse la stereo."
-
-msgid "Choose whether WMA Pro channel sound tracks should be downmixed or transcoded."
-msgstr "Alegeți dacă piesele sonore WMA Pro Channel ar trebui să fie reduse sau transcodate."
-
-msgid "Choose whether multi channel sound tracks should be convert to PCM or SPDIF."
-msgstr "Alegeți dacă piesele sonore multi -canale ar trebui să fie convertite în PCM sau SPDIF."
-
-msgid "Choose whether multi channel sound tracks should be downmixed to stereo."
-msgstr "Alegeți dacă piesele sonore multi -canale ar trebui să fie reduse la stereo."
-
-msgid "Choose whether multi channel sound tracks should be output as PCM."
-msgstr "Alegeți dacă piesele sonore multi -canale ar trebui să fie transmise ca PCM."
 
 msgid "Choose whether or not to show an icon when a motorized dish is moving."
 msgstr "Alegeți dacă afișați sau nu o pictogramă atunci când un vas motorizat se mișcă."
@@ -4700,6 +4695,10 @@ msgstr "Configurați pentru ce tipuri de înregistrări este afișat un avertism
 msgid "Configure how recording filenames are constructed. Standard: Date Time - Channel - Title Very very short: Title Very short: Title - Date Time Short with time: Date Time - Title Short: Date - Title Long: Date Time - Channel - Title - Info"
 msgstr "Configurați modul în care sunt construite înregistrarea numelor de fișiere. Standard: Ora datei - Canal - Titlu Foarte foarte scurt: Titlu Foarte scurt: Titlu - Ora scurtă cu ora: Ora datei - Titlul scurt: Data - Titlul lung: Ora datei - Canal - Titlu - Informații"
 
+#, fuzzy
+msgid "Configure if 'epg.dat' should be saved at all."
+msgstr "Configurați dacă EPG.DAT ar trebui salvat deloc."
+
 msgid "Configure if and how crypto icons will be shown in the channel selection list."
 msgstr "Configurați dacă și cum vor fi afișate pictogramele crypto în lista de selecție a canalelor."
 
@@ -4717,9 +4716,6 @@ msgstr "Configurați dacă și cât de largă va fi afișată coloana de nume de
 
 msgid "Configure if crypto icons will be shown in the channel selection list."
 msgstr "Configurați dacă pictogramele cripto vor fi afișate în lista de selecție a canalelor."
-
-msgid "Configure if epg.dat should be saved at all."
-msgstr "Configurați dacă EPG.DAT ar trebui salvat deloc."
 
 msgid "Configure if service picons will be shown in quickzap."
 msgstr "Configurați dacă piconii de service vor fi afișate în QuickZap."
@@ -4801,14 +4797,15 @@ msgstr "Configurați comportamentul atunci când ajungeți la sfârșitul unui f
 msgid "Configure the border width of the subtitles. The dark border makes the subtitles easier to read on a light background."
 msgstr "Configurați lățimea de frontieră a subtitrărilor. Bordura întunecată face subtitrările mai ușor de citit pe un fundal ușor."
 
+#, fuzzy
+msgid "Configure the brightness level of the front panel display for Standby."
+msgstr "Configurați nivelul de luminozitate al afișajului panoului frontal pentru standby."
+
 msgid "Configure the brightness level of the front panel display for dimmed operation."
 msgstr "Configurați nivelul de luminozitate al afișajului panoului frontal pentru o funcționare slabă."
 
 msgid "Configure the brightness level of the front panel display for normal operation."
 msgstr "Configurați nivelul de luminozitate al afișajului panoului frontal pentru o funcționare normală."
-
-msgid "Configure the brightness level of the front panel display for standby."
-msgstr "Configurați nivelul de luminozitate al afișajului panoului frontal pentru standby."
 
 msgid "Configure the color of the external subtitles, alternative (normal in white, italic in yellow, bold in cyan, underscore in green), white or yellow."
 msgstr "Configurați culoarea subtitrărilor externe, alternativă (normală în alb, italic în galben, îndrăzneț în cian, subliniere în verde), alb sau galben."
@@ -5022,9 +5019,6 @@ msgstr "Configurați dacă un font fix sau un font TrueType scalabil este utiliz
 
 msgid "Configure whether another tuner from the preferred list is allocated for recordings instead of sharing a tuner that is already active receiving the same live TV channel."
 msgstr "Configurați dacă un alt tuner din lista preferată este alocat pentru înregistrări în loc să partajați un tuner care este deja activ care primește același canal TV live."
-
-msgid "Configure whether multi channel sound tracks should be downmixed to stereo."
-msgstr "Configurați dacă piesele de sunet multi -canale ar trebui să fie reduse la stereo."
 
 msgid "Configure whether the 'recording' symbol (in the display skin and LCD skin) is visible for real recordings only or also for streaming and pseudo recordings (e.g. EPGrefresh)."
 msgstr "Configurați dacă simbolul „înregistrare” (în pielea de afișare și pielea LCD) este vizibilă doar pentru înregistrări reale sau, de asemenea, pentru înregistrări de streaming și pseudo (de exemplu, Epgrefresh)."
@@ -5609,13 +5603,6 @@ msgstr "DMM avansat"
 msgid "DMM normal"
 msgstr "DMM normal"
 
-msgid "DNS (Dynamic Name Server) Actions"
-msgstr "Acțiuni DNS (Dynamic Name Server)"
-
-#, fuzzy
-msgid "DNS Mode"
-msgstr "Modul 3D"
-
 msgid "DNS Settings"
 msgstr "Setări DNS"
 
@@ -5623,10 +5610,16 @@ msgid "DNS data source"
 msgstr "Sursa de date DNS"
 
 #, fuzzy
-msgid "DNS rotation"
-msgstr "Naraţiune"
+msgid "DNS override"
+msgstr "Modul 3D"
+
+msgid "DNS protocol mode"
+msgstr ""
 
 msgid "DNS suffix"
+msgstr ""
+
+msgid "DNSCrypt"
 msgstr ""
 
 #, fuzzy
@@ -5667,11 +5660,17 @@ msgstr "Culoarea subtitrărilor DVB"
 msgid "DVB-C"
 msgstr "DVB-C"
 
+msgid "DVB-C / Cable only"
+msgstr ""
+
 msgid "DVB-C ANNEX B"
 msgstr "DVB-C anexă b"
 
 msgid "DVB-C ANNEX C"
 msgstr "DVB-C anexă c"
+
+msgid "DVB-C and DVB-T/T2 via external 5V controlled coax switch"
+msgstr ""
 
 msgid "DVB-S"
 msgstr "DVB-S"
@@ -5681,6 +5680,9 @@ msgstr "DVB-S2"
 
 msgid "DVB-T"
 msgstr "DVB-T"
+
+msgid "DVB-T/T2 / Terrestrial only"
+msgstr ""
 
 msgid "DVB-T2"
 msgstr "DVB-T2"
@@ -5941,6 +5943,10 @@ msgstr "Scaner de servicii implicite"
 
 msgid "Default files/folders to backup"
 msgstr "Fișiere/foldere implicite pentru a face backup"
+
+#, fuzzy
+msgid "Default gateway"
+msgstr "Folosiți o poartă"
 
 msgid "Default left column directory"
 msgstr "Director de coloană stânga implicit"
@@ -6571,7 +6577,8 @@ msgstr "Afișați mai multe informații despre acest fișier"
 msgid "Display selection list as a selection menu"
 msgstr "Afișare lista de selecție ca meniu de selecție"
 
-msgid "Display the EIT Now/Next event data in InfoBar."
+#, fuzzy
+msgid "Display the EIT Now/Next event data in the InfoBar."
 msgstr "Afișați datele EIT acum/următorul eveniment în InfoBar."
 
 msgid "Display the base locales or all locales for a language."
@@ -6831,6 +6838,9 @@ msgstr "Documentar"
 msgid "Dolby Digital downmix is now"
 msgstr "Dolby Digital Downmix este acum"
 
+msgid "Dolby TrueHD"
+msgstr ""
+
 msgid "Domain"
 msgstr "Domeniu"
 
@@ -7062,6 +7072,10 @@ msgid "EPG filename"
 msgstr "Nume de fișier EPG"
 
 #, fuzzy
+msgid "EPG history"
+msgstr "Istorie"
+
+#, fuzzy
 msgid ""
 "EPG key : Switch to channel list\n"
 "Ok key : Remove selected channel\n"
@@ -7115,6 +7129,10 @@ msgstr "Orientul"
 
 msgid "East limit set"
 msgstr "Set de limită estică"
+
+#, fuzzy
+msgid "Eastern satellites"
+msgstr "Sateliți conectați"
 
 msgid "EasyMedia"
 msgstr "Easymedia"
@@ -7256,6 +7274,10 @@ msgstr "Activați Autorecord"
 msgid "Enable BT Audio"
 msgstr "Activați BT Audio"
 
+#, fuzzy
+msgid "Enable BT audio"
+msgstr "Activați BT Audio"
+
 msgid "Enable Bouquet Edit"
 msgstr "Activați editarea buchetului"
 
@@ -7278,6 +7300,10 @@ msgstr "Activați editarea preferată"
 
 msgid "Enable Focus Animation"
 msgstr "Activați Focus Animation"
+
+#, fuzzy
+msgid "Enable FreeSat EPG"
+msgstr "Activați Freesat EPG"
 
 msgid "Enable GStreamer debug log *"
 msgstr "Activați jurnalul de depanare GStreamer *"
@@ -7302,6 +7328,14 @@ msgstr "Activați Minitv"
 
 msgid "Enable Move Mode"
 msgstr "Activați modul de mutare"
+
+#, fuzzy
+msgid "Enable NFSv3"
+msgstr "Activați IPv6"
+
+#, fuzzy
+msgid "Enable NFSv4"
+msgstr "Activați IPv6"
 
 msgid "Enable Netmed EPG"
 msgstr "Activați EPG Netmed"
@@ -7403,14 +7437,15 @@ msgstr "Activați Digital Downmix"
 msgid "Enable fallback remote receiver"
 msgstr "Activați receptorul de la distanță Fallback"
 
-msgid "Enable freesat EPG"
-msgstr "Activați Freesat EPG"
-
 msgid "Enable import timer from fallback tuner"
 msgstr "Activați cronometrul de import de la Fallback Tuner"
 
 msgid "Enable intro screen"
 msgstr "Activați ecranul introdus"
+
+#, fuzzy
+msgid "Enable monitoring UI"
+msgstr "Activați Virgin EPG"
 
 msgid "Enable multiple bouquets"
 msgstr "Activați mai multe buchete"
@@ -7435,17 +7470,6 @@ msgstr "Activați previzualizare"
 
 msgid "Enable remote enigma2 receiver to be tried to tune into services that cannot be tuned into locally (e.g. tuner is occupied or service type is unavailable on the local tuner. Specify complete URL including http:// and port number (normally ...:8001), e.g. http://second_box:8001."
 msgstr "Activați receptorul de la distanță Enigma2 să fie încercat să acorde servicii care nu pot fi reglate la nivel local (de exemplu, tunerul este ocupat sau tipul de serviciu nu este disponibil pe tunerul local. Specificați URL -ul complet, inclusiv http: // și numărul de port (în mod normal ...: 8001), de exemplu, http: // secund_box: 8001."
-
-#, fuzzy
-msgid "Enable subnetworks for cable connections."
-msgstr "Activați OK pentru selecția canalului"
-
-msgid "Enable subnetworks for terrestrial connections."
-msgstr ""
-
-#, fuzzy
-msgid "Enable support for subnetworks."
-msgstr "Activați asistența capitolului pentru fișierele video"
 
 msgid "Enable teletext caching"
 msgstr "Activați cache -ul Teletext"
@@ -7539,9 +7563,6 @@ msgstr "Cheie de criptare"
 
 msgid "Encryption key type"
 msgstr "Tipul cheii de criptare"
-
-msgid "Encryption:"
-msgstr "Criptare:"
 
 msgid "End"
 msgstr "Sfârşit"
@@ -7685,10 +7706,22 @@ msgstr "Introduceți adresa IP a receptorului pe care să o utilizați pentru tu
 msgid "Enter the IP address of the receiver to use for fallback tuners."
 msgstr "Introduceți adresa IP a receptorului pe care să o utilizați pentru tunerele Fallback."
 
+msgid "Enter the IP address or subnet (e.g. 192.168.1.0/24) to which NFS host access is granted. Enter '*', the default, for all host access."
+msgstr ""
+
+msgid "Enter the IP address to be used as the gateway to other networks for this adapter. Typically this is the IP address of your router."
+msgstr ""
+
 msgid "Enter the URL/IP of the fallback remote receiver, e.g. '192.168.0.1'. The other details such as 'http://' and port number will be filled in automatically when you select save."
 msgstr "Introduceți adresa URL/IP a receptorului de la distanță Fallback, de ex. '192.168.0.1'. Celelalte detalii, cum ar fi „http: //” și numărul de port vor fi completate automat atunci când selectați Salvare."
 
+msgid "Enter the ZeroTier Network ID. The ID should be exactly 16 characters in length."
+msgstr ""
+
 msgid "Enter the domain of the host receiver. Do not include 'http://' or port number."
+msgstr ""
+
+msgid "Enter the fixed/static IPv4 address to be used for this network adapter."
 msgstr ""
 
 msgid "Enter the frequency at which you LNB switches between low band and high band. For more information consult the specifications of your LNB."
@@ -7697,8 +7730,26 @@ msgstr "Introduceți frecvența la care LNB comută între bandă mică și band
 msgid "Enter the frequency step size for the tuner to use when searching for cable multiplexes. For more information consult your cable provider's documentation."
 msgstr "Introduceți dimensiunea pasului de frecvență pe care să o utilizeze tunerul atunci când căutați multiplexuri de cablu. Pentru mai multe informații, consultați documentația furnizorului de cablu."
 
+msgid "Enter the number of NFS server threads to be allocated/used. Higher values improve performance with multiple clients but use more memory."
+msgstr ""
+
 msgid "Enter the number stored in the positioner that corresponds to this satellite."
 msgstr "Introduceți numărul stocat în poziționatorul care corespunde acestui satelit."
+
+msgid "Enter the password, pass-phrase or pre-shared key for the selected wireless network."
+msgstr ""
+
+msgid "Enter the primary IPv4 DNS setting for this adapter."
+msgstr ""
+
+msgid "Enter the primary IPv6 DNS setting for this adapter. (Optional)"
+msgstr ""
+
+msgid "Enter the secondary IPv4 DNS setting for this adapter. (Optional)"
+msgstr ""
+
+msgid "Enter the secondary IPv6 DNS setting for this adapter. (Optional)"
+msgstr ""
 
 msgid "Enter the service pin"
 msgstr "Introduceți pinul de serviciu"
@@ -7715,7 +7766,13 @@ msgstr "Introduceți dimensiunea în megabyte a celei de -a treia partiții:"
 msgid "Enter the streaming port of the host receiver (normally '8001')."
 msgstr ""
 
+msgid "Enter the subnet mask to be used for this network adapter. (e.g. 255.255.255.0)"
+msgstr ""
+
 msgid "Enter the subscription code to fully enable the AI-Powered Translation plugin, the unified code for trial is 15."
+msgstr ""
+
+msgid "Enter the workgroup name to be used by this receiver for Samba based connections. (Default is 'WORKGROUP'.)"
 msgstr ""
 
 msgid "Enter your current latitude. This is the number of degrees you are from the equator as a decimal."
@@ -8687,9 +8744,6 @@ msgstr "Terminat"
 msgid "Finished configuring your network"
 msgstr "A terminat de configurarea rețelei dvs."
 
-msgid "Finished restarting your network"
-msgstr "A terminat repornirea rețelei"
-
 msgid "Finland"
 msgstr "Finlanda"
 
@@ -8834,6 +8888,9 @@ msgstr "Statistici de semnal de forță moștenire"
 msgid "Force ToneBurst"
 msgstr "Forță toneburst"
 
+msgid "Force a specific network link speed/duplex mode instead of auto-negotiation. Only change this if you have a specific reason as an incorrect setting can break network connectivity."
+msgstr ""
+
 msgid "Force de-interlace"
 msgstr "Forță de-interlată"
 
@@ -8958,9 +9015,6 @@ msgstr "Dimensiunea pasului de scanare a frecvenței (kHz)"
 
 msgid "Frequency steps"
 msgstr "Pași de frecvență"
-
-msgid "Frequency:"
-msgstr "Frecvenţă:"
 
 msgid "Frequency: "
 msgstr "Frecvenţă:"
@@ -9106,7 +9160,7 @@ msgid "General AC3 delay"
 msgstr ""
 
 #, fuzzy
-msgid "General BT Audio delay"
+msgid "General BT audio delay"
 msgstr "Activați BT Audio"
 
 #, fuzzy
@@ -9223,6 +9277,10 @@ msgid "Golf"
 msgstr "Golf"
 
 msgid "Google DNS"
+msgstr "Google DNS"
+
+#, fuzzy
+msgid "Google Public DNS"
 msgstr "Google DNS"
 
 msgid "Goto"
@@ -9946,6 +10004,10 @@ msgid "IP of fallback remote receiver"
 msgstr "IP de receptor de la distanță Fallback"
 
 #, fuzzy
+msgid "IP protocol"
+msgstr "Protocol"
+
+#, fuzzy
 msgid "IPK Tools"
 msgstr "Instrumente IPK"
 
@@ -10219,7 +10281,7 @@ msgid "Include MultiBoot data *"
 msgstr ""
 
 #, fuzzy
-msgid "Include SDT, BAT in http streams"
+msgid "Include SDT and BAT in http streams"
 msgstr "Includeți AIT în fluxurile HTTP"
 
 #, fuzzy
@@ -10657,6 +10719,17 @@ msgstr "Jobmanager"
 msgid "Job overview"
 msgstr "Fără serviciu"
 
+msgid "Join"
+msgstr ""
+
+#, fuzzy
+msgid "Join or leave the configured ZeroTier network"
+msgstr "A terminat de configurarea rețelei dvs."
+
+#, fuzzy
+msgid "Joined"
+msgstr "Combinat"
+
 msgid "Jordan"
 msgstr "Iordania"
 
@@ -10753,9 +10826,6 @@ msgstr "Kazah"
 
 msgid "Kazakhstan"
 msgstr "Kazahstan"
-
-msgid "Keep EPG history (in minutes)"
-msgstr ""
 
 msgid "Keep old drive"
 msgstr "Păstrați vechiul Drive"
@@ -10956,15 +11026,19 @@ msgid "LED Standby"
 msgstr "Wol Standby"
 
 #, fuzzy
+msgid "LED brightness during Deep Standby."
+msgstr "Puterea a condus starea în timpul profundului."
+
+#, fuzzy
+msgid "LED brightness during Standby."
+msgstr "Statul condus de putere în timpul standby -ului."
+
+#, fuzzy
 msgid "LED brightness during deep standby."
 msgstr "Puterea a condus starea în timpul profundului."
 
 msgid "LED brightness during normal operations."
 msgstr ""
-
-#, fuzzy
-msgid "LED brightness during standby."
-msgstr "Statul condus de putere în timpul standby -ului."
 
 msgid "LIRC remote"
 msgstr "Telecomandă de lirc"
@@ -11053,6 +11127,9 @@ msgstr "Letonia"
 msgid "Latvian"
 msgstr "Leton"
 
+msgid "Leave"
+msgstr ""
+
 msgid "Leave DVD player?"
 msgstr "Lăsați DVD Player?"
 
@@ -11140,6 +11217,9 @@ msgstr "Sursă de lumină"
 msgid "Limburgan / Limburger / Limburgish"
 msgstr "Limburgan / Limburger / Limburgish"
 
+msgid "Lime"
+msgstr ""
+
 #, fuzzy
 msgid "Limit character set for recording filenames"
 msgstr "Compoziția numelor de fișiere de înregistrare"
@@ -11183,6 +11263,10 @@ msgstr "Link detectat"
 
 msgid "Link quality:"
 msgstr "Calitatea legăturii:"
+
+#, fuzzy
+msgid "Link speed"
+msgstr "Ultima viteză"
 
 msgid "Link:"
 msgstr "Legătură:"
@@ -11436,12 +11520,6 @@ msgstr "Luxemburgish / Letzeburgesch"
 
 msgid "M2k"
 msgstr "M2K"
-
-msgid "MAC Address Actions"
-msgstr "Acțiuni de adresă MAC"
-
-msgid "MAC Address Settings"
-msgstr "Setări de adrese MAC"
 
 msgid "MAC address"
 msgstr "Adresa MAC"
@@ -12169,12 +12247,6 @@ msgstr "Mutați -vă la un loc de muncă."
 msgid "Move only highlighted file"
 msgstr "Mutați doar fișierul evidențiat"
 
-msgid "Move the current DNS entry down one line"
-msgstr "Mutați intrarea curentă DNS în jos pe o linie"
-
-msgid "Move the current DNS entry up one line"
-msgstr "Mutați intrarea curentă DNS pe o linie"
-
 msgid "Move the current bookmark down"
 msgstr "Mutați marcajul actual în jos"
 
@@ -12497,6 +12569,9 @@ msgstr "Acțiuni NFS"
 msgid "NFS Settings"
 msgstr "Setări NFS"
 
+msgid "NFS threads"
+msgstr ""
+
 msgid "NIM"
 msgstr "Nim"
 
@@ -12629,6 +12704,10 @@ msgstr "Acțiuni adaptoare de rețea"
 msgid "Network Adapter Setting Actions"
 msgstr "Acțiuni de setare a adaptorului de rețea"
 
+#, fuzzy
+msgid "Network Adapter Settings"
+msgstr "Acțiuni de setare a adaptorului de rețea"
+
 msgid "Network Adapter Text Actions"
 msgstr "Acțiuni text adaptor de rețea"
 
@@ -12644,12 +12723,13 @@ msgstr "Acțiuni de informații despre rețea"
 msgid "Network Log Actions"
 msgstr "Acțiuni de jurnal de rețea"
 
-msgid "Network MAC settings"
-msgstr "Setări Mac de rețea"
-
 #, fuzzy
 msgid "Network Neighbourhood"
 msgstr "Vrăjitor de rețea"
+
+#, fuzzy
+msgid "Network Restart"
+msgstr "Test de rețea"
 
 msgid "Network Settings"
 msgstr "Setări de rețea"
@@ -12682,6 +12762,10 @@ msgid "Network interface information"
 msgstr "Informații despre rețea"
 
 msgid "Network menu"
+msgstr "Meniu de rețea"
+
+#, fuzzy
+msgid "Network metric"
 msgstr "Meniu de rețea"
 
 msgid "Network mounts"
@@ -12719,6 +12803,10 @@ msgid ""
 "\n"
 "Press OK to continue."
 msgstr "Vă rugăm să apăsați OK pentru a continua."
+
+#, fuzzy
+msgid "Network-ID"
+msgstr "ID de rețea"
 
 msgid "Network:"
 msgstr "Reţea:"
@@ -12803,6 +12891,10 @@ msgstr "Următorul buchet"
 
 msgid "Next Page"
 msgstr "Pagina următoare"
+
+#, fuzzy
+msgid "Next channel"
+msgstr "Pagina următoare a canalului"
 
 msgid "Next channel page"
 msgstr "Pagina următoare a canalului"
@@ -13099,6 +13191,12 @@ msgstr "Nici unul"
 msgid "NordVPN"
 msgstr ""
 
+msgid "NordVPN Secure DNS"
+msgstr ""
+
+msgid "NordVPN Smart DNS"
+msgstr ""
+
 msgid "NordVPN SmartDNS"
 msgstr ""
 
@@ -13159,6 +13257,9 @@ msgstr "Nu este instalat"
 msgid "Not Shown"
 msgstr "Nu este arătat"
 
+msgid "Not a valid tuner"
+msgstr ""
+
 msgid "Not associated"
 msgstr "Nu este asociat"
 
@@ -13184,6 +13285,9 @@ msgstr ""
 "Dimensiunea fișierului: %sMB\n"
 "Spațiu liber: %sMB\n"
 "Calea: %s"
+
+msgid "Not joined. Press Yellow to join."
+msgstr ""
 
 msgid "Not required"
 msgstr "Nu este necesar"
@@ -13394,6 +13498,10 @@ msgstr "Ojibwa"
 msgid "Older files in the time shift directory are removed on every event change."
 msgstr "Fișierele mai vechi în directorul de schimb de timp sunt eliminate la fiecare modificare a evenimentului."
 
+#, fuzzy
+msgid "Olympic blue"
+msgstr "albastru olimpic"
+
 msgid "Olympics"
 msgstr "Olimpiadă"
 
@@ -13451,6 +13559,15 @@ msgstr "Mutați rapid vasul înainte de această oră."
 
 msgid "Only on startup"
 msgstr "Numai la pornire"
+
+msgid "Only use DNS servers implementing the DNS-over-HTTPS protocol. This causes DNS lookups to be made via the encrypted HTTPS protocol."
+msgstr ""
+
+msgid "Only use DNS servers implementing the DNSCrypt protocol."
+msgstr ""
+
+msgid "Only use DNS servers implementing the Oblivious DNS-over-HTTPS protocol. This adds another layer of privacy by adding a proxy layer to the DNS-over-HTTPS request."
+msgstr ""
 
 msgid "Open"
 msgstr "Deschide"
@@ -13704,10 +13821,12 @@ msgstr "OpenVix"
 msgid "OpenVpn Log"
 msgstr "OpenVPN jurnal"
 
-msgid "Operating LED status in deep standby mode"
+#, fuzzy
+msgid "Operating LED status in Deep Standby"
 msgstr "Starea LED -ului de funcționare în modul de așteptare profundă"
 
-msgid "Operating LED status in standby mode"
+#, fuzzy
+msgid "Operating LED status in Standby"
 msgstr "Starea LED -ului de funcționare în modul de așteptare"
 
 msgid "Operating LED status while running"
@@ -13733,6 +13852,10 @@ msgstr "Opțiuni"
 
 msgid "Or use standard 'Harddisk Setup' to initialize your drive in ext4."
 msgstr "Sau utilizați „configurare harddisk” standard pentru a inițializa unitatea în ext4."
+
+#, fuzzy
+msgid "Orange"
+msgstr "portocale"
 
 msgid "Orbital position"
 msgstr "Poziția orbitală"
@@ -14056,6 +14179,10 @@ msgstr "Parolă (httpuser)"
 msgid "Password (httpwd)"
 msgstr "Parolă (httpwd)"
 
+#, fuzzy
+msgid "Password / Key"
+msgstr "Parolă"
+
 msgid "Password Actions"
 msgstr "Acțiuni de parolă"
 
@@ -14212,6 +14339,9 @@ msgstr "Pilonbox"
 msgid "Pilot"
 msgstr "Pilot"
 
+msgid "Pink"
+msgstr ""
+
 msgid "Pitcairn"
 msgstr "Pitcairn"
 
@@ -14257,6 +14387,10 @@ msgstr "Joacă audio-CD ..."
 
 msgid "Play back media files"
 msgstr "Redați fișierele media înapoi"
+
+#, fuzzy
+msgid "Play current channel"
+msgstr "(canalul curent)"
 
 msgid "Play entry"
 msgstr "Joacă intrare"
@@ -14689,9 +14823,6 @@ msgstr "Vă rugăm să așteptați în timp ce pluginul este actualizat."
 msgid "Please wait while we check your installed plugins..."
 msgstr "Vă rugăm să așteptați în timp ce verificați pluginurile instalate ..."
 
-msgid "Please wait while we configure your network..."
-msgstr "Vă rugăm să așteptați în timp ce vă configuram rețeaua ..."
-
 msgid "Please wait while we prepare your network interfaces..."
 msgstr "Vă rugăm să așteptați în timp ce vă pregătim interfețele de rețea ..."
 
@@ -14841,7 +14972,8 @@ msgstr "Configurarea poziționatorului"
 msgid "Power"
 msgstr "Putere"
 
-msgid "Power LED State in Deep-Standby"
+#, fuzzy
+msgid "Power LED State in Deep Standby"
 msgstr "Putere LED State în profunzime"
 
 msgid "Power LED State in Standby"
@@ -14850,11 +14982,16 @@ msgstr "Putere LED State în Standby"
 msgid "Power LED can be turned on or off here."
 msgstr "LED -ul de putere poate fi pornit sau oprit aici."
 
-msgid "Power LED state during deep-standby."
+#, fuzzy
+msgid "Power LED state during Deep Standby."
 msgstr "Puterea a condus starea în timpul profundului."
 
-msgid "Power LED state during standby."
+#, fuzzy
+msgid "Power LED state during Standby."
 msgstr "Statul condus de putere în timpul standby -ului."
+
+msgid "Power LED state during deep-standby."
+msgstr "Puterea a condus starea în timpul profundului."
 
 msgid "Power On Display"
 msgstr "Power On Afișare"
@@ -14918,6 +15055,9 @@ msgstr "Preferă subtitrări pentru afectarea auzului"
 
 msgid "Prefer subtitles stored by service"
 msgstr "Preferă subtitrările stocate de serviciu"
+
+msgid "Preferred connection priority when multiple Wi-Fi profiles are configured. Lower numbers have a higher priority."
+msgstr ""
 
 msgid "Preferred tuner"
 msgstr "Tuner preferat"
@@ -15039,9 +15179,6 @@ msgstr "Apăsați OK pentru a selecta sateliți"
 msgid "Press OK to select/deselect a CAId."
 msgstr "Apăsați OK pentru a selecta/deselecta un CAID."
 
-msgid "Press OK to set the MAC address."
-msgstr "Apăsați OK pentru a seta adresa MAC."
-
 msgid "Press OK to start the backup now"
 msgstr "Apăsați OK pentru a porni acumul de rezervă acum"
 
@@ -15094,9 +15231,6 @@ msgstr ""
 "\n"
 "Apăsați stânga/dreapta pentru a vedea diferite tipuri de jurnal"
 
-msgid "Press yellow to set this interface as the default interface."
-msgstr "Apăsați Yellow pentru a seta această interfață ca interfață implicită."
-
 msgid "Pressing the panic button will zap you to this channel number in your first bouquet."
 msgstr "Apăsarea butonului de panică vă va reduce la acest număr de canal din primul buchet."
 
@@ -15118,6 +15252,10 @@ msgstr "Buchet anterior"
 msgid "Previous Page"
 msgstr "Pagina anterioară"
 
+#, fuzzy
+msgid "Previous channel"
+msgstr "Pagina canalului anterior"
+
 msgid "Previous channel page"
 msgstr "Pagina canalului anterior"
 
@@ -15133,6 +15271,14 @@ msgstr "Prevsong"
 msgid "Primary DNS"
 msgstr "DNS primar"
 
+#, fuzzy
+msgid "Primary DNS (IPv4)"
+msgstr "DNS primar"
+
+#, fuzzy
+msgid "Primary DNS (IPv6)"
+msgstr "DNS primar"
+
 msgid "Prime time"
 msgstr "Prime Time"
 
@@ -15144,6 +15290,9 @@ msgstr "Primetime Minute"
 
 msgid "Priority"
 msgstr "Prioritate"
+
+msgid "Privacy level"
+msgstr ""
 
 msgid "Problem starting scan"
 msgstr "Problemă de început Scanare"
@@ -15334,6 +15483,10 @@ msgstr "Purgeți toate locurile/limbile actuale și permanente. Adăugați loca�
 msgid "Purging all unused locales/languages..."
 msgstr "Purgând toate locurile/limbile neutilizate ..."
 
+#, fuzzy
+msgid "Purple"
+msgstr "violet"
+
 msgid "Pushto / Pashto"
 msgstr "Pushto / Pashto"
 
@@ -15368,6 +15521,16 @@ msgstr "Canalul Quad Pip"
 
 msgid "Quad PiP is not available."
 msgstr "Quad Pip nu este disponibil."
+
+msgid "Quad9 (Malware blocking + DNSSEC)"
+msgstr ""
+
+msgid "Quad9 (Malware blocking + ECS)"
+msgstr ""
+
+#, fuzzy
+msgid "Quad9 (Unsecured / no blocking)"
+msgstr "Quad9 DNS"
 
 msgid "Quad9 DNS"
 msgstr "Quad9 DNS"
@@ -15781,8 +15944,13 @@ msgstr ""
 msgid "Refresh"
 msgstr "Reîmprospăta"
 
-msgid "Refresh every (in hours)"
-msgstr "Reîmprospătați fiecare (în ore)"
+#, fuzzy
+msgid "Refresh ZeroTier status information"
+msgstr "Informații privind starea directorului/fișierului"
+
+#, fuzzy
+msgid "Refresh every"
+msgstr "Reîmprospătare ecran"
 
 msgid "Refresh rate"
 msgstr "Rata de reîmprospătare"
@@ -15938,9 +16106,6 @@ msgstr "Eliminați serviciul"
 
 msgid "Remove Terrestrial Services"
 msgstr "Eliminați serviciile terestre"
-
-msgid "Remove a DNS entry"
-msgstr "Scoateți o intrare DNS"
 
 msgid "Remove a mark"
 msgstr "Scoateți o marcă"
@@ -16235,6 +16400,10 @@ msgstr "Reporniți enigma"
 msgid "Restart necessary, restart GUI now?"
 msgstr "Reporniți necesar, reporniți GUI acum?"
 
+#, fuzzy
+msgid "Restart network to with current setup"
+msgstr "Începeți înregistrarea evenimentului curent"
+
 msgid "Restart softcam"
 msgstr "Reporniți softcam"
 
@@ -16395,6 +16564,16 @@ msgstr "Imagine rădăcină"
 msgid "Root directory"
 msgstr "Director root"
 
+msgid "Root squash"
+msgstr ""
+
+msgid "Rose"
+msgstr ""
+
+#, fuzzy
+msgid "Rotor is not configured"
+msgstr "Nu configurat"
+
 msgid "Rotor turning speed"
 msgstr "Viteza de cotitură a rotorului"
 
@@ -16547,9 +16726,6 @@ msgstr "Fișier SSA"
 msgid "SSID"
 msgstr "Ssid"
 
-msgid "SSID:"
-msgstr "SSID:"
-
 msgid "STB Display"
 msgstr "Afișaj STB"
 
@@ -16696,7 +16872,8 @@ msgstr "Salvați și opriți -vă"
 msgid "Save directory on EXIT"
 msgstr "Salvați directorul la ieșire"
 
-msgid "Save every (in hours)"
+#, fuzzy
+msgid "Save every"
 msgstr "Economisiți fiecare (în ore)"
 
 #, python-format
@@ -16837,10 +17014,12 @@ msgstr "Programează copii de rezervă"
 msgid "Schedule EPG and channel list import"
 msgstr "Programează importul EPG și lista de canale"
 
-msgid "Scheduled load of epg.dat"
+#, fuzzy
+msgid "Scheduled load of 'epg.dat'"
 msgstr "Încărcarea programată de EPG.DAT"
 
-msgid "Scheduled save of epg.dat"
+#, fuzzy
+msgid "Scheduled save of 'epg.dat'"
 msgstr "Salvare programată a EPG.DAT"
 
 msgid "Sci-Fi"
@@ -16899,6 +17078,14 @@ msgid "Second cable of motorized LNB"
 msgstr "Al doilea cablu de LNB motorizat"
 
 msgid "Secondary DNS"
+msgstr "DNS secundar"
+
+#, fuzzy
+msgid "Secondary DNS (IPv4)"
+msgstr "DNS secundar"
+
+#, fuzzy
+msgid "Secondary DNS (IPv6)"
 msgstr "DNS secundar"
 
 msgid "Seconds"
@@ -17015,9 +17202,6 @@ msgstr ""
 msgid "Select 'Yes' the keep the InfoBar displayed, with no timeout, while media playback is paused."
 msgstr "Selectați „Da” mențineți infoBar afișat, fără timp, în timp ce redarea media este întreruptă."
 
-msgid "Select 'Yes' to allow each storage device detected to be automatically exported as samba share."
-msgstr ""
-
 msgid "Select 'Yes' to allow the VPS to adjust recording timers based on broadcast Program Delivery Control (PDC) data. For this to work the service must provide reliable event PDC data."
 msgstr ""
 
@@ -17026,10 +17210,6 @@ msgstr "Selectați „Da” pentru a permite utilizarea barei de căutare să sa
 
 msgid "Select 'Yes' to always show the bouquet screen first when opening the channel list. Select 'No' to open the channel list using the current bouquet."
 msgstr "Selectați „Da” pentru a afișa întotdeauna ecranul buchetului mai întâi la deschiderea listei de canale. Selectați „Nu” pentru a deschide lista de canale folosind buchetul curent."
-
-#, fuzzy
-msgid "Select 'Yes' to automatically rotate DNS servers."
-msgstr "Selectați „Da” pentru a include rata de simbol %s în căutarea dvs."
 
 msgid "Select 'Yes' to check if network connections are coming from nominated IP Addresses at the activation time of the timer. If so, the timer will be deactivated."
 msgstr "Selectați „Da” pentru a verifica dacă conexiunile de rețea provin din adrese IP nominalizate la momentul de activare al cronometrului. Dacă da, cronometrul va fi dezactivat."
@@ -17058,6 +17238,9 @@ msgstr "Selectați „Da” pentru a afișa fișiere necunoscute în vizualizato
 msgid "Select 'Yes' to enable AI-Powered Translation for all teletext and DVB subtitles."
 msgstr "Selectați „Da” pentru a activa traducerea AI pentru toate subtitrările Teletext și DVB."
 
+msgid "Select 'Yes' to enable DNS entry rotation. This rotation changes the order in which the list of DNS servers is used and can avoid issues if a DNS server in the list becomes unavailable."
+msgstr ""
+
 msgid "Select 'Yes' to enable editing of this device's settings. Selecting 'No' resets the devices settings to their default values."
 msgstr "Selectați „Da” pentru a activa editarea setărilor acestui dispozitiv. Selectarea „Nu” Resetează setările dispozitivelor la valorile lor implicite."
 
@@ -17072,6 +17255,9 @@ msgstr "Selectați „Da” pentru a activa previzualizarea canalelor în lista 
 
 msgid "Select 'Yes' to enable the loading of unlinked user bouquets. That is, user bouquets that are not included in the bouquets.tv or bouquets.radio files will be loaded. This allows you to, for example, create bouquets that do not conflict with, or get replaced by, bouquets that came from settings packages."
 msgstr "Selectați „Da” pentru a activa încărcarea buchetelor de utilizator nelegate. Adică, buchetele de utilizator care nu sunt incluse în fișierele bouquets.tv sau bouquets.radio vor fi încărcate. Acest lucru vă permite, de exemplu, să creați buchete care nu intră în conflict sau să fie înlocuite cu buchete care proveneau din pachetele de setări."
+
+msgid "Select 'Yes' to enable the monitoring UI web interface for the DNSCrypt subsystem."
+msgstr ""
 
 msgid "Select 'Yes' to enable use of the LEFT/RIGHT buttons to move PageUp/PageDown when the LEFT/RIGHT buttons are otherwise undefined. This provides legacy navigation for users who prefer it."
 msgstr "Selectați „Da” pentru a activa utilizarea butoanelor din stânga/dreapta pentru a muta pagina/pagedOwn atunci când butoanele din stânga/dreapta sunt altfel nedefinite. Aceasta oferă navigare moștenită pentru utilizatorii care o preferă."
@@ -17449,6 +17635,10 @@ msgstr "Selectați cât timp pentru a afișa mesajul de sarcină și script."
 msgid "Select how long, in seconds, that the volume and mute displays are shown before they automatically hide."
 msgstr "Selectați cât timp, în câteva secunde, sunt afișate afișajele de volum și mut înainte de a se ascunde automat."
 
+#, fuzzy
+msgid "Select how much EPG history, if any, to keep in the EPG cache. This historic data can be browsed in any of the EPG views. This can be useful for information about an event which has finished."
+msgstr "Alegeți cât de mult istoricul EPG, dacă există, pentru a păstra în memoria cache EPG. Aceste date istorice pot fi navigate în oricare dintre vizualizările EPG. Acest lucru poate fi util atunci când aveți nevoie de informații despre un eveniment care s -a terminat recent."
+
 msgid "Select how often this timer is to be repeated."
 msgstr "Selectați cât de des trebuie repetat acest cronometru."
 
@@ -17571,6 +17761,9 @@ msgstr "Selectați intrarea %s"
 msgid "Select the AI-Powered Translation target language."
 msgstr "Selectați limba țintă de traducere cu AI."
 
+msgid "Select the DNS server(s) that will be used to lookup the host name to resolve the IP address."
+msgstr ""
+
 msgid "Select the No / False response"
 msgstr "Selectați răspunsul nu / fals"
 
@@ -17604,9 +17797,6 @@ msgstr "Selectați frecvența de bandă de utilizator pentru a fi atribuită ace
 
 msgid "Select the Yes / True response"
 msgstr "Selectați răspunsul da / adevărat"
-
-msgid "Select the access mode for the automatically exported samba shares."
-msgstr ""
 
 msgid "Select the action to perform when the timer ends."
 msgstr "Selectați acțiunea pentru a efectua când se termină cronometrul."
@@ -17772,6 +17962,12 @@ msgstr "Selectați producătorul dispozitivului SCR. Dacă producătorul nu este
 msgid "Select the method of restoring screen resolution and framebuffer when leaving teletext."
 msgstr "Selectați metoda de restaurare a rezoluției ecranului și a FrameBuffer la ieșirea din Teletext."
 
+msgid "Select the mode of access, Read/Write or Read Only, applied to all automatically exported Samba shares."
+msgstr ""
+
+msgid "Select the mode of access, Read/Write or Read Only, applied to all exported directories."
+msgstr ""
+
 msgid "Select the model number of your Unicable device. If the model number is not listed, set 'SCR' to 'User defined' and enter the device parameters manually according to its specifications."
 msgstr "Selectați numărul modelului dispozitivului dvs. unic. Dacă numărul modelului nu este listat, setați „SCR” la „Utilizator definit” și introduceți parametrii dispozitivului manual în conformitate cu specificațiile sale."
 
@@ -17793,6 +17989,12 @@ msgstr ""
 "Selectați interfața de rețea pentru a fi utilizată pentru conexiunea la Internet.\n"
 "\n"
 "Apăsați OK pentru a continua."
+
+msgid "Select the network metric for this adapter. When multiple adapters are active, the one with the lowest network metric is used as the default route for network traffic."
+msgstr ""
+
+msgid "Select the network name (SSID) of the wireless network to which the receiver should connect."
+msgstr ""
 
 #, python-format
 msgid "Select the new mount point for: '%s'"
@@ -17849,6 +18051,9 @@ msgstr "Selectați satelitul pe care doriți să îl configurați. Odată config
 msgid "Select the screen layout, from the options provided by the skin, to be used for the ChannelSelection screen."
 msgstr "Selectați aspectul ecranului, din opțiunile furnizate de piele, pentru a fi utilizat pentru ecranul CannelSelection."
 
+msgid "Select the security protocol that will be used to access the selected wireless network."
+msgstr ""
+
 msgid "Select the shifted character set"
 msgstr "Selectați setul de caractere deplasat"
 
@@ -17878,10 +18083,6 @@ msgstr "Selectați comanda de sortare a intrărilor din meniu. Utilizatorul defi
 
 msgid "Select the source location from where to obtain the upgrade files."
 msgstr "Selectați locația sursă de unde pentru a obține fișierele de actualizare."
-
-#, fuzzy
-msgid "Select the source of the DNS settings."
-msgstr "Selectați sursa setărilor DNS implicite."
 
 msgid "Select the starting/initial column to be activated on File Commander start up."
 msgstr "Selectați coloana de pornire/inițială pentru a fi activată pe File Comandan Start Up."
@@ -18003,6 +18204,56 @@ msgstr "Selectați ce doriți să se activeze butonul Up/Down."
 
 msgid "Select where the recording should be saved."
 msgstr "Selectați unde ar trebui salvată înregistrarea."
+
+#, fuzzy
+msgid "Select whether AAC audio tracks should be transcoded."
+msgstr "Alegeți dacă piesele sonore AAC ar trebui transcodate."
+
+#, fuzzy
+msgid "Select whether AC3 Plus audio tracks should be transcoded to AC3."
+msgstr "Alegeți dacă piesele sonore AC3 Plus ar trebui transcodate în AC3."
+
+#, fuzzy
+msgid "Select whether AC3 audio tracks should be downmixed to stereo."
+msgstr "Alegeți dacă piesele sonore AC3 ar trebui să fie reduse la stereo."
+
+msgid "Select whether AC4 (Dolby Atmos) audio tracks should be passed through to the AVR, downmixed to stereo, or auto-routed based on HDMI sink capability."
+msgstr ""
+
+#, fuzzy
+msgid "Select whether DTS channel audio tracks should be downmixed or transcoded."
+msgstr "Alegeți dacă piesele sonore ale canalului DTS ar trebui să fie reduse sau transcodate."
+
+#, fuzzy
+msgid "Select whether DTS channel audio tracks should be downmixed to stereo."
+msgstr "Alegeți dacă piesele sonore ale canalului DTS ar trebui să fie reduse la stereo."
+
+#, fuzzy
+msgid "Select whether Dolby TrueHD audio tracks should be passed through or decoded."
+msgstr "Alegeți dacă piesele sonore ale canalului DTS ar trebui să fie reduse sau transcodate."
+
+msgid "Select whether IPv4, IPv6, or both protocols should be used. If both are enabled then which should be preferred."
+msgstr ""
+
+#, fuzzy
+msgid "Select whether WMA Pro channel audio tracks should be downmixed or transcoded."
+msgstr "Alegeți dacă piesele sonore WMA Pro Channel ar trebui să fie reduse sau transcodate."
+
+#, fuzzy
+msgid "Select whether multichannel audio tracks should be converted to PCM or SPDIF."
+msgstr "Alegeți dacă piesele sonore multi -canale ar trebui să fie convertite în PCM sau SPDIF."
+
+#, fuzzy
+msgid "Select whether multichannel audio tracks should be downmixed to stereo."
+msgstr "Alegeți dacă piesele sonore multi -canale ar trebui să fie reduse la stereo."
+
+#, fuzzy
+msgid "Select whether multichannel audio tracks should be output as PCM."
+msgstr "Alegeți dacă piesele sonore multi -canale ar trebui să fie transmise ca PCM."
+
+#, fuzzy
+msgid "Select which IP protocols can be used with this adapter."
+msgstr "Selectați canalul sau serviciul pentru a fi utilizat pentru acest cronometru."
 
 msgid "Select wireless network"
 msgstr "Selectați rețea wireless"
@@ -18131,6 +18382,15 @@ msgstr "Server %s- %s"
 msgid "Server down"
 msgstr "Server și"
 
+msgid "Server must not enforce its own blocklist. Some servers may implement their own blacklists to block sites for parental control, ad blocking, etc. reasons."
+msgstr ""
+
+msgid "Server must not log user queries (declarative). This can improve the privacy of DNS lookups by not logging the request on the server providing the data."
+msgstr ""
+
+msgid "Server must support DNS Security Extensions (DNSSEC). This is a data signing option that protects the integrity of the DNS data against compromises like cache poisoning."
+msgstr ""
+
 msgid "Server:"
 msgstr "Server:"
 
@@ -18253,6 +18513,10 @@ msgstr "Numărul de serviciu Dimensiunea fontului"
 msgid "Service off-air"
 msgstr "Service off-air"
 
+#, fuzzy
+msgid "Service online"
+msgstr "Dimensiunea fontului de serviciu"
+
 msgid "Service picons aspect ratio"
 msgstr "Raportul de aspect Picons Service"
 
@@ -18353,9 +18617,6 @@ msgstr "Mod de scalare"
 msgid "Set Time"
 msgstr "Timp de set"
 
-msgid "Set a custom DNS suffix."
-msgstr ""
-
 msgid "Set a time offset before a timer is due to start to allow VPS to scan for the latest event timing. Select '0' to disable this feature."
 msgstr ""
 
@@ -18380,9 +18641,6 @@ msgstr "Set fix"
 msgid "Set fps for external subtitles"
 msgstr "Setați FPS pentru subtitrare externă"
 
-msgid "Set interface as the default Interface"
-msgstr "Setați interfața ca interfață implicită"
-
 msgid "Set limits"
 msgstr "Setați limite"
 
@@ -18397,10 +18655,6 @@ msgstr "Setați serviciul de pornire"
 
 msgid "Set system"
 msgstr "Setați sistem"
-
-#, python-format
-msgid "Set the MAC address of your %s %s."
-msgstr "Setați adresa MAC a %s %s."
 
 msgid "Set the User ID of the OpenWebif from your fallback tuner"
 msgstr "Setați ID -ul de utilizator al OpenWebif de la tunerul dvs. Fallback"
@@ -18436,14 +18690,24 @@ msgstr "Setați dimensiunea de sărituri a barei de căutare."
 msgid "Set the number of lines to be saved for 'stout' and 'sterr' output in scripts."
 msgstr "Setați numărul de linii care trebuie salvate pentru ieșirea „Stout” și „Sterr” în scripturi."
 
+msgid "Set the password for the monitoring UI web interface."
+msgstr ""
+
 msgid "Set the password of the OpenWebif from your fallback tuner"
 msgstr "Setați parola OpenWebif de la tunerul dvs. Fallback"
+
+msgid "Set the port address (8080-9999) for the monitoring UI web interface."
+msgstr ""
 
 msgid "Set the port of the OpenWebif from your fallback tuner"
 msgstr "Setați portul OpenWebif de pe tunerul dvs. Fallback"
 
 msgid "Set the position of the recording icons."
 msgstr "Setați poziția pictogramelor de înregistrare."
+
+#, fuzzy
+msgid "Set the privacy level for the monitoring UI web interface."
+msgstr "Setați compensarea volumului pentru serviciul „%s”."
 
 msgid "Set the repeat interval of backup schedule."
 msgstr "Setați intervalul de repetare a programului de rezervă."
@@ -18490,6 +18754,9 @@ msgstr "Setați timpul pentru a aștepta executarea acțiunii implicite în mesa
 
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr "Setați tipul indicației de progres în ecranul de selecție a canalului."
+
+msgid "Set the username for the monitoring UI web interface."
+msgstr ""
 
 #, fuzzy, python-format
 msgid "Set the volume level for the '%s' service."
@@ -18539,6 +18806,14 @@ msgid "Set to the desired primetime (hour)."
 msgstr "Setați la primetime -ul dorit (oră)."
 
 msgid "Set to the desired primetime (minutes."
+msgstr "Setați la primetime -ul dorit (minute."
+
+#, fuzzy
+msgid "Set to the desired primetime hour."
+msgstr "Setați la primetime -ul dorit (oră)."
+
+#, fuzzy
+msgid "Set to the desired primetime minutes."
 msgstr "Setați la primetime -ul dorit (minute."
 
 msgid "Set to what you want the button to do."
@@ -18745,6 +19020,10 @@ msgstr "Afișați pachetele de șofer"
 msgid "Show ECM-Info"
 msgstr "Afișați ECM-INFO"
 
+#, fuzzy
+msgid "Show EIT Now/Next event data in the InfoBar"
+msgstr "Afișați datele EIT acum/următorul în InfoBar."
+
 msgid "Show EIT now/next in infobar"
 msgstr "Afișați eit acum/următorul în InfoBar"
 
@@ -18811,7 +19090,8 @@ msgstr "Afișați pachetele M2K"
 msgid "Show Media Player in Main Menu"
 msgstr "Afișați Media Player în meniul principal"
 
-msgid "Show Media playback Remaining/Elapsed as"
+#, fuzzy
+msgid "Show Media playback remaining/elapsed as"
 msgstr "Afișați redarea media rămasă/scursă ca"
 
 msgid "Show Merlin EPG Center"
@@ -18967,6 +19247,10 @@ msgstr "Afișați setări avansate"
 
 msgid "Show all available services"
 msgstr "Afișați toate serviciile disponibile"
+
+#, fuzzy
+msgid "Show all details"
+msgstr "Afișați detalii despre eveniment"
 
 msgid "Show animation while busy"
 msgstr "Arată animație în timp ce este ocupat"
@@ -19334,9 +19618,6 @@ msgstr "Afișați mesaje de sarcină dacă comandantul de fișiere nu rulează �
 msgid "Show the DreamPlex player..."
 msgstr "Arată -l pe DreamPlex Player ..."
 
-msgid "Show the EIT Now/Next data in the InfoBar."
-msgstr "Afișați datele EIT acum/următorul în InfoBar."
-
 msgid "Show the information on current event."
 msgstr "Afișați informațiile despre evenimentul curent."
 
@@ -19404,7 +19685,8 @@ msgstr "Afișați/ascundeți bara de focalizare"
 msgid "Showiframe"
 msgstr "Showiframe"
 
-msgid "Shows live tv or informations on LCD."
+#, fuzzy
+msgid "Shows live TV or informations on LCD."
 msgstr "Afișează TV live sau informații despre LCD."
 
 msgid "Shows the icons when new/unseen, else will not show an icon."
@@ -19448,9 +19730,6 @@ msgstr "Calitatea semnalului"
 
 msgid "Signal strength"
 msgstr "Puterea semnalului"
-
-msgid "Signal strength:"
-msgstr "Puterea semnalului:"
 
 msgid "Signal: "
 msgstr "Semnal:"
@@ -19842,9 +20121,6 @@ msgstr "Somalia"
 msgid "Some TVs can't switch to the correct input if another HDMI port is active. This setting puts the TV into Standby before switching. If the TV does not turn back on, a slower transmission interval or repeating the wake-up command may be required."
 msgstr "Unele televizoare nu pot trece la intrarea corectă dacă un alt port HDMI este activ. Această setare stabilește televizorul în așteptare înainte de comutator. (Dacă televizorul nu se întoarce din nou, poate necesita un interval de transmisie mai lent sau repetarea comenzii de trezire.)"
 
-msgid "Some modems/routers may not support IPv6."
-msgstr ""
-
 msgid "Sorbian"
 msgstr "Sorbian"
 
@@ -19890,9 +20166,6 @@ msgid ""
 msgstr ""
 "Ne pare rău, nu a fost detectat un nou dispozitiv de stocare USB.\n"
 "Asigurați -vă că urmați instrucțiunile vrăjitorului."
-
-msgid "Sorry, no physical devices that supports SWAP attached. Can't create Swapfile on network or fat32 filesystems"
-msgstr "Ne pare rău, nu există dispozitive fizice care acceptă swap atașat. Nu se poate crea swapfile pe rețea sau sisteme de fișiere FAT32"
 
 msgid "Sorry, no physical devices that supports SWAP attached. Can't create swap file on network or FAT32 file systems"
 msgstr "Ne pare rău, nu există dispozitive fizice care acceptă swap atașat. Nu se poate crea fișiere swap pe sisteme de fișiere rețea sau FAT32"
@@ -20011,6 +20284,9 @@ msgstr "Setări de caracteristici speciale"
 
 msgid "Specify the directory to use when starting Media Player."
 msgstr "Specificați directorul de utilizat la pornirea Media Player."
+
+msgid "Specify the network DNS suffix to be applied when only the host name is provided. This helps the DNS resolver find the requested host."
+msgstr ""
 
 msgid "Speed"
 msgstr "Viteză"
@@ -20175,11 +20451,13 @@ msgstr "Timeout mesaj de stare"
 msgid "Status of the display during operation"
 msgstr "Starea afișajului în timpul funcționării"
 
-msgid "Status of the display in deep standby"
+#, fuzzy
+msgid "Status of the display in Deep Standby"
 msgstr "Starea afișajului în standby profund"
 
-msgid "Status of the display in standby mode"
-msgstr "Starea afișajului în modul de așteptare"
+#, fuzzy
+msgid "Status of the display in Standby"
+msgstr "Starea afișajului în standby profund"
 
 msgid "Status unavailable!"
 msgstr "Statutul indisponibil!"
@@ -20383,16 +20661,8 @@ msgid "Stripes"
 msgstr "Dungi"
 
 #, fuzzy
-msgid "Subnetwork (cable)"
-msgstr "Scanare de rețea"
-
-#, fuzzy
-msgid "Subnetwork (terrestrial)"
-msgstr "Test de rețea"
-
-#, fuzzy
-msgid "Subnetwork support (general)"
-msgstr "sport (general)"
+msgid "Subnet mask"
+msgstr "Netmask"
 
 msgid "Subservice Actions"
 msgstr "Acțiuni de subservare"
@@ -20980,10 +21250,12 @@ msgstr ""
 msgid "The %s %s is shutting down. Please wait..."
 msgstr "%s %s se oprește. Va rugam asteptati..."
 
-msgid "The %s %s reads the stored EPG data every (hours)."
+#, fuzzy
+msgid "The %s %s reads the stored EPG data every selected number of hours."
 msgstr "%s %s citește datele EPG stocate la fiecare (ore)."
 
-msgid "The %s %s stores the EPG data every (hours)."
+#, fuzzy
+msgid "The %s %s stores the EPG data every selected number of hours."
 msgstr "%s %s stochează datele EPG la fiecare (ore)."
 
 #, fuzzy, python-format
@@ -21432,17 +21704,19 @@ msgstr "Acest mediu DVD RW este deja formatat - reformatarea va șterge tot con�
 msgid "This Device is already mounted as HDD."
 msgstr "Acest dispozitiv este deja montat ca HDD."
 
-msgid "This Option allows you to switch Audio to BT Speakers."
-msgstr "Această opțiune vă permite să treceți audio la difuzoarele BT."
-
 msgid "This allows you change the font size relative to skin size, so 1 increases by 1 point size, and -1 decreases by 1 point size."
 msgstr "Acest lucru vă permite să schimbați dimensiunea fontului în raport cu dimensiunea pielii, astfel că 1 crește cu 1 punct și -1 scade cu 1 punct."
 
-msgid "This allows you change the number of rows shown."
+#, fuzzy
+msgid "This allows you to change the font size relative to skin size, so 1 increases by 1 point size, and -1 decreases by 1 point size."
+msgstr "Acest lucru vă permite să schimbați dimensiunea fontului în raport cu dimensiunea pielii, astfel că 1 crește cu 1 punct și -1 scade cu 1 punct."
+
+#, fuzzy
+msgid "This allows you to change the number of rows shown."
 msgstr "Acest lucru vă permite să schimbați numărul de rânduri afișate."
 
 #, fuzzy
-msgid "This allows you to set the maximum number of digits in a service number, up to 5."
+msgid "This allows you to set the maximum number of digits in a service number, up to 6."
 msgstr "Acest lucru vă permite să setați numărul de cifre la 5, dacă aveți mai mult de 9999 de canale."
 
 msgid "This bouquet is protected by a parental control PIN!"
@@ -21497,20 +21771,11 @@ msgstr "Această opțiune vă permite să alegeți cum să afișați timpul răm
 msgid "This option allows you choose how to display the remaining/elapsed time for media playback."
 msgstr "Această opțiune vă permite să alegeți cum să afișați timpul rămas/scurs pentru redare media."
 
-msgid "This option allows you choose if the display shows the time or nothing in Standby."
-msgstr "Această opțiune vă permite să alegeți dacă afișajul arată timpul sau nimic în standby."
-
-msgid "This option allows you choose if the display shows the time, channel number or nothing during operation."
-msgstr "Această opțiune vă permite să alegeți dacă afișajul arată ora, numărul canalului sau nimic în timpul funcționării."
-
 msgid "This option allows you choose the background color of transparent picons."
 msgstr "Această opțiune vă permite să alegeți culoarea de fundal a piconilor transparenti."
 
 msgid "This option allows you choose the option for Subservice indicator or selection."
 msgstr "Această opțiune vă permite să alegeți opțiunea pentru indicatorul sau selecția de subsol."
-
-msgid "This option allows you set the layout view (Text or Graphics)."
-msgstr "Această opțiune vă permite să setați vizualizarea aspectului (text sau grafică)."
 
 msgid "This option allows you to Power Off the display."
 msgstr "Această opțiune vă permite să opriți afișajul."
@@ -21564,7 +21829,28 @@ msgstr "Această opțiune vă permite să alegeți cum să afișați timpul scur
 msgid "This option allows you to choose how to display standard definition video on your TV."
 msgstr "Această opțiune vă permite să alegeți cum să afișați videoclipuri de definiție standard pe televizor."
 
-msgid "This option allows you to choose what the first button press jumps to in channel list screen, (so pressing '2' jumps to 'A' or '2' first), when 'Quick Actions' preset actions are performed. "
+#, fuzzy
+msgid "This option allows you to choose how to display the remaining time, the elapsed time, or both."
+msgstr "Această opțiune vă permite să alegeți cum să afișați timpul rămas, sau timpul scurs, sau ambele."
+
+#, fuzzy
+msgid "This option allows you to choose how to display the remaining/elapsed time for live TV."
+msgstr "Această opțiune vă permite să alegeți cum să afișați timpul rămas/scurs pentru TV live."
+
+#, fuzzy
+msgid "This option allows you to choose how to display the remaining/elapsed time for media playback."
+msgstr "Această opțiune vă permite să alegeți cum să afișați timpul rămas/scurs pentru redare media."
+
+#, fuzzy
+msgid "This option allows you to choose if the display shows the time or nothing in Standby."
+msgstr "Această opțiune vă permite să alegeți dacă afișajul arată timpul sau nimic în standby."
+
+#, fuzzy
+msgid "This option allows you to choose if the display shows the time, channel number or nothing during operation."
+msgstr "Această opțiune vă permite să alegeți dacă afișajul arată ora, numărul canalului sau nimic în timpul funcționării."
+
+#, fuzzy
+msgid "This option allows you to choose what the first button press jumps to in channel list screen, (so pressing '2' jumps to 'A' or '2' first), when 'Quick Actions' preset actions are performed."
 msgstr "Această opțiune vă permite să alegeți ceea ce primul buton apăsat pe ecranul listei de canale, (astfel apăsând „2” sărituri la „A” sau „2” mai întâi), când se efectuează acțiuni presetate „acțiuni rapide”."
 
 msgid "This option allows you to choose whether or not to display genre information for the event."
@@ -21608,6 +21894,18 @@ msgstr "Această opțiune vă permite să puteți forța modurile HLG pentru UHD
 msgid "This option allows you to set offset values for different Letterbox resolutions."
 msgstr "Această opțiune vă permite să setați valori compensate pentru diferite rezoluții de cutii de scrisori."
 
+#, fuzzy
+msgid "This option allows you to set the Auto Volume Level output."
+msgstr "Această opțiune configurează că puteți seta nivelul de volum automat."
+
+#, fuzzy
+msgid "This option allows you to set the layout view (Text or Graphics)."
+msgstr "Această opțiune vă permite să setați vizualizarea aspectului (text sau grafică)."
+
+#, fuzzy
+msgid "This option allows you to switch Audio to Bluetooth speakers."
+msgstr "Această opțiune vă permite să treceți audio la difuzoarele BT."
+
 msgid "This option allows you to the SNR as a percentage (not all receivers support this)."
 msgstr "Această opțiune vă permite SNR ca procent (nu toți receptorii acceptă acest lucru)."
 
@@ -21618,14 +21916,9 @@ msgstr "Această opțiune vă permite să utilizați toate modurile HDMI"
 msgid "This option allows you to view the old and new settings side by side."
 msgstr "Această opțiune vă permite să vizualizați setările vechi și noi una lângă alta."
 
-msgid "This option configures the general audio delay for BT Speakers."
+#, fuzzy
+msgid "This option configures the audio delay value for Bluetooth speakers."
 msgstr "Această opțiune configurează întârzierea audio generală pentru vorbitorii BT."
-
-msgid "This option configures the general audio delay of Dolby Digital sound tracks."
-msgstr "Această opțiune configurează întârzierea audio generală a pieselor sonore digitale Dolby."
-
-msgid "This option configures the general audio delay of stereo sound tracks."
-msgstr "Această opțiune configurează întârzierea audio generală a pieselor sonore stereo."
 
 msgid "This option configures the picture sharpness."
 msgstr "Această opțiune configurează claritatea imaginii."
@@ -21635,9 +21928,6 @@ msgstr "Această opțiune configurează rezoluția ecranului în modul de ieșir
 
 msgid "This option configures the video output mode (or resolution)."
 msgstr "Această opțiune configurează modul de ieșire video (sau rezoluție)."
-
-msgid "This option configures you can set Auto Volume Level."
-msgstr "Această opțiune configurează că puteți seta nivelul de volum automat."
 
 msgid "This option lets you adjust the 3D depth"
 msgstr "Această opțiune vă permite să reglați adâncimea 3D"
@@ -21653,6 +21943,14 @@ msgstr "Această opțiune vă permite să afișați opțiunea în ecranul de ext
 
 msgid "This option moves the PVR status display from a separate window into the MoviePlayer InfoBar."
 msgstr "Această opțiune mută afișarea stării PVR dintr -o fereastră separată în InfoBar MoviePlayer."
+
+#, fuzzy
+msgid "This option selects the general audio delay of Dolby Digital sound tracks."
+msgstr "Această opțiune configurează întârzierea audio generală a pieselor sonore digitale Dolby."
+
+#, fuzzy
+msgid "This option selects the general audio delay of stereo sound tracks."
+msgstr "Această opțiune configurează întârzierea audio generală a pieselor sonore stereo."
 
 msgid "This option set the level of suppression of mosquito noise (Mosquito Noise is random aliasing as a result of strong compression). Obviously this goes at the cost of picture details."
 msgstr "Această opțiune a stabilit nivelul de suprimare a zgomotului de țânțari (zgomotul țânțarului este aliasing aleatoriu ca urmare a unei compresii puternice). Evident, acest lucru costă detaliile imaginii."
@@ -22394,6 +22692,13 @@ msgstr "Algoritmul de reglare"
 msgid "Tunisia"
 msgstr "Tunisia"
 
+msgid "Tunnel IPv4"
+msgstr ""
+
+#, fuzzy
+msgid "Tunnel IPv6"
+msgstr "Activați IPv6"
+
 #, fuzzy
 msgid ""
 "Turbo: One reboot after flash\n"
@@ -22823,8 +23128,21 @@ msgstr "Utilizați autocam"
 msgid "Use DHCP"
 msgstr "Utilizați DHCP"
 
+msgid "Use DNS cache"
+msgstr ""
+
+#, fuzzy
+msgid "Use DNS rotation"
+msgstr "Naraţiune"
+
+msgid "Use DNSCrypt servers"
+msgstr ""
+
 msgid "Use Deinterlacing for 1080i Videosignal?"
 msgstr "Utilizați DeinterlAcing pentru 1080i VideoSignal?"
+
+msgid "Use DoH servers"
+msgstr ""
 
 msgid "Use EIT EPG information when it is available."
 msgstr "Utilizați informații EIT EPG atunci când este disponibil."
@@ -22850,6 +23168,9 @@ msgstr "Utilizați informații MHW EPG atunci când este disponibil."
 msgid "Use Netmed EPG information when it is available."
 msgstr "Utilizați informații despre EPG Netmed atunci când acestea sunt disponibile."
 
+msgid "Use ODoH servers"
+msgstr ""
+
 msgid "Use OpenTV EPG. Requires tuning to specific transponder to absorb EPG."
 msgstr "Utilizați OpenTV EPG. Necesită reglarea la transponder specific pentru a absorbi EPG."
 
@@ -22871,6 +23192,9 @@ msgstr "Utilizați informațiile Virgin EPG atunci când este disponibilă."
 #, fuzzy
 msgid "Use Zap timer end times"
 msgstr "Utilizați ZAP Timer End Time"
+
+msgid "Use a DNS cache to locally store recent DNS lookups to improve performance, reduce latency and outgoing traffic."
+msgstr ""
 
 msgid "Use a gateway"
 msgstr "Folosiți o poartă"
@@ -22942,8 +23266,17 @@ msgstr "Utilizați navigarea moștenită"
 msgid "Use official channel numbering"
 msgstr "Utilizați numerotarea oficială a canalului"
 
+msgid "Use only DNSSEC servers"
+msgstr ""
+
 msgid "Use only for Wake on WLan (WoW)"
 msgstr "Utilizați doar pentru Wake on WLAN (wow)"
+
+msgid "Use only no-filter servers"
+msgstr ""
+
+msgid "Use only no-log servers"
+msgstr ""
 
 msgid "Use original DVB subtitle position"
 msgstr "Utilizați poziția originală a subtitrării DVB"
@@ -23210,6 +23543,10 @@ msgstr "Venda"
 
 msgid "Venezuela, Bolivarian Republic of"
 msgstr "Venezuela, Republica Bolivare"
+
+#, fuzzy
+msgid "Version"
+msgstr "Versiune:"
 
 msgid "Version: "
 msgstr "Versiune:"
@@ -23568,6 +23905,12 @@ msgstr "Trezește -te în așteptare"
 msgid "Wake up your AV Receiver or Soundbar from Standby"
 msgstr "Treziți -vă receptorul AV de la Standby"
 
+msgid "Wake-on-LAN"
+msgstr ""
+
+msgid "Wake-on-WiFi"
+msgstr ""
+
 msgid "Wallis and Futuna"
 msgstr "Wallis și Futuna"
 
@@ -23718,6 +24061,10 @@ msgstr "Frisia occidentală"
 msgid "Western Sahara"
 msgstr "Sahara de Vest"
 
+#, fuzzy
+msgid "Western satellites"
+msgstr "Sateliți conectați"
+
 msgid "What Day of month ?"
 msgstr "Ce zi de lună?"
 
@@ -23769,7 +24116,8 @@ msgstr "Când sunt activate, datele AIT vor fi incluse în fluxurile HTTP. Acest
 msgid "When enabled, EIT data will be included in http streams. This allows a client receiver to show EPG."
 msgstr "Când sunt activate, datele EIT vor fi incluse în fluxurile HTTP. Acest lucru permite unui receptor client să arate EPG."
 
-msgid "When enabled, SDT, BAT data will be included in http streams."
+#, fuzzy
+msgid "When enabled, SDT and BAT data will be included in http streams."
 msgstr "Când sunt activate, SDT, datele BAT vor fi incluse în fluxurile HTTP."
 
 msgid "When enabled, a pop up message will be shown when a movie has finished and the next one will start."
@@ -23793,11 +24141,34 @@ msgstr "Când este activat, o înregistrare este permisă să întrerupă TV liv
 msgid "When enabled, a warning will be displayed and the user will get an option to stop or to continue the time shift."
 msgstr "Când este activat, va fi afișat un avertisment, iar utilizatorul va primi o opțiune de a se opri sau de a continua schimbarea timpului."
 
+msgid "When enabled, allow Samba network access without a password."
+msgstr ""
+
+msgid "When enabled, allow connection to access points that don't broadcast their SSID."
+msgstr ""
+
+msgid "When enabled, allow each storage device detected to be automatically exported as a Samba share."
+msgstr ""
+
+msgid "When enabled, allow the receiver to be powered on by a remote Wake-on-LAN network signal (Magic Packet)."
+msgstr ""
+
+#, fuzzy
+msgid "When enabled, allow usage of the NFS version 3 protocols."
+msgstr "Când este activat, va fi afișat un mesaj pop -up la începerea unei înregistrări."
+
+#, fuzzy
+msgid "When enabled, allow usage of the NFS version 4 protocols."
+msgstr "Când este activat, va fi afișat un mesaj pop -up la începerea unei înregistrări."
+
 msgid "When enabled, always unscramble receiving http streams. This takes up more resources (unscrambling demuxers), only enable if necessary. Individual streams are always unscrambled if 0x100 is added to the service type, regardless of this setting."
 msgstr "Când este activat, întotdeauna dezgolit primirea fluxurilor HTTP. Acest lucru preia mai multe resurse (dezamăgiri de dezamăgire), activați doar dacă este necesar. Fluxurile individuale sunt întotdeauna fără caracter dacă 0x100 este adăugat la tipul de serviciu, indiferent de această setare."
 
 msgid "When enabled, authentication is required to watch http streams."
 msgstr "Când este activat, autentificarea este necesară pentru a urmări fluxurile HTTP."
+
+msgid "When enabled, connection via saved network is attempted when the Wi-Fi adapter connects."
+msgstr ""
 
 msgid "When enabled, content with an aspect ratio of 4:3 will be stretched to fit the screen."
 msgstr "Când este activat, conținutul cu un raport de aspect de 4: 3 va fi întins pentru a se potrivi cu ecranul."
@@ -23820,6 +24191,12 @@ msgstr "Când sunt activate, subtitrările grafice DVB vor fi afișate la poziț
 msgid "When enabled, it is possible to leave the movie player with exit."
 msgstr "Când este activat, este posibil să părăsiți jucătorul de film cu ieșire."
 
+msgid "When enabled, keep the Wi-Fi adapter in low-power scan mode during Standby to allow the receiver to be powered on by a remote network signal (Magic Packet)."
+msgstr ""
+
+msgid "When enabled, map root to nobody (more secure). When disabled, full root access is available."
+msgstr ""
+
 msgid "When enabled, measure power consumption to detect when the rotor stops turning (when supported by the tuner)."
 msgstr "Când este activat, măsurați consumul de energie pentru a detecta când rotorul se oprește să se rotească (atunci când este susținut de tuner)."
 
@@ -23828,6 +24205,9 @@ msgstr "Când sunt activate, gunoiul de rețea sunt probate pentru curățare."
 
 msgid "When enabled, number markers will be hidden."
 msgstr "Când sunt activate, markerii de număr vor fi ascunși."
+
+msgid "When enabled, obtain the IP address, subnet mask, gateway, and DNS settings automatically via DHCP."
+msgstr ""
 
 msgid "When enabled, pressing '0' will zap you to the first channel in your first bouquet and delete your zap-history."
 msgstr "Când este activat, apăsarea „0” vă va transmite pe primul canal din primul dvs. buchet și vă va șterge History ZAP."
@@ -23840,6 +24220,9 @@ msgstr "Când este activat, afișați numerele de canal în ecranul de selecție
 
 msgid "When enabled, show status or error messages."
 msgstr "Când este activat, afișați mesaje de stare sau eroare."
+
+msgid "When enabled, specify custom DNS settings for this adapter instead of the global DNS settings."
+msgstr ""
 
 msgid "When enabled, subtitles for the hearing impaired can be used."
 msgstr "Când sunt activate, pot fi utilizate subtitrări pentru deficiențe de auz."
@@ -23886,6 +24269,12 @@ msgstr "Când este activat, receptorul va selecta o piesă AC3 (când este dispo
 
 msgid "When enabled, the receiver will select an AC3+ track (when available)."
 msgstr "Când este activat, receptorul va selecta o pistă AC3+ (când este disponibil)."
+
+msgid "When enabled, this Wi-Fi adapter is kept in Wake-on-WiFi mode only and will not be used to connect to any network."
+msgstr ""
+
+msgid "When enabled, this adapter is initialized and activated at boot time."
+msgstr ""
 
 msgid "When enabled, this setting has more weight than 'Preferred tuner for recordings'."
 msgstr "Când este activat, această setare are mai multă greutate decât „tuner preferat pentru înregistrări”."
@@ -23959,6 +24348,10 @@ msgstr "În timp ce este disponibil"
 msgid "White"
 msgstr "Alb"
 
+#, fuzzy
+msgid "Wi-Fi Connection Settings"
+msgstr "Setări de colectare"
+
 msgid "Wide"
 msgstr "Lat"
 
@@ -24030,10 +24423,12 @@ msgstr "Cu această opțiune puteți ascunde sarcini de lucru de pe ecranul de e
 msgid "With this option you can switch off the display during operation."
 msgstr "Cu această opțiune puteți opri afișajul în timpul funcționării."
 
-msgid "With this option you can switch off the display in Deep Standby Mode."
+#, fuzzy
+msgid "With this option you can switch off the display in Deep Standby."
 msgstr "Cu această opțiune puteți opri afișajul în modul de standby profund."
 
-msgid "With this option you can switch off the display in Standby Mode."
+#, fuzzy
+msgid "With this option you can switch off the display in Standby."
 msgstr "Cu această opțiune puteți opri afișajul în modul Standby."
 
 msgid "With this option you can switch the LED color or deactivate the LED."
@@ -24051,11 +24446,18 @@ msgstr "Acțiuni vrăjitor"
 msgid "Wnw"
 msgstr "WNW"
 
+#, fuzzy
+msgid "WoW only"
+msgstr "Numai EPG"
+
 msgid "Wolof"
 msgstr "Wolof"
 
 msgid "Workaround for old tuner driver"
 msgstr "Soluție pentru șoferul de tuner vechi"
+
+msgid "Workgroup name"
+msgstr ""
 
 #, fuzzy, python-format
 msgid "Would you save the entered PIN %s persistent?"
@@ -24565,6 +24967,14 @@ msgstr "Zap up"
 msgid "Zap+Record next"
 msgstr "Înregistrare ZAP+Următorul"
 
+#, fuzzy
+msgid "ZeroTier Actions"
+msgstr "Acțiuni de cronometru"
+
+#, fuzzy
+msgid "ZeroTier Settings"
+msgstr "Setări PowerTimer"
+
 msgid "Zhuang / Chuang"
 msgstr "Zhuang / Chuang"
 
@@ -24670,9 +25080,6 @@ msgstr "Alpharev atunci cel mai nou"
 msgid "am"
 msgstr "a.m"
 
-msgid "aqua"
-msgstr "Aqua"
-
 #, fuzzy
 msgid ""
 "are you sure you want to restore\n"
@@ -24706,9 +25113,6 @@ msgstr "piese audio"
 
 msgid "automatic"
 msgstr "automat"
-
-msgid "azure"
-msgstr "azur"
 
 msgid "back"
 msgstr "spate"
@@ -25165,9 +25569,6 @@ msgstr "hobby -uri de agrement (general)"
 msgid "length"
 msgstr "lungime"
 
-msgid "lime"
-msgstr "lămâie verde"
-
 msgid "literature"
 msgstr "literatură"
 
@@ -25322,9 +25723,6 @@ msgstr "Off sau WPA2 pe"
 msgid "ok"
 msgstr "Bine"
 
-msgid "olympic blue"
-msgstr "albastru olimpic"
-
 msgid "on READ ONLY medium."
 msgstr "pe citire doar mediu."
 
@@ -25339,9 +25737,6 @@ msgstr "Opendroid by OPD Image Team"
 
 msgid "or"
 msgstr "sau"
-
-msgid "orange"
-msgstr "portocale"
 
 msgid "original language"
 msgstr "Limba originală"
@@ -25372,9 +25767,6 @@ msgstr "Arte performante"
 msgid "pid:"
 msgstr "PID:"
 
-msgid "pink"
-msgstr "roz"
-
 msgid "please wait, loading picture..."
 msgstr "Vă rugăm să așteptați, să încărcați poza ..."
 
@@ -25401,9 +25793,6 @@ msgstr "Provid:"
 
 msgid "provider:"
 msgstr "Furnizor:"
-
-msgid "purple"
-msgstr "violet"
 
 msgid "quit"
 msgstr "renunță"
@@ -25459,9 +25848,6 @@ msgstr "rock/pop"
 
 msgid "romance"
 msgstr "romantism"
-
-msgid "rose"
-msgstr "trandafir"
 
 #, fuzzy
 msgid ""
@@ -25767,9 +26153,6 @@ msgstr "Sport nautic"
 
 msgid "west"
 msgstr "Vest"
-
-msgid "white"
-msgstr "alb"
 
 msgid "width"
 msgstr "lăţime"
