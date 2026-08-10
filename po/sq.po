@@ -2,17 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Opendroid / enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-30 17:06+0200\n"
-"PO-Revision-Date: 2026-08-09 23:00+0000\n"
-"Last-Translator: LibreTranslate <noreply-mt-libretranslate@weblate.org>\n"
-"Language-Team: Albanian <http://localhost:8090/projects/opendroid-enigma2/"
-"enigma2-po/sq/>\n"
+"POT-Creation-Date: 2026-08-10 17:33+0200\n"
+"PO-Revision-Date: 2025-05-27 15:45+0200\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Albanian <http://localhost:8000/projects/enigma2/enigma/sq/>\n"
 "Language: sq\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.8.1\n"
+"X-Generator: Poedit 3.4.2\n"
 
 msgid ""
 "\n"
@@ -121,15 +120,13 @@ msgid ""
 "\n"
 "Do you want to install the new settings list?"
 msgstr ""
-" disponohet!\n"
-"\n"
-"Dëshiron të instalosh listën e rregullimeve të reja?"
 
 msgid " of "
-msgstr " nga "
+msgstr ""
 
+#, fuzzy
 msgid " updated"
-msgstr " përditëso"
+msgstr "Përditëso"
 
 msgid "!! Boot loader Upgrade !!"
 msgstr "!! Përditësimi i Bootloader-it !!"
@@ -254,11 +251,11 @@ msgstr "%.0f MB"
 msgid "%.2f GB"
 msgstr "%.2f GB"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%.2f Second"
 msgid_plural "%.2f Seconds"
-msgstr[0] "E dyta"
-msgstr[1] "Seconds"
+msgstr[0] "%2.1f sek"
+msgstr[1] "%2.1f sek"
 
 #, python-format
 msgid "%.3f MHz"
@@ -1054,11 +1051,9 @@ msgid_plural "%d seconds"
 msgstr[0] "%d Seconds"
 msgstr[1] "%d Seconds"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d slots have been created on the device.\n"
-msgstr ""
-"%d Slot janë krijuar në pajisje.\n"
-".\n"
+msgstr "Rezultatet janë shkruar tek %s."
 
 #, python-format
 msgid "%d times"
@@ -1101,8 +1096,9 @@ msgstr "%d.%-m.%Y"
 msgid "%d.%03d GB"
 msgstr "%d.%03d GB"
 
+#, fuzzy
 msgid "%d.%B %Y"
-msgstr "%d.%B %Y"
+msgstr "%d. %B %Y"
 
 msgid "%d.%m"
 msgstr "%d.%m"
@@ -1240,9 +1236,9 @@ msgstr "%s i gjatë"
 msgid "%s not available."
 msgstr "%s nuk është në dispozicion."
 
-#, python-format
+#, fuzzy, python-format
 msgid "%s picture"
-msgstr "%s figurë"
+msgstr "figura"
 
 #, python-format
 msgid "%s webif disabled"
@@ -1299,10 +1295,9 @@ msgstr "%sShow 1080i as 1080p"
 msgid "'Buffer in hours' or 'number of last events'. For deleting older time shift files, the condition which occurred first has priority."
 msgstr "'Buffer në orë' ose 'numri i ngjarjeve të fundit'. Për fshirjen e skedarëve të vjetër të zhvendosjes së kohës, kushti që ndodhi i pari ka përparësi."
 
+#, fuzzy
 msgid "'Handle Standby from TV' has a higher priority than 'Handle input from TV'."
-msgstr ""
-"'Handle Standby nga TV' ka një përparësi më të lartë se sa 'të dhëna të "
-"lehta nga TV'."
+msgstr "\"Qëndrimi i lehtë nga TV\" ka një përparësi më të lartë se \"të dhëna të lehta nga TV.\"."
 
 msgid "'Network peer' automatically detects other Enigma2 receivers on the local network. You can also manually enter the URL or IP address."
 msgstr "'Vëzhguesi Network' automatikisht zbulon marrës të tjerë Enigma2 në rrjetin lokal. Mund të hyni manualisht në adresën URL ose IP."
@@ -1354,6 +1349,7 @@ msgstr "*.tar.gz & *.bh.tgz & *.ipk u hoq"
 msgid "+24 Hours"
 msgstr "+24 orë"
 
+#, fuzzy
 msgctxt "Text list separator"
 msgid ", "
 msgstr ", "
@@ -1481,8 +1477,9 @@ msgstr "2-ti InfoBar INFO"
 msgid "2nd InfoBar timeout"
 msgstr "2-ti InfoBar skaut"
 
+#, fuzzy
 msgid "2nd infobar timeout"
-msgstr "hera e 2-të e informacioneve"
+msgstr "2-ti InfoBar skaut"
 
 msgid "2x"
 msgstr "2x"
@@ -1740,8 +1737,9 @@ msgstr "AC3 plus transcoding"
 msgid "AC3plus transcoding"
 msgstr "Transcoding AC310"
 
+#, fuzzy
 msgid "AC4"
-msgstr "AC4"
+msgstr "DAC"
 
 msgid "AFL"
 msgstr "AFL"
@@ -1786,7 +1784,7 @@ msgid "ATSC provider"
 msgstr "Furnizues ATSC"
 
 msgid "AV receiver, soundbar and remote"
-msgstr "AV"
+msgstr ""
 
 msgid "Abkhazian"
 msgstr "Abkhazian"
@@ -1821,8 +1819,9 @@ msgstr "Për..."
 msgid "Above 200 Mbps"
 msgstr "Sipër 200 Mbps"
 
+#, fuzzy
 msgid "Access mode"
-msgstr "Modaliteti i hyrjes"
+msgstr "Modaliteti"
 
 msgid "Access point"
 msgstr "Pika e hyrjes"
@@ -2176,10 +2175,10 @@ msgid "After zap"
 msgstr "Pas shkatërrimit"
 
 msgid "Aggregate data only"
-msgstr "Vetëm të dhënat agregate"
+msgstr ""
 
 msgid "Aggressive"
-msgstr "Agresive"
+msgstr ""
 
 msgid "Akan"
 msgstr "Akan"
@@ -2260,8 +2259,9 @@ msgstr "Të gjitha shërbimet furnizues"
 msgid "All supported"
 msgstr "Të gjithë të suportuar"
 
+#, fuzzy
 msgid "All up/down"
-msgstr "Gjithçka sipër/poshtë"
+msgstr "all up/down"
 
 msgid "Allocate"
 msgstr "Avoci"
@@ -2276,7 +2276,7 @@ msgid "Allow 12bit"
 msgstr "Allow 12bit"
 
 msgid "Allow guest access"
-msgstr "Lejo hyrjen e ftuar"
+msgstr ""
 
 msgid "Allow quit movie player with exit"
 msgstr "Lejon skenarin e filmit me dalje"
@@ -2290,8 +2290,9 @@ msgstr "Lejo titra për të dëmtuar dëgjimin"
 msgid "Allow unsupported modes"
 msgstr "Lejo modalitetet e pasuportuar"
 
+#, fuzzy
 msgid "Allowed clients"
-msgstr "Klientë të lejuar"
+msgstr "Klientë aktivë"
 
 msgid "Allows the %s %s to read the stored EPG data regularly."
 msgstr "Lejon %s %s të lexojë rregullisht të dhënat e ruajtura EG."
@@ -2423,12 +2424,9 @@ msgstr "Largësia amloge"
 msgid "Amount %d / Success %d / Failed %d"
 msgstr "Shuma %d / Sukses %d / Dështoi %d"
 
+#, fuzzy
 msgid "An attempt is made to capture the current TV status. If status messages are incorrect or missing, the receiver may respond unexpectedly. Otherwise, it helps the receiver handle different operating conditions more effectively."
-msgstr ""
-"Një përpjekje është bërë për të kapur statusin aktual të TV. Nëse mesazhet e "
-"gjëndjes nuk janë korrekte ose mungon, marrësi mund të përgjigjet në menyrë "
-"të papritur. Përndryshe, e ndihmon marrësin të trajtojë më me efektshmëri "
-"kushte të ndryshme operative."
+msgstr "Një përpjekje është bërë për të kapur statusin aktual të TV. Nëse kjo nuk është e mundur për shkak të mesazheve të pasaktë ose të humbur të gjendjes, mund të bëjë që marrësi të reagojë papritur. Nga ana tjetër, përpiqet t'u përgjigjet më mirë kushteve të ndryshme operative."
 
 msgid "An error occurred while downloading the packet list. Please try again."
 msgstr "U ndesh një gabim gjatë shkarkimit të listës së paketave. Ju lutem provoni përsëri."
@@ -2466,8 +2464,9 @@ msgstr "Animacioni"
 msgid "Animations"
 msgstr "Animacionet"
 
+#, fuzzy
 msgid "Anonymize client IPs"
-msgstr "Anonizo klientin IP"
+msgstr "Klientë aktivë"
 
 msgid "Antarctica"
 msgstr "Antarktika"
@@ -2489,6 +2488,9 @@ msgstr "Aplikoni çdo ndryshim në vendndodhjen/gjuhën aktive dhe dilni"
 
 msgid "Apply the currently highlighted locale/language and exit"
 msgstr "Zbato vendndodhjen/gjuhën e theksuar aktualisht dhe dil"
+
+msgid "Aqua"
+msgstr ""
 
 msgid "Arabic"
 msgstr "Arabisht"
@@ -2514,8 +2516,9 @@ msgstr "Aragona"
 msgid "Are the settings correct ?"
 msgstr "A janë të sakta rregullimet?"
 
+#, fuzzy
 msgid "Are you ready to run the script?"
-msgstr "A je gati të drejtosh skenarin?"
+msgstr "A je gati ta drejtosh skenarin?"
 
 msgid "Are you sure to cancel all changes?"
 msgstr "Jeni i sigurt që do t'i fshini të gjitha ndryshimet?"
@@ -2561,18 +2564,18 @@ msgstr "Jeni i sigurt që dëshironi të eleminoni këtë figurë?"
 msgid "Are you sure you want to delete this log:\n"
 msgstr "Nga elemino:\n"
 
+#, fuzzy
 msgid ""
 "Are you sure you want to delete this:\n"
 " "
-msgstr ""
-"Jeni i sigurt që dëshironi të eleminoni këtë:\n"
-" "
+msgstr "Jeni i sigurt që dëshironi të eleminoni këtë?"
 
 msgid "Are you sure you want to delete this?"
 msgstr "Jeni i sigurt që dëshironi të eleminoni këtë?"
 
+#, fuzzy
 msgid "Are you sure you want to disable Chkroot Multiboot?"
-msgstr "Je i sigurt që do të çaktivizosh shumëboton?"
+msgstr "Jeni i sigurt që dëshironi të eleminoni këtë?"
 
 msgid "Are you sure you want to exit this wizard?"
 msgstr "Je i sigurt që dëshiron të dalësh nga ky magjistar?"
@@ -2640,17 +2643,20 @@ msgstr "Në ngjitje"
 msgid "Ask user"
 msgstr "Pyet përdoruesin"
 
+#, fuzzy
 msgid "Ask user (with default of 'No')"
 msgstr "Kërko përdorues"
 
+#, fuzzy
 msgid "Ask user (with default of 'Yes')"
-msgstr "Pyet përdoruesin (me prezgjedhurën e 'Po')"
+msgstr "Kërko përdorues"
 
 msgid "Aspect"
 msgstr "Aspekt"
 
+#, fuzzy
 msgid "Aspect Ratio"
-msgstr "Aspekte Ratio"
+msgstr "Aspekte Ratio:"
 
 msgid "Aspect Ratio Actions"
 msgstr "Shqyrto veprimet e Ratios"
@@ -2664,9 +2670,9 @@ msgstr "Aspect Ratio: n/a"
 msgid "Aspect ratio"
 msgstr "Shto"
 
-#, python-format
+#, fuzzy, python-format
 msgid "Aspect ratio set to '%s'."
-msgstr "Përqindja e perspektit është vendosur në '%s'."
+msgstr "Përqindja e aspektit A/V është '%s'."
 
 msgid "Aspect switch"
 msgstr "Aspekt"
@@ -2833,12 +2839,14 @@ msgstr "Veprimet"
 msgid "AutoMountManager"
 msgstr "AutoMountManager"
 
+#, fuzzy
 msgid "AutoRefresh"
-msgstr "Përditëso"
+msgstr "Ndalo rifreskimin automatik"
 
 msgid "AutoTimer"
 msgstr "AutoTimer"
 
+#, fuzzy
 msgid "AutoUpdate"
 msgstr "Përditëso"
 
@@ -2857,13 +2865,13 @@ msgstr "Etiketa e rezolutës automatike"
 msgid "Automatic scan"
 msgstr "Në menyrë automatike"
 
+#, fuzzy
 msgid "Automatic shares access"
-msgstr "Hyrje automatike"
+msgstr "Etiketa e rezolutës automatike"
 
+#, fuzzy
 msgid "Automatically put the TV in Standby whenever the receiver goes into Standby or Deep Standby."
-msgstr ""
-"Futni në mënyrë automatike televizorin në Standby sa herë që marrësi shkon "
-"në Stanby ose Deep Standby."
+msgstr "Vendoseni televizorin automatikisht në pritje sa herë që marrësi shkon në gatishmëri ose në gatishmëri të thellë."
 
 msgid "Automatically start time shift after"
 msgstr "Fillo automatikisht ndryshimin e kohës mbas"
@@ -2909,6 +2917,10 @@ msgstr "Azerbaixhani"
 
 msgid "Azerbaijani"
 msgstr "Azerbaixhani"
+
+#, fuzzy
+msgid "Azure"
+msgstr "azure"
 
 msgid "B"
 msgstr "B"
@@ -3162,8 +3174,9 @@ msgstr "E zezë"
 msgid "Black Screen"
 msgstr "Ekrani i zi"
 
+#, fuzzy
 msgid "Black screen"
-msgstr "Ekran i zi"
+msgstr "Ekrani i zi"
 
 msgid "Black screen till locked"
 msgstr "Rrjeta e zezë derisa të mbyllet"
@@ -3198,8 +3211,9 @@ msgstr "Bluetooth"
 msgid "Bluetooth Setup"
 msgstr "Rregullimi i Bluetooth"
 
+#, fuzzy
 msgid "BogoMIPS"
-msgstr "BogosMIPS"
+msgstr "BogosMIPS: %s"
 
 msgid "Bolivia"
 msgstr "Bolivi"
@@ -3225,16 +3239,16 @@ msgstr "Rrit blu"
 msgid "Boost green"
 msgstr "Rrit"
 
-#, python-format
+#, fuzzy, python-format
 msgid "Boot System %s"
-msgstr "But System %s"
+msgstr "Sistemi: "
 
 msgid "Boot loader update required!"
 msgstr "Përditësimi i Butit kërkohet!"
 
-#, python-format
+#, fuzzy, python-format
 msgid "Boot slot information for %s"
-msgstr "Informacione mbi slotin e Buteve për %s"
+msgstr "Informacione gjeolokacioni për %s %s"
 
 msgid "Boot time"
 msgstr "Ora e Butit"
@@ -3248,8 +3262,9 @@ msgstr "Koha e Butit dhe koha lokale"
 msgid "Boot-up action"
 msgstr "Veprimi"
 
+#, fuzzy
 msgid "Bootloader"
-msgstr "Bootloger"
+msgstr "Bootloager: %s\n"
 
 msgid "Bosnia and Herzegovina"
 msgstr "Bosnje dhe Herzegovina"
@@ -3308,20 +3323,19 @@ msgstr "Ndriçimi (Normale)"
 msgid "Brightness (Standby)"
 msgstr "Ndriçim (Standerby)"
 
+#, fuzzy
 msgid "Brightness Video"
-msgstr "Video e ndritur"
+msgstr "Ndriçim"
 
+#, fuzzy
 msgid "Brightness Video & OSD"
-msgstr "Video dhe OSD e shndritshme"
+msgstr "Ndriçim (i errët)"
 
 msgid "Brightness applied to the combined video + OSD output. Affects everything on screen including this menu."
 msgstr ""
-"Ndriçimi zbatohet për videon e kombinuar + OSD. Ndikon gjithçka në ekran "
-"duke përfshirë edhe këtë menu."
 
 msgid "Brightness applied to the video layer only. Does not affect enigma2 menus or OSD."
 msgstr ""
-"Ndriçimi zbatohet vetëm për shtresën video. Nuk prek menutë enigma2 apo OSD."
 
 msgid "British Indian Ocean Territory"
 msgstr "Territori i Oqeanit Indian Britanik"
@@ -3342,8 +3356,9 @@ msgstr "Buffering %d%%"
 msgid "Buffers"
 msgstr "Buffers"
 
+#, fuzzy
 msgid "Build"
-msgstr "Gjenero"
+msgstr "Build: %s"
 
 msgid "Build Brand"
 msgstr "Gjenero Brend"
@@ -3524,8 +3539,9 @@ msgstr "CIFS/Samba Settings"
 msgid "CPU"
 msgstr "CPU"
 
+#, fuzzy
 msgid "CPU Control"
-msgstr "Kontrolli CPU"
+msgstr "Kontrolli prindëror"
 
 msgid "CPU architecture"
 msgstr "Arkitektura CPU"
@@ -3620,21 +3636,24 @@ msgstr ""
 "Screens change with left/right buttons or use red, green, blue to toggle.\n"
 "Yellow for returning back to this intro"
 
+#, fuzzy
 msgid ""
 "Can't go to live TV!\n"
 "Switch to live TV and restart time shift?"
 msgstr ""
-"Nuk mund të shkoj në TV të drejtpërdrejtë!\n"
+"Nuk mund të jetoj TV!\n"
 "Kalon në TV të drejtpërdrejtë dhe rifillon turnin e kohës?"
 
+#, fuzzy
 msgid "Can't move to trashcan!"
-msgstr "Nuk lëviz dot në koshin e plehrave!"
+msgstr "E pamundur lëvizja në kosh"
 
+#, fuzzy
 msgid ""
 "Can't play the next time shift buffer file!\n"
 "Switch to live TV and restart time shift?"
 msgstr ""
-"Nuk ruaj tjetër!\n"
+"Nuk arrij të luaj file tjetër!\n"
 "Kalon në TV të drejtpërdrejtë dhe rifillon turnin e kohës?"
 
 msgid "Can't play the previous time shift file! You can try again."
@@ -3724,6 +3743,7 @@ msgstr "Anullo skanimin dhe dil të gjitha menutë"
 msgid "Cancel the scan and exit the scanner"
 msgstr "Anullo skanimin dhe dil nga skaneri"
 
+#, fuzzy
 msgid "Cancel the selection"
 msgstr "Anullo zgjedhjen"
 
@@ -3806,8 +3826,9 @@ msgstr "Kepi Verde"
 msgid "Card info (CCcam-Reader)"
 msgstr "Informacione mbi letrat (CCcam-lexuesi)"
 
+#, fuzzy
 msgid "CardServer Setup"
-msgstr "Rregullimi i card Serveri"
+msgstr "Rregullimi i kartelës"
 
 msgid "Cardreader found automatically"
 msgstr "Carreader u gjet automatikisht"
@@ -3824,8 +3845,9 @@ msgstr "Letrat: 0"
 msgid "Cardserial"
 msgstr "Karserial"
 
+#, fuzzy
 msgid "Cardserver"
-msgstr "Lokale"
+msgstr "Hap"
 
 msgid "Cardserver Settings"
 msgstr "Rregullimi i kartelës"
@@ -3862,6 +3884,10 @@ msgstr "Në qendër, i mbështjellë"
 
 msgid "Central African Republic"
 msgstr "Republika e Afrikës Qendrore"
+
+#, fuzzy
+msgid "Central Europe"
+msgstr "Kmer qendror"
 
 msgid "Central Khmer"
 msgstr "Kmer qendror"
@@ -3949,8 +3975,9 @@ msgstr "Kanali 1"
 msgid "Channel 1 with Prime time"
 msgstr "Kanali 1 me orën Prime"
 
+#, fuzzy
 msgid "Channel 1 with prime time"
-msgstr "Kanali 1 me kohën kryesore"
+msgstr "Kanali 1 me orën Prime"
 
 msgid "Channel Info"
 msgstr "Kanali Informacione"
@@ -3999,6 +4026,10 @@ msgstr "Ndërprit"
 
 msgid "Channel down"
 msgstr "Kanali poshtë"
+
+#, fuzzy
+msgid "Channel list"
+msgstr "Kanali"
 
 msgid "Channel list cursor behavior"
 msgstr "Sjellja e kursorit të kanaleve"
@@ -4070,10 +4101,11 @@ msgid "Check disk terminated with success"
 msgstr "Kontrolli disk përfundoi me sukses"
 
 msgid "Check for PDC"
-msgstr "Kontrollo për PDC"
+msgstr ""
 
+#, fuzzy
 msgid "Check for PDC availability on each service."
-msgstr "Kontrolloni për PDC-në në çdo shërbim."
+msgstr "Shfaq të gjithë shërbimet në dispozicion"
 
 msgid "Check power and input state from TV"
 msgstr "Kontrollo energjinë dhe hyrjen nga TV"
@@ -4135,8 +4167,9 @@ msgstr "Kineze"
 msgid "Chinese (Simplified)"
 msgstr "Kineze"
 
+#, fuzzy
 msgid "Chipset"
-msgstr "Chipset"
+msgstr "Chipset: %s\n"
 
 #, python-format
 msgid "Chipset: BCM%s"
@@ -4203,20 +4236,13 @@ msgstr "Zgjidh stilin e formatimit të ekranit për kohë të tëra. 'H' / 'HH' 
 msgid "Choose the fallback font."
 msgstr "Zgjidh gërmë."
 
+#, fuzzy
 msgid "Choose the front panel display formatting style for dates. 'D'/'DD' is the date and 'M'/'MM' is the month in digits. ('DD' and 'MM' have leading zeros for single digit values.) The screen display will be based on your choice but can be influenced by the skin."
-msgstr ""
-"Zgjidh stilin e formatimit të panelit të parë për datat. 'D'/'DDD' është "
-"data dhe 'M'/MMM' është muaji në shifra. ('DDD' dhe 'MMM' kanë zero kryesore "
-"për vlera të vetme dixhitale.) Shfaqja e ekranit do të bazohet në zgjedhjen "
-"tënde, por mund të ndikohet nga lëkura."
+msgstr "Zgjidh stilin e formatimit të panelit të parë për datat. 'D' / 'DDD' është data dhe 'M' / 'M' është muaji në shifra. ('DDD' dhe 'MMM' kanë zero kryesore për vlera të vetme dixhitale.) Shfaqja e ekranit do të bazohet në zgjedhjen tënde, por mund të ndikohet nga lëkura."
 
+#, fuzzy
 msgid "Choose the front panel display formatting style for times. 'H'/'HH' is the hour for a 24 hour clock, 'h'/'hh' is the hour for a 12 hour clock, 'mm' is the minutes. ('HH' and 'hh' have leading zeros for single digit values.) The front panel display will be based on your choice but can be influenced any applicable skin."
-msgstr ""
-"Zgjidh për herë tjetër stilin e formatimit të panelit të parë. 'H'/'HH' "
-"është ora për 24 orë orë, 'h'/'h' është ora për 12 orë orë, 'm' është "
-"minuta. ('HHH' dhe \"Hh\" kanë zero kryesore për vlera të vetme dixhitale.) "
-"Shfaqja e panelit të parë do të bazohet në zgjedhjen tënde, por mund të "
-"ndikohet nga çdo lëkurë e aplikueshme."
+msgstr "Zgjidh për herë tjetër stilin e formatimit të panelit të parë. 'H' / 'HHH' është ora për 24 orë, 'h' / 'Hh' është ora për 12 orë orë, 'm' është minuta. ('HHH' dhe \"Hh\" kanë zero kryesore për vlera të vetme dixhitale.) Shfaqja e panelit të parë do të bazohet në zgjedhjen tënde, por mund të ndikohet nga çdo lëkurë e aplikueshme."
 
 msgid "Choose the location for crash and debug logs."
 msgstr "Zgjidh pozicionin për bllokimin dhe dibug."
@@ -4224,10 +4250,9 @@ msgstr "Zgjidh pozicionin për bllokimin dhe dibug."
 msgid "Choose the location where the EPG data will be stored when the %s %s is shut down. The location must be available at boot time."
 msgstr "Zgjidh pozicionin ku do të ruhen të dhënat EG kur %s %s të jetë mbyllur. Pozicioni duhet të jetë i disponueshëm në kohën e çizmes."
 
+#, fuzzy
 msgid "Choose the name of the file that holds the EPG data when the %s %s is shut down. This can be handy to differentiate between several receivers."
-msgstr ""
-"Zgjidh emrin e file që përmban të dhënat EG kur %s %s është mbyllur. Kjo "
-"mund të jetë e dobishme për të dalluar disa marrës."
+msgstr "Zgjidh emrin e file që përmban të dhënat EG kur %s %s është mbyllur. Kjo mund të jetë e dobishme për të dalluar disa kuti."
 
 msgid "Choose the option to correct invalid EPG data."
 msgstr "Zgjidh opsionin për të korrigjuar të dhënat e pavlefshme EG."
@@ -4241,8 +4266,9 @@ msgstr "Zgjidh lëkurën që duhet përdorur për interfaqen e panelit LCD/për 
 msgid "Choose the style/order in which items are displayed in help windows."
 msgstr "Choose the style/order in which items are displayed in help windows."
 
+#, fuzzy
 msgid "Choose the target device for the slots."
-msgstr "Zgjidh dispozitivin e objektivit për vendet."
+msgstr "Pozicioni për."
 
 msgid "Choose the target location for the slots."
 msgstr "Pozicioni për."
@@ -4427,8 +4453,9 @@ msgstr "Mbyll kutinë e zgjedhur"
 msgid "Close the current screen"
 msgstr "Mbylle ekranin aktual"
 
+#, fuzzy
 msgid "Close the documentation screen"
-msgstr "Mbylle file"
+msgstr "Mbylle ekranin aktual"
 
 msgid "Close the screen"
 msgstr "Mbyll ekranin"
@@ -4548,7 +4575,7 @@ msgid "Common Setup Actions"
 msgstr "Veprimet e përbashkëta të rregullimit"
 
 msgid "Comodo Secure DNS"
-msgstr "Comodo sigurt DNS"
+msgstr ""
 
 msgid "Comoros"
 msgstr "Komoros"
@@ -4622,8 +4649,9 @@ msgstr "Konfiguro për cilat lloje regjistrimesh tregohet një paralajmërim rre
 msgid "Configure how recording filenames are constructed. Standard: Date Time - Channel - Title Very very short: Title Very short: Title - Date Time Short with time: Date Time - Title Short: Date - Title Long: Date Time - Channel - Title - Info"
 msgstr "Konfiguroni si ndërtohen emrime të regjistrimit. Standart: Data e orës - Titulli i kanalit Shumë i shkurtër: Titulli Shumë i shkurtër: Data e titullit E shkurtër me kohën: Data - Titulli i shkurtër: Data - Titulli Long: Data - Kanali - Titulli - Informacione"
 
+#, fuzzy
 msgid "Configure if 'epg.dat' should be saved at all."
-msgstr "Konfiguro nëse 'epg.dat' duhet të shpëtohet në të gjitha."
+msgstr "Konfiguro nëse epg.dat duhet të shpëtohet."
 
 msgid "Configure if and how crypto icons will be shown in the channel selection list."
 msgstr "Konfiguro nëse dhe si ikonat kripto do të shfaqen në listën e përzgjedhjeve të kanaleve."
@@ -4674,7 +4702,7 @@ msgid "Configure remote control type"
 msgstr "Konfiguro llojin e kontrollit remot"
 
 msgid "Configure setup options for InfoBar."
-msgstr "Konfiguro opsionet për InfoBar."
+msgstr ""
 
 msgid "Configure swap space settings"
 msgstr "Konfiguro rregullimet hapsinore"
@@ -4721,9 +4749,9 @@ msgstr "Konfiguroni sjelljen kur të arrini në fund të një filmi, gjatë shfa
 msgid "Configure the border width of the subtitles. The dark border makes the subtitles easier to read on a light background."
 msgstr "Konfiguro gjerësinë kufitare të titrave. Kufiri i errët i bën titujt më të lehtë të lexojnë mbi sfondin e dritës."
 
+#, fuzzy
 msgid "Configure the brightness level of the front panel display for Standby."
-msgstr ""
-"Konfiguro nivelin e shkëlqimit të ekranit të parë të panelit për Standby."
+msgstr "Konfiguro nivelin e shkëlqimit të faqes së parë të ekranit për gatishmëri."
 
 msgid "Configure the brightness level of the front panel display for dimmed operation."
 msgstr "Konfiguro nivelin e shkëlqimit të ekranit të parë të panelit për një operacion të zbehtë."
@@ -5108,21 +5136,18 @@ msgstr "Vazhdon lojën (loop)"
 msgid "Contrast"
 msgstr "Kontakti"
 
+#, fuzzy
 msgid "Contrast Video"
-msgstr "Kontrast Video"
+msgstr "Kontakti"
 
 msgid "Contrast Video & OSD"
-msgstr "Kontrast Video & OSD"
+msgstr ""
 
 msgid "Contrast applied to the combined video + OSD output. Affects everything on screen including this menu."
 msgstr ""
-"Kontrast me videon e kombinuar + OSD. Ndikon gjithçka në ekran duke "
-"përfshirë edhe këtë menu."
 
 msgid "Contrast applied to the video layer only. Does not affect enigma2 menus or OSD."
 msgstr ""
-"Kontakti aplikohet vetëm tek niveli i videos. Nuk prek menutë enigma2 apo "
-"OSD."
 
 msgid "Control LED can be turned on or off here."
 msgstr "Kontrolli LED mund të ndizet ose fiket këtu."
@@ -5133,11 +5158,12 @@ msgstr "Kontrolli i pozicionit se si është shfaqur kronometri i fundit në Lis
 msgid "Control the InfoBar fading speed"
 msgstr "Kontrollo shpejtësinë e venitjes së Info Bar"
 
+#, fuzzy
 msgid "Control the smoothing filter used for the dithering process."
-msgstr "Kontrollo filtro për."
+msgstr "Me këtë opcion aktiv filtro."
 
 msgid "Control the use of vertical scaler anti-aliasing."
-msgstr "Kontrollo përdorimin e anti-aliazës vertikale."
+msgstr ""
 
 msgid "Controlled by HDMI"
 msgstr "Kontrolluar nga HDMI"
@@ -5201,8 +5227,9 @@ msgstr "Copy these %d directories/files?"
 msgid "Copying files"
 msgstr "Duke kopjuar file"
 
+#, fuzzy
 msgid "Cores"
-msgstr "Kore"
+msgstr "Kores: %s"
 
 msgid "Cornish"
 msgstr "Kornish"
@@ -5289,8 +5316,9 @@ msgstr "Krijo një lidhje simbolike"
 msgid "Create separate radio user bouquet"
 msgstr "Krijo një buqetë radiosh më vete"
 
+#, fuzzy
 msgid "Create slots for the selected device"
-msgstr "Krijo slot për dispozitivin e zgjedhur"
+msgstr "Krijo slot shtesë tek dispozitivi i zgjedhur"
 
 msgid "Create the additional slots on the selected device"
 msgstr "Krijo slot shtesë tek dispozitivi i zgjedhur"
@@ -5314,11 +5342,6 @@ msgid ""
 "\n"
 "/etc/enigma2/opendroid/providers.xml"
 msgstr ""
-"Virdencialet mungojnë!\n"
-"\n"
-"Ju lutem hyni në USERNAME dhe PUSWORD në:\n"
-"\n"
-"/etc/engma2/uperdroid/sigurues.xml"
 
 msgid "Cree"
 msgstr "Kree"
@@ -5359,40 +5382,43 @@ msgstr "Aktual"
 msgid "Current Affairs"
 msgstr "Çështjet aktuale"
 
+#, fuzzy
 msgid "Current Boot Slot"
-msgstr "Aktual But Slot"
+msgstr "Informacione mbi përkthimin"
 
 msgid "Current CEC address"
 msgstr "Adresa aktuale KQZ"
 
 #, python-format
 msgid "Current CPU Frequency cores 0 and 1: %s MHz"
-msgstr "CPU Frekuenca aktuale 0 dhe 1: %s MHz"
+msgstr ""
 
 #, python-format
 msgid "Current CPU Frequency other cores: %s MHz"
-msgstr "Prekenca aktuale"
+msgstr ""
 
 #, python-format
 msgid "Current CPU cores 0 and 1 Voltage: %s V"
-msgstr "Pjesët aktuale CPU 0 dhe 1 Voltage: %s V"
+msgstr ""
 
+#, fuzzy
 msgid "Current MultiBoot information"
-msgstr "Informacione aktuale"
+msgstr "Informacione mbi përkthimin"
 
 msgid "Current Status:"
 msgstr "Gjendja aktuale:"
 
 #, python-format
 msgid "Current Temperature (SoC): %s °C"
-msgstr "Temperatura aktuale"
+msgstr ""
 
 #, python-format
 msgid "Current directory (%s)"
 msgstr "Current directory (%s)"
 
+#, fuzzy
 msgid "Current installed"
-msgstr "Aktual"
+msgstr "Gjendja aktuale"
 
 #, python-format
 msgid "Current location is '%s'."
@@ -5476,11 +5502,13 @@ msgstr "Lejla"
 msgid "Cycle PiP(zap)"
 msgstr "Cyclope PiPقzap)"
 
+#, fuzzy
 msgid "Cycle through the InfoBars"
-msgstr "Cikli përmes InfoBars"
+msgstr "Lidhur"
 
+#, fuzzy
 msgid "Cycle through the available aspect ratios"
-msgstr "Cikli me anë të raportit në dispozicion"
+msgstr "Kalo në shërbimet TV në dispozicion"
 
 msgid "Cycling"
 msgstr "Cikli"
@@ -5516,8 +5544,9 @@ msgstr "Pulsanti DIGIT"
 msgid "DLNA support"
 msgstr "Suporti DLNA"
 
+#, fuzzy
 msgid "DMIPS"
-msgstr "DPIPS"
+msgstr "DMIPS:\t"
 
 msgid "DMM advanced"
 msgstr "DMM"
@@ -5531,17 +5560,18 @@ msgstr "Rregullimet DNS"
 msgid "DNS data source"
 msgstr "DNS"
 
+#, fuzzy
 msgid "DNS override"
-msgstr "DNS"
+msgstr "Modaliteti 3D"
 
 msgid "DNS protocol mode"
-msgstr "Modaliteti"
+msgstr ""
 
 msgid "DNS suffix"
-msgstr "Gabimi DNS"
+msgstr ""
 
 msgid "DNSCrypt"
-msgstr "DNSCrypt"
+msgstr ""
 
 msgid ""
 "DO NOT POWER OFF YOUR DEVICE WHILE UPDATING!\n"
@@ -5580,11 +5610,17 @@ msgstr "DVB"
 msgid "DVB-C"
 msgstr "DVB-C"
 
+msgid "DVB-C / Cable only"
+msgstr ""
+
 msgid "DVB-C ANNEX B"
 msgstr "DVB-CWEKX B"
 
 msgid "DVB-C ANNEX C"
 msgstr "DVB-CWEKX C"
+
+msgid "DVB-C and DVB-T/T2 via external 5V controlled coax switch"
+msgstr ""
 
 msgid "DVB-S"
 msgstr "DVB-S"
@@ -5594,6 +5630,9 @@ msgstr "DVB-S2"
 
 msgid "DVB-T"
 msgstr "DVB-T"
+
+msgid "DVB-T/T2 / Terrestrial only"
+msgstr ""
 
 msgid "DVB-T2"
 msgstr "DVB-T2"
@@ -5800,19 +5839,21 @@ msgid "Debug Logs"
 msgstr "Ditari web"
 
 msgid "Debug and crash logs can be found in: /home/root/logs"
-msgstr "Dhe në"
+msgstr ""
 
 msgid "Debug log time format *"
 msgstr "Gjetja dhe korrigjimi i gabimeve"
 
 msgid "Decoder release strategy"
-msgstr "Strategji për lirimin e dekoduesit"
+msgstr ""
 
+#, fuzzy
 msgid "Decoder start delay"
-msgstr "Dekoduesi nisje"
+msgstr "Përshkruani kohën e fillimit"
 
+#, fuzzy
 msgid "Decoder start timeout"
-msgstr "Dekoduesi ora"
+msgstr "Përshkruani kohën e fillimit"
 
 msgid "Decoding Setup"
 msgstr "Rregullimi"
@@ -5853,8 +5894,9 @@ msgstr "Skanuesi i Shërbimeve të prezgjedhura"
 msgid "Default files/folders to backup"
 msgstr "Default files/folders to backup"
 
+#, fuzzy
 msgid "Default gateway"
-msgstr "E paracaktuar"
+msgstr "Përdor një hyrje"
 
 msgid "Default left column directory"
 msgstr "E prezgjedhur kollona e majtë"
@@ -5876,8 +5918,9 @@ msgstr "Lloji i paracaktuar i regjistrimit"
 msgid "Default right column directory"
 msgstr "Directory e paracaktuar e kollonës së djathtë"
 
+#, fuzzy
 msgid "Default sort order for directories in the left column."
-msgstr "E prezgjedhur për në majtas."
+msgstr "E prezgjedhur për në majtas"
 
 msgid "Default sort order for directories in the right column."
 msgstr "E prezgjedhur për në djathtas."
@@ -5920,7 +5963,7 @@ msgid "Define the file system mount options."
 msgstr "Përcakto opsionet e montimit të sistemit të file."
 
 msgid "Defined skips"
-msgstr "Kufizuar"
+msgstr ""
 
 msgid "Defined volume offset"
 msgstr "Përshpejtues i volumit të përcaktuar"
@@ -6220,7 +6263,7 @@ msgid "Details"
 msgstr "Hollësi"
 
 msgid "Deutsch"
-msgstr "Deutsch"
+msgstr ""
 
 msgid "Development"
 msgstr "Zhvillimi"
@@ -6296,13 +6339,12 @@ msgstr "Ndrysho rregullimet"
 msgid "Diction"
 msgstr "Zhdukje"
 
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "Difference between timer begin and end must be equal or greater than %d minutes.\n"
 "End Action was disabled!"
 msgstr ""
-"Ndryshimi midis fillimit dhe përfundimit të kronometrit duhet të jetë i "
-"barabartë ose më i madh se %d minuta.\n"
+"Ndryshimi midis fillimit dhe përfundimit të kronometrit duhet të jetë i barabartë ose më i madh se %d minuta.\n"
 "Fundi i veprimit u çaktivizua!"
 
 msgid "Digit entry for service selection"
@@ -6323,8 +6365,9 @@ msgstr "Zgjedhja e elementit të menusë direkte"
 msgid "Direct playback of linked titles without menu"
 msgstr "Drejtpërdrejtë nga titujt pa menu"
 
+#, fuzzy
 msgid "Director:"
-msgstr "Drejtori:"
+msgstr "Directory"
 
 msgid "Directories"
 msgstr "Directories"
@@ -6366,11 +6409,13 @@ msgstr "Çaktivizo Animacionet"
 msgid "Disable Chkroot"
 msgstr "Ç'aktivo"
 
+#, fuzzy
 msgid "Disable FCC during recordings"
-msgstr "Ç'aktivo FCC gjatë regjistrimeve"
+msgstr "Përfshi AIT në regjistrime"
 
+#, fuzzy
 msgid "Disable Fast Channel Change"
-msgstr "Ç'aktivo ndryshimin e kanalit të shpejtë"
+msgstr "Përdor lidhje"
 
 msgid "Disable MiniTV"
 msgstr "Ç'aktivo MiniTV"
@@ -6411,8 +6456,9 @@ msgstr "PiP i Çaktivizuar.\n"
 msgid "Disabled or WPA/WPA2"
 msgstr "Disabled or WPA/WPA2"
 
+#, fuzzy
 msgid "Disabling Chkroot failed!"
-msgstr "Zhgënjimi i Çokrosë dështoi!"
+msgstr "Ç'aktivo"
 
 msgid "Dish"
 msgstr "Dish"
@@ -6468,8 +6514,9 @@ msgstr "Shfaq më shumë informacion rreth këtij file"
 msgid "Display selection list as a selection menu"
 msgstr "Shfaq lista"
 
+#, fuzzy
 msgid "Display the EIT Now/Next event data in the InfoBar."
-msgstr "Shfaq të dhënat e ngjarjes EIT Tani/Në vazhdim në InfoBar."
+msgstr "Display the EIT Now/Next event data in InfoBar."
 
 msgid "Display the base locales or all locales for a language."
 msgstr "Shfaq në një gjuhë vendet bazë ose të gjitha vendet lokale."
@@ -6556,14 +6603,13 @@ msgstr ""
 "Me të vërtetë dëshironi të formatoni dispozitivin në sistemin e skedarëve Linux?\n"
 "Të gjitha të dhënat në pajisje do të humbasin!"
 
-#, python-format
+#, fuzzy, python-format
 msgid "Do you really want to move '%s' to the trashcan?"
-msgstr "Vërtet dëshiron të lëvizësh '%s' në koshin e plehrave?"
+msgstr "Me të vërtetë dëshiron të lëvizësh në plehra?"
 
-#, python-format
+#, fuzzy, python-format
 msgid "Do you really want to permanently remove '%s' from the trashcan?"
-msgstr ""
-"Me të vërtetë dëshiron të heqësh përgjithmonë '%s' nga koshi i plehrave?"
+msgstr "Me të vërtetë dëshiron të heqësh përgjithmonë '%s' nga koshi i koshit?"
 
 msgid ""
 "Do you really want to remove all\n"
@@ -6580,9 +6626,9 @@ msgstr ""
 msgid "Do you really want to remove directory '%s' from the disk?"
 msgstr "Me të vërtetë dëshiron të heqësh directory '%s' nga disku?"
 
-#, python-format
+#, fuzzy, python-format
 msgid "Do you really want to remove the bookmark for '%s'?"
-msgstr "Me të vërtetë dëshiron të heqësh libërshënuesin për '%s?"
+msgstr "Me të vërtetë dëshiron të heqësh libërshënuesin për '%s'?"
 
 #, python-format
 msgid "Do you really want to remove the timer for %s?"
@@ -6718,7 +6764,7 @@ msgid "Dolby Digital downmix is now"
 msgstr "Dolby Digital downmix është tani"
 
 msgid "Dolby TrueHD"
-msgstr "E vërtetë"
+msgstr ""
 
 msgid "Domain"
 msgstr "Domain"
@@ -6785,10 +6831,11 @@ msgid "Download error"
 msgstr "Gabim gjatë shkarkimit"
 
 msgid "Download failed: no valid URL found for this VOD."
-msgstr "Shkarkimi dështoi: nuk u gjet asnjë URL e vlefshme për këtë VOD."
+msgstr ""
 
+#, fuzzy
 msgid "Download movie & switch to TV channel"
-msgstr "Duke shkarkuar filmin & Kalo tek kanali TV"
+msgstr "Shkarkimi (vizoni të kaloni në një kanal DVB-S2/T/T2/C)"
 
 msgid "Download not avaible"
 msgstr "Shkarkimi nuk është i ndryshueshëm"
@@ -6796,9 +6843,9 @@ msgstr "Shkarkimi nuk është i ndryshueshëm"
 msgid "Download plugins"
 msgstr "Shkarkimi i plugin"
 
-#, python-format
+#, fuzzy, python-format
 msgid "Download started - VOD: %s"
-msgstr "Shkarkimi filloi - VOD: %s"
+msgstr "Shkarkimi me yje - VOD: "
 
 msgid "Download the selected image"
 msgstr "Shkarkimi i figurës së zgjedhur"
@@ -6843,8 +6890,9 @@ msgstr "Shofer"
 msgid "Driver and kernel information"
 msgstr "Shofer dhe informata nga kokrrat"
 
+#, fuzzy
 msgid "Drivers"
-msgstr "Shoferë"
+msgstr "Shofer"
 
 msgid "Drivers version"
 msgstr "Versioni i shoferëve"
@@ -6859,8 +6907,9 @@ msgstr "Duplex"
 msgid "Duplicate the current line"
 msgstr "Dyfisho rreshtin aktual"
 
+#, fuzzy
 msgid "Duration:"
-msgstr "Kohëzgjatja:"
+msgstr "Ngopje"
 
 msgid "During this time, the transmitter and the recording destination are checked. If the recording destination (eg NAS) does not ready in time for recording, this time can be increased."
 msgstr "Gjatë kësaj kohe, transmetuesi dhe destinacioni i regjistrimit kontrollohen. Nëse destinacioni i regjistrimit (eg NAS) nuk është gati në kohë për regjistrimin, kjo kohë mund të rritet."
@@ -6880,8 +6929,9 @@ msgstr "Xhangka"
 msgid "E"
 msgstr "E"
 
+#, fuzzy
 msgid "E2 (re)starts"
-msgstr "E2 (re) fillon"
+msgstr "E2 (re) fillon: %s\n"
 
 msgid "ECM"
 msgstr "ECM"
@@ -6944,8 +6994,9 @@ msgstr "Modaliteti"
 msgid "EPG filename"
 msgstr "Emri"
 
+#, fuzzy
 msgid "EPG history"
-msgstr "EG"
+msgstr "Historia"
 
 msgid ""
 "EPG key : Switch to channel list\n"
@@ -6999,6 +7050,10 @@ msgstr "Lindje"
 
 msgid "East limit set"
 msgstr "Kufiri lindor i caktuar"
+
+#, fuzzy
+msgid "Eastern satellites"
+msgstr "Satelitët e lidhur"
 
 msgid "EasyMedia"
 msgstr "EasyMedia"
@@ -7140,8 +7195,9 @@ msgstr "Aktivo"
 msgid "Enable BT Audio"
 msgstr "Aktivo BT Zëri"
 
+#, fuzzy
 msgid "Enable BT audio"
-msgstr "Aktivo zërin BT"
+msgstr "Aktivo BT Zëri"
 
 msgid "Enable Bouquet Edit"
 msgstr "Aktivo Ndrysho"
@@ -7155,8 +7211,9 @@ msgstr "Aktivo"
 msgid "Enable EIT EPG"
 msgstr "Aktivo EMG"
 
+#, fuzzy
 msgid "Enable Fast Channel Change"
-msgstr "Aktivo ndryshimin e kanalit të shpejtë"
+msgstr "Aktivizo VOD në listën kanalizime"
 
 msgid "Enable Favorite Edit"
 msgstr "Aktivo Ndrysho"
@@ -7164,6 +7221,7 @@ msgstr "Aktivo Ndrysho"
 msgid "Enable Focus Animation"
 msgstr "Aktivo Animacionin e fokusit"
 
+#, fuzzy
 msgid "Enable FreeSat EPG"
 msgstr "Aktivo"
 
@@ -7191,11 +7249,13 @@ msgstr "Aktivizo MiniTV"
 msgid "Enable Move Mode"
 msgstr "Aktivo Modalitetin e lëvizjes"
 
+#, fuzzy
 msgid "Enable NFSv3"
-msgstr "Aktivo NFSv3"
+msgstr "Aktivo IPv6"
 
+#, fuzzy
 msgid "Enable NFSv4"
-msgstr "Aktivo NFSv4"
+msgstr "Aktivo IPv6"
 
 msgid "Enable Netmed EPG"
 msgstr "Aktivo"
@@ -7224,8 +7284,9 @@ msgstr "Aktivon/Poshtë pulsantët për funksionet 'të gjitha lart/poshtë' (n�
 msgid "Enable VOD at channel list"
 msgstr "Aktivizo VOD në listën kanalizime"
 
+#, fuzzy
 msgid "Enable VPS"
-msgstr "Aktivizo VPS"
+msgstr "Aktivo IPv6"
 
 msgid "Enable ViaSat EPG"
 msgstr "Aktivo"
@@ -7249,11 +7310,13 @@ msgstr "Aktivizo skanimin automatik të shpejtë"
 msgid "Enable auto fast scan for %s"
 msgstr "Aktivizo skanimin automatik të shpejtë për %s"
 
+#, fuzzy
 msgid "Enable automatic shares"
-msgstr "Aktivo pjesën automatike"
+msgstr "Aktivizo skanimin automatik të shpejtë"
 
+#, fuzzy
 msgid "Enable autorefresh templates."
-msgstr "Aktivo."
+msgstr "Aktivizo skanimin automatik të shpejtë"
 
 msgid "Enable blinking rec symbol on the LCD Display in Standby."
 msgstr "Aktivizo pulsimin e simbolit të përtëritshëm në Display LCD në Standby."
@@ -7300,8 +7363,9 @@ msgstr "Aktivizo importuesin e kronometrit nga një melodi e gabuar"
 msgid "Enable intro screen"
 msgstr "Aktivon ekranin e intro"
 
+#, fuzzy
 msgid "Enable monitoring UI"
-msgstr "Aktivizo monitorimin UI"
+msgstr "Aktivo ENG-në e Virgjëreshës"
 
 msgid "Enable multiple bouquets"
 msgstr "Aktivizo buqetat e shumëfishta"
@@ -7483,11 +7547,13 @@ msgstr "Emri anglez (në zbritje)"
 msgid "Enhanced Movie Center"
 msgstr "Qëndra e Reklamuar e Filmit"
 
+#, fuzzy
 msgid "Enigma2 debug level"
-msgstr "Niveli i debug Enigma2"
+msgstr "Niveli i debug Enigma2: %s"
 
+#, fuzzy
 msgid "Enigma2 revision"
-msgstr "Revizioni"
+msgstr "Ndryshimet"
 
 msgid "Enigma2 skin selector"
 msgstr "Zgjedhësi i lëkurës Enigma2"
@@ -7558,29 +7624,21 @@ msgstr "Shkruaj adresën IP të marrësit për t'u përdorur për kënduesit e k
 
 msgid "Enter the IP address or subnet (e.g. 192.168.1.0/24) to which NFS host access is granted. Enter '*', the default, for all host access."
 msgstr ""
-"Shkruaj adresën IP ose nënnet (p.sh. 192.168.1.0/24) të cilit i jepet hyrja "
-"në host NFS. Shkruaj '*, prezgjedhur, për të gjithë host hyrje."
 
 msgid "Enter the IP address to be used as the gateway to other networks for this adapter. Typically this is the IP address of your router."
 msgstr ""
-"Shkruaj adresën IP që duhet përdorur si porta për rrjetet e tjera për këtë "
-"adaptues. Zakonisht kjo është adresa IP e shoferit tuaj."
 
 msgid "Enter the URL/IP of the fallback remote receiver, e.g. '192.168.0.1'. The other details such as 'http://' and port number will be filled in automatically when you select save."
 msgstr "Shkruaj URL/IP të marrësit të largët, d.sh. 192.168.0.1. Hollësitë e tjera si 'http://' dhe numri i portit do të plotësohen automatikisht kur të zgjidhni ruajtjen."
 
 msgid "Enter the ZeroTier Network ID. The ID should be exactly 16 characters in length."
 msgstr ""
-"Shkruaj ID-në e Rrjetit ZeroTier. ID duhet të jetë saktësisht 16 shkronja në "
-"gjatësi."
 
 msgid "Enter the domain of the host receiver. Do not include 'http://' or port number."
 msgstr "Hyni në territorin e marrësit të ushtrisë. Mos përfshin 'http://' apo numrin e portit."
 
 msgid "Enter the fixed/static IPv4 address to be used for this network adapter."
 msgstr ""
-"Shkruaj adresën IPv4 fikse/statike që duhet përdorur për këtë adaptues të "
-"rrjetit."
 
 msgid "Enter the frequency at which you LNB switches between low band and high band. For more information consult the specifications of your LNB."
 msgstr "Hyni në frekuencën në të cilën ju LNB kalon midis grupit të ulët dhe grupit të lartë. Për më shumë informacion konsulto specifikimet e LNB-së tënde."
@@ -7590,28 +7648,24 @@ msgstr "Shto për. Për më shumë informacion konsultoni dokumentet e ofruesit 
 
 msgid "Enter the number of NFS server threads to be allocated/used. Higher values improve performance with multiple clients but use more memory."
 msgstr ""
-"Shto nga server. Vlera më të larta përmirësojnë ecurinë me klientë të "
-"shumtë, por përdorin më shumë kujtesë."
 
 msgid "Enter the number stored in the positioner that corresponds to this satellite."
 msgstr "Vendos numrin e regjistruar në pozicionuesin që korrespondon me këtë satelit."
 
 msgid "Enter the password, pass-phrase or pre-shared key for the selected wireless network."
 msgstr ""
-"Shkruaj fjalëkalimin, pas-fjalën ose kyçin para-shkartë për rrjetin e "
-"zgjedhur pa tel."
 
 msgid "Enter the primary IPv4 DNS setting for this adapter."
-msgstr "Shto për."
+msgstr ""
 
 msgid "Enter the primary IPv6 DNS setting for this adapter. (Optional)"
-msgstr "Shto për. (Opsioni)"
+msgstr ""
 
 msgid "Enter the secondary IPv4 DNS setting for this adapter. (Optional)"
-msgstr "Shto sekondë për. (Opsioni)"
+msgstr ""
 
 msgid "Enter the secondary IPv6 DNS setting for this adapter. (Optional)"
-msgstr "Shto sekondë për. (Opsioni)"
+msgstr ""
 
 msgid "Enter the service pin"
 msgstr "Shto"
@@ -7630,16 +7684,12 @@ msgstr "Hyni në portin e përurimit të marrësit (normalisht 8001)."
 
 msgid "Enter the subnet mask to be used for this network adapter. (e.g. 255.255.255.0)"
 msgstr ""
-"Shkruaj maskën e subnet për t'u përdorur për këtë adaptues rrjeti. (p.sh. "
-"255.255.0)"
 
 msgid "Enter the subscription code to fully enable the AI-Powered Translation plugin, the unified code for trial is 15."
 msgstr "Shkruaj kodin e abonimit për të aktivizuar plotësisht plugin e përkthimit AI, kodi i unifikuar për gjyqin është 15."
 
 msgid "Enter the workgroup name to be used by this receiver for Samba based connections. (Default is 'WORKGROUP'.)"
 msgstr ""
-"Shkruaj emrin e grupit të punës që do të përdoret nga ky marrës për lidhjet "
-"me bazë Samba. (Prezgjedhur është 'WORKGRUP.)"
 
 msgid "Enter your current latitude. This is the number of degrees you are from the equator as a decimal."
 msgstr "Hyni në gjerësinë e tanishme. Ky është numri i gradës që ju jeni nga ekuatori si dhjetor."
@@ -7745,8 +7795,9 @@ msgstr "Error %d: Unable to start 'passwd' command!"
 msgid "Error %s: Unable to get information for '%s'!  (%s)"
 msgstr "Error %s: Unable to get information for '%s'!  (%s)"
 
+#, fuzzy
 msgid "Error Download Setting"
-msgstr "Gabim gjatë shkarkimit"
+msgstr "Shkarkimi"
 
 msgid "Error checking disk. The disk may be damaged"
 msgstr "Gabim gjatë kontrollit të diskut. Disku mund të dëmtohet"
@@ -7794,6 +7845,7 @@ msgstr ""
 "Gabim gjatë marrjes së lidhjes via %s\n"
 "%s"
 
+#, fuzzy
 msgid "Error loading MultiBoot info: "
 msgstr "Gabim j "
 
@@ -7854,9 +7906,9 @@ msgstr "Error: Creating directory '%s' failed!"
 msgid "Error: Creating picon target directory: (%s)"
 msgstr "Error: Creating picon target directory: (%s)"
 
-#, python-format
+#, fuzzy, python-format
 msgid "Error: Directory '%s' does not exist!"
-msgstr "Gabim Directory nuk!"
+msgstr "Directory '%s' nuk ekziston!"
 
 #, python-format
 msgid "Error: Failed to run service scan!  (%s)"
@@ -7947,7 +7999,7 @@ msgid "Error: You can't run '%s' on a directory!"
 msgstr "Error: You can't run '%s' on a directory!"
 
 msgid "Español"
-msgstr "Espanjol"
+msgstr ""
 
 msgid "Esperanto"
 msgstr "Esperanto"
@@ -7970,8 +8022,9 @@ msgstr "Etiopi"
 msgid "Even if TV has another input active?"
 msgstr "Edhe nëse TV ka një tjetër hyrje aktive?"
 
+#, fuzzy
 msgid "Even if a 'Wakeup' scheduled task starting?"
-msgstr "Edhe nëse një punë e planifikuar fillon?"
+msgstr "Edhe në qoftë se një 'Uakeup' PowerTimer filluar?"
 
 msgid "Even if a 'Zap and Record' recording timer starting?"
 msgstr "Edhe nëse fillon një kohëmatës regjistrimi 'Zap dhe rekord'?"
@@ -8105,8 +8158,9 @@ msgstr "Lista ndërfaqeve të rrjetit Exit"
 msgid "Exit network wizard"
 msgstr "Magjistar i rrjetit Exit"
 
+#, fuzzy
 msgid "Exit picture viewer"
-msgstr "Shfaqës i fotografive Exit"
+msgstr "Shfaqës i imazheve Exit"
 
 msgid "Exit quad PiP"
 msgstr "Dalja PiP"
@@ -8244,8 +8298,9 @@ msgstr "FBIC SCR (Unicible/JESS)"
 msgid "FBC automatic"
 msgstr "Automatik"
 
+#, fuzzy
 msgid "FCC enabled"
-msgstr "FCC është aktivuar"
+msgstr "CI aktiv"
 
 msgid "FEC"
 msgstr "FEC"
@@ -8256,8 +8311,9 @@ msgstr "Probe"
 msgid "FFmpeg is not installed so '.mvi' file actions are not available!"
 msgstr "Është nuk veprimet!"
 
+#, fuzzy
 msgid "FFmpeg version"
-msgstr "Versioni"
+msgstr "Versioni: %s"
 
 msgid "FIFO"
 msgstr "FIFO"
@@ -8383,11 +8439,12 @@ msgstr "Farsi / Persiane"
 msgid "Fast"
 msgstr "Shpejt"
 
+#, fuzzy
 msgid "Fast Channel Change"
-msgstr "Ndryshimi i kanalit të shpejtë"
+msgstr "Vazhdo faqe"
 
 msgid "Fast Channel Change Setup"
-msgstr "Rregullimi i ndryshimit të kanalit të shpejtë"
+msgstr ""
 
 msgid "Fast DiSEqC"
 msgstr "Fast DiSEqC"
@@ -8512,11 +8569,13 @@ msgstr "Lëvize"
 msgid "File Commander Navigation Actions"
 msgstr "Veprimet"
 
+#, fuzzy
 msgid "File Commander Picture Viewer"
-msgstr "Shikues figurash"
+msgstr "Shikues file"
 
+#, fuzzy
 msgid "File Commander Picture Viewer Actions"
-msgstr "Veprime Shfaqësi i File"
+msgstr "Veprime Shfaqës i File"
 
 msgid "File Commander Selection Actions"
 msgstr "File Zgjedhja"
@@ -8575,8 +8634,9 @@ msgstr "Financë"
 msgid "Find Currently Playing Service"
 msgstr "Gjej shërbimin aktual"
 
+#, fuzzy
 msgid "Find connected events"
-msgstr "Gjej ngjarjet e lidhura"
+msgstr "Lidhur"
 
 msgid "Find similar events in the EPG"
 msgstr "Gjej ngjarje të ngjashme në EG"
@@ -8663,8 +8723,9 @@ msgstr "Directory Flash '%s' nuk lejohet!"
 msgid "Flash the image"
 msgstr "File"
 
+#, fuzzy
 msgid "Flash type"
-msgstr "Lloji"
+msgstr "Lloji: %s"
 
 msgid "Flash used"
 msgstr "Përdoret Flash"
@@ -8677,8 +8738,9 @@ msgstr "Spastro %s %s dhe rifillo tani?"
 msgid "FlashOnline - %s Images"
 msgstr "FlashOnline - %s Images"
 
+#, fuzzy
 msgid "Flashed"
-msgstr "Flashed"
+msgstr "Flash"
 
 msgid "Flashing"
 msgstr "Flashing"
@@ -8737,9 +8799,6 @@ msgstr "Detyro ToneBurst"
 
 msgid "Force a specific network link speed/duplex mode instead of auto-negotiation. Only change this if you have a specific reason as an incorrect setting can break network connectivity."
 msgstr ""
-"Detyro një rrjet specifik lidhje me shpejtësinë/dupleks në vend të auto-"
-"negociimit. Ndrysho vetëm këtë nëse ke një arsye specifike si një rregullim "
-"i pasaktë mund të prishë lidhjen në rrjet."
 
 msgid "Force de-interlace"
 msgstr "Detyro"
@@ -8802,13 +8861,14 @@ msgid "France"
 msgstr "Francë"
 
 msgid "Français"
-msgstr "Français"
+msgstr ""
 
 msgid "Free"
 msgstr "I lirë"
 
+#, fuzzy
 msgid "Free Flash"
-msgstr "Free Flash"
+msgstr "E lirë"
 
 msgid "Free Space"
 msgstr "Hapësirë e lirë"
@@ -8885,6 +8945,7 @@ msgstr "Front USB 3.0"
 msgid "Front processor version"
 msgstr "Versioni"
 
+#, fuzzy
 msgid "Frontprocessor version"
 msgstr "Versioni"
 
@@ -8901,7 +8962,7 @@ msgid "Full factory reset"
 msgstr "Restaurim i plotë i fabrikës"
 
 msgid "Full range (no clipping)"
-msgstr "I plotë"
+msgstr ""
 
 msgid "Full screen"
 msgstr "Ekran i plotë"
@@ -8921,8 +8982,9 @@ msgstr "G"
 msgid "GB"
 msgstr "GB"
 
+#, fuzzy
 msgid "GCC version"
-msgstr "Versioni"
+msgstr "Versioni: %s"
 
 msgid "GREEN button"
 msgstr "Butoni GREEN"
@@ -8930,8 +8992,9 @@ msgstr "Butoni GREEN"
 msgid "GREEN long"
 msgstr "GREENI I gjatë"
 
+#, fuzzy
 msgid "GStreamer"
-msgstr "Gstreamer"
+msgstr "Gstreamer: %s"
 
 msgid "GStreamer debug log category *"
 msgstr "Kategoria e log të gStreamer dibug *"
@@ -8996,8 +9059,9 @@ msgstr "Të përgjithshme"
 msgid "General AC3 delay"
 msgstr "Gjenerali AC3 vonon"
 
+#, fuzzy
 msgid "General BT audio delay"
-msgstr "General BT vonues audio"
+msgstr "Gjeneral BT Zëri Vonesa"
 
 msgid "General Information"
 msgstr "Informacione të përgjithshme"
@@ -9014,8 +9078,9 @@ msgstr "Të përgjithshme"
 msgid "Genre"
 msgstr "Genre"
 
+#, fuzzy
 msgid "Genres:"
-msgstr "Genres:"
+msgstr "Genre"
 
 msgid "Geolocation Information"
 msgstr "Informacione gjeolokate"
@@ -9060,8 +9125,9 @@ msgstr "Gjibraltar"
 msgid "Given device id"
 msgstr "ID e dhënë"
 
+#, fuzzy
 msgid "Glibc version"
-msgstr "Versioni Glibc"
+msgstr "Versioni Glibc: %s"
 
 msgid "Go back to the previous step"
 msgstr "Kthehu tek hapi i mëparshëm"
@@ -9084,17 +9150,20 @@ msgstr "Shko nga"
 msgid "Go to standby"
 msgstr "Shko në pritje"
 
+#, fuzzy
 msgid "Go to the first page of documentation"
-msgstr "Shko tek faqja e parë e dokumentacionit"
+msgstr "Lëviz nga i pari element në"
 
+#, fuzzy
 msgid "Go to the last page of documentation"
-msgstr "Shko tek faqja e fundit e dokumentacionit"
+msgstr "Lëviz nga e fundit në"
 
 msgid "Go to the next page of documentation"
-msgstr "Shko tek faqja në vazhdim e dokumentacionit"
+msgstr ""
 
+#, fuzzy
 msgid "Go to the previous page of documentation"
-msgstr "Shko tek faqja paraardhëse e dokumentacionit"
+msgstr "Lëviz tek kategoria paraardhëse në listë"
 
 msgid "Go up the list"
 msgstr "Shko sipër lista"
@@ -9108,8 +9177,9 @@ msgstr "Golf"
 msgid "Google DNS"
 msgstr "Google DNS"
 
+#, fuzzy
 msgid "Google Public DNS"
-msgstr "Google Public DNS"
+msgstr "Google DNS"
 
 msgid "Goto"
 msgstr "Goto"
@@ -9339,8 +9409,9 @@ msgstr "Ndal"
 msgid "Handle Python crashes"
 msgstr "Challeck Python"
 
+#, fuzzy
 msgid "Handle Standby from TV"
-msgstr "Trajto Standby nga TV"
+msgstr "Nga TV"
 
 msgid "Handle wake up from TV"
 msgstr "Zgjohu nga televizori"
@@ -9354,8 +9425,9 @@ msgstr "Pas"
 msgid "Hard disk standby in box standby after"
 msgstr "Pas"
 
+#, fuzzy
 msgid "Hard disk status"
-msgstr "Gjëndja hard disk"
+msgstr "Rregullimi"
 
 msgid "Harddisk"
 msgstr "Harddisk"
@@ -9366,8 +9438,9 @@ msgstr "Rregullimi"
 msgid "Harddisk standby after"
 msgstr "Pas"
 
+#, fuzzy
 msgid "Hardware MultiBoot device"
-msgstr "Dispozitivi i MultiBoot i hardware"
+msgstr "Dispozitivi i multiBoot i hardware: %s"
 
 msgid "Hardware information"
 msgstr "Informacione hardware"
@@ -9403,8 +9476,9 @@ msgstr "Lartësia"
 msgid "Help"
 msgstr "Ndihmë"
 
+#, fuzzy
 msgid "Help Action"
-msgstr "Ndihmë"
+msgstr "Veprimet"
 
 msgid "Help Screen Information"
 msgstr "Informacione Ekrani"
@@ -9526,8 +9600,9 @@ msgstr "Historike"
 msgid "History"
 msgstr "Historia"
 
+#, fuzzy
 msgid "History Prev/Next"
-msgstr "Historia"
+msgstr "Historia në vazhdim"
 
 msgid "History Zap"
 msgstr "Historia Zap"
@@ -9651,10 +9726,6 @@ msgstr "Unit-format"
 
 msgid "How to release the hardware decoder when switching to software descrambling. 'Quick' releases immediately (faster zapping). 'Normal' performs clean shutdown first (more stable on some boxes). 'Aggressive' performs a full descrambler reset between encrypted channels."
 msgstr ""
-"Si ta lësh dekoduesin hardware kur kalon në descrambimin e programeve. "
-"Shpejt! 'Normale' kryen mbylljen e pastër së pari (më të qëndrueshme në disa "
-"kuti). 'Agresive' kryen një restaurim të plotë descrambler mes kanaleve të "
-"koduara."
 
 msgid "Http(s) stream start delay"
 msgstr "Fillimi i shtyrjes së përroit Htp vetes"
@@ -9790,8 +9861,9 @@ msgstr "Adresa IP e serverit Stream Relay përdorur për të descramble shërbim
 msgid "IP of fallback remote receiver"
 msgstr "IP nga"
 
+#, fuzzy
 msgid "IP protocol"
-msgstr "IP"
+msgstr "Protokolli"
 
 msgid "IPK Tools"
 msgstr "Mjete IPK"
@@ -9846,13 +9918,10 @@ msgstr "Në qoftë se një veprim është i konfigurueshëm nga përdoruesi, hyr
 
 msgid "If an event is interrupted and divided into separate recordings, this feature will search for alternate broadcasts of the same event."
 msgstr ""
-"Nëse një ngjarje ndërpritet dhe ndahet në regjistrime të ndara, kjo veçori "
-"do të kërkojë transmetime alternative të së njëjtës ngjarje."
 
+#, fuzzy
 msgid "If enabled the output resolution of the receiver will try to match the resolution of the video contents resolution."
-msgstr ""
-"Nëse aktivizohet rezoluta e output e marrësit do të përpiqet të përputhet me "
-"zgjidhjen e rezolutës së përmbajtjes video."
+msgstr "Nëse aktivizohet rezoluta e output e kutisë do të përpiqet të përputhet me zgjidhjen e rezolutës së përmbajtjes video"
 
 msgid "If enabled the video will always be de-interlaced."
 msgstr "Nëse aktivizohet video do të de-intributohet gjithmonë."
@@ -9878,11 +9947,9 @@ msgstr "Nëse vendosur në 'po' do të mundësojë PLAY,PAUSE, SEEK në filmat e
 msgid "If set to 'yes', allows you to use timeshift with alternative audio plugins."
 msgstr "Nëse vendosur në 'Po', ju mundëson të përdorni plugin alternative audio të konfiguruara."
 
+#, fuzzy
 msgid "If the Deep Standby workaround is enabled wait until the system time is synchronized. Depending on the requirement the device wake up will continuing after a maximum of 2 minutes."
-msgstr ""
-"Nëse puna \"Webby\" është lejuar të presë derisa të sinkronizohet koha e "
-"sistemit. Në varësi të kërkesës, zgjimi i pajisjes do të vazhdojë pas një "
-"maksimumi prej 2 minutash."
+msgstr "Nëse puna e thellë e ndihmës është aktivizuar të presë derisa të sinkronizohet koha e sistemit. Në varësi të kërkesës, zgjimi i pajisjes do të vazhdojë pas një maksimumi prej 2 minutash."
 
 msgid "If the free space is less than setting value, then an attempt is made to delete the old time shift files."
 msgstr "Nëse hapësira e lirë është më e vogël se vendosja e vlerës, atëhere është bërë një përpjekje për të eleminuar skedarët e vjetër të zhvendosjes së kohës."
@@ -9942,11 +10009,13 @@ msgstr "Shpërfill"
 msgid "Ignore DVB-T namespace sub network"
 msgstr "Shpërfill"
 
+#, fuzzy
 msgid "Ignore Standby"
-msgstr "Shpërfill"
+msgstr "Pritje e thellë"
 
+#, fuzzy
 msgid "Ignore unexpectedly wake up and stay in Standby"
-msgstr "Shpërfilli papritmas zgjuar dhe të qëndrojnë në Stanby"
+msgstr "Shpërfilli papritmas zgjuar dhe të qëndrojnë në pritje"
 
 msgid "Image Backup"
 msgstr "Figura"
@@ -9964,8 +10033,9 @@ msgstr "Veprime Flash të figurës"
 msgid "Image Information"
 msgstr "Informacione mbi figurën"
 
+#, fuzzy
 msgid "Image Name"
-msgstr "Emri i figurës"
+msgstr "u Emri i aksioneve"
 
 msgid "Image Version"
 msgstr "Versioni i figurës"
@@ -10016,11 +10086,9 @@ msgstr ""
 "Për të regjistruar një kohëmatës, një meloditor u lirua me sukses:\n"
 "\n"
 
+#, fuzzy
 msgid "In order to record a timer, the TV was switched to the recording service!\n"
-msgstr ""
-"Për të regjistruar një kohëmatës, televizori u kthye në shërbimin e "
-"regjistrimit.\n"
-"!\n"
+msgstr "Televizori kaloi në shërbimin e regjistrimit.\n"
 
 msgid "In progress"
 msgstr "Në proçes"
@@ -10067,8 +10135,9 @@ msgstr "Përfshi të dhënat EG"
 msgid "Include MultiBoot data *"
 msgstr "Përfshi të dhënat ShumëBoot *"
 
+#, fuzzy
 msgid "Include SDT and BAT in http streams"
-msgstr "Përfshi SDT dhe BAT në përrenj të http"
+msgstr "Përfshi SDT, BAT në përrenj të http"
 
 msgid "Include action map data"
 msgstr "Përfshi"
@@ -10279,8 +10348,9 @@ msgstr "Instalo paketën"
 msgid "Install the selected plugin / list of plugins"
 msgstr "Instalo plugin e zgjedhur / lista e plugin"
 
+#, fuzzy
 msgid "Installed"
-msgstr "Instaluar"
+msgstr "instaluar"
 
 msgid "Installing"
 msgstr "Duke instaluar"
@@ -10372,8 +10442,9 @@ msgstr "Inupiaq"
 msgid "Invalid"
 msgstr "E pavlefshme"
 
+#, fuzzy
 msgid "Invalid Help Page"
-msgstr "Faqe e pavlefshme ndihme"
+msgstr "Lloj i pavlefshëm"
 
 msgid "Invalid location!"
 msgstr "Vend i pavlefshëm!"
@@ -10441,8 +10512,9 @@ msgstr "Më pas:"
 msgid "Italian"
 msgstr "Italisht"
 
+#, fuzzy
 msgid "Italiano"
-msgstr "Italiano"
+msgstr "Italisht"
 
 msgid "Italy"
 msgstr "Itali"
@@ -10473,6 +10545,17 @@ msgstr "Manazhuesi i punës"
 
 msgid "Job overview"
 msgstr "Punë"
+
+msgid "Join"
+msgstr ""
+
+#, fuzzy
+msgid "Join or leave the configured ZeroTier network"
+msgstr "Përfundoi duke konfiguruar rrjetin tuaj"
+
+#, fuzzy
+msgid "Joined"
+msgstr "Kombinuar"
 
 msgid "Jordan"
 msgstr "Jordan"
@@ -10590,21 +10673,23 @@ msgstr "Kenia"
 msgid "Kernel"
 msgstr "Kernel"
 
+#, fuzzy
 msgid "Kernel (Box)"
-msgstr "Kernel"
+msgstr "Kernel (Box): %s"
 
 msgid "Kernel modules list"
 msgstr "Lista e modulëve të Kernel"
 
+#, fuzzy
 msgid "Kernel partition"
-msgstr "Ndarja e Kernel"
+msgstr "Një ndarje"
 
 msgid "Kernel version"
 msgstr "Versioni i Kernel"
 
-#, python-format
+#, fuzzy, python-format
 msgid "Kernel%s partition"
-msgstr "Ndarja e Kernel %s"
+msgstr "Një ndarje"
 
 #, python-format
 msgid "Kernel: %s"
@@ -10754,11 +10839,13 @@ msgstr "Ngjyra e ndërprerjes"
 msgid "LED Standby"
 msgstr "LED Në pritje"
 
+#, fuzzy
 msgid "LED brightness during Deep Standby."
-msgstr "Shkëlqim i thellë."
+msgstr "Shkëlqimi i ED-së gjatë qëndrimit të thellë."
 
+#, fuzzy
 msgid "LED brightness during Standby."
-msgstr "Shkëlqyes gjatë qëndrimit."
+msgstr "ELD shkëlqim gjatë qëndrimit."
 
 msgid "LED brightness during deep standby."
 msgstr "Shkëlqimi i ED-së gjatë qëndrimit të thellë."
@@ -10816,14 +10903,16 @@ msgstr "Rek i fundit."
 msgid "Last config"
 msgstr "Konfigurimi i fundit"
 
+#, fuzzy
 msgid "Last flash"
-msgstr "E fundit"
+msgstr "Last update:\t%s"
 
 msgid "Last speed"
 msgstr "Shpejtësia e fundit"
 
+#, fuzzy
 msgid "Last update"
-msgstr "E fundit"
+msgstr "Last update:\t%s"
 
 msgid "Last used column"
 msgstr "E fundit"
@@ -10834,6 +10923,7 @@ msgstr "Pjesa e fundit e përdorur:"
 msgid "Last used/set volume"
 msgstr "Last used/set volume"
 
+#, fuzzy
 msgctxt "third event: 'third' event label"
 msgid "Later"
 msgstr "Më vonë"
@@ -10849,6 +10939,9 @@ msgstr "Letoni"
 
 msgid "Latvian"
 msgstr "Letonisht"
+
+msgid "Leave"
+msgstr ""
 
 msgid "Leave DVD player?"
 msgstr "Të lë DVD-në?"
@@ -10874,8 +10967,9 @@ msgstr "Majtas lloji"
 msgid "Left column file sort"
 msgstr "Ruaj"
 
+#, fuzzy
 msgid "Left of service name"
-msgstr "Majtas emri"
+msgstr "Nga emri i shërbimit"
 
 msgid "Left, back USB"
 msgstr "Majtas, mbrapa USB"
@@ -10895,8 +10989,9 @@ msgstr "Obligime të kota"
 msgid "Lesotho"
 msgstr "Lezoto"
 
+#, fuzzy
 msgid "LetterBox zoom"
-msgstr "Zmadhimi i LetterBox"
+msgstr "Zmadhimi në shkronja"
 
 #. TRANSLATORS: Aspect ratio policy: Black bars on top/bottom in doubt, keep English term.
 msgid "Letterbox"
@@ -10932,6 +11027,9 @@ msgstr "Burimi i dritës"
 msgid "Limburgan / Limburger / Limburgish"
 msgstr "Limburgani / Limburger / Limburgish"
 
+msgid "Lime"
+msgstr ""
+
 msgid "Limit character set for recording filenames"
 msgstr "Kufiri për"
 
@@ -10948,7 +11046,7 @@ msgid "Limit west"
 msgstr "Kufiri në perëndim"
 
 msgid "Limited range (64..940)"
-msgstr "Intervali i kufizuar (64.940)"
+msgstr ""
 
 msgid "Limits cancelled"
 msgstr "Kufijtë e anulluar"
@@ -10975,8 +11073,9 @@ msgstr "Lidhja u zbulua"
 msgid "Link quality:"
 msgstr "Cilësia e lidhjes:"
 
+#, fuzzy
 msgid "Link speed"
-msgstr "Lidhja me shpejtësinë"
+msgstr "Shpejtësia e fundit"
 
 msgid "Link:"
 msgstr "Lidhje:"
@@ -10990,8 +11089,9 @@ msgstr "Lista."
 msgid "List Navigation Actions"
 msgstr "Lista Veprimet"
 
+#, fuzzy
 msgid "List available EPG functions"
-msgstr "Veprimet në dispozicion"
+msgstr "Rrjetët në dispozicion"
 
 msgid "List available networks"
 msgstr "Rrjetët në dispozicion"
@@ -11156,11 +11256,12 @@ msgstr "Pozicioni i log"
 msgid "Logs older then the set no of days will be deleted."
 msgstr "Regjistrimet më të vjetër atëherë nuk do të eleminohen asnjë ditë."
 
+#, fuzzy
 msgid "Long <</>>"
-msgstr "Long <</>"
+msgstr "Long << / >>"
 
 msgid "Long LEFT/RIGHT"
-msgstr "Long LEFT/DO"
+msgstr ""
 
 msgid "Long filenames"
 msgstr "Ruaj"
@@ -11186,8 +11287,6 @@ msgstr "Framerate e ulët kursen CPU Time."
 
 msgid "Lower RGB output clipping limit. 'Full range' = no lower clipping, 'Limited range' clips RGB outputs to 64 (broadcast safe)."
 msgstr ""
-"Limiti më i ulët për klipimin e RGB. 'Pijet e plota' = nuk ka clipping më të "
-"ulët, 'Lmited game's RGB outputs në 64 (sigurues i transmetimit)."
 
 msgid "Lower USB"
 msgstr "USB më i ulët"
@@ -11249,13 +11348,13 @@ msgstr "MTD"
 msgid "MTD partitions"
 msgstr "Ndarja e MTD"
 
-#, python-format
+#, fuzzy, python-format
 msgid "MTD slot %s"
-msgstr "Slot MTD %s"
+msgstr "eMMC slot %s%s"
 
-#, python-format
+#, fuzzy, python-format
 msgid "MTD slot %s%s"
-msgstr "Slot MTD %s[X11XX]"
+msgstr "eMMC slot %s%s"
 
 msgid "MTU"
 msgstr "MTU"
@@ -11276,7 +11375,7 @@ msgid "Magic"
 msgstr "Magji"
 
 msgid "Main Cast:"
-msgstr "Shkalla kryesore:"
+msgstr ""
 
 msgid "Main Menu"
 msgstr "Menuja"
@@ -11437,14 +11536,15 @@ msgstr "Mauritania"
 msgid "Mauritius"
 msgstr "Mauriki"
 
+#, fuzzy
 msgid "Max channels"
-msgstr "Kanali maksimum"
+msgstr "Asnjë kanal"
 
 msgid "Max memory positions"
 msgstr "Pozicioni i kujtesës maksimum"
 
 msgid "Max pages to retrieve"
-msgstr "Faqe maksimum për tu tërhequr"
+msgstr ""
 
 msgid "Max. bitrate: "
 msgstr "Max. bitrate:"
@@ -11473,8 +11573,6 @@ msgstr "Hapësira maksimum e përdorur (MB)"
 
 msgid "Maximum time to wait for the first descrambling key (CW) before starting the decoder. 'Disabled' starts the decoder immediately without waiting."
 msgstr ""
-"Koha maksimale për të pritur për çelësin e parë descrabling (CW) para se të "
-"nisë dekoduesin. 'Çaktivizuar' fillon dekoduesi menjëherë pa pritur."
 
 msgid "Mayotte"
 msgstr "Meiteta"
@@ -11854,8 +11952,9 @@ msgstr "Lëviz të gjithë files relativë"
 msgid "Move directory/file to target directory"
 msgstr "Move directory/file to target directory"
 
+#, fuzzy
 msgid "Move down"
-msgstr "Lëviz poshtë"
+msgstr "Move Up/Down"
 
 msgid "Move down a line"
 msgstr "Lëviz poshtë një rreshti"
@@ -12032,8 +12131,9 @@ msgstr "Lëviz tek elementi paraardhës"
 msgid "Move to the previous item in list"
 msgstr "Lëviz tek elementi paraardhës në lista"
 
+#, fuzzy
 msgid "Move up"
-msgstr "Lëviz sipër"
+msgstr "Lëvize"
 
 msgid "Move up a line"
 msgstr "Lëviz sipër një rreshti"
@@ -12101,11 +12201,13 @@ msgstr "Veprime Luajtës filmash"
 msgid "Movie Selection"
 msgstr "Përzgjedhja e filmit"
 
+#, fuzzy
 msgid "Movie Selection Actions"
-msgstr "Veprimet e zgjedhjes së filmave"
+msgstr "Veprimet e zgjedhjes së shërbimit"
 
+#, fuzzy
 msgid "Movie Selection Settings"
-msgstr "Rregullimet e zgjedhjes së filmave"
+msgstr "Rregullimet e zgjedhjes lokale"
 
 msgid "Movie playback may not use an invalid/inappropriate directory."
 msgstr "Movie playback may not use an invalid/inappropriate directory."
@@ -12140,11 +12242,13 @@ msgstr "Shumëfishe"
 msgid "Multi EPG"
 msgstr "Shumëfishe"
 
+#, fuzzy
 msgid "MultiBoot Device"
-msgstr "Dispozitivi MultiBoot"
+msgstr "Dispozitivi i multiBoot i hardware: %s"
 
+#, fuzzy
 msgid "MultiBoot Info"
-msgstr "Shumëfishe Informacione"
+msgstr "Menaxhues Shumëfishësh"
 
 msgid "MultiBoot Manager"
 msgstr "Menaxhues Shumëfishësh"
@@ -12152,11 +12256,13 @@ msgstr "Menaxhues Shumëfishësh"
 msgid "MultiBoot Manager Actions"
 msgstr "Veprimet"
 
+#, fuzzy
 msgid "MultiBoot boot mode"
-msgstr "Modaliteti"
+msgstr "Menaxhues Shumëfishësh"
 
+#, fuzzy
 msgid "MultiBoot startup file"
-msgstr "Ruaj"
+msgstr "Menaxhues Shumëfishësh"
 
 msgid "MultiEPG Settings"
 msgstr "Shumëgjuhëshe Rregullimet"
@@ -12168,7 +12274,7 @@ msgid "MultiTranscoding"
 msgstr "Shumëfishe"
 
 msgid "Multiboot active (Multiple images installed)"
-msgstr "U instaluan figurat shumëbot"
+msgstr ""
 
 msgid "Multimedia"
 msgstr "Shumëmedia"
@@ -12228,7 +12334,7 @@ msgid "NFS Settings"
 msgstr "Rregullimet NFS"
 
 msgid "NFS threads"
-msgstr "NFS rreshta"
+msgstr ""
 
 msgid "NIM"
 msgstr "NIM"
@@ -12302,8 +12408,9 @@ msgstr "Namibi"
 msgid "Narration"
 msgstr "Narration"
 
+#, fuzzy
 msgid "Nation:"
-msgstr "Kombi:"
+msgstr "Narration"
 
 msgid "Native"
 msgstr "Indiane"
@@ -12359,8 +12466,9 @@ msgstr "Veprimet"
 msgid "Network Adapter Setting Actions"
 msgstr "Veprimet"
 
+#, fuzzy
 msgid "Network Adapter Settings"
-msgstr "Rregullimet adaptuese të rrjetit"
+msgstr "Veprimet"
 
 msgid "Network Adapter Text Actions"
 msgstr "Rrjeti Përshtatës Veprimet e tekstit"
@@ -12380,8 +12488,9 @@ msgstr "Rrjeti Veprimet"
 msgid "Network Neighbourhood"
 msgstr "Rrjeti"
 
+#, fuzzy
 msgid "Network Restart"
-msgstr "Rinis"
+msgstr "Rrjeti"
 
 msgid "Network Settings"
 msgstr "Rregullimet video"
@@ -12414,8 +12523,9 @@ msgstr "Rrjeti"
 msgid "Network menu"
 msgstr "Rrjeti menuja"
 
+#, fuzzy
 msgid "Network metric"
-msgstr "Rrjeti"
+msgstr "Rrjeti menuja"
 
 msgid "Network mounts"
 msgstr "Rritet rrjeti"
@@ -12453,8 +12563,9 @@ msgstr ""
 "\n"
 "Shtype mirë për të vazhduar."
 
+#, fuzzy
 msgid "Network-ID"
-msgstr "Rrjeti"
+msgstr "ID e rrjetit"
 
 msgid "Network:"
 msgstr "Rrjeti:"
@@ -12477,8 +12588,9 @@ msgstr "Asnjëherë mos e deshifroni përmbajtjen gjatë regjistrimit. Kjo anash
 msgid "Never decrypt while recording"
 msgstr "Asnjëherë gjatë regjistrimit nuk dekriptimit"
 
+#, fuzzy
 msgid "Never in Standby"
-msgstr "Kurrë në pritje"
+msgstr "Pritje e thellë"
 
 msgid "New"
 msgstr "E re"
@@ -12489,8 +12601,9 @@ msgstr "Kaledonia e re"
 msgid "New PIN"
 msgstr "PIN i ri"
 
+#, fuzzy
 msgid "New Setting DXAndy "
-msgstr "DXAndi i ri "
+msgstr "Rregullimet video"
 
 msgid "New Storage Device"
 msgstr "Depozitim i ri"
@@ -12525,6 +12638,7 @@ msgstr "News/Current Affairs"
 msgid "Next"
 msgstr "Në vazhdim"
 
+#, fuzzy
 msgctxt "now/next: 'next' event label"
 msgid "Next"
 msgstr "Në vazhdim"
@@ -12534,6 +12648,10 @@ msgstr "Vazhdo"
 
 msgid "Next Page"
 msgstr "Faqja në vazhdim"
+
+#, fuzzy
+msgid "Next channel"
+msgstr "Vazhdo faqe"
 
 msgid "Next channel page"
 msgstr "Vazhdo faqe"
@@ -12594,9 +12712,6 @@ msgid ""
 "\n"
 "Please install first a settinglist"
 msgstr ""
-"Asnjë rregull i ngarkuar!\n"
-"\n"
-"Të lutem instalo së pari listën e rregullimeve"
 
 msgid "No active channel found."
 msgstr "Nuk u gjet asnjë kanal aktiv."
@@ -12663,7 +12778,7 @@ msgid "No networks found"
 msgstr "Nuk u gjet asnjë rrjet"
 
 msgid "No new commits found on this repository."
-msgstr "Jo i ri në."
+msgstr ""
 
 msgid "No of items switch (increase or reduced)"
 msgstr "Jo nga"
@@ -12671,8 +12786,9 @@ msgstr "Jo nga"
 msgid "No packages selected."
 msgstr "Nuk është zgjedhur asnjë pako."
 
+#, fuzzy
 msgid "No plot available."
-msgstr "Asnjë komplot në dispozicion."
+msgstr "%s nuk është në dispozicion."
 
 msgid "No positioner capable frontend found."
 msgstr "Nuk u gjet asnjë pozicionues i aftë."
@@ -12710,8 +12826,9 @@ msgstr "Nuk u gjet asnjë melodist i përshtatshëm!"
 msgid "No tags are set on these movies."
 msgstr "Nuk ka asnjë etiketë në këto filma."
 
+#, fuzzy
 msgid "No time shift buffer found to save as recording!"
-msgstr "Nuk u gjet asnjë buffer zhvendosjeje si regjistrim!"
+msgstr "Nuk u gjet asnjë zhvendosje kohe për të ruajtur si regjistrim!"
 
 msgid "No timeout"
 msgstr "Ska kohe"
@@ -12820,16 +12937,16 @@ msgid "None"
 msgstr "Asnjë"
 
 msgid "NordVPN"
-msgstr "NordVPN"
+msgstr ""
 
 msgid "NordVPN Secure DNS"
-msgstr "NordVPN siguroi DNS"
+msgstr ""
 
 msgid "NordVPN Smart DNS"
-msgstr "NordVPN Smart DNS"
+msgstr ""
 
 msgid "NordVPN SmartDNS"
-msgstr "NordVPN SmartDNS"
+msgstr ""
 
 msgid "Norfolk Island"
 msgstr "Ishulli Norfolk"
@@ -12888,6 +13005,9 @@ msgstr "Nuk është instaluar"
 msgid "Not Shown"
 msgstr "Mos shfaq"
 
+msgid "Not a valid tuner"
+msgstr ""
+
 msgid "Not associated"
 msgstr "Pa u shoqëruar"
 
@@ -12901,7 +13021,7 @@ msgstr "Nuk është përcaktuar"
 msgid "Not enough disk space. Please free up some disk space and try again. (%d MB required, %d MB available)"
 msgstr "Nuk mjafton hapësirë në disk. Ju lutem lironi pak hapësirë në disk dhe provoni përsëri. (%d MB kërkohet, %d MB në dispozicion)"
 
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "Not enough free disk space!\n"
 "\n"
@@ -12909,11 +13029,14 @@ msgid ""
 "Free Space: %sMB\n"
 "Path: %s"
 msgstr ""
-"Jo mjaft hapësirë falas në disk!\n"
+"Not enough free Diskspace!\n"
 "\n"
-"File: %sMB\n"
-"Hapësira e lirë: %sMB\n"
-"Pozicioni: %s"
+"Filesize: %sMB\n"
+"Free Space: %sMB\n"
+"Path: %s"
+
+msgid "Not joined. Press Yellow to join."
+msgstr ""
 
 msgid "Not required"
 msgstr "Nuk kërkohet"
@@ -12929,8 +13052,6 @@ msgstr "Shënim Release"
 
 msgid "Note: Please provide this technical information when requesting support on community forums."
 msgstr ""
-"Shënim: Ju lutem jepni këtë informacion teknik kur kërkoni mbështetje në "
-"forumet e komunitetit."
 
 msgid "Nothing"
 msgstr "Asgjë"
@@ -12951,9 +13072,10 @@ msgstr "Asgjë për tu përmirësuar"
 msgid "Nothing, just leave this menu"
 msgstr "Asgjë, vetëm lëre këtë menu"
 
+#, fuzzy
 msgctxt "now/next: 'now' event label"
 msgid "Now"
-msgstr "Tani"
+msgstr "Jo"
 
 msgid "Now, use the contrast setting to turn up the brightness of the background as much as possible, but make sure that you can still see the difference between the two brightest levels of shades.If you have done that, press OK."
 msgstr "Tani, përdor sfondin e kontrastit për të ngritur shkëlqimin e sfondit sa më shumë të jetë e mundur, por sigurohu që ende të shohësh ndryshimin midis dy niveleve më të ndritshme të hijeve. Nëse e ke bërë këtë, shtype mirë."
@@ -12967,20 +13089,24 @@ msgstr "Nse"
 msgid "Number"
 msgstr "Numri"
 
+#, fuzzy
 msgid "Number and name"
-msgstr "Numri dhe emri"
+msgstr "Mënyra e numërimit"
 
+#, fuzzy
 msgid "Number and picon"
-msgstr "Numri dhe pikoni"
+msgstr "Numri nga rreshta"
 
 msgid "Number of IP Addresses"
 msgstr "Numri i adresave IP"
 
+#, fuzzy
 msgid "Number of Slots"
-msgstr "Numri i slotëve"
+msgstr "Numri nga rreshta"
 
+#, fuzzy
 msgid "Number of digits in service number"
-msgstr "Numri i shifrave në numrin e shërbimit"
+msgstr "Numri nga në"
 
 msgid "Number of rows"
 msgstr "Numri nga rreshta"
@@ -12988,14 +13114,15 @@ msgstr "Numri nga rreshta"
 msgid "Number of rows to display."
 msgstr "Numri nga."
 
+#, fuzzy
 msgid "Number only"
-msgstr "Vetëm numri"
+msgstr "Numri"
 
 msgid "Number or SMS style data entry"
 msgstr "Numri apo hyrja e të dhënave në stilin SMS"
 
 msgid "Number, name and picon"
-msgstr "Numri, emri dhe piton"
+msgstr ""
 
 msgid "Numbering mode"
 msgstr "Mënyra e numërimit"
@@ -13042,8 +13169,9 @@ msgstr "OPD SoftwarePanel"
 msgid "OPD SwapManager"
 msgstr "OPD SwapManager"
 
+#, fuzzy
 msgid "OPD Version"
-msgstr "OPD Version"
+msgstr "OPD Versioni: V%s"
 
 msgid "OPD-Main Menu"
 msgstr "Menu"
@@ -13114,6 +13242,10 @@ msgstr "Ojiba"
 msgid "Older files in the time shift directory are removed on every event change."
 msgstr "File më të vjetër në directory për zhvendosjen e kohës hiqen në çdo ndryshim veprimtarie."
 
+#, fuzzy
+msgid "Olympic blue"
+msgstr "blu optike"
+
 msgid "Olympics"
 msgstr "Lojërat Olimpike"
 
@@ -13156,8 +13288,9 @@ msgstr "Vetëm HD"
 msgid "Only free scan"
 msgstr "Vetëm skanim falas"
 
+#, fuzzy
 msgid "Only in Standby"
-msgstr "Vetëm në pritje"
+msgstr "Vetëm në gatishmëri"
 
 msgid "Only log debug information of GStreamer category. * means all categories."
 msgstr "Vetëm për regjistrimin e informacioneve për kategorinë Gstreamer. * do të thotë të gjitha kategoritë."
@@ -13173,135 +13306,160 @@ msgstr "Vetëm në nisje"
 
 msgid "Only use DNS servers implementing the DNS-over-HTTPS protocol. This causes DNS lookups to be made via the encrypted HTTPS protocol."
 msgstr ""
-"Përdor vetëm serverat DNS që zbatojnë protokollin DNS mbi HTTPS. Kjo "
-"shkakton që të bëhen kontrollet e DNS - së nëpërmjet protokollit të koduar "
-"HTTP."
 
 msgid "Only use DNS servers implementing the DNSCrypt protocol."
-msgstr "Përdor vetëm serverat DNS që zbatojnë protokollin DNSCrypt."
+msgstr ""
 
 msgid "Only use DNS servers implementing the Oblivious DNS-over-HTTPS protocol. This adds another layer of privacy by adding a proxy layer to the DNS-over-HTTPS request."
 msgstr ""
-"Përdor vetëm serverat DNS që zbatojnë protokollin Obliable DNS mbi-HTTPS. "
-"Kjo shton një tjetër shtresë privatësie duke shtuar një shtresë prokure në "
-"kërkesën DNS-over-HTTPS."
 
 msgid "Open"
 msgstr "Hap"
 
+#, fuzzy
 msgid "Open Aspect Ratio Settings"
-msgstr "Rregullimet Aspekte Ratio"
+msgstr "Shqyrto veprimet e Ratios"
 
+#, fuzzy
 msgid "Open Audio options"
-msgstr "Hap opsionet audio"
+msgstr "Zëri Mundësitë."
 
 msgid "Open AutoTimer"
 msgstr "Hap AutoTimer"
 
+#, fuzzy
 msgid "Open AutoTimer Overview"
-msgstr "Shfaqje e AutoTimerit të Hapur"
+msgstr "Hap AutoTimer"
 
+#, fuzzy
 msgid "Open Bouquet selection"
-msgstr "Hap"
+msgstr "Zgjedhësi i Coquet"
 
+#, fuzzy
 msgid "Open Box Portal"
-msgstr "Hap"
+msgstr "Shfaq Kuti"
 
 msgid "Open Cardserver"
 msgstr "Hap"
 
+#, fuzzy
 msgid "Open EPG"
-msgstr "Hap"
+msgstr "Hap EG Kërko"
 
+#, fuzzy
 msgid "Open EPG for current service"
-msgstr "Hap EMG për shërbimin aktual"
+msgstr "Shfaq EG për kanalin aktual..."
 
 msgid "Open EPGSearch"
 msgstr "Hap EG Kërko"
 
+#, fuzzy
 msgid "Open Extensions"
-msgstr "Hap"
+msgstr "Shtesat"
 
+#, fuzzy
 msgid "Open HDMIRecord Settings"
-msgstr "Hap Rregullimet e regjistrit HDMI"
+msgstr "HDMI Rregullimet e regjistrimit"
 
 msgid "Open IMDb"
 msgstr "Hap IMD b"
 
+#, fuzzy
 msgid "Open Information menu"
-msgstr "Hap menunë e informacionit"
+msgstr "openDroid Information"
 
+#, fuzzy
 msgid "Open Main Menu"
-msgstr "Hap Menunë kryesore"
+msgstr "Menuja"
 
+#, fuzzy
 msgid "Open Media Player"
-msgstr "Open Media Loy"
+msgstr "Luajtës Mediash"
 
+#, fuzzy
 msgid "Open MediaCenter"
-msgstr "Hap MediaCenter"
+msgstr "Qendra Mediave"
 
 msgid "Open MediaStream"
 msgstr "Hap ndarësin e Mediave"
 
+#, fuzzy
 msgid "Open Movie Selection"
-msgstr "Hap Zgjedhja"
+msgstr "Përzgjedhja e filmit"
 
+#, fuzzy
 msgid "Open Network Settings"
-msgstr "Rregullimet e rrjetit të hapur"
+msgstr "Rregullimet video"
 
+#, fuzzy
 msgid "Open OPD_panel"
-msgstr "Hap OPD panel"
+msgstr "OPD_panel"
 
+#, fuzzy
 msgid "Open Plugin Browser"
-msgstr "Hap Shfletuesin e Plugin"
+msgstr "Shfletuesi i Plugin"
 
+#, fuzzy
 msgid "Open PowerTimer Overview"
-msgstr "Shfaqje e Përvjetorit të Energjisë së Hapur"
+msgstr "Mbikqyrës i energjisë"
 
+#, fuzzy
 msgid "Open RFmod Settings"
-msgstr "Hap Rregullimet RFmod"
+msgstr "OpenVPN Rregullimet"
 
+#, fuzzy
 msgid "Open Radio bouquet selection"
-msgstr "Hap"
+msgstr "Anullo zgjedhjen e buqetës"
 
+#, fuzzy
 msgid "Open RecordTimer Overview"
-msgstr "Hap pamjen e regjistrit"
+msgstr "Vëzhguesi i regjistrit"
 
+#, fuzzy
 msgid "Open Satellites selection"
-msgstr "Hap"
+msgstr "Hap lista"
 
+#, fuzzy
 msgid "Open Services / Reception selection"
-msgstr "Hap"
+msgstr "Veprimet e zgjedhjes së shërbimit"
 
+#, fuzzy
 msgid "Open Setup"
-msgstr "Hap"
+msgstr "Rregullimi"
 
+#, fuzzy
 msgid "Open Setup menu"
-msgstr "Hap menu"
+msgstr "Menu"
 
 msgid "Open Similar List Channel List"
 msgstr "Lista e kanaleve të Listës së Ngjyshme"
 
+#, fuzzy
 msgid "Open Simple Umount"
-msgstr "Hap një mal të thjeshtë"
+msgstr "E thjeshtë"
 
+#, fuzzy
 msgid "Open SleepTimer Settings"
-msgstr "Rregullimet e gjumit të hapur"
+msgstr "Rregullimet e gjumit"
 
+#, fuzzy
 msgid "Open Subservices selection"
-msgstr "Hap"
+msgstr "Shfaq"
 
+#, fuzzy
 msgid "Open Subtitle options"
-msgstr "Hap Mundësitë"
+msgstr "Veprimet"
 
+#, fuzzy
 msgid "Open TV bouquet selection"
-msgstr "Hap"
+msgstr "Anullo zgjedhjen e buqetës"
 
+#, fuzzy
 msgid "Open Usage and GUI Settings"
-msgstr "Programe Përdorimi dhe GUI"
+msgstr "OpenVPN Rregullimet"
 
 msgid "Open VideoMode"
-msgstr "Hap Video Mode"
+msgstr ""
 
 msgid "Open context menu"
 msgstr "Hap menunë kontekst"
@@ -13309,8 +13467,9 @@ msgstr "Hap menunë kontekst"
 msgid "Open context menu (contains settings menu)"
 msgstr "Hap menuja rregullimet menuja"
 
+#, fuzzy
 msgid "Open event information"
-msgstr "Informacione mbi ngjarjen"
+msgstr "Shfaq informacionet mbi ngjarjen"
 
 msgid "Open external subtitle management screen"
 msgstr "Hap ekranin e menazhuesit të emrit të jashtëm"
@@ -13318,17 +13477,21 @@ msgstr "Hap ekranin e menazhuesit të emrit të jashtëm"
 msgid "Open file sort menu"
 msgstr "Hap menunë e llojit të file"
 
+#, fuzzy
 msgid "Open service list and select next service"
-msgstr "Hap listën e shërbimit dhe zgjidh shërbimin në vazhdim"
+msgstr "Hap lista dhe zgjidh në vazhdim"
 
+#, fuzzy
 msgid "Open service list and select next service for PiP"
-msgstr "Hap listën e shërbimit dhe zgjidh shërbimin në vazhdim për PiP"
+msgstr "Hap lista dhe zgjidh tjetër kanal për PiP"
 
+#, fuzzy
 msgid "Open service list and select previous service"
-msgstr "Hap listën e shërbimit dhe zgjidh shërbimin paraardhës"
+msgstr "Hap listën e shërbimit dhe zgjidh kanalin e mëparshëm"
 
+#, fuzzy
 msgid "Open service list and select previous service for PiP"
-msgstr "Hap listën e shërbimit dhe zgjidh shërbimin paraardhës për PiP"
+msgstr "Hap listën e shërbimit dhe zgjidh kanalin paraardhës për PiP"
 
 msgid "Open the Channel Selection Settings screen"
 msgstr "Hap ekranin e zgjedhjes së kanalit"
@@ -13361,31 +13524,34 @@ msgid "OpenDNS Home"
 msgstr "OpenDNS Shtëpi"
 
 msgid "OpenDroid Cinema VOD"
-msgstr "OpenDroid Kinema VOD"
+msgstr ""
 
 msgid "OpenDroid Live Categories"
-msgstr "Kategoritë e gjalla të OpenDroid"
+msgstr ""
 
+#, fuzzy
 msgid "OpenDroid Live Channels"
-msgstr "OpenDroid Live Channels"
+msgstr "Lista e kanaleve të Listës së Ngjyshme"
 
 msgid "OpenDroid Live TV"
-msgstr "OpenDroid Live TV"
+msgstr ""
 
+#, fuzzy
 msgid "OpenDroid VOD Actions"
-msgstr "Hap veprime"
+msgstr "Veprimet"
 
 msgid "OpenDroid VOD Categories"
-msgstr "Kategoritë e OpenDroid VOD"
+msgstr ""
 
 msgid "OpenDroid VoD Categories"
-msgstr "Kategoritë e Open DrDoid VoD"
+msgstr ""
 
 msgid "OpenPLi"
 msgstr "OpenPL"
 
+#, fuzzy
 msgid "OpenSSL"
-msgstr "OpenSSL"
+msgstr "OpenSSL: %s"
 
 msgid "OpenVPN Actions"
 msgstr "Veprimet"
@@ -13399,11 +13565,13 @@ msgstr "OpenViX"
 msgid "OpenVpn Log"
 msgstr "Hap Log"
 
+#, fuzzy
 msgid "Operating LED status in Deep Standby"
-msgstr "Të operojmë statusin e ED - së në pritje të thellë"
+msgstr "Duke operuar statusin e LED në mënyrë të thellë në pritje"
 
+#, fuzzy
 msgid "Operating LED status in Standby"
-msgstr "Duke operuar statusin e LED në pritje"
+msgstr "Duke operuar statusin e LED në mënyrën e gatishmërisë"
 
 msgid "Operating LED status while running"
 msgstr "Duke operuar statusin e LED ndërsa funksionon"
@@ -13428,6 +13596,10 @@ msgstr "Mundësitë"
 
 msgid "Or use standard 'Harddisk Setup' to initialize your drive in ext4."
 msgstr "Ose përdor standartin 'Harddisk' për të filluar makinën tënde në ekst4."
+
+#, fuzzy
+msgid "Orange"
+msgstr "portokalli"
 
 msgid "Orbital position"
 msgstr "Pozicioni orbital"
@@ -13750,8 +13922,9 @@ msgstr "Fjalëkalimi (httpuser)"
 msgid "Password (httpwd)"
 msgstr "Fjalëkalimi (httpwd)"
 
+#, fuzzy
 msgid "Password / Key"
-msgstr "Fjalëkalimi / Kyçi"
+msgstr "Fjalëkalimi"
 
 msgid "Password Actions"
 msgstr "Veprimet e fjalëkalimit"
@@ -13805,8 +13978,9 @@ msgstr "Majtas përqindja"
 msgid "Percentage right"
 msgstr "Djathtas për në qendër"
 
+#, fuzzy
 msgid "Percentage skips"
-msgstr "Përqindja kalon"
+msgstr "Përqindja"
 
 msgid "Percentage/Progress bar left"
 msgstr "Percentage/Progress bar left"
@@ -13872,17 +14046,20 @@ msgstr "Pozicioni"
 msgid "Picon width"
 msgstr "Gjerësia e picon"
 
+#, fuzzy
 msgid "Picture"
-msgstr "Figura"
+msgstr "Figurat"
 
 msgid "Picture in EPG"
 msgstr "Figura në EG"
 
+#, fuzzy
 msgid "Picture in Picture Actions"
-msgstr "Figura në veprimet e figurave"
+msgstr "Figura në rregullimin e figurave"
 
+#, fuzzy
 msgid "Picture in Picture Settings"
-msgstr "Figura në rregullimet e figurave"
+msgstr "Figura në rregullimin e figurave"
 
 msgid "Picture in graphics"
 msgstr "Foto në"
@@ -13902,6 +14079,9 @@ msgstr "Pilarbox"
 
 msgid "Pilot"
 msgstr "Pilot"
+
+msgid "Pink"
+msgstr ""
 
 msgid "Pitcairn"
 msgstr "Pitcairn"
@@ -13947,6 +14127,10 @@ msgstr "Luaj audio-CD..."
 
 msgid "Play back media files"
 msgstr "Luaj përsëri skedarët e mediave"
+
+#, fuzzy
+msgid "Play current channel"
+msgstr " kanali aktual"
 
 msgid "Play entry"
 msgstr "Luaj zërin"
@@ -14330,8 +14514,9 @@ msgstr "Please wait while locales/languages are purged..."
 msgid "Please wait while scanning is in progress..."
 msgstr "Ju lutem prisni derisa skanimi është në progres..."
 
+#, fuzzy
 msgid "Please wait while starting\n"
-msgstr "Ju lutem prisni sa të fillojë\n"
+msgstr "Ju lutem prisni gjatë mbledhjes së të dhënave..."
 
 msgid "Please wait while the data is extracted..."
 msgstr "Ju lutem prisni derisa të dhënat të hiqen..."
@@ -14373,8 +14558,9 @@ msgstr "Ju lutem prisni derisa rrjeti juaj të jetë duke rinisur..."
 msgid "Please wait whilst feeds state is checked."
 msgstr "Ju lutem prisni sa të kontrollohet shteti."
 
+#, fuzzy
 msgid "Please wait, loading picture..."
-msgstr "Ju lutem prisni, duke ngarkuar figurën..."
+msgstr "ju lutem prisni, duke ngarkuar figurën..."
 
 msgid "Please wait."
 msgstr "Ju lutem prisni."
@@ -14386,7 +14572,7 @@ msgid "Please wait... Loading list..."
 msgstr "Ju lutem prisni... Duke ngarkuar listën..."
 
 msgid "Plot / Sinossi:"
-msgstr "Plot / Sinossi:"
+msgstr ""
 
 msgid "Plugin"
 msgstr "Plugin"
@@ -14481,8 +14667,9 @@ msgstr "Portugali"
 msgid "Portuguese"
 msgstr "Portugalisht"
 
+#, fuzzy
 msgid "Português"
-msgstr "Portugues"
+msgstr "Portugalisht"
 
 msgid "Position Setup"
 msgstr "Rregullimi i pozicionit"
@@ -14508,8 +14695,9 @@ msgstr "Rregullimi i pozicionit"
 msgid "Power"
 msgstr "Fuqia"
 
+#, fuzzy
 msgid "Power LED State in Deep Standby"
-msgstr "TË DHËNAT e fuqishme"
+msgstr "LED Gjendja në një statbi të thellë"
 
 msgid "Power LED State in Standby"
 msgstr "LED Gjendja në pritje"
@@ -14517,11 +14705,13 @@ msgstr "LED Gjendja në pritje"
 msgid "Power LED can be turned on or off here."
 msgstr "Power LED mund të ndizet ose fiket këtu."
 
+#, fuzzy
 msgid "Power LED state during Deep Standby."
-msgstr "Shteti i ED-së së Fuqishme gjatë Këmbënguljes së Thellë."
+msgstr "Shteti i LED-it gjatë qëndrimit të thellë."
 
+#, fuzzy
 msgid "Power LED state during Standby."
-msgstr "Shteti i LED-it gjatë qëndrimit."
+msgstr "Gjendja e LED-it në pritje."
 
 msgid "Power LED state during deep-standby."
 msgstr "Shteti i LED-it gjatë qëndrimit të thellë."
@@ -14591,8 +14781,6 @@ msgstr "Preferon titujt e ruajtur nga shërbimi"
 
 msgid "Preferred connection priority when multiple Wi-Fi profiles are configured. Lower numbers have a higher priority."
 msgstr ""
-"Prioriteti i preferuar i lidhjes kur konfiguruar profilet e shumëfishtë Wi-"
-"Fi. Numrat më të ulët kanë përparësi më të madhe."
 
 msgid "Preferred tuner"
 msgstr "Luajtës i preferuar"
@@ -14750,22 +14938,20 @@ msgstr "Shtyp butonin e Kuq për të vazhduar."
 msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that image. If available, YELLOW will either delete or wipe the image. A deleted image can be restored with the BLUE button. A wiped image is completely removed and cannot be restored!"
 msgstr "Shtyp butonat UP/DOWN për të zgjedhur një slot dhe shtyp OK ose GREN për t'i rifilluar asaj figure. Nëse është në dispozicion, YELLOW ose do të eleminojë ose fshin figurën. Një figurë e fshirë mund të rivendoset me butonin BEL. Një imazh i fshirë hiqet plotësisht dhe nuk mund të rivendoset!"
 
+#, fuzzy
 msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that image. If available, YELLOW will disable Multiboot, delete, or wipe the selected image. Press BLUE to add more slots."
-msgstr ""
-"Shtyp butonin UP/DOWN për të zgjedhur një slot, pastaj shtyp OK ose GREN për "
-"të rifilluar atë imazh. Nëse është në dispozicion, YELLOW do të çaktivizojë "
-"shumëbule, do të eleminojë apo fshin figurën e zgjedhur. Shtyp E DHËNË për "
-"të shtuar më shumë vende."
+msgstr "Shtyp butonat UP/DOWN për të zgjedhur një slot dhe shtyp OK ose GREN për t'i rifilluar asaj figure. Nëse është në dispozicion, YELLOW ose do të eleminojë ose fshin figurën. Një figurë e fshirë mund të rivendoset me butonin BEL. Një imazh i fshirë hiqet plotësisht dhe nuk mund të rivendoset!"
 
 msgid "Press this button to emulate a long press on a button pressed afterwards (this also overrides any other actions assigned to emulation button)."
 msgstr "Shtyp këtë pulsant për të imituar një shtyp shtypshkronja të gjatë në një buton të shtypur më pas (kjo gjithashtu heq çdo veprim tjetër të caktuar për të imituar butonin)."
 
+#, fuzzy
 msgid ""
 "Press up/down to scroll through the selected log\n"
 "Press left/right to see different log types"
 msgstr ""
-"Sipër\n"
-"Shtypi majtas djathtas nga"
+"Press up/down to scroll commits\n"
+"Press left/right to change project"
 
 msgid "Pressing the panic button will zap you to this channel number in your first bouquet."
 msgstr "Shtypja e butonit të panikut do t'ju shkatërrojë në këtë kanal në buqetën tuaj të parë."
@@ -14788,6 +14974,10 @@ msgstr "Paraardhëse Bouquet"
 msgid "Previous Page"
 msgstr "Faqja paraardhëse"
 
+#, fuzzy
+msgid "Previous channel"
+msgstr "Paraardhëse faqe"
+
 msgid "Previous channel page"
 msgstr "Paraardhëse faqe"
 
@@ -14803,11 +14993,13 @@ msgstr "Prevesong"
 msgid "Primary DNS"
 msgstr "DNS kryesore"
 
+#, fuzzy
 msgid "Primary DNS (IPv4)"
-msgstr "DNS kryesore (IPv4)"
+msgstr "DNS kryesore"
 
+#, fuzzy
 msgid "Primary DNS (IPv6)"
-msgstr "DNS kryesore (IPv6)"
+msgstr "DNS kryesore"
 
 msgid "Prime time"
 msgstr "Ora e fillimit"
@@ -14822,7 +15014,7 @@ msgid "Priority"
 msgstr "Prioriteti"
 
 msgid "Privacy level"
-msgstr "Niveli i jetës"
+msgstr ""
 
 msgid "Problem starting scan"
 msgstr "Problem gjatë nisjes së skanimit"
@@ -14851,8 +15043,9 @@ msgstr "Proçesi"
 msgid "Process YELLOW button action"
 msgstr "Veprimi"
 
+#, fuzzy
 msgid "Process action from TV"
-msgstr "Veprimi i proçesit nga TV"
+msgstr "Informacione mbi proçesuesin"
 
 msgid "Processing"
 msgstr "Duke proçesuar"
@@ -14860,8 +15053,9 @@ msgstr "Duke proçesuar"
 msgid "Processor information"
 msgstr "Informacione mbi proçesuesin"
 
+#, fuzzy
 msgid "Processor temperature"
-msgstr "Temperatura e proçesuesit"
+msgstr "Temperatura CPU"
 
 msgid "Profile"
 msgstr "Profili"
@@ -14877,19 +15071,19 @@ msgid "Program '%s' needs to be installed to perform this action. Do you want to
 msgstr "Program '%s' needs to be installed to perform this action. Do you want to install the '%s' package to install the program?"
 
 msgid "Programmlisten History"
-msgstr "Shfaq historinë"
+msgstr ""
 
 msgid "Programmlisten Restore"
-msgstr "Programi"
+msgstr ""
 
 msgid "Programmlisten from DXAndy"
-msgstr "Programimi nga DXAndi"
+msgstr ""
 
 msgid "Programmlisten-Updater V"
-msgstr "Programues V"
+msgstr ""
 
 msgid "Programmlisten-Updater from DXAndy"
-msgstr "Programme-Përditësor nga DXAndi"
+msgstr ""
 
 msgid "Progress"
 msgstr "Progresi"
@@ -15011,14 +15205,20 @@ msgstr "Purge all but the current and permanent locales/languages. Add the curre
 msgid "Purging all unused locales/languages..."
 msgstr "Purging all unused locales/languages..."
 
+#, fuzzy
+msgid "Purple"
+msgstr "e purpurt"
+
 msgid "Pushto / Pashto"
 msgstr "Pushto / Pashto"
 
+#, fuzzy
 msgid "Put TV in Standby"
 msgstr "Vendos TV në pritje"
 
+#, fuzzy
 msgid "Put your AV Receiver or Soundbar in Standby"
-msgstr "Vendos AV-në tuaj në pritje"
+msgstr "Vendose AV-në tënde Merr në pritje"
 
 msgid "Python"
 msgstr "Python"
@@ -15045,22 +15245,25 @@ msgid "Quad PiP is not available."
 msgstr "Pip nuk është në dispozicion."
 
 msgid "Quad9 (Malware blocking + DNSSEC)"
-msgstr "Quad9 (Malware bllokuar + DNSSEC)"
+msgstr ""
 
 msgid "Quad9 (Malware blocking + ECS)"
-msgstr "Quad9 (Malware bllokuar + ECS)"
+msgstr ""
 
+#, fuzzy
 msgid "Quad9 (Unsecured / no blocking)"
-msgstr "Quad9 (i pasigurt / pa bllokim)"
+msgstr "Quad9 DNS"
 
 msgid "Quad9 DNS"
 msgstr "Quad9 DNS"
 
+#, fuzzy
 msgid "Quad9 ECS DNS"
-msgstr "Kuarad9 DNS ECS"
+msgstr "Quad9 DNS"
 
+#, fuzzy
 msgid "Quad9 Unsecured DNS"
-msgstr "Qad9 DNS e pasigurt"
+msgstr "Quad9 DNS"
 
 msgid "Quechua"
 msgstr "Quechua"
@@ -15125,8 +15328,9 @@ msgstr "Emri i zgjedhur"
 msgid "RC selected type"
 msgstr "Lloji i zgjedhur"
 
+#, fuzzy
 msgid "RDS Actions"
-msgstr "Veprimet RDS"
+msgstr "Veprimet"
 
 msgid "REC"
 msgstr "REC"
@@ -15146,8 +15350,9 @@ msgstr "REC Simboli në përdorim"
 msgid "RED button"
 msgstr "Butoni"
 
+#, fuzzy
 msgid "RED button / HbbTV"
-msgstr "KRED Butoni / HbTV"
+msgstr "Butoni"
 
 msgid "RED long"
 msgstr "Shumë gjatë"
@@ -15156,10 +15361,10 @@ msgid "RF Output Settings"
 msgstr "Rregullimet e daljes RF"
 
 msgid "RGB clamp (lower)"
-msgstr "RGB"
+msgstr ""
 
 msgid "RGB clamp (upper)"
-msgstr "RGB"
+msgstr ""
 
 msgid "Radio"
 msgstr "Radio"
@@ -15190,7 +15395,7 @@ msgid "Re-enter new PIN"
 msgstr "Ri-shkruaj PIN-in e ri"
 
 msgid "Read Only"
-msgstr "Vetëm në lexim"
+msgstr ""
 
 #, python-format
 msgid "Read Userdata from %s.conf"
@@ -15213,8 +15418,9 @@ msgstr "Lexo shpejtësinë e diskut: nuk njihet"
 msgid "Read speed: %s"
 msgstr "Shpejtësia e leximit: %s"
 
+#, fuzzy
 msgid "Read/Write"
-msgstr "Lexo/Write"
+msgstr "Lexuesi"
 
 msgid "Reader"
 msgstr "Lexuesi"
@@ -15229,9 +15435,9 @@ msgstr "Reader/User"
 msgid "Ready to install \"%s\" ?"
 msgstr "Je gati të instalosh \"%s\"?"
 
-#, python-format
+#, fuzzy, python-format
 msgid "Ready to install \"%s\"?"
-msgstr "Gati për të instaluar \"X18X]\"?"
+msgstr "Je gati të instalosh \"%s\"?"
 
 #, python-format
 msgid "Ready to install '%s'?"
@@ -15241,9 +15447,9 @@ msgstr "Gati për instalimin e '%s'?"
 msgid "Ready to remove \"%s\" ?"
 msgstr "Je gati të heqësh \"%s\"?"
 
-#, python-format
+#, fuzzy, python-format
 msgid "Ready to remove \"%s\"?"
-msgstr "Gati për të hequr \"\"X17X\"\"?"
+msgstr "Je gati të heqësh \"%s\"?"
 
 #, python-format
 msgid "Ready to remove '%s'?"
@@ -15382,12 +15588,13 @@ msgstr "Regjistrim në progres!"
 msgid "Recording location"
 msgstr "Pozicioni i regjistrimit"
 
+#, fuzzy
 msgid "Recording started, stopping time shift now."
-msgstr "Regjistrimi filloi, duke ndaluar turnin e kohës tani."
+msgstr "Filloi regjistrimi! Duke ndalur turnin e kohës tani ..."
 
-#, python-format
+#, fuzzy, python-format
 msgid "Recording time limited due to conflicting timer:%s"
-msgstr "Koha e regjistrimit e kufizuar për shkak të kohëmatësit konfliktual:%s"
+msgstr "Koha rekord e kufizuar për shkak të kohëmatorit konfliktual:%s"
 
 msgid "Recording type"
 msgstr "Lloji i regjistrimit"
@@ -15457,8 +15664,13 @@ msgstr ""
 msgid "Refresh"
 msgstr "Rifresko"
 
+#, fuzzy
+msgid "Refresh ZeroTier status information"
+msgstr "Directory/File status information"
+
+#, fuzzy
 msgid "Refresh every"
-msgstr "Duke rifreskuar kartelën"
+msgstr "Rifreskon ekranin"
 
 msgid "Refresh rate"
 msgstr "Intervali i rifreskimit"
@@ -15475,8 +15687,9 @@ msgstr "Rifreskon ekranin"
 msgid "Refresh the update-able package list"
 msgstr "Rifresko"
 
+#, fuzzy
 msgid "Regard Deep Standby as Standby"
-msgstr "T'i bëjmë ballë qëndrimit të thellë në pritje"
+msgstr "Respektojeni qëndrimin e thellë në gatishmëri"
 
 msgid "Region"
 msgstr "Rajoni"
@@ -15905,8 +16118,9 @@ msgstr "Rinis enigma"
 msgid "Restart necessary, restart GUI now?"
 msgstr "Rifillo i nevojshëm, rinis GUI tani?"
 
+#, fuzzy
 msgid "Restart network to with current setup"
-msgstr "Rinis rrjetin me konfigurimin aktual"
+msgstr "Fillo regjistrimin e ndodhisë aktuale"
 
 msgid "Restart softcam"
 msgstr "Rinis"
@@ -15917,8 +16131,9 @@ msgstr "Rinis provën"
 msgid "Restart your network connection and interfaces."
 msgstr "Rifillo lidhjen dhe ndërfaqet e rrjetit."
 
+#, fuzzy
 msgid "Restarting SoftCam"
-msgstr "Duke rinisur ButëCam"
+msgstr "Fillimi i softkam"
 
 msgid "Restarting..."
 msgstr "Duke rinisur..."
@@ -16027,8 +16242,9 @@ msgstr "Djathtas"
 msgid "Right column file sort"
 msgstr "Djathtas file"
 
+#, fuzzy
 msgid "Right of service name"
-msgstr "Djathtas emri"
+msgstr "Nga emri i shërbimit"
 
 msgid "Right, back USB"
 msgstr "Mirë, prapa USB"
@@ -16064,7 +16280,14 @@ msgid "Root directory"
 msgstr "Root"
 
 msgid "Root squash"
-msgstr "Shtypësi i root"
+msgstr ""
+
+msgid "Rose"
+msgstr ""
+
+#, fuzzy
+msgid "Rotor is not configured"
+msgstr "Not"
 
 msgid "Rotor turning speed"
 msgstr "Rrotor duke kthyer shpejtësinë"
@@ -16130,8 +16353,9 @@ msgstr "Rusisht"
 msgid "Russian Federation"
 msgstr "Federata Ruse"
 
+#, fuzzy
 msgid "Rust version"
-msgstr "Versioni"
+msgstr "Versioni: %s"
 
 msgid "Rwanda"
 msgstr "Ruanda"
@@ -16175,9 +16399,9 @@ msgstr "Përshtatja e kohës SCR, së bashku me bazat dhe funksionimin e disa pa
 msgid "SD"
 msgstr "SD"
 
-#, python-format
+#, fuzzy, python-format
 msgid "SDcard slot %s"
-msgstr "SDcard slot %s"
+msgstr "SDcard slot %s%s"
 
 #, python-format
 msgid "SDcard slot %s%s"
@@ -16252,14 +16476,16 @@ msgstr "Veprimet"
 msgid "Samba Log"
 msgstr "Samba Log"
 
+#, fuzzy
 msgid "Samba Settings"
-msgstr "Rregullimet Samba"
+msgstr "CIFS/Samba Settings"
 
 msgid "Samba Setup"
 msgstr "Rregullimi i Samba"
 
+#, fuzzy
 msgid "Samba version"
-msgstr "Versioni Samba"
+msgstr "Versioni Glibc: %s"
 
 msgid "Same as in active"
 msgstr "Njësoj si në aktiv"
@@ -16360,8 +16586,9 @@ msgstr "Ruaj dhe ndalo"
 msgid "Save directory on EXIT"
 msgstr "Directory e ruajtjes në EXIT"
 
+#, fuzzy
 msgid "Save every"
-msgstr "Ruaj çdo"
+msgstr "Ruaj"
 
 #, python-format
 msgid "Save image as '%s'"
@@ -16400,8 +16627,9 @@ msgstr "Ruaj kohën me ndryshim si film dhe vazhdo regjistrimin"
 msgid "Save time shift as movie and stop recording"
 msgstr "Ruaj kohën me ndryshim si film dhe ndalo regjistrimin"
 
+#, fuzzy
 msgid "Save time shift buffer now and continue recording"
-msgstr "Ruaj ora dhe"
+msgstr "Ruaj kohën me ndryshim si film dhe vazhdo regjistrimin"
 
 msgid "Saved lines in script messages"
 msgstr "Ruaj në mesazh"
@@ -16409,8 +16637,9 @@ msgstr "Ruaj në mesazh"
 msgid "Saving EPG Cache..."
 msgstr "Duke ruajtur Cache EG..."
 
+#, fuzzy
 msgid "Saving time shift buffer, this might take a while."
-msgstr "Duke ruajtur kohën tampon, kjo mund të marrë një kohë."
+msgstr "Duke ruajtur kohën e ndryshimit si film tani. Kjo mund të marrë pak kohë!"
 
 msgid "Saving time shift files"
 msgstr "Ruaj"
@@ -16418,8 +16647,9 @@ msgstr "Ruaj"
 msgid "Scaler sharpness"
 msgstr "Pjeshkë e mprehtë"
 
+#, fuzzy
 msgid "Scaler vertical anti-aliasing"
-msgstr "Shkalla vertikale anti-aliasing"
+msgstr "Shkarkimi vertikal"
 
 msgid "Scaling mode"
 msgstr "Modaliteti"
@@ -16498,11 +16728,13 @@ msgstr "Përcakto backups"
 msgid "Schedule EPG and channel list import"
 msgstr "Skema e importit të listës së kanaleve EG dhe kanalit"
 
+#, fuzzy
 msgid "Scheduled load of 'epg.dat'"
-msgstr "Ngarkesa e caktuar e 'epg.dat'"
+msgstr "Ngarkesa e caktuar e epg.dat"
 
+#, fuzzy
 msgid "Scheduled save of 'epg.dat'"
-msgstr "E caktuar për të shpëtuar 'epg.dat'"
+msgstr "E caktuar për të shpëtuar eepg.dat"
 
 msgid "Sci-Fi"
 msgstr "Sci-Fi"
@@ -16516,8 +16748,9 @@ msgstr "Shkencë & Teknik"
 msgid "Scope"
 msgstr "Qëllimi"
 
+#, fuzzy
 msgid "Screen saver movement"
-msgstr "Lëvizja për ruajtjen e ekranit"
+msgstr "Lëvizje e mirë"
 
 msgid "Script Manager"
 msgstr "Manazhuesi i script"
@@ -16561,11 +16794,13 @@ msgstr "Kabllo e dytë e LSB-së së motorizuar"
 msgid "Secondary DNS"
 msgstr "DNS e dytë"
 
+#, fuzzy
 msgid "Secondary DNS (IPv4)"
-msgstr "DNS e dytë (IPv4)"
+msgstr "DNS e dytë"
 
+#, fuzzy
 msgid "Secondary DNS (IPv6)"
-msgstr "DNS e dytë (IPv6)"
+msgstr "DNS e dytë"
 
 msgid "Seconds"
 msgstr "Unit-format"
@@ -16667,28 +16902,22 @@ msgstr "Zgjidh \"Po\" nëse ky melodik është i lidhur me pajisjen SCR nëpërm
 msgid "Select 'Yes' if you are using a multi-switch which requires a DiSEqC Port-A command signal. Select 'No' for all other setups."
 msgstr "Zgjidh 'Po' nëse jeni duke përdorur një shumë-switch që kërkon një sinjal të komandës së Port-A DiSEqC. Zgjidh \"Jo\" për të gjitha rregullimet e tjera."
 
+#, fuzzy
 msgid "Select 'Yes' if you want to wake the TV for a 'Zap and Record' recording timer is starting."
-msgstr ""
-"Zgjidh \"Po\" nëse do të zgjosh TV për një \"Zap dhe regjistrues\" fillon."
+msgstr "Edhe nëse fillon një kohëmatës regjistrimi 'Zap dhe rekord'?"
 
+#, fuzzy
 msgid "Select 'Yes' if you want to wake the TV for a 'Zap' recording timer is starting."
-msgstr ""
-"Zgjidh 'Po' nëse do të zgjosh TV për një kohëmatës regjistrimi 'Zap' po "
-"fillon."
+msgstr "Edhe nëse fillon një kohëmatës regjistrimi 'Zap'?"
 
 msgid "Select 'Yes' if you want to wake the TV when a 'Wakeup' scheduled task is starting."
 msgstr ""
-"Zgjidh \"Po\" nëse dëshiron të zgjosh TV kur të fillojë një detyrë e "
-"planifikuar."
 
 msgid "Select 'Yes' the keep the InfoBar displayed, with no timeout, while media playback is paused."
 msgstr "Zgjidh \"Po'in' the InfoBar e shfaqur, pa pushim, ndërsa loja e medias është ndërprerë."
 
 msgid "Select 'Yes' to allow the VPS to adjust recording timers based on broadcast Program Delivery Control (PDC) data. For this to work the service must provide reliable event PDC data."
 msgstr ""
-"Zgjidh \"Po\" për të lejuar që VPS të rregullojë kohëmatorët e regjistrimit "
-"bazuar në të dhënat e Programit të Shpërndarjes së Dërgesës (PDC). Për këtë "
-"punë shërbimi duhet të sigurojë ngjarje të besueshme të dhënat e PDC."
 
 msgid "Select 'Yes' to allow use of the seek bar to jump to a selected point within the event."
 msgstr "Zgjidh \"Po\" për të lejuar përdorimin e panelit të kërkimit për të kërcyer në një pikë të zgjedhur brenda ngjarjes."
@@ -16725,9 +16954,6 @@ msgstr "Zgjidh \"Po\" për të aktivizuar Përkthimin AI për të gjithë telete
 
 msgid "Select 'Yes' to enable DNS entry rotation. This rotation changes the order in which the list of DNS servers is used and can avoid issues if a DNS server in the list becomes unavailable."
 msgstr ""
-"Zgjidh \"Po\" për të aktivizuar rrotullimin e hyrjes DNS. Ky rrotullim "
-"ndryshon renditjen në të cilën është përdorur lista e serverëve DNS dhe mund "
-"të shmangë çështjet nëse një server DNS në listë bëhet jo në dispozicion."
 
 msgid "Select 'Yes' to enable editing of this device's settings. Selecting 'No' resets the devices settings to their default values."
 msgstr "Zgjidh po nga rregullimet. Zgjedhja 'Jo' rivendos rregullimet e pajisjeve për vlerat e tyre të prezgjedhura."
@@ -16746,8 +16972,6 @@ msgstr "Zgjidh \"Po\" për të aktivizuar ngarkimin e buqetave të palidhura të
 
 msgid "Select 'Yes' to enable the monitoring UI web interface for the DNSCrypt subsystem."
 msgstr ""
-"Zgjidh \"Po\" për të aktivizuar interfaqen e internetit UI për nën-sistemin "
-"DNSCrypt."
 
 msgid "Select 'Yes' to enable use of the LEFT/RIGHT buttons to move PageUp/PageDown when the LEFT/RIGHT buttons are otherwise undefined. This provides legacy navigation for users who prefer it."
 msgstr "Zgjidh \"Po\" për të aktivizuar përdorimin e pulsantëve LEFT/Dëshirim për të lëvizur Faqja në vazhdim kur butonët LEFT/DAL janë ndryshe të papërcaktuar. Kjo siguron lundrim trashëgimie për përdoruesit që e preferojnë atë."
@@ -16806,10 +17030,9 @@ msgstr "Zgjidh \"Po\" për të hequr të gjitha të dhënat e interfaqes së pë
 msgid "Select 'Yes' to reset network configuration to the default. This will enable the Ethernet port if it exists and set the receiver to use DHCP. All other network interfaces will be deleted."
 msgstr "Zgjidh \"Po\" për të rivendosur konfigurimin e rrjetit në menyrë të prezgjedhur. Kjo do të mundësojë portin Ethernet nëse ekziston dhe vendos marrësin të përdorë DHCP. Të gjitha interfaqet e rrjetit do të fshihen."
 
+#, fuzzy
 msgid "Select 'Yes' to set the VPS flag on all new timers by default."
-msgstr ""
-"Zgjidh \"Po\" për të vendosur flamurin VPS në të gjithë njerëzit e rinj si "
-"të prezgjedhur."
+msgstr "Zgjidh \"Po\" për të shfaqur InfoBar kur fillon një ngjarje e re."
 
 msgid "Select 'Yes' to set the cursor position to the end of the line when editing a text file.  Select 'No' to set the cursor to the start of the line."
 msgstr "Zgjidh \"Po\" për të caktuar pozicionin e kursorit nga fundi i rreshtit kur ndryshohet një file teksti. Zgjidh jo nga fillimi nga rreshti."
@@ -16873,9 +17096,6 @@ msgstr "Zgjidh \"Po\" për të shfaqur paketat e plugin të sistemit tek ekrani 
 
 msgid "Select 'Yes' to show the 'Movie Selection' entry in the Main Menu. This can provide access to the Movie Selection screen when there is no assigned button on the remote control."
 msgstr ""
-"Zgjidh \"Po\" për të shfaqur hyrjen e 'Zgjedhjes Movie' në Menunë Kryesore. "
-"Kjo mund të sigurojë hyrjen në ekranin e seleksionimit të filmave kur nuk ka "
-"buton të caktuar në telekomandën e kontrollit."
 
 msgid "Select 'Yes' to show the advanced setting options."
 msgstr "Zgjidh \"Po\" për të shfaqur opsionet e përparuara të vendosjes."
@@ -16906,9 +17126,6 @@ msgstr "Zgjidhni 'Po' për të ndarë detyrat në veprime të veçanta."
 
 msgid "Select 'Yes' to use PDC data, if available on the current service, to accurately stop the instant recording at the end of the event."
 msgstr ""
-"Zgjidh \"Po' për të përdorur të dhënat PDC, nëse është në dispozicion në "
-"shërbimin aktual, për të ndaluar me saktësi regjistrimin e menjëhershëm në "
-"fund të ngjarjes."
 
 msgid "Select 'Yes' to use alternate GitHub feed IP addresses. This can be helpful if you use a VPN and the normal feeds can't be accessed via the published DNS names."
 msgstr "Zgjidh po nga. Kjo mund të jetë e dobishme nëse përdorni një VPN dhe pajisjet normale nuk mund të hyjnë nëpërmjet emrave të botuar të DNS."
@@ -16924,9 +17141,6 @@ msgstr "Zgjidh 'Po' për të përdorur numrat e kyçeve për zgjedhjen e shpejt�
 
 msgid "Select 'Yes' to wake the receiver from Shutdown prior to the recording start time to allow the PDC data to make last minute timer adjustments."
 msgstr ""
-"Zgjidh \"Po\" për të zgjuar marrësin nga Shunow para fillimit të kohës së "
-"regjistrimit për të lejuar të dhënat PDC për të bërë rregullimet e fundit të "
-"kronometrit."
 
 msgid "Select 'Yes, to display the InfoBar when fast forwarding or rewinding during media playback."
 msgstr "Zgjidh \"Po, për të shfaqur InfoBar kur shpejton apo kthehet prapa gjatë lojës së medias."
@@ -17003,14 +17217,16 @@ msgstr "Zgjidh a Softcam nga lista në dispozicion si e prezgjedhur për AutoCam
 msgid "Select a Softcam from the available list."
 msgstr "Zgjidh një softkam nga lista në dispozicion."
 
+#, fuzzy
 msgid "Select a Video"
-msgstr "Zgjidh një video"
+msgstr "Zgjidh një film"
 
 msgid "Select a bouquet"
 msgstr "Zgjidh një buqetë"
 
+#, fuzzy
 msgid "Select a device to create multiboot slots"
-msgstr "Zgjidh një dispozitiv për të krijuar slote multiboot"
+msgstr "Zgjidh një dispozitiv për t'u përdorur për vendet shtesë"
 
 msgid "Select a device to use for the additional slots"
 msgstr "Zgjidh një dispozitiv për t'u përdorur për vendet shtesë"
@@ -17098,11 +17314,13 @@ msgstr "Zgjidh"
 msgid "Select channel audio"
 msgstr "Zgjidh"
 
+#, fuzzy
 msgid "Select default EPG type"
-msgstr "Zgjidh lloji"
+msgstr "Zgjidh lloji."
 
+#, fuzzy
 msgid "Select default EPG type:"
-msgstr "Zgjidh lloji:"
+msgstr "Zgjidh lloji."
 
 msgid "Select default File Commander directory:"
 msgstr "Zgjidh të _Prezgjedhurin Directory e komandës:"
@@ -17115,8 +17333,6 @@ msgstr "Select files/folders to backup"
 
 msgid "Select how long the screen saver image will stay in the same location on the screen before it will be moved."
 msgstr ""
-"Zgjidh se sa gjatë do të qëndrojë në të njëjtin pozicion në ekran para se të "
-"lëvizet."
 
 msgid "Select how long to display status messages."
 msgstr "Zgjidh sa gjatë duhet shfaqur gjendja e mesazheve."
@@ -17130,11 +17346,9 @@ msgstr "Zgjidh sa kohë duhet shfaqur mesazhi i mesazhit me script."
 msgid "Select how long, in seconds, that the volume and mute displays are shown before they automatically hide."
 msgstr "Zgjidh se sa gjatë, në sekonda, saqë volumi dhe ekranet memece shfaqen para se të fshihen automatikisht."
 
+#, fuzzy
 msgid "Select how much EPG history, if any, to keep in the EPG cache. This historic data can be browsed in any of the EPG views. This can be useful for information about an event which has finished."
-msgstr ""
-"Zgjidh se sa histori e EGG, për të mbajtur në cache EG. Këto të dhëna "
-"historike mund të shfletohen në çdo këndvështrim të EG. Kjo mund të jetë e "
-"dobishme për informacione në lidhje me një ngjarje që ka përfunduar."
+msgstr "Zgjidh se sa histori e EGG, për të mbajtur në cache EGG. Këto të dhëna historike mund të shfletohen në çdo këndvështrim të EG. Kjo mund të jetë e dobishme kur ju duhet informacion për një ngjarje që ka përfunduar kohët e fundit."
 
 msgid "Select how often this timer is to be repeated."
 msgstr "Zgjidh sa shpesh duhet përsëritur ky kohëmatës."
@@ -17144,10 +17358,6 @@ msgstr "Zgjidh sa shpejt duhet të lëvizë pjata mes satelitëve."
 
 msgid "Select how the descrambled data stream is processed. 'Automatic' uses asynchronous writes (lower CPU usage) with automatic fallback to synchronous if kernel AIO is not supported. 'Synchronous' forces blocking writes (stable, most compatible)."
 msgstr ""
-"Zgjidh si përpunohet përroi i të dhënave descrambled. 'Automatike' përdoret "
-"sinkron (përdorja më e ulët CPU) me pasoja automatike për të sinkronuar nëse "
-"kokrra AIO nuk mbështetet. Bllokimi i forcave 'Sinkron' shkruan (stable, më "
-"i përputhshmi)."
 
 msgid "Select how the satellite dish is set up. i.e. fixed dish, single LNB, DiSEqC switch, positioner, etc."
 msgstr "Zgjidh si është ngritur pjata satelitore. pjatë fikse, një LNB, DiSEq C pass, pozicionues, etj."
@@ -17163,10 +17373,6 @@ msgstr "Zgjidh nëse është i nevojshëm një fund."
 
 msgid "Select if data entry timeouts are to be applied when entering digits into the service selection pop up screen. When a timeout is exceeded the currently entered number will be used for the service selection. The default timeouts are first digit 3 seconds, other digits 1 second."
 msgstr ""
-"Zgjidh nëse do të zbatohen intervalet e hyrjes së të dhënave gjatë hyrjes në "
-"dritaren e zgjedhjes së shërbimit. Kur të kalojë një kohë numri i "
-"regjistruar aktualisht do të përdoret për zgjedhjen e shërbimit. Koha e "
-"prezgjedhur është numri i parë 3 sekonda, numra të tjerë 1 sekonda."
 
 msgid "Select if the default value for a setup entry is shown and, if so, where it is displayed in relation to the description."
 msgstr "Zgjidh nëse është shfaqur vlera e paracaktuar për një zë të caktuar dhe, nëse është kështu, ku shfaqet në lidhje me përshkrimin."
@@ -17249,8 +17455,9 @@ msgstr "Zgjidh për të shtuar..."
 msgid "Select sort method:"
 msgstr "Zgjidh metodën e llojit:"
 
+#, fuzzy
 msgid "Select target device for slot creation"
-msgstr "Zgjidh dispozitivin e objektivit për krijimin e slot"
+msgstr "Zgjidh pozicioni"
 
 msgid "Select temporary directory sort order for the current column"
 msgstr "Zgjidh"
@@ -17267,8 +17474,6 @@ msgstr "Zgjidh gjuhën e përkthimit AI."
 
 msgid "Select the DNS server(s) that will be used to lookup the host name to resolve the IP address."
 msgstr ""
-"Zgjidh serverin DNS që do të përdoret për të kërkuar emrin e host për të "
-"zgjidhur adresën IP."
 
 msgid "Select the No / False response"
 msgstr "Zgjidh përgjigjen e rreme"
@@ -17375,22 +17580,15 @@ msgstr "Zgjidh vonesën para se të aktivizohet koha."
 
 msgid "Select the delay to buffer descrambled data before starting playback. This can reduce AC3 audio dropouts by ensuring enough data is available when the decoder starts. Higher values are more stable but increase channel switch time."
 msgstr ""
-"Zgjidh nga përpara. Kjo mund të reduktojë rëniet audio AC3 duke siguruar të "
-"dhëna të mjaftueshme është në dispozicion kur fillon dekoduesi. Vlera më të "
-"larta janë më të qëndrueshme por rrisin kohën e kalimit të kanalit."
 
 msgid "Select the delay to use when closing a Stream Relay service before reallocating the tuner for another service. Using '0' is only recommended for boxes with multiple satellite tuners."
 msgstr "Zgjidhe vonesën për t'u përdorur kur mbyll një shërbim Stream Relay para se të gjesh spikerin për një shërbim tjetër. Përdorimi i 0 është rekomanduar vetëm për kuti me shumë satelitë."
 
 msgid "Select the delay to wait after pressing more digit buttons to select a new service."
 msgstr ""
-"Zgjidh vonesën për të pritur mbas shtypjes së pulsantëve më shumë dixhitalë "
-"për të zgjedhur një shërbim të ri."
 
 msgid "Select the delay to wait after pressing the first digit button to select a new service."
 msgstr ""
-"Zgjidh vonesën për të pritur mbas shtypjes së pulsantit të parë dixhital për "
-"të zgjedhur një shërbim të ri."
 
 msgid "Select the desired function and click on 'OK' to assign it. Use 'CH+/-' to toggle between the lists. Select an assigned function and click on 'OK' to deassign it. Use 'NEXT/PREVIOUS' to change the order of the assigned functions."
 msgstr "Zgjidh funksionin e dëshiruar dhe kliko tek 'OK' për ta caktuar atë. Përdor \"CH+/-\" fshih midis listës. Zgjidh një funksion të caktuar dhe kliko tek 'OK' për ta hequr atë. Përdor 'NEXT/PREVIOUS' për të ndryshuar rendin e funksioneve të caktuara."
@@ -17410,13 +17608,14 @@ msgstr "Zgjidh opsionet e display për çdo element të hyrjes me menu. Nëse nu
 msgid "Select the display sequence of previously visited services."
 msgstr "Zgjidh sekuencën e shfaqjeve të shërbimeve të vizituara më parë."
 
+#, fuzzy
 msgid "Select the duration of inactivity before the screen saver will be displayed."
-msgstr "Zgjidh nga përpara."
+msgstr "Konfiguro kohëzgjatjen në minuta para se të shfaqet mbajtësi i ekranit."
 
 #. TRANSLATORS: "Select the file sort order for the %s:" / the placeholder is "left column" or "right column".
-#, python-format
+#, fuzzy, python-format
 msgid "Select the file sort order for the %s:"
-msgstr "Zgjidh renditjen e llojit të file për %s:"
+msgstr "Select the file sort order for the %s column:"
 
 msgid "Select the file system for the device."
 msgstr "Zgjidh sistemin e file për dispozitivin."
@@ -17474,13 +17673,9 @@ msgstr "Zgjidh metodën e restaurimit të rezolutës së ekranit dhe të framebu
 
 msgid "Select the mode of access, Read/Write or Read Only, applied to all automatically exported Samba shares."
 msgstr ""
-"Zgjidh modalitetin e hyrjes, Lexo/Write ose Lexo Vetëm, aplikohet tek të "
-"gjitha pjesët e Samba të eksportuara automatikisht."
 
 msgid "Select the mode of access, Read/Write or Read Only, applied to all exported directories."
 msgstr ""
-"Zgjidh modalitetin e hyrjes, Lexo/Write ose Lexo Vetëm, aplikohet tek të "
-"gjithë directories e eksportuar."
 
 msgid "Select the model number of your Unicable device. If the model number is not listed, set 'SCR' to 'User defined' and enter the device parameters manually according to its specifications."
 msgstr "Zgjidh numrin model të dispozitivit tuaj të Papërdorshëm. Nëse modeli nuk është rreshtuar, cakto 'SCR' për 'Përdorues të përcaktuar' dhe shkruaj manualisht në bazë të specifikimeve të tij."
@@ -17505,14 +17700,9 @@ msgstr ""
 
 msgid "Select the network metric for this adapter. When multiple adapters are active, the one with the lowest network metric is used as the default route for network traffic."
 msgstr ""
-"Zgjidh metrikun e rrjetit për këtë adaptues. Kur adaptuesit e shumtë janë "
-"aktivë, ai me metrikun më të ulët të rrjetit përdoret si rruga e paracaktuar "
-"për trafikun e rrjetit."
 
 msgid "Select the network name (SSID) of the wireless network to which the receiver should connect."
 msgstr ""
-"Zgjidh emrin e rrjetit (SSID) e rrjetit pa tel me të cilin marrësi duhet të "
-"lidhet."
 
 #, python-format
 msgid "Select the new mount point for: '%s'"
@@ -17526,8 +17716,6 @@ msgstr "Zgjidh pjesën në vazhdim tek lista"
 
 msgid "Select the preferred service information to display, in addition to the service number, for the service selection pop up screen."
 msgstr ""
-"Zgjidh informacionin e preferuar të shërbimit për t'u shfaqur, përveç numrit "
-"të shërbimit, për zgjedhjen e shërbimit që po shfaqet në ekran."
 
 msgid "Select the previous item in list or move the cursor left"
 msgstr "Zgjidh elementin paraardhës në listë ose lëviz majtas kursori"
@@ -17545,7 +17733,7 @@ msgid "Select the protocol used by your SCR device. Choices are 'SCR Unicable' (
 msgstr "Zgjidh protokollin e përdorur nga pajisja juaj SCR. Zgjedhjet janë 'SCR Uncible' (E pamundur), ose 'SCR JESS' (JESS, i njohur gjithashtu si I Pamundshëm II)."
 
 msgid "Select the receiver action when the TV switches away from the receiver input."
-msgstr "Zgjidh aksionin e marrësit kur TV të largohet nga hyrja marrës."
+msgstr ""
 
 msgid "Select the refresh rate to be used on the TV."
 msgstr "Zgjidh normën e rifreskimit që duhet përdorur në TV."
@@ -17573,8 +17761,6 @@ msgstr "Zgjidh layoutin e ekranit, nga opsionet e siguruara nga lëkura, që do 
 
 msgid "Select the security protocol that will be used to access the selected wireless network."
 msgstr ""
-"Zgjidh protokollin e sigurisë që do të përdoret për të hyrë në rrjetin e "
-"zgjedhur pa tel."
 
 msgid "Select the shifted character set"
 msgstr "Zgjidh"
@@ -17726,50 +17912,55 @@ msgstr "Select what you want the Up/Down button to activate."
 msgid "Select where the recording should be saved."
 msgstr "Zgjidh ku duhet ruajtur regjistrimi."
 
+#, fuzzy
 msgid "Select whether AAC audio tracks should be transcoded."
-msgstr "Zgjidh nëse gjurmët audio AAC duhet të transkodohen."
+msgstr "Zgjidh nëse gjurmët e zërit AAC duhet të transkodohen."
 
+#, fuzzy
 msgid "Select whether AC3 Plus audio tracks should be transcoded to AC3."
-msgstr "Zgjidh nëse AC3 Plus gjurmët audio duhet të transkodohen në AC3."
+msgstr "Zgjidh nëse AC3 Plus gjurmët e zërit duhet të kalojnë në AC3."
 
+#, fuzzy
 msgid "Select whether AC3 audio tracks should be downmixed to stereo."
-msgstr "Zgjidh nëse gjurmët audio AC3 duhet të jenë poshtë në stereo."
+msgstr "Zgjidh nëse shenjat e zërit AC3 duhet të jenë poshtë në stereo."
 
 msgid "Select whether AC4 (Dolby Atmos) audio tracks should be passed through to the AVR, downmixed to stereo, or auto-routed based on HDMI sink capability."
 msgstr ""
-"Zgjidh gjurmët audio AC4 (Dolby Atmos) duhet të kalojnë nëpër AVR, poshtë në "
-"stereo, ose auto-truad bazuar në aftësinë e lavamanit HDMI."
 
+#, fuzzy
 msgid "Select whether DTS channel audio tracks should be downmixed or transcoded."
-msgstr "Zgjidh nëse shinat e kanalit të DTS duhet të ulen ose të transkodohen."
+msgstr "Zgjidh nëse shinat e tingujve të DTS duhet të jenë poshtë ose të transkoduara."
 
+#, fuzzy
 msgid "Select whether DTS channel audio tracks should be downmixed to stereo."
-msgstr "Zgjidh nëse shinat e kanalit të DTS duhet të ulen në stereo."
+msgstr "Zgjidh nëse shinat e tingujve të DTS duhet të jenë poshtë për në stereo."
 
+#, fuzzy
 msgid "Select whether Dolby TrueHD audio tracks should be passed through or decoded."
-msgstr "Zgjidh nëse duhet kaluar apo deshifruar linja audio Dolby TrueHD."
+msgstr "Zgjidh nëse shinat e tingujve të DTS duhet të jenë poshtë ose të transkoduara."
 
 msgid "Select whether IPv4, IPv6, or both protocols should be used. If both are enabled then which should be preferred."
 msgstr ""
-"Zgjidh nëse IPv4, IPv6, ose të dyja protokollet duhet të përdoren. Nëse të "
-"dyja janë aktivizuar atëherë cila duhet të preferohet."
 
+#, fuzzy
 msgid "Select whether WMA Pro channel audio tracks should be downmixed or transcoded."
-msgstr ""
-"Zgjidh nëse shinat e kanalit WMA Pro duhet të jenë poshtë ose të "
-"transkoduara."
+msgstr "Zgjidh nëse WMA Gjurmët e zërit të kanalit duhet të ulen ose të transkodohen."
 
+#, fuzzy
 msgid "Select whether multichannel audio tracks should be converted to PCM or SPDIF."
-msgstr "Zgjidh gjurmët audio shumëchannele duhet të kthehen në PCM ose SPDIF."
+msgstr "Zgjidh nëse shumë kanale duhet kthyer në PCM apo SPDIF."
 
+#, fuzzy
 msgid "Select whether multichannel audio tracks should be downmixed to stereo."
-msgstr "Zgjidh."
+msgstr "Zgjidh nëse shumë kanale duhet të zbresin në stereo."
 
+#, fuzzy
 msgid "Select whether multichannel audio tracks should be output as PCM."
-msgstr "Zgjidh gjurmët audio multichannel duhet të jenë duke dalë si PCM."
+msgstr "Zgjidh nëse pozicionet e tingujve të shumë kanaleve duhet të jenë të output si PCM."
 
+#, fuzzy
 msgid "Select which IP protocols can be used with this adapter."
-msgstr "Zgjidh që protokollet IP mund të përdoren me këtë adaptues."
+msgstr "Zgjidh kanalin ose shërbimin që duhet përdorur për këtë kohëmatës."
 
 msgid "Select wireless network"
 msgstr "Zgjidh"
@@ -17804,8 +17995,9 @@ msgstr "Zgjidh zonën e orarit ose zonën."
 msgid "Select, toggle, process or edit the current entry"
 msgstr "Zgjidh, fshih, ndrysho hyrjen aktuale"
 
+#, fuzzy
 msgid "Select/Zap to the selected service"
-msgstr "Zgjidh/Zap tek shërbimi i zgjedhur"
+msgstr "Select/Zap to selected service"
 
 msgid "Selected mount point is already used by another drive."
 msgstr "Pika e zgjedhur e malit është përdorur tashmë nga një tjetër makinë."
@@ -17819,12 +18011,6 @@ msgid ""
 "\n"
 "Do you want to install this settinglist?"
 msgstr ""
-"Lista e rregullimeve të zgjedhura:\n"
-"\n"
-"Rregullimi: %s\n"
-"Data: %s\n"
-"\n"
-"Dëshiron të instalosh këtë listë?"
 
 #, python-format
 msgid ""
@@ -17832,19 +18018,13 @@ msgid ""
 "\n"
 "Do you want to delete this settinglist?"
 msgstr ""
-"Lista e rregullimeve të zgjedhura: %s\n"
-"\n"
-"E eleminon këtë listë?"
 
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "Selected settings list: %s\n"
 "\n"
 "Do you want to restore this settinglist?"
-msgstr ""
-"Lista e rregullimeve të zgjedhura: %s\n"
-"\n"
-"Dëshiron të rivendosësh këtë listë?"
+msgstr "Dëshiron të rivendosësh rregullimet?"
 
 msgid ""
 "Selecting 'Yes' will delete the currently selected user data. This action can't be undone. You may want to create a backup before continuing.\n"
@@ -17902,26 +18082,18 @@ msgstr "Serial: i panjohur"
 msgid "Server %s-%s"
 msgstr "Serveri %s-%s"
 
+#, fuzzy
 msgid "Server down"
-msgstr "Serveri u rrëzua"
+msgstr " Serveri dhe "
 
 msgid "Server must not enforce its own blocklist. Some servers may implement their own blacklists to block sites for parental control, ad blocking, etc. reasons."
 msgstr ""
-"Serveri nuk duhet të zbatojë listën e vet të bllokut. Disa servera mund të "
-"përdorin listën e tyre të zezë për të bllokuar sitet për kontrollin "
-"prindëror, reklamën, etj."
 
 msgid "Server must not log user queries (declarative). This can improve the privacy of DNS lookups by not logging the request on the server providing the data."
 msgstr ""
-"Serveri nuk duhet të regjistrojë: Kjo mund të përmirësojë konfidencialitetin "
-"e kontrolleve të DNS duke mos e lidhur kërkesën tek serveri duke siguruar të "
-"dhënat."
 
 msgid "Server must support DNS Security Extensions (DNSSEC). This is a data signing option that protects the integrity of the DNS data against compromises like cache poisoning."
 msgstr ""
-"Serveri duhet të suportojë shtesat e Sigurisë DNSEC. Kjo është një opcion i "
-"nënshkrimit të të dhënave që mbron integritetin e të dhënave DNS kundër "
-"kompromiseve si helmimi në depo."
 
 msgid "Server:"
 msgstr "_Serveri:"
@@ -18043,6 +18215,10 @@ msgstr "Shërbimi madhësia"
 msgid "Service off-air"
 msgstr "Shërbimi jashtëajror"
 
+#, fuzzy
+msgid "Service online"
+msgstr "Madhësia e gërmave të shërbimit"
+
 msgid "Service picons aspect ratio"
 msgstr "Treguesi i aspekteve të shërbimit"
 
@@ -18068,17 +18244,20 @@ msgstr ""
 msgid "Service width"
 msgstr "Gjerësia e shërbimit"
 
+#, fuzzy
 msgid "Service zap delay mode"
-msgstr "Shërbimi është duke vonuar mënyrën"
+msgstr "Kanali"
 
+#, fuzzy
 msgid "Service zap first button delay"
-msgstr "Shërbimi prish shtyrjen e parë të pulsantit"
+msgstr "Kanali"
 
 msgid "Service zap other button delay"
-msgstr "Shërbimi heq dhe një tjetër shtyrje butoni"
+msgstr ""
 
+#, fuzzy
 msgid "Service zap screen contents"
-msgstr "Shërbimi"
+msgstr "Veprime shërbimi"
 
 msgid "ServiceName"
 msgstr "Shërbimi Emri"
@@ -18120,25 +18299,26 @@ msgid "Set Framerate for MiniTV"
 msgstr "Korniza për"
 
 msgid "Set MAX CPU frequency for cores 0 and 1"
-msgstr "Për dhe"
+msgstr ""
 
 msgid "Set MAX CPU frequency for cores 2, 3, 4 and 5"
-msgstr "Vendos frekuencën MAX CPU për bërthamat 2, 3, 4 dhe 5"
+msgstr ""
 
 msgid "Set MIN CPU frequency for cores 0 and 1"
-msgstr "Për dhe"
+msgstr ""
 
 msgid "Set MIN CPU frequency for cores 2, 3, 4 and 5"
-msgstr "Vendos frekuencën MIN CPU për bërthamat 2, 3, 4 dhe 5"
+msgstr ""
 
+#, fuzzy
 msgid "Set Scaling governor"
-msgstr "Vendos guvernatorin e skalit"
+msgstr "Modaliteti"
 
 msgid "Set Time"
 msgstr "Cakto kohën"
 
 msgid "Set a time offset before a timer is due to start to allow VPS to scan for the latest event timing. Select '0' to disable this feature."
-msgstr "A ora është nga për. Zgjidh 0 për të çaktivizuar këtë funksion."
+msgstr ""
 
 msgid "Set action for 'Info' key"
 msgstr "Për"
@@ -18210,13 +18390,13 @@ msgid "Set the number of lines to be saved for 'stout' and 'sterr' output in scr
 msgstr "Dhe në."
 
 msgid "Set the password for the monitoring UI web interface."
-msgstr "Përcakto fjalëkalimin për interfaqen e monitorimit të internetit UI."
+msgstr ""
 
 msgid "Set the password of the OpenWebif from your fallback tuner"
 msgstr "Përcakto fjalëkalimin e OpenWebif nga melodia juaj e gabuar"
 
 msgid "Set the port address (8080-9999) for the monitoring UI web interface."
-msgstr "Vendos adresën e portit (80-999) për interfaqen e internetit UI."
+msgstr ""
 
 msgid "Set the port of the OpenWebif from your fallback tuner"
 msgstr "Vendos portin e OpenWebif nga melodia jote e gabuar"
@@ -18224,9 +18404,9 @@ msgstr "Vendos portin e OpenWebif nga melodia jote e gabuar"
 msgid "Set the position of the recording icons."
 msgstr "Vendos pozicionin e ikonave të regjistrimit."
 
+#, fuzzy
 msgid "Set the privacy level for the monitoring UI web interface."
-msgstr ""
-"Vendos nivelin e konfidencialit për mbikqyrjen e ndërfaqes së internetit UI."
+msgstr "Përcakto nivelin e volumit për shërbimin '%s'."
 
 msgid "Set the repeat interval of backup schedule."
 msgstr "Cakto intervalin e përsëritur të programit rezervë."
@@ -18275,7 +18455,6 @@ msgstr "Lloji nga në."
 
 msgid "Set the username for the monitoring UI web interface."
 msgstr ""
-"Vendos emrin e përdoruesit për interfaqen e monitorimit të internetit UI."
 
 #, python-format
 msgid "Set the volume level for the '%s' service."
@@ -18315,10 +18494,9 @@ msgstr "Cakto në 'Enabled' për të përmbyllur regjistrimet e koduara në radh
 msgid "Set to 'Enabled' to descramble queued scrambled recordings in Standby."
 msgstr "Cakto në 'Enabled' për të përmbledhur regjistrimet e koduara në radhë në pritje."
 
+#, fuzzy
 msgid "Set to 'Yes' to enable sending the same TV commands for Deep Standby as for regular Standby."
-msgstr ""
-"Vendos \"Po\" për të mundësuar dërgimin e të njëjtave komanda TV për "
-"Qëndrimin e Thellë si për qëndrimin e rregullt."
+msgstr "Nëse vendosur për 'Po' të njëjtat komanda do të dërgohen në TV për ngjarje të mëdha gatishmërie siç dërgohen gjatë ngjarjeve të zakonshme të ndihmës."
 
 msgid "Set to 'Yes', to enable automatic recording of the background timeshift buffer."
 msgstr "Vendose tek 'Po', për të aktivizuar regjistrimin automatik të buffer të konfigurimit të sfondit."
@@ -18329,11 +18507,13 @@ msgstr "Dei në afatin e caktuar?."
 msgid "Set to the desired primetime (minutes."
 msgstr "Caktoje në kohën e dëshiruar (minutes)."
 
+#, fuzzy
 msgid "Set to the desired primetime hour."
-msgstr "Vendos në orën e dëshiruar."
+msgstr "Dei në afatin e caktuar?."
 
+#, fuzzy
 msgid "Set to the desired primetime minutes."
-msgstr "Vendos minutat e dëshiruara."
+msgstr "Caktoje në kohën e dëshiruar (minutes)."
 
 msgid "Set to what you want the button to do."
 msgstr "Vendose tek ajo që do të bësh."
@@ -18350,8 +18530,9 @@ msgstr "Përcakton directory bazë të listës së mediave. Kjo heq hyrjen '.' n
 msgid "Setting"
 msgstr "Rregullimi"
 
+#, fuzzy
 msgid "Setting Restored "
-msgstr "Rregullimi "
+msgstr "Rregullimet"
 
 msgid "Setting a password is strongly advised if your STB is open to the Internet. You must set a password in order to be able to use network services like FTP, Telnet or SSH."
 msgstr "Vendosja e një fjalëkalimi këshillohet me forcë nëse STB juaj është i hapur në Internet. Duhet të vendosni një fjalëkalim në mënyrë që të jeni në gjendje të përdorni shërbimet e rrjetit si FTP, Telnet ose SSH."
@@ -18537,8 +18718,9 @@ msgstr "Shfaq paketat e shoferit"
 msgid "Show ECM-Info"
 msgstr "Shfaq ECM-Info"
 
+#, fuzzy
 msgid "Show EIT Now/Next event data in the InfoBar"
-msgstr "Shfaq EIT Tani/Në vazhdim të dhënat në InfoBar"
+msgstr "Show the EIT Now/Next data in the InfoBar."
 
 msgid "Show EIT now/next in infobar"
 msgstr "Show EIT now/next in infobar"
@@ -18606,8 +18788,9 @@ msgstr "Shfaq paketat M2k"
 msgid "Show Media Player in Main Menu"
 msgstr "Shfaq media Luaj në Menunë Kryesore"
 
+#, fuzzy
 msgid "Show Media playback remaining/elapsed as"
-msgstr "Shfaq Media"
+msgstr "Show Media playback Remaining/Elapsed as"
 
 msgid "Show Merlin EPG Center"
 msgstr "Shfaq Qendrën Merlin EG"
@@ -18615,8 +18798,9 @@ msgstr "Shfaq Qendrën Merlin EG"
 msgid "Show MiniTV in the Front Display"
 msgstr "Shfaq MiniTV në ekran"
 
+#, fuzzy
 msgid "Show Movie Selection in Main Menu"
-msgstr "Shfaq në"
+msgstr "Shfaq media Luaj në Menunë Kryesore"
 
 msgid "Show Movies"
 msgstr "Shfaq filmat"
@@ -18762,8 +18946,9 @@ msgstr "Shfaq"
 msgid "Show all available services"
 msgstr "Shfaq të gjithë shërbimet në dispozicion"
 
+#, fuzzy
 msgid "Show all details"
-msgstr "Shfaq të gjithë hollësitë"
+msgstr "Shfaq hollësitë CPU"
 
 msgid "Show animation while busy"
 msgstr "Shfaq animacionin kur je i zënë"
@@ -18864,8 +19049,9 @@ msgstr "Shfaq lista"
 msgid "Show first image"
 msgstr "Shfaq figurën e parë"
 
+#, fuzzy
 msgid "Show first picture"
-msgstr "Shfaq figurën e parë"
+msgstr "Shfaq figurën në vazhdim"
 
 msgid "Show free space in timer view"
 msgstr "Shfaq hapësirë të lirë në paraqitjen e kronometrit"
@@ -18922,8 +19108,9 @@ msgstr "Shfaq detyrat e punës në shtesa"
 msgid "Show last image"
 msgstr "Shfaq figurën e fundit"
 
+#, fuzzy
 msgid "Show last picture"
-msgstr "Shfaq figurën e fundit"
+msgstr "Shfaq figurën në vazhdim"
 
 msgid "Show list of bouquets"
 msgstr "Shfaq listën e buqetave"
@@ -19054,6 +19241,7 @@ msgstr "Shfaq lista"
 msgid "Show screen menu path"
 msgstr "Shfaq pozicionin e menusë së ekranit"
 
+#, fuzzy
 msgid "Show screen saver"
 msgstr "Shfaq"
 
@@ -19183,8 +19371,9 @@ msgstr "Shfaq gjendja"
 msgid "Show/Games show"
 msgstr "Show/Games show"
 
+#, fuzzy
 msgid "Show/Hide Actions"
-msgstr "Shfaq Fshih"
+msgstr "InfoBar Show/Hide Actions"
 
 msgid "Show/Hide focus bar"
 msgstr "Show/Hide focus bar"
@@ -19192,8 +19381,9 @@ msgstr "Show/Hide focus bar"
 msgid "Showiframe"
 msgstr "Korniza"
 
+#, fuzzy
 msgid "Shows live TV or informations on LCD."
-msgstr "Shfaq TV të drejtpërdrejtë apo informata në LCD."
+msgstr "Tregon Tv ose informacione në LCD."
 
 msgid "Shows the icons when new/unseen, else will not show an icon."
 msgstr "Shows the icons when new/unseen, else will not show an icon."
@@ -19336,11 +19526,13 @@ msgstr "Zgjidhësi i lëkurës"
 msgid "Skip back"
 msgstr "Kapërce"
 
+#, fuzzy
 msgid "Skip backward"
-msgstr "Kapërce"
+msgstr "kalo mbrapa"
 
+#, fuzzy
 msgid "Skip backward (enter time)"
-msgstr "Kapërce mbrapsht (koha e hyrjes)"
+msgstr "kalo prapa (koha e hyrjes)"
 
 msgid "Skip empty services"
 msgstr "Kapërce shërbimet bosh"
@@ -19348,8 +19540,9 @@ msgstr "Kapërce shërbimet bosh"
 msgid "Skip forward"
 msgstr "Kërko përpara"
 
+#, fuzzy
 msgid "Skip forward (enter time)"
-msgstr "Shko përpara"
+msgstr "kaloni përpara (në kohë)"
 
 msgid "Skip internet connection check (disables automatic package installation)"
 msgstr "Kapërce kontrollin e lidhjes në internet (instalim automatik i paketave automatike)"
@@ -19436,9 +19629,9 @@ msgstr "Slide sipër poshtë"
 msgid "Slot %d"
 msgstr "Slot %d"
 
-#, python-format
+#, fuzzy, python-format
 msgid "Slot %s"
-msgstr "Slot %s"
+msgstr "Slot %d"
 
 #, python-format
 msgid "Slot %s / FBC in %s"
@@ -19460,20 +19653,21 @@ msgstr "Slot %s: %s ( figurë aktuale)"
 msgid "Slot %s: %s as USB Recovery"
 msgstr "Slot %s: %s si USB Rimëkëmbja"
 
-#, python-format
+#, fuzzy, python-format
 msgid "Slot '%s' %s"
-msgstr "Slot '%s' %s"
+msgstr "Slot %s: %s"
 
 #, python-format
 msgid "Slot '%s' %s: %s%s"
 msgstr "Slot '%s' %s: %s%s"
 
-#, python-format
+#, fuzzy, python-format
 msgid "Slot '%s' Flash"
-msgstr "Slot '%s' Flash"
+msgstr "Slot %s: %s"
 
+#, fuzzy
 msgid "Slot F: Flash Slot Image Backup (Current image)"
-msgstr "Slot F: Flash Slot Image backup ( figurë aktuale)"
+msgstr "Shkëpute"
 
 msgid "Slot Manager"
 msgstr "Manazhuesi i slot"
@@ -19487,11 +19681,9 @@ msgstr "Shkëpute"
 msgid "Slot count"
 msgstr "Numërim slot"
 
-#, python-format
+#, fuzzy, python-format
 msgid "Slots have been extended by %d..\n"
-msgstr ""
-"Slotat janë zgjeruar me %d.\n"
-".\n"
+msgstr "Rezultatet janë shkruar tek %s."
 
 msgid "Slovak"
 msgstr "Sllovak"
@@ -19550,8 +19742,9 @@ msgstr "Shoqëria & Kulturë"
 msgid "Socket"
 msgstr "Socket"
 
+#, fuzzy
 msgid "SoftCSA Settings"
-msgstr "Rregullimet softCSA"
+msgstr "Rregullimet softcam"
 
 msgid "Softcam"
 msgstr "Butëkam"
@@ -19586,8 +19779,9 @@ msgstr "Programi Manazhuesi Informacione"
 msgid "Software Manager Settings"
 msgstr "Rregullimet e menazhuesit të Programeve"
 
+#, fuzzy
 msgid "Software MultiBoot"
-msgstr "Program MultiBoot"
+msgstr "Programe"
 
 msgid "Software Restore"
 msgstr "Programe Restaurimi"
@@ -19620,12 +19814,9 @@ msgstr "Somali"
 msgid "Somalia"
 msgstr "Somali"
 
+#, fuzzy
 msgid "Some TVs can't switch to the correct input if another HDMI port is active. This setting puts the TV into Standby before switching. If the TV does not turn back on, a slower transmission interval or repeating the wake-up command may be required."
-msgstr ""
-"Disa TV nuk mund të kalojnë në të dhënat korrekte nëse një tjetër port HDMI "
-"është aktiv. Ky ambient e fut televizorin në Standby para se të kalojë. Nëse "
-"TV nuk kthehet prapa, mund të kërkohet një interval më i ngadaltë "
-"transmetimi apo përsëritje e komandës për zgjim."
+msgstr "Disa TV nuk mund të kalojnë në të dhënat korrekte nëse një tjetër port HDMI është aktiv. Ky vend e vë televizorin në pritje para se të kalojë. (Nëse TV nuk kthehet prapa mund të kërkojë një interval më të ngadaltë transmetimi ose përsëritjen e komandës për zgjim.)"
 
 msgid "Sorbian"
 msgstr "Sorbian"
@@ -19670,9 +19861,6 @@ msgid ""
 msgstr ""
 "Më vjen keq, nuk është zbuluar asnjë pajisje e re për depozitim.\n"
 "Sigurohu të ndjekësh udhëzimet e magjistarëve."
-
-msgid "Sorry, no physical devices that supports SWAP attached. Can't create Swapfile on network or fat32 filesystems"
-msgstr "Më vjen keq, nuk ka pajisje fizike që mbështesin SWAP ngjitur. j"
 
 msgid "Sorry, no physical devices that supports SWAP attached. Can't create swap file on network or FAT32 file systems"
 msgstr "Më vjen keq, nuk ka pajisje fizike që mbështesin SWAP ngjitur. j"
@@ -19793,8 +19981,6 @@ msgstr "Specifiko directory për tu përdorur kur fillon Luajtësi i Mediave."
 
 msgid "Specify the network DNS suffix to be applied when only the host name is provided. This helps the DNS resolver find the requested host."
 msgstr ""
-"Specifiko lafixin e rrjetit DNS që duhet aplikuar kur të jepet vetëm emri "
-"pritës. Kjo ndihmon DNS-në të gjejë mikpritësin e kërkuar."
 
 msgid "Speed"
 msgstr "Shpejtësia"
@@ -19847,8 +20033,9 @@ msgstr "Fillimi"
 msgid "Start Auto Refresh"
 msgstr "Fillo Rifresko"
 
+#, fuzzy
 msgid "Start Boot Frequency"
-msgstr "Fillo Proçesionin e Butit"
+msgstr "Frekuenca"
 
 msgid "Start RDS interactive"
 msgstr "Nis interaktiv RDS"
@@ -19931,14 +20118,16 @@ msgstr "Data e fillimit"
 msgid "Starting directory"
 msgstr "Fillimi"
 
+#, fuzzy
 msgid "Starting time"
-msgstr "Ora e nisjes"
+msgstr "Ora e fillimit"
 
 msgid "Starts in a few seconds"
 msgstr "Fillon për pak sekonda"
 
+#, fuzzy
 msgid "Startup device not found!"
-msgstr "Pajisja e nisjes nuk u gjet!"
+msgstr "Pajisja e depozitimit nuk u gjet!"
 
 msgid "State"
 msgstr "Gjendja"
@@ -19955,11 +20144,13 @@ msgstr "Ora e skadimit të mesazhit të gjëndjes"
 msgid "Status of the display during operation"
 msgstr "Gjëndja e display gjatë operacionit"
 
+#, fuzzy
 msgid "Status of the display in Deep Standby"
-msgstr "Gjendja e shfaqjes në pritje të thellë"
+msgstr "Gjendja e shfaqjes në gatishmëri të thellë"
 
+#, fuzzy
 msgid "Status of the display in Standby"
-msgstr "Gjendja e shfaqjes në pritje"
+msgstr "Gjendja e shfaqjes në gatishmëri të thellë"
 
 msgid "Status unavailable!"
 msgstr "Gjendja jo në dispozicion!"
@@ -20045,13 +20236,13 @@ msgstr "Ndalo pjesën e re, nëse është duke funksionuar, pastaj dil"
 msgid "Stop time shift"
 msgstr "Ndal"
 
+#, fuzzy
 msgid "Stop time shift and save time shift buffer as a movie"
-msgstr "Ndalo ndryshimin e kohës dhe kurseje kohën tampon si një film"
+msgstr "Ndalo ndryshimin e kohës dhe kurseje kohën tampon si film"
 
+#, fuzzy
 msgid "Stop time shift and save time shift buffer as a movie and start recording of current event"
-msgstr ""
-"Ndalo ndryshimin e kohës dhe ruaj kohën tampon si një film dhe fillo "
-"regjistrimin e ngjarjes aktuale"
+msgstr "Ndalo ndryshimin e kohës dhe ruaj kohën tampon si film dhe fillo regjistrimin e ngjarjes aktuale"
 
 msgid "Stop time shift while recording"
 msgstr "Ndalo ndryshimin e kohës gjatë regjistrimit"
@@ -20062,8 +20253,9 @@ msgstr "Ndalo regjistrimin e kronometrit"
 msgid "Stopped"
 msgstr "U ndërpre"
 
+#, fuzzy
 msgid "Stopping SoftCam in progress..."
-msgstr "Ndalimi SoftyCam në progres..."
+msgstr "Ndalimi i softycam"
 
 msgid "Stopping Softcam"
 msgstr "Ndalimi i softycam"
@@ -20128,8 +20320,9 @@ msgstr "Informacione rrethues"
 msgid "Streaming Information Actions"
 msgstr "Veprimet e informimit"
 
+#, fuzzy
 msgid "Streaming Status"
-msgstr "Gjendja aktuale"
+msgstr "Rrjedhja"
 
 msgid "Streaming Tuner Information"
 msgstr "Informacione për tu lidhur"
@@ -20160,8 +20353,9 @@ msgstr "DLNA e rreptë"
 msgid "Stripes"
 msgstr "Rripat"
 
+#, fuzzy
 msgid "Subnet mask"
-msgstr "Maska e subnet"
+msgstr "Netmask"
 
 msgid "Subservice Actions"
 msgstr "Veprime nën shërbim"
@@ -20181,6 +20375,7 @@ msgstr "Veprimet"
 msgid "Subtitle Quickmenu"
 msgstr "Menuja e shpejtë e titrave"
 
+#, fuzzy
 msgid "Subtitle Selection"
 msgstr "Zgjedhja"
 
@@ -20397,8 +20592,9 @@ msgstr "Kalo në shërbimet TV në dispozicion"
 msgid "Switch to the left column"
 msgstr "Kalo majtas"
 
+#, fuzzy
 msgid "Switch to the other column"
-msgstr "Kalo nga tjetër"
+msgstr "Kalo majtas"
 
 msgid "Switch to the right column"
 msgstr "Kalo nga djathtas"
@@ -20422,7 +20618,7 @@ msgid "Symbolic link"
 msgstr "Lidhje simbolike"
 
 msgid "Symmetrical skips"
-msgstr "Simmetrikal"
+msgstr ""
 
 msgid "Sync NTP every (minutes)"
 msgstr "NNTP çdo minutë"
@@ -20440,7 +20636,7 @@ msgid "Synchronize system time using transponder or Internet."
 msgstr "Sinkronizo kohën e sistemit duke përdorur transmander ose Internet."
 
 msgid "Synchronous"
-msgstr "Ekzekuto"
+msgstr ""
 
 msgid "Syrian Arab Republic"
 msgstr "Republika arabe siriane"
@@ -20525,13 +20721,14 @@ msgid "TV button mode"
 msgstr "Modaliteti"
 
 msgid "TV input and receiver wakeup"
-msgstr "TV dhe merr"
+msgstr ""
 
 msgid "TV physical address report"
 msgstr "Raport i adresës fizike televizive"
 
+#, fuzzy
 msgid "TV power"
-msgstr "Energjia"
+msgstr "Fuqia"
 
 msgid "TXT PID"
 msgstr "TXT PID"
@@ -20691,8 +20888,9 @@ msgstr "Tenis"
 msgid "Terrestrial"
 msgstr "Territor"
 
+#, fuzzy
 msgid "Test"
-msgstr "Prova"
+msgstr "UHD Prova"
 
 msgid "Test DiSEqC settings"
 msgstr "Prova rregullimet"
@@ -20741,11 +20939,13 @@ msgstr ""
 msgid "The %s %s is shutting down. Please wait..."
 msgstr "%s %s është duke u mbyllur. Ju lutem prisni..."
 
+#, fuzzy
 msgid "The %s %s reads the stored EPG data every selected number of hours."
-msgstr "Të dhënat e ruajtura %s lexojnë çdo numër orësh."
+msgstr "Të %s %s lexon të dhënat e ruajtura çdo ditë (hours)."
 
+#, fuzzy
 msgid "The %s %s stores the EPG data every selected number of hours."
-msgstr "Të %s %s ruan të dhënat EG çdo numër të zgjedhur orësh."
+msgstr "Të %s %s ruan çdo orë të dhënat EG (hours)."
 
 #, python-format
 msgid ""
@@ -20874,9 +21074,6 @@ msgid ""
 "The VPS-Plugin couldn't check if the selected channel supports VPS for manually programmed timers!\n"
 " Do you really want to enable VPS?"
 msgstr ""
-"VPS-Plugin nuk mund të kontrollonte nëse kanali i zgjedhur mbështet VPS për "
-"kohëmatësit e programuar manualisht!\n"
-"Vërtet dëshiron të bësh të mundur VPS?"
 
 msgid ""
 "The VideoMode plugin is not installed!\n"
@@ -20891,12 +21088,12 @@ msgstr "Aspekti i regjistrimit."
 msgid "The authors are NOT RESPONSIBLE for DATA LOSS OR DAMAGE!"
 msgstr "Autorët nuk janë RESPONSIBLE për DATA LOSS OSE DAMGA!"
 
+#, fuzzy
 msgid ""
 "The available disk space for time shift buffer is less than specified in the settings.\n"
 "What do you want to do?"
 msgstr ""
-"Hapësira në dispozicion për në rregullimet është më e vogël se e "
-"specifikuar.\n"
+"Hapësira në dispozicion për ndryshimin e kohës është më e vogël se e specifikuar në rregullimet.\n"
 "Çfarë do të bësh?"
 
 msgid "The backup can take up to about 15 minutes to complete."
@@ -20930,16 +21127,14 @@ msgid ""
 "The channel may support VPS\n"
 " Do you want to enable VPS?"
 msgstr ""
-"Kanali mund të mbështesë VPS\n"
-"A dëshironi të lejoni VPS?"
 
+#, fuzzy
 msgid "The command to wake from Standby will be sent multiple times."
-msgstr "Komanda për t'u zgjuar nga Standby do të dërgohet shumë herë."
+msgstr "Komanda për t'u zgjuar nga ndihma do të dërgohet shumë herë."
 
+#, fuzzy
 msgid "The commit log cannot be retrieved at the moment - please try again later.\n"
-msgstr ""
-"Për momentin, log-i nuk mund të merret - të lutem provo përsëri më vonë.\n"
-".\n"
+msgstr "Aktualisht log-i nuk mund të merret - ju lutem provoni përsëri më vonë."
 
 msgid ""
 "The default backup selection cannot be changed.\n"
@@ -21040,8 +21235,6 @@ msgid ""
 "The selected channel doesn't support VPS for manually programmed timers!\n"
 " Do you really want to enable VPS?"
 msgstr ""
-"Kanali i zgjedhur nuk mbështet VPS për kohëmatësit e programuar manualisht!\n"
-"Vërtet dëshiron të bësh të mundur VPS?"
 
 msgid "The service list is reloaded."
 msgstr "Lista e shërbimeve është e mbushur."
@@ -21062,12 +21255,12 @@ msgstr ""
 msgid "The time is multiplied by the current repeat counter."
 msgstr "Koha është shumuar nga numëruesi i tanishëm."
 
+#, fuzzy
 msgid ""
 "The time shift buffer exceeds the limit specified in the settings.\n"
 "What do you want to do?"
 msgstr ""
-"Tamponi i zhvendosjes së kohës kapërcen kufirin e specifikuar në "
-"rregullimet.\n"
+"Koha tampon për ndryshimin e kohës tejkaloi kufirin e caktuar në rregullimet.\n"
 "Çfarë do të bësh?"
 
 #, python-format
@@ -21179,18 +21372,17 @@ msgstr "Kjo pajisje është montuar tashmë si HDD."
 msgid "This allows you change the font size relative to skin size, so 1 increases by 1 point size, and -1 decreases by 1 point size."
 msgstr "Kjo ju lejon të ndryshoni madhësinë e gërmave në krahasim me madhësinë e lëkurës, kështu që 1 rritet me 1 pikë, dhe -1 ulet me 1 pikë."
 
+#, fuzzy
 msgid "This allows you to change the font size relative to skin size, so 1 increases by 1 point size, and -1 decreases by 1 point size."
-msgstr ""
-"Kjo ju lejon të ndryshoni madhësinë e gërmave në krahasim me madhësinë e "
-"lëkurës, prandaj 1 rritet me 1 pikë, dhe -1 ulet me një pikë."
+msgstr "Kjo ju lejon të ndryshoni madhësinë e gërmave në krahasim me madhësinë e lëkurës, kështu që 1 rritet me 1 pikë, dhe -1 ulet me 1 pikë."
 
+#, fuzzy
 msgid "This allows you to change the number of rows shown."
-msgstr "Kjo ju mundëson të ndryshoni numrin e rreshtave të shfaqur."
+msgstr "Kjo ju lejon të ndryshoni numrin e rreshtave të shfaqur."
 
+#, fuzzy
 msgid "This allows you to set the maximum number of digits in a service number, up to 6."
-msgstr ""
-"Kjo ju lejon të përcaktoni numrin maksimal të shifrave në një numër "
-"shërbimi, deri në 6."
+msgstr "Kjo ju lejon të përcaktoni numrin e shifrave deri në 5, nëse keni më shumë se 999 kanale."
 
 msgid "This bouquet is protected by a parental control PIN!"
 msgstr "Kjo buqetë mbrohet nga kontrolli prindëror PIN!"
@@ -21202,10 +21394,9 @@ msgstr "Kjo fushë ju mundëson të kërkoni një simbol shtesë në %s."
 msgid "This function is not available as processing of large files may take too long to run on this hardware."
 msgstr "Ky funksion nuk është në dispozicion pasi përpunimi i skedarëve të mëdhenj mund të kërkojë tepër kohë për të kryer këtë hardware."
 
+#, fuzzy
 msgid "This is a workaround for devices that wake up immediately after entering Standby. Wake-up commands from other devices are ignored for a few seconds."
-msgstr ""
-"Kjo është një punë për pajisje që zgjohen menjëherë pasi hyjnë në Standby. "
-"Komandat e zgjimit nga pajisjet e tjera injorohen për disa sekonda."
+msgstr "Kjo është një punë për disa pajisje që zgjohen përsëri pasi kalojnë në gatishmëri. Komanda e zgjimit nga pajisjet e tjera do të injorohet për disa sekonda."
 
 #, python-format
 msgid "This is the currently selected language.  [%s]"
@@ -21220,8 +21411,6 @@ msgstr "Ky është kompresimi fillestar dhe i paracaktuar i volumit aplikuar pë
 
 msgid "This is the number of pages to download per repository being interogated. More pages shows more commits, but, bear in mind that Github API has a limit of 60 pages per hour."
 msgstr ""
-"Është nga. Më shumë faqe tregojnë më shumë punë, por, mbani parasysh se "
-"Github API ka një kufi prej 60 faqesh në orë."
 
 msgid "This is the order in which DiSEqC commands are sent to the aerial system. The order must correspond exactly with the order the physical devices are arranged along the signal cable (starting from the receiver end)."
 msgstr "Ky është rendi në të cilin komandat DiSEqC dërgohen në sistemin ajror. Urdhri duhet të korrespondojë saktësisht me urdhrin që pajisjet fizike janë rregulluar përgjatë kabllos së sinjalit (duke filluar nga fundi i marrësit)."
@@ -21265,8 +21454,9 @@ msgstr "Ky opsion ju lejon të shtoni tonet blu në foto."
 msgid "This option allows you to boost the green tones in the picture."
 msgstr "Ky opsion ju lejon të shtoni tonet jeshile në foto."
 
+#, fuzzy
 msgid "This option allows you to bypass HDMI EDID check."
-msgstr "Ky opsion ju lejon të anashkaloni kontrollin HDMI EDID."
+msgstr "Me këtë opcion anashkaloni kontrollin e HDMI EDID"
 
 msgid "This option allows you to change the virtual loudspeaker position."
 msgstr "Ky opsion ju lejon të ndryshoni pozicionin virtual të altoparlantit."
@@ -21304,91 +21494,96 @@ msgstr "Ky opsion ju lejon të zgjidhni se si ta shfaqni kohën e kaluar, si + o
 msgid "This option allows you to choose how to display standard definition video on your TV."
 msgstr "Ky opsion ju lejon të zgjidhni se si të shfaqni një video standarde në TV."
 
+#, fuzzy
 msgid "This option allows you to choose how to display the remaining time, the elapsed time, or both."
-msgstr ""
-"Ky opsion ju lejon të zgjidhni se si ta shfaqni kohën e mbetur, kohën e "
-"kaluar ose të dyja."
+msgstr "Ky opsion ju lejon të zgjidhni se si të shfaqni kohën që keni mbetur ose kohën e kaluar ose të dyja."
 
+#, fuzzy
 msgid "This option allows you to choose how to display the remaining/elapsed time for live TV."
-msgstr ""
-"Ky opsion ju lejon të zgjidhni se si të shfaqni kohën e mbetur për TV të "
-"gjallë."
+msgstr "This option allows you choose how to display the remaining/elapsed time for live tv."
 
+#, fuzzy
 msgid "This option allows you to choose how to display the remaining/elapsed time for media playback."
-msgstr ""
-"Ky opsion ju lejon të zgjidhni se si të shfaqni kohën e mbetur/të miratuar "
-"për lojën e medias."
+msgstr "This option allows you choose how to display the remaining/elapsed time for media playback."
 
+#, fuzzy
 msgid "This option allows you to choose if the display shows the time or nothing in Standby."
-msgstr ""
-"Me këtë opcion mund të zgjidhni nëse ekrani shfaq kohën ose asgjë në Standby."
+msgstr "Me këtë opcion mund të zgjidhni nëse ekrani shfaq kohën ose asgjë në Standby."
 
+#, fuzzy
 msgid "This option allows you to choose if the display shows the time, channel number or nothing during operation."
-msgstr ""
-"Me këtë opcion mund të zgjidhni nëse ekrani shfaq kohën, numrin e kanalit "
-"apo asgjë gjatë operacionit."
+msgstr "Me këtë opcion mund të zgjidhni nëse ekrani shfaq kohën, numri i kanalit apo asgjë gjatë operacionit."
 
+#, fuzzy
 msgid "This option allows you to choose what the first button press jumps to in channel list screen, (so pressing '2' jumps to 'A' or '2' first), when 'Quick Actions' preset actions are performed."
-msgstr ""
-"Me këtë opcion mund të zgjidhni se çfarë kërcen butoni i parë i shtypit në "
-"ekranin e kanalit të listës, (pra shtyp '2' tek 'A' ose '2' i pari), kur "
-"kryhen veprimet e parakohëshme."
+msgstr "Me këtë opcion mund të zgjidhni se çfarë kërcen butoni i parë në ekranin e kanalit të listës, (pra shtyp '2' tek 'A' ose '2' i pari), kur kryhen veprimet e parakohëshme. "
 
 msgid "This option allows you to choose whether or not to display genre information for the event."
 msgstr "Me këtë opcion mund të zgjidhni nëse duhet shfaqur apo jo një informacion për ngjarjen."
 
+#, fuzzy
 msgid "This option allows you to config the Colordepth for UHD."
-msgstr "Me këtë opcion mund të konfiguroni thellësitë e ngjyrave për UHD."
+msgstr "Me këtë opcion mund të konfiguroni thellësitë e ngjyrave për UHD"
 
+#, fuzzy
 msgid "This option allows you to config the Colorimetry for HDR."
-msgstr "Me këtë opcion mund të konfiguroni ngjyrën për HDR."
+msgstr "Me këtë opcion mund të konfiguroni ngjyrën për HDR"
 
+#, fuzzy
 msgid "This option allows you to config the Colorspace from Auto to RGB."
-msgstr ""
-"Me këtë opcion mund të konfiguroni hapësirën e ngjyrave nga Auto në RGB."
+msgstr "Me këtë opcion mund të konfiguroni hapësirën e ngjyrave nga Auto në RGB"
 
 msgid "This option allows you to enable 3D Surround Sound."
 msgstr "Me këtë opcion mund të aktivoni tingullin 3D."
 
+#, fuzzy
 msgid "This option allows you to enable or disable the 10 Bit Color Mode."
-msgstr "Me këtë opcion aktivizohet ose çaktivon modalitetin 10 Bit Ngjyra."
+msgstr "Me këtë opcion mund të aktivoni ose çaktivoni modalitetin 10 Bit Ngjyra"
 
+#, fuzzy
 msgid "This option allows you to enable or disable the 12 Bit Color Mode."
-msgstr "Me këtë opcion aktivizohet ose çaktivon modalitetin 12 Bit Ngjyra."
+msgstr "Me këtë opcion mund të aktivoni ose ç'aktivoni modalitetin 12 Bit Ngjyra"
 
+#, fuzzy
 msgid "This option allows you to force the HDR Modes for UHD."
-msgstr "Ky opsion ju lejon të detyroni HDR Mode për UHD."
+msgstr "Me këtë opcion mund të detyroni HDR Mode për UHD"
 
+#, fuzzy
 msgid "This option allows you to force the HDR10 Modes for UHD."
-msgstr "Ky opsion ju lejon të detyroni HDR10 Mode për UHD."
+msgstr "Me këtë opcion mund të detyroni mënyrën HDR10 për UHD"
 
+#, fuzzy
 msgid "This option allows you to force the HLG Modes for UHD."
-msgstr "Ky opsion ju lejon të detyroni HLG Mode për UHD."
+msgstr "Me këtë opcion mund të detyroni HLG Mode për UHD"
 
 msgid "This option allows you to set offset values for different Letterbox resolutions."
 msgstr "Me këtë opcion mund të vendosni vlerat kompresuese për rezoluta të ndryshme të Letterbox."
 
+#, fuzzy
 msgid "This option allows you to set the Auto Volume Level output."
-msgstr "Ky opsion ju mundëson përcaktimin e nivelit të vëllimit Auto."
+msgstr "Me këtë opcion mund të vendosni Nivelin e Volumit Auto."
 
+#, fuzzy
 msgid "This option allows you to set the layout view (Text or Graphics)."
-msgstr ""
-"Me këtë opcion mund të vendosni paraqitjen e layout (tekst ose grafikë)."
+msgstr "Me këtë opcion mund të vendosni paraqitjen e layout (tekst ose grafikë)."
 
+#, fuzzy
 msgid "This option allows you to switch Audio to Bluetooth speakers."
-msgstr "Ky opsion ju lejon të kaloni audion tek folësit Bluetooth."
+msgstr "Ky opsion ju lejon të kaloni audion tek BT Foles."
 
 msgid "This option allows you to the SNR as a percentage (not all receivers support this)."
 msgstr "Ky opsion ju lejon tek SNR si përqindje (jo të gjithë marrësit që e mbështesin këtë)."
 
+#, fuzzy
 msgid "This option allows you to use all HDMI Modes."
-msgstr "Me këtë opcion mund të përdorni të gjithë Modën e HDMI-së."
+msgstr "Me këtë opcion mund të përdorni të gjithë Modët e HDMI-së"
 
 msgid "This option allows you to view the old and new settings side by side."
 msgstr "Me këtë opcion mund t'i shihni njëri-tjetrit rregullimet e vjetra dhe të reja."
 
+#, fuzzy
 msgid "This option configures the audio delay value for Bluetooth speakers."
-msgstr "Me këtë opcion konfiguron vlerën e vonesës audio për folësit Bluetooth."
+msgstr "Me këtë opcion konfiguron shtyrjen e përgjithshme audio për Kryetarët BT."
 
 msgid "This option configures the picture sharpness."
 msgstr "Me këtë opcion konfiguron mprehtësinë e figurës."
@@ -21414,15 +21609,13 @@ msgstr "Me këtë opcion ju lejon të tregoni opsionin në ekranin e zgjerimit."
 msgid "This option moves the PVR status display from a separate window into the MoviePlayer InfoBar."
 msgstr "Me këtë opcion ekrani i statusit PVR vjen nga një dritare më vete në lojën e filmit Info Bar."
 
+#, fuzzy
 msgid "This option selects the general audio delay of Dolby Digital sound tracks."
-msgstr ""
-"Me këtë opcion zgjidhet vonesa e përgjithshme audio e gjurmëve të zërit "
-"Dolby Digital."
+msgstr "Me këtë opcion konfiguron shtyrjen e përgjithshme audio të gjurmëve të zërit Dolby Digital."
 
+#, fuzzy
 msgid "This option selects the general audio delay of stereo sound tracks."
-msgstr ""
-"Me këtë opcion zgjidhet vonesa e përgjithshme audio e gjurmëve të zërit "
-"stereo."
+msgstr "Me këtë opcion konfiguron shtyrjen e përgjithshme audio të gjurmëve të zërit stereo."
 
 msgid "This option set the level of suppression of mosquito noise (Mosquito Noise is random aliasing as a result of strong compression). Obviously this goes at the cost of picture details."
 msgstr "Ky opsion përcakton nivelin e shtypjes së zhurmës së mushkonjave (Mosquito Noise është pseudonim i rastit si rezultat i ngjeshjes së fortë). Duket qartë se kjo shkon me koston e detajeve të fotografisë."
@@ -21463,10 +21656,9 @@ msgstr "This sets the prefix for each line in the debug log. The 'Boot time' is 
 msgid "This setting allows the tuner configuration to be a duplication of another configured tuner."
 msgstr "Ky rregullim bën të mundur që konfigurimi melodik të jetë një dublim i një melodiisti tjetër të konfiguruar."
 
+#, fuzzy
 msgid "This setting can help improve signal quality or prevent issues with longer HDMI cables."
-msgstr ""
-"Ky mjedis mund të ndihmojë në përmirësimin e cilësisë së sinjalit ose në "
-"parandalimin e çështjeve me kabllo më të gjata HDMI."
+msgstr "Me këtë mjedis, ndoshta mund të përmirësoni cilësinë e sinjalit ose të eliminoni problemet që mund të ndodhin me kabllo më të gjata HDMI."
 
 msgid "This setting depends on your cable provider and location. If you don't know the correct setting refer to the menu in the official cable receiver, or get it from your cable provider, or seek help via Internet forum."
 msgstr "Ky rregullim varet nga ofruesi dhe vendndodhja e kabllove. Nëse nuk e dini vendosjen e saktë, i referohen menusë së marrësit zyrtar të kabllove, ose do ta merrni nga ofruesi juaj kabllor, ose do të kërkoni ndihmë nëpërmjet forumit të internetit."
@@ -21602,6 +21794,7 @@ msgstr "Vonesa e kohës për transmetimin e përsëritur"
 msgid "Time delay of the shutdown messages"
 msgstr "Koha nga"
 
+#, fuzzy
 msgid "Time delay until Standby or Deep Standby"
 msgstr "Koha vonon deri në pritje ose në pritje të thellë"
 
@@ -21783,7 +21976,7 @@ msgid "Timezone"
 msgstr "Zona orare"
 
 msgid "Timing and diagnostics"
-msgstr "Koha dhe diagnoza"
+msgstr ""
 
 msgid "Timor-Leste / East Timor"
 msgstr "Timor-Leste / East Timori"
@@ -21813,8 +22006,9 @@ msgstr "Për ku do të dëshironi të nxirrni '%s'?"
 msgid "Today"
 msgstr "Sot"
 
+#, fuzzy
 msgid "Toggle Dolby Digital down mix"
-msgstr "Kavo"
+msgstr "Kavo."
 
 msgid "Toggle HDMI-In PiP"
 msgstr "Kavo"
@@ -21855,12 +22049,14 @@ msgstr "Shkëmben shërbimet në dispozicion të TV dhe RADIO"
 msgid "Toggle display of image information"
 msgstr "Kavo shfaqjen e informacionit të figurës"
 
+#, fuzzy
 msgid "Toggle display of picture information"
-msgstr "Ndrysho shfaqjen e informacionit të figurës"
+msgstr "Kavo shfaqjen e informacionit të figurës"
 
 msgid "Toggle display of the InfoBar"
 msgstr "Kavo nga"
 
+#, fuzzy
 msgid "Toggle display of the picture status overlay"
 msgstr "Kavo nga figurë"
 
@@ -21900,8 +22096,9 @@ msgstr "Kavo emri"
 msgid "Toggle the visibility of the highlighted plugin"
 msgstr "Pulsant me dy gjëndje nga"
 
+#, fuzzy
 msgid "Toggles between TV and Radio"
-msgstr "Shkëmben midis TV dhe Radio"
+msgstr "Shkëmben midis TV dhe radios"
 
 msgid "Togo"
 msgstr "Togo"
@@ -21964,8 +22161,9 @@ msgstr "Gjithsej:"
 msgid "Track"
 msgstr "Gjurmë"
 
+#, fuzzy
 msgid "Traditional"
-msgstr "Tradicionale"
+msgstr "Kineze tradicionale"
 
 msgid "Traditional Chinese"
 msgstr "Kineze tradicionale"
@@ -22150,6 +22348,13 @@ msgstr "Algoritmi i fiksimit"
 msgid "Tunisia"
 msgstr "Tunizia"
 
+msgid "Tunnel IPv4"
+msgstr ""
+
+#, fuzzy
+msgid "Tunnel IPv6"
+msgstr "Aktivo IPv6"
+
 msgid ""
 "Turbo: One reboot after flash\n"
 "Fast: One reboot after flash, one reboot after restore\n"
@@ -22237,15 +22442,15 @@ msgid "Type: "
 msgstr "Lloji: "
 
 msgid "Türkçe"
-msgstr "Turkse"
+msgstr ""
 
-#, python-format
+#, fuzzy, python-format
 msgid "UBI slot %s"
-msgstr "UBI Slot %s"
+msgstr "USB slot %s%s"
 
-#, python-format
+#, fuzzy, python-format
 msgid "UBI slot %s%s"
-msgstr "UBI Slot %s[X11XX]"
+msgstr "USB slot %s%s"
 
 msgid "UHD Test"
 msgstr "UHD Prova"
@@ -22253,8 +22458,9 @@ msgstr "UHD Prova"
 msgid "UP80  (keymap.u80)"
 msgstr "UV80 (keymap.u80)"
 
+#, fuzzy
 msgid "UPX version"
-msgstr "UALLX version"
+msgstr "Versioni: %s"
 
 msgid "URL"
 msgstr "URL"
@@ -22283,9 +22489,9 @@ msgstr "USB Editori"
 msgid "USB Stick"
 msgstr "Shkopi i USB"
 
-#, python-format
+#, fuzzy, python-format
 msgid "USB slot %s"
-msgstr "Slot USB %s"
+msgstr "USB slot %s%s"
 
 #, python-format
 msgid "USB slot %s%s"
@@ -22375,14 +22581,16 @@ msgstr "Universale LNB"
 msgid "Unknown"
 msgstr "Nuk njihet"
 
+#, fuzzy
 msgid "Unknown Device"
-msgstr "Dispozitivi i panjohur"
+msgstr "Dispozitivët e panjohur"
 
 msgid "Unknown Devices"
 msgstr "Dispozitivët e panjohur"
 
+#, fuzzy
 msgid "Unknown Image"
-msgstr "Figura"
+msgstr "Paketa të panjohura"
 
 msgid "Unknown Packages"
 msgstr "Paketa të panjohura"
@@ -22440,9 +22648,9 @@ msgstr "CPU unsportet"
 msgid "Until standby/restart"
 msgstr "Until standby/restart"
 
-#, python-format
+#, fuzzy, python-format
 msgid "Unused %s"
-msgstr "Nuk përdoret %s"
+msgstr "Pa përdorim 0x22"
 
 msgid "Unzipping Image"
 msgstr "Shkëput figurën"
@@ -22538,8 +22746,6 @@ msgstr "Upops: "
 
 msgid "Upper RGB output clipping limit. 'Full range' = no upper clipping, 'Limited range' clips RGB outputs to 940 (broadcast safe)."
 msgstr ""
-"E sipërme RGB limit klipping. 'Pijet e plota' = nuk ka klipe të sipërme, "
-"'Limite game' clips RGB outputs në 940 (si vend i sigurt)."
 
 msgid "Upper USB"
 msgstr "Sipër"
@@ -22575,19 +22781,20 @@ msgid "Use DHCP"
 msgstr "DHCP"
 
 msgid "Use DNS cache"
-msgstr "Përdor cache DNS"
+msgstr ""
 
+#, fuzzy
 msgid "Use DNS rotation"
-msgstr "Përdor rrotullimin DNS"
+msgstr "Narration"
 
 msgid "Use DNSCrypt servers"
-msgstr "Përdor serverët DNSCrypt"
+msgstr ""
 
 msgid "Use Deinterlacing for 1080i Videosignal?"
 msgstr "A përdoret deinterlatimi për videosinjalin 1080i?"
 
 msgid "Use DoH servers"
-msgstr "Përdor serverët DoH"
+msgstr ""
 
 msgid "Use EIT EPG information when it is available."
 msgstr "Përdor informacionin EIT EG kur është në dispozicion."
@@ -22614,7 +22821,7 @@ msgid "Use Netmed EPG information when it is available."
 msgstr "Përdor informacionin e Netmed EG kur është në dispozicion."
 
 msgid "Use ODoH servers"
-msgstr "Përdor serverët ODoH"
+msgstr ""
 
 msgid "Use OpenTV EPG. Requires tuning to specific transponder to absorb EPG."
 msgstr "Përdor OpenTV EG. Kërkon sinkronizimin e transmanderit specifik për të absorbuar EG."
@@ -22639,9 +22846,6 @@ msgstr "Përdorni kohën e përfundimit të kohëmatësit Zap"
 
 msgid "Use a DNS cache to locally store recent DNS lookups to improve performance, reduce latency and outgoing traffic."
 msgstr ""
-"Përdor një magazinë DNS për të ruajtur DNS-në e kohëve të fundit, për të "
-"përmirësuar performancën, për të pakësuar shpejtësinë dhe trafikun që po "
-"largohet."
 
 msgid "Use a gateway"
 msgstr "Përdor një hyrje"
@@ -22713,16 +22917,16 @@ msgid "Use official channel numbering"
 msgstr "Përdor numërimin e kanalit zyrtar"
 
 msgid "Use only DNSSEC servers"
-msgstr "Përdor vetëm serverët DNSSEC"
+msgstr ""
 
 msgid "Use only for Wake on WLan (WoW)"
 msgstr "Në"
 
 msgid "Use only no-filter servers"
-msgstr "Përdor jo"
+msgstr ""
 
 msgid "Use only no-log servers"
-msgstr "Përdor vetëm serverët jo-log"
+msgstr ""
 
 msgid "Use original DVB subtitle position"
 msgstr "Përdorimi"
@@ -22914,17 +23118,21 @@ msgstr "Rregullimet VOD"
 msgid "VPN"
 msgstr "VPN"
 
+#, fuzzy
 msgid "VPS Settings"
-msgstr "Rregullimet VPS"
+msgstr "Rregullimet DNS"
 
+#, fuzzy
 msgid "VPS enabled by default"
-msgstr "VPS është aktivizuar në menyrë të paracaktuar"
+msgstr "Rendit si të prezgjedhur"
 
+#, fuzzy
 msgid "VPS on instant recordings"
-msgstr "VPS në regjistrime të menjëhershme"
+msgstr "Fillo një regjistrim të menjëhershëm"
 
+#, fuzzy
 msgid "VPS-Plugin Information"
-msgstr "Informacione VPS-Plugin"
+msgstr "Informacione rrethues"
 
 msgid ""
 "VPS-Plugin can react on delays arising in the startTime or endTime of a programme. VPS is only supported by certain channels!\n"
@@ -22950,58 +23158,26 @@ msgid ""
 "\n"
 "If a timer is programmed manually (not via EPG), it is necessary to set a VPS-Time to enable VPS. VPS-Time (also known as PDC) is the first published start time, e.g. given in magazines. If you set a VPS-Time, you have to leave timer name empty."
 msgstr ""
-"VPS-Plugin mund të reagojë mbi vonesat që dalin në fillim të kohës ose në "
-"fund të një programi. VPS mbështetet vetëm nga disa kanale!\n"
-"\n"
-"Nëse lejoni VPS, regjistrimi do të fillojë vetëm kur kanali të vërë në "
-"funksionim programin.\n"
-"\n"
-"Nëse zgjidhni \"po (në mënyrë të sigurt), regjistrimi është padyshim duke "
-"filluar më së shumti në kohën e fillimit që definuat. Regjistrimi mund të "
-"fillojë më herët ose të zgjasë më shumë.\n"
-"\n"
-"\n"
-"Kanali i suportuar\n"
-"\n"
-"Gjermani:\n"
-"ARD dhe ZDF\n"
-"\n"
-"Austria:\n"
-"ORF\n"
-"\n"
-"Zvicër:\n"
-"SF\n"
-"\n"
-"Republika Çeke:\n"
-"TK\n"
-"\n"
-"Nëse një kohëmatës është programuar manualisht (jo nëpërmjet EG), është e "
-"nevojshme të vendoset një VPS-Ora për të mundësuar VPS. VPS-Ora (i njohur "
-"gjithashtu si PDC) është hera e parë e botuar, e.g. dhënë në revista. Nëse "
-"vendos një VPS-Time, duhet të lësh një emër me kohë bosh."
 
 msgid "VPS-Plugin checks if the channel supports VPS ..."
-msgstr "VPS-Plugin kontrollon nëse kanali mbështet VPS ..."
+msgstr ""
 
 msgid ""
 "VPS-Plugin couldn't check if the channel supports VPS.\n"
 " Do you want to enable VPS anyway?"
 msgstr ""
-"VPS-Plugin nuk mund të kontrollonte nëse kanali mbështet VPS.\n"
-"Dëshironi të lejoni VPS?"
 
 msgid ""
 "VPS-Plugin couldn't check if the selected channel supports VPS.\n"
 " Do you really want to enable VPS?"
 msgstr ""
-"VPS-Plugin nuk mund të kontrollonte nëse kanali i zgjedhur mbështet VPS.\n"
-"Vërtet dëshiron të bësh të mundur VPS?"
 
 msgid "VPS-Time (date)"
-msgstr "VPS-Ora (ditësi)"
+msgstr ""
 
+#, fuzzy
 msgid "VPS-Time (time)"
-msgstr "VPS-Ora (kohë)"
+msgstr "Ora e fillimit"
 
 msgid "Vanuatu"
 msgstr "Vanuatu"
@@ -23017,6 +23193,10 @@ msgstr "Venda"
 
 msgid "Venezuela, Bolivarian Republic of"
 msgstr "Venezuelë, Republika e Bollivasë"
+
+#, fuzzy
+msgid "Version"
+msgstr "Versioni: "
 
 msgid "Version: "
 msgstr "Versioni: "
@@ -23171,8 +23351,9 @@ msgstr "Shfaq file"
 msgid "View Rass interactive"
 msgstr "Shfaq"
 
+#, fuzzy
 msgid "View Teletext"
-msgstr "Shfaq Teleteksti"
+msgstr "Shfaq tekst."
 
 msgid "View as list"
 msgstr "Shfaq si listë"
@@ -23268,11 +23449,9 @@ msgstr "Modaliteti i rregullimit të vëllimit"
 msgid "Volume down"
 msgstr "Zëri poshtë"
 
+#, fuzzy
 msgid "Volume keys on the receiver remote will control the TV, AV receiver or soundbar volume over HDMI-CEC. If this feature is not supported the volume keys have no function!"
-msgstr ""
-"Zëri i çelsave në telekomandën e marrësit do të kontrollojë TV, AV marrësin "
-"apo volumin e panelit të zërit mbi HDMI-KQZ. Nëse ky funksion nuk mbështetet "
-"nga çelësat e volumit, nuk ka funksion!"
+msgstr "Volumi i çelësave në telekomandën e marrësit do të kontrollojë volumin televiziv. Nëse ky funksion nuk mbështetet nga çelësat e volumit, nuk ka funksion!"
 
 msgid "Volume steps"
 msgstr "Zëri"
@@ -23284,10 +23463,11 @@ msgid "Volume/Mute display timer"
 msgstr "Volume/Mute display timer"
 
 msgid "Voto:"
-msgstr "Voto:"
+msgstr ""
 
+#, fuzzy
 msgid "Vu+ MultiBoot"
-msgstr "Vu+ Shumëgjuhësh"
+msgstr "Menaxhues Shumëfishësh"
 
 msgid "W"
 msgstr "W"
@@ -23300,8 +23480,6 @@ msgstr "KUJDES:"
 
 msgid "WARNING: Flash space is critically low. System instability may occur!"
 msgstr ""
-"KUJDES: hapësira Flash është jashtëzakonisht e ulët. Paqëndrueshmëria e "
-"sistemit mund të ndodhë!"
 
 msgid "WEP"
 msgstr "PE"
@@ -23353,13 +23531,14 @@ msgid "Waiting for partition"
 msgstr "Në pritje të ndarjes"
 
 msgid "Wake from Shutdown allowed"
-msgstr "Zgjohu nga mbyllja e lejuar"
+msgstr ""
 
 msgid "Wake up"
 msgstr "Zgjohu"
 
+#, fuzzy
 msgid "Wake up TV from Standby"
-msgstr "Zgjohu TV nga Standby"
+msgstr "Zgjohu TV nga ndihma"
 
 msgid "Wake up time before a timer begins [mins]"
 msgstr "Zgjohu para se të fillojë koha"
@@ -23367,14 +23546,15 @@ msgstr "Zgjohu para se të fillojë koha"
 msgid "Wake up to standby"
 msgstr "Zgjohu në pritje"
 
+#, fuzzy
 msgid "Wake up your AV Receiver or Soundbar from Standby"
-msgstr "Zgjojeni AV-në tuaj ose Saundbarin nga Standby"
+msgstr "Zgjohu, AV. Merr nga ndihma"
 
 msgid "Wake-on-LAN"
-msgstr "Zgjohu-në-LAN"
+msgstr ""
 
 msgid "Wake-on-WiFi"
-msgstr "Wake-on-WiFi"
+msgstr ""
 
 msgid "Wallis and Futuna"
 msgstr "Uollis dhe Futuna"
@@ -23521,6 +23701,10 @@ msgstr "Frisiani Perëndimor"
 msgid "Western Sahara"
 msgstr "Saharaja Perëndimore"
 
+#, fuzzy
+msgid "Western satellites"
+msgstr "Satelitët e lidhur"
+
 msgid "What Day of month ?"
 msgstr "Në cilën ditë të muajit?"
 
@@ -23572,9 +23756,9 @@ msgstr "Kur aktivizohet, të dhënat e AIT do të përfshihen në përrenj të h
 msgid "When enabled, EIT data will be included in http streams. This allows a client receiver to show EPG."
 msgstr "Kur aktivizohet, të dhënat e EIT do të përfshihen në përrenj të http. Kjo lejon një marrës klienti të tregojë EG."
 
+#, fuzzy
 msgid "When enabled, SDT and BAT data will be included in http streams."
-msgstr ""
-"Kur aktivizohet, të dhënat e SDT dhe BAT do të përfshihen në përrenj të http."
+msgstr "Kur të aktivizohet, SDT, të dhënat e BAT do të përfshihen në përrenj të http."
 
 msgid "When enabled, a pop up message will be shown when a movie has finished and the next one will start."
 msgstr "Kur aktivizohet, një mesazh do të shfaqet kur një film të ketë mbaruar dhe një tjetër të fillojë."
@@ -23598,28 +23782,24 @@ msgid "When enabled, a warning will be displayed and the user will get an option
 msgstr "Kur aktivizohet, një paralajmërim do të shfaqet dhe përdoruesi do të marrë një opsion për të ndaluar apo për të vazhduar zhvendosjen e kohës."
 
 msgid "When enabled, allow Samba network access without a password."
-msgstr "Kur aktivizohet, lejo hyrjen në rrjetin Samba pa një fjalëkalim."
+msgstr ""
 
 msgid "When enabled, allow connection to access points that don't broadcast their SSID."
 msgstr ""
-"Kur të jetë e aktivizuar, lejo lidhjen me pikat e hyrjes që nuk transmetojnë "
-"SSID-in e tyre."
 
 msgid "When enabled, allow each storage device detected to be automatically exported as a Samba share."
 msgstr ""
-"Kur aktivizohet, lejo që çdo pajisje ruajtjeje e zbuluar të eksportohet "
-"automatikisht si pjesë e Sambës."
 
 msgid "When enabled, allow the receiver to be powered on by a remote Wake-on-LAN network signal (Magic Packet)."
 msgstr ""
-"Kur aktivizohet, lejo që marrësi të jetë i ndezur nga një sinjal i largët i "
-"rrjetit Wake-on-LAN (Magic Packet)."
 
+#, fuzzy
 msgid "When enabled, allow usage of the NFS version 3 protocols."
-msgstr "Kur aktivizohet, lejo përdorimin e versionit NFS 3 protokolle."
+msgstr "Kur aktivizohet, një mesazh do të shfaqet kur niset një regjistrim."
 
+#, fuzzy
 msgid "When enabled, allow usage of the NFS version 4 protocols."
-msgstr "Kur aktivizohet, lejo përdorimin e versionit NFS 4 protokolle."
+msgstr "Kur aktivizohet, një mesazh do të shfaqet kur niset një regjistrim."
 
 msgid "When enabled, always unscramble receiving http streams. This takes up more resources (unscrambling demuxers), only enable if necessary. Individual streams are always unscrambled if 0x100 is added to the service type, regardless of this setting."
 msgstr "Kur aktivizohet, gjithmonë i pakundërshtueshëm marrja e përrenjve http. Kjo kërkon më shumë burime (që nuk kërkojnë demoxues) vetëm nëse është e nevojshme. Përrenj individualë janë gjithmonë të pavarrosur nëse 0x100 i shtohen llojit të shërbimit, pavarësisht nga ky sfond."
@@ -23629,8 +23809,6 @@ msgstr "Kur aktivizohet, autentikimi kërkohet për të parë flukset e http."
 
 msgid "When enabled, connection via saved network is attempted when the Wi-Fi adapter connects."
 msgstr ""
-"Kur aktivizohet, lidhja me anë të rrjetit të ruajtur provohet kur adaptuesi "
-"Wi-Fi lidhet."
 
 msgid "When enabled, content with an aspect ratio of 4:3 will be stretched to fit the screen."
 msgstr "When enabled, content with an aspect ratio of 4:3 will be stretched to fit the screen."
@@ -23655,14 +23833,9 @@ msgstr "Kur është e mundur, është e mundur ta lësh me dalje lojtarin e film
 
 msgid "When enabled, keep the Wi-Fi adapter in low-power scan mode during Standby to allow the receiver to be powered on by a remote network signal (Magic Packet)."
 msgstr ""
-"Kur aktivizohet, mbani adaptuesin Wi-Fi në mënyrën e skanimit me energji të "
-"ulët gjatë Standby për të lejuar marrësin të jetë i aktivizuar nga një "
-"sinjal i rrjetit të largët (Magic Packet)."
 
 msgid "When enabled, map root to nobody (more secure). When disabled, full root access is available."
 msgstr ""
-"Kur është e aktivuar, harta rrënjë për askënd (më e sigurt). Kur është "
-"çaktivuar, ka hyrje të plotë në rrënjë."
 
 msgid "When enabled, measure power consumption to detect when the rotor stops turning (when supported by the tuner)."
 msgstr "Kur aktivizohet, mat konsumin e energjisë për të dalluar kur rotor nuk kthehet (kur mbështetet nga melodiatori)."
@@ -23675,8 +23848,6 @@ msgstr "Kur aktivizohet, shënuesit e numrave do të fshihen."
 
 msgid "When enabled, obtain the IP address, subnet mask, gateway, and DNS settings automatically via DHCP."
 msgstr ""
-"Kur aktivizohet, merr adresën IP, maskë subnet, portë dhe rregullimet DNS "
-"automatikisht nëpërmjet DHCP."
 
 msgid "When enabled, pressing '0' will zap you to the first channel in your first bouquet and delete your zap-history."
 msgstr "Kur aktivizohet, po shtyp '0' do t'ju fusë në kanalin e parë në buqetën tuaj të parë dhe do fshini historinë tuaj."
@@ -23692,8 +23863,6 @@ msgstr "Kur aktivizohet, shfaq gjendjen apo gabimin e mesazheve."
 
 msgid "When enabled, specify custom DNS settings for this adapter instead of the global DNS settings."
 msgstr ""
-"Kur aktivizohet, specifikoni rregullimet e personalizuara DNS për këtë "
-"adaptues në vend të rregullimeve globale DNS."
 
 msgid "When enabled, subtitles for the hearing impaired can be used."
 msgstr "Kur aktivizohet, mund të përdoren titujt për të dëmtuarit e dëgjimit."
@@ -23710,23 +23879,20 @@ msgstr "Kur aktivizohet, nëntitujt teletext do të shfaqen në pozicionin e tyr
 msgid "When enabled, the VCR SCART option will be shown on the main menu"
 msgstr "Kur aktivizohet, opsioni VCR do të shfaqet në menunë kryesore"
 
+#, fuzzy
 msgid "When enabled, the connected AV receiver or soundbar will automatically be switched off."
-msgstr ""
-"Kur aktivizohet, marrësi i lidhur i AV-së ose dhoma e zërit automatikisht do "
-"të fiket."
+msgstr "Kur marrësi të aktivizohet automatikisht do të fiket."
 
+#, fuzzy
 msgid "When enabled, the connected AV receiver or soundbar will automatically be switched on."
-msgstr ""
-"Kur aktivizohet, marrësi i lidhur me AV-në apo kuadrat audio do të "
-"aktivizohet automatikisht."
+msgstr "Kur marrësi të aktivohet automatikisht."
 
 msgid "When enabled, the length of each recording will be shown in the movie list (this might cause some additional loading time)."
 msgstr "Kur aktivizohet, gjatësia e çdo regjistrimi do të shfaqet në listën e filmave (kjo mund të shkaktojë disa kohë shtesë për ngarkim)."
 
+#, fuzzy
 msgid "When enabled, the receiver will automatically return to Standby when the TV is turned off."
-msgstr ""
-"Kur të aktivizohet, marrësi do të kthehet automatikisht në Standby kur TV të "
-"jetë fikur."
+msgstr "Kur marrësi të jetë i aktivizuar, automatikisht do të kthehet në gatishmëri kur të fiket televizori."
 
 msgid "When enabled, the receiver will automatically use the audio track which you selected before."
 msgstr "Kur aktivizohet, marrësi do të përdorë automatikisht gjurmën audio që keni zgjedhur më parë."
@@ -23734,10 +23900,9 @@ msgstr "Kur aktivizohet, marrësi do të përdorë automatikisht gjurmën audio 
 msgid "When enabled, the receiver will automatically use the subtitles which you selected before."
 msgstr "Kur aktivizohet, marrësi do të përdorë automatikisht nëntitujt që keni zgjedhur më parë."
 
+#, fuzzy
 msgid "When enabled, the receiver will automatically wake from Standby when the TV is turned on."
-msgstr ""
-"Kur të aktivizohet, marrësi do të zgjohet automatikisht nga Standby kur të "
-"ndizet TV."
+msgstr "Kur marrësi të jetë i aktivizuar, automatikisht do të zgjohet nga një gatishmëri kur të ndizet TV."
 
 msgid "When enabled, the receiver will select an AC3 track (when available)."
 msgstr "Kur aktivizohet, marrësi do të zgjedhë një kurs AC3 (kur është në dispozicion)."
@@ -23747,11 +23912,9 @@ msgstr "Kur aktivizohet, marrësi do të zgjedhë një kurs AC3+ (kur është n�
 
 msgid "When enabled, this Wi-Fi adapter is kept in Wake-on-WiFi mode only and will not be used to connect to any network."
 msgstr ""
-"Kur aktivizohet, ky adaptues Wi-Fi mbahet vetëm në modalitetin Wake-on-WiFi "
-"dhe nuk do të përdoret për t'u lidhur me asnjë rrjet."
 
 msgid "When enabled, this adapter is initialized and activated at boot time."
-msgstr "Kur aktivizohet, ky adaptues fillon dhe aktivizohet në kohën e çizmes."
+msgstr ""
 
 msgid "When enabled, this setting has more weight than 'Preferred tuner for recordings'."
 msgstr "Kur është e aktivuar, ky ambient ka më shumë peshë se \"Prefered meloditor për regjistrimet.\"."
@@ -23798,16 +23961,13 @@ msgstr "When the content has an aspect ratio of 4:3, choose whether to scale/str
 msgid "When the input cursor reaches this point (percentage of the width, from either side) scroll the text to the cursor."
 msgstr "Kursori i input arrin në këtë pikë (përqindja e gjerësisë, nga të dyja anët), rrotulloje tekstin tek pozicioni i kursorit."
 
+#, fuzzy
 msgid "When the receiver wakes from Standby or Deep Standby it will send a command to the TV to bring it out of Standby."
-msgstr ""
-"Kur marrësi të zgjohet nga Standby ose Debby ajo do të dërgojë një urdhër në "
-"TV për të nxjerrë atë nga Stanby."
+msgstr "Kur marrësi të zgjohet nga qëndrimi në gatishmëri ose nga një pritje e thellë, do të dërgojë një urdhër në TV për ta nxjerrë atë jashtë gatishmërisë."
 
+#, fuzzy
 msgid "When the receiver wakes from Standby, send active source, stream path and routing commands so the TV switches to the HDMI input connected to the receiver."
-msgstr ""
-"Kur marrësi të zgjohet nga Standby, dërgo burim aktiv, rrugën e rrymës dhe "
-"komandat e ndërprerjes në mënyrë që televizori të kalojë tek hyrja HDMI e "
-"lidhur me marrësin."
+msgstr "Kur marrësi të zgjohet nga gatishmëria do të urdhërojë TV të kalojë tek hyrja HDMI në të cilën marrësi është i lidhur."
 
 msgid "When tuned to a service the system will normally scan the transponder for any changes and save them. Only set to 'yes' if you're absolutely sure what you're doing."
 msgstr "Kur është sinkronizuar në një shërbim, sistemi zakonisht do të skanojë tranfon për çdo ndryshim dhe do t'i shpëtojë. Vetëm vendos të 'po' nëse je absolutisht i sigurt se çfarë po bën."
@@ -23818,8 +23978,9 @@ msgstr "Ku doni të mbështesni rregullimet tuaja?"
 msgid "Where do you want to save temporary time shift recordings?"
 msgstr "Ku doni të ruani regjistrimet e përkohshme të zhvendosjes së kohës?"
 
+#, fuzzy
 msgid "Which time shift buffer event do you want to save?"
-msgstr "Cilën orë tampon dëshironi të ruani?"
+msgstr "Cilën ngjarje dëshironi të ruani përgjithmonë?"
 
 msgid "While available"
 msgstr "Kur është në dispozicion"
@@ -23827,8 +23988,9 @@ msgstr "Kur është në dispozicion"
 msgid "White"
 msgstr "E bardhë"
 
+#, fuzzy
 msgid "Wi-Fi Connection Settings"
-msgstr "Rregullimet e lidhjes Wi-Fi"
+msgstr "Koleksioni"
 
 msgid "Wide"
 msgstr "E gjerë"
@@ -23887,8 +24049,9 @@ msgstr "Me mënyrën e ç'aktivuar T2MI RAW (e paracaktuar) ne mund të përdori
 msgid "With errors:"
 msgstr "Me gabime:"
 
+#, fuzzy
 msgid "With long OK button"
-msgstr "Me buton të gjatë OK"
+msgstr "Me shtyp të gjatë"
 
 msgid "With pop up"
 msgstr "Me pop up"
@@ -23899,11 +24062,13 @@ msgstr "Me këtë opcion mund t'i fshehësh detyrat e punës nga dritarja e shty
 msgid "With this option you can switch off the display during operation."
 msgstr "Me këtë opcion mund ta fikni display gjatë operacionit."
 
+#, fuzzy
 msgid "With this option you can switch off the display in Deep Standby."
-msgstr "Me këtë mundësi mund ta fikni ekranin në \"Plaçkë të thellë.\"."
+msgstr "Me këtë opsion ju mund të fikni display në Deep Standart Mode."
 
+#, fuzzy
 msgid "With this option you can switch off the display in Standby."
-msgstr "Me këtë opsion mund ta fikni display në Standby."
+msgstr "Me këtë opcion mund ta fikni display në Mode."
 
 msgid "With this option you can switch the LED color or deactivate the LED."
 msgstr "Me këtë opsion mund të ndryshoni ngjyrën e LED ose të çaktivizoni LED."
@@ -23920,6 +24085,7 @@ msgstr "Veprimet"
 msgid "Wnw"
 msgstr "Wnw"
 
+#, fuzzy
 msgid "WoW only"
 msgstr "Vetëm"
 
@@ -23930,7 +24096,7 @@ msgid "Workaround for old tuner driver"
 msgstr "Punon për shoferin e vjetër të melodive"
 
 msgid "Workgroup name"
-msgstr "Grupi Punues:"
+msgstr ""
 
 #, python-format
 msgid "Would you save the entered PIN %s persistent?"
@@ -23969,8 +24135,9 @@ msgstr "X11"
 msgid "XBox 360 support"
 msgstr "XBox 360 suport"
 
+#, fuzzy
 msgid "XML Help Actions"
-msgstr "Veprimet e ndihmës XML"
+msgstr "Veprimet"
 
 msgid "XPicon, ZZZPicon"
 msgstr "XPikon, ZZZPikon"
@@ -23990,8 +24157,9 @@ msgstr "I gjatë"
 msgid "Year"
 msgstr "Viti"
 
+#, fuzzy
 msgid "Year:"
-msgstr "Viti:"
+msgstr "Viti"
 
 msgid "Yellow"
 msgstr "E verdhë"
@@ -24003,7 +24171,7 @@ msgid "Yes"
 msgstr "Po"
 
 msgid "Yes (safe mode)"
-msgstr "Po (në menyrë të sigurt)"
+msgstr ""
 
 msgid "Yes - fstab entry as /media/hdd"
 msgstr "Yes - fstab entry as /media/hdd"
@@ -24044,8 +24212,9 @@ msgstr "Po, bëj një skanim automatik tani"
 msgid "Yes, do another manual scan now"
 msgstr "Po, bëj një tjetër skanim manual tani"
 
+#, fuzzy
 msgid "Yes, don't ask again"
-msgstr "Po, mos pyet më"
+msgstr "Mos pyet më!"
 
 msgid "Yes, restore the settings now"
 msgstr "Po, rivendos rregullimet tani"
@@ -24086,10 +24255,9 @@ msgstr "Ju mund ta keni listën e organizuar me kohë ose alfanumrik."
 msgid "You can only burn Dreambox recordings!"
 msgstr "Mund të djegësh vetëm regjistrime të Dreambox!"
 
+#, fuzzy
 msgid "You can skip this function and turn off the TV when you wake the receiver from Standby and immediately switch back to Standby."
-msgstr ""
-"Mund ta kaloni këtë funksion dhe ta fikni televizorin kur të zgjoni marrësin "
-"nga Standbi dhe menjëherë të ktheheni në standby."
+msgstr "Mund ta kaloni këtë funksion dhe ta fikni televizorin kur të zgjoni marrësin nga pas dhe menjëherë të ktheheni në gatishmëri."
 
 #, python-format
 msgid "You can switch with left and right this tuner types %s"
@@ -24104,15 +24272,16 @@ msgstr "Ju keni zgjedhur për të mbështetur rregullimet tuaja. Shtype mirë p�
 msgid "You have chosen to restore the settings. Enigma2 will restart after restore. Press OK to start the restore now."
 msgstr "Keni zgjedhur të rivendosni rregullimet. Enigma2 do të rinisë mbas rikthimit. Shtyp OK për të filluar restaurimin tani."
 
+#, fuzzy
 msgid "You have chosen to save the current time shift buffer"
-msgstr "Nga ruaj"
+msgstr "Keni zgjedhur të ruani zhvendosjen aktuale të kohës"
 
+#, fuzzy
 msgid ""
 "You have chosen to save the current time shift event, but the event has not yet finished\n"
 "What do you want to do?"
 msgstr ""
-"Keni zgjedhur të ruani ngjarjen aktuale të ndryshimit të kohës, por ngjarja "
-"nuk ka përfunduar ende\n"
+"Keni zgjedhur të ruani ngjarjen aktuale të ndryshimit të kohës, por ngjarja nuk ka përfunduar ende\n"
 "Çfarë do të bësh?"
 
 msgid "You have no script to run."
@@ -24129,7 +24298,7 @@ msgid "You have to wait %s!"
 msgstr "Duhet të presësh %s!"
 
 msgid "You managed to jump to an invalid page. Stop it :-)"
-msgstr "Ia dole të hidheshe në një faqe të pavlefshme. Ndalo"
+msgstr ""
 
 msgid "You must set a root password in order to be able to use network services, such as FTP, telnet or ssh."
 msgstr "Duhet të vendosni një fjalëkalim bazë për të qenë në gjendje të përdorni shërbimet e rrjetit, si FTP, telnet ose ssh."
@@ -24153,8 +24322,9 @@ msgstr "Së pari duhet të fillosh pajisjen tënde të ruajtjes"
 msgid "You seem to be in time shift!"
 msgstr "Dukesh sikur je në kohë!"
 
+#, fuzzy
 msgid "You seem to be in time shift, do you want to leave time shift?"
-msgstr "Ju duket të jetë në kohë zhvendosje, doni të lënë kohë ndryshim?"
+msgstr "Ju duket të jetë në kohë ndryshim, Do të lësh turnin e kohës?"
 
 msgid "You seem to be in time shift, the service will briefly stop as time shift stops."
 msgstr "Duket se je në turnin e kohës, shërbimi do të ndalet për pak kohë."
@@ -24357,8 +24527,9 @@ msgstr "Zap"
 msgid "Zap + Exit"
 msgstr "Zap + Exit"
 
+#, fuzzy
 msgid "Zap Up/Down"
-msgstr "Zap up/Poshtë"
+msgstr "Zap poshtë"
 
 msgid "Zap and record"
 msgstr "Zap dhe rekord"
@@ -24402,23 +24573,29 @@ msgstr "Zap nga kanali (fillimi në menu)"
 msgid "Zap to channel and close (setup in menu)"
 msgstr "Zap nga kanali dhe mbyll (fillo në menu)"
 
+#, fuzzy
 msgid "Zap to next service"
-msgstr "Zap në shërbimin e ardhshëm"
+msgstr "Select/Zap to selected service"
 
+#, fuzzy
 msgid "Zap to next service in history"
-msgstr "Zap për shërbimin e ardhshëm në histori"
+msgstr "Kalo nga në histori"
 
+#, fuzzy
 msgid "Zap to next service in the current bouquet"
-msgstr "Zap për shërbimin tjetër në buqetën e tanishme"
+msgstr "Lëviz nga e fundit në"
 
+#, fuzzy
 msgid "Zap to previous service"
-msgstr "Zap në shërbimin e mëparshëm"
+msgstr "Kthehu në shërbimin e mëparshëm"
 
+#, fuzzy
 msgid "Zap to previous service in history"
-msgstr "Zap ndaj shërbimit të mëparshëm në histori"
+msgstr "Kalo nga në"
 
+#, fuzzy
 msgid "Zap to previous service in the current bouquet"
-msgstr "Zap për shërbimin e mëparshëm në buqetën aktuale"
+msgstr "Shfaq faqen paraardhëse të informacionit të shërbimit"
 
 msgid "Zap up"
 msgstr "Zap up"
@@ -24426,8 +24603,13 @@ msgstr "Zap up"
 msgid "Zap+Record next"
 msgstr "Zap+ Regjistrim në vazhdim"
 
+#, fuzzy
+msgid "ZeroTier Actions"
+msgstr "Veprimet"
+
+#, fuzzy
 msgid "ZeroTier Settings"
-msgstr "Rregullimet zero"
+msgstr "Rregullimi i energjisë"
 
 msgid "Zhuang / Chuang"
 msgstr "Zhuang / Chuang"
@@ -24534,9 +24716,6 @@ msgstr "alfarev pastaj më i ri"
 msgid "am"
 msgstr "p.d"
 
-msgid "aqua"
-msgstr "aqua"
-
 msgid ""
 "are you sure you want to restore\n"
 "following backup:\n"
@@ -24569,9 +24748,6 @@ msgstr "gjurmët audio"
 
 msgid "automatic"
 msgstr "asnjë"
-
-msgid "azure"
-msgstr "azure"
 
 msgid "back"
 msgstr "mbrapa"
@@ -24730,9 +24906,9 @@ msgstr "drama (përgjithësisht)"
 msgid "eMMC"
 msgstr "eMMC"
 
-#, python-format
+#, fuzzy, python-format
 msgid "eMMC slot %s"
-msgstr "eMMC slot %s"
+msgstr "eMMC slot %s%s"
 
 #, python-format
 msgid "eMMC slot %s%s"
@@ -24870,8 +25046,9 @@ msgstr "football/soccer"
 msgid "foreign countries/expeditions"
 msgstr "foreign countries/expeditions"
 
+#, fuzzy
 msgid "formatLine boot mode"
-msgstr "modaliteti"
+msgstr "Menaxhues Shumëfishësh"
 
 msgid "forward to the next chapter"
 msgstr "përpara në kapitullin vijues"
@@ -25017,17 +25194,15 @@ msgstr "leshuesi i filmit"
 msgid "left"
 msgstr "majtas"
 
+#, fuzzy
 msgid "left column"
-msgstr "majtas"
+msgstr "Majtas"
 
 msgid "leisure hobbies (general)"
 msgstr "ora e kohës (përgjithësisht)"
 
 msgid "length"
 msgstr "gjatësia"
-
-msgid "lime"
-msgstr "limon"
 
 msgid "literature"
 msgstr "literaturë"
@@ -25183,9 +25358,6 @@ msgstr "off ose wpa2 on"
 msgid "ok"
 msgstr "ok"
 
-msgid "olympic blue"
-msgstr "blu optike"
-
 msgid "on READ ONLY medium."
 msgstr "për të LEXUAR mediume."
 
@@ -25200,9 +25372,6 @@ msgstr "hap DrDoid nga OPD Image Team"
 
 msgid "or"
 msgstr "ose"
-
-msgid "orange"
-msgstr "portokalli"
 
 msgid "original language"
 msgstr "gjuha origjinale"
@@ -25232,9 +25401,6 @@ msgstr "duke kryer art"
 msgid "pid:"
 msgstr "pid:"
 
-msgid "pink"
-msgstr "rozë"
-
 msgid "please wait, loading picture..."
 msgstr "ju lutem prisni, duke ngarkuar figurën..."
 
@@ -25261,9 +25427,6 @@ msgstr "provid:"
 
 msgid "provider:"
 msgstr "furnizues:"
-
-msgid "purple"
-msgstr "e purpurt"
 
 msgid "quit"
 msgstr "dil"
@@ -25310,17 +25473,15 @@ msgstr "kthehemi te kapitulli i mëparshëm"
 msgid "right"
 msgstr "djathtas"
 
+#, fuzzy
 msgid "right column"
-msgstr "djathtas"
+msgstr "Djathtas"
 
 msgid "rock/pop"
 msgstr "rock/pop"
 
 msgid "romance"
 msgstr "romancë"
-
-msgid "rose"
-msgstr "u rrit"
 
 msgid ""
 "satellites.xml not found or corrupted!\n"
@@ -25580,8 +25741,9 @@ msgstr "pabotuar"
 msgid "untestable"
 msgstr "jobesues"
 
+#, fuzzy
 msgid "update"
-msgstr "përditëso"
+msgstr "Përditëso"
 
 msgid "update Redlight HD Card"
 msgstr "rifresko Kartën HD"
@@ -25621,9 +25783,6 @@ msgstr "sport uji"
 
 msgid "west"
 msgstr "në perëndim"
-
-msgid "white"
-msgstr "e bardhë"
 
 msgid "width"
 msgstr "gjerësia"
@@ -25673,7 +25832,7 @@ msgid "®"
 msgstr "®"
 
 msgid "Русский"
-msgstr "Gyneji"
+msgstr ""
 
 msgid "العربية"
-msgstr "العربة"
+msgstr ""
