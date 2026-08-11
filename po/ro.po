@@ -15,7 +15,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
 "X-Generator: Weblate 2026.8.1\n"
 
 msgid ""
@@ -782,6 +782,7 @@ msgid "%d"
 msgid_plural "%d"
 msgstr[0] "%d"
 msgstr[1] "%d"
+msgstr[2] "%d"
 
 msgid "%d %B %Y"
 msgstr "%d %b %y"
@@ -797,18 +798,21 @@ msgid "%d + %d + %d Minute"
 msgid_plural "%d + %d + %d Minutes"
 msgstr[0] "%d + %d + %d minut"
 msgstr[1] "%d + %d + %d minute"
+msgstr[2] "%d + %d + %d de minute"
 
 #, python-format
 msgid "%d Day"
 msgid_plural "%d Days"
 msgstr[0] "%d zi"
 msgstr[1] "%d zile"
+msgstr[2] "%d de zile"
 
 #, python-format
 msgid "%d Digit"
 msgid_plural "%d Digits"
 msgstr[0] "%d Digit"
 msgstr[1] "%d Digits"
+msgstr[2] "%d de cifre"
 
 #, python-format
 msgid "%d Event"
@@ -826,6 +830,7 @@ msgid "%d Hour"
 msgid_plural "%d Hours"
 msgstr[0] "%d oră"
 msgstr[1] "%d ore"
+msgstr[2] "%d de ore"
 
 #, python-format
 msgid "%d MB"
@@ -861,12 +866,14 @@ msgid "%d Min"
 msgid_plural "%d Mins"
 msgstr[0] "%d min"
 msgstr[1] "%d min"
+msgstr[2] "%d min"
 
 #, python-format
 msgid "%d Minute"
 msgid_plural "%d Minutes"
 msgstr[0] "%d minut"
 msgstr[1] "%d Minute"
+msgstr[2] "%d de minute"
 
 #, python-format
 msgid "%d Minutes"
@@ -891,6 +898,7 @@ msgid "%d Pixel wide"
 msgid_plural "%d Pixels wide"
 msgstr[0] "%d pixel lățime"
 msgstr[1] "%d pixeli lățime"
+msgstr[2] "Lățime de %d de pixeli"
 
 #, python-format
 msgid "%d Pixels"
@@ -901,6 +909,7 @@ msgid "%d Second"
 msgid_plural "%d Seconds"
 msgstr[0] "%d al doilea"
 msgstr[1] "%d secunde"
+msgstr[2] "%d de secunde"
 
 #, python-format
 msgid "%d Seconds"
@@ -918,6 +927,7 @@ msgid "%d Year"
 msgid_plural "%d Years"
 msgstr[0] "%d An"
 msgstr[1] "%d Ani"
+msgstr[2] "%d de ani"
 
 #. TRANSLATORS: Intermediate scanning result, '%d' channel(s) have been found so far
 #, python-format
@@ -932,6 +942,7 @@ msgid "%d core"
 msgid_plural "%d cores"
 msgstr[0] "%d nucleu"
 msgstr[1] "%d nuclee"
+msgstr[2] "%d de nuclee"
 
 #, python-format
 msgid "%d feed catalog package was updated."
@@ -957,6 +968,7 @@ msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d minut"
 msgstr[1] "%d minute"
+msgstr[2] "%d de minute"
 
 #, python-format
 msgid "%d minutes"
@@ -999,36 +1011,42 @@ msgid "%d package marked for remove."
 msgid_plural "%d packages marked for remove."
 msgstr[0] "%d Ambalajul marcat pentru eliminare."
 msgstr[1] "%d ambalaje marcate pentru eliminare."
+msgstr[2] "%d de pachete marcate pentru eliminare."
 
 #, python-format
 msgid "%d package marked for update."
 msgid_plural "%d packages marked for update."
 msgstr[0] "%d pachet marcat pentru actualizare."
 msgstr[1] "%d pachete marcate pentru actualizare."
+msgstr[2] "%d de pachete marcate pentru actualizare."
 
 #, python-format
 msgid "%d package upgraded."
 msgid_plural "%d packages upgraded."
 msgstr[0] "%d Pachet actualizat."
 msgstr[1] "%d Pachete modernizate."
+msgstr[2] "%d de pachete actualizate."
 
 #, python-format
 msgid "%d package was configured."
 msgid_plural "%d packages were configured."
 msgstr[0] "%d Pachetul a fost configurat."
 msgstr[1] "%d Pachetele erau configurate."
+msgstr[2] "%d de pachete au fost configurate."
 
 #, python-format
 msgid "%d package was deselected."
 msgid_plural "%d packages were deselected."
 msgstr[0] "%d Pachetul a fost deselectat."
 msgstr[1] "%d Pachetele au fost deselectate."
+msgstr[2] "%d de pachete au fost deselectate."
 
 #, python-format
 msgid "%d package was downloaded."
 msgid_plural "%d packages were downloaded."
 msgstr[0] "%d Pachetul a fost descărcat."
 msgstr[1] "%d Pachetele au fost descărcate."
+msgstr[2] "%d de pachete au fost descărcate."
 
 #, python-format
 msgid "%d package was identified for upgrade."
@@ -1042,18 +1060,21 @@ msgid "%d package was installed."
 msgid_plural "%d packages were installed."
 msgstr[0] "%d Pachetul a fost instalat."
 msgstr[1] "%d Au fost instalate pachete."
+msgstr[2] "%d de pachete au fost instalate."
 
 #, python-format
 msgid "%d package was removed."
 msgid_plural "%d packages were removed."
 msgstr[0] "%d Pachetul a fost scos."
 msgstr[1] "%d Pachetele au fost eliminate."
+msgstr[2] "%d de pachete au fost eliminate."
 
 #, python-format
 msgid "%d package was upgraded."
 msgid_plural "%d packages were upgraded."
 msgstr[0] "%d Pachetul a fost actualizat."
 msgstr[1] "%d Pachetele au fost modernizate."
+msgstr[2] "%d de pachete au fost actualizate."
 
 #, python-format
 msgid "%d plugin is not available:"
@@ -1071,6 +1092,7 @@ msgid "%d second"
 msgid_plural "%d seconds"
 msgstr[0] "%d al doilea"
 msgstr[1] "%d secunde"
+msgstr[2] "%d de secunde"
 
 #, python-format
 msgid "%d slots have been created on the device.\n"
@@ -1085,6 +1107,7 @@ msgid "%d wireless network found!"
 msgid_plural "%d wireless networks found!"
 msgstr[0] "%d Reţeaua wireless găsită!"
 msgstr[1] "%d rețele fără fir găsite!"
+msgstr[2] "Au fost găsite %d de rețele fără fir!"
 
 msgid "%d+%b_"
 msgstr "%d+%b_"
@@ -4358,6 +4381,7 @@ msgid "Clear warning"
 msgid_plural "Clear warnings"
 msgstr[0] "Avertizare clară"
 msgstr[1] "Avertizări clare"
+msgstr[2] "Șterge avertismentele"
 
 msgid "ClearMem Info"
 msgstr "Informații ClearMem"
@@ -4533,6 +4557,7 @@ msgid "Command finished."
 msgid_plural "Commands finished."
 msgstr[0] "Comanda a terminat."
 msgstr[1] "Comenzile terminate."
+msgstr[2] "Comenzile s-au încheiat."
 
 msgid "Command order"
 msgstr "Ordine de comandă"
@@ -6789,6 +6814,7 @@ msgid "Done - Installed, upgraded or removed %d package (%s)"
 msgid_plural "Done - Installed, upgraded or removed %d packages (%s)"
 msgstr[0] "Efectuat - Pachetul instalat, modernizat sau îndepărtat %d (%s)"
 msgstr[1] "Gata - Ambalaje instalate, modernizate sau îndepărtate %d (%s)"
+msgstr[2] "Gata - Au fost instalate, actualizate sau eliminate %d de pachete (%s)"
 
 msgid "Down"
 msgstr "Jos"
@@ -7471,12 +7497,14 @@ msgid "Energy Timer: %d minute remains."
 msgid_plural "Energy Timer: %d minutes remain."
 msgstr[0] "Timer energie: %d minute rămâne."
 msgstr[1] "Timpul energiei: %d minute rămase."
+msgstr[2] "Cronometrul de energie: au mai rămas %d de minute."
 
 #, python-format
 msgid "Energy Timer: %d second remains."
 msgid_plural "Energy Timer: %d seconds remain."
 msgstr[0] "Cronometrul de energie: %d rămâne al doilea."
 msgstr[1] "Cronometrul de energie: %d secunde rămase."
+msgstr[2] "Cronometrul de energie: au mai rămas %d de secunde."
 
 msgid "Energy Timer: Inactive."
 msgstr "Cronometru energetic: inactiv."
@@ -10587,6 +10615,7 @@ msgid "Keep warning"
 msgid_plural "Keep warnings"
 msgstr[0] "Continuați avertismentul"
 msgstr[1] "Păstrați avertismentele"
+msgstr[2] "Păstrați avertismentele"
 
 msgid "Keeps MovieList open whilst playing audio files."
 msgstr "Ține MovieList deschis în timp ce rulează fișiere audio."
@@ -11020,6 +11049,7 @@ msgid "List version %d, found %d channel"
 msgid_plural "List version %d, found %d channels"
 msgstr[0] "Versiune listă %d, canal găsit %d"
 msgstr[1] "Versiune listă %d, canale găsite %d"
+msgstr[2] "Versiune listă %d, au fost găsite %d de canale"
 
 msgid "List/Fav"
 msgstr "Lista/fav"
@@ -14374,11 +14404,13 @@ msgid "Please wait while the plugin is installed."
 msgid_plural "Please wait while the plugins are installed."
 msgstr[0] "Vă rugăm să așteptați în timp ce pluginul este instalat."
 msgstr[1] "Vă rugăm să așteptați în timp ce pluginurile sunt instalate."
+msgstr[2] "Vă rugăm să așteptați în timp ce pluginurile sunt instalate."
 
 msgid "Please wait while the plugin is removed."
 msgid_plural "Please wait while the plugins are removed."
 msgstr[0] "Vă rugăm să așteptați în timp ce pluginul este eliminat."
 msgstr[1] "Vă rugăm să așteptați în timp ce pluginurile sunt eliminate."
+msgstr[2] "Vă rugăm să așteptați în timp ce pluginurile sunt eliminate."
 
 msgid "Please wait while the plugin is replaced."
 msgstr "Vă rugăm să așteptați în timp ce pluginul este înlocuit."
@@ -16515,6 +16547,7 @@ msgid "Scanning - %d%% completed"
 msgid_plural "Scanning - %d%% completed"
 msgstr[0] "Scanare -%d %% finalizată"
 msgstr[1] "Scanare -%d %% finalizată"
+msgstr[2] "Scanare - %d%% finalizată"
 
 msgid "Scanning can't be performed while recordings are in progress."
 msgstr "Scanarea nu poate fi efectuată în timp ce înregistrările sunt în desfășurare."
@@ -16524,12 +16557,14 @@ msgid "Scanning completed, %d channel found"
 msgid_plural "Scanning completed, %d channels found"
 msgstr[0] "Scanare finalizată, %d canal găsit"
 msgstr[1] "Scanare finalizată, %d canale găsite"
+msgstr[2] "Scanare finalizată, au fost găsite %d de canale"
 
 #, python-format
 msgid "Scanning completed, %d service found."
 msgid_plural "Scanning completed, %d services found."
 msgstr[0] "Scanare terminată, %d service găsit."
 msgstr[1] "Scanare finalizată, %d servicii găsite."
+msgstr[2] "Scanare finalizată, au fost găsite %d de servicii."
 
 msgid "Scanning failed!"
 msgstr "Scanarea a eșuat!"
@@ -19366,12 +19401,14 @@ msgid "SleepTimer: %d minute remains."
 msgid_plural "SleepTimer: %d minutes remain."
 msgstr[0] "SleepTimer: %d minute remains."
 msgstr[1] "SleepTimer: %d minutes remain."
+msgstr[2] "SleepTimer: au mai rămas %d de minute."
 
 #, python-format
 msgid "SleepTimer: %d second remains."
 msgid_plural "SleepTimer: %d seconds remain."
 msgstr[0] "SleepTimer: %d rămâne a doua."
 msgstr[1] "Timp de somn: %d secunde rămase."
+msgstr[2] "SleepTimer: au mai rămas %d de secunde."
 
 msgid "SleepTimer: Inactive."
 msgstr "SleepTimer: Inactiv."
@@ -21109,6 +21146,7 @@ msgid "There is %d scrambled recording, which will be unscrambled during Standby
 msgid_plural "There are %d scrambled recordings, which will be unscrambled during Standby."
 msgstr[0] "Există %d înregistrare omletă, care va fi descâlcit în timpul Standby."
 msgstr[1] "Există %d înregistrări amestecate, care vor fi descâlcite în timpul Standby."
+msgstr[2] "Există %d de înregistrări criptate, care vor fi decriptate în timpul modului Standby."
 
 #, python-format
 msgid "There is a risk that your %s %s will not boot or may malfunction after such a large on-line update."
@@ -25526,6 +25564,7 @@ msgid "with %d error"
 msgid_plural "with %d errors"
 msgstr[0] "cu %d eroare"
 msgstr[1] "cu %d erori"
+msgstr[2] "cu %d de erori"
 
 msgid "with errors"
 msgstr "cu erori"
