@@ -4,17 +4,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Opendroid\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-10 17:33+0200\n"
+"POT-Creation-Date: 2026-08-17 21:36+0200\n"
 "PO-Revision-Date: 2026-08-17 14:43+0000\n"
 "Last-Translator: Weblate Admin <weblate@example.com>\n"
-"Language-Team: Polish <http://localhost:8090/projects/opendroid-enigma2/"
-"enigma2-po/pl/>\n"
+"Language-Team: Polish <http://localhost:8090/projects/opendroid-enigma2/enigma2-po/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Weblate 2026.8.1\n"
 
@@ -1338,9 +1336,7 @@ msgstr "Komenda czuwania z TV ma wyższy priorytet niż komenda wejścia."
 
 #, fuzzy
 msgid "'Network peer' automatically detects other Enigma2 receivers on the local network. You can also manually enter the URL or IP address."
-msgstr ""
-"'rówieśnik sieciowy' automatycznie wykrywa inne odbiorniki Enigma2 w sieci "
-"lokalnej. Możesz również ręcznie wprowadzić adres URL lub IP."
+msgstr "'rówieśnik sieciowy' automatycznie wykrywa inne odbiorniki Enigma2 w sieci lokalnej. Możesz również ręcznie wprowadzić adres URL lub IP."
 
 msgid "'Unscramble & record ECM' gives the option to unscramble afterwards if unscrambling on recording failed. 'Don't unscramble, record ECM' save a scramble recording that can be unscrambled on playback. 'Normal' means unscramble the recording and don't record ECM."
 msgstr "Dekodowanie i nagrywanie ECM' daje możliwość późniejszego deszyfrowania, jeśli deszyfrowanie przy nagrywaniu zakończyło się niepowodzeniem. 'Nie dekoduj, nagrywaj ECM', zapisz nagranie, które można odszyfrować podczas odtwarzania. \"Normalny\" oznacza deszyfrowanie nagrania i nie rejestruje ECM."
@@ -1789,6 +1785,9 @@ msgstr "AC3plus transkodowanie"
 msgid "AC4"
 msgstr "DAC"
 
+msgid "ACTIVITY / DIAGNOSTICS"
+msgstr ""
+
 msgid "AFL"
 msgstr "AFL"
 
@@ -1836,6 +1835,9 @@ msgstr "ATSC"
 
 msgid "ATSC provider"
 msgstr "ATSC dostawca"
+
+msgid "AUDIO"
+msgstr ""
 
 #, fuzzy
 msgid "AV receiver, soundbar and remote"
@@ -1942,6 +1944,10 @@ msgstr "Aktywny"
 
 msgid "Active clients"
 msgstr "Aktywnych klientów"
+
+#, fuzzy
+msgid "Activity:"
+msgstr "Każde działanie"
 
 msgid "Adapter Settings"
 msgstr "Ustawienia adaptera"
@@ -2187,6 +2193,10 @@ msgstr "Dostosuj poziomą pozycję liter używanych w telegazecie."
 msgid "Adjust the vertical position of the letters used for teletext."
 msgstr "Skonfiguruj pionowe położenie liter używanych do telegazety."
 
+#, fuzzy
+msgid "Adjusting"
+msgstr "Regulacja OSD"
+
 msgid "Adult"
 msgstr "Dorosły"
 
@@ -2399,10 +2409,7 @@ msgstr "Pozwala ukryć rozszerzenia znanych typów plików."
 
 #, fuzzy
 msgid "Allows you to set a schedule to import the EPG and channels list. The EPG and channels list will always be imported on reboot or GUI restart."
-msgstr ""
-"Pozwala na ustawienie harmonogramu importu EPG i listy kanałów. Lista EPG i "
-"kanałów będzie zawsze importowana przy restarcie lub ponownym uruchomieniu "
-"GUI."
+msgstr "Pozwala na ustawienie harmonogramu importu EPG i listy kanałów. Lista EPG i kanałów będzie zawsze importowana przy restarcie lub ponownym uruchomieniu GUI."
 
 msgid "Allows you to set the maximum size of the Debug log size (MB). When that size is reached, a new file will be created."
 msgstr "Umożliwia ustawienie maksymalnej wielkości rozmiaru dziennika zdarzeń (MB). Kiedy ten rozmiar zostanie osiągnięty, zostanie utworzony nowy plik."
@@ -2443,9 +2450,7 @@ msgstr "Również w trybie czuwania"
 
 #, fuzzy
 msgid "Also use a #DESCRIPTION line after each #SERVICE line to hold the service's name."
-msgstr ""
-"Użyj również linii # OPIS po każdej linii # SERVICE, aby utrzymać nazwę "
-"usługi."
+msgstr "Użyj również linii # OPIS po każdej linii # SERVICE, aby utrzymać nazwę usługi."
 
 msgid "Alternative"
 msgstr "Alternatywne"
@@ -2764,6 +2769,10 @@ msgstr "Proporcje obrazu"
 #, fuzzy, python-format
 msgid "Aspect ratio set to '%s'."
 msgstr "Proporcje AV wynoszą %s."
+
+#, fuzzy
+msgid "Aspect ratio:"
+msgstr "Proporcje obrazu"
 
 msgid "Aspect switch"
 msgstr "Przełącznik proporcji"
@@ -3274,6 +3283,14 @@ msgstr "Bislama"
 msgid "Bitrate"
 msgstr "Przepustowość"
 
+#, fuzzy
+msgid "Bitrate setting:"
+msgstr "Edytuj ustawienia"
+
+#, fuzzy
+msgid "Bitrate:"
+msgstr "Przepustowość"
+
 msgid "Black"
 msgstr "Czarny"
 
@@ -3441,15 +3458,11 @@ msgstr "Jasność przyciemniona"
 
 #, fuzzy
 msgid "Brightness applied to the combined video + OSD output. Affects everything on screen including this menu."
-msgstr ""
-"Jasność zastosowana do połączonego wyjścia wideo + OSD. Wpływa na wszystko "
-"na ekranie włącznie z tym menu."
+msgstr "Jasność zastosowana do połączonego wyjścia wideo + OSD. Wpływa na wszystko na ekranie włącznie z tym menu."
 
 #, fuzzy
 msgid "Brightness applied to the video layer only. Does not affect enigma2 menus or OSD."
-msgstr ""
-"Jasność zastosowana wyłącznie do warstwy wideo. Nie wpływa na menu enigma2 "
-"ani OSD."
+msgstr "Jasność zastosowana wyłącznie do warstwy wideo. Nie wpływa na menu enigma2 ani OSD."
 
 msgid "British Indian Ocean Territory"
 msgstr "Brytyjskie Terytorium Oceanu Indyjskiego"
@@ -4560,6 +4573,10 @@ msgstr "IP Klienta"
 msgid "Clients"
 msgstr "Klienci"
 
+#, fuzzy
+msgid "Clients:"
+msgstr "Klienci"
+
 msgid "Clone TV screen to LCD"
 msgstr "Klonuj obraz TV na LCD"
 
@@ -4651,6 +4668,9 @@ msgstr "Wskaźnik kodowania HP"
 
 msgid "Code rate LP"
 msgstr "Wskaźnik kodowania LP"
+
+msgid "Codec:"
+msgstr ""
 
 msgid "Collapse"
 msgstr "Ukryj"
@@ -5227,14 +5247,16 @@ msgid "Connected: "
 msgstr "Podłączony: "
 
 #, fuzzy
+msgid "Connecting"
+msgstr "Połącz"
+
+#, fuzzy
 msgid "Connection information"
 msgstr "Info o tłumaczeniu"
 
 #, fuzzy
 msgid "Connection using the supplied FTP parameters failed. Please recheck the details and try again."
-msgstr ""
-"Połączenie za pomocą dostarczonych parametrów FTP nie powiodło się. Proszę "
-"sprawdzić szczegóły i spróbować ponownie."
+msgstr "Połączenie za pomocą dostarczonych parametrów FTP nie powiodło się. Proszę sprawdzić szczegóły i spróbować ponownie."
 
 #, fuzzy
 msgid "Connector"
@@ -5335,15 +5357,11 @@ msgstr "Kontrast wideo i OSD"
 
 #, fuzzy
 msgid "Contrast applied to the combined video + OSD output. Affects everything on screen including this menu."
-msgstr ""
-"Kontrast zastosowany do połączonego wyjścia wideo + OSD. Wpływa na wszystko "
-"na ekranie włącznie z tym menu."
+msgstr "Kontrast zastosowany do połączonego wyjścia wideo + OSD. Wpływa na wszystko na ekranie włącznie z tym menu."
 
 #, fuzzy
 msgid "Contrast applied to the video layer only. Does not affect enigma2 menus or OSD."
-msgstr ""
-"Kontrast stosowany wyłącznie do warstwy wideo. Nie wpływa na menu enigma2 "
-"ani OSD."
+msgstr "Kontrast stosowany wyłącznie do warstwy wideo. Nie wpływa na menu enigma2 ani OSD."
 
 msgid "Control LED can be turned on or off here."
 msgstr "Tutaj można włączyć/wyłączyć kontrolkę LED."
@@ -7080,9 +7098,7 @@ msgstr "Błąd pobierania"
 
 #, fuzzy
 msgid "Download failed: no valid URL found for this VOD."
-msgstr ""
-"Pobieranie nie powiodło się: nie znaleziono poprawnego adresu URL dla tego "
-"VOD."
+msgstr "Pobieranie nie powiodło się: nie znaleziono poprawnego adresu URL dla tego VOD."
 
 #, fuzzy
 msgid "Download movie & switch to TV channel"
@@ -7708,9 +7724,7 @@ msgstr "Włącz tę opcję, aby dodać dane debugowania timera do pliku dziennik
 
 #, fuzzy
 msgid "Enable this option to show unknown storage devices in device manager."
-msgstr ""
-"Włącz tę opcję, aby pokazać nieznane urządzenia pamięci masowej w menedżerze "
-"urządzeń."
+msgstr "Włącz tę opcję, aby pokazać nieznane urządzenia pamięci masowej w menedżerze urządzeń."
 
 msgid "Enable this setting if your aerial system needs power."
 msgstr "Włącz to ustawienie, jeśli Twój system antenowy potrzebuje zasilania."
@@ -7736,10 +7750,7 @@ msgstr "Włącz, aby wyświetlić wpis „Uruchom ponownie sieć” na ekranie M
 
 #, fuzzy
 msgid "Enable usage of tuners from another Enigma2 receiver on the local network. Remote tuners will be used when tuners are not available on this receiver. (No free tuner or service type is not available.)"
-msgstr ""
-"Włącz użycie tunerów z innego odbiornika Enigma2 w sieci lokalnej. Zdalne "
-"tunery będą używane, gdy tunery nie są dostępne na tym odbiorniku. (Nie jest "
-"dostępny darmowy tuner ani rodzaj usługi.)"
+msgstr "Włącz użycie tunerów z innego odbiornika Enigma2 w sieci lokalnej. Zdalne tunery będą używane, gdy tunery nie są dostępne na tym odbiorniku. (Nie jest dostępny darmowy tuner ani rodzaj usługi.)"
 
 msgid "Enable volume control with LEFT/RIGHT arrow buttons"
 msgstr ""
@@ -7897,9 +7908,7 @@ msgstr "Wpisz tekst za pomocą dołączonej klawiatury"
 
 #, fuzzy
 msgid "Enter the FTP password of the host receiver (required for any server running openDroid 7.5 or greater)."
-msgstr ""
-"Wprowadź hasło FTP odbiornika hosta (wymagane dla dowolnego serwera "
-"uruchamiającego openDroid 7.5 lub więcej)."
+msgstr "Wprowadź hasło FTP odbiornika hosta (wymagane dla dowolnego serwera uruchamiającego openDroid 7.5 lub więcej)."
 
 #, fuzzy
 msgid "Enter the FTP port of the host receiver (normally '21')."
@@ -7922,30 +7931,22 @@ msgstr ""
 
 #, fuzzy
 msgid "Enter the IP address to be used as the gateway to other networks for this adapter. Typically this is the IP address of your router."
-msgstr ""
-"Wprowadź adres IP używany jako brama do innych sieci dla tego adaptera. "
-"Zazwyczaj jest to adres IP twojego routera."
+msgstr "Wprowadź adres IP używany jako brama do innych sieci dla tego adaptera. Zazwyczaj jest to adres IP twojego routera."
 
 msgid "Enter the URL/IP of the fallback remote receiver, e.g. '192.168.0.1'. The other details such as 'http://' and port number will be filled in automatically when you select save."
 msgstr ""
 
 #, fuzzy
 msgid "Enter the ZeroTier Network ID. The ID should be exactly 16 characters in length."
-msgstr ""
-"Wprowadź identyfikator sieci ZeroTier. Identyfikator powinien mieć dokładnie "
-"16 znaków długości."
+msgstr "Wprowadź identyfikator sieci ZeroTier. Identyfikator powinien mieć dokładnie 16 znaków długości."
 
 #, fuzzy
 msgid "Enter the domain of the host receiver. Do not include 'http://' or port number."
-msgstr ""
-"Wprowadź domenę odbiornika. Nie należy podawać \"http: / /\" ani numeru "
-"portu."
+msgstr "Wprowadź domenę odbiornika. Nie należy podawać \"http: / /\" ani numeru portu."
 
 #, fuzzy
 msgid "Enter the fixed/static IPv4 address to be used for this network adapter."
-msgstr ""
-"Podaj stały / statyczny adres IPv4, który ma być użyty dla tego adaptera "
-"sieciowego."
+msgstr "Podaj stały / statyczny adres IPv4, który ma być użyty dla tego adaptera sieciowego."
 
 msgid "Enter the frequency at which you LNB switches between low band and high band. For more information consult the specifications of your LNB."
 msgstr "Wprowadź częstotliwość, przy której LNB przełącza się między pasmem niskim i górnym. Aby uzyskać więcej informacji, zapoznaj się z arkuszem specyfikacji swojego LNB."
@@ -7955,19 +7956,14 @@ msgstr "Wprowadź rozmiar kroku częstotliwości dla tunera, który ma być uży
 
 #, fuzzy
 msgid "Enter the number of NFS server threads to be allocated/used. Higher values improve performance with multiple clients but use more memory."
-msgstr ""
-"Wprowadź liczbę wątków serwera NFS, które mają być przydzielone / "
-"wykorzystane. Wyższe wartości poprawiają wydajność z wieloma klientami, ale "
-"używają więcej pamięci."
+msgstr "Wprowadź liczbę wątków serwera NFS, które mają być przydzielone / wykorzystane. Wyższe wartości poprawiają wydajność z wieloma klientami, ale używają więcej pamięci."
 
 msgid "Enter the number stored in the positioner that corresponds to this satellite."
 msgstr "Wprowadź numer zapisany w pozycjonerze, który odpowiada temu satelicie."
 
 #, fuzzy
 msgid "Enter the password, pass-phrase or pre-shared key for the selected wireless network."
-msgstr ""
-"Wprowadź hasło, hasło lub klucz współdzielony dla wybranej sieci "
-"bezprzewodowej."
+msgstr "Wprowadź hasło, hasło lub klucz współdzielony dla wybranej sieci bezprzewodowej."
 
 #, fuzzy
 msgid "Enter the primary IPv4 DNS setting for this adapter."
@@ -7975,18 +7971,15 @@ msgstr "Wprowadź podstawowe ustawienie IPv4 DNS dla tego adaptera."
 
 #, fuzzy
 msgid "Enter the primary IPv6 DNS setting for this adapter. (Optional)"
-msgstr ""
-"Wprowadź podstawowe ustawienie IPv6 DNS dla tego adaptera. (nieobowiązkowo)"
+msgstr "Wprowadź podstawowe ustawienie IPv6 DNS dla tego adaptera. (nieobowiązkowo)"
 
 #, fuzzy
 msgid "Enter the secondary IPv4 DNS setting for this adapter. (Optional)"
-msgstr ""
-"Wprowadź dodatkowe ustawienie IPv4 DNS dla tego adaptera. (nieobowiązkowo)"
+msgstr "Wprowadź dodatkowe ustawienie IPv4 DNS dla tego adaptera. (nieobowiązkowo)"
 
 #, fuzzy
 msgid "Enter the secondary IPv6 DNS setting for this adapter. (Optional)"
-msgstr ""
-"Wprowadź dodatkowe ustawienie IPv6 DNS dla tego adaptera. (nieobowiązkowo)"
+msgstr "Wprowadź dodatkowe ustawienie IPv6 DNS dla tego adaptera. (nieobowiązkowo)"
 
 msgid "Enter the service pin"
 msgstr "Wpisz PIN kanału"
@@ -8009,9 +8002,7 @@ msgstr "Wprowadź port strumieniowy odbiornika (zazwyczaj '8001')."
 
 #, fuzzy
 msgid "Enter the subnet mask to be used for this network adapter. (e.g. 255.255.255.0)"
-msgstr ""
-"Wprowadź maskę podsieci, która ma być użyta do tego adaptera sieciowego. "
-"(np. 255.255.255.0)"
+msgstr "Wprowadź maskę podsieci, która ma być użyta do tego adaptera sieciowego. (np. 255.255.255.0)"
 
 #, fuzzy
 msgid "Enter the subscription code to fully enable the AI-Powered Translation plugin, the unified code for trial is 15."
@@ -8019,9 +8010,7 @@ msgstr "Wprowadź kod subskrypcji, aby w pełni włączyć wtyczkę AI-Powered T
 
 #, fuzzy
 msgid "Enter the workgroup name to be used by this receiver for Samba based connections. (Default is 'WORKGROUP'.)"
-msgstr ""
-"Podaj nazwę grupy roboczej używanej przez ten odbiornik dla połączeń "
-"opartych na Sambie. (Domyślnie 'WORKGROUP')"
+msgstr "Podaj nazwę grupy roboczej używanej przez ten odbiornik dla połączeń opartych na Sambie. (Domyślnie 'WORKGROUP')"
 
 msgid "Enter your current latitude. This is the number of degrees you are from the equator as a decimal."
 msgstr "Wprowadź aktualną szerokość geograficzną. Jest to liczba stopni z równika jako dziesiętna."
@@ -8219,6 +8208,10 @@ msgstr ""
 msgid ""
 "Error:\n"
 "%s"
+msgstr "Błąd %d: %s"
+
+#, fuzzy, python-format
+msgid "Error: %s"
 msgstr "Błąd %d: %s"
 
 #, python-format
@@ -9165,10 +9158,7 @@ msgstr "Wymuś ToneBurst"
 
 #, fuzzy
 msgid "Force a specific network link speed/duplex mode instead of auto-negotiation. Only change this if you have a specific reason as an incorrect setting can break network connectivity."
-msgstr ""
-"Wymuś określoną prędkość połączenia sieciowego / tryb duplex zamiast "
-"automatycznych negocjacji. Zmień to tylko wtedy, gdy masz konkretny powód, "
-"ponieważ niewłaściwe ustawienie może przerwać połączenie sieciowe."
+msgstr "Wymuś określoną prędkość połączenia sieciowego / tryb duplex zamiast automatycznych negocjacji. Zmień to tylko wtedy, gdy masz konkretny powód, ponieważ niewłaściwe ustawienie może przerwać połączenie sieciowe."
 
 msgid "Force de-interlace"
 msgstr "Siła przeplotu"
@@ -9229,6 +9219,10 @@ msgid "Four partitions (25% - 25% - 25% - 25%)"
 msgstr ""
 
 msgid "Frame rate"
+msgstr "Częstotliwość odświeżania"
+
+#, fuzzy
+msgid "Frame rate:"
 msgstr "Częstotliwość odświeżania"
 
 msgid "Frame size in full view"
@@ -9756,6 +9750,10 @@ msgstr "Głębia kolorów"
 msgid "HDMI color space"
 msgstr "Przestrzeń kolorów"
 
+#, fuzzy
+msgid "HDMI input"
+msgstr "Wejście HDMI"
+
 msgid "HDMI-CEC Settings"
 msgstr "HDMI-CEC"
 
@@ -9795,6 +9793,21 @@ msgstr "Czyszczenie napisów zewnętrznych"
 
 msgid "HLG Support"
 msgstr "HLG Wsparcie"
+
+msgid "HLS"
+msgstr ""
+
+#, python-format
+msgid "HLS %s"
+msgstr ""
+
+#, fuzzy, python-format
+msgid "HLS client connected: %s"
+msgstr "Podłączeni klienci"
+
+#, fuzzy, python-format
+msgid "HLS client disconnected: %s"
+msgstr "odłączony"
 
 msgid "Haiti"
 msgstr "Haiti"
@@ -10142,12 +10155,7 @@ msgstr "Godziny Minuty Sekundy"
 
 #, fuzzy
 msgid "How to release the hardware decoder when switching to software descrambling. 'Quick' releases immediately (faster zapping). 'Normal' performs clean shutdown first (more stable on some boxes). 'Aggressive' performs a full descrambler reset between encrypted channels."
-msgstr ""
-"Jak zwolnić dekoder sprzętowy podczas przełączania na descrambling "
-"oprogramowania. \"Szybkie\" uwalnia natychmiast (szybsze zapping). "
-"'Normalne' wykonuje najpierw czyste wyłączenie (bardziej stabilne na "
-"niektórych skrzyniach). 'Agresywny' wykonuje pełny reset descramblera "
-"pomiędzy zaszyfrowanymi kanałami."
+msgstr "Jak zwolnić dekoder sprzętowy podczas przełączania na descrambling oprogramowania. \"Szybkie\" uwalnia natychmiast (szybsze zapping). 'Normalne' wykonuje najpierw czyste wyłączenie (bardziej stabilne na niektórych skrzyniach). 'Agresywny' wykonuje pełny reset descramblera pomiędzy zaszyfrowanymi kanałami."
 
 msgid "Http(s) stream start delay"
 msgstr "Opóźnienie startu strumieniowania Http(s)"
@@ -10308,6 +10316,9 @@ msgstr "Islandzki"
 msgid "Icons"
 msgstr "Ikony"
 
+msgid "Idle"
+msgstr ""
+
 msgid "Idle Time: "
 msgstr "Czas bezczynności: "
 
@@ -10328,9 +10339,7 @@ msgstr "Jeśli akcja jest konfigurowalna przez użytkownika, jej wpis pomocy zos
 
 #, fuzzy
 msgid "If an event is interrupted and divided into separate recordings, this feature will search for alternate broadcasts of the same event."
-msgstr ""
-"Jeśli zdarzenie zostanie przerwane i podzielone na oddzielne nagrania, "
-"funkcja ta będzie szukać alternatywnych transmisji tego samego zdarzenia."
+msgstr "Jeśli zdarzenie zostanie przerwane i podzielone na oddzielne nagrania, funkcja ta będzie szukać alternatywnych transmisji tego samego zdarzenia."
 
 #, fuzzy
 msgid "If enabled the output resolution of the receiver will try to match the resolution of the video contents resolution."
@@ -10356,8 +10365,7 @@ msgstr "Jeśli zostanie przekroczona przestrzeń maksymalna,najstarsze zostaną 
 
 #, fuzzy
 msgid "If set to 'yes' it will enable PLAY,PAUSE, SEEK on channel list movies"
-msgstr ""
-"Jeśli ustawione na 'tak' włącza PLAY, PAUSE, SEEK na filmach z listy kanałów"
+msgstr "Jeśli ustawione na 'tak' włącza PLAY, PAUSE, SEEK na filmach z listy kanałów"
 
 msgid "If set to 'yes', allows you to use timeshift with alternative audio plugins."
 msgstr "Jeśli ustawiony jest na \"tak\", pozwala na używanie timeshift z alternatywnymi wtyczkami audio."
@@ -10713,6 +10721,10 @@ msgstr "Nazwa pliku konfiguracyjnego:"
 #, fuzzy
 msgid "Input devices"
 msgstr "Ustawienia urządzeń wejściowych"
+
+#, fuzzy
+msgid "Input mode:"
+msgstr "Wejście "
 
 msgid "Input scroll position"
 msgstr "Wprowadzanie pozycji przewijania"
@@ -11356,6 +11368,10 @@ msgid "Last config"
 msgstr "Ostatnie ustawienia"
 
 #, fuzzy
+msgid "Last error:"
+msgstr "Z błędami:"
+
+#, fuzzy
 msgid "Last flash"
 msgstr "Ostatnia aktualizacja"
 
@@ -11585,6 +11601,10 @@ msgstr "Litewski"
 msgid "Live"
 msgstr "Na żywo"
 
+#, fuzzy
+msgid "Live TV"
+msgstr "Na żywo"
+
 msgid "Live TV Actions"
 msgstr "Akcje telewizyjne na żywo"
 
@@ -11758,9 +11778,7 @@ msgstr "Niższa liczba klatek na sekundę oszczędza czas procesora."
 
 #, fuzzy
 msgid "Lower RGB output clipping limit. 'Full range' = no lower clipping, 'Limited range' clips RGB outputs to 64 (broadcast safe)."
-msgstr ""
-"Niższy limit cięcia wyjściowego RGB. 'Pełny zakres' = brak dolnego wycinka, "
-"'Ograniczony zakres' klipuje wyjścia RGB do 64 (nadawanie bezpieczne)."
+msgstr "Niższy limit cięcia wyjściowego RGB. 'Pełny zakres' = brak dolnego wycinka, 'Ograniczony zakres' klipuje wyjścia RGB do 64 (nadawanie bezpieczne)."
 
 #, fuzzy
 msgid "Lower USB"
@@ -12063,10 +12081,7 @@ msgstr "Maksymalna powierzchnia używana (MB):"
 
 #, fuzzy
 msgid "Maximum time to wait for the first descrambling key (CW) before starting the decoder. 'Disabled' starts the decoder immediately without waiting."
-msgstr ""
-"Maksymalny czas oczekiwania na pierwszy klucz descrambling (CW) przed "
-"uruchomieniem dekodera. \"Wyłączony\" uruchamia dekoder natychmiast bez "
-"czekania."
+msgstr "Maksymalny czas oczekiwania na pierwszy klucz descrambling (CW) przed uruchomieniem dekodera. \"Wyłączony\" uruchamia dekoder natychmiast bez czekania."
 
 msgid "Mayotte"
 msgstr "Majotta"
@@ -12875,10 +12890,7 @@ msgstr "INFORMACJA: Te %d katalogi/pliki istnieją i zostaną nadpisane!"
 
 #, fuzzy
 msgid "NOTE: While the console screen is hidden from view the buttons are still active. Pressing any enabled button will cause the screen to reappear but the button will not be actioned."
-msgstr ""
-"UWAGA: Podczas gdy ekran konsoli jest ukryty z widoku, przyciski są nadal "
-"aktywne. Naciśnięcie dowolnego włączonego przycisku spowoduje ponowne "
-"pojawienie się ekranu, ale przycisk nie zostanie aktywowany."
+msgstr "UWAGA: Podczas gdy ekran konsoli jest ukryty z widoku, przyciski są nadal aktywne. Naciśnięcie dowolnego włączonego przycisku spowoduje ponowne pojawienie się ekranu, ale przycisk nie zostanie aktywowany."
 
 msgid "NOW"
 msgstr "Teraz"
@@ -13241,9 +13253,7 @@ msgstr "Brak dostępnych ECMPid"
 
 #, fuzzy
 msgid "No ECM info is currently available. This is only available while decrypting."
-msgstr ""
-"Obecnie nie ma informacji o ECM. Jest to dostępne tylko podczas "
-"odszyfrowania."
+msgstr "Obecnie nie ma informacji o ECM. Jest to dostępne tylko podczas odszyfrowania."
 
 #, fuzzy
 msgid "No ECMPids available"
@@ -13609,9 +13619,7 @@ msgstr "Release Note"
 
 #, fuzzy
 msgid "Note: Please provide this technical information when requesting support on community forums."
-msgstr ""
-"Uwaga: Proszę podać te informacje techniczne, zwracając się o wsparcie na "
-"forum społeczności."
+msgstr "Uwaga: Proszę podać te informacje techniczne, zwracając się o wsparcie na forum społeczności."
 
 msgid "Nothing"
 msgstr "Nic"
@@ -13804,6 +13812,10 @@ msgstr "Oktagonalnie"
 msgid "Off"
 msgstr "Wyłącz"
 
+#, fuzzy
+msgid "Offline"
+msgstr "Jedna linia"
+
 msgid "Offline decode delay (ms)"
 msgstr "Opóźnienie dekodowania off-line (ms)"
 
@@ -13856,6 +13868,10 @@ msgstr "Jedna linia"
 #, fuzzy
 msgid "One partition"
 msgstr "Partycja"
+
+#, fuzzy
+msgid "Online"
+msgstr "Jedna linia"
 
 msgid "Online update of your %s %s software."
 msgstr "Aktualizacja systemu %s %s."
@@ -14283,6 +14299,10 @@ msgstr "Tekst wyjściowy:"
 
 msgid "Overall progress:"
 msgstr "Ogólny postęp:"
+
+#, fuzzy
+msgid "Overload"
+msgstr "Przeładuj"
 
 msgid "Overscan Test"
 msgstr "Test Overscan"
@@ -15459,9 +15479,7 @@ msgstr "Preferuj napisy zapamiętane dla kanału"
 
 #, fuzzy
 msgid "Preferred connection priority when multiple Wi-Fi profiles are configured. Lower numbers have a higher priority."
-msgstr ""
-"Preferowany priorytet połączenia przy konfigurowaniu wielu profili Wi- Fi. "
-"Niższe liczby mają wyższy priorytet."
+msgstr "Preferowany priorytet połączenia przy konfigurowaniu wielu profili Wi- Fi. Niższe liczby mają wyższy priorytet."
 
 msgid "Preferred tuner"
 msgstr "Preferowany tuner"
@@ -15798,6 +15816,10 @@ msgstr "Pasek postępu/Pozostałe minuty z prawej"
 msgid "Progress info font size"
 msgstr "Rozmiar czcionki informacji o postępie"
 
+#, fuzzy
+msgid "Progressive"
+msgstr "Pasek postępu"
+
 msgid "Properties of current title"
 msgstr "Właściwości aktualnego tytułu"
 
@@ -16077,6 +16099,29 @@ msgstr "Zacisk RGB (dolny)"
 #, fuzzy
 msgid "RGB clamp (upper)"
 msgstr "Zacisk RGB (górny)"
+
+msgid "RTSP"
+msgstr ""
+
+#, python-format
+msgid "RTSP %s"
+msgstr ""
+
+#, fuzzy
+msgid "RTSP / HLS Streaming Status Actions"
+msgstr "Strumieniowanie"
+
+#, fuzzy, python-format
+msgid "RTSP client connected: %s"
+msgstr "Podłączeni klienci"
+
+#, fuzzy, python-format
+msgid "RTSP client disconnected: %s"
+msgstr "odłączony"
+
+#, fuzzy
+msgid "RTSP/HLS Streaming Status"
+msgstr "Strumieniowanie"
 
 msgid "Radio"
 msgstr "Radio"
@@ -16801,6 +16846,10 @@ msgstr "Rozdzielczość"
 msgid "Resolution unit"
 msgstr "Jednostka rozdzielczości"
 
+#, fuzzy
+msgid "Resolution:"
+msgstr "Rozdzielczość"
+
 msgid "Restart"
 msgstr "Restart"
 
@@ -17153,6 +17202,9 @@ msgstr "Przełącznik karty SD BŁĄD! - już na Nand"
 msgid "SDcard switch ERROR! - already on mmc"
 msgstr "Przełącznik karty SD BŁĄD! - już na mmc"
 
+msgid "SERVER"
+msgstr ""
+
 msgid "SINGLE LAYER DVD"
 msgstr "Jednowarstwowe DVD"
 
@@ -17424,6 +17476,10 @@ msgstr "Szukaj lokalnych rozszerzeń i je zainstaluj."
 msgid "Scan for terrestrial LCNs and create LCN bouquets"
 msgstr "Skanuj dla naziemnych LCNs i twórz bukiety LCN"
 
+#, fuzzy
+msgid "Scan mode:"
+msgstr "Tryb skalowania"
+
 msgid "Scan wireless networks"
 msgstr "Skanuj sieci bezprzewodowe"
 
@@ -17619,11 +17675,7 @@ msgstr "Wybierz \"pasmo\", jeśli używasz \"uniwersalnego\" konwertera, w przec
 
 #, fuzzy
 msgid "Select 'Disabled' to disable all automated volume adjustments. Select 'Defined volume offsets' to assign a specified offset to the service's volume level. Select 'Last used/set volume' to remember the volume level last used for each service."
-msgstr ""
-"Wybierz 'Wyłączone', aby wyłączyć wszystkie automatyczne ustawienia "
-"głośności. Wybierz 'Określone przesunięcia głośności' w celu przypisania "
-"określonego przesunięcia do poziomu głośności usługi. Wybierz 'Last used / "
-"set volume', aby zapamiętać poziom głośności ostatni dla każdej usługi."
+msgstr "Wybierz 'Wyłączone', aby wyłączyć wszystkie automatyczne ustawienia głośności. Wybierz 'Określone przesunięcia głośności' w celu przypisania określonego przesunięcia do poziomu głośności usługi. Wybierz 'Last used / set volume', aby zapamiętać poziom głośności ostatni dla każdej usługi."
 
 msgid "Select 'Enable' to start the CI+ helper."
 msgstr "Wybierz „Włącz”, aby uruchomić CI+ helper."
@@ -17648,11 +17700,7 @@ msgstr "Wybierz opcję „Dostawca”, aby skanować z predefiniowanej listy mul
 
 #, fuzzy
 msgid "Select 'Unique numbering' to assign unique numbers for every service in every bouquet. Use 'Bouquets start at 1' to start numbering each bouquet from 1. Use 'LCN numbering' to use consistent service LCNs where ever that service is used."
-msgstr ""
-"Wybierz 'Unikalną numerację', aby przypisać unikalne numery do każdej usługi "
-"w każdym bukiecie. Użyj 'Bukiet zacząć od 1', aby rozpocząć numerację "
-"każdego bukietu od 1. \"Numeracja LCN\" służy do korzystania ze spójnych "
-"LCNs usług tam, gdzie kiedykolwiek jest używana."
+msgstr "Wybierz 'Unikalną numerację', aby przypisać unikalne numery do każdej usługi w każdym bukiecie. Użyj 'Bukiet zacząć od 1', aby rozpocząć numerację każdego bukietu od 1. \"Numeracja LCN\" służy do korzystania ze spójnych LCNs usług tam, gdzie kiedykolwiek jest używana."
 
 msgid "Select 'Yes' if an end time is required for this timer."
 msgstr "Wybierz opcję „Tak”, jeśli dla tego timera wymagana jest godzina zakończenia."
@@ -17676,19 +17724,14 @@ msgstr "Nawet jeśli uruchomi się timer nagrywania „Zap”?"
 
 #, fuzzy
 msgid "Select 'Yes' if you want to wake the TV when a 'Wakeup' scheduled task is starting."
-msgstr ""
-"Wybierz 'Tak', jeśli chcesz obudzić telewizor, kiedy zaczyna się zaplanowane "
-"zadanie 'Wakeup'."
+msgstr "Wybierz 'Tak', jeśli chcesz obudzić telewizor, kiedy zaczyna się zaplanowane zadanie 'Wakeup'."
 
 msgid "Select 'Yes' the keep the InfoBar displayed, with no timeout, while media playback is paused."
 msgstr "Jeśli jest ustawione na 'tak' pasek informacyjny pozostanie wyświetlany na stałe w stanie 'pauzy' (bez timeoutu)."
 
 #, fuzzy
 msgid "Select 'Yes' to allow the VPS to adjust recording timers based on broadcast Program Delivery Control (PDC) data. For this to work the service must provide reliable event PDC data."
-msgstr ""
-"Wybierz 'Tak', aby umożliwić VPS regulację zegarów zapisu w oparciu o dane z "
-"programu transmisji (PDC). W tym celu usługa musi zapewniać wiarygodne dane "
-"PDC."
+msgstr "Wybierz 'Tak', aby umożliwić VPS regulację zegarów zapisu w oparciu o dane z programu transmisji (PDC). W tym celu usługa musi zapewniać wiarygodne dane PDC."
 
 msgid "Select 'Yes' to allow use of the seek bar to jump to a selected point within the event."
 msgstr "Jeśli ustawione na 'tak', pozwala wykorzystać pasek wyszukiwania do przewijania timeshift'u."
@@ -17726,19 +17769,14 @@ msgstr "Wybierz opcję „Tak”, aby włączyć tłumaczenie wspomagane sztuczn
 
 #, fuzzy
 msgid "Select 'Yes' to enable DNS entry rotation. This rotation changes the order in which the list of DNS servers is used and can avoid issues if a DNS server in the list becomes unavailable."
-msgstr ""
-"Wybierz 'Tak', aby włączyć rotację wejścia DNS. Ta rotacja zmienia kolejność "
-"użycia listy serwerów DNS i może uniknąć problemów, jeśli serwer DNS na "
-"liście staje się niedostępny."
+msgstr "Wybierz 'Tak', aby włączyć rotację wejścia DNS. Ta rotacja zmienia kolejność użycia listy serwerów DNS i może uniknąć problemów, jeśli serwer DNS na liście staje się niedostępny."
 
 msgid "Select 'Yes' to enable editing of this device's settings. Selecting 'No' resets the devices settings to their default values."
 msgstr "Wybierz \"Tak\", aby włączyć edycję ustawień urządzenia. Wybierz \"Nie\" aby przywrócić domyślne ustawienia urządzenia."
 
 #, fuzzy
 msgid "Select 'Yes' to enable new Zap timers to have an end time turned on and defined by default."
-msgstr ""
-"Wybierz 'Tak', aby włączyć nowe timery Zap, aby włączyć i zdefiniować "
-"domyślnie czas zakończenia."
+msgstr "Wybierz 'Tak', aby włączyć nowe timery Zap, aby włączyć i zdefiniować domyślnie czas zakończenia."
 
 msgid "Select 'Yes' to enable preview of channels while in the EPG list."
 msgstr "Jeśli jest ustawione na 'tak' ,można przeglądać kanały na liście EPG."
@@ -17751,9 +17789,7 @@ msgstr "Wybierz opcję „Tak”, aby włączyć ładowanie niepołączonych lis
 
 #, fuzzy
 msgid "Select 'Yes' to enable the monitoring UI web interface for the DNSCrypt subsystem."
-msgstr ""
-"Wybierz 'Tak', aby umożliwić monitorowanie interfejsu internetowego UI dla "
-"podsystemu DNSCrypt."
+msgstr "Wybierz 'Tak', aby umożliwić monitorowanie interfejsu internetowego UI dla podsystemu DNSCrypt."
 
 msgid "Select 'Yes' to enable use of the LEFT/RIGHT buttons to move PageUp/PageDown when the LEFT/RIGHT buttons are otherwise undefined. This provides legacy navigation for users who prefer it."
 msgstr "Wybierz 'Tak', aby umożliwić użycie przycisków LEWO/PRAWO do poruszania się W górę/W dół, gdy przyciski LEWO/PRAWO są w innym przypadku niezdefiniowane. Zapewnia to (starą) nawigację dla użytkowników, którzy ją preferują."
@@ -17878,10 +17914,7 @@ msgstr "Wybierz \"Tak\", aby wyświetlić pakiety wtyczek systemowych na ekranie
 
 #, fuzzy
 msgid "Select 'Yes' to show the 'Movie Selection' entry in the Main Menu. This can provide access to the Movie Selection screen when there is no assigned button on the remote control."
-msgstr ""
-"Wybierz 'Tak', aby pokazać wpis 'Wybór filmu' w menu głównym. Może to "
-"zapewnić dostęp do ekranu wyboru filmów, gdy na pilocie nie ma przypisanego "
-"przycisku."
+msgstr "Wybierz 'Tak', aby pokazać wpis 'Wybór filmu' w menu głównym. Może to zapewnić dostęp do ekranu wyboru filmów, gdy na pilocie nie ma przypisanego przycisku."
 
 msgid "Select 'Yes' to show the advanced setting options."
 msgstr "Wybierz \"Tak\", aby wyświetlić zaawansowane opcje ustawień."
@@ -17915,9 +17948,7 @@ msgstr "Wybierz 'Tak', aby podzielić zadania na osobne działania."
 
 #, fuzzy
 msgid "Select 'Yes' to use PDC data, if available on the current service, to accurately stop the instant recording at the end of the event."
-msgstr ""
-"Wybierz 'Tak', aby użyć danych PDC, jeśli są dostępne w bieżącej usłudze, "
-"aby dokładnie przerwać nagrywanie na koniec zdarzenia."
+msgstr "Wybierz 'Tak', aby użyć danych PDC, jeśli są dostępne w bieżącej usłudze, aby dokładnie przerwać nagrywanie na koniec zdarzenia."
 
 msgid "Select 'Yes' to use alternate GitHub feed IP addresses. This can be helpful if you use a VPN and the normal feeds can't be accessed via the published DNS names."
 msgstr "Wybierz \"Tak\", aby użyć alternatywnego adresu IP źródła GitHub. Może to być pomocne, gdy używasz VPN, a nie można uzyskać dostępu do normalnych źródeł za pomocą opublikowanych nazw DNS."
@@ -17933,9 +17964,7 @@ msgstr "Wybierz 'Tak', aby użyć klawiszy numerycznych do szybkiego wyboru plik
 
 #, fuzzy
 msgid "Select 'Yes' to wake the receiver from Shutdown prior to the recording start time to allow the PDC data to make last minute timer adjustments."
-msgstr ""
-"Wybierz 'Tak', aby obudzić odbiornik z Shutdown przed czasem rozpoczęcia "
-"nagrywania, aby umożliwić PDC dokonanie korekt czasu w ostatniej chwili."
+msgstr "Wybierz 'Tak', aby obudzić odbiornik z Shutdown przed czasem rozpoczęcia nagrywania, aby umożliwić PDC dokonanie korekt czasu w ostatniej chwili."
 
 msgid "Select 'Yes, to display the InfoBar when fast forwarding or rewinding during media playback."
 msgstr "Jeśli jest ustawione na 'tak' ,pasek informacyjny będzie wyświetlany podczas szybkiego przewijania do przodu lub do tyłu(odtwarzacz multimediów)."
@@ -18060,9 +18089,7 @@ msgstr "Wybierz kolejność sortowania plików tymczasowych dla bieżącej kolum
 
 #, fuzzy
 msgid "Select a receiver to use for client mode. If the host receiver is not listed, manually enter the URL or IP address."
-msgstr ""
-"Wybierz odbiornik do użycia w trybie klienta. Jeśli odbiornik hosta nie jest "
-"wymieniony, ręcznie wprowadź adres URL lub IP."
+msgstr "Wybierz odbiornik do użycia w trybie klienta. Jeśli odbiornik hosta nie jest wymieniony, ręcznie wprowadź adres URL lub IP."
 
 msgid "Select a receiver to use for fallback tuners. If the host receiver is not listed, manually enter the URL or IP address"
 msgstr ""
@@ -18076,8 +18103,7 @@ msgstr "Wybierz czas, po którym ten timer może się rozpocząć."
 
 #, fuzzy
 msgid "Select a time, when in Standby, before which descramble can proceed."
-msgstr ""
-"Wybierz czas, kiedy w Standby, przed którym descramble może kontynuować."
+msgstr "Wybierz czas, kiedy w Standby, przed którym descramble może kontynuować."
 
 msgid "Select a tuner"
 msgstr "Wybierz tuner"
@@ -18141,9 +18167,7 @@ msgstr "Wybierz pliki kopii zapasowej"
 
 #, fuzzy
 msgid "Select how long the screen saver image will stay in the same location on the screen before it will be moved."
-msgstr ""
-"Wybierz, jak długo obraz wygaszacza ekranu pozostanie w tym samym miejscu na "
-"ekranie, zanim zostanie przesunięty."
+msgstr "Wybierz, jak długo obraz wygaszacza ekranu pozostanie w tym samym miejscu na ekranie, zanim zostanie przesunięty."
 
 msgid "Select how long to display status messages."
 msgstr "Wybierz, jak długo mają być wyświetlane komunikaty o stanie."
@@ -18185,11 +18209,7 @@ msgstr "Wybierz, czy wymagany jest czas zakończenia."
 
 #, fuzzy
 msgid "Select if data entry timeouts are to be applied when entering digits into the service selection pop up screen. When a timeout is exceeded the currently entered number will be used for the service selection. The default timeouts are first digit 3 seconds, other digits 1 second."
-msgstr ""
-"Wybierz, czy czas wprowadzania danych ma być zastosowany przy wprowadzaniu "
-"cyfr do ekranu wyboru usługi. Po przekroczeniu limitu czasu do wyboru usług "
-"zostanie zastosowana aktualnie wprowadzona liczba. Domyślny czas to pierwsza "
-"cyfra 3 sekundy, inne cyfry 1 sekundy."
+msgstr "Wybierz, czy czas wprowadzania danych ma być zastosowany przy wprowadzaniu cyfr do ekranu wyboru usługi. Po przekroczeniu limitu czasu do wyboru usług zostanie zastosowana aktualnie wprowadzona liczba. Domyślny czas to pierwsza cyfra 3 sekundy, inne cyfry 1 sekundy."
 
 msgid "Select if the default value for a setup entry is shown and, if so, where it is displayed in relation to the description."
 msgstr "Ta opcja pozwoli ci wybrać jeśli domyślna wartość ustawień elementu jest widoczna i jeśli jest wyświetlana w relacji do tego opisu."
@@ -18294,9 +18314,7 @@ msgstr "Język tłumaczenia oparty na sztucznej inteligencji"
 
 #, fuzzy
 msgid "Select the DNS server(s) that will be used to lookup the host name to resolve the IP address."
-msgstr ""
-"Wybierz serwer (-i) DNS, który (-e) będzie (będą) używany do wyszukiwania "
-"nazwy hosta, aby rozwiązać adres IP."
+msgstr "Wybierz serwer (-i) DNS, który (-e) będzie (będą) używany do wyszukiwania nazwy hosta, aby rozwiązać adres IP."
 
 msgid "Select the No / False response"
 msgstr "Wybierz odpowiedź jako Nie/Fałsz"
@@ -18412,15 +18430,11 @@ msgstr "Wybierz opóźnienie, które będzie używane podczas zamykania usługi 
 
 #, fuzzy
 msgid "Select the delay to wait after pressing more digit buttons to select a new service."
-msgstr ""
-"Wybierz opóźnienie oczekiwania po naciśnięciu więcej cyfrowych przycisków, "
-"aby wybrać nową usługę."
+msgstr "Wybierz opóźnienie oczekiwania po naciśnięciu więcej cyfrowych przycisków, aby wybrać nową usługę."
 
 #, fuzzy
 msgid "Select the delay to wait after pressing the first digit button to select a new service."
-msgstr ""
-"Wybierz opóźnienie oczekiwania po naciśnięciu przycisku pierwszej cyfry, aby "
-"wybrać nową usługę."
+msgstr "Wybierz opóźnienie oczekiwania po naciśnięciu przycisku pierwszej cyfry, aby wybrać nową usługę."
 
 msgid "Select the desired function and click on 'OK' to assign it. Use 'CH+/-' to toggle between the lists. Select an assigned function and click on 'OK' to deassign it. Use 'NEXT/PREVIOUS' to change the order of the assigned functions."
 msgstr "Wybierz żądaną funkcję i kliknij 'OK ', aby go przypisać.Użyj 'CH +/-' aby przełączać między listami.Wybierz przypisaną funkcję i kliknij 'OK ' aby przypisać. Użyj 'następny/poprzedni 'aby zmienić kolejność przypisanych funkcji."
@@ -18508,15 +18522,11 @@ msgstr "Wybierz metodę przywracania rozdzielczości ekranu i bufora ramki po op
 
 #, fuzzy
 msgid "Select the mode of access, Read/Write or Read Only, applied to all automatically exported Samba shares."
-msgstr ""
-"Wybierz tryb dostępu, Read / Write lub Read Only, stosowany do wszystkich "
-"automatycznie eksportowanych akcji Samba."
+msgstr "Wybierz tryb dostępu, Read / Write lub Read Only, stosowany do wszystkich automatycznie eksportowanych akcji Samba."
 
 #, fuzzy
 msgid "Select the mode of access, Read/Write or Read Only, applied to all exported directories."
-msgstr ""
-"Wybierz tryb dostępu, Read / Write lub Read Only, stosowany do wszystkich "
-"eksportowanych katalogów."
+msgstr "Wybierz tryb dostępu, Read / Write lub Read Only, stosowany do wszystkich eksportowanych katalogów."
 
 msgid "Select the model number of your Unicable device. If the model number is not listed, set 'SCR' to 'User defined' and enter the device parameters manually according to its specifications."
 msgstr "Wybierz numer modelu swojego urządzenia Unicable. Jeśli numeru modelu nie ma na liście, ustaw „SCR” na „zdefiniowane przez użytkownika” i ręcznie wprowadź parametry urządzenia zgodnie z arkuszem specyfikacji."
@@ -18542,16 +18552,11 @@ msgstr ""
 
 #, fuzzy
 msgid "Select the network metric for this adapter. When multiple adapters are active, the one with the lowest network metric is used as the default route for network traffic."
-msgstr ""
-"Wybierz metrykę sieci dla tego adaptera. Gdy działa wiele adapterów, jako "
-"domyślna trasa ruchu sieciowego używa się tego z najniższym metrykiem "
-"sieciowym."
+msgstr "Wybierz metrykę sieci dla tego adaptera. Gdy działa wiele adapterów, jako domyślna trasa ruchu sieciowego używa się tego z najniższym metrykiem sieciowym."
 
 #, fuzzy
 msgid "Select the network name (SSID) of the wireless network to which the receiver should connect."
-msgstr ""
-"Wybierz nazwę sieci (SSID) sieci bezprzewodowej, z którą odbiornik powinien "
-"się połączyć."
+msgstr "Wybierz nazwę sieci (SSID) sieci bezprzewodowej, z którą odbiornik powinien się połączyć."
 
 #, fuzzy, python-format
 msgid "Select the new mount point for: '%s'"
@@ -18565,9 +18570,7 @@ msgstr "Wybierz następną pozycję na liście"
 
 #, fuzzy
 msgid "Select the preferred service information to display, in addition to the service number, for the service selection pop up screen."
-msgstr ""
-"Wybierz preferowaną informację o usłudze do wyświetlenia, oprócz numeru "
-"usługi, na ekranie wyboru usługi."
+msgstr "Wybierz preferowaną informację o usłudze do wyświetlenia, oprócz numeru usługi, na ekranie wyboru usługi."
 
 msgid "Select the previous item in list or move the cursor left"
 msgstr "Wybierz poprzednią pozycję na liście lub przesuń kursor w lewo"
@@ -18588,8 +18591,7 @@ msgstr "Wybierz protokół używany przez urządzenie SCR. Dostępne opcje to �
 
 #, fuzzy
 msgid "Select the receiver action when the TV switches away from the receiver input."
-msgstr ""
-"Wybierz akcję odbiornika, gdy telewizor wyłącza się od wejścia odbiornika."
+msgstr "Wybierz akcję odbiornika, gdy telewizor wyłącza się od wejścia odbiornika."
 
 msgid "Select the refresh rate to be used on the TV."
 msgstr "Wybierz częstotliwość odświeżania dla TV."
@@ -18617,9 +18619,7 @@ msgstr "Wybierz układ ekranu spośród opcji dostępnych w skórce, który będ
 
 #, fuzzy
 msgid "Select the security protocol that will be used to access the selected wireless network."
-msgstr ""
-"Wybierz protokół bezpieczeństwa, który będzie używany do dostępu do wybranej "
-"sieci bezprzewodowej."
+msgstr "Wybierz protokół bezpieczeństwa, który będzie używany do dostępu do wybranej sieci bezprzewodowej."
 
 msgid "Select the shifted character set"
 msgstr "Wybierz przesunięty zestaw znaków"
@@ -18629,14 +18629,11 @@ msgstr "Wybierz przesunięty zestaw znaków tylko dla następnego znaku"
 
 #, fuzzy
 msgid "Select the size of the volume step when the VOLUME buttons are pressed."
-msgstr ""
-"Wybierz rozmiar kroku głośności po naciśnięciu przycisków do rejestracji."
+msgstr "Wybierz rozmiar kroku głośności po naciśnięciu przycisków do rejestracji."
 
 #, fuzzy
 msgid "Select the size of the volume steps when the VOLUME buttons are held down."
-msgstr ""
-"Wybierz rozmiar stopni głośności, gdy przyciski platynowe są przytrzymywane "
-"w dół."
+msgstr "Wybierz rozmiar stopni głośności, gdy przyciski platynowe są przytrzymywane w dół."
 
 msgid "Select the sort order for the file lines:"
 msgstr "Wybierz kolejność sortowania linii plików:"
@@ -18790,10 +18787,7 @@ msgstr "Wybierz, czy ścieżki dźwiękowe AC3 powinny być przystosowywane do s
 
 #, fuzzy
 msgid "Select whether AC4 (Dolby Atmos) audio tracks should be passed through to the AVR, downmixed to stereo, or auto-routed based on HDMI sink capability."
-msgstr ""
-"Wybierz, czy utwory audio AC4 (Dolby Atmos) powinny być przekazywane do AVR, "
-"zmiksowane do stereo, czy automatycznie kierowane w oparciu o zdolność do "
-"zlewu HDMI."
+msgstr "Wybierz, czy utwory audio AC4 (Dolby Atmos) powinny być przekazywane do AVR, zmiksowane do stereo, czy automatycznie kierowane w oparciu o zdolność do zlewu HDMI."
 
 #, fuzzy
 msgid "Select whether DTS channel audio tracks should be downmixed or transcoded."
@@ -18809,9 +18803,7 @@ msgstr "Wybierz, czy ścieżki dźwiękowe DTS powinny być przystosowywane do s
 
 #, fuzzy
 msgid "Select whether IPv4, IPv6, or both protocols should be used. If both are enabled then which should be preferred."
-msgstr ""
-"Wybierz, czy należy stosować IPv4, IPv6, czy oba protokoły. Jeśli oba są "
-"włączone, to co powinno być preferowane."
+msgstr "Wybierz, czy należy stosować IPv4, IPv6, czy oba protokoły. Jeśli oba są włączone, to co powinno być preferowane."
 
 #, fuzzy
 msgid "Select whether WMA Pro channel audio tracks should be downmixed or transcoded."
@@ -18963,24 +18955,23 @@ msgstr "Serwer nie działa"
 
 #, fuzzy
 msgid "Server must not enforce its own blocklist. Some servers may implement their own blacklists to block sites for parental control, ad blocking, etc. reasons."
-msgstr ""
-"Serwer nie może egzekwować własnej blokady. Niektóre serwery mogą wdrażać "
-"własne czarne listy w celu blokowania stron dla potrzeb kontroli "
-"rodzicielskiej, blokowania reklam itp."
+msgstr "Serwer nie może egzekwować własnej blokady. Niektóre serwery mogą wdrażać własne czarne listy w celu blokowania stron dla potrzeb kontroli rodzicielskiej, blokowania reklam itp."
 
 #, fuzzy
 msgid "Server must not log user queries (declarative). This can improve the privacy of DNS lookups by not logging the request on the server providing the data."
-msgstr ""
-"Serwer nie może zapisywać zapytań użytkowników (zgłaszających). Może to "
-"poprawić prywatność wyszukiwania DNS, nie logując się na żądanie serwera "
-"dostarczającego dane."
+msgstr "Serwer nie może zapisywać zapytań użytkowników (zgłaszających). Może to poprawić prywatność wyszukiwania DNS, nie logując się na żądanie serwera dostarczającego dane."
 
 #, fuzzy
 msgid "Server must support DNS Security Extensions (DNSSEC). This is a data signing option that protects the integrity of the DNS data against compromises like cache poisoning."
-msgstr ""
-"Serwer musi obsługiwać rozszerzenia bezpieczeństwa DNS (DNSSEC). Jest to "
-"opcja podpisywania danych, która chroni integralność danych DNS przed "
-"kompromisem, takim jak zatrucie cache."
+msgstr "Serwer musi obsługiwać rozszerzenia bezpieczeństwa DNS (DNSSEC). Jest to opcja podpisywania danych, która chroni integralność danych DNS przed kompromisem, takim jak zatrucie cache."
+
+#, fuzzy
+msgid "Server offline"
+msgstr "Rozmiar czcionki kanału"
+
+#, fuzzy
+msgid "Server online"
+msgstr "Rozmiar czcionki kanału"
 
 msgid "Server:"
 msgstr "Serwer:"
@@ -19155,6 +19146,10 @@ msgstr "Usługa zap inne opóźnienie przycisku"
 msgid "Service zap screen contents"
 msgstr "Akcje usługi Zap"
 
+#, fuzzy
+msgid "Service:"
+msgstr "Kanały"
+
 msgid "ServiceName"
 msgstr "Nazwa kanału"
 
@@ -19300,9 +19295,7 @@ msgstr "Wpisz hasło do zalogowania do OpenWebif tunera rezerwowego"
 
 #, fuzzy
 msgid "Set the port address (8080-9999) for the monitoring UI web interface."
-msgstr ""
-"Ustaw adres portu (8080- 9999) dla monitorującego interfejsu internetowego "
-"UI."
+msgstr "Ustaw adres portu (8080- 9999) dla monitorującego interfejsu internetowego UI."
 
 msgid "Set the port of the OpenWebif from your fallback tuner"
 msgstr "Wpisz port OpenWebif tunera rezerwowego"
@@ -19402,14 +19395,11 @@ msgstr "Jeśli ta opcja jest wyłączona, znaki podkreślenia w nazwach plików 
 
 #, fuzzy
 msgid "Set to 'Enabled' to descramble queued scrambled recordings in Standby mode before shutting down."
-msgstr ""
-"Ustaw na 'Enabled' do descramble w kolejce szyfrowane nagrania w trybie "
-"Standby przed zamknięciem."
+msgstr "Ustaw na 'Enabled' do descramble w kolejce szyfrowane nagrania w trybie Standby przed zamknięciem."
 
 #, fuzzy
 msgid "Set to 'Enabled' to descramble queued scrambled recordings in Standby."
-msgstr ""
-"Ustaw na 'Enabled' do descramble w kolejce szyfrowane nagrania w Standby."
+msgstr "Ustaw na 'Enabled' do descramble w kolejce szyfrowane nagrania w Standby."
 
 #, fuzzy
 msgid "Set to 'Yes' to enable sending the same TV commands for Deep Standby as for regular Standby."
@@ -19551,9 +19541,7 @@ msgstr "Krótkie nazwy plików z czasem"
 
 #, fuzzy
 msgid "Should the FTP connection to the remote receiver be established in passive mode (normally 'no')?"
-msgstr ""
-"Czy połączenie FTP z odbiornikiem zdalnym powinno być ustawione w trybie "
-"pasywnym (zazwyczaj \"nie\")?"
+msgstr "Czy połączenie FTP z odbiornikiem zdalnym powinno być ustawione w trybie pasywnym (zazwyczaj \"nie\")?"
 
 msgid "Should the crash counter be reset to prevent a restart?"
 msgstr "Czy licznik awarii powinien zostać zresetowany, aby zapobiec ponownemu uruchomieniu?"
@@ -20523,9 +20511,7 @@ msgstr "Przeskocz do przodu (wprowadź czas)"
 
 #, fuzzy
 msgid "Skip internet connection check (disables automatic package installation)"
-msgstr ""
-"Pomiń kontrolę połączenia internetowego (wyłącza automatyczną instalację "
-"pakietów)"
+msgstr "Pomiń kontrolę połączenia internetowego (wyłącza automatyczną instalację pakietów)"
 
 msgid "Skip jumping to live while timeshifting with plugins"
 msgstr "Pomiń przeskakiwanie na żywo podczas timeshiftingu za pomocą wtyczek"
@@ -20860,8 +20846,7 @@ msgstr ""
 
 #, fuzzy
 msgid "Sorry, your partition(s) sizes are bigger than total device size."
-msgstr ""
-"Przepraszam, rozmiar partycji jest większy niż całkowity rozmiar urządzenia."
+msgstr "Przepraszam, rozmiar partycji jest większy niż całkowity rozmiar urządzenia."
 
 msgid "Sort"
 msgstr "Sortuj"
@@ -20916,8 +20901,20 @@ msgstr "Nośnik dźwięku"
 msgid "Source"
 msgstr "Źródło dźwięku"
 
+#, fuzzy
+msgid "Source active"
+msgstr "Źródło dźwięku"
+
+#, fuzzy
+msgid "Source inactive"
+msgstr "wyłączone"
+
 msgid "Source request"
 msgstr "Żądanie źródła"
+
+#, fuzzy
+msgid "Source:"
+msgstr "Źródło dźwięku"
 
 msgid "South"
 msgstr "Południe"
@@ -20970,9 +20967,7 @@ msgstr "Określ katalog, który ma być używany podczas uruchamiania Media Play
 
 #, fuzzy
 msgid "Specify the network DNS suffix to be applied when only the host name is provided. This helps the DNS resolver find the requested host."
-msgstr ""
-"Określa przyrostek sieci DNS, który ma być zastosowany, gdy podana jest "
-"tylko nazwa hosta. Pomaga to rozwiązać DNS znaleźć żądany host."
+msgstr "Określa przyrostek sieci DNS, który ma być zastosowany, gdy podana jest tylko nazwa hosta. Pomaga to rozwiązać DNS znaleźć żądany host."
 
 #, fuzzy
 msgid "Speed"
@@ -21990,16 +21985,11 @@ msgstr "%s %s uruchomi się ponownie w ciągu 10 sekund, chyba, że przywracane 
 
 #, fuzzy
 msgid "The AI mode used for translating languages. You can choose the one that gives the most accurate translation for your target language."
-msgstr ""
-"Tryb AI używany do tłumaczenia języków. Możesz wybrać ten, który daje "
-"najbardziej dokładne tłumaczenie dla języka docelowego."
+msgstr "Tryb AI używany do tłumaczenia języków. Możesz wybrać ten, który daje najbardziej dokładne tłumaczenie dla języka docelowego."
 
 #, fuzzy
 msgid "The AI-Powered Translation service will be optimized to provide the best performance based on the the Internet connection upload speed selected."
-msgstr ""
-"Usługa tłumaczeniowa AI- Powered zostanie zoptymalizowana, aby zapewnić "
-"najlepszą wydajność w oparciu o wybraną prędkość wysyłania połączeń "
-"internetowych."
+msgstr "Usługa tłumaczeniowa AI- Powered zostanie zoptymalizowana, aby zapewnić najlepszą wydajność w oparciu o wybraną prędkość wysyłania połączeń internetowych."
 
 msgid ""
 "The AutoTimer plugin is not installed!\n"
@@ -23191,6 +23181,10 @@ msgid "Total clients streaming: %d ( %s )"
 msgstr "Łącznie klientów: %d ( %s )"
 
 #, fuzzy
+msgid "Total clients:"
+msgstr "Razem kart:"
+
+#, fuzzy
 msgid "Total flash"
 msgstr "Wewnętrzny flash"
 
@@ -23252,6 +23246,10 @@ msgstr "Tłumaczenie"
 
 msgid "Transmission mode"
 msgstr "Tryb transmisji"
+
+#, fuzzy
+msgid "Transmitting"
+msgstr "Transkodowanie: "
 
 msgid "Transparent"
 msgstr "Przezroczysty"
@@ -23524,9 +23522,15 @@ msgstr "Test UHD"
 msgid "UP80  (keymap.u80)"
 msgstr "UP80  (keymap.u80)"
 
+msgid "UPSTREAM"
+msgstr ""
+
 #, fuzzy
 msgid "UPX version"
 msgstr "Wersja GCC"
+
+msgid "URI:"
+msgstr ""
 
 msgid "URL"
 msgstr "URL"
@@ -23825,9 +23829,7 @@ msgstr "Uphops: "
 
 #, fuzzy
 msgid "Upper RGB output clipping limit. 'Full range' = no upper clipping, 'Limited range' clips RGB outputs to 940 (broadcast safe)."
-msgstr ""
-"Górny limit cięcia wyjściowego RGB. 'Pełna gama' = brak górnego wycinka, "
-"'Ograniczony zakres' klipy wyjść RGB do 940 (nadawanie bezpieczne)."
+msgstr "Górny limit cięcia wyjściowego RGB. 'Pełna gama' = brak górnego wycinka, 'Ograniczony zakres' klipy wyjść RGB do 940 (nadawanie bezpieczne)."
 
 #, fuzzy
 msgid "Upper USB"
@@ -23838,6 +23840,10 @@ msgstr "Duże litery"
 
 msgid "Upper line"
 msgstr "górna linia"
+
+#, fuzzy, python-format
+msgid "Upstream %s"
+msgstr "Zatrzymaj"
 
 msgid "Uptime"
 msgstr "Czas pracy"
@@ -23935,9 +23941,7 @@ msgstr "Użyj czasów zakończenia timera Zap"
 
 #, fuzzy
 msgid "Use a DNS cache to locally store recent DNS lookups to improve performance, reduce latency and outgoing traffic."
-msgstr ""
-"Użyj pamięci podręcznej DNS, aby lokalnie przechowywać ostatnie przeglądy "
-"DNS, aby poprawić wydajność, zmniejszyć opóźnienie i ruch wychodzący."
+msgstr "Użyj pamięci podręcznej DNS, aby lokalnie przechowywać ostatnie przeglądy DNS, aby poprawić wydajność, zmniejszyć opóźnienie i ruch wychodzący."
 
 msgid "Use a gateway"
 msgstr "Użyj bramy"
@@ -24045,9 +24049,7 @@ msgstr "górna linia"
 
 #, fuzzy
 msgid "Use spacer lines to pad the bouquet to make the #SERVICE line numbers match the LCN."
-msgstr ""
-"Użyj linii spacji, aby umieścić bukiet, aby numer # SERVICE linii pasuje do "
-"LCN."
+msgstr "Użyj linii spacji, aby umieścić bukiet, aby numer # SERVICE linii pasuje do LCN."
 
 msgid "Use the Left/Right buttons on your remote to adjust the size of the user interface. Left button decreases the size, Right increases the size."
 msgstr "Użyj przycisków LEWO/PRAWO na pilocie, aby dostosować rozmiar interfejsu użytkownika. Lewy przycisk zmniejsza rozmiar, prawy zwiększa rozmiar."
@@ -24099,8 +24101,7 @@ msgstr "Użyj kreatora sieci, aby skonfigurować swoją Sieć."
 
 #, fuzzy
 msgid "Use the up/down keys on your remote control to select an option. After that, press OK."
-msgstr ""
-"Użyj klawiszy w górę / dół na pilocie, aby wybrać opcję. Potem naciśnij OK."
+msgstr "Użyj klawiszy w górę / dół na pilocie, aby wybrać opcję. Potem naciśnij OK."
 
 msgid "Use the wizard to set up basic features"
 msgstr "Użyj kreatora aby ustawić podstawowe funkcje"
@@ -24131,15 +24132,11 @@ msgstr "Używany typ skanowania kanałów"
 
 #, fuzzy
 msgid "Used to specify delay when switching between services and AC3 passthrough is enabled."
-msgstr ""
-"Używane do określenia opóźnienia przy przełączaniu się pomiędzy usługami a "
-"przejściem AC3 jest włączone."
+msgstr "Używane do określenia opóźnienia przy przełączaniu się pomiędzy usługami a przejściem AC3 jest włączone."
 
 #, fuzzy
 msgid "Used to specify delay when switching between services and AC3+/Atmos passthrough is enabled."
-msgstr ""
-"Używane do określenia opóźnienia przy przełączaniu pomiędzy usługami i AC3 "
-"+ / Atmos jest włączone."
+msgstr "Używane do określenia opóźnienia przy przełączaniu pomiędzy usługami i AC3 + / Atmos jest włączone."
 
 msgid "Used:"
 msgstr "Używany:"
@@ -24206,6 +24203,9 @@ msgstr "Uzbekistan"
 #, fuzzy
 msgid "VCR scart"
 msgstr "Smart VCR"
+
+msgid "VIDEO"
+msgstr ""
 
 msgid "VLAN connection"
 msgstr "Połączenie VLAN"
@@ -24616,9 +24616,7 @@ msgstr "OSTRZEŻENIE:"
 
 #, fuzzy
 msgid "WARNING: Flash space is critically low. System instability may occur!"
-msgstr ""
-"UWAGA: Przestrzeń Flash jest krytycznie niska. Niestabilność systemu może "
-"wystąpić!"
+msgstr "UWAGA: Przestrzeń Flash jest krytycznie niska. Niestabilność systemu może wystąpić!"
 
 msgid "WEP"
 msgstr "WEP"
@@ -24922,15 +24920,11 @@ msgstr "Po włączeniu, włącz dostęp do sieci Samba bez hasła."
 
 #, fuzzy
 msgid "When enabled, allow connection to access points that don't broadcast their SSID."
-msgstr ""
-"Kiedy włączone, umożliwić połączenie do punktów dostępu, które nie nadają "
-"ich SSID."
+msgstr "Kiedy włączone, umożliwić połączenie do punktów dostępu, które nie nadają ich SSID."
 
 #, fuzzy
 msgid "When enabled, allow each storage device detected to be automatically exported as a Samba share."
-msgstr ""
-"Po włączeniu, pozwolić, aby każde wykryte urządzenie pamięci masowej było "
-"automatycznie eksportowane jako udział Samby."
+msgstr "Po włączeniu, pozwolić, aby każde wykryte urządzenie pamięci masowej było automatycznie eksportowane jako udział Samby."
 
 msgid "When enabled, allow the receiver to be powered on by a remote Wake-on-LAN network signal (Magic Packet)."
 msgstr ""
@@ -24951,9 +24945,7 @@ msgstr "Jeśli włączone, będzie wymagana autoryzacja do oglądania strumieni 
 
 #, fuzzy
 msgid "When enabled, connection via saved network is attempted when the Wi-Fi adapter connects."
-msgstr ""
-"Gdy jest włączona, podczas połączenia z łącznikiem Wi- Fi próbuje się "
-"podłączyć przez zapisaną sieć."
+msgstr "Gdy jest włączona, podczas połączenia z łącznikiem Wi- Fi próbuje się podłączyć przez zapisaną sieć."
 
 msgid "When enabled, content with an aspect ratio of 4:3 will be stretched to fit the screen."
 msgstr "Gdy włączone, zawartość proporcji obrazu 4:3 będzie rozciągana aby dopasować do ekranu."
@@ -24982,9 +24974,7 @@ msgstr ""
 
 #, fuzzy
 msgid "When enabled, map root to nobody (more secure). When disabled, full root access is available."
-msgstr ""
-"Po włączeniu, map root do nikogo (bardziej bezpieczne). Po wyłączeniu, pełny "
-"dostęp root jest dostępny."
+msgstr "Po włączeniu, map root do nikogo (bardziej bezpieczne). Po wyłączeniu, pełny dostęp root jest dostępny."
 
 msgid "When enabled, measure power consumption to detect when the rotor stops turning (when supported by the tuner)."
 msgstr "Gdy włączone, pomiar zużycia energii w celu wykrycia, kiedy rotor zatrzymuje obrót (jeśli jest obsługa w tunerze)."
@@ -24998,9 +24988,7 @@ msgstr "Po włączeniu znaczniki liczb będą ukryte."
 
 #, fuzzy
 msgid "When enabled, obtain the IP address, subnet mask, gateway, and DNS settings automatically via DHCP."
-msgstr ""
-"Gdy jest włączona, uzyskaj automatycznie przez DHCP adres IP, maskę "
-"podsieci, bramkę i ustawienia DNS."
+msgstr "Gdy jest włączona, uzyskaj automatycznie przez DHCP adres IP, maskę podsieci, bramkę i ustawienia DNS."
 
 msgid "When enabled, pressing '0' will zap you to the first channel in your first bouquet and delete your zap-history."
 msgstr "Po włączeniu, wciśnięcie '0' szybko przełączy na pierwszy kanał w pierwszej liście kanałów (lub skonfigurowany poniżej) i usunie historię przełączania."
@@ -25016,9 +25004,7 @@ msgstr "Po włączeniu pokaż komunikaty o stanie lub komunikaty o błędach."
 
 #, fuzzy
 msgid "When enabled, specify custom DNS settings for this adapter instead of the global DNS settings."
-msgstr ""
-"Po włączeniu, należy określić własne ustawienia DNS dla tego adaptera "
-"zamiast globalnych ustawień DNS."
+msgstr "Po włączeniu, należy określić własne ustawienia DNS dla tego adaptera zamiast globalnych ustawień DNS."
 
 msgid "When enabled, subtitles for the hearing impaired can be used."
 msgstr "Gdy włączone, można używać napisów dla niesłyszących."
@@ -25072,9 +25058,7 @@ msgstr ""
 
 #, fuzzy
 msgid "When enabled, this adapter is initialized and activated at boot time."
-msgstr ""
-"Po włączeniu ten adapter jest inicjalizowany i aktywowany w czasie "
-"uruchamiania."
+msgstr "Po włączeniu ten adapter jest inicjalizowany i aktywowany w czasie uruchamiania."
 
 msgid "When enabled, this setting has more weight than 'Preferred tuner for recordings'."
 msgstr "Po włączeniu to ustawienie ma większą wagę niż „Preferowany tuner do nagrań”."
@@ -25873,6 +25857,10 @@ msgstr "dodane krople na import cccam"
 msgid "address:"
 msgstr "adres:"
 
+#, fuzzy
+msgid "adjusting"
+msgstr "Czekaj"
+
 msgid "adult movie/drama"
 msgstr "film dla dorosłych/dramat"
 
@@ -25939,6 +25927,10 @@ msgstr "automatyczny"
 
 msgid "back"
 msgstr "wróć"
+
+#, fuzzy
+msgid "background"
+msgstr "Tło"
 
 msgid "background image"
 msgstr "obraz tła"
@@ -26031,6 +26023,10 @@ msgstr "potwierdzony"
 
 msgid "connected"
 msgstr "połączony"
+
+#, fuzzy
+msgid "connecting"
+msgstr "Połączenie LAN"
 
 msgid "cooking"
 msgstr "gotowanie"
@@ -26335,6 +26331,9 @@ msgstr "hh:mmam/pm"
 msgid "hops:"
 msgstr "hops:"
 
+msgid "idle"
+msgstr ""
+
 msgid "inactive"
 msgstr "wyłączone"
 
@@ -26590,6 +26589,10 @@ msgid ""
 "have fun"
 msgstr ""
 
+#, fuzzy
+msgid "overload"
+msgstr "Przeładuj"
+
 msgid "package"
 msgstr "pakiet"
 
@@ -26694,6 +26697,10 @@ msgstr "rock/pop"
 
 msgid "romance"
 msgstr "romans"
+
+#, fuzzy
+msgid "running"
+msgstr "Uruchomiony"
 
 msgid ""
 "satellites.xml not found or corrupted!\n"
@@ -26911,6 +26918,10 @@ msgstr "tradycyjny (szybki)"
 msgid "traditional (fast), retune"
 msgstr "tradycyjna (szybka), dostrajanie"
 
+#, fuzzy
+msgid "transmitting"
+msgstr "Czekaj"
+
 msgid "tree delete"
 msgstr "usuwanie drzewa"
 
@@ -26998,6 +27009,10 @@ msgstr "Poczekaj na CI ..."
 
 msgid "wait for mmi..."
 msgstr "czekaj na MMI..."
+
+#, fuzzy
+msgid "waiting"
+msgstr "Czekaj"
 
 msgid "water sport"
 msgstr "sporty wodne"

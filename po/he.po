@@ -3,11 +3,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Opendroid\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-10 17:33+0200\n"
+"POT-Creation-Date: 2026-08-17 21:36+0200\n"
 "PO-Revision-Date: 2026-08-17 14:43+0000\n"
 "Last-Translator: Weblate Admin <weblate@example.com>\n"
-"Language-Team: Hebrew <http://localhost:8090/projects/opendroid-enigma2/"
-"enigma2-po/he/>\n"
+"Language-Team: Hebrew <http://localhost:8090/projects/opendroid-enigma2/enigma2-po/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1745,6 +1744,9 @@ msgstr "AC3plus Transcoding"
 msgid "AC4"
 msgstr "DAC"
 
+msgid "ACTIVITY / DIAGNOSTICS"
+msgstr ""
+
 msgid "AFL"
 msgstr "AFL"
 
@@ -1786,6 +1788,9 @@ msgstr "ATSC"
 
 msgid "ATSC provider"
 msgstr "ספק ATSC"
+
+msgid "AUDIO"
+msgstr ""
 
 #, fuzzy
 msgid "AV receiver, soundbar and remote"
@@ -1887,6 +1892,10 @@ msgstr "פעיל"
 
 msgid "Active clients"
 msgstr "לקוחות פעילים"
+
+#, fuzzy
+msgid "Activity:"
+msgstr "כל פעילות"
 
 msgid "Adapter Settings"
 msgstr "הגדרות הסתגלות"
@@ -2121,6 +2130,10 @@ msgstr "להתאים את המיקום האופקי של האותיות המשמ
 
 msgid "Adjust the vertical position of the letters used for teletext."
 msgstr "להתאים את המיקום האנכי של האותיות המשמשות לטלטקסט."
+
+#, fuzzy
+msgid "Adjusting"
+msgstr "OSD הסתגלות"
 
 msgid "Adult"
 msgstr "מבוגרים"
@@ -2684,6 +2697,10 @@ msgstr "יחס Aspect"
 msgid "Aspect ratio set to '%s'."
 msgstr "A/V aspect ratio is '%s'."
 
+#, fuzzy
+msgid "Aspect ratio:"
+msgstr "יחס Aspect"
+
 msgid "Aspect switch"
 msgstr "מתג Aspect"
 
@@ -3178,6 +3195,14 @@ msgstr "ביסלמה"
 msgid "Bitrate"
 msgstr "Bitrate"
 
+#, fuzzy
+msgid "Bitrate setting:"
+msgstr "Edit הגדרות"
+
+#, fuzzy
+msgid "Bitrate:"
+msgstr "Bitrate"
+
 msgid "Black"
 msgstr "שחור"
 
@@ -3343,13 +3368,11 @@ msgstr "Brightness (Dimmed)"
 
 #, fuzzy
 msgid "Brightness applied to the combined video + OSD output. Affects everything on screen including this menu."
-msgstr ""
-"Brightness החל את הפלט המשולב + OSD. משפיע על הכל על המסך כולל תפריט זה."
+msgstr "Brightness החל את הפלט המשולב + OSD. משפיע על הכל על המסך כולל תפריט זה."
 
 #, fuzzy
 msgid "Brightness applied to the video layer only. Does not affect enigma2 menus or OSD."
-msgstr ""
-"ברייטנס החל את שכבת הוידאו בלבד. לא משפיע על התפריטים של enigma2 או OSD."
+msgstr "ברייטנס החל את שכבת הוידאו בלבד. לא משפיע על התפריטים של enigma2 או OSD."
 
 msgid "British Indian Ocean Territory"
 msgstr "אזור האוקיינוס ההודי"
@@ -4418,6 +4441,10 @@ msgstr "לקוחIP"
 msgid "Clients"
 msgstr "לקוחות"
 
+#, fuzzy
+msgid "Clients:"
+msgstr "לקוחות"
+
 msgid "Clone TV screen to LCD"
 msgstr "מסך הטלוויזיה Clone LCD"
 
@@ -4505,6 +4532,9 @@ msgstr "שיעור קוד HP"
 
 msgid "Code rate LP"
 msgstr "Code rate LP"
+
+msgid "Codec:"
+msgstr ""
 
 msgid "Collapse"
 msgstr "התמוטטות"
@@ -5067,6 +5097,10 @@ msgstr "מחובר"
 msgid "Connected: "
 msgstr "מחובר:"
 
+#, fuzzy
+msgid "Connecting"
+msgstr "חיבור"
+
 msgid "Connection information"
 msgstr "מידע חיבור"
 
@@ -5164,13 +5198,11 @@ msgstr "וידאו ו- OSD"
 
 #, fuzzy
 msgid "Contrast applied to the combined video + OSD output. Affects everything on screen including this menu."
-msgstr ""
-"Contrast מוחל על הפקת וידאו + OSD המשולב. משפיע על הכל על המסך כולל תפריט זה."
+msgstr "Contrast מוחל על הפקת וידאו + OSD המשולב. משפיע על הכל על המסך כולל תפריט זה."
 
 #, fuzzy
 msgid "Contrast applied to the video layer only. Does not affect enigma2 menus or OSD."
-msgstr ""
-"Contrast מוחל על שכבת הוידאו בלבד. לא משפיע על התפריטים של enigma2 או OSD."
+msgstr "Contrast מוחל על שכבת הוידאו בלבד. לא משפיע על התפריטים של enigma2 או OSD."
 
 msgid "Control LED can be turned on or off here."
 msgstr "LED שליטה ניתן לכבות או לצאת מכאן."
@@ -7661,15 +7693,11 @@ msgstr "הזן את כתובת ה- IP של המקלט לשימוש עבור מכ
 
 #, fuzzy
 msgid "Enter the IP address or subnet (e.g. 192.168.1.0/24) to which NFS host access is granted. Enter '*', the default, for all host access."
-msgstr ""
-"הזן את כתובת ה- IP או תת-נט (למשל 192.168.1.0/24) שאליה ניתנת גישה מארחת "
-"NFS. הזן '*', ברירת המחדל, עבור כל הגישה המארחת."
+msgstr "הזן את כתובת ה- IP או תת-נט (למשל 192.168.1.0/24) שאליה ניתנת גישה מארחת NFS. הזן '*', ברירת המחדל, עבור כל הגישה המארחת."
 
 #, fuzzy
 msgid "Enter the IP address to be used as the gateway to other networks for this adapter. Typically this is the IP address of your router."
-msgstr ""
-"הזן את כתובת IP כדי לשמש את השער לרשתות אחרות עבור מתאם זה. בדרך כלל זהו "
-"כתובת ה- IP של נתבך."
+msgstr "הזן את כתובת IP כדי לשמש את השער לרשתות אחרות עבור מתאם זה. בדרך כלל זהו כתובת ה- IP של נתבך."
 
 msgid "Enter the URL/IP of the fallback remote receiver, e.g. '192.168.0.1'. The other details such as 'http://' and port number will be filled in automatically when you select save."
 msgstr "הזן את כתובת ה-URL / IP של המקלט המרוחק של ה- Fallback, למשל: \"192.168.0.1. הפרטים האחרים, כגון \"http/7\" ומספר הנמל ימלאו באופן אוטומטי כאשר תבחר לחסוך."
@@ -7693,9 +7721,7 @@ msgstr "הזן את גודל צעד התדירות עבור המונן להשת�
 
 #, fuzzy
 msgid "Enter the number of NFS server threads to be allocated/used. Higher values improve performance with multiple clients but use more memory."
-msgstr ""
-"הזן את מספר חוטי שרת NFS כדי להיות מוקצה / שימוש. ערכים גבוהים יותר לשפר את "
-"הביצועים עם לקוחות מרובים אבל להשתמש יותר זיכרון."
+msgstr "הזן את מספר חוטי שרת NFS כדי להיות מוקצה / שימוש. ערכים גבוהים יותר לשפר את הביצועים עם לקוחות מרובים אבל להשתמש יותר זיכרון."
 
 msgid "Enter the number stored in the positioner that corresponds to this satellite."
 msgstr "הזן את המספר מאוחסן במקום המתאים ללווין זה."
@@ -7744,9 +7770,7 @@ msgstr "הזן את קוד המנוי כדי לאפשר באופן מלא את �
 
 #, fuzzy
 msgid "Enter the workgroup name to be used by this receiver for Samba based connections. (Default is 'WORKGROUP'.)"
-msgstr ""
-"הזן את שם קבוצת העבודה כדי לשמש מקלט זה לחיבורים המבוססים על סמבה. (Default "
-"הוא \"GROUP\""
+msgstr "הזן את שם קבוצת העבודה כדי לשמש מקלט זה לחיבורים המבוססים על סמבה. (Default הוא \"GROUP\""
 
 msgid "Enter your current latitude. This is the number of degrees you are from the equator as a decimal."
 msgstr "היכנסו לקווי הרוח הנוכחיים שלכם. זה המספר של מעלות אתה מן המשווה כמו decimal."
@@ -7934,6 +7958,12 @@ msgstr ""
 msgid ""
 "Error:\n"
 "%s"
+msgstr ""
+"Error:\n"
+"%s"
+
+#, fuzzy, python-format
+msgid "Error: %s"
 msgstr ""
 "Error:\n"
 "%s"
@@ -8859,9 +8889,7 @@ msgstr "כוח ToneBurst"
 
 #, fuzzy
 msgid "Force a specific network link speed/duplex mode instead of auto-negotiation. Only change this if you have a specific reason as an incorrect setting can break network connectivity."
-msgstr ""
-"החזק את מהירות הקישור של רשת מסוימת / מצב מורכב במקום נטייה אוטומטית. רק "
-"לשנות זאת אם יש לך סיבה מסוימת כהגדרה לא נכונה יכול לשבור קישוריות רשת."
+msgstr "החזק את מהירות הקישור של רשת מסוימת / מצב מורכב במקום נטייה אוטומטית. רק לשנות זאת אם יש לך סיבה מסוימת כהגדרה לא נכונה יכול לשבור קישוריות רשת."
 
 msgid "Force de-interlace"
 msgstr "כוח דה-interlace"
@@ -8915,6 +8943,10 @@ msgid "Four partitions (25% - 25% - 25% - 25%)"
 msgstr "4 מחיצות (25% - 25% - 25% - 25%)"
 
 msgid "Frame rate"
+msgstr "שיעור"
+
+#, fuzzy
+msgid "Frame rate:"
 msgstr "שיעור"
 
 msgid "Frame size in full view"
@@ -9424,6 +9456,10 @@ msgstr "עומק צבע HDMI"
 msgid "HDMI color space"
 msgstr "חלל הצבעים HDMI"
 
+#, fuzzy
+msgid "HDMI input"
+msgstr "HDMI"
+
 msgid "HDMI-CEC Settings"
 msgstr "HDMI-CEC הגדרות הגדרות"
 
@@ -9462,6 +9498,21 @@ msgstr "HI-cleanup for חיצוני"
 
 msgid "HLG Support"
 msgstr "תמיכה ב-HLG"
+
+msgid "HLS"
+msgstr ""
+
+#, python-format
+msgid "HLS %s"
+msgstr ""
+
+#, fuzzy, python-format
+msgid "HLS client connected: %s"
+msgstr "לקוחות מחוברים"
+
+#, fuzzy, python-format
+msgid "HLS client disconnected: %s"
+msgstr "מנותק"
 
 msgid "Haiti"
 msgstr "האיטי"
@@ -9964,6 +10015,9 @@ msgstr "איסלנד"
 msgid "Icons"
 msgstr "איקונים"
 
+msgid "Idle"
+msgstr ""
+
 msgid "Idle Time: "
 msgstr "זמן קצר:"
 
@@ -9984,9 +10038,7 @@ msgstr "אם פעולה היא User-configurable, כניסת העזרה שלה �
 
 #, fuzzy
 msgid "If an event is interrupted and divided into separate recordings, this feature will search for alternate broadcasts of the same event."
-msgstr ""
-"אם אירוע נקטע ונחלק להקלטות נפרדות, תכונה זו תחפש שידורים חלופיים של אותו "
-"אירוע."
+msgstr "אם אירוע נקטע ונחלק להקלטות נפרדות, תכונה זו תחפש שידורים חלופיים של אותו אירוע."
 
 #, fuzzy
 msgid "If enabled the output resolution of the receiver will try to match the resolution of the video contents resolution."
@@ -10357,6 +10409,10 @@ msgstr "שם קובץ Input config:"
 
 msgid "Input devices"
 msgstr "מכשירים Input"
+
+#, fuzzy
+msgid "Input mode:"
+msgstr "Input"
 
 msgid "Input scroll position"
 msgstr "המונחים:"
@@ -10974,6 +11030,10 @@ msgid "Last config"
 msgstr "הגדרה אחרונה"
 
 #, fuzzy
+msgid "Last error:"
+msgstr "עם שגיאות:"
+
+#, fuzzy
 msgid "Last flash"
 msgstr "עדכון אחרון: %s"
 
@@ -11195,6 +11255,10 @@ msgstr "ליטא"
 msgid "Live"
 msgstr "Live"
 
+#, fuzzy
+msgid "Live TV"
+msgstr "Live"
+
 msgid "Live TV Actions"
 msgstr "פעולות טלוויזיה בשידור חי"
 
@@ -11359,9 +11423,7 @@ msgstr "קיצור נמוך חוסך זמן CPU."
 
 #, fuzzy
 msgid "Lower RGB output clipping limit. 'Full range' = no lower clipping, 'Limited range' clips RGB outputs to 64 (broadcast safe)."
-msgstr ""
-"קיבולת RGB נמוכה יותר \"טווח מלא\" = לא קלפטון נמוך יותר, \"טווח מוגבל\" "
-"קטעי RGB פלטים ל-64 (מאובטח ברוק)."
+msgstr "קיבולת RGB נמוכה יותר \"טווח מלא\" = לא קלפטון נמוך יותר, \"טווח מוגבל\" קטעי RGB פלטים ל-64 (מאובטח ברוק)."
 
 msgid "Lower USB"
 msgstr "USB נמוך"
@@ -11650,9 +11712,7 @@ msgstr "שטח מקסימלי המשמש (MB)"
 
 #, fuzzy
 msgid "Maximum time to wait for the first descrambling key (CW) before starting the decoder. 'Disabled' starts the decoder immediately without waiting."
-msgstr ""
-"זמן מקסימלי לחכות למפתח הראשון (CW) לפני תחילת הקוד. \"מדהים\" מתחיל הפעוט "
-"מיד מבלי לחכות."
+msgstr "זמן מקסימלי לחכות למפתח הראשון (CW) לפני תחילת הקוד. \"מדהים\" מתחיל הפעוט מיד מבלי לחכות."
 
 msgid "Mayotte"
 msgstr "Mayotte"
@@ -13314,6 +13374,10 @@ msgstr "אוקטובר"
 msgid "Off"
 msgstr "Off"
 
+#, fuzzy
+msgid "Offline"
+msgstr "קו אחד"
+
 msgid "Offline decode delay (ms)"
 msgstr "דחיית הקוד (ms)"
 
@@ -13363,6 +13427,10 @@ msgstr "קו אחד"
 msgid "One partition"
 msgstr "חלוקה אחת"
 
+#, fuzzy
+msgid "Online"
+msgstr "קו אחד"
+
 msgid "Online update of your %s %s software."
 msgstr "Online update of your %s %s software."
 
@@ -13393,9 +13461,7 @@ msgstr "רק בסטארט-אפ"
 
 #, fuzzy
 msgid "Only use DNS servers implementing the DNS-over-HTTPS protocol. This causes DNS lookups to be made via the encrypted HTTPS protocol."
-msgstr ""
-"רק להשתמש שרתי DNS ליישם את פרוטוקול DNS-over-HTTPS. זה גורם לתצפיות DNS "
-"להתבצע באמצעות פרוטוקול HTTPS מוצפן."
+msgstr "רק להשתמש שרתי DNS ליישם את פרוטוקול DNS-over-HTTPS. זה גורם לתצפיות DNS להתבצע באמצעות פרוטוקול HTTPS מוצפן."
 
 #, fuzzy
 msgid "Only use DNS servers implementing the DNSCrypt protocol."
@@ -13776,6 +13842,10 @@ msgstr "טקסט חיצוני:"
 
 msgid "Overall progress:"
 msgstr "התקדמות כללית:"
+
+#, fuzzy
+msgid "Overload"
+msgstr "Reload"
 
 msgid "Overscan Test"
 msgstr "בדיקות Overscan"
@@ -14879,9 +14949,7 @@ msgstr "כתוביות מאוחסנים על ידי שירות"
 
 #, fuzzy
 msgid "Preferred connection priority when multiple Wi-Fi profiles are configured. Lower numbers have a higher priority."
-msgstr ""
-"עדיפות לחיבור כאשר פרופילי Wi-Fi מרובים מוגדרים. למספרים נמוכים יש עדיפות "
-"גבוהה יותר."
+msgstr "עדיפות לחיבור כאשר פרופילי Wi-Fi מרובים מוגדרים. למספרים נמוכים יש עדיפות גבוהה יותר."
 
 msgid "Preferred tuner"
 msgstr "משחק מועדף"
@@ -15216,6 +15284,10 @@ msgstr "Progress bar/Remaining minutes right"
 msgid "Progress info font size"
 msgstr "גודל המידע"
 
+#, fuzzy
+msgid "Progressive"
+msgstr "התקדמות"
+
 msgid "Properties of current title"
 msgstr "תכונות הכותרת הנוכחית"
 
@@ -15472,6 +15544,29 @@ msgstr ""
 
 msgid "RGB clamp (upper)"
 msgstr ""
+
+msgid "RTSP"
+msgstr ""
+
+#, python-format
+msgid "RTSP %s"
+msgstr ""
+
+#, fuzzy
+msgid "RTSP / HLS Streaming Status Actions"
+msgstr "סטרימינג"
+
+#, fuzzy, python-format
+msgid "RTSP client connected: %s"
+msgstr "לקוחות מחוברים"
+
+#, fuzzy, python-format
+msgid "RTSP client disconnected: %s"
+msgstr "מנותק"
+
+#, fuzzy
+msgid "RTSP/HLS Streaming Status"
+msgstr "סטרימינג"
 
 msgid "Radio"
 msgstr "רדיו"
@@ -16185,6 +16280,10 @@ msgstr "החלטה"
 msgid "Resolution unit"
 msgstr "יחידת החלטות"
 
+#, fuzzy
+msgid "Resolution:"
+msgstr "החלטה"
+
 msgid "Restart"
 msgstr "מנוחה"
 
@@ -16526,6 +16625,9 @@ msgstr "מתג SDcard ERROR! כבר על Nand"
 msgid "SDcard switch ERROR! - already on mmc"
 msgstr "מתג SDcard ERROR"
 
+msgid "SERVER"
+msgstr ""
+
 msgid "SINGLE LAYER DVD"
 msgstr "שם הסרטון: SINGLE LAYER DVD"
 
@@ -16791,6 +16893,10 @@ msgstr "לסרוק את ההרחבות המקומיות ולהתקין אותן.
 msgid "Scan for terrestrial LCNs and create LCN bouquets"
 msgstr "סריקה עבור LCNs ארצי ליצור זרי LCN"
 
+#, fuzzy
+msgid "Scan mode:"
+msgstr "המונחים מצב"
+
 msgid "Scan wireless networks"
 msgstr "רשתות אלחוטיות"
 
@@ -17029,9 +17135,7 @@ msgstr "בחר 'כן' את ה- InfoBar המוצג, ללא זמן, בעוד שמ�
 
 #, fuzzy
 msgid "Select 'Yes' to allow the VPS to adjust recording timers based on broadcast Program Delivery Control (PDC) data. For this to work the service must provide reliable event PDC data."
-msgstr ""
-"בחר 'כן' כדי לאפשר ל- VPS להתאים את לוח הזמנים של הקלטה בהתבסס על נתוני בקרת "
-"תוכנית שידור (PDC). לשם כך, השירות חייב לספק מידע אמין על אירוע PDC."
+msgstr "בחר 'כן' כדי לאפשר ל- VPS להתאים את לוח הזמנים של הקלטה בהתבסס על נתוני בקרת תוכנית שידור (PDC). לשם כך, השירות חייב לספק מידע אמין על אירוע PDC."
 
 msgid "Select 'Yes' to allow use of the seek bar to jump to a selected point within the event."
 msgstr "בחר 'כן' כדי לאפשר שימוש בבר החיפוש לקפוץ לנקודה שנבחרה בתוך האירוע."
@@ -17068,19 +17172,14 @@ msgstr "בחר \"כן\" על מנת לאפשר לתרגום AI-Powered לכל כ
 
 #, fuzzy
 msgid "Select 'Yes' to enable DNS entry rotation. This rotation changes the order in which the list of DNS servers is used and can avoid issues if a DNS server in the list becomes unavailable."
-msgstr ""
-"בחר \"כן\" כדי לאפשר לסיבוב כניסה של DNS. סיבוב זה משנה את ההזמנה שבה "
-"משתמשים ברשימת שרתי ה-DNS ויכול להימנע מבעיות אם שרת DNS ברשימה הופכת לבלתי "
-"זמינה."
+msgstr "בחר \"כן\" כדי לאפשר לסיבוב כניסה של DNS. סיבוב זה משנה את ההזמנה שבה משתמשים ברשימת שרתי ה-DNS ויכול להימנע מבעיות אם שרת DNS ברשימה הופכת לבלתי זמינה."
 
 msgid "Select 'Yes' to enable editing of this device's settings. Selecting 'No' resets the devices settings to their default values."
 msgstr "בחר \"כן\" כדי לאפשר עריכה של הגדרות המכשיר. בחירת 'לא' מחדש את הגדרות ההתקנים לערכי ברירת המחדל שלהם."
 
 #, fuzzy
 msgid "Select 'Yes' to enable new Zap timers to have an end time turned on and defined by default."
-msgstr ""
-"בחר 'כן' כדי לאפשר ללוחות זמנים חדשים של זאפ להפוך את הזמן לגמר ולהגדיר אותו "
-"כברירת מחדל."
+msgstr "בחר 'כן' כדי לאפשר ללוחות זמנים חדשים של זאפ להפוך את הזמן לגמר ולהגדיר אותו כברירת מחדל."
 
 msgid "Select 'Yes' to enable preview of channels while in the EPG list."
 msgstr "בחר 'כן' כדי לאפשר תצוגה מקדימה של ערוצים בזמן ברשימת ה-EPG."
@@ -17218,9 +17317,7 @@ msgstr "בחר 'כן' כדי להציג חבילות תוסף מערכת במס�
 
 #, fuzzy
 msgid "Select 'Yes' to show the 'Movie Selection' entry in the Main Menu. This can provide access to the Movie Selection screen when there is no assigned button on the remote control."
-msgstr ""
-"בחר 'כן' כדי להציג את 'בחירת הסרטים' בתפריט הראשי. זה יכול לספק גישה למסך "
-"בחירת הסרט כאשר אין כפתור מוקצה על השליטה מרחוק."
+msgstr "בחר 'כן' כדי להציג את 'בחירת הסרטים' בתפריט הראשי. זה יכול לספק גישה למסך בחירת הסרט כאשר אין כפתור מוקצה על השליטה מרחוק."
 
 msgid "Select 'Yes' to show the advanced setting options."
 msgstr "בחר 'כן' כדי להציג את אפשרויות ההגדרה המתקדמות."
@@ -17252,9 +17349,7 @@ msgstr "בחר 'כן' כדי לחלק משימות לפעולות נפרדות."
 
 #, fuzzy
 msgid "Select 'Yes' to use PDC data, if available on the current service, to accurately stop the instant recording at the end of the event."
-msgstr ""
-"בחר 'כן' כדי להשתמש בנתונים של PDC, אם זמין בשירות הנוכחי, כדי לעצור במדויק "
-"את ההקלטה מיידית בסוף האירוע."
+msgstr "בחר 'כן' כדי להשתמש בנתונים של PDC, אם זמין בשירות הנוכחי, כדי לעצור במדויק את ההקלטה מיידית בסוף האירוע."
 
 msgid "Select 'Yes' to use alternate GitHub feed IP addresses. This can be helpful if you use a VPN and the normal feeds can't be accessed via the published DNS names."
 msgstr "בחר \"כן\" כדי להשתמש בכתובות IP חלופיות של GitHub. זה יכול להיות מועיל אם אתה משתמש ב-VPN וההזנת הרגיל לא ניתן לגשת באמצעות שמות ה-DNS שפורסמו."
@@ -17270,9 +17365,7 @@ msgstr "בחר 'כן' כדי להשתמש במספר המפתחות למבחר �
 
 #, fuzzy
 msgid "Select 'Yes' to wake the receiver from Shutdown prior to the recording start time to allow the PDC data to make last minute timer adjustments."
-msgstr ""
-"בחר 'כן' כדי להעיר את המקלט מסגורה לפני תחילת ההקלטה כדי לאפשר את נתוני PDC "
-"לבצע התאמות הרגע האחרון."
+msgstr "בחר 'כן' כדי להעיר את המקלט מסגורה לפני תחילת ההקלטה כדי לאפשר את נתוני PDC לבצע התאמות הרגע האחרון."
 
 msgid "Select 'Yes, to display the InfoBar when fast forwarding or rewinding during media playback."
 msgstr "בחר 'כן, להציג את ה- InfoBar בעת ציפייה מהירה או תיקון במהלך משחק המדיה."
@@ -17609,9 +17702,7 @@ msgstr "בחרו בשפת היעד של AI-Powered Translation."
 
 #, fuzzy
 msgid "Select the DNS server(s) that will be used to lookup the host name to resolve the IP address."
-msgstr ""
-"בחר את שרת ה- DNS (s) אשר ישמש כדי לבחון את שם המארח כדי לפתור את כתובת ה- "
-"IP."
+msgstr "בחר את שרת ה- DNS (s) אשר ישמש כדי לבחון את שם המארח כדי לפתור את כתובת ה- IP."
 
 msgid "Select the No / False response"
 msgstr "תגית: No / False response"
@@ -17725,13 +17816,11 @@ msgstr "בחר את העיכוב כדי להשתמש בעת סגירת שירו�
 
 #, fuzzy
 msgid "Select the delay to wait after pressing more digit buttons to select a new service."
-msgstr ""
-"בחר את העיכוב לחכות לאחר לחיצה על יותר כפתורי ספרות כדי לבחור שירות חדש."
+msgstr "בחר את העיכוב לחכות לאחר לחיצה על יותר כפתורי ספרות כדי לבחור שירות חדש."
 
 #, fuzzy
 msgid "Select the delay to wait after pressing the first digit button to select a new service."
-msgstr ""
-"בחר את העיכוב לחכות לאחר לחיצה על לחצן הספרות הראשון כדי לבחור שירות חדש."
+msgstr "בחר את העיכוב לחכות לאחר לחיצה על לחצן הספרות הראשון כדי לבחור שירות חדש."
 
 msgid "Select the desired function and click on 'OK' to assign it. Use 'CH+/-' to toggle between the lists. Select an assigned function and click on 'OK' to deassign it. Use 'NEXT/PREVIOUS' to change the order of the assigned functions."
 msgstr "בחר את הפונקציה הרצויה ולחץ על \"בסדר\" כדי להקצות אותה. השתמש ב-\"CH+/-\"כדי להגיע בין הרשימות. בחר פונקציה מוקצה ולחץ על \"בסדר\" כדי למחוק אותה. השתמש ב-NEXT/PREVIOUS כדי לשנות את סדר הפונקציות שהוקצו."
@@ -17816,9 +17905,7 @@ msgstr "בחר את השיטה של שחזור פתרון המסך ומסגרת 
 
 #, fuzzy
 msgid "Select the mode of access, Read/Write or Read Only, applied to all automatically exported Samba shares."
-msgstr ""
-"בחר את מצב הגישה, קרא/Write או קרא רק, החל על כל המניות שייצאו באופן אוטומטי "
-"סמבה."
+msgstr "בחר את מצב הגישה, קרא/Write או קרא רק, החל על כל המניות שייצאו באופן אוטומטי סמבה."
 
 #, fuzzy
 msgid "Select the mode of access, Read/Write or Read Only, applied to all exported directories."
@@ -17847,9 +17934,7 @@ msgstr ""
 
 #, fuzzy
 msgid "Select the network metric for this adapter. When multiple adapters are active, the one with the lowest network metric is used as the default route for network traffic."
-msgstr ""
-"בחר את מדד הרשת עבור מתאם זה. כאשר מתאמתים מרובים פעילים, אחד עם מדד הרשת "
-"הנמוך ביותר משמש כתוואי ברירת המחדל עבור תעבורת רשת."
+msgstr "בחר את מדד הרשת עבור מתאם זה. כאשר מתאמתים מרובים פעילים, אחד עם מדד הרשת הנמוך ביותר משמש כתוואי ברירת המחדל עבור תעבורת רשת."
 
 #, fuzzy
 msgid "Select the network name (SSID) of the wireless network to which the receiver should connect."
@@ -17867,9 +17952,7 @@ msgstr "בחר את הפריט הבא ברשימה"
 
 #, fuzzy
 msgid "Select the preferred service information to display, in addition to the service number, for the service selection pop up screen."
-msgstr ""
-"בחר את פרטי השירות המועדפים להציג, בנוסף למספר השירות, עבור בחירת השירות פופ "
-"מסך."
+msgstr "בחר את פרטי השירות המועדפים להציג, בנוסף למספר השירות, עבור בחירת השירות פופ מסך."
 
 msgid "Select the previous item in list or move the cursor left"
 msgstr "בחר את הפריט הקודם ברשימה או להעביר את הcursor"
@@ -18082,9 +18165,7 @@ msgstr "בחר אם מסלולים קוליים AC3 צריכים להיות ממ
 
 #, fuzzy
 msgid "Select whether AC4 (Dolby Atmos) audio tracks should be passed through to the AVR, downmixed to stereo, or auto-routed based on HDMI sink capability."
-msgstr ""
-"בחר אם מסלולים אודיו AC4 (Dolby Atmos) יש לעבור ל- AVR, ממוזג לסטריאו, או "
-"אוטומטית מונחה על בסיס יכולת להטביע HDMI."
+msgstr "בחר אם מסלולים אודיו AC4 (Dolby Atmos) יש לעבור ל- AVR, ממוזג לסטריאו, או אוטומטית מונחה על בסיס יכולת להטביע HDMI."
 
 #, fuzzy
 msgid "Select whether DTS channel audio tracks should be downmixed or transcoded."
@@ -18100,9 +18181,7 @@ msgstr "בחר אם עקבות הצליל של ערוץ DTS צריך להיות 
 
 #, fuzzy
 msgid "Select whether IPv4, IPv6, or both protocols should be used. If both are enabled then which should be preferred."
-msgstr ""
-"בחר אם IPv4, IPv6 או שני הפרוטוקולים יש להשתמש. אם שניהם ניתן אז מה צריך "
-"להיות מועדף."
+msgstr "בחר אם IPv4, IPv6 או שני הפרוטוקולים יש להשתמש. אם שניהם ניתן אז מה צריך להיות מועדף."
 
 #, fuzzy
 msgid "Select whether WMA Pro channel audio tracks should be downmixed or transcoded."
@@ -18250,21 +18329,23 @@ msgstr "Server and"
 
 #, fuzzy
 msgid "Server must not enforce its own blocklist. Some servers may implement their own blacklists to block sites for parental control, ad blocking, etc. reasons."
-msgstr ""
-"השרת לא צריך לאכוף את רשימת הבלוקים שלו. כמה שרתים עשויים ליישם רשימה שחורה "
-"משלהם כדי לחסום אתרים עבור שליטה הורית, חסימת מודעה ועוד."
+msgstr "השרת לא צריך לאכוף את רשימת הבלוקים שלו. כמה שרתים עשויים ליישם רשימה שחורה משלהם כדי לחסום אתרים עבור שליטה הורית, חסימת מודעה ועוד."
 
 #, fuzzy
 msgid "Server must not log user queries (declarative). This can improve the privacy of DNS lookups by not logging the request on the server providing the data."
-msgstr ""
-"Server לא חייב להזין שאילתות משתמשים (הבהרה). זה יכול לשפר את הפרטיות של "
-"בדיקת DNS על ידי לא למקם את הבקשה לשרת לספק את הנתונים."
+msgstr "Server לא חייב להזין שאילתות משתמשים (הבהרה). זה יכול לשפר את הפרטיות של בדיקת DNS על ידי לא למקם את הבקשה לשרת לספק את הנתונים."
 
 #, fuzzy
 msgid "Server must support DNS Security Extensions (DNSSEC). This is a data signing option that protects the integrity of the DNS data against compromises like cache poisoning."
-msgstr ""
-"Server חייב לתמוך בהרחבות אבטחת DNS (DNSSEC). זוהי אפשרות לחתימה של נתונים "
-"המגנה על השלמות של נתוני ה-DNS נגד פשרות כמו הרעלה מטמון."
+msgstr "Server חייב לתמוך בהרחבות אבטחת DNS (DNSSEC). זוהי אפשרות לחתימה של נתונים המגנה על השלמות של נתוני ה-DNS נגד פשרות כמו הרעלה מטמון."
+
+#, fuzzy
+msgid "Server offline"
+msgstr "גודל גופן"
+
+#, fuzzy
+msgid "Server online"
+msgstr "גודל גופן"
 
 msgid "Server:"
 msgstr "Server:"
@@ -18430,6 +18511,10 @@ msgstr "לחץ על כפתור אחר"
 #, fuzzy
 msgid "Service zap screen contents"
 msgstr "שירות Zp Actions"
+
+#, fuzzy
+msgid "Service:"
+msgstr "שירותים"
 
 msgid "ServiceName"
 msgstr "שירות"
@@ -20106,8 +20191,20 @@ msgstr "תגית: Sound Carrier"
 msgid "Source"
 msgstr "מקור Source"
 
+#, fuzzy
+msgid "Source active"
+msgstr "מקור Source"
+
+#, fuzzy
+msgid "Source inactive"
+msgstr "לא פעיל"
+
 msgid "Source request"
 msgstr "בקשת מקור"
+
+#, fuzzy
+msgid "Source:"
+msgstr "מקור Source"
 
 msgid "South"
 msgstr "דרום"
@@ -20160,9 +20257,7 @@ msgstr "ציין את המנהלי לשימוש בעת החל מנגן המדי�
 
 #, fuzzy
 msgid "Specify the network DNS suffix to be applied when only the host name is provided. This helps the DNS resolver find the requested host."
-msgstr ""
-"ציין את רשת DNS suffix להיות מיושם כאשר רק שם המארח מסופק. זה עוזר ל-DNS "
-"למצוא את המארח המבוקש."
+msgstr "ציין את רשת DNS suffix להיות מיושם כאשר רק שם המארח מסופק. זה עוזר ל-DNS למצוא את המארח המבוקש."
 
 msgid "Speed"
 msgstr "מהירות"
@@ -22330,6 +22425,10 @@ msgstr "כרטיסים:"
 msgid "Total clients streaming: %d ( %s )"
 msgstr "לקוחות שלמים: %d (%s)"
 
+#, fuzzy
+msgid "Total clients:"
+msgstr "כרטיסים:"
+
 msgid "Total flash"
 msgstr "Total Flash"
 
@@ -22385,6 +22484,10 @@ msgstr "תרגום"
 
 msgid "Transmission mode"
 msgstr "המונחים מצב"
+
+#, fuzzy
+msgid "Transmitting"
+msgstr "Transcoding"
 
 msgid "Transparent"
 msgstr "סבא"
@@ -22649,9 +22752,15 @@ msgstr "UHD מבחן"
 msgid "UP80  (keymap.u80)"
 msgstr "UP80 (keymap.u80)"
 
+msgid "UPSTREAM"
+msgstr ""
+
 #, fuzzy
 msgid "UPX version"
 msgstr "GCC version:\t%s"
+
+msgid "URI:"
+msgstr ""
 
 msgid "URL"
 msgstr "כתובת URL"
@@ -22937,9 +23046,7 @@ msgstr "תוצאות:"
 
 #, fuzzy
 msgid "Upper RGB output clipping limit. 'Full range' = no upper clipping, 'Limited range' clips RGB outputs to 940 (broadcast safe)."
-msgstr ""
-"קיבולת RGB גבוהה מגבילה. \"טווח מלא\" = לא קלפטון עליון, \"טווח מוגבל\" קטעי "
-"RGB פלט ל-940 (בטיחות רבה)."
+msgstr "קיבולת RGB גבוהה מגבילה. \"טווח מלא\" = לא קלפטון עליון, \"טווח מוגבל\" קטעי RGB פלט ל-940 (בטיחות רבה)."
 
 msgid "Upper USB"
 msgstr "USB עליון"
@@ -22949,6 +23056,10 @@ msgstr "מקרה עליון"
 
 msgid "Upper line"
 msgstr "קו עליון"
+
+#, fuzzy, python-format
+msgid "Upstream %s"
+msgstr "לעצור זרמים"
 
 msgid "Uptime"
 msgstr "Uptime"
@@ -23045,9 +23156,7 @@ msgstr "המונחים: Zap timer"
 
 #, fuzzy
 msgid "Use a DNS cache to locally store recent DNS lookups to improve performance, reduce latency and outgoing traffic."
-msgstr ""
-"השתמש ב- DNS cache כדי לאחסן את ה-DNS העדכני כדי לשפר את הביצועים, להפחית את "
-"השקיפות ואת התנועה היוצאת."
+msgstr "השתמש ב- DNS cache כדי לאחסן את ה-DNS העדכני כדי לשפר את הביצועים, להפחית את השקיפות ואת התנועה היוצאת."
 
 msgid "Use a gateway"
 msgstr "השתמש שער"
@@ -23295,6 +23404,9 @@ msgstr "אוזבקיסטן"
 
 msgid "VCR scart"
 msgstr "VCR"
+
+msgid "VIDEO"
+msgstr ""
 
 msgid "VLAN connection"
 msgstr "חיבור VLAN"
@@ -24000,14 +24112,11 @@ msgstr "כאשר ניתן, לאפשר חיבור נקודות גישה שאינ�
 
 #, fuzzy
 msgid "When enabled, allow each storage device detected to be automatically exported as a Samba share."
-msgstr ""
-"כאשר ניתן, לאפשר לכל מכשיר אחסון מזוהה להיות מייצא באופן אוטומטי כשותף סמבה."
+msgstr "כאשר ניתן, לאפשר לכל מכשיר אחסון מזוהה להיות מייצא באופן אוטומטי כשותף סמבה."
 
 #, fuzzy
 msgid "When enabled, allow the receiver to be powered on by a remote Wake-on-LAN network signal (Magic Packet)."
-msgstr ""
-"כאשר ניתן, לאפשר למקלט להיות מופעל על ידי אות רשת מרחוק של Wake-on-LAN "
-"(Magic Packet)."
+msgstr "כאשר ניתן, לאפשר למקלט להיות מופעל על ידי אות רשת מרחוק של Wake-on-LAN (Magic Packet)."
 
 #, fuzzy
 msgid "When enabled, allow usage of the NFS version 3 protocols."
@@ -24050,14 +24159,11 @@ msgstr "כאשר ניתן, ניתן להשאיר את שחקן הסרט עם י�
 
 #, fuzzy
 msgid "When enabled, keep the Wi-Fi adapter in low-power scan mode during Standby to allow the receiver to be powered on by a remote network signal (Magic Packet)."
-msgstr ""
-"כאשר ניתן, לשמור על מתאם ה-Wi-Fi במצב סריקות בעוצמה נמוכה במהלך Standby כדי "
-"לאפשר למקלט להיות מופעל על ידי אות רשת מרחוק (Magic Packet)."
+msgstr "כאשר ניתן, לשמור על מתאם ה-Wi-Fi במצב סריקות בעוצמה נמוכה במהלך Standby כדי לאפשר למקלט להיות מופעל על ידי אות רשת מרחוק (Magic Packet)."
 
 #, fuzzy
 msgid "When enabled, map root to nobody (more secure). When disabled, full root access is available."
-msgstr ""
-"כאשר ניתן, מפת שורש לאף אחד (בטוח יותר). כאשר מוגבלות, גישה שורש מלאה זמינה."
+msgstr "כאשר ניתן, מפת שורש לאף אחד (בטוח יותר). כאשר מוגבלות, גישה שורש מלאה זמינה."
 
 msgid "When enabled, measure power consumption to detect when the rotor stops turning (when supported by the tuner)."
 msgstr "כאשר ניתן, למדוד את צריכת החשמל כדי לזהות כאשר הרוטור מפסיק להסתובב (כאשר נתמך על ידי המחונן)."
@@ -24070,9 +24176,7 @@ msgstr "כאשר ניתן, מסמנים מספר יהיו חבויים."
 
 #, fuzzy
 msgid "When enabled, obtain the IP address, subnet mask, gateway, and DNS settings automatically via DHCP."
-msgstr ""
-"כאשר ניתן, לקבל את כתובת ה- IP, מסכת משנה, שער והגדרות DNS באופן אוטומטי "
-"באמצעות DHCP."
+msgstr "כאשר ניתן, לקבל את כתובת ה- IP, מסכת משנה, שער והגדרות DNS באופן אוטומטי באמצעות DHCP."
 
 msgid "When enabled, pressing '0' will zap you to the first channel in your first bouquet and delete your zap-history."
 msgstr "כאשר מופעל, לחיצה על \"0\" תקפוץ לך לערוץ הראשון בזר הראשון שלך ולמחוק את ה-Zap-history שלך."
@@ -24088,9 +24192,7 @@ msgstr "כאשר ניתן להציג הודעות סטטוס או שגיאות."
 
 #, fuzzy
 msgid "When enabled, specify custom DNS settings for this adapter instead of the global DNS settings."
-msgstr ""
-"כאשר ניתן, ציין הגדרות DNS מותאם אישית עבור מתאם זה במקום הגדרות DNS "
-"גלובליות."
+msgstr "כאשר ניתן, ציין הגדרות DNS מותאם אישית עבור מתאם זה במקום הגדרות DNS גלובליות."
 
 msgid "When enabled, subtitles for the hearing impaired can be used."
 msgstr "כאשר ניתן, כתוביות עבור לקוי השמיעה ניתן להשתמש."
@@ -24140,9 +24242,7 @@ msgstr "כאשר מופעל, המקלט יבחר מסלול AC3+ (כאשר זמ�
 
 #, fuzzy
 msgid "When enabled, this Wi-Fi adapter is kept in Wake-on-WiFi mode only and will not be used to connect to any network."
-msgstr ""
-"כאשר מופעל, מתאם Wi-Fi זה נשמר במצב Wake-on-WiFi בלבד ולא ישמש לחיבור לרשת "
-"כלשהי."
+msgstr "כאשר מופעל, מתאם Wi-Fi זה נשמר במצב Wake-on-WiFi בלבד ולא ישמש לחיבור לרשת כלשהי."
 
 #, fuzzy
 msgid "When enabled, this adapter is initialized and activated at boot time."
@@ -24921,6 +25021,10 @@ msgstr "תוספת טיפות על יבוא cccam"
 msgid "address:"
 msgstr "כתובת:"
 
+#, fuzzy
+msgid "adjusting"
+msgstr "מחכים לחכות"
+
 msgid "adult movie/drama"
 msgstr "adult movie/drama"
 
@@ -24986,6 +25090,10 @@ msgstr "אוטומטי"
 
 msgid "back"
 msgstr "בחזרה"
+
+#, fuzzy
+msgid "background"
+msgstr "רקע"
 
 msgid "background image"
 msgstr "תמונת רקע"
@@ -25075,6 +25183,10 @@ msgstr "אישור"
 
 msgid "connected"
 msgstr "מחובר"
+
+#, fuzzy
+msgid "connecting"
+msgstr "חיבור LAN"
 
 msgid "cooking"
 msgstr "בישול"
@@ -25369,6 +25481,9 @@ msgstr "hh:mmam/pm"
 msgid "hops:"
 msgstr "תקווה:"
 
+msgid "idle"
+msgstr ""
+
 msgid "inactive"
 msgstr "לא פעיל"
 
@@ -25618,6 +25733,10 @@ msgstr ""
 "התקנה גמורה\n"
 "כיף"
 
+#, fuzzy
+msgid "overload"
+msgstr "Reload"
+
 msgid "package"
 msgstr "חבילה"
 
@@ -25717,6 +25836,10 @@ msgstr "rock/pop"
 
 msgid "romance"
 msgstr "רומנטיקה"
+
+#, fuzzy
+msgid "running"
+msgstr "ריצה"
 
 msgid ""
 "satellites.xml not found or corrupted!\n"
@@ -25931,6 +26054,10 @@ msgstr "מסורתי (fast)"
 msgid "traditional (fast), retune"
 msgstr "המונחים: retune"
 
+#, fuzzy
+msgid "transmitting"
+msgstr "מחכים לחכות"
+
 msgid "tree delete"
 msgstr "עץ נמחק"
 
@@ -26012,6 +26139,10 @@ msgstr "חכה ל..."
 
 msgid "wait for mmi..."
 msgstr "חכה ל-mmi..."
+
+#, fuzzy
+msgid "waiting"
+msgstr "מחכים לחכות"
 
 msgid "water sport"
 msgstr "ספורט מים"

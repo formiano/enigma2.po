@@ -7,17 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Opendroid\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-10 17:33+0200\n"
+"POT-Creation-Date: 2026-08-17 21:36+0200\n"
 "PO-Revision-Date: 2026-08-17 11:05+0000\n"
 "Last-Translator: Weblate Admin <weblate@example.com>\n"
-"Language-Team: Romanian <http://localhost:8090/projects/opendroid-enigma2/"
-"enigma2-po/ro/>\n"
+"Language-Team: Romanian <http://localhost:8090/projects/opendroid-enigma2/enigma2-po/ro/>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
 "X-Generator: Weblate 2026.8.1\n"
 
 msgid ""
@@ -1341,7 +1339,7 @@ msgid "'Buffer in hours' or 'number of last events'. For deleting older time shi
 msgstr "„Buffer în ore” sau „număr de ultimii evenimente”. Pentru ștergerea fișierelor de schimb de timp mai vechi, starea care a avut loc mai întâi are prioritate."
 
 msgid "'Handle Standby from TV' has a higher priority than 'Handle input from TV'."
-msgstr "\"Handle Standby from TV\" are o prioritate mai mare decât \"Handle input from TV.\"."
+msgstr "\"Handle Standby from TV' are o prioritate mai mare decât 'Handle input from TV'."
 
 msgid "'Network peer' automatically detects other Enigma2 receivers on the local network. You can also manually enter the URL or IP address."
 msgstr "„Rețeaua de rețea” detectează automat alți receptoare Enigma2 din rețeaua locală. De asemenea, puteți introduce manual adresa URL sau adresa IP."
@@ -1786,6 +1784,9 @@ msgstr "Transcodarea AC3PLUS"
 msgid "AC4"
 msgstr "AC4"
 
+msgid "ACTIVITY / DIAGNOSTICS"
+msgstr ""
+
 msgid "AFL"
 msgstr "AFL"
 
@@ -1827,6 +1828,9 @@ msgstr "ATSC"
 
 msgid "ATSC provider"
 msgstr "Furnizor ATSC"
+
+msgid "AUDIO"
+msgstr ""
 
 msgid "AV receiver, soundbar and remote"
 msgstr "Receptor AV, bară de sunet și distanță"
@@ -1930,6 +1934,10 @@ msgstr "Activ"
 
 msgid "Active clients"
 msgstr "Clienți activi"
+
+#, fuzzy
+msgid "Activity:"
+msgstr "Orice activitate"
 
 msgid "Adapter Settings"
 msgstr "Setări adaptor"
@@ -2164,6 +2172,10 @@ msgstr "Reglați poziția orizontală a literelor utilizate pentru Teletext."
 
 msgid "Adjust the vertical position of the letters used for teletext."
 msgstr "Reglați poziția verticală a literelor utilizate pentru Teletext."
+
+#, fuzzy
+msgid "Adjusting"
+msgstr "Reglarea OSD"
 
 msgid "Adult"
 msgstr "Adult"
@@ -2714,6 +2726,10 @@ msgstr "Raport de aspect"
 msgid "Aspect ratio set to '%s'."
 msgstr "Raportul Aspect setat la \"%s."
 
+#, fuzzy
+msgid "Aspect ratio:"
+msgstr "Raport de aspect"
+
 msgid "Aspect switch"
 msgstr "Comutator de aspect"
 
@@ -3202,6 +3218,14 @@ msgid "Bislama"
 msgstr "Bislama"
 
 msgid "Bitrate"
+msgstr "Bitrate"
+
+#, fuzzy
+msgid "Bitrate setting:"
+msgstr "Editați setările"
+
+#, fuzzy
+msgid "Bitrate:"
 msgstr "Bitrate"
 
 msgid "Black"
@@ -4419,6 +4443,10 @@ msgstr "Clientip"
 msgid "Clients"
 msgstr "Clienți"
 
+#, fuzzy
+msgid "Clients:"
+msgstr "Clienți"
+
 msgid "Clone TV screen to LCD"
 msgstr "Ecran TV clonă pe LCD"
 
@@ -4505,6 +4533,9 @@ msgstr "Rata de cod HP"
 
 msgid "Code rate LP"
 msgstr "Rata de cod LP"
+
+msgid "Codec:"
+msgstr ""
 
 msgid "Collapse"
 msgstr "Colaps"
@@ -5063,6 +5094,10 @@ msgstr "Conectat la"
 
 msgid "Connected: "
 msgstr "Conectat:"
+
+#, fuzzy
+msgid "Connecting"
+msgstr "Conectați"
 
 msgid "Connection information"
 msgstr "Informații despre conexiune"
@@ -7871,6 +7906,12 @@ msgstr ""
 "Eroare:\n"
 "%s"
 
+#, fuzzy, python-format
+msgid "Error: %s"
+msgstr ""
+"Eroare:\n"
+"%s"
+
 #, python-format
 msgid ""
 "Error: %s\n"
@@ -8834,6 +8875,10 @@ msgstr "Patru partiții (25% - 25% - 25% - 25%)"
 msgid "Frame rate"
 msgstr "Rata cadrului"
 
+#, fuzzy
+msgid "Frame rate:"
+msgstr "Rata cadrului"
+
 msgid "Frame size in full view"
 msgstr "Dimensiunea cadrului în vedere completă"
 
@@ -9327,6 +9372,10 @@ msgstr "Adâncimea culorii HDMI"
 msgid "HDMI color space"
 msgstr "Spațiu de culoare HDMI"
 
+#, fuzzy
+msgid "HDMI input"
+msgstr "Hdmiin"
+
 msgid "HDMI-CEC Settings"
 msgstr "Setări HDMI-CEC"
 
@@ -9365,6 +9414,21 @@ msgstr "HI-curățare pentru subtitrări externe"
 
 msgid "HLG Support"
 msgstr "Suport HLG"
+
+msgid "HLS"
+msgstr ""
+
+#, python-format
+msgid "HLS %s"
+msgstr ""
+
+#, fuzzy, python-format
+msgid "HLS client connected: %s"
+msgstr "Găsiți evenimente conectate"
+
+#, fuzzy, python-format
+msgid "HLS client disconnected: %s"
+msgstr "deconectat"
 
 msgid "Haiti"
 msgstr "Haiti"
@@ -9861,6 +9925,9 @@ msgstr "islandez"
 msgid "Icons"
 msgstr "Icoane"
 
+msgid "Idle"
+msgstr ""
+
 msgid "Idle Time: "
 msgstr "Timp inactiv:"
 
@@ -10248,6 +10315,10 @@ msgstr "Nume fișier de configurare de intrare:"
 
 msgid "Input devices"
 msgstr "Dispozitive de intrare"
+
+#, fuzzy
+msgid "Input mode:"
+msgstr "Intrare"
 
 msgid "Input scroll position"
 msgstr "Poziția pergamentului de intrare"
@@ -10858,6 +10929,10 @@ msgstr "Ultima req."
 msgid "Last config"
 msgstr "Ultima configurație"
 
+#, fuzzy
+msgid "Last error:"
+msgstr "Cu erori:"
+
 msgid "Last flash"
 msgstr "Ultimul flash"
 
@@ -11072,6 +11147,10 @@ msgid "Lithuanian"
 msgstr "lituanian"
 
 msgid "Live"
+msgstr "Trăi"
+
+#, fuzzy
+msgid "Live TV"
 msgstr "Trăi"
 
 msgid "Live TV Actions"
@@ -13156,6 +13235,10 @@ msgstr "Octal"
 msgid "Off"
 msgstr "OFF"
 
+#, fuzzy
+msgid "Offline"
+msgstr "O linie"
+
 msgid "Offline decode delay (ms)"
 msgstr "Întârziere decodare offline (MS)"
 
@@ -13204,6 +13287,10 @@ msgstr "O linie"
 
 msgid "One partition"
 msgstr "O partiție"
+
+#, fuzzy
+msgid "Online"
+msgstr "O linie"
 
 msgid "Online update of your %s %s software."
 msgstr "Actualizare online a software -ului dvs. %s %s."
@@ -13567,6 +13654,10 @@ msgstr "Text de ieșire:"
 
 msgid "Overall progress:"
 msgstr "Progresul general:"
+
+#, fuzzy
+msgid "Overload"
+msgstr "Reîncarcă"
 
 msgid "Overscan Test"
 msgstr "Test de supraveghere"
@@ -14988,6 +15079,10 @@ msgstr "Bara de progres/minutele rămase la dreapta"
 msgid "Progress info font size"
 msgstr "Informații despre progres Mărimea fontului"
 
+#, fuzzy
+msgid "Progressive"
+msgstr "Progres"
+
 msgid "Properties of current title"
 msgstr "Proprietățile titlului curent"
 
@@ -15237,6 +15332,29 @@ msgstr "Pensă RGB (mai mică)"
 
 msgid "RGB clamp (upper)"
 msgstr "Pensă RGB (sus)"
+
+msgid "RTSP"
+msgstr ""
+
+#, python-format
+msgid "RTSP %s"
+msgstr ""
+
+#, fuzzy
+msgid "RTSP / HLS Streaming Status Actions"
+msgstr "Stare streaming"
+
+#, fuzzy, python-format
+msgid "RTSP client connected: %s"
+msgstr "Găsiți evenimente conectate"
+
+#, fuzzy, python-format
+msgid "RTSP client disconnected: %s"
+msgstr "deconectat"
+
+#, fuzzy
+msgid "RTSP/HLS Streaming Status"
+msgstr "Stare streaming"
 
 msgid "Radio"
 msgstr "Radio"
@@ -15945,6 +16063,10 @@ msgstr "Rezoluţie"
 msgid "Resolution unit"
 msgstr "Unitate de rezoluție"
 
+#, fuzzy
+msgid "Resolution:"
+msgstr "Rezoluţie"
+
 msgid "Restart"
 msgstr "Repornire"
 
@@ -16281,6 +16403,9 @@ msgstr "Eroare de comutare sdcard! - deja pe NAND"
 msgid "SDcard switch ERROR! - already on mmc"
 msgstr "Eroare de comutare sdcard! - Deja pe MMC"
 
+msgid "SERVER"
+msgstr ""
+
 msgid "SINGLE LAYER DVD"
 msgstr "DVD cu un singur strat"
 
@@ -16539,6 +16664,10 @@ msgstr "Scanați pentru extensii locale și instalați -le."
 
 msgid "Scan for terrestrial LCNs and create LCN bouquets"
 msgstr "Scanați pentru LCN -uri terestre și creați buchete LCN"
+
+#, fuzzy
+msgid "Scan mode:"
+msgstr "Mod de scalare"
 
 msgid "Scan wireless networks"
 msgstr "Scanați rețelele wireless"
@@ -17941,6 +18070,14 @@ msgstr "Serverul nu trebuie să înregistreze interogările utilizatorului (decl
 msgid "Server must support DNS Security Extensions (DNSSEC). This is a data signing option that protects the integrity of the DNS data against compromises like cache poisoning."
 msgstr "Serverul trebuie să suporte extensiile de securitate DNS (DNSSEC). Aceasta este o opțiune de semnare a datelor care protejează integritatea datelor DNS împotriva unor compromisuri precum otrăvirea cu cache."
 
+#, fuzzy
+msgid "Server offline"
+msgstr "Dimensiunea fontului de serviciu"
+
+#, fuzzy
+msgid "Server online"
+msgstr "Dimensiunea fontului de serviciu"
+
 msgid "Server:"
 msgstr "Server:"
 
@@ -18101,6 +18238,10 @@ msgstr "Service zap alte butoane întârziere"
 
 msgid "Service zap screen contents"
 msgstr "Conținut ecran Zap serviciu"
+
+#, fuzzy
+msgid "Service:"
+msgstr "Servicii"
 
 msgid "ServiceName"
 msgstr "Nume de service"
@@ -19754,8 +19895,20 @@ msgstr "Purtător de sunet"
 msgid "Source"
 msgstr "Sursă"
 
+#, fuzzy
+msgid "Source active"
+msgstr "Sursă"
+
+#, fuzzy
+msgid "Source inactive"
+msgstr "inactiv"
+
 msgid "Source request"
 msgstr "Cerere sursă"
+
+#, fuzzy
+msgid "Source:"
+msgstr "Sursă"
 
 msgid "South"
 msgstr "Sud"
@@ -21928,6 +22081,10 @@ msgstr "Total cărți:"
 msgid "Total clients streaming: %d ( %s )"
 msgstr "Total clienți Streaming: %d ( %s)"
 
+#, fuzzy
+msgid "Total clients:"
+msgstr "Total cărți:"
+
 msgid "Total flash"
 msgstr "Flash total"
 
@@ -21982,6 +22139,10 @@ msgstr "Traduceri"
 
 msgid "Transmission mode"
 msgstr "Mod de transmisie"
+
+#, fuzzy
+msgid "Transmitting"
+msgstr "Transcodarea"
 
 msgid "Transparent"
 msgstr "Transparent"
@@ -22248,8 +22409,14 @@ msgstr "Test uhd"
 msgid "UP80  (keymap.u80)"
 msgstr "UP80 (KeyMap.U80)"
 
+msgid "UPSTREAM"
+msgstr ""
+
 msgid "UPX version"
 msgstr "Versiunea UPX"
+
+msgid "URI:"
+msgstr ""
 
 msgid "URL"
 msgstr "URL"
@@ -22542,6 +22709,10 @@ msgstr "Carcasă superioară"
 
 msgid "Upper line"
 msgstr "Linia superioară"
+
+#, fuzzy, python-format
+msgid "Upstream %s"
+msgstr "Opriți fluxurile"
 
 msgid "Uptime"
 msgstr "Timp de funcționare"
@@ -22876,6 +23047,9 @@ msgstr "Uzbekistan"
 
 msgid "VCR scart"
 msgstr "VCR SCART"
+
+msgid "VIDEO"
+msgstr ""
 
 msgid "VLAN connection"
 msgstr "Conexiune VLAN"
@@ -24464,6 +24638,10 @@ msgstr "S -a adăugat dropbadcws la importul CCCAM"
 msgid "address:"
 msgstr "adresa:"
 
+#, fuzzy
+msgid "adjusting"
+msgstr "Aşteptare"
+
 msgid "adult movie/drama"
 msgstr "film pentru adulți/dramă"
 
@@ -24529,6 +24707,10 @@ msgstr "automat"
 
 msgid "back"
 msgstr "spate"
+
+#, fuzzy
+msgid "background"
+msgstr "Fundal"
 
 msgid "background image"
 msgstr "imagine de fundal"
@@ -24618,6 +24800,10 @@ msgstr "confirmat"
 
 msgid "connected"
 msgstr "conectat"
+
+#, fuzzy
+msgid "connecting"
+msgstr "Conexiune LAN"
 
 msgid "cooking"
 msgstr "gătit"
@@ -24911,6 +25097,9 @@ msgstr "HH: MMAM/PM"
 msgid "hops:"
 msgstr "HOPS:"
 
+msgid "idle"
+msgstr ""
+
 msgid "inactive"
 msgstr "inactiv"
 
@@ -25159,6 +25348,10 @@ msgstr ""
 "instalare oscam terminat\n"
 "distracţie plăcută"
 
+#, fuzzy
+msgid "overload"
+msgstr "Reîncarcă"
+
 msgid "package"
 msgstr "pachet"
 
@@ -25257,6 +25450,10 @@ msgstr "rock/pop"
 
 msgid "romance"
 msgstr "romantism"
+
+#, fuzzy
+msgid "running"
+msgstr "Funcţionare"
 
 msgid ""
 "satellites.xml not found or corrupted!\n"
@@ -25473,6 +25670,10 @@ msgstr "tradițional (rapid)"
 msgid "traditional (fast), retune"
 msgstr "Tradițional (rapid), retun"
 
+#, fuzzy
+msgid "transmitting"
+msgstr "Aşteptare"
+
 msgid "tree delete"
 msgstr "Ștergerea copacului"
 
@@ -25553,6 +25754,10 @@ msgstr "Așteptați Ci ..."
 
 msgid "wait for mmi..."
 msgstr "Așteptați MMI ..."
+
+#, fuzzy
+msgid "waiting"
+msgstr "Aşteptare"
 
 msgid "water sport"
 msgstr "Sport nautic"

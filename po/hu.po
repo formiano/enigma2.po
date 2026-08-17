@@ -3,11 +3,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Opendroid\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-10 17:33+0200\n"
+"POT-Creation-Date: 2026-08-17 21:36+0200\n"
 "PO-Revision-Date: 2026-08-17 14:43+0000\n"
 "Last-Translator: Weblate Admin <weblate@example.com>\n"
-"Language-Team: Hungarian <http://localhost:8090/projects/opendroid-enigma2/"
-"enigma2-po/hu/>\n"
+"Language-Team: Hungarian <http://localhost:8090/projects/opendroid-enigma2/enigma2-po/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1745,6 +1744,9 @@ msgstr "AC3Plus transzkódolás"
 msgid "AC4"
 msgstr "DAC"
 
+msgid "ACTIVITY / DIAGNOSTICS"
+msgstr ""
+
 msgid "AFL"
 msgstr "AFL"
 
@@ -1786,6 +1788,9 @@ msgstr "ATSC"
 
 msgid "ATSC provider"
 msgstr "ATSC szolgáltató"
+
+msgid "AUDIO"
+msgstr ""
 
 #, fuzzy
 msgid "AV receiver, soundbar and remote"
@@ -1887,6 +1892,10 @@ msgstr "Aktív"
 
 msgid "Active clients"
 msgstr "Aktív ügyfelek"
+
+#, fuzzy
+msgid "Activity:"
+msgstr "Bármilyen tevékenység"
 
 msgid "Adapter Settings"
 msgstr "Adapterbeállítások"
@@ -2121,6 +2130,10 @@ msgstr "Állítsa be a teletexthez használt betűk vízszintes helyzetét."
 
 msgid "Adjust the vertical position of the letters used for teletext."
 msgstr "Állítsa be a teletexthez használt betűk függőleges helyzetét."
+
+#, fuzzy
+msgid "Adjusting"
+msgstr "OSD beállítás"
 
 msgid "Adult"
 msgstr "Felnőtt"
@@ -2683,6 +2696,10 @@ msgstr "Oldal arány"
 msgid "Aspect ratio set to '%s'."
 msgstr "A/V oldalarány '%s'."
 
+#, fuzzy
+msgid "Aspect ratio:"
+msgstr "Oldal arány"
+
 msgid "Aspect switch"
 msgstr "Oldalkapcsoló"
 
@@ -3177,6 +3194,14 @@ msgstr "Bislama"
 msgid "Bitrate"
 msgstr "Bitrinus"
 
+#, fuzzy
+msgid "Bitrate setting:"
+msgstr "A beállítások szerkesztése"
+
+#, fuzzy
+msgid "Bitrate:"
+msgstr "Bitrinus"
+
 msgid "Black"
 msgstr "Fekete"
 
@@ -3342,15 +3367,11 @@ msgstr "Fényerő (tompítva)"
 
 #, fuzzy
 msgid "Brightness applied to the combined video + OSD output. Affects everything on screen including this menu."
-msgstr ""
-"A kombinált videó + OSD kimenetre alkalmazott fényerő. Kihat minden "
-"képernyőn, beleértve ezt a menüt."
+msgstr "A kombinált videó + OSD kimenetre alkalmazott fényerő. Kihat minden képernyőn, beleértve ezt a menüt."
 
 #, fuzzy
 msgid "Brightness applied to the video layer only. Does not affect enigma2 menus or OSD."
-msgstr ""
-"Csak a videorétegre alkalmazott fényerő. Nem befolyásolja az enigma2 menüt "
-"vagy az OSD-t."
+msgstr "Csak a videorétegre alkalmazott fényerő. Nem befolyásolja az enigma2 menüt vagy az OSD-t."
 
 msgid "British Indian Ocean Territory"
 msgstr "Brit Indiai -óceán területe"
@@ -4419,6 +4440,10 @@ msgstr "Ügyfélp"
 msgid "Clients"
 msgstr "Ügyfelek"
 
+#, fuzzy
+msgid "Clients:"
+msgstr "Ügyfelek"
+
 msgid "Clone TV screen to LCD"
 msgstr "Klón TV -képernyő LCD -re"
 
@@ -4506,6 +4531,9 @@ msgstr "Kódarány HP"
 
 msgid "Code rate LP"
 msgstr "Kódarány LP"
+
+msgid "Codec:"
+msgstr ""
 
 msgid "Collapse"
 msgstr "Összeomlás"
@@ -5067,6 +5095,10 @@ msgstr "Csatlakozik"
 msgid "Connected: "
 msgstr "Csatlakoztatva:"
 
+#, fuzzy
+msgid "Connecting"
+msgstr "Összekapcsol"
+
 msgid "Connection information"
 msgstr "Csatlakozási információk"
 
@@ -5164,15 +5196,11 @@ msgstr "Kontraszt videó & OSD"
 
 #, fuzzy
 msgid "Contrast applied to the combined video + OSD output. Affects everything on screen including this menu."
-msgstr ""
-"Kontraszt a kombinált videó + OSD kimenettel. Kihat minden képernyőn, "
-"beleértve ezt a menüt."
+msgstr "Kontraszt a kombinált videó + OSD kimenettel. Kihat minden képernyőn, beleértve ezt a menüt."
 
 #, fuzzy
 msgid "Contrast applied to the video layer only. Does not affect enigma2 menus or OSD."
-msgstr ""
-"Csak a videorétegre alkalmazott kontraszt. Nem befolyásolja az enigma2 menüt "
-"vagy az OSD-t."
+msgstr "Csak a videorétegre alkalmazott kontraszt. Nem befolyásolja az enigma2 menüt vagy az OSD-t."
 
 msgid "Control LED can be turned on or off here."
 msgstr "A vezérlő LED itt vagy kikapcsolható."
@@ -7663,18 +7691,14 @@ msgstr ""
 
 #, fuzzy
 msgid "Enter the IP address to be used as the gateway to other networks for this adapter. Typically this is the IP address of your router."
-msgstr ""
-"Adja meg az adapter más hálózatainak kapujaként használandó IP-címet. "
-"Jellemzően ez a router IP-címe."
+msgstr "Adja meg az adapter más hálózatainak kapujaként használandó IP-címet. Jellemzően ez a router IP-címe."
 
 msgid "Enter the URL/IP of the fallback remote receiver, e.g. '192.168.0.1'. The other details such as 'http://' and port number will be filled in automatically when you select save."
 msgstr "Írja be a visszafogott távirányító URL/IP -jét, pl.'192.168.0.1'.A többi részlet, például a „http: //” és a port száma automatikusan kitöltésre kerül, amikor a Mentés lehetőséget választja."
 
 #, fuzzy
 msgid "Enter the ZeroTier Network ID. The ID should be exactly 16 characters in length."
-msgstr ""
-"Adja meg a ZeroTier hálózati azonosítóját. Az azonosítónak pontosan 16 "
-"karakternek kell lennie."
+msgstr "Adja meg a ZeroTier hálózati azonosítóját. Az azonosítónak pontosan 16 karakternek kell lennie."
 
 msgid "Enter the domain of the host receiver. Do not include 'http://' or port number."
 msgstr "Írja be a gazdagép -vevő tartományát.Ne tartalmazza a „http: //” vagy a portszámot."
@@ -7691,18 +7715,14 @@ msgstr "Írja be a tuner frekvenciaméretét a kábel multiplexek keresése sor�
 
 #, fuzzy
 msgid "Enter the number of NFS server threads to be allocated/used. Higher values improve performance with multiple clients but use more memory."
-msgstr ""
-"Adja meg a kiosztásra / felhasználásra kerülő NFS szerver szálainak számát. "
-"Magasabb értékek javítja a teljesítményt több ügyfél, de több memória."
+msgstr "Adja meg a kiosztásra / felhasználásra kerülő NFS szerver szálainak számát. Magasabb értékek javítja a teljesítményt több ügyfél, de több memória."
 
 msgid "Enter the number stored in the positioner that corresponds to this satellite."
 msgstr "Írja be a helymeghatározóban tárolt számot, amely megfelel ennek a műholdnak."
 
 #, fuzzy
 msgid "Enter the password, pass-phrase or pre-shared key for the selected wireless network."
-msgstr ""
-"Adja meg a jelszót, jelszót vagy az előre megosztott kulcsot a kiválasztott "
-"vezeték nélküli hálózathoz."
+msgstr "Adja meg a jelszót, jelszót vagy az előre megosztott kulcsot a kiválasztott vezeték nélküli hálózathoz."
 
 #, fuzzy
 msgid "Enter the primary IPv4 DNS setting for this adapter."
@@ -7744,9 +7764,7 @@ msgstr "Írja be az előfizetési kódot az AI-meghajtású Translation Plugin t
 
 #, fuzzy
 msgid "Enter the workgroup name to be used by this receiver for Samba based connections. (Default is 'WORKGROUP'.)"
-msgstr ""
-"Adja meg azt a munkacsoportot, amelyet ez a vevő Samba alapú kapcsolatokhoz "
-"használ. (Alapértelmezés: \"WORKGROUP\".)"
+msgstr "Adja meg azt a munkacsoportot, amelyet ez a vevő Samba alapú kapcsolatokhoz használ. (Alapértelmezés: \"WORKGROUP\".)"
 
 msgid "Enter your current latitude. This is the number of degrees you are from the equator as a decimal."
 msgstr "Írja be a jelenlegi szélességét.Ez az a fokok száma, amelyet az Egyenlítőből tizedesként vagy."
@@ -7934,6 +7952,12 @@ msgstr ""
 msgid ""
 "Error:\n"
 "%s"
+msgstr ""
+"Hiba:\n"
+"%s"
+
+#, fuzzy, python-format
+msgid "Error: %s"
 msgstr ""
 "Hiba:\n"
 "%s"
@@ -8859,11 +8883,7 @@ msgstr "Erőltető hangjelzés"
 
 #, fuzzy
 msgid "Force a specific network link speed/duplex mode instead of auto-negotiation. Only change this if you have a specific reason as an incorrect setting can break network connectivity."
-msgstr ""
-"Az automatikus egyeztetés helyett egy adott hálózati kapcsolat sebességét / "
-"duplex üzemmódot kell létrehozni. Csak akkor változtathat ezen, ha egy hibás "
-"beállítás miatt különleges oka van arra, hogy megszakítsa a hálózati "
-"kapcsolatot."
+msgstr "Az automatikus egyeztetés helyett egy adott hálózati kapcsolat sebességét / duplex üzemmódot kell létrehozni. Csak akkor változtathat ezen, ha egy hibás beállítás miatt különleges oka van arra, hogy megszakítsa a hálózati kapcsolatot."
 
 msgid "Force de-interlace"
 msgstr "Erőteljesítménycsökkentő"
@@ -8917,6 +8937,10 @@ msgid "Four partitions (25% - 25% - 25% - 25%)"
 msgstr "Négy partíció (25% - 25% - 25% - 25%)"
 
 msgid "Frame rate"
+msgstr "Képkaparék"
+
+#, fuzzy
+msgid "Frame rate:"
 msgstr "Képkaparék"
 
 msgid "Frame size in full view"
@@ -9426,6 +9450,10 @@ msgstr "HDMI színmélység"
 msgid "HDMI color space"
 msgstr "HDMI színterület"
 
+#, fuzzy
+msgid "HDMI input"
+msgstr "Hdmiin"
+
 msgid "HDMI-CEC Settings"
 msgstr "HDMI-CEC beállítások"
 
@@ -9464,6 +9492,21 @@ msgstr "HI-cleanup for external subtitles"
 
 msgid "HLG Support"
 msgstr "HLG támogatás"
+
+msgid "HLS"
+msgstr ""
+
+#, python-format
+msgid "HLS %s"
+msgstr ""
+
+#, fuzzy, python-format
+msgid "HLS client connected: %s"
+msgstr "Összekapcsolt ügyfelek"
+
+#, fuzzy, python-format
+msgid "HLS client disconnected: %s"
+msgstr "szétkapcsolt"
 
 msgid "Haiti"
 msgstr "Haiti"
@@ -9794,11 +9837,7 @@ msgstr "Óra perc másodperc"
 
 #, fuzzy
 msgid "How to release the hardware decoder when switching to software descrambling. 'Quick' releases immediately (faster zapping). 'Normal' performs clean shutdown first (more stable on some boxes). 'Aggressive' performs a full descrambler reset between encrypted channels."
-msgstr ""
-"Hogyan lehet kiadni a hardver dekóder, amikor váltás szoftver descrambling. "
-"'Gyors' kibocsátás azonnal (gyorsabb zapping). 'Normál' végez tiszta leállás "
-"először (stabilabb néhány doboz). \"Agresszív\" teljes descrambler "
-"újraindítást végez a titkosított csatornák között."
+msgstr "Hogyan lehet kiadni a hardver dekóder, amikor váltás szoftver descrambling. 'Gyors' kibocsátás azonnal (gyorsabb zapping). 'Normál' végez tiszta leállás először (stabilabb néhány doboz). \"Agresszív\" teljes descrambler újraindítást végez a titkosított csatornák között."
 
 msgid "Http(s) stream start delay"
 msgstr "HTTP (S) Stream Start késleltetés"
@@ -9971,6 +10010,9 @@ msgstr "izlandi"
 msgid "Icons"
 msgstr "Ikonok"
 
+msgid "Idle"
+msgstr ""
+
 msgid "Idle Time: "
 msgstr "Holtidő:"
 
@@ -9991,9 +10033,7 @@ msgstr "Ha egy művelet felhasználó-konfigurálható, akkor a segítségnyújt
 
 #, fuzzy
 msgid "If an event is interrupted and divided into separate recordings, this feature will search for alternate broadcasts of the same event."
-msgstr ""
-"Ha egy eseményt megszakítanak és külön felvételekre osztanak, ez a funkció "
-"ugyanazon esemény alternatív közvetítéseit fogja keresni."
+msgstr "Ha egy eseményt megszakítanak és külön felvételekre osztanak, ez a funkció ugyanazon esemény alternatív közvetítéseit fogja keresni."
 
 #, fuzzy
 msgid "If enabled the output resolution of the receiver will try to match the resolution of the video contents resolution."
@@ -10364,6 +10404,10 @@ msgstr "Bemutató konfigurációs fájl neve:"
 
 msgid "Input devices"
 msgstr "Bemeneti eszközök"
+
+#, fuzzy
+msgid "Input mode:"
+msgstr "Bemenet"
 
 msgid "Input scroll position"
 msgstr "Bemenetelelő helyzet"
@@ -10981,6 +11025,10 @@ msgid "Last config"
 msgstr "Utolsó konfiguráció"
 
 #, fuzzy
+msgid "Last error:"
+msgstr "Hibákkal:"
+
+#, fuzzy
 msgid "Last flash"
 msgstr "Utolsó frissítés: %s"
 
@@ -11202,6 +11250,10 @@ msgstr "litván"
 msgid "Live"
 msgstr "Élő"
 
+#, fuzzy
+msgid "Live TV"
+msgstr "Élő"
+
 msgid "Live TV Actions"
 msgstr "Élő TV -műveletek"
 
@@ -11366,10 +11418,7 @@ msgstr "Az alacsonyabb képkocka megtakarítja a CPU időt."
 
 #, fuzzy
 msgid "Lower RGB output clipping limit. 'Full range' = no lower clipping, 'Limited range' clips RGB outputs to 64 (broadcast safe)."
-msgstr ""
-"Alsó RGB kimeneti nyírás limit. \"Teljes hatótávolságú\" = nincs kisebb "
-"vágás, \"korlátozott hatótávolságú\" klippek RGB kimenetek 64 "
-"(sugárzásbiztos)."
+msgstr "Alsó RGB kimeneti nyírás limit. \"Teljes hatótávolságú\" = nincs kisebb vágás, \"korlátozott hatótávolságú\" klippek RGB kimenetek 64 (sugárzásbiztos)."
 
 msgid "Lower USB"
 msgstr "Alacsonyabb USB"
@@ -11658,9 +11707,7 @@ msgstr "A használt maximális hely (MB)"
 
 #, fuzzy
 msgid "Maximum time to wait for the first descrambling key (CW) before starting the decoder. 'Disabled' starts the decoder immediately without waiting."
-msgstr ""
-"Maximális idő az első dekódoló kulcsra (CW) várni a dekóder megkezdése "
-"előtt. A \"kikapcsolt\" azonnal elindítja a dekódert, várakozás nélkül."
+msgstr "Maximális idő az első dekódoló kulcsra (CW) várni a dekóder megkezdése előtt. A \"kikapcsolt\" azonnal elindítja a dekódert, várakozás nélkül."
 
 msgid "Mayotte"
 msgstr "Mayotte"
@@ -13145,9 +13192,7 @@ msgstr "Megjegyzés kioldása"
 
 #, fuzzy
 msgid "Note: Please provide this technical information when requesting support on community forums."
-msgstr ""
-"Megjegyzés: Kérjük, adja meg ezt a technikai információt, amikor támogatást "
-"kér a közösségi fórumokon."
+msgstr "Megjegyzés: Kérjük, adja meg ezt a technikai információt, amikor támogatást kér a közösségi fórumokon."
 
 msgid "Nothing"
 msgstr "Semmi"
@@ -13324,6 +13369,10 @@ msgstr "Oktáli"
 msgid "Off"
 msgstr "Le"
 
+#, fuzzy
+msgid "Offline"
+msgstr "Egy vonal"
+
 msgid "Offline decode delay (ms)"
 msgstr "Offline dekódolási késleltetés (MS)"
 
@@ -13372,6 +13421,10 @@ msgstr "Egy vonal"
 
 msgid "One partition"
 msgstr "Egy partíció"
+
+#, fuzzy
+msgid "Online"
+msgstr "Egy vonal"
 
 msgid "Online update of your %s %s software."
 msgstr "Online update of your %s %s software."
@@ -13783,6 +13836,10 @@ msgstr "Kimeneti szöveg:"
 
 msgid "Overall progress:"
 msgstr "Általános fejlődés:"
+
+#, fuzzy
+msgid "Overload"
+msgstr "Újratöltés"
 
 msgid "Overscan Test"
 msgstr "Túllépési teszt"
@@ -14885,9 +14942,7 @@ msgstr "Előnyben részesítse a szolgáltatás által tárolt feliratot"
 
 #, fuzzy
 msgid "Preferred connection priority when multiple Wi-Fi profiles are configured. Lower numbers have a higher priority."
-msgstr ""
-"Az előnyben részesített kapcsolat prioritása, ha több Wi- Fi profil van "
-"beállítva. Az alacsonyabb számok elsőbbséget élveznek."
+msgstr "Az előnyben részesített kapcsolat prioritása, ha több Wi- Fi profil van beállítva. Az alacsonyabb számok elsőbbséget élveznek."
 
 msgid "Preferred tuner"
 msgstr "Előnyben részesített tuner"
@@ -15222,6 +15277,10 @@ msgstr "Progress bar/Remaining minutes right"
 msgid "Progress info font size"
 msgstr "Progress Info betűméret"
 
+#, fuzzy
+msgid "Progressive"
+msgstr "Előrehalad"
+
 msgid "Properties of current title"
 msgstr "Az aktuális cím tulajdonságai"
 
@@ -15482,6 +15541,29 @@ msgstr "RGB-fogó (alacsonyabb)"
 #, fuzzy
 msgid "RGB clamp (upper)"
 msgstr "RGB-fogó (felső)"
+
+msgid "RTSP"
+msgstr ""
+
+#, python-format
+msgid "RTSP %s"
+msgstr ""
+
+#, fuzzy
+msgid "RTSP / HLS Streaming Status Actions"
+msgstr "Folyó"
+
+#, fuzzy, python-format
+msgid "RTSP client connected: %s"
+msgstr "Összekapcsolt ügyfelek"
+
+#, fuzzy, python-format
+msgid "RTSP client disconnected: %s"
+msgstr "szétkapcsolt"
+
+#, fuzzy
+msgid "RTSP/HLS Streaming Status"
+msgstr "Folyó"
 
 msgid "Radio"
 msgstr "Rádió"
@@ -16195,6 +16277,10 @@ msgstr "Felbontás"
 msgid "Resolution unit"
 msgstr "Felbontási egység"
 
+#, fuzzy
+msgid "Resolution:"
+msgstr "Felbontás"
+
 msgid "Restart"
 msgstr "Újraindít"
 
@@ -16536,6 +16622,9 @@ msgstr "SDCARD kapcsoló hiba!- Már a NAND -n"
 msgid "SDcard switch ERROR! - already on mmc"
 msgstr "SDCARD kapcsoló hiba!- Már az MMC -n"
 
+msgid "SERVER"
+msgstr ""
+
 msgid "SINGLE LAYER DVD"
 msgstr "Egyrétegű DVD"
 
@@ -16801,6 +16890,10 @@ msgstr "Szkennelje be a helyi kiterjesztéseket és telepítse azokat."
 msgid "Scan for terrestrial LCNs and create LCN bouquets"
 msgstr "Szkennelje be a földi LCN -eket és hozzon létre LCN csokrokat"
 
+#, fuzzy
+msgid "Scan mode:"
+msgstr "Méretezési mód"
+
 msgid "Scan wireless networks"
 msgstr "Szkennelje be a vezeték nélküli hálózatokat"
 
@@ -17032,19 +17125,14 @@ msgstr "Még akkor is, ha elindul egy „ZAP” felvételi időzítő?"
 
 #, fuzzy
 msgid "Select 'Yes' if you want to wake the TV when a 'Wakeup' scheduled task is starting."
-msgstr ""
-"Válassza ki az \"Igen\" -t, ha fel szeretné ébreszteni a TV-t, amikor egy "
-"\"Wakeup\" tervezett feladat kezdődik."
+msgstr "Válassza ki az \"Igen\" -t, ha fel szeretné ébreszteni a TV-t, amikor egy \"Wakeup\" tervezett feladat kezdődik."
 
 msgid "Select 'Yes' the keep the InfoBar displayed, with no timeout, while media playback is paused."
 msgstr "Válassza az „Igen” lehetőséget, hogy az Infobar megjelenjen, időtúllépés nélkül, míg a média lejátszása szünetet tart."
 
 #, fuzzy
 msgid "Select 'Yes' to allow the VPS to adjust recording timers based on broadcast Program Delivery Control (PDC) data. For this to work the service must provide reliable event PDC data."
-msgstr ""
-"Válassza ki az \"Igen\" -t, hogy a VPS a műsorszóró program kézbesítési "
-"(PDC) adatai alapján módosíthassa az időmérőket. Ehhez a szolgáltatásnak "
-"megbízható PDC adatokat kell biztosítania."
+msgstr "Válassza ki az \"Igen\" -t, hogy a VPS a műsorszóró program kézbesítési (PDC) adatai alapján módosíthassa az időmérőket. Ehhez a szolgáltatásnak megbízható PDC adatokat kell biztosítania."
 
 msgid "Select 'Yes' to allow use of the seek bar to jump to a selected point within the event."
 msgstr "Válassza az „Igen” lehetőséget, hogy lehetővé tegye a keresési sáv használatát, hogy az eseményen egy kiválasztott pontra ugorjon."
@@ -17081,20 +17169,14 @@ msgstr "Válassza az „Igen” lehetőséget az AI-meghajtású fordítás enge
 
 #, fuzzy
 msgid "Select 'Yes' to enable DNS entry rotation. This rotation changes the order in which the list of DNS servers is used and can avoid issues if a DNS server in the list becomes unavailable."
-msgstr ""
-"Válassza ki az \"Igen\" -t, hogy a DNS-be való belépés elfordulhasson. Ez a "
-"rotáció megváltoztatja a DNS-kiszolgálók listájának használatának "
-"sorrendjét, és elkerülheti a problémákat, ha a listában szereplő DNS-"
-"kiszolgáló nem lesz elérhető."
+msgstr "Válassza ki az \"Igen\" -t, hogy a DNS-be való belépés elfordulhasson. Ez a rotáció megváltoztatja a DNS-kiszolgálók listájának használatának sorrendjét, és elkerülheti a problémákat, ha a listában szereplő DNS-kiszolgáló nem lesz elérhető."
 
 msgid "Select 'Yes' to enable editing of this device's settings. Selecting 'No' resets the devices settings to their default values."
 msgstr "Válassza az „Igen” lehetőséget az eszköz beállításainak szerkesztésének engedélyezéséhez.A 'no' kiválasztása az eszközök beállításait alapértelmezett értékekre állítja vissza."
 
 #, fuzzy
 msgid "Select 'Yes' to enable new Zap timers to have an end time turned on and defined by default."
-msgstr ""
-"Válassza ki az \"Igen\" -t, hogy az új Zap időzítő bekapcsolhassa és "
-"alapértelmezés szerint definiálhassa a végidőt."
+msgstr "Válassza ki az \"Igen\" -t, hogy az új Zap időzítő bekapcsolhassa és alapértelmezés szerint definiálhassa a végidőt."
 
 msgid "Select 'Yes' to enable preview of channels while in the EPG list."
 msgstr "Válassza az „Igen” lehetőséget a csatornák előnézetének engedélyezéséhez az EPG listában."
@@ -17231,10 +17313,7 @@ msgstr "Válassza az „Igen” lehetőséget a System Plugin csomagok megjelen�
 
 #, fuzzy
 msgid "Select 'Yes' to show the 'Movie Selection' entry in the Main Menu. This can provide access to the Movie Selection screen when there is no assigned button on the remote control."
-msgstr ""
-"Válassza ki az \"Igen\" -t, hogy a főmenüben megjelenítse a 'Film Selection' "
-"bejegyzést. Ez hozzáférést biztosít a Movie Selection képernyőhöz, ha nincs "
-"kijelölt gomb a távirányítón."
+msgstr "Válassza ki az \"Igen\" -t, hogy a főmenüben megjelenítse a 'Film Selection' bejegyzést. Ez hozzáférést biztosít a Movie Selection képernyőhöz, ha nincs kijelölt gomb a távirányítón."
 
 msgid "Select 'Yes' to show the advanced setting options."
 msgstr "Válassza az „Igen” lehetőséget a Speciális beállítási beállítások megjelenítéséhez."
@@ -17266,10 +17345,7 @@ msgstr "Válassza az „Igen” lehetőséget a feladatok külön műveletekre o
 
 #, fuzzy
 msgid "Select 'Yes' to use PDC data, if available on the current service, to accurately stop the instant recording at the end of the event."
-msgstr ""
-"Válassza ki az \"Igen\" -t a PDC-adatok használatához, ha az aktuális "
-"szolgáltatás rendelkezésre áll, az esemény végén az azonnali felvétel pontos "
-"leállításához."
+msgstr "Válassza ki az \"Igen\" -t a PDC-adatok használatához, ha az aktuális szolgáltatás rendelkezésre áll, az esemény végén az azonnali felvétel pontos leállításához."
 
 msgid "Select 'Yes' to use alternate GitHub feed IP addresses. This can be helpful if you use a VPN and the normal feeds can't be accessed via the published DNS names."
 msgstr "Válassza az „Igen” lehetőséget az alternatív GitHub Feed IP -címek használatához.Ez hasznos lehet, ha VPN -t használ, és a normál hírcsatornák nem férhetnek hozzá a közzétett DNS neveken keresztül."
@@ -17285,10 +17361,7 @@ msgstr "Válassza az „Igen” lehetőséget a számkulcsok használatához a f
 
 #, fuzzy
 msgid "Select 'Yes' to wake the receiver from Shutdown prior to the recording start time to allow the PDC data to make last minute timer adjustments."
-msgstr ""
-"Válassza ki az \"Igen\" -t, hogy a rögzítés kezdete előtt felébressze a "
-"vevőkészüléket a shutdown-ról, hogy a PDC-adatok az utolsó pillanatban "
-"módosíthassák az időzítőt."
+msgstr "Válassza ki az \"Igen\" -t, hogy a rögzítés kezdete előtt felébressze a vevőkészüléket a shutdown-ról, hogy a PDC-adatok az utolsó pillanatban módosíthassák az időzítőt."
 
 msgid "Select 'Yes, to display the InfoBar when fast forwarding or rewinding during media playback."
 msgstr "Válassza az „Igen, az Infobar megjelenítéséhez, ha gyors továbbítás vagy visszatekerés a média lejátszása során."
@@ -17482,9 +17555,7 @@ msgstr "Select files/folders to backup"
 
 #, fuzzy
 msgid "Select how long the screen saver image will stay in the same location on the screen before it will be moved."
-msgstr ""
-"Válassza ki, hogy a képernyővédő kép mennyi ideig marad ugyanazon a helyen a "
-"képernyőn, mielőtt elmozdulna."
+msgstr "Válassza ki, hogy a képernyővédő kép mennyi ideig marad ugyanazon a helyen a képernyőn, mielőtt elmozdulna."
 
 msgid "Select how long to display status messages."
 msgstr "Válassza ki, mennyi ideig jelenítse meg az állapotüzeneteket."
@@ -17525,12 +17596,7 @@ msgstr "Válassza ki, ha szükség van -e végső időre."
 
 #, fuzzy
 msgid "Select if data entry timeouts are to be applied when entering digits into the service selection pop up screen. When a timeout is exceeded the currently entered number will be used for the service selection. The default timeouts are first digit 3 seconds, other digits 1 second."
-msgstr ""
-"Válassza ki, hogy az adatbeviteli időközöket kell-e alkalmazni a "
-"szolgáltatás kiválasztásához tartozó számjegyek megadásakor. Ha a megadott "
-"idő meghaladja a megadott számot, a szolgáltatás kiválasztásához a megadott "
-"számot használjuk. Az alapértelmezett időkiesés az első számjegy 3 "
-"másodperc, a másik számjegy 1 másodperc."
+msgstr "Válassza ki, hogy az adatbeviteli időközöket kell-e alkalmazni a szolgáltatás kiválasztásához tartozó számjegyek megadásakor. Ha a megadott idő meghaladja a megadott számot, a szolgáltatás kiválasztásához a megadott számot használjuk. Az alapértelmezett időkiesés az első számjegy 3 másodperc, a másik számjegy 1 másodperc."
 
 msgid "Select if the default value for a setup entry is shown and, if so, where it is displayed in relation to the description."
 msgstr "Válassza ki, ha megjelenik -e a beállítási bejegyzés alapértelmezett értéke, és ha igen, akkor a leíráshoz viszonyítva megjelenik."
@@ -17632,9 +17698,7 @@ msgstr "Válassza ki az AI-meghajtású fordítási célnyelvt."
 
 #, fuzzy
 msgid "Select the DNS server(s) that will be used to lookup the host name to resolve the IP address."
-msgstr ""
-"Válassza ki a DNS-kiszolgáló (k) et, amely (ek) az IP-cím feloldásához a "
-"host név keresésére szolgál."
+msgstr "Válassza ki a DNS-kiszolgáló (k) et, amely (ek) az IP-cím feloldásához a host név keresésére szolgál."
 
 msgid "Select the No / False response"
 msgstr "Válassza ki a nem / hamis választ"
@@ -17748,15 +17812,11 @@ msgstr "Válassza ki a késleltetést, amelyet használni kell egy patak -relé 
 
 #, fuzzy
 msgid "Select the delay to wait after pressing more digit buttons to select a new service."
-msgstr ""
-"Válassza ki az új szolgáltatás kiválasztásához a várakozási késleltetést "
-"több számjegyű gomb megnyomása után."
+msgstr "Válassza ki az új szolgáltatás kiválasztásához a várakozási késleltetést több számjegyű gomb megnyomása után."
 
 #, fuzzy
 msgid "Select the delay to wait after pressing the first digit button to select a new service."
-msgstr ""
-"Az új szolgáltatás kiválasztásához válassza ki az első számjegy gomb "
-"megnyomását követő késést."
+msgstr "Az új szolgáltatás kiválasztásához válassza ki az első számjegy gomb megnyomását követő késést."
 
 msgid "Select the desired function and click on 'OK' to assign it. Use 'CH+/-' to toggle between the lists. Select an assigned function and click on 'OK' to deassign it. Use 'NEXT/PREVIOUS' to change the order of the assigned functions."
 msgstr "Válassza ki a kívánt funkciót, és kattintson az „OK” gombra a hozzárendeléshez.A 'ch +/-' használatával válthat a listák között.Válassza ki a hozzárendelt funkciót, és kattintson az „OK” elemre a Deassign számára.Használja a 'Next/előző' használatát a hozzárendelt funkciók sorrendjének megváltoztatásához."
@@ -17841,15 +17901,11 @@ msgstr "Válassza ki a képernyőfelbontás és a FrameBuffer visszaállításá
 
 #, fuzzy
 msgid "Select the mode of access, Read/Write or Read Only, applied to all automatically exported Samba shares."
-msgstr ""
-"Válassza ki a hozzáférés módját, csak olvasható / olvasható, minden "
-"automatikusan exportált Samba részvény."
+msgstr "Válassza ki a hozzáférés módját, csak olvasható / olvasható, minden automatikusan exportált Samba részvény."
 
 #, fuzzy
 msgid "Select the mode of access, Read/Write or Read Only, applied to all exported directories."
-msgstr ""
-"Válassza ki az összes exportált könyvtárra alkalmazott elérési módot, csak "
-"olvasható / olvasható."
+msgstr "Válassza ki az összes exportált könyvtárra alkalmazott elérési módot, csak olvasható / olvasható."
 
 msgid "Select the model number of your Unicable device. If the model number is not listed, set 'SCR' to 'User defined' and enter the device parameters manually according to its specifications."
 msgstr "Válassza ki a szunkciós eszköz modellszámát.Ha a modellszám nincs felsorolva, állítsa az 'scr' -re a „felhasználó definiált” értékre, és írja be az eszköz paramétereit manuálisan annak előírásainak megfelelően."
@@ -17874,16 +17930,11 @@ msgstr ""
 
 #, fuzzy
 msgid "Select the network metric for this adapter. When multiple adapters are active, the one with the lowest network metric is used as the default route for network traffic."
-msgstr ""
-"Válassza ki az adapter hálózati mérését. Ha több adapter is aktív, a "
-"hálózati forgalom alapértelmezett útvonala a legalacsonyabb hálózati "
-"metrikus."
+msgstr "Válassza ki az adapter hálózati mérését. Ha több adapter is aktív, a hálózati forgalom alapértelmezett útvonala a legalacsonyabb hálózati metrikus."
 
 #, fuzzy
 msgid "Select the network name (SSID) of the wireless network to which the receiver should connect."
-msgstr ""
-"Válassza ki annak a vezeték nélküli hálózatnak a hálózati nevét (SSID), "
-"amelyhez a vevőkészüléknek kapcsolódnia kell."
+msgstr "Válassza ki annak a vezeték nélküli hálózatnak a hálózati nevét (SSID), amelyhez a vevőkészüléknek kapcsolódnia kell."
 
 #, python-format
 msgid "Select the new mount point for: '%s'"
@@ -17897,10 +17948,7 @@ msgstr "Válassza ki a listában szereplő következő elemet"
 
 #, fuzzy
 msgid "Select the preferred service information to display, in addition to the service number, for the service selection pop up screen."
-msgstr ""
-"Válassza ki az előnyben részesített szolgáltatással kapcsolatos "
-"információkat a szolgáltatás számán kívül, hogy a szolgáltatás kiválasztása "
-"megjelenjen a képernyőn."
+msgstr "Válassza ki az előnyben részesített szolgáltatással kapcsolatos információkat a szolgáltatás számán kívül, hogy a szolgáltatás kiválasztása megjelenjen a képernyőn."
 
 msgid "Select the previous item in list or move the cursor left"
 msgstr "Válassza ki az előző elemet a listában, vagy mozgassa a kurzort balra"
@@ -17947,9 +17995,7 @@ msgstr "Válassza ki a képernyő elrendezését, a bőr által biztosított leh
 
 #, fuzzy
 msgid "Select the security protocol that will be used to access the selected wireless network."
-msgstr ""
-"Válassza ki a kijelölt vezeték nélküli hálózat eléréséhez használt "
-"biztonsági protokollt."
+msgstr "Válassza ki a kijelölt vezeték nélküli hálózat eléréséhez használt biztonsági protokollt."
 
 msgid "Select the shifted character set"
 msgstr "Válassza ki az eltolódott karakterkészletet"
@@ -18115,10 +18161,7 @@ msgstr "Válassza ki, hogy az AC3 hangsávokat sztereóvá kell -e leállítani.
 
 #, fuzzy
 msgid "Select whether AC4 (Dolby Atmos) audio tracks should be passed through to the AVR, downmixed to stereo, or auto-routed based on HDMI sink capability."
-msgstr ""
-"Válassza ki, hogy az AC4 (Dolby Atmos) audio sávokat át kell-e adni az AVR-"
-"nek, a sztereo-ra lefelé keverve, vagy a HDMI-mosogató képesség alapján "
-"automatikus irányítással."
+msgstr "Válassza ki, hogy az AC4 (Dolby Atmos) audio sávokat át kell-e adni az AVR-nek, a sztereo-ra lefelé keverve, vagy a HDMI-mosogató képesség alapján automatikus irányítással."
 
 #, fuzzy
 msgid "Select whether DTS channel audio tracks should be downmixed or transcoded."
@@ -18134,9 +18177,7 @@ msgstr "Válassza ki, hogy a DTS -csatorna hangsávjait le kell -e menni vagy á
 
 #, fuzzy
 msgid "Select whether IPv4, IPv6, or both protocols should be used. If both are enabled then which should be preferred."
-msgstr ""
-"Válassza ki, hogy az IPv4, IPv6 vagy mindkét protokollt kell-e használni. Ha "
-"mindkettő be van kapcsolva, akkor ezt kell előnyben részesíteni."
+msgstr "Válassza ki, hogy az IPv4, IPv6 vagy mindkét protokollt kell-e használni. Ha mindkettő be van kapcsolva, akkor ezt kell előnyben részesíteni."
 
 #, fuzzy
 msgid "Select whether WMA Pro channel audio tracks should be downmixed or transcoded."
@@ -18284,24 +18325,23 @@ msgstr "Szerver és"
 
 #, fuzzy
 msgid "Server must not enforce its own blocklist. Some servers may implement their own blacklists to block sites for parental control, ad blocking, etc. reasons."
-msgstr ""
-"A kiszolgáló nem érvényesítheti saját bloklistáját. Egyes szerverek saját "
-"feketelistákat vezethetnek be a szülői felügyelet, hirdetések blokkolása "
-"stb. érdekében."
+msgstr "A kiszolgáló nem érvényesítheti saját bloklistáját. Egyes szerverek saját feketelistákat vezethetnek be a szülői felügyelet, hirdetések blokkolása stb. érdekében."
 
 #, fuzzy
 msgid "Server must not log user queries (declarative). This can improve the privacy of DNS lookups by not logging the request on the server providing the data."
-msgstr ""
-"A kiszolgáló nem regisztrálhat felhasználói lekérdezéseket (deklaratív). Ez "
-"javíthatja a DNS-keresések magánéletét azáltal, hogy nem naplózza a kérést "
-"az adatokat szolgáltató szerveren."
+msgstr "A kiszolgáló nem regisztrálhat felhasználói lekérdezéseket (deklaratív). Ez javíthatja a DNS-keresések magánéletét azáltal, hogy nem naplózza a kérést az adatokat szolgáltató szerveren."
 
 #, fuzzy
 msgid "Server must support DNS Security Extensions (DNSSEC). This is a data signing option that protects the integrity of the DNS data against compromises like cache poisoning."
-msgstr ""
-"A kiszolgálónak támogatnia kell a DNS biztonsági kiterjesztéseket (DNSSEC). "
-"Ez egy adataláírás opció, amely megvédi a DNS-adatok integritását az olyan "
-"kompromisszumoktól, mint a cache mérgezés."
+msgstr "A kiszolgálónak támogatnia kell a DNS biztonsági kiterjesztéseket (DNSSEC). Ez egy adataláírás opció, amely megvédi a DNS-adatok integritását az olyan kompromisszumoktól, mint a cache mérgezés."
+
+#, fuzzy
+msgid "Server offline"
+msgstr "Szolgáltatási betűméret"
+
+#, fuzzy
+msgid "Server online"
+msgstr "Szolgáltatási betűméret"
 
 msgid "Server:"
 msgstr "Szerver:"
@@ -18468,6 +18508,10 @@ msgstr "Szolgáltatás Zap egyéb gomb késleltetés"
 msgid "Service zap screen contents"
 msgstr "Szolgáltatás ZAP műveletek"
 
+#, fuzzy
+msgid "Service:"
+msgstr "Szolgáltatás"
+
 msgid "ServiceName"
 msgstr "Szerviznév"
 
@@ -18532,10 +18576,7 @@ msgstr "Beállít"
 
 #, fuzzy
 msgid "Set a time offset before a timer is due to start to allow VPS to scan for the latest event timing. Select '0' to disable this feature."
-msgstr ""
-"Állítson be egy időeltolódást, mielőtt az időzítő elkezdené a VPS-t a "
-"legújabb esemény időzítésére. Válassza ki az '0' opciót a funkció "
-"kikapcsolásához."
+msgstr "Állítson be egy időeltolódást, mielőtt az időzítő elkezdené a VPS-t a legújabb esemény időzítésére. Válassza ki az '0' opciót a funkció kikapcsolásához."
 
 msgid "Set action for 'Info' key"
 msgstr "Állítsa be a műveletet az „info” gombra"
@@ -20148,8 +20189,20 @@ msgstr "Hanghordozó"
 msgid "Source"
 msgstr "Forrás"
 
+#, fuzzy
+msgid "Source active"
+msgstr "Forrás"
+
+#, fuzzy
+msgid "Source inactive"
+msgstr "tétlen"
+
 msgid "Source request"
 msgstr "Forráskérés"
+
+#, fuzzy
+msgid "Source:"
+msgstr "Forrás"
 
 msgid "South"
 msgstr "Déli"
@@ -20202,9 +20255,7 @@ msgstr "Adja meg a médialejátszó indításakor a használandó könyvtárat."
 
 #, fuzzy
 msgid "Specify the network DNS suffix to be applied when only the host name is provided. This helps the DNS resolver find the requested host."
-msgstr ""
-"Adja meg a hálózati DNS-utótagot, amelyet csak a gazdanév megadásakor kell "
-"alkalmazni. Ez segít a DNS-megoldónak megtalálni a kért gazdatestet."
+msgstr "Adja meg a hálózati DNS-utótagot, amelyet csak a gazdanév megadásakor kell alkalmazni. Ez segít a DNS-megoldónak megtalálni a kért gazdatestet."
 
 msgid "Speed"
 msgstr "Sebesség"
@@ -22370,6 +22421,10 @@ msgstr "Összes kártyák:"
 msgid "Total clients streaming: %d ( %s )"
 msgstr "Teljes ügyfél streaming: %d ( %s)"
 
+#, fuzzy
+msgid "Total clients:"
+msgstr "Összes kártyák:"
+
 msgid "Total flash"
 msgstr "Total Flash"
 
@@ -22425,6 +22480,10 @@ msgstr "Fordítás"
 
 msgid "Transmission mode"
 msgstr "Átviteli üzemmód"
+
+#, fuzzy
+msgid "Transmitting"
+msgstr "Átkódolás"
 
 msgid "Transparent"
 msgstr "Átlátszó"
@@ -22689,9 +22748,15 @@ msgstr "UHD -teszt"
 msgid "UP80  (keymap.u80)"
 msgstr "UP80 (KEYMAP.U80)"
 
+msgid "UPSTREAM"
+msgstr ""
+
 #, fuzzy
 msgid "UPX version"
 msgstr "GCC verzió: %s"
+
+msgid "URI:"
+msgstr ""
 
 msgid "URL"
 msgstr "URL"
@@ -22977,9 +23042,7 @@ msgstr "Uphops:"
 
 #, fuzzy
 msgid "Upper RGB output clipping limit. 'Full range' = no upper clipping, 'Limited range' clips RGB outputs to 940 (broadcast safe)."
-msgstr ""
-"Felső RGB kimeneti határérték. \"Teljes hatósugár\" = nincs felső vágás, "
-"\"korlátozott hatótávolságú\" klip RGB kimenetek 940 (sugárzásbiztos)."
+msgstr "Felső RGB kimeneti határérték. \"Teljes hatósugár\" = nincs felső vágás, \"korlátozott hatótávolságú\" klip RGB kimenetek 940 (sugárzásbiztos)."
 
 msgid "Upper USB"
 msgstr "Felső USB"
@@ -22989,6 +23052,10 @@ msgstr "Nagybetű"
 
 msgid "Upper line"
 msgstr "Felső vonal"
+
+#, fuzzy, python-format
+msgid "Upstream %s"
+msgstr "Stop Streams"
 
 msgid "Uptime"
 msgstr "Beutazási idő"
@@ -23084,10 +23151,7 @@ msgstr "Használja a ZAP időzítő végi időjét"
 
 #, fuzzy
 msgid "Use a DNS cache to locally store recent DNS lookups to improve performance, reduce latency and outgoing traffic."
-msgstr ""
-"Használjon DNS gyorsítótárat a legújabb DNS-keresők helyi tárolására a "
-"teljesítmény javítása, a láthatóság és a kimenő forgalom csökkentése "
-"érdekében."
+msgstr "Használjon DNS gyorsítótárat a legújabb DNS-keresők helyi tárolására a teljesítmény javítása, a láthatóság és a kimenő forgalom csökkentése érdekében."
 
 msgid "Use a gateway"
 msgstr "Használjon átjárót"
@@ -23335,6 +23399,9 @@ msgstr "Üzbegisztán"
 
 msgid "VCR scart"
 msgstr "Videomagnó scart"
+
+msgid "VIDEO"
+msgstr ""
 
 msgid "VLAN connection"
 msgstr "Vlan kapcsolat"
@@ -23727,9 +23794,7 @@ msgstr "FIGYELMEZTETÉS:"
 
 #, fuzzy
 msgid "WARNING: Flash space is critically low. System instability may occur!"
-msgstr ""
-"Figyelmeztetés: Flash tér kritikus alacsony. Rendszerinstabilitás "
-"előfordulhat!"
+msgstr "Figyelmeztetés: Flash tér kritikus alacsony. Rendszerinstabilitás előfordulhat!"
 
 msgid "WEP"
 msgstr "WeP"
@@ -24034,21 +24099,15 @@ msgstr "Ha engedélyezve van, egy figyelmeztetés jelenik meg, és a felhasznál
 
 #, fuzzy
 msgid "When enabled, allow Samba network access without a password."
-msgstr ""
-"Ha be van jelölve, jelszó nélkül engedélyezheti a Samba hálózati "
-"hozzáférését."
+msgstr "Ha be van jelölve, jelszó nélkül engedélyezheti a Samba hálózati hozzáférését."
 
 #, fuzzy
 msgid "When enabled, allow connection to access points that don't broadcast their SSID."
-msgstr ""
-"Ha be van kapcsolva, olyan hozzáférési pontokhoz engedjen hozzáférést, "
-"amelyek nem sugározzák az SSID-jüket."
+msgstr "Ha be van kapcsolva, olyan hozzáférési pontokhoz engedjen hozzáférést, amelyek nem sugározzák az SSID-jüket."
 
 #, fuzzy
 msgid "When enabled, allow each storage device detected to be automatically exported as a Samba share."
-msgstr ""
-"Ha be van kapcsolva, hagyja, hogy az észlelt tárolóeszközök Samba részként "
-"automatikusan exportáljanak."
+msgstr "Ha be van kapcsolva, hagyja, hogy az észlelt tárolóeszközök Samba részként automatikusan exportáljanak."
 
 msgid "When enabled, allow the receiver to be powered on by a remote Wake-on-LAN network signal (Magic Packet)."
 msgstr ""
@@ -24069,9 +24128,7 @@ msgstr "Ha engedélyezve van, hitelesítésre van szükség a HTTP -patakok megt
 
 #, fuzzy
 msgid "When enabled, connection via saved network is attempted when the Wi-Fi adapter connects."
-msgstr ""
-"Ha be van jelölve, akkor a WiFi adapter csatlakozásakor a kapcsolat a "
-"mentett hálózaton keresztül is megkísérelt."
+msgstr "Ha be van jelölve, akkor a WiFi adapter csatlakozásakor a kapcsolat a mentett hálózaton keresztül is megkísérelt."
 
 msgid "When enabled, content with an aspect ratio of 4:3 will be stretched to fit the screen."
 msgstr "When enabled, content with an aspect ratio of 4:3 will be stretched to fit the screen."
@@ -24096,16 +24153,11 @@ msgstr "Ha engedélyezve van, akkor a filmjátékos kilépéssel hagyja el."
 
 #, fuzzy
 msgid "When enabled, keep the Wi-Fi adapter in low-power scan mode during Standby to allow the receiver to be powered on by a remote network signal (Magic Packet)."
-msgstr ""
-"Ha be van kapcsolva, tartsa a WiFi adaptert alacsony teljesítményű "
-"letapogatási módban készenléti üzemmódban, hogy a vevőkészülék távhálózati "
-"jellel (Magic Packet) bekapcsolható legyen."
+msgstr "Ha be van kapcsolva, tartsa a WiFi adaptert alacsony teljesítményű letapogatási módban készenléti üzemmódban, hogy a vevőkészülék távhálózati jellel (Magic Packet) bekapcsolható legyen."
 
 #, fuzzy
 msgid "When enabled, map root to nobody (more secure). When disabled, full root access is available."
-msgstr ""
-"Ha be van jelölve, térképezze a gyökeret senkinek (biztonságosabb). Ha "
-"letiltották, teljes root hozzáférés áll rendelkezésre."
+msgstr "Ha be van jelölve, térképezze a gyökeret senkinek (biztonságosabb). Ha letiltották, teljes root hozzáférés áll rendelkezésre."
 
 msgid "When enabled, measure power consumption to detect when the rotor stops turning (when supported by the tuner)."
 msgstr "Ha engedélyezve van, mérje meg az energiafogyasztást, hogy észlelje, amikor a forgórész leállítja a fordulást (amikor a hangoló támogatja)."
@@ -24118,9 +24170,7 @@ msgstr "Ha engedélyezve van, a számmarkerek rejtve kerülnek."
 
 #, fuzzy
 msgid "When enabled, obtain the IP address, subnet mask, gateway, and DNS settings automatically via DHCP."
-msgstr ""
-"Ha be van jelölve, automatikusan szerezd meg az IP címet, alhálózati "
-"maszkot, átjárót és DNS beállításokat DHCP-n keresztül."
+msgstr "Ha be van jelölve, automatikusan szerezd meg az IP címet, alhálózati maszkot, átjárót és DNS beállításokat DHCP-n keresztül."
 
 msgid "When enabled, pressing '0' will zap you to the first channel in your first bouquet and delete your zap-history."
 msgstr "Ha engedélyezve van, akkor a '0' megnyomásával az első csokor első csatornájára szorul, és törli a ZAP-történetet."
@@ -24136,9 +24186,7 @@ msgstr "Ha engedélyezve van, mutassa meg az állapot- vagy hibaüzeneteket."
 
 #, fuzzy
 msgid "When enabled, specify custom DNS settings for this adapter instead of the global DNS settings."
-msgstr ""
-"Ha be van jelölve, az adapter egyedi DNS-beállításait adja meg a globális "
-"DNS-beállítások helyett."
+msgstr "Ha be van jelölve, az adapter egyedi DNS-beállításait adja meg a globális DNS-beállítások helyett."
 
 msgid "When enabled, subtitles for the hearing impaired can be used."
 msgstr "Ha engedélyezve van, akkor a hallássérültek felirata használható."
@@ -24966,6 +25014,10 @@ msgstr "Hozzáadott dropbadcws a CCCAM importálásáról"
 msgid "address:"
 msgstr "cím:"
 
+#, fuzzy
+msgid "adjusting"
+msgstr "Várakozás"
+
 msgid "adult movie/drama"
 msgstr "adult movie/drama"
 
@@ -25031,6 +25083,10 @@ msgstr "automatikus"
 
 msgid "back"
 msgstr "vissza"
+
+#, fuzzy
+msgid "background"
+msgstr "Háttér"
 
 msgid "background image"
 msgstr "háttérkép"
@@ -25120,6 +25176,10 @@ msgstr "megerősített"
 
 msgid "connected"
 msgstr "összekapcsolt"
+
+#, fuzzy
+msgid "connecting"
+msgstr "LAN csatlakozás"
 
 msgid "cooking"
 msgstr "főzés"
@@ -25414,6 +25474,9 @@ msgstr "hh:mmam/pm"
 msgid "hops:"
 msgstr "komló:"
 
+msgid "idle"
+msgstr ""
+
 msgid "inactive"
 msgstr "tétlen"
 
@@ -25663,6 +25726,10 @@ msgstr ""
 "Az Oscam telepítése befejeződött\n"
 "érezd jól magad"
 
+#, fuzzy
+msgid "overload"
+msgstr "Újratöltés"
+
 msgid "package"
 msgstr "csomag"
 
@@ -25762,6 +25829,10 @@ msgstr "rock/pop"
 
 msgid "romance"
 msgstr "románc"
+
+#, fuzzy
+msgid "running"
+msgstr "Futás"
 
 msgid ""
 "satellites.xml not found or corrupted!\n"
@@ -25976,6 +26047,10 @@ msgstr "Hagyományos (gyors)"
 msgid "traditional (fast), retune"
 msgstr "Hagyományos (gyors), újrakezdje"
 
+#, fuzzy
+msgid "transmitting"
+msgstr "Várakozás"
+
 msgid "tree delete"
 msgstr "fa törlése"
 
@@ -26057,6 +26132,10 @@ msgstr "Várja meg a CI -t ..."
 
 msgid "wait for mmi..."
 msgstr "Várja meg az MMI -t ..."
+
+#, fuzzy
+msgid "waiting"
+msgstr "Várakozás"
 
 msgid "water sport"
 msgstr "vízi sport"

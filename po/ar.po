@@ -4,17 +4,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Opendroid\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-10 17:33+0200\n"
+"POT-Creation-Date: 2026-08-17 21:36+0200\n"
 "PO-Revision-Date: 2026-08-17 14:43+0000\n"
 "Last-Translator: Weblate Admin <weblate@example.com>\n"
-"Language-Team: Arabic <http://localhost:8090/projects/opendroid-enigma2/"
-"enigma2-po/ar/>\n"
+"Language-Team: Arabic <http://localhost:8090/projects/opendroid-enigma2/enigma2-po/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
-"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Weblate 2026.8.1\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
@@ -1924,6 +1922,9 @@ msgstr "تحويل الترميز AC3plus"
 msgid "AC4"
 msgstr "المحول الرقمي التناظري"
 
+msgid "ACTIVITY / DIAGNOSTICS"
+msgstr ""
+
 #
 msgid "AFL"
 msgstr "AFL"
@@ -1967,6 +1968,9 @@ msgstr "لجنة أنظمة التلفزيون المتقدمة"
 
 msgid "ATSC provider"
 msgstr "مزود خدمات لجنة أنظمة التلفزيون المتقدمة"
+
+msgid "AUDIO"
+msgstr ""
 
 msgid "AV receiver, soundbar and remote"
 msgstr "جهاز استقبال الصوت والفيديو، ومكبر الصوت، وجهاز التحكم عن بُعد"
@@ -2077,6 +2081,10 @@ msgstr "نشط"
 
 msgid "Active clients"
 msgstr "العملاء النشطون"
+
+#, fuzzy
+msgid "Activity:"
+msgstr "أي نشاط"
 
 #
 msgid "Adapter Settings"
@@ -2322,6 +2330,10 @@ msgstr "اضبط الموضع الأفقي للحروف المستخدمة في 
 
 msgid "Adjust the vertical position of the letters used for teletext."
 msgstr "اضبط الموضع الرأسي للحروف المستخدمة في النص التلفزيوني."
+
+#, fuzzy
+msgid "Adjusting"
+msgstr "ضبط OSD"
 
 msgid "Adult"
 msgstr "للبالغين"
@@ -2895,6 +2907,10 @@ msgstr "نسبة الطول والعرض"
 msgid "Aspect ratio set to '%s'."
 msgstr "تم ضبط نسبة العرض إلى الارتفاع على \"%s\"."
 
+#, fuzzy
+msgid "Aspect ratio:"
+msgstr "نسبة الطول والعرض"
+
 msgid "Aspect switch"
 msgstr "تبديل النسبة العرضية"
 
@@ -3401,6 +3417,15 @@ msgid "Bislama"
 msgstr "بيسلاما"
 
 msgid "Bitrate"
+msgstr "معدل البت:"
+
+#
+#, fuzzy
+msgid "Bitrate setting:"
+msgstr "تحرير الاعدادات"
+
+#, fuzzy
+msgid "Bitrate:"
 msgstr "معدل البت:"
 
 msgid "Black"
@@ -4669,6 +4694,10 @@ msgstr "عنوان IP العميل"
 msgid "Clients"
 msgstr "العملاء"
 
+#, fuzzy
+msgid "Clients:"
+msgstr "العملاء"
+
 msgid "Clone TV screen to LCD"
 msgstr "نسخ شاشة التلفزيون إلى شاشة LCD"
 
@@ -4755,6 +4784,9 @@ msgstr "معدل ترميز الضغط العالي"
 
 msgid "Code rate LP"
 msgstr "معدل ترميز الضغط المنخفض"
+
+msgid "Codec:"
+msgstr ""
 
 msgid "Collapse"
 msgstr "طي"
@@ -5321,6 +5353,10 @@ msgstr "متصل بـ"
 
 msgid "Connected: "
 msgstr "متصل بـ "
+
+#, fuzzy
+msgid "Connecting"
+msgstr "متصل"
 
 msgid "Connection information"
 msgstr "معلومات الاتصال"
@@ -7961,23 +7997,18 @@ msgstr "أدخل عنوان IP لجهاز الاستقبال المراد است
 
 #, fuzzy
 msgid "Enter the IP address or subnet (e.g. 192.168.1.0/24) to which NFS host access is granted. Enter '*', the default, for all host access."
-msgstr ""
-"Enter the IP address or subnet (e.g. 192.168.1.0/24) to which NFS host "
-"access is granted. أدخل ''''، الخزينة، لجميع وصول المضيف."
+msgstr "Enter the IP address or subnet (e.g. 192.168.1.0/24) to which NFS host access is granted. أدخل ''''، الخزينة، لجميع وصول المضيف."
 
 #, fuzzy
 msgid "Enter the IP address to be used as the gateway to other networks for this adapter. Typically this is the IP address of your router."
-msgstr ""
-"أدخل عنوان IP لاستخدامه كبوابة لشبكات أخرى لهذا المكيف. عادة هذا هو عنوان IP "
-"لمدربك."
+msgstr "أدخل عنوان IP لاستخدامه كبوابة لشبكات أخرى لهذا المكيف. عادة هذا هو عنوان IP لمدربك."
 
 msgid "Enter the URL/IP of the fallback remote receiver, e.g. '192.168.0.1'. The other details such as 'http://' and port number will be filled in automatically when you select save."
 msgstr "أدخل عنوان URL/IP لجهاز الاستقبال البعيد الاحتياطي، على سبيل المثال \"192.168.0.1\". سيتم ملء التفاصيل الأخرى مثل \"http://\" ورقم المنفذ تلقائيًا عند النقر على \"حفظ\"."
 
 #, fuzzy
 msgid "Enter the ZeroTier Network ID. The ID should be exactly 16 characters in length."
-msgstr ""
-"أدخل بطاقة هوية الشبكة الصفرية الهوية يجب أن تكون بالضبط 16 شخصية في الطول."
+msgstr "أدخل بطاقة هوية الشبكة الصفرية الهوية يجب أن تكون بالضبط 16 شخصية في الطول."
 
 msgid "Enter the domain of the host receiver. Do not include 'http://' or port number."
 msgstr "أدخل نطاق جهاز الاستقبال المضيف. لا تقم بتضمين \"http://\" أو رقم المنفذ."
@@ -7994,18 +8025,14 @@ msgstr "ادخل حجم الخطوة الترددية لاستخدام المو�
 
 #, fuzzy
 msgid "Enter the number of NFS server threads to be allocated/used. Higher values improve performance with multiple clients but use more memory."
-msgstr ""
-"أدخل عدد الخيوط الخواديم التي ستخصص/تستخدم وتحسن القيم العليا الأداء مع عملاء "
-"متعددين ولكنها تستخدم المزيد من الذاكرة."
+msgstr "أدخل عدد الخيوط الخواديم التي ستخصص/تستخدم وتحسن القيم العليا الأداء مع عملاء متعددين ولكنها تستخدم المزيد من الذاكرة."
 
 msgid "Enter the number stored in the positioner that corresponds to this satellite."
 msgstr "ادخل الرقم المخزن في موقع النظام المتحرك الذي يتوافق مع هذا القمر الصناعي."
 
 #, fuzzy
 msgid "Enter the password, pass-phrase or pre-shared key for the selected wireless network."
-msgstr ""
-"أدخل كلمة المرور أو مفتاح المرور أو المفتاح المشابه مسبقاً للشبكة اللاسلكية "
-"المختارة."
+msgstr "أدخل كلمة المرور أو مفتاح المرور أو المفتاح المشابه مسبقاً للشبكة اللاسلكية المختارة."
 
 #, fuzzy
 msgid "Enter the primary IPv4 DNS setting for this adapter."
@@ -8047,9 +8074,7 @@ msgstr "أدخل رمز الاشتراك لتفعيل المكون الإضاف�
 
 #, fuzzy
 msgid "Enter the workgroup name to be used by this receiver for Samba based connections. (Default is 'WORKGROUP'.)"
-msgstr ""
-"أدخل اسم فريق العمل الذي سيستخدمه هذا المتلقي للوصلات القائمة على سامبا. "
-"(Default هو 'WORKGROUP')"
+msgstr "أدخل اسم فريق العمل الذي سيستخدمه هذا المتلقي للوصلات القائمة على سامبا. (Default هو 'WORKGROUP')"
 
 msgid "Enter your current latitude. This is the number of degrees you are from the equator as a decimal."
 msgstr "ادخل خط الطول الحالي. هذا هو عدد الدرجات التي تكون من صفر الزوال كعشري."
@@ -8236,6 +8261,12 @@ msgstr ""
 msgid ""
 "Error:\n"
 "%s"
+msgstr ""
+"خطأ:\n"
+"%s"
+
+#, fuzzy, python-format
+msgid "Error: %s"
 msgstr ""
 "خطأ:\n"
 "%s"
@@ -9166,9 +9197,7 @@ msgstr "فرض ToneBurst"
 
 #, fuzzy
 msgid "Force a specific network link speed/duplex mode instead of auto-negotiation. Only change this if you have a specific reason as an incorrect setting can break network connectivity."
-msgstr ""
-"(ب) أن تُجبر شبكة محددة على سرعة/طريقة الارتداد بدلاً من التفاوض الآلي. فقط غيّر "
-"هذا إذا كان لديك سبب محدد كوضع غير صحيح يمكن أن يكسر الربط الشبكي."
+msgstr "(ب) أن تُجبر شبكة محددة على سرعة/طريقة الارتداد بدلاً من التفاوض الآلي. فقط غيّر هذا إذا كان لديك سبب محدد كوضع غير صحيح يمكن أن يكسر الربط الشبكي."
 
 msgid "Force de-interlace"
 msgstr "فرض إزالة التداخل"
@@ -9222,6 +9251,10 @@ msgid "Four partitions (25% - 25% - 25% - 25%)"
 msgstr "أربعة أقسام (25 % - 25% - 25 % - 25%)"
 
 msgid "Frame rate"
+msgstr "معدل الإطارات"
+
+#, fuzzy
+msgid "Frame rate:"
 msgstr "معدل الإطارات"
 
 #
@@ -9750,6 +9783,10 @@ msgstr "عمق ألوان كيبل عالي الوضوح"
 msgid "HDMI color space"
 msgstr "مدخل كيبل عالي الوضوح الملون"
 
+#, fuzzy
+msgid "HDMI input"
+msgstr "كيبل عالي الوضوح"
+
 msgid "HDMI-CEC Settings"
 msgstr "إعدادات HDMI-CEC"
 
@@ -9788,6 +9825,21 @@ msgstr "تأخير ترجمة مواد الوسائط الخارجية"
 
 msgid "HLG Support"
 msgstr "دعم HLG"
+
+msgid "HLS"
+msgstr ""
+
+#, python-format
+msgid "HLS %s"
+msgstr ""
+
+#, fuzzy, python-format
+msgid "HLS client connected: %s"
+msgstr "البحث عن الأحداث ذات الصلة"
+
+#, fuzzy, python-format
+msgid "HLS client disconnected: %s"
+msgstr "تم الفصل"
 
 #
 msgid "Haiti"
@@ -10292,6 +10344,9 @@ msgstr "أيسلندا"
 msgid "Icons"
 msgstr "الأيقونات"
 
+msgid "Idle"
+msgstr ""
+
 msgid "Idle Time: "
 msgstr "وقت الخمول: "
 
@@ -10693,6 +10748,10 @@ msgstr "اسم ملف تكوين الإدخال:"
 
 msgid "Input devices"
 msgstr "أجهزة الإدخال"
+
+#, fuzzy
+msgid "Input mode:"
+msgstr "الادخال "
 
 msgid "Input scroll position"
 msgstr "موضع التمرير في المدخلات"
@@ -11329,6 +11388,10 @@ msgstr "آخر طلب"
 msgid "Last config"
 msgstr "التهيئه السابقه"
 
+#, fuzzy
+msgid "Last error:"
+msgstr "مع وجود أخطاء:"
+
 #
 msgid "Last flash"
 msgstr "آخر تحديث"
@@ -11567,6 +11630,10 @@ msgid "Lithuanian"
 msgstr "اللتوانية"
 
 msgid "Live"
+msgstr "مباشر"
+
+#, fuzzy
+msgid "Live TV"
 msgstr "مباشر"
 
 msgid "Live TV Actions"
@@ -13750,6 +13817,10 @@ msgstr "ثماني"
 msgid "Off"
 msgstr "لا يعمل"
 
+#, fuzzy
+msgid "Offline"
+msgstr "سطر واحد"
+
 msgid "Offline decode delay (ms)"
 msgstr "ترميز التأخير غير متصل (جزء من الثانية)"
 
@@ -13802,6 +13873,10 @@ msgstr "سطر واحد"
 msgid "One partition"
 msgstr "قسم واحد"
 
+#, fuzzy
+msgid "Online"
+msgstr "سطر واحد"
+
 msgid "Online update of your %s %s software."
 msgstr "تحديث عبر الإنترنت لبرنامج %s %s الخاص بك."
 
@@ -13838,10 +13913,7 @@ msgstr ""
 
 #, fuzzy
 msgid "Only use DNS servers implementing the Oblivious DNS-over-HTTPS protocol. This adds another layer of privacy by adding a proxy layer to the DNS-over-HTTPS request."
-msgstr ""
-"Only use DNS servers implementing the Oblivious DNS-over-HTTPS protocol. "
-"This adds another layer of privacy by added a proxy layer to the DNS-over-"
-"HTTPS request."
+msgstr "Only use DNS servers implementing the Oblivious DNS-over-HTTPS protocol. This adds another layer of privacy by added a proxy layer to the DNS-over-HTTPS request."
 
 msgid "Open"
 msgstr "فتح"
@@ -14187,6 +14259,10 @@ msgstr "نص الإخراج:"
 #
 msgid "Overall progress:"
 msgstr "التقدم الإجمالي:"
+
+#, fuzzy
+msgid "Overload"
+msgstr "إعادة تحميل"
 
 #
 msgid "Overscan Test"
@@ -15333,9 +15409,7 @@ msgstr "تفضيل تشغيل ترجمة القنوات المخزنة"
 
 #, fuzzy
 msgid "Preferred connection priority when multiple Wi-Fi profiles are configured. Lower numbers have a higher priority."
-msgstr ""
-"الأولوية المفضّلة للارتباط عندما تُحدّد مواصفات متعددة من الواي فاي الأرقام "
-"المنخفضة لها أولوية أعلى."
+msgstr "الأولوية المفضّلة للارتباط عندما تُحدّد مواصفات متعددة من الواي فاي الأرقام المنخفضة لها أولوية أعلى."
 
 msgid "Preferred tuner"
 msgstr "تفضيل التيونر"
@@ -15669,6 +15743,10 @@ msgstr "شريط التقدم/الدقائق المتبقية على اليمي�
 msgid "Progress info font size"
 msgstr "حجم خط معلومات التقدم"
 
+#, fuzzy
+msgid "Progressive"
+msgstr "متقدم"
+
 msgid "Properties of current title"
 msgstr "خصائص العنوان الحالي"
 
@@ -15926,6 +16004,31 @@ msgstr "مشبك RGB (السفلي)"
 
 msgid "RGB clamp (upper)"
 msgstr "مشبك RGB (علوي)"
+
+msgid "RTSP"
+msgstr ""
+
+#, python-format
+msgid "RTSP %s"
+msgstr ""
+
+#
+#, fuzzy
+msgid "RTSP / HLS Streaming Status Actions"
+msgstr "حالة البث"
+
+#, fuzzy, python-format
+msgid "RTSP client connected: %s"
+msgstr "البحث عن الأحداث ذات الصلة"
+
+#, fuzzy, python-format
+msgid "RTSP client disconnected: %s"
+msgstr "تم الفصل"
+
+#
+#, fuzzy
+msgid "RTSP/HLS Streaming Status"
+msgstr "حالة البث"
 
 msgid "Radio"
 msgstr "(القنوات الإذاعية)"
@@ -16653,6 +16756,11 @@ msgid "Resolution unit"
 msgstr "الدقة"
 
 #
+#, fuzzy
+msgid "Resolution:"
+msgstr "الدقة"
+
+#
 msgid "Restart"
 msgstr "إعادة التشغيل"
 
@@ -17003,6 +17111,9 @@ msgstr "خطأ في تبديل بطاقة SD! - موجودة بالفعل على
 msgid "SDcard switch ERROR! - already on mmc"
 msgstr "خطأ في تبديل بطاقة SD! - موجودة بالفعل على mmc"
 
+msgid "SERVER"
+msgstr ""
+
 #
 msgid "SINGLE LAYER DVD"
 msgstr "ديفيدي أحادي الشاشة"
@@ -17277,6 +17388,10 @@ msgstr "البحث عن إضافات موضعيه وتركيبها"
 
 msgid "Scan for terrestrial LCNs and create LCN bouquets"
 msgstr "البحث عن قنوات LCN الأرضية وإنشاء باقات LCN"
+
+#, fuzzy
+msgid "Scan mode:"
+msgstr "وضع التحجيم"
 
 msgid "Scan wireless networks"
 msgstr "البحث عن شبكات لاسلكية"
@@ -17564,10 +17679,7 @@ msgstr "اختر \"نعم\" لتمكين الترجمة المدعومة بال�
 
 #, fuzzy
 msgid "Select 'Yes' to enable DNS entry rotation. This rotation changes the order in which the list of DNS servers is used and can avoid issues if a DNS server in the list becomes unavailable."
-msgstr ""
-"إختار \"نعم\" للتمكين من تناوب قوات الأمن الوطني ويغير هذا التناوب الترتيب "
-"الذي تستخدم فيه قائمة خواديم النظم الإنمائية الوطنية ويمكن أن يتفادى المسائل "
-"إذا لم يكن هناك خادم في هذه القائمة."
+msgstr "إختار \"نعم\" للتمكين من تناوب قوات الأمن الوطني ويغير هذا التناوب الترتيب الذي تستخدم فيه قائمة خواديم النظم الإنمائية الوطنية ويمكن أن يتفادى المسائل إذا لم يكن هناك خادم في هذه القائمة."
 
 msgid "Select 'Yes' to enable editing of this device's settings. Selecting 'No' resets the devices settings to their default values."
 msgstr "اختر \"نعم\" لتمكين تعديل إعدادات هذا الجهاز. يؤدي اختيار \"لا\" إلى إعادة ضبط إعدادات الجهاز إلى قيمها الافتراضية."
@@ -18085,8 +18197,7 @@ msgstr "حدد لغة الهدف للترجمة المدعومة بالذكاء 
 
 #, fuzzy
 msgid "Select the DNS server(s) that will be used to lookup the host name to resolve the IP address."
-msgstr ""
-"(ب) اختيار خادم (خواديم) DNS الذي سيستخدم للبحث عن الاسم المضيف لحل عنوان IP."
+msgstr "(ب) اختيار خادم (خواديم) DNS الذي سيستخدم للبحث عن الاسم المضيف لحل عنوان IP."
 
 msgid "Select the No / False response"
 msgstr "اختر الإجابة \"لا\" / \"خطأ\""
@@ -18289,9 +18400,7 @@ msgstr "حدد وضع الوصول لمشاركات سامبا التي تم ت�
 
 #, fuzzy
 msgid "Select the mode of access, Read/Write or Read Only, applied to all exported directories."
-msgstr ""
-"اختيار طريقة الوصول أو القراءة أو الكتابة أو القراءة فقط، المطبقة على جميع "
-"الأدلة المصدرة."
+msgstr "اختيار طريقة الوصول أو القراءة أو الكتابة أو القراءة فقط، المطبقة على جميع الأدلة المصدرة."
 
 msgid "Select the model number of your Unicable device. If the model number is not listed, set 'SCR' to 'User defined' and enter the device parameters manually according to its specifications."
 msgstr "حدد رقم طراز جهاز Unicable الخاص بك. إذا لم يكن رقم الطراز مدرجًا في القائمة، فاضبط \"SCR\" على \"محدد من قبل المستخدم\" وأدخل معلمات الجهاز يدويًا وفقًا لمواصفاته."
@@ -18316,15 +18425,11 @@ msgstr ""
 
 #, fuzzy
 msgid "Select the network metric for this adapter. When multiple adapters are active, the one with the lowest network metric is used as the default route for network traffic."
-msgstr ""
-"إختار مقياس الشبكة لهذا المكيف وعندما يكون المكيفون المتعددون نشطين، يُستخدم "
-"الشخص الذي لديه أدنى مقياس للشبكة كمسار غير مقصود لحركة الشبكات."
+msgstr "إختار مقياس الشبكة لهذا المكيف وعندما يكون المكيفون المتعددون نشطين، يُستخدم الشخص الذي لديه أدنى مقياس للشبكة كمسار غير مقصود لحركة الشبكات."
 
 #, fuzzy
 msgid "Select the network name (SSID) of the wireless network to which the receiver should connect."
-msgstr ""
-"(ب) اختيار اسم الشبكة (SSID) للشبكة اللاسلكية التي ينبغي للمتلقي أن يتواصل "
-"معها."
+msgstr "(ب) اختيار اسم الشبكة (SSID) للشبكة اللاسلكية التي ينبغي للمتلقي أن يتواصل معها."
 
 #, python-format
 msgid "Select the new mount point for: '%s'"
@@ -18383,8 +18488,7 @@ msgstr "حدد تخطيط الشاشة، من بين الخيارات التي �
 
 #, fuzzy
 msgid "Select the security protocol that will be used to access the selected wireless network."
-msgstr ""
-"اختيار بروتوكول الأمن الذي سيستخدم للوصول إلى الشبكة اللاسلكية المختارة."
+msgstr "اختيار بروتوكول الأمن الذي سيستخدم للوصول إلى الشبكة اللاسلكية المختارة."
 
 msgid "Select the shifted character set"
 msgstr "حدد مجموعة الأحرف المُحولة"
@@ -18550,10 +18654,7 @@ msgstr "اختر ما إذا كان يجب خفض دقة مسارات الصوت
 
 #, fuzzy
 msgid "Select whether AC4 (Dolby Atmos) audio tracks should be passed through to the AVR, downmixed to stereo, or auto-routed based on HDMI sink capability."
-msgstr ""
-"(أ) اختيار ما إذا كان ينبغي نقل المسارات الصوتية من طراز AC4 (Dolby Atmos) "
-"إلى AVR، أو تهبط إلى \" ستريو \" ، أو ذاتية الدفع استناداً إلى قدرة \" HDMI "
-"\" في البواليع."
+msgstr "(أ) اختيار ما إذا كان ينبغي نقل المسارات الصوتية من طراز AC4 (Dolby Atmos) إلى AVR، أو تهبط إلى \" ستريو \" ، أو ذاتية الدفع استناداً إلى قدرة \" HDMI \" في البواليع."
 
 #, fuzzy
 msgid "Select whether DTS channel audio tracks should be downmixed or transcoded."
@@ -18569,9 +18670,7 @@ msgstr "اختر ما إذا كان يجب خفض دقة مسارات الصوت
 
 #, fuzzy
 msgid "Select whether IPv4, IPv6, or both protocols should be used. If both are enabled then which should be preferred."
-msgstr ""
-"اختيار ما إذا كان ينبغي استخدام IPv4, IPv6, أو كلا البروتوكولين. وإذا مُكِّن "
-"كلاهما عندئذ، وهو ما ينبغي تفضيله."
+msgstr "اختيار ما إذا كان ينبغي استخدام IPv4, IPv6, أو كلا البروتوكولين. وإذا مُكِّن كلاهما عندئذ، وهو ما ينبغي تفضيله."
 
 #, fuzzy
 msgid "Select whether WMA Pro channel audio tracks should be downmixed or transcoded."
@@ -18736,20 +18835,24 @@ msgstr "الخادم معطل"
 
 #, fuzzy
 msgid "Server must not enforce its own blocklist. Some servers may implement their own blacklists to block sites for parental control, ad blocking, etc. reasons."
-msgstr ""
-"يجب أن لا يقوم الخادم بإنفاذ قائمته الخاصة ويمكن لبعض الخواديم أن تنفذ "
-"قوائمها السوداء الخاصة بها لحجب مواقع مراقبة الوالدين، وحجب الأعلان، وما إلى "
-"ذلك."
+msgstr "يجب أن لا يقوم الخادم بإنفاذ قائمته الخاصة ويمكن لبعض الخواديم أن تنفذ قوائمها السوداء الخاصة بها لحجب مواقع مراقبة الوالدين، وحجب الأعلان، وما إلى ذلك."
 
 #, fuzzy
 msgid "Server must not log user queries (declarative). This can improve the privacy of DNS lookups by not logging the request on the server providing the data."
-msgstr ""
-"ويجب ألا يسجل الموظف استفسارات المستخدمين (الإعلان). This can improve the "
-"privacy of DNS lookups by not logging the request on the server providing "
-"the data."
+msgstr "ويجب ألا يسجل الموظف استفسارات المستخدمين (الإعلان). This can improve the privacy of DNS lookups by not logging the request on the server providing the data."
 
 msgid "Server must support DNS Security Extensions (DNSSEC). This is a data signing option that protects the integrity of the DNS data against compromises like cache poisoning."
 msgstr ""
+
+#
+#, fuzzy
+msgid "Server offline"
+msgstr "حجم خط الخدمة"
+
+#
+#, fuzzy
+msgid "Server online"
+msgstr "حجم خط الخدمة"
 
 #
 msgid "Server:"
@@ -18926,6 +19029,11 @@ msgstr "تأخير زر \"Service zap other\""
 
 msgid "Service zap screen contents"
 msgstr "محتويات شاشة \"Service zap\""
+
+#
+#, fuzzy
+msgid "Service:"
+msgstr "القنوات"
 
 msgid "ServiceName"
 msgstr "أسم القناة"
@@ -20644,8 +20752,20 @@ msgstr "ناقل الصوت"
 msgid "Source"
 msgstr "المصدر"
 
+#, fuzzy
+msgid "Source active"
+msgstr "المصدر"
+
+#, fuzzy
+msgid "Source inactive"
+msgstr "غير نشط"
+
 msgid "Source request"
 msgstr "طلب المصدر"
+
+#, fuzzy
+msgid "Source:"
+msgstr "المصدر"
 
 #
 msgid "South"
@@ -20701,9 +20821,7 @@ msgstr "حدد الدليل الذي سيتم استخدامه عند تشغيل
 
 #, fuzzy
 msgid "Specify the network DNS suffix to be applied when only the host name is provided. This helps the DNS resolver find the requested host."
-msgstr ""
-"(ج) تحديد الشبكة التي تُطبق في حالة تقديم الاسم المضيف فقط. وهذا يساعد المصمم "
-"على إيجاد المضيف المطلوب."
+msgstr "(ج) تحديد الشبكة التي تُطبق في حالة تقديم الاسم المضيف فقط. وهذا يساعد المصمم على إيجاد المضيف المطلوب."
 
 msgid "Speed"
 msgstr "السرعة"
@@ -22939,6 +23057,10 @@ msgstr "إجمالي عدد البطاقات:"
 msgid "Total clients streaming: %d ( %s )"
 msgstr "إجمالي عدد العملاء الذين يستخدمون خدمة البث المباشر: %d ( %s )"
 
+#, fuzzy
+msgid "Total clients:"
+msgstr "إجمالي عدد البطاقات:"
+
 msgid "Total flash"
 msgstr "إعادة تحميل كامل"
 
@@ -22998,6 +23120,10 @@ msgstr "الترجمات"
 #
 msgid "Transmission mode"
 msgstr "وضع الإنتقال"
+
+#, fuzzy
+msgid "Transmitting"
+msgstr "تحويل الترميز"
 
 msgid "Transparent"
 msgstr "شفاف"
@@ -23275,9 +23401,15 @@ msgstr "اختبار UHD"
 msgid "UP80  (keymap.u80)"
 msgstr "UP80  (keymap.u80)"
 
+msgid "UPSTREAM"
+msgstr ""
+
 #
 msgid "UPX version"
 msgstr "إصدار UPX"
+
+msgid "URI:"
+msgstr ""
 
 msgid "URL"
 msgstr "الرابط"
@@ -23583,6 +23715,10 @@ msgstr "الحالة القصوى"
 
 msgid "Upper line"
 msgstr "السطر العلوي"
+
+#, fuzzy, python-format
+msgid "Upstream %s"
+msgstr "إيقاف البث"
 
 msgid "Uptime"
 msgstr "مدة التشغيل"
@@ -23928,6 +24064,9 @@ msgstr "أوزبكستان"
 
 msgid "VCR scart"
 msgstr "VCR سكارت"
+
+msgid "VIDEO"
+msgstr ""
 
 msgid "VLAN connection"
 msgstr "اتصال شبكه محليه ظاهرية"
@@ -24699,8 +24838,7 @@ msgstr "عند التمكين، يلزم المصادقة لمشاهدة روا�
 
 #, fuzzy
 msgid "When enabled, connection via saved network is attempted when the Wi-Fi adapter connects."
-msgstr ""
-"وعندما يُمكّن من ذلك، يُحاول الاتصال عبر شبكة مُنقذة عندما يتواصل مُكيّف الواي فاي."
+msgstr "وعندما يُمكّن من ذلك، يُحاول الاتصال عبر شبكة مُنقذة عندما يتواصل مُكيّف الواي فاي."
 
 msgid "When enabled, content with an aspect ratio of 4:3 will be stretched to fit the screen."
 msgstr "عند التمكين، سيتم توسيع المحتوى الذي يحتوي على نسبة عرض إلى الارتفاع 4: 3 لتتناسب مع الشاشة."
@@ -24728,9 +24866,7 @@ msgstr ""
 
 #, fuzzy
 msgid "When enabled, map root to nobody (more secure). When disabled, full root access is available."
-msgstr ""
-"When enabled, map root to nobody (more secure). وعندما يكون المعوقون، تتاح "
-"إمكانية الوصول الكامل للجذور."
+msgstr "When enabled, map root to nobody (more secure). وعندما يكون المعوقون، تتاح إمكانية الوصول الكامل للجذور."
 
 msgid "When enabled, measure power consumption to detect when the rotor stops turning (when supported by the tuner)."
 msgstr "عند التمكين، كشف قياس استهلاك الطاقة عندما يتوقف عن الدوران (عندما يدعمها المؤالف)."
@@ -25581,6 +25717,11 @@ msgstr "تمت إضافة dropbadcws عند استيراد cccam"
 msgid "address:"
 msgstr "العنوان:"
 
+#
+#, fuzzy
+msgid "adjusting"
+msgstr "جاري الانتظار"
+
 msgid "adult movie/drama"
 msgstr "فيلم الكبار/الدراما"
 
@@ -25648,6 +25789,10 @@ msgstr "تلقائي"
 #
 msgid "back"
 msgstr "للخلف"
+
+#, fuzzy
+msgid "background"
+msgstr "الخلفيه"
 
 msgid "background image"
 msgstr "صورة الخلفية"
@@ -25739,6 +25884,10 @@ msgstr "تم التأكيد"
 
 msgid "connected"
 msgstr "تم الاتصال"
+
+#, fuzzy
+msgid "connecting"
+msgstr "إتصال شبكة عبر الكيبل"
 
 msgid "cooking"
 msgstr "الطبخ"
@@ -26039,6 +26188,9 @@ msgstr "ساعة:دقيقة صباحاً/مساءً"
 msgid "hops:"
 msgstr "القفزات:"
 
+msgid "idle"
+msgstr ""
+
 msgid "inactive"
 msgstr "غير نشط"
 
@@ -26299,6 +26451,10 @@ msgstr ""
 "اكتمل تثبيت oscam\n"
 "استمتع"
 
+#, fuzzy
+msgid "overload"
+msgstr "إعادة تحميل"
+
 msgid "package"
 msgstr "الحزمة"
 
@@ -26399,6 +26555,10 @@ msgstr "موسيقى الروك/البوب"
 
 msgid "romance"
 msgstr "رومانسي"
+
+#, fuzzy
+msgid "running"
+msgstr "قيد التشغيل"
 
 msgid ""
 "satellites.xml not found or corrupted!\n"
@@ -26618,6 +26778,11 @@ msgstr "تقليدي (سريع)"
 msgid "traditional (fast), retune"
 msgstr "تقليدي (سريع)، إعادة الضبط"
 
+#
+#, fuzzy
+msgid "transmitting"
+msgstr "جاري الانتظار"
+
 msgid "tree delete"
 msgstr "حذف الشجرة"
 
@@ -26703,6 +26868,11 @@ msgstr "إنتظار واجهة الوسائط المتعددة..."
 #
 msgid "wait for mmi..."
 msgstr "إنتظار واجهة الوسائط المتعددة..."
+
+#
+#, fuzzy
+msgid "waiting"
+msgstr "جاري الانتظار"
 
 msgid "water sport"
 msgstr "الرياضة المائية"

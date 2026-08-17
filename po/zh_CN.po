@@ -4,11 +4,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-10 17:33+0200\n"
+"POT-Creation-Date: 2026-08-17 21:36+0200\n"
 "PO-Revision-Date: 2026-08-17 14:43+0000\n"
 "Last-Translator: Weblate Admin <weblate@example.com>\n"
-"Language-Team: Chinese (Simplified Han script) <http://localhost:8090/"
-"projects/opendroid-enigma2/enigma2-po/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified Han script) <http://localhost:8090/projects/opendroid-enigma2/enigma2-po/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1712,6 +1711,9 @@ msgstr "AC3Plus转码"
 msgid "AC4"
 msgstr "DAC"
 
+msgid "ACTIVITY / DIAGNOSTICS"
+msgstr ""
+
 msgid "AFL"
 msgstr "AFL"
 
@@ -1753,6 +1755,9 @@ msgstr "ATSC"
 
 msgid "ATSC provider"
 msgstr "ATSC提供商"
+
+msgid "AUDIO"
+msgstr ""
 
 #, fuzzy
 msgid "AV receiver, soundbar and remote"
@@ -1854,6 +1859,10 @@ msgstr "积极的"
 
 msgid "Active clients"
 msgstr "活跃的客户"
+
+#, fuzzy
+msgid "Activity:"
+msgstr "任何活动"
 
 msgid "Adapter Settings"
 msgstr "适配器设置"
@@ -2088,6 +2097,10 @@ msgstr "调整用于Teletext的字母的水平位置。"
 
 msgid "Adjust the vertical position of the letters used for teletext."
 msgstr "调整用于Teletext的字母的垂直位置。"
+
+#, fuzzy
+msgid "Adjusting"
+msgstr "OSD调整"
 
 msgid "Adult"
 msgstr "成人"
@@ -2651,6 +2664,10 @@ msgstr "纵横比"
 msgid "Aspect ratio set to '%s'."
 msgstr "A/V aspect ratio is '%s'."
 
+#, fuzzy
+msgid "Aspect ratio:"
+msgstr "纵横比"
+
 msgid "Aspect switch"
 msgstr "方面开关"
 
@@ -3143,6 +3160,14 @@ msgid "Bislama"
 msgstr "Bislama"
 
 msgid "Bitrate"
+msgstr "比特率"
+
+#, fuzzy
+msgid "Bitrate setting:"
+msgstr "编辑设置"
+
+#, fuzzy
+msgid "Bitrate:"
 msgstr "比特率"
 
 msgid "Black"
@@ -4381,6 +4406,10 @@ msgstr "客户端"
 msgid "Clients"
 msgstr "客户"
 
+#, fuzzy
+msgid "Clients:"
+msgstr "客户"
+
 msgid "Clone TV screen to LCD"
 msgstr "克隆电视屏幕到LCD"
 
@@ -4468,6 +4497,9 @@ msgstr "代码速率HP"
 
 msgid "Code rate LP"
 msgstr "代码率LP"
+
+msgid "Codec:"
+msgstr ""
 
 msgid "Collapse"
 msgstr "坍塌"
@@ -5028,6 +5060,10 @@ msgstr "连接到"
 
 msgid "Connected: "
 msgstr "连接："
+
+#, fuzzy
+msgid "Connecting"
+msgstr "连接"
 
 msgid "Connection information"
 msgstr "连接信息"
@@ -7620,9 +7656,7 @@ msgstr "输入接收器的IP地址以用于后备调谐器。"
 
 #, fuzzy
 msgid "Enter the IP address or subnet (e.g. 192.168.1.0/24) to which NFS host access is granted. Enter '*', the default, for all host access."
-msgstr ""
-"输入获准访问NFS主机的IP地址或子网(如192.168.1.0/24). 输入“ * ” , 默认, 用于所"
-"有主机访问 ."
+msgstr "输入获准访问NFS主机的IP地址或子网(如192.168.1.0/24). 输入“ * ” , 默认, 用于所有主机访问 ."
 
 #, fuzzy
 msgid "Enter the IP address to be used as the gateway to other networks for this adapter. Typically this is the IP address of your router."
@@ -7650,9 +7684,7 @@ msgstr "在搜索电缆多路复用时输入调谐器的频率步长大小。有
 
 #, fuzzy
 msgid "Enter the number of NFS server threads to be allocated/used. Higher values improve performance with multiple clients but use more memory."
-msgstr ""
-"输入要分配/使用的 NFS 服务器线索的数目 。 更高的值会改善多个客户端的性能,但使"
-"用更多的内存."
+msgstr "输入要分配/使用的 NFS 服务器线索的数目 。 更高的值会改善多个客户端的性能,但使用更多的内存."
 
 msgid "Enter the number stored in the positioner that corresponds to this satellite."
 msgstr "输入与该卫星相对应的定位器中存储的数字。"
@@ -7889,6 +7921,12 @@ msgstr ""
 msgid ""
 "Error:\n"
 "%s"
+msgstr ""
+"Error:\n"
+"%s"
+
+#, fuzzy, python-format
+msgid "Error: %s"
 msgstr ""
 "Error:\n"
 "%s"
@@ -8870,6 +8908,10 @@ msgstr "四个分区（25％-25％-25％-25％）"
 msgid "Frame rate"
 msgstr "帧速率"
 
+#, fuzzy
+msgid "Frame rate:"
+msgstr "帧速率"
+
 msgid "Frame size in full view"
 msgstr "框架尺寸全视图"
 
@@ -9377,6 +9419,10 @@ msgstr "HDMI颜色深度"
 msgid "HDMI color space"
 msgstr "HDMI色彩空间"
 
+#, fuzzy
+msgid "HDMI input"
+msgstr "HDMIIN"
+
 msgid "HDMI-CEC Settings"
 msgstr "HDMI-CEC设置"
 
@@ -9415,6 +9461,21 @@ msgstr "hi-cleanup用于外部字幕"
 
 msgid "HLG Support"
 msgstr "HLG支持"
+
+msgid "HLS"
+msgstr ""
+
+#, python-format
+msgid "HLS %s"
+msgstr ""
+
+#, fuzzy, python-format
+msgid "HLS client connected: %s"
+msgstr "连接的客户"
+
+#, fuzzy, python-format
+msgid "HLS client disconnected: %s"
+msgstr "断开连接"
 
 msgid "Haiti"
 msgstr "海地"
@@ -9917,6 +9978,9 @@ msgstr "冰岛"
 msgid "Icons"
 msgstr "图标"
 
+msgid "Idle"
+msgstr ""
+
 msgid "Idle Time: "
 msgstr "空闲时间："
 
@@ -10308,6 +10372,10 @@ msgstr "输入配置文件名："
 
 msgid "Input devices"
 msgstr "输入设备"
+
+#, fuzzy
+msgid "Input mode:"
+msgstr "输入"
 
 msgid "Input scroll position"
 msgstr "输入滚动位置"
@@ -10924,6 +10992,10 @@ msgid "Last config"
 msgstr "最后一个配置"
 
 #, fuzzy
+msgid "Last error:"
+msgstr "错误："
+
+#, fuzzy
 msgid "Last flash"
 msgstr "Last update:\t%s"
 
@@ -11145,6 +11217,10 @@ msgstr "立陶宛语"
 msgid "Live"
 msgstr "居住"
 
+#, fuzzy
+msgid "Live TV"
+msgstr "居住"
+
 msgid "Live TV Actions"
 msgstr "直播电视动作"
 
@@ -11309,9 +11385,7 @@ msgstr "较低的帧速率节省了CPU时间。"
 
 #, fuzzy
 msgid "Lower RGB output clipping limit. 'Full range' = no lower clipping, 'Limited range' clips RGB outputs to 64 (broadcast safe)."
-msgstr ""
-"下调 RGB 输出剪接限制 。 'Full range' = 无更低的剪接,'Limited range' 剪接RGB"
-"输出到64 (广播安全)."
+msgstr "下调 RGB 输出剪接限制 。 'Full range' = 无更低的剪接,'Limited range' 剪接RGB输出到64 (广播安全)."
 
 msgid "Lower USB"
 msgstr "降低USB"
@@ -11600,9 +11674,7 @@ msgstr "最大空间（MB）"
 
 #, fuzzy
 msgid "Maximum time to wait for the first descrambling key (CW) before starting the decoder. 'Disabled' starts the decoder immediately without waiting."
-msgstr ""
-"在启动解码器之前, 最多等待第一个解码键( CW) 。 '已失效'立即启动解码器而不等"
-"待."
+msgstr "在启动解码器之前, 最多等待第一个解码键( CW) 。 '已失效'立即启动解码器而不等待."
 
 msgid "Mayotte"
 msgstr "Mayotte"
@@ -13267,6 +13339,10 @@ msgstr "八元"
 msgid "Off"
 msgstr "离开"
 
+#, fuzzy
+msgid "Offline"
+msgstr "一行"
+
 msgid "Offline decode delay (ms)"
 msgstr "离线解码延迟（MS）"
 
@@ -13316,6 +13392,10 @@ msgstr "一行"
 msgid "One partition"
 msgstr "一个分区"
 
+#, fuzzy
+msgid "Online"
+msgstr "一行"
+
 msgid "Online update of your %s %s software."
 msgstr "Online update of your %s %s software."
 
@@ -13346,9 +13426,7 @@ msgstr "仅在启动时"
 
 #, fuzzy
 msgid "Only use DNS servers implementing the DNS-over-HTTPS protocol. This causes DNS lookups to be made via the encrypted HTTPS protocol."
-msgstr ""
-"只使用执行DNS-over-HTTPS协议的DNS服务器. 这导致通过加密的HTTPS协议来进行DNS查"
-"询."
+msgstr "只使用执行DNS-over-HTTPS协议的DNS服务器. 这导致通过加密的HTTPS协议来进行DNS查询."
 
 #, fuzzy
 msgid "Only use DNS servers implementing the DNSCrypt protocol."
@@ -13730,6 +13808,10 @@ msgstr "输出文本："
 
 msgid "Overall progress:"
 msgstr "总体进步："
+
+#, fuzzy
+msgid "Overload"
+msgstr "重新加载"
 
 msgid "Overscan Test"
 msgstr "过度测试"
@@ -15166,6 +15248,10 @@ msgstr "Progress bar/Remaining minutes right"
 msgid "Progress info font size"
 msgstr "进度信息字体大小"
 
+#, fuzzy
+msgid "Progressive"
+msgstr "进步"
+
 msgid "Properties of current title"
 msgstr "当前标题的属性"
 
@@ -15426,6 +15512,29 @@ msgstr "RGB 夹口( 下方)"
 #, fuzzy
 msgid "RGB clamp (upper)"
 msgstr "RGB 夹口( 上方)"
+
+msgid "RTSP"
+msgstr ""
+
+#, python-format
+msgid "RTSP %s"
+msgstr ""
+
+#, fuzzy
+msgid "RTSP / HLS Streaming Status Actions"
+msgstr "流"
+
+#, fuzzy, python-format
+msgid "RTSP client connected: %s"
+msgstr "连接的客户"
+
+#, fuzzy, python-format
+msgid "RTSP client disconnected: %s"
+msgstr "断开连接"
+
+#, fuzzy
+msgid "RTSP/HLS Streaming Status"
+msgstr "流"
 
 msgid "Radio"
 msgstr "收音机"
@@ -16139,6 +16248,10 @@ msgstr "解决"
 msgid "Resolution unit"
 msgstr "分辨率单位"
 
+#, fuzzy
+msgid "Resolution:"
+msgstr "解决"
+
 msgid "Restart"
 msgstr "重新启动"
 
@@ -16480,6 +16593,9 @@ msgstr "SDCARD开关错误！- 已经在NAND上"
 msgid "SDcard switch ERROR! - already on mmc"
 msgstr "SDCARD开关错误！- 已经在MMC上"
 
+msgid "SERVER"
+msgstr ""
+
 msgid "SINGLE LAYER DVD"
 msgstr "单层DVD"
 
@@ -16745,6 +16861,10 @@ msgstr "扫描本地扩展并安装它们。"
 msgid "Scan for terrestrial LCNs and create LCN bouquets"
 msgstr "扫描陆生LCN并创建LCN花束"
 
+#, fuzzy
+msgid "Scan mode:"
+msgstr "缩放模式"
+
 msgid "Scan wireless networks"
 msgstr "扫描无线网络"
 
@@ -16980,9 +17100,7 @@ msgstr "选择“是”保留Infobar显示的，没有超时，而媒体播放�
 
 #, fuzzy
 msgid "Select 'Yes' to allow the VPS to adjust recording timers based on broadcast Program Delivery Control (PDC) data. For this to work the service must provide reliable event PDC data."
-msgstr ""
-"选择“ 是” 允许 VPS 根据广播节目执行控制( PDC) 数据调整录制定时器 。 要做到这"
-"一点,服务必须提供可靠的事件PDC数据."
+msgstr "选择“ 是” 允许 VPS 根据广播节目执行控制( PDC) 数据调整录制定时器 。 要做到这一点,服务必须提供可靠的事件PDC数据."
 
 msgid "Select 'Yes' to allow use of the seek bar to jump to a selected point within the event."
 msgstr "选择“是”以允许使用Seek Bar跳到事件中的选定点。"
@@ -17019,9 +17137,7 @@ msgstr "选择“是”以启用所有Teletext和DVB字幕的AI驱动翻译。"
 
 #, fuzzy
 msgid "Select 'Yes' to enable DNS entry rotation. This rotation changes the order in which the list of DNS servers is used and can avoid issues if a DNS server in the list becomes unavailable."
-msgstr ""
-"选择“ 是” 以启用 DNS 条目旋转 。 这种旋转改变了DNS服务器列表的使用顺序,如果列"
-"表中的DNS服务器无法使用,可以避免出问题."
+msgstr "选择“ 是” 以启用 DNS 条目旋转 。 这种旋转改变了DNS服务器列表的使用顺序,如果列表中的DNS服务器无法使用,可以避免出问题."
 
 msgid "Select 'Yes' to enable editing of this device's settings. Selecting 'No' resets the devices settings to their default values."
 msgstr "选择“是”以启用此设备设置的编辑。选择“ no”将设备设置重置为其默认值。"
@@ -17166,9 +17282,7 @@ msgstr "选择“是”以在下载插件屏幕中显示系统插件软件包。
 
 #, fuzzy
 msgid "Select 'Yes' to show the 'Movie Selection' entry in the Main Menu. This can provide access to the Movie Selection screen when there is no assigned button on the remote control."
-msgstr ""
-"在主菜单中选择“是”以显示“电影选择”条目。 这可以在远程控制上没有指定按钮时提供"
-"访问\"电影选择\"屏幕的机会."
+msgstr "在主菜单中选择“是”以显示“电影选择”条目。 这可以在远程控制上没有指定按钮时提供访问\"电影选择\"屏幕的机会."
 
 msgid "Select 'Yes' to show the advanced setting options."
 msgstr "选择“是”以显示高级设置选项。"
@@ -17200,9 +17314,7 @@ msgstr "选择“是”将任务拆分为单独的操作。"
 
 #, fuzzy
 msgid "Select 'Yes' to use PDC data, if available on the current service, to accurately stop the instant recording at the end of the event."
-msgstr ""
-"选择“ 是” 来使用 PDC 数据, 如果在当前服务中可用, 以准确停止事件结束时的即时记"
-"录 ."
+msgstr "选择“ 是” 来使用 PDC 数据, 如果在当前服务中可用, 以准确停止事件结束时的即时记录 ."
 
 msgid "Select 'Yes' to use alternate GitHub feed IP addresses. This can be helpful if you use a VPN and the normal feeds can't be accessed via the published DNS names."
 msgstr "选择“是”以使用替代GitHub feed IP地址。如果您使用VPN，并且无法通过已发布的DNS名称访问普通供稿，这可能会有所帮助。"
@@ -17218,9 +17330,7 @@ msgstr "选择“是”以快速选择文件 /目录，选择'no'使用菜单选
 
 #, fuzzy
 msgid "Select 'Yes' to wake the receiver from Shutdown prior to the recording start time to allow the PDC data to make last minute timer adjustments."
-msgstr ""
-"选择“ 是” 在录制开始时间之前将接收器从关闭中唤醒, 以便 PDC 数据能够进行最后一"
-"分钟的定时器调整 ."
+msgstr "选择“ 是” 在录制开始时间之前将接收器从关闭中唤醒, 以便 PDC 数据能够进行最后一分钟的定时器调整 ."
 
 msgid "Select 'Yes, to display the InfoBar when fast forwarding or rewinding during media playback."
 msgstr "选择'是的，在媒体播放期间快速转发或倒带时显示Infobar。"
@@ -17455,9 +17565,7 @@ msgstr "选择是否需要结束时间。"
 
 #, fuzzy
 msgid "Select if data entry timeouts are to be applied when entering digits into the service selection pop up screen. When a timeout is exceeded the currently entered number will be used for the service selection. The default timeouts are first digit 3 seconds, other digits 1 second."
-msgstr ""
-"选择在将数字输入到服务选择弹出屏幕时是否应用数据输入超时 。 当超时时,将使用当"
-"前输入的数字来选择服务。 默认超时时间为第一位数3秒,其他位数1秒."
+msgstr "选择在将数字输入到服务选择弹出屏幕时是否应用数据输入超时 。 当超时时,将使用当前输入的数字来选择服务。 默认超时时间为第一位数3秒,其他位数1秒."
 
 msgid "Select if the default value for a setup entry is shown and, if so, where it is displayed in relation to the description."
 msgstr "选择是否显示了设置条目的默认值，如果是的，则与描述相关的位置。"
@@ -17791,9 +17899,7 @@ msgstr ""
 
 #, fuzzy
 msgid "Select the network metric for this adapter. When multiple adapters are active, the one with the lowest network metric is used as the default route for network traffic."
-msgstr ""
-"选择此适配器的网络度量 。 当多个适配器活动时,网络公尺最低的适配器被用作网络流"
-"量的默认路径."
+msgstr "选择此适配器的网络度量 。 当多个适配器活动时,网络公尺最低的适配器被用作网络流量的默认路径."
 
 #, fuzzy
 msgid "Select the network name (SSID) of the wireless network to which the receiver should connect."
@@ -18024,9 +18130,7 @@ msgstr "选择是否应将AC3声音轨道降低到立体声。"
 
 #, fuzzy
 msgid "Select whether AC4 (Dolby Atmos) audio tracks should be passed through to the AVR, downmixed to stereo, or auto-routed based on HDMI sink capability."
-msgstr ""
-"选择AC4(Dolby Atmos)音频音轨是应该传递到AVR,向下混合到立体声上,还是根据HDMI下"
-"沉能力自动进行."
+msgstr "选择AC4(Dolby Atmos)音频音轨是应该传递到AVR,向下混合到立体声上,还是根据HDMI下沉能力自动进行."
 
 #, fuzzy
 msgid "Select whether DTS channel audio tracks should be downmixed or transcoded."
@@ -18190,18 +18294,22 @@ msgstr " 服务器和 "
 
 #, fuzzy
 msgid "Server must not enforce its own blocklist. Some servers may implement their own blacklists to block sites for parental control, ad blocking, etc. reasons."
-msgstr ""
-"服务器不能执行自己的块列表 。 一些服务器可能执行自己的黑名单来封锁网站,以备家"
-"长控制,广告封堵等原因."
+msgstr "服务器不能执行自己的块列表 。 一些服务器可能执行自己的黑名单来封锁网站,以备家长控制,广告封堵等原因."
 
 #, fuzzy
 msgid "Server must not log user queries (declarative). This can improve the privacy of DNS lookups by not logging the request on the server providing the data."
-msgstr ""
-"服务器不得登录用户查询(声明). 这可以通过不将请求记录在提供数据的服务器上来改"
-"善DNS检索的隐私."
+msgstr "服务器不得登录用户查询(声明). 这可以通过不将请求记录在提供数据的服务器上来改善DNS检索的隐私."
 
 msgid "Server must support DNS Security Extensions (DNSSEC). This is a data signing option that protects the integrity of the DNS data against compromises like cache poisoning."
 msgstr ""
+
+#, fuzzy
+msgid "Server offline"
+msgstr "服务字体大小"
+
+#, fuzzy
+msgid "Server online"
+msgstr "服务字体大小"
 
 msgid "Server:"
 msgstr "服务器："
@@ -18368,6 +18476,10 @@ msgstr "服务 ZAP 其他按钮延迟"
 msgid "Service zap screen contents"
 msgstr "服务ZAP动作"
 
+#, fuzzy
+msgid "Service:"
+msgstr "服务"
+
 msgid "ServiceName"
 msgstr "ServiceName"
 
@@ -18432,9 +18544,7 @@ msgstr "设定时间"
 
 #, fuzzy
 msgid "Set a time offset before a timer is due to start to allow VPS to scan for the latest event timing. Select '0' to disable this feature."
-msgstr ""
-"在定时器预定开始前设定时间偏移,以便 VPS 扫描最新的事件时间 。 选择“ 0” 来禁用"
-"此特性 ."
+msgstr "在定时器预定开始前设定时间偏移,以便 VPS 扫描最新的事件时间 。 选择“ 0” 来禁用此特性 ."
 
 msgid "Set action for 'Info' key"
 msgstr "设置“信息”密钥的操作"
@@ -20045,8 +20155,20 @@ msgstr "声音载体"
 msgid "Source"
 msgstr "来源"
 
+#, fuzzy
+msgid "Source active"
+msgstr "来源"
+
+#, fuzzy
+msgid "Source inactive"
+msgstr "不活动"
+
 msgid "Source request"
 msgstr "来源请求"
+
+#, fuzzy
+msgid "Source:"
+msgstr "来源"
 
 msgid "South"
 msgstr "南"
@@ -22264,6 +22386,10 @@ msgstr "总卡："
 msgid "Total clients streaming: %d ( %s )"
 msgstr "Total clients streaming: %d ( %s )"
 
+#, fuzzy
+msgid "Total clients:"
+msgstr "总卡："
+
 msgid "Total flash"
 msgstr "总闪光灯"
 
@@ -22319,6 +22445,10 @@ msgstr "翻译"
 
 msgid "Transmission mode"
 msgstr "传输模式"
+
+#, fuzzy
+msgid "Transmitting"
+msgstr "转码"
 
 msgid "Transparent"
 msgstr "透明的"
@@ -22584,9 +22714,15 @@ msgstr "UHD测试"
 msgid "UP80  (keymap.u80)"
 msgstr "UP80（keymap.u80）"
 
+msgid "UPSTREAM"
+msgstr ""
+
 #, fuzzy
 msgid "UPX version"
 msgstr "GCC version:\t%s"
+
+msgid "URI:"
+msgstr ""
 
 msgid "URL"
 msgstr "URL"
@@ -22872,9 +23008,7 @@ msgstr "呼吸："
 
 #, fuzzy
 msgid "Upper RGB output clipping limit. 'Full range' = no upper clipping, 'Limited range' clips RGB outputs to 940 (broadcast safe)."
-msgstr ""
-"上RGB输出剪接限制. 'Full range' = 无上截取,'Limited range' scriptions RGB输出"
-"为940(广播安全)."
+msgstr "上RGB输出剪接限制. 'Full range' = 无上截取,'Limited range' scriptions RGB输出为940(广播安全)."
 
 msgid "Upper USB"
 msgstr "上USB"
@@ -22884,6 +23018,10 @@ msgstr "上箱"
 
 msgid "Upper line"
 msgstr "上线"
+
+#, fuzzy, python-format
+msgid "Upstream %s"
+msgstr "停止流"
 
 msgid "Uptime"
 msgstr "正常运行时间"
@@ -23228,6 +23366,9 @@ msgstr "乌兹别克斯坦"
 
 msgid "VCR scart"
 msgstr "vcr scart"
+
+msgid "VIDEO"
+msgstr ""
 
 msgid "VLAN connection"
 msgstr "VLAN连接"
@@ -23980,9 +24121,7 @@ msgstr "启用后，可以将电影播放器​​带出退出。"
 
 #, fuzzy
 msgid "When enabled, keep the Wi-Fi adapter in low-power scan mode during Standby to allow the receiver to be powered on by a remote network signal (Magic Packet)."
-msgstr ""
-"启用后,在待命期间将Wi-Fi适配器保持为低功率扫描模式,使接收器能够由远程网络信号"
-"(Magic Packet)供电."
+msgstr "启用后,在待命期间将Wi-Fi适配器保持为低功率扫描模式,使接收器能够由远程网络信号(Magic Packet)供电."
 
 #, fuzzy
 msgid "When enabled, map root to nobody (more secure). When disabled, full root access is available."
@@ -24844,6 +24983,10 @@ msgstr "在CCCAM导入中添加了dropbadcws"
 msgid "address:"
 msgstr "地址："
 
+#, fuzzy
+msgid "adjusting"
+msgstr "等待"
+
 msgid "adult movie/drama"
 msgstr "adult movie/drama"
 
@@ -24909,6 +25052,10 @@ msgstr "自动的"
 
 msgid "back"
 msgstr "后退"
+
+#, fuzzy
+msgid "background"
+msgstr "背景"
 
 msgid "background image"
 msgstr "背景图像"
@@ -24998,6 +25145,10 @@ msgstr "确认的"
 
 msgid "connected"
 msgstr "连接"
+
+#, fuzzy
+msgid "connecting"
+msgstr "LAN连接"
 
 msgid "cooking"
 msgstr "烹饪"
@@ -25292,6 +25443,9 @@ msgstr "hh:mmam/pm"
 msgid "hops:"
 msgstr "酒花："
 
+msgid "idle"
+msgstr ""
+
 msgid "inactive"
 msgstr "不活动"
 
@@ -25541,6 +25695,10 @@ msgstr ""
 "OSCAM安装完成\n"
 "玩得开心"
 
+#, fuzzy
+msgid "overload"
+msgstr "重新加载"
+
 msgid "package"
 msgstr "包裹"
 
@@ -25640,6 +25798,10 @@ msgstr "rock/pop"
 
 msgid "romance"
 msgstr "浪漫"
+
+#, fuzzy
+msgid "running"
+msgstr "跑步"
 
 msgid ""
 "satellites.xml not found or corrupted!\n"
@@ -25854,6 +26016,10 @@ msgstr "传统（快速）"
 msgid "traditional (fast), retune"
 msgstr "传统（快速），复活"
 
+#, fuzzy
+msgid "transmitting"
+msgstr "等待"
+
 msgid "tree delete"
 msgstr "树删除"
 
@@ -25935,6 +26101,10 @@ msgstr "等待CI ..."
 
 msgid "wait for mmi..."
 msgstr "等待MMI ..."
+
+#, fuzzy
+msgid "waiting"
+msgstr "等待"
 
 msgid "water sport"
 msgstr "水运动"
