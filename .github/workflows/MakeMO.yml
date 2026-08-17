@@ -2,25 +2,40 @@ name: MakeMO
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
 
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: create mo
+      - name: Create MO files
+        shell: bash
         run: |
-          sudo apt-get -q update
-          sudo apt-get install gettext
-          mkdir Rel
-          for f in $(ls -1 po/*.po | sed -e 's/\.po$//' | sed 's/.*\///');do msgfmt -o Rel/$f.mo po/$f.po; done;
+          set -euo pipefail
 
-      - uses: peaceiris/actions-gh-pages@v3
+          sudo apt-get -q update
+          sudo apt-get install -y gettext
+
+          mkdir -p Rel
+
+          for po in po/*.po; do
+            lang="$(basename "$po" .po)"
+            echo "Compilo $po -> Rel/$lang.mo"
+            msgfmt -o "Rel/$lang.mo" "$po"
+          done
+
+      - name: Publish MO files
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./Rel
